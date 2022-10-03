@@ -11,26 +11,26 @@
     "format": "pnpx prettier --config ./.prettierrc.json -uw ./src/ ./public/configs/*.yml"
   },
   "dependencies": {
-    "vue": "^3.2.37"
+    "vue": "3.2.40"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^3.1.0",
-    "vite": "^3.1.0",
-    "js-yaml": "^4.1.0",
-    "@trivago/prettier-plugin-sort-imports": "^3.3.0",
-    "@vitejs/plugin-legacy": "^2.2.0",
-    "eslint": "^8.23.1",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-sort-exports": "^0.7.0",
-    "eslint-plugin-vue": "^9.5.1",
-    "postcss": "^8.4.16",
-    "prettier": "^2.7.1",
-    "prettier-plugin-css-order": "^1.3.0",
-    "rollup-plugin-visualizer": "^5.8.1",
-    "terser": "^5.15.0",
-    "vite-plugin-compression": "^0.5.1",
-    "vite-plugin-imp": "^2.3.0",
-    "vite-plugin-pwa": "^0.13.1"
+    "@vitejs/plugin-vue": "3.1.2",
+    "vite": "3.1.4",
+    "js-yaml": "4.1.0",
+    "@trivago/prettier-plugin-sort-imports": "3.3.0",
+    "@vitejs/plugin-legacy": "2.2.0",
+    "eslint": "8.24.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-sort-exports": "0.7.0",
+    "eslint-plugin-vue": "9.5.1",
+    "postcss": "8.4.17",
+    "prettier": "2.7.1",
+    "prettier-plugin-css-order": "1.3.0",
+    "rollup-plugin-visualizer": "5.8.2",
+    "terser": "5.15.0",
+    "vite-plugin-compression": "0.5.1",
+    "vite-plugin-imp": "2.3.0",
+    "vite-plugin-pwa": "0.13.1"
   }
 }
