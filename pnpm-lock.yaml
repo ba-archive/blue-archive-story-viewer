@@ -14,7 +14,7 @@ specifiers:
   prettier: 2.7.1
   prettier-plugin-css-order: 1.3.0
   rollup-plugin-visualizer: 5.8.2
-  terser: 5.15.0
+  terser: 5.15.1
   vite: 3.1.4
   vite-plugin-compression: 0.5.1
   vite-plugin-imp: 2.3.0
@@ -26,7 +26,7 @@ dependencies:
 
 devDependencies:
   '@trivago/prettier-plugin-sort-imports': 3.3.0_prettier@2.7.1
-  '@vitejs/plugin-legacy': 2.2.0_terser@5.15.0+vite@3.1.4
+  '@vitejs/plugin-legacy': 2.2.0_terser@5.15.1+vite@3.1.4
   '@vitejs/plugin-vue': 3.1.2_vite@3.1.4+vue@3.2.40
   eslint: 8.24.0
   eslint-config-prettier: 8.5.0_eslint@8.24.0
@@ -38,8 +38,8 @@ devDependencies:
   prettier: 2.7.1
   prettier-plugin-css-order: 1.3.0_3ms3ffxzhpy7f3u4gmzdqh3rpq
   rollup-plugin-visualizer: 5.8.2
-  terser: 5.15.0
-  vite: 3.1.4_terser@5.15.0
+  terser: 5.15.1
+  vite: 3.1.4_terser@5.15.1
   vite-plugin-compression: 0.5.1_vite@3.1.4
   vite-plugin-imp: 2.3.0_vite@3.1.4
   vite-plugin-pwa: 0.13.1_vite@3.1.4
@@ -1513,7 +1513,7 @@ packages:
     resolution: {integrity: sha512-F5DIZ36YVLE+PN+Zwws4kJogq47hNgX3Nx6WyDJ3kcplxyke3XIzB8uK5n/Lpm1HBsbGzd6nmGehL8cPekP+Tg==}
     dev: true
 
-  /@vitejs/plugin-legacy/2.2.0_terser@5.15.0+vite@3.1.4:
+  /@vitejs/plugin-legacy/2.2.0_terser@5.15.1+vite@3.1.4:
     resolution: {integrity: sha512-xkSXZl2LNk0KKyo5CJknNW84mSlmHIClFzsBuFXkX3yBt+Lr8UO/n4QOg2X7+jvurgBRies9FRn3ZvMem+TmIg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -1525,8 +1525,8 @@ packages:
       magic-string: 0.26.4
       regenerator-runtime: 0.13.9
       systemjs: 6.12.6
-      terser: 5.15.0
-      vite: 3.1.4_terser@5.15.0
+      terser: 5.15.1
+      vite: 3.1.4_terser@5.15.1
     dev: true
 
   /@vitejs/plugin-vue/3.1.2_vite@3.1.4+vue@3.2.40:
@@ -1536,7 +1536,7 @@ packages:
       vite: ^3.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 3.1.4_terser@5.15.0
+      vite: 3.1.4_terser@5.15.1
       vue: 3.2.40
     dev: true
 
@@ -3462,7 +3462,7 @@ packages:
       jest-worker: 26.6.2
       rollup: 2.79.1
       serialize-javascript: 4.0.0
-      terser: 5.15.0
+      terser: 5.15.1
     dev: true
 
   /rollup-plugin-visualizer/5.8.2:
@@ -3708,8 +3708,8 @@ packages:
       unique-string: 2.0.0
     dev: true
 
-  /terser/5.15.0:
-    resolution: {integrity: sha512-L1BJiXVmheAQQy+as0oF3Pwtlo4s3Wi1X2zNZ2NxOB4wx9bdS9Vk67XQENLFdLYGCK/Z2di53mTj/hBafR+dTA==}
+  /terser/5.15.1:
+    resolution: {integrity: sha512-K1faMUvpm/FBxjBXud0LWVAGxmvoPbZbfTCYbSgaaYQaIXI3/TdI7a7ZGA73Zrou6Q8Zmz3oeUTsp/dj+ag2Xw==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -3848,7 +3848,7 @@ packages:
       chalk: 4.1.2
       debug: 4.3.4
       fs-extra: 10.1.0
-      vite: 3.1.4_terser@5.15.0
+      vite: 3.1.4_terser@5.15.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3865,7 +3865,7 @@ packages:
       chalk: 4.1.2
       param-case: 3.0.4
       pascal-case: 3.1.2
-      vite: 3.1.4_terser@5.15.0
+      vite: 3.1.4_terser@5.15.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3879,7 +3879,7 @@ packages:
       fast-glob: 3.2.12
       pretty-bytes: 6.0.0
       rollup: 2.79.1
-      vite: 3.1.4_terser@5.15.0
+      vite: 3.1.4_terser@5.15.1
       workbox-build: 6.5.4
       workbox-window: 6.5.4
     transitivePeerDependencies:
@@ -3887,7 +3887,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite/3.1.4_terser@5.15.0:
+  /vite/3.1.4_terser@5.15.1:
     resolution: {integrity: sha512-JoQI08aBjY9lycL7jcEq4p9o1xUjq5aRvdH4KWaXtkSx7e7RpAh9D3IjzDWRD4Fg44LS3oDAIOG/Kq1L+82psA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -3910,7 +3910,7 @@ packages:
       postcss: 8.4.17
       resolve: 1.22.1
       rollup: 2.78.1
-      terser: 5.15.0
+      terser: 5.15.1
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
