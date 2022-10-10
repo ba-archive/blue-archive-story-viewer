@@ -15,7 +15,7 @@ specifiers:
   prettier-plugin-css-order: 1.3.0
   rollup-plugin-visualizer: 5.8.2
   terser: 5.15.1
-  vite: 3.1.6
+  vite: 3.1.7
   vite-plugin-compression: 0.5.1
   vite-plugin-imp: 2.3.0
   vite-plugin-pwa: 0.13.1
@@ -26,8 +26,8 @@ dependencies:
 
 devDependencies:
   '@trivago/prettier-plugin-sort-imports': 3.3.0_prettier@2.7.1
-  '@vitejs/plugin-legacy': 2.2.0_terser@5.15.1+vite@3.1.6
-  '@vitejs/plugin-vue': 3.1.2_vite@3.1.6+vue@3.2.40
+  '@vitejs/plugin-legacy': 2.2.0_terser@5.15.1+vite@3.1.7
+  '@vitejs/plugin-vue': 3.1.2_vite@3.1.7+vue@3.2.40
   eslint: 8.25.0
   eslint-config-prettier: 8.5.0_eslint@8.25.0
   eslint-plugin-import: 2.26.0_eslint@8.25.0
@@ -39,10 +39,10 @@ devDependencies:
   prettier-plugin-css-order: 1.3.0_3ms3ffxzhpy7f3u4gmzdqh3rpq
   rollup-plugin-visualizer: 5.8.2
   terser: 5.15.1
-  vite: 3.1.6_terser@5.15.1
-  vite-plugin-compression: 0.5.1_vite@3.1.6
-  vite-plugin-imp: 2.3.0_vite@3.1.6
-  vite-plugin-pwa: 0.13.1_vite@3.1.6
+  vite: 3.1.7_terser@5.15.1
+  vite-plugin-compression: 0.5.1_vite@3.1.7
+  vite-plugin-imp: 2.3.0_vite@3.1.7
+  vite-plugin-pwa: 0.13.1_vite@3.1.7
 
 packages:
 
@@ -1509,7 +1509,7 @@ packages:
     resolution: {integrity: sha512-F5DIZ36YVLE+PN+Zwws4kJogq47hNgX3Nx6WyDJ3kcplxyke3XIzB8uK5n/Lpm1HBsbGzd6nmGehL8cPekP+Tg==}
     dev: true
 
-  /@vitejs/plugin-legacy/2.2.0_terser@5.15.1+vite@3.1.6:
+  /@vitejs/plugin-legacy/2.2.0_terser@5.15.1+vite@3.1.7:
     resolution: {integrity: sha512-xkSXZl2LNk0KKyo5CJknNW84mSlmHIClFzsBuFXkX3yBt+Lr8UO/n4QOg2X7+jvurgBRies9FRn3ZvMem+TmIg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -1522,17 +1522,17 @@ packages:
       regenerator-runtime: 0.13.9
       systemjs: 6.12.6
       terser: 5.15.1
-      vite: 3.1.6_terser@5.15.1
+      vite: 3.1.7_terser@5.15.1
     dev: true
 
-  /@vitejs/plugin-vue/3.1.2_vite@3.1.6+vue@3.2.40:
+  /@vitejs/plugin-vue/3.1.2_vite@3.1.7+vue@3.2.40:
     resolution: {integrity: sha512-3zxKNlvA3oNaKDYX0NBclgxTQ1xaFdL7PzwF6zj9tGFziKwmBa3Q/6XcJQxudlT81WxDjEhHmevvIC4Orc1LhQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^3.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 3.1.6_terser@5.15.1
+      vite: 3.1.7_terser@5.15.1
       vue: 3.2.40
     dev: true
 
@@ -3835,7 +3835,7 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /vite-plugin-compression/0.5.1_vite@3.1.6:
+  /vite-plugin-compression/0.5.1_vite@3.1.7:
     resolution: {integrity: sha512-5QJKBDc+gNYVqL/skgFAP81Yuzo9R+EAf19d+EtsMF/i8kFUpNi3J/H01QD3Oo8zBQn+NzoCIFkpPLynoOzaJg==}
     peerDependencies:
       vite: '>=2.0.0'
@@ -3843,12 +3843,12 @@ packages:
       chalk: 4.1.2
       debug: 4.3.4
       fs-extra: 10.1.0
-      vite: 3.1.6_terser@5.15.1
+      vite: 3.1.7_terser@5.15.1
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite-plugin-imp/2.3.0_vite@3.1.6:
+  /vite-plugin-imp/2.3.0_vite@3.1.7:
     resolution: {integrity: sha512-I7xSzptQw0yBxUmXawXqkzYvtZbqRF99ZeylmaTuYmJTVjZw5/TbKE7z3h95IKE4r/lkSWdKYmHEs3QwiXKS7g==}
     peerDependencies:
       vite: '>= 2.0.0-beta.5'
@@ -3860,12 +3860,12 @@ packages:
       chalk: 4.1.2
       param-case: 3.0.4
       pascal-case: 3.1.2
-      vite: 3.1.6_terser@5.15.1
+      vite: 3.1.7_terser@5.15.1
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite-plugin-pwa/0.13.1_vite@3.1.6:
+  /vite-plugin-pwa/0.13.1_vite@3.1.7:
     resolution: {integrity: sha512-NR3dIa+o2hzlzo4lF4Gu0cYvoMjSw2DdRc6Epw1yjmCqWaGuN86WK9JqZie4arNlE1ZuWT3CLiMdiX5wcmmUmg==}
     peerDependencies:
       vite: ^3.1.0
@@ -3874,7 +3874,7 @@ packages:
       fast-glob: 3.2.12
       pretty-bytes: 6.0.0
       rollup: 2.79.1
-      vite: 3.1.6_terser@5.15.1
+      vite: 3.1.7_terser@5.15.1
       workbox-build: 6.5.4
       workbox-window: 6.5.4
     transitivePeerDependencies:
@@ -3882,8 +3882,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite/3.1.6_terser@5.15.1:
-    resolution: {integrity: sha512-qMXIwnehvvcK5XfJiXQUiTxoYAEMKhM+jqCY6ZSTKFBKu1hJnAKEzP3AOcnTerI0cMZYAaJ4wpW1wiXLMDt4mA==}
+  /vite/3.1.7_terser@5.15.1:
+    resolution: {integrity: sha512-5vCAmU4S8lyVdFCInu9M54f/g8qbOMakVw5xJ4pjoaDy5wgy9sLLZkGdSLN52dlsBqh0tBqxjaqqa8LgPqwRAA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
