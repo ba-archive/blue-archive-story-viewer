@@ -40,7 +40,7 @@ jobs:
           echo ::set-output name=check_output::"$check_output"
           echo ::set-output name=check_failed::"$check_failed"
       - name: Comment if check failed
-        uses: peter-evans/commit-comment@v1
+        uses: peter-evans/commit-comment@v2
         if: ${{ 'true' == steps.check-code.outputs.check_failed }}
         with:
           body: ${{ steps.check-code.outputs.check_output }}
