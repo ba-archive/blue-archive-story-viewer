@@ -11,7 +11,9 @@
     "format": "prettier --config .prettierrc.cjs -uw ./src/ *.md"
   },
   "dependencies": {
-    "vue": "3.2.40"
+    "pinia": "^2.0.23",
+    "vue": "3.2.40",
+    "vue-router": "^4.1.5"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "3.3.0",
