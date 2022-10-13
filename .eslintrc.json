@@ -4,18 +4,6 @@
     "es2021": true
   },
   "extends": ["eslint:recommended", "plugin:vue/vue3-essential", "prettier"],
-  "parserOptions": {
-    "parser": "@babel/eslint-parser",
-    "requireConfigFile": false,
-    "allowImportExportEverywhere": true,
-    "ecmaVersion": "latest",
-    "sourceType": "module",
-    "babelOptions": {
-      "babelrc": false,
-      "configFile": false,
-      "presets": ["@babel/preset-env"]
-    }
-  },
   "plugins": ["vue", "import", "sort-exports"],
   "rules": {
     "indent": ["error", 2, { "SwitchCase": 1 }],
