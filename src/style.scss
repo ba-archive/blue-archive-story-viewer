@@ -1,0 +1,96 @@
+:root {
+  --color-text-dark: #2f2f2f;
+  --color-text-light: #fff;
+  --color-glass-panel: #ffffffb3;
+  --var-footer-height: 7vh;
+  --var-app-height: calc(100vh - var(--var-footer-height));
+}
+
+body {
+  box-sizing: border-box;
+  background: url("/image/homescreen/background.webp") no-repeat center;
+  background-size: cover;
+  font-family: "Microsoft YaHei", "PingFang SC", -apple-system, system-ui,
+    "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", BlinkMacSystemFont,
+    "Helvetica Neue", "Hiragino Sans GB", Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  width: 100vw;
+  height: 93vh;
+}
+
+body,
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.acrylic {
+  position: relative;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  overflow: hidden;
+
+  &::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.25;
+    z-index: -1;
+    mix-blend-mode: difference;
+    background: url("/src/assets/nnnoise.svg") repeat center;
+    width: 100%;
+    height: 100%;
+    content: "";
+  }
+}
+
+.fill-screen {
+  width: 100vw;
+  height: var(--main-height, 93vh);
+}
+
+.content-wrapper {
+  box-shadow: 0.25rem 0.25rem 1rem hsla(0deg, 0%, 0%, 0.25);
+  background-color: var(--color-glass-panel);
+  width: 60vw;
+  height: calc(var(--main-height, 93vh) - 4rem);
+  overflow: scroll;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rounded {
+  border-radius: 0.5rem;
+}
+
+footer {
+  display: flex;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: var(--var-footer-height);
+  color: var(--color-text-dark);
+}
