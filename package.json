@@ -5,11 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node ./CD/build_json.js; vite build",
+    "format": "prettier --config .prettierrc.cjs -uw ./src/ *.md",
     "build:json": "node ./CD/build_json.js",
-    "preview": "node ./CD/build_json.js; vite build; vite preview --host",
-    "check": "eslint --config ./.eslintrc.json ./src/ --ext .js,.vue",
-    "format": "prettier --config .prettierrc.cjs -uw ./src/ *.md"
+    "build": "pnpm format; pnpm build:json; vite build",
+    "preview": "pnpm build; vite preview --host",
+    "check": "eslint --config ./.eslintrc.json ./src/ --ext .js,.vue"
   },
   "dependencies": {
     "axios": "1.1.2",
