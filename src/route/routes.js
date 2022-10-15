@@ -7,18 +7,13 @@ const routes = [
     children: [
       {
         path: "archive",
-        name: "学生个人剧情",
+        name: "studentSelector",
         component: () => import("../components/StudentSelector.vue"),
         children: [
           {
-            path: ":student/momotalk",
-            name: "momotalk",
-            component: () => import("../components/MomotalkContainer.vue"),
-          },
-          {
-            path: ":student/kizunaStory",
-            name: "story",
-            component: () => import("../components/StoryViewer.vue"),
+            path: ":id",
+            name: "studentPersonalStory",
+            component: () => import("../components/StudentPersonalHome.vue"),
           },
         ],
       },

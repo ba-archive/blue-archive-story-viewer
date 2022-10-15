@@ -2,13 +2,16 @@
   familyName:
     cn: 陆八魔
     jp: 陸八魔
+    en: Rikuhachima
   name:
     cn: 阿露
     jp: アル
+    en: Aru
+  nickname: [ 社长, 愉悦姐 ]
   club: 征信社68
   affiliation: 格赫那
   rarity: 3
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: SR
   availability:
@@ -18,13 +21,16 @@
   familyName:
     cn: 和泉元
     jp: 和泉元
+    en: Izumimoto
   name:
     cn: 艾米
     jp: エイミ
+    en: Eimi
+  nickname: []
   club: 特异现象搜查部
   affiliation: 千年
   rarity: 3
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: SG
   availability:
@@ -34,13 +40,16 @@
   familyName:
     cn: 黑馆
     jp: 黒舘
+    en: Kurodate
   name:
     cn: 晴奈
     jp: ハルナ
+    en: Haruna
+  nickname: [ 神秘狙 ]
   club: 美食俱乐部
   affiliation: 格赫那
   rarity: 3
-  type: Main
+  type: Striker
   armorType: HeavyArmor
   weapon: SR
   availability:
@@ -50,13 +59,16 @@
   familyName:
     cn: 阿慈谷
     jp: 阿慈谷
+    en: Ajitani
   name:
     cn: 日富美
     jp: ヒフミ
+    en: Hifumi
+  nickname: [ 小天使, 一二三, "123", 浮士德 ]
   club: 补习部
   affiliation: 圣三一
   rarity: 3
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: AR
   availability:
@@ -66,13 +78,16 @@
   familyName:
     cn: 空崎
     jp: 空崎
+    en: Sorasaki
   name:
     cn: 日奈
     jp: ヒナ
+    en: Hina
+  nickname: [ 委员长, 魔王 ]
   club: 风纪委员会
   affiliation: 格赫那
   rarity: 3
-  type: Main
+  type: Striker
   armorType: HeavyArmor
   weapon: MG
   availability:
@@ -82,13 +97,16 @@
   familyName:
     cn: 小鸟游
     jp: 小鳥遊
+    en: Takanashi
   name:
     cn: 星野
     jp: ホシノ
+    en: Hoshino
+  nickname: [ 大叔 ]
   club: 废校对策委员会
   affiliation: 阿拜多斯
   rarity: 3
-  type: Main
+  type: Striker
   armorType: HeavyArmor
   weapon: SG
   availability:
@@ -98,13 +116,16 @@
   familyName:
     cn: 银镜
     jp: 銀鏡
+    en: Shiromi
   name:
     cn: 伊织
     jp: イオリ
+    en: Iori
+  nickname: [ 佐仓 ]
   club: 风纪委员会
   affiliation: 格赫那
   rarity: 3
-  type: Main
+  type: Striker
   armorType: HeavyArmor
   weapon: SR
   availability:
@@ -114,13 +135,16 @@
   familyName:
     cn: 小涂
     jp: 小塗
+    en: Konuri
   name:
     cn: 真纪
     jp: マキ
+    en: Maki
+  nickname: []
   club: 真理部
   affiliation: 千年
   rarity: 3
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: MG
   availability:
@@ -130,13 +154,16 @@
   familyName:
     cn: 美甘
     jp: 美甘
+    en: Mikamo
   name:
     cn: 尼禄
     jp: ネル
+    en: Neru
+  nickname: []
   club: C & C
   affiliation: 千年
   rarity: 3
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: SMG
   availability:
@@ -146,13 +173,16 @@
   familyName:
     cn: 狮子堂
     jp: 獅子堂
+    en: Shishidou
   name:
     cn: 泉
     jp: イズミ
+    en: Izumi
+  nickname: [ 汉堡妹, 老八 ]
   club: 美食俱乐部
   affiliation: 格赫那
   rarity: 3
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: MG
   availability:
@@ -162,13 +192,16 @@
   familyName:
     cn: 砂狼
     jp: 砂狼
+    en: Sunaookami
   name:
     cn: 白子
     jp: シロコ
+    en: Shiroko
+  nickname: [ xcw, 小仓唯]
   club: 废校对策委员会
   affiliation: 阿拜多斯
   rarity: 3
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: AR
   availability:
@@ -178,13 +211,16 @@
   familyName:
     cn: 春原
     jp: 春原
+    en: Sunohara
   name:
     cn: 瞬
     jp: シュン
+    en: Shun
+  nickname: [ 梅花狙, 教官 ]
   club: 梅花园
   affiliation: 山海经
   rarity: 3
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: SR
   availability:
@@ -194,13 +230,16 @@
   familyName:
     cn: 乙花
     jp: 乙花
+    en: Otohana
   name:
     cn: 堇
     jp: スミレ
+    en: Sumire
+  nickname: []
   club: 训练部
   affiliation: 千年
   rarity: 3
-  type: Main
+  type: Striker
   armorType: Unarmed
   weapon: SG
   availability:
@@ -210,13 +249,16 @@
   familyName:
     cn: 剑崎
     jp: 剣先
+    en: Kenzaki
   name:
     cn: 鹤城
     jp: ツルギ
+    en: Tsurugi
+  nickname: [ 颜艺姐 ]
   club: 正义实现委员会
   affiliation: 圣三一
   rarity: 3
-  type: Main
+  type: Striker
   armorType: HeavyArmor
   weapon: SG
   availability:
@@ -226,13 +268,16 @@
   familyName:
     cn: 室笠
     jp: 室笠
+    en: Murokasa
   name:
     cn: 茜
     jp: アカネ
+    en: Akane
+  nickname: [ 破甲女仆 ]
   club: C & C
   affiliation: 千年
   rarity: 2
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: HG
   availability:
@@ -242,13 +287,16 @@
   familyName:
     cn: 和乐
     jp: 和楽
+    en: Waraku
   name:
     cn: 千世
     jp: チセ
+    en: Chise
+  nickname: []
   club: 阴阳部
   affiliation: 百鬼夜行
   rarity: 2
-  type: Main
+  type: Striker
   armorType: HeavyArmor
   weapon: GL
   availability:
@@ -258,13 +306,16 @@
   familyName:
     cn: 鳄渊
     jp: 鰐渕
+    en: Wanibuchi
   name:
     cn: 亚伽里
     jp: アカリ
+    en: Akari
+  nickname: []
   club: 美食俱乐部
   affiliation: 格赫那
   rarity: 2
-  type: Main
+  type: Striker
   armorType: HeavyArmor
   weapon: AR
   availability:
@@ -274,13 +325,16 @@
   familyName:
     cn: 羽川
     jp: 羽川
+    en: Hanekawa
   name:
     cn: 莲见
     jp: ハスミ
+    en: Hasumi
+  nickname: []
   club: 正义实现委员会
   affiliation: 圣三一
   rarity: 2
-  type: Main
+  type: Striker
   armorType: HeavyArmor
   weapon: SR
   availability:
@@ -290,13 +344,16 @@
   familyName:
     cn: 十六夜
     jp: 十六夜
+    en: Izayoi
   name:
     cn: 野宫
     jp: ノノミ
+    en: Nonomi
+  nickname: [ 富婆 ]
   club: 废校对策委员会
   affiliation: 阿拜多斯
   rarity: 2
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: MG
   availability:
@@ -306,13 +363,16 @@
   familyName:
     cn: 鬼方
     jp: 鬼方
+    en: Onikata
   name:
     cn: 佳代子
     jp: カヨコ
+    en: Kayoko
+  nickname: []
   club: 征信社68
   affiliation: 格赫那
   rarity: 2
-  type: Main
+  type: Striker
   armorType: HeavyArmor
   weapon: HG
   availability:
@@ -322,13 +382,16 @@
   familyName:
     cn: 浅黄
     jp: 浅黄
+    en: Asagi
   name:
     cn: 睦月
     jp: ムツキ
+    en: Mutsuki
+  nickname: []
   club: 征信社68
   affiliation: 格赫那
   rarity: 2
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: MG
   availability:
@@ -338,13 +401,16 @@
   familyName:
     cn: 赤司
     jp: 赤司
+    en: Akashi
   name:
     cn: 淳子
     jp: ジュンコ
+    en: Junko
+  nickname: []
   club: 美食俱乐部
   affiliation: 格赫那
   rarity: 2
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: AR
   availability:
@@ -354,13 +420,16 @@
   familyName:
     cn: 黑见
     jp: 黒見
+    en: Kuromi
   name:
     cn: 芹香
     jp: セリカ
+    en: Serika
+  nickname: [ 黑猫 ]
   club: 废校对策委员会
   affiliation: 阿拜多斯
   rarity: 2
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: AR
   availability:
@@ -370,13 +439,16 @@
   familyName:
     cn: 春日
     jp: 春日
+    en: Kasuga
   name:
     cn: 椿
     jp: ツバキ
+    en: Tsubaki
+  nickname: [ 狗盾, 神秘盾 ]
   club: 修行部
   affiliation: 百鬼夜行
   rarity: 2
-  type: Main
+  type: Striker
   armorType: Unarmed
   weapon: SMG
   availability:
@@ -386,13 +458,16 @@
   familyName:
     cn: 早濑
     jp: 早瀬
+    en: Hayase
   name:
     cn: 优香
     jp: ユウカ
+    en: Yuuka
+  nickname: [ 没包人, 半包人, 管账婆, 阻冲之 ]
   club: 研讨会
   affiliation: 千年
   rarity: 2
-  type: Main
+  type: Striker
   armorType: HeavyArmor
   weapon: SMG
   availability:
@@ -402,13 +477,16 @@
   familyName:
     cn: 伊草
     jp: 伊草
+    en: Igusa
   name:
     cn: 遥香
     jp: ハルカ
+    en: Haruka
+  nickname: []
   club: 征信社68
   affiliation: 格赫那
   rarity: 1
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: SG
   availability:
@@ -418,13 +496,16 @@
   familyName:
     cn: 一之濑
     jp: 一之瀬
+    en: Ichinose
   name:
     cn: 明日奈
     jp: アスナ
+    en: Asuna
+  nickname: [ 亚丝娜 ]
   club: C & C
   affiliation: 千年
   rarity: 1
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: AR
   availability:
@@ -434,13 +515,16 @@
   familyName:
     cn: 丰见
     jp: 豊見
+    en: Toyomi
   name:
     cn: 柯托莉
     jp: コトリ
+    en: Kotori
+  nickname: []
   club: 工程部
   affiliation: 千年
   rarity: 1
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: MG
   availability:
@@ -450,13 +534,16 @@
   familyName:
     cn: 守月
     jp: 守月
+    en: Morizuki
   name:
     cn: 铃美
     jp: スズミ
+    en: Suzumi
+  nickname: []
   club: 圣三一警备部
   affiliation: 圣三一
   rarity: 1
-  type: Main
+  type: Striker
   armorType: HeavyArmor
   weapon: AR
   availability:
@@ -466,13 +553,16 @@
   familyName:
     cn: 朝比奈
     jp: 朝比奈
+    en: Asahina
   name:
     cn: 菲娜
     jp: フィーナ
+    en: Pina
+  nickname: []
   club: 祭典运营委员会
   affiliation: 百鬼夜行
   rarity: 1
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: MG
   availability:
@@ -482,13 +572,16 @@
   familyName:
     cn: 猫冢
     jp: 猫塚
+    en: Nekozuka
   name:
     cn: 响
     jp: ヒビキ
+    en: Hibiki
+  nickname: []
   club: 工程部
   affiliation: 千年
   rarity: 3
-  type: Support
+  type: Special
   armorType: HeavyArmor
   weapon: MT
   availability:
@@ -498,13 +591,16 @@
   familyName:
     cn: 角楯
     jp: 角楯
+    en: Kakudate
   name:
     cn: 花凛
     jp: カリン
+    en: Karin
+  nickname: [ 黑皮, 花梨 ]
   club: C & C
   affiliation: 千年
   rarity: 3
-  type: Support
+  type: Special
   armorType: HeavyArmor
   weapon: SR
   availability:
@@ -514,13 +610,16 @@
   familyName:
     cn: 叶子
     jp: 薬子
+    en: Yakushi
   name:
     cn: 纱绫
     jp: サヤ
+    en: Saya
+  nickname: [ 老鼠, 老鼠妹 ]
   club: 炼丹术研究会
   affiliation: 山海经
   rarity: 3
-  type: Support
+  type: Special
   armorType: LightArmor
   weapon: HG
   availability:
@@ -530,13 +629,16 @@
   familyName:
     cn: 栗村
     jp: 栗村
+    en: Kurimura
   name:
     cn: 爱莉
     jp: アイリ
+    en: Airi
+  nickname: []
   club: 放学后甜点部
   affiliation: 圣三一
   rarity: 2
-  type: Support
+  type: Special
   armorType: LightArmor
   weapon: SMG
   availability:
@@ -546,13 +648,16 @@
   familyName:
     cn: 爱清
     jp: 愛清
+    en: Aikiyo
   name:
     cn: 枫香
     jp: フウカ
+    en: Fuuka
+  nickname: [ 煮饭婆 ]
   club: 给食部
   affiliation: 格赫那
   rarity: 2
-  type: Support
+  type: Special
   armorType: HeavyArmor
   weapon: SMG
   availability:
@@ -562,13 +667,16 @@
   familyName:
     cn: 朝颜
     jp: 朝顔
+    en: Asagao
   name:
     cn: 花绘
     jp: ハナエ
+    en: Hanae
+  nickname: []
   club: 救护骑士团
   affiliation: 圣三一
   rarity: 2
-  type: Support
+  type: Special
   armorType: HeavyArmor
   weapon: AR
   availability:
@@ -578,13 +686,16 @@
   familyName:
     cn: 小钩
     jp: 小鈎
+    en: Omagari
   name:
     cn: 晴
     jp: ハレ
+    en: Hare
+  nickname: [ 小勾八 ]
   club: 真理部
   affiliation: 千年
   rarity: 2
-  type: Support
+  type: Special
   armorType: LightArmor
   weapon: AR
   availability:
@@ -594,13 +705,16 @@
   familyName:
     cn: 白石
     jp: 白石
+    en: Shiraishi
   name:
     cn: 歌原
     jp: ウタハ
+    en: Utaha
+  nickname: []
   club: 工程部
   affiliation: 千年
   rarity: 2
-  type: Support
+  type: Special
   armorType: HeavyArmor
   weapon: SMG
   availability:
@@ -610,13 +724,16 @@
   familyName:
     cn: 奥空
     jp: 奥空
+    en: Okusora
   name:
     cn: 绫音
     jp: アヤネ
+    en: Ayane
+  nickname: []
   club: 废校对策委员会
   affiliation: 阿拜多斯
   rarity: 2
-  type: Support
+  type: Special
   armorType: LightArmor
   weapon: HG
   availability:
@@ -626,13 +743,16 @@
   familyName:
     cn: 火宫
     jp: 火宮
+    en: Hinomiya
   name:
     cn: 千夏
     jp: チナツ
+    en: Chinatsu
+  nickname: [ 闪避奶 ]
   club: 风纪委员会
   affiliation: 格赫那
   rarity: 1
-  type: Support
+  type: Special
   armorType: LightArmor
   weapon: HG
   availability:
@@ -642,13 +762,16 @@
   familyName:
     cn: 音濑
     jp: 音瀬
+    en: Otose
   name:
     cn: 小玉
     jp: コタマ
+    en: Kotama
+  nickname: []
   club: 真理部
   affiliation: 千年
   rarity: 1
-  type: Support
+  type: Special
   armorType: LightArmor
   weapon: HG
   availability:
@@ -658,13 +781,16 @@
   familyName:
     cn: 牛牧
     jp: 牛牧
+    en: Ushimaki
   name:
     cn: 茱莉
     jp: ジュリ
+    en: Juri
+  nickname: []
   club: 给食部
   affiliation: 格赫那
   rarity: 1
-  type: Support
+  type: Special
   armorType: LightArmor
   weapon: SG
   availability:
@@ -674,13 +800,16 @@
   familyName:
     cn: 鹫见
     jp: 鷲見
+    en: Sumi
   name:
     cn: 芹娜
     jp: セリナ
+    en: Serina
+  nickname: [ 小护士 ]
   club: 救护骑士团
   affiliation: 圣三一
   rarity: 1
-  type: Support
+  type: Special
   armorType: LightArmor
   weapon: AR
   availability:
@@ -690,13 +819,16 @@
   familyName:
     cn: 圆堂
     jp: 円堂
+    en: Endou
   name:
     cn: 志美子
     jp: シミコ
+    en: Shimiko
+  nickname: []
   club: 图书委员会
   affiliation: 圣三一
   rarity: 1
-  type: Support
+  type: Special
   armorType: LightArmor
   weapon: AR
   availability:
@@ -706,13 +838,16 @@
   familyName:
     cn: 伊原木
     jp: 伊原木
+    en: Ibaragi
   name:
     cn: 好美
     jp: ヨシミ
+    en: Yoshimi
+  nickname: []
   club: 放学后甜点部
   affiliation: 圣三一
   rarity: 1
-  type: Support
+  type: Special
   armorType: HeavyArmor
   weapon: AR
   availability:
@@ -722,13 +857,16 @@
   familyName:
     cn: 静山
     jp: 静山
+    en: Shizuyama
   name:
     cn: 真白
     jp: マシロ
+    en: Mashiro
+  nickname: [ 天台狙 ]
   club: 正义实现委员会
   affiliation: 圣三一
   rarity: 3
-  type: Support
+  type: Special
   armorType: HeavyArmor
   weapon: SR
   availability:
@@ -738,13 +876,16 @@
   familyName:
     cn: 久田
     jp: 久田
+    en: Kuda
   name:
     cn: 泉奈
     jp: イズナ
+    en: Izuna
+  nickname: []
   club: 忍术研究部
   affiliation: 百鬼夜行
   rarity: 3
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: SMG
   availability:
@@ -754,13 +895,16 @@
   familyName:
     cn: 河和
     jp: 河和
+    en: Kawawa
   name:
     cn: 静子
     jp: シズコ
+    en: Shizuko
+  nickname: []
   club: 祭典运营委员会
   affiliation: 百鬼夜行
   rarity: 2
-  type: Support
+  type: Special
   armorType: Unarmed
   weapon: SG
   availability:
@@ -770,13 +914,16 @@
   familyName:
     cn: 天童
     jp: 天童
+    en: Tendou
   name:
     cn: 爱丽丝
     jp: アリス
+    en: Aris
+  nickname: []
   club: 游戏开发部
   affiliation: 千年
   rarity: 3
-  type: Main
+  type: Striker
   armorType: Unarmed
   weapon: RG
   availability:
@@ -786,13 +933,16 @@
   familyName:
     cn: 才羽
     jp: 才羽
+    en: Saiba
   name:
     cn: 绿
     jp: ミドリ
+    en: Midori
+  nickname: []
   club: 游戏开发部
   affiliation: 千年
   rarity: 3
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: SR
   availability:
@@ -802,13 +952,16 @@
   familyName:
     cn: 才羽
     jp: 才羽
+    en: Saiba
   name:
     cn: 桃井
     jp: モモイ
+    en: Momoi
+  nickname: []
   club: 游戏开发部
   affiliation: 千年
   rarity: 2
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: AR
   availability:
@@ -818,13 +971,16 @@
   familyName:
     cn: 连河
     jp: 連河
+    en: Renkawa
   name:
     cn: 切里诺
     jp: チェリノ
+    en: Cherino
+  nickname: [ 斯大林, 斯大萝 ]
   club: 红冬事务局
   affiliation: 红冬
   rarity: 3
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: HG
   availability:
@@ -834,13 +990,16 @@
   familyName:
     cn: 天见
     jp: 天見
+    en: Amami
   name:
     cn: 和香
     jp: ノドカ
+    en: Nodoka
+  nickname: [ 望远镜, 偷窥狂 ]
   club: 227特别班
   affiliation: 红冬
   rarity: 1
-  type: Support
+  type: Special
   armorType: HeavyArmor
   weapon: SMG
   availability:
@@ -850,13 +1009,16 @@
   familyName:
     cn: 花冈
     jp: 花岡
+    en: Hanaoka
   name:
     cn: 柚子
     jp: ユズ
+    en: Yuzu
+  nickname: []
   club: 游戏开发部
   affiliation: 千年
   rarity: 3
-  type: Main
+  type: Striker
   armorType: Unarmed
   weapon: GL
   availability:
@@ -866,13 +1028,16 @@
   familyName:
     cn: 白洲
     jp: 白洲
+    en: Shirasu
   name:
     cn: 梓
     jp: アズサ
+    en: Azusa
+  nickname: []
   club: 补习部
   affiliation: 圣三一
   rarity: 3
-  type: Main
+  type: Striker
   armorType: HeavyArmor
   weapon: AR
   availability:
@@ -882,13 +1047,16 @@
   familyName:
     cn: 浦和
     jp: 浦和
+    en: Urawa
   name:
     cn: 花子
     jp: ハナコ
+    en: Hanako
+  nickname: []
   club: 补习部
   affiliation: 圣三一
   rarity: 2
-  type: Support
+  type: Special
   armorType: Unarmed
   weapon: AR
   availability:
@@ -898,13 +1066,16 @@
   familyName:
     cn: 下江
     jp: 下江
+    en: Shimoe
   name:
     cn: 小春
     jp: コハル
+    en: Koharu
+  nickname: []
   club: 补习部
   affiliation: 圣三一
   rarity: 3
-  type: Main
+  type: Striker
   armorType: HeavyArmor
   weapon: SR
   availability:
@@ -914,13 +1085,16 @@
   familyName:
     cn: 白洲
     jp: 白洲
+    en: Shirasu
   name:
     cn: 梓(泳装)
     jp: アズサ（水着）
+    en: Azusa (Swimsuit)
+  nickname: []
   club: 补习部
   affiliation: 圣三一
   rarity: 3
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: AR
   availability:
@@ -930,13 +1104,16 @@
   familyName:
     cn: 静山
     jp: 静山
+    en: Shizuyama
   name:
     cn: 真白(泳装)
     jp: マシロ（水着）
+    en: Mashiro (Swimsuit)
+  nickname: [ 水真白 ]
   club: 正义实现委员会
   affiliation: 圣三一
   rarity: 3
-  type: Support
+  type: Special
   armorType: LightArmor
   weapon: SR
   availability:
@@ -946,13 +1123,16 @@
   familyName:
     cn: 剑崎
     jp: 剣先
+    en: Kenzaki
   name:
     cn: 鹤城(泳装)
     jp: ツルギ（水着）
+    en: Tsurugi (Swimsuit)
+  nickname: [ 水颜艺 ]
   club: 正义实现委员会
   affiliation: 圣三一
   rarity: 1
-  type: Main
+  type: Striker
   armorType: Unarmed
   weapon: SG
   availability:
@@ -962,13 +1142,16 @@
   familyName:
     cn: 阿慈谷
     jp: 阿慈谷
+    en: Ajitani
   name:
     cn: 日富美(泳装)
     jp: ヒフミ（水着）
+    en: Hifumi (Swimsuit)
+  nickname: [ 小天使, 一二三, "123", 浮士德 ]
   club: 补习部
   affiliation: 圣三一
   rarity: 3
-  type: Support
+  type: Special
   armorType: HeavyArmor
   weapon: AR
   availability:
@@ -978,13 +1161,16 @@
   familyName:
     cn: 空崎
     jp: 空崎
+    en: Sorasaki
   name:
     cn: 日奈(泳装)
     jp: ヒナ（水着）
+    en: Hina (Swimsuit)
+  nickname: [ 水日奈, 水魔王 ]
   club: 风纪委员会
   affiliation: 格赫那
   rarity: 3
-  type: Main
+  type: Striker
   armorType: HeavyArmor
   weapon: MG
   availability:
@@ -994,13 +1180,16 @@
   familyName:
     cn: 银镜
     jp: 銀鏡
+    en: Shiromi
   name:
     cn: 伊织(泳装)
     jp: イオリ（水着）
+    en: Iori (Swimsuit)
+  nickname: [ 水佐仓 ]
   club: 风纪委员会
   affiliation: 格赫那
   rarity: 3
-  type: Main
+  type: Striker
   armorType: Unarmed
   weapon: SR
   availability:
@@ -1010,13 +1199,16 @@
   familyName:
     cn: 狮子堂
     jp: 獅子堂
+    en: Shishidou
   name:
     cn: 泉(泳装)
     jp: イズミ（水着）
+    en: Izumi (Swimsuit)
+  nickname: [ 汉堡妹, 老八, 水泉, 水老八, 水汉堡, 西瓜妹 ]
   club: 美食俱乐部
   affiliation: 格赫那
   rarity: 1
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: MG
   availability:
@@ -1026,13 +1218,16 @@
   familyName:
     cn: 砂狼
     jp: 砂狼
+    en: Sunaookami
   name:
     cn: 白子(单车)
     jp: シロコ（ライディング）
+    en: Shiroko (Cycling)
+  nickname: [ xcw, 小车唯 ]
   club: 废校对策委员会
   affiliation: 阿拜多斯
   rarity: 3
-  type: Main
+  type: Striker
   armorType: HeavyArmor
   weapon: AR
   availability:
@@ -1042,13 +1237,16 @@
   familyName:
     cn: 春原
     jp: 春原
+    en: Sunohara
   name:
     cn: 瞬(幼女)
     jp: シュン（幼女）
+    en: Shun (Small)
+  nickname: [ 铜花瞬 ]
   club: 梅花园
   affiliation: 山海经
   rarity: 3
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: SR
   availability:
@@ -1058,13 +1256,16 @@
   familyName:
     cn: 中务
     jp: 中務
+    en: Nakatsukasa
   name:
     cn: 桐乃
     jp: キリノ
+    en: Kirino
+  nickname: []
   club: 瓦尔基里安全局
   affiliation: 瓦尔基里
   rarity: 2
-  type: Main
+  type: Striker
   armorType: Unarmed
   weapon: HG
   availability:
@@ -1074,13 +1275,16 @@
   familyName:
     cn: 叶子
     jp: 薬子
+    en: Yakushi
   name:
     cn: 纱绫(私服)
     jp: サヤ（私服）
+    en: Saya (Casual)
+  nickname: [ 私服老鼠 ]
   club: 炼丹术研究会
   affiliation: 山海经
   rarity: 3
-  type: Support
+  type: Special
   armorType: Unarmed
   weapon: HG
   availability:
@@ -1090,13 +1294,16 @@
   familyName:
     cn: 美甘
     jp: 美甘
+    en: Mikamo
   name:
     cn: 尼禄(兔女郎)
     jp: ネル（バニーガール）
+    en: Neru (Bunny)
+  nickname: [ 兔尼禄 ]
   club: C & C
   affiliation: 千年
   rarity: 3
-  type: Main
+  type: Striker
   armorType: HeavyArmor
   weapon: SMG
   availability:
@@ -1106,13 +1313,16 @@
   familyName:
     cn: 角楯
     jp: 角楯
+    en: Kakudate
   name:
     cn: 花凛(兔女郎)
     jp: カリン（バニーガール）
+    en: Karin (Bunny)
+  nickname: [ 黑皮, 花梨, 兔花凛 ]
   club: C & C
   affiliation: 千年
   rarity: 3
-  type: Main
+  type: Striker
   armorType: HeavyArmor
   weapon: SR
   availability:
@@ -1122,13 +1332,16 @@
   familyName:
     cn: 一之濑
     jp: 一之瀬
+    en: Ichinose
   name:
     cn: 明日奈(兔女郎)
     jp: アスナ（バニーガール）
+    en: Asuna (Bunny)
+  nickname: [ 亚丝娜, 兔丝娜 ]
   club: C & C
   affiliation: 千年
   rarity: 3
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: AR
   availability:
@@ -1138,13 +1351,16 @@
   familyName:
     cn: 柚鸟
     jp: 柚鳥
+    en: Yutori
   name:
     cn: 夏
     jp: ナツ
+    en: Natsu
+  nickname: [ 康纳, 哲学家 ]
   club: 放学后甜点部
   affiliation: 圣三一
   rarity: 3
-  type: Main
+  type: Striker
   armorType: HeavyArmor
   weapon: SMG
   availability:
@@ -1154,13 +1370,16 @@
   familyName:
     cn: 伊落
     jp: 伊落
+    en: Iochi
   name:
     cn: 玛丽
     jp: マリー
+    en: Mari
+  nickname: []
   club: 修女会
   affiliation: 圣三一
   rarity: 2
-  type: Support
+  type: Special
   armorType: Unarmed
   weapon: HG
   availability:
@@ -1170,13 +1389,16 @@
   familyName:
     cn: 初音
     jp: 初音
+    en: Hatsune
   name:
     cn: 初音未来
     jp: 初音ミク
+    en: Hatsune Miku
+  nickname: []
   club: 无社团
   affiliation: 其他
   rarity: 3
-  type: Support
+  type: Special
   armorType: LightArmor
   weapon: GL
   availability:
@@ -1186,13 +1408,16 @@
   familyName:
     cn: 天雨
     jp: 天雨
+    en: Amau
   name:
     cn: 亚子
     jp: アコ
+    en: Ako
+  nickname: []
   club: 风纪委员会
   affiliation: 格赫那
   rarity: 3
-  type: Support
+  type: Special
   armorType: HeavyArmor
   weapon: HG
   availability:
@@ -1202,13 +1427,16 @@
   familyName:
     cn: 连河
     jp: 連河
+    en: Renkawa
   name:
     cn: 切里诺(温泉)
     jp: チェリノ（温泉）
+    en: Cherino (Hot Spring)
+  nickname: [ 斯大林, 斯大萝 ]
   club: 红冬事务局
   affiliation: 红冬
   rarity: 3
-  type: Support
+  type: Special
   armorType: HeavyArmor
   weapon: HG
   availability:
@@ -1218,13 +1446,16 @@
   familyName:
     cn: 火宫
     jp: 火宮
+    en: Hinomiya
   name:
     cn: 千夏(温泉)
     jp: チナツ（温泉）
+    en: Chinatsu (Hot Spring)
+  nickname: [ 闪避奶 ]
   club: 风纪委员会
   affiliation: 格赫那
   rarity: 3
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: HG
   availability:
@@ -1234,13 +1465,16 @@
   familyName:
     cn: 佐城
     jp: 佐城
+    en: Sashiro
   name:
     cn: 智惠
     jp: トモエ
+    en: Tomoe
+  nickname: []
   club: 红冬事务局
   affiliation: 红冬
   rarity: 1
-  type: Main
+  type: Striker
   armorType: Unarmed
   weapon: SR
   availability:
@@ -1250,13 +1484,16 @@
   familyName:
     cn: 天见
     jp: 天見
+    en: Amami
   name:
     cn: 和香(温泉)
     jp: ノドカ（温泉）
+    en: Nodoka (Hot Spring)
+  nickname: [ 望远镜, 偷窥狂 ]
   club: 227特别班
   affiliation: 红冬
   rarity: 3
-  type: Support
+  type: Special
   armorType: Unarmed
   weapon: SMG
   availability:
@@ -1266,13 +1503,16 @@
   familyName:
     cn: 陆八魔
     jp: 陸八魔
+    en: Rikuhachima
   name:
     cn: 阿露(正月)
     jp: アル（正月）
+    en: Aru (New Year)
+  nickname: []
   club: 征信社68
   affiliation: 格赫那
   rarity: 3
-  type: Main
+  type: Striker
   armorType: Unarmed
   weapon: SR
   availability:
@@ -1282,13 +1522,16 @@
   familyName:
     cn: 浅黄
     jp: 浅黄
+    en: Asagi
   name:
     cn: 睦月(正月)
     jp: ムツキ（正月）
+    en: Mutsuki (New Year)
+  nickname: [ 春月 ]
   club: 征信社68
   affiliation: 格赫那
   rarity: 3
-  type: Main
+  type: Striker
   armorType: HeavyArmor
   weapon: MG
   availability:
@@ -1298,13 +1541,16 @@
   familyName:
     cn: 黑见
     jp: 黒見
+    en: Kuromi
   name:
     cn: 芹香(正月)
     jp: セリカ（正月）
+    en: Serika (New Year)
+  nickname: [ 黑猫, 春黑 ]
   club: 废校对策委员会
   affiliation: 阿拜多斯
   rarity: 3
-  type: Support
+  type: Special
   armorType: Unarmed
   weapon: AR
   availability:
@@ -1314,13 +1560,16 @@
   familyName:
     cn: 狐坂
     jp: 狐坂
+    en: Kosaka
   name:
     cn: 若藻
     jp: ワカモ
+    en: Wakamo
+  nickname: [ 大狐狸 ]
   club: 无社团
   affiliation: 百鬼夜行
   rarity: 3
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: SR
   availability:
@@ -1330,13 +1579,16 @@
   familyName:
     cn: 合欢垣
     jp: 合歓垣
+    en: Nemugaki
   name:
     cn: 吹雪
     jp: フブキ
+    en: Fubuki
+  nickname: []
   club: 瓦尔基里安全局
   affiliation: 瓦尔基里
   rarity: 1
-  type: Main
+  type: Striker
   armorType: HeavyArmor
   weapon: SR
   availability:
@@ -1346,13 +1598,16 @@
   familyName:
     cn: 冰室
     jp: 氷室
+    en: Himuro
   name:
     cn: 濑名
     jp: セナ
+    en: Sena
+  nickname: []
   club: 救急医学部
   affiliation: 格赫那
   rarity: 3
-  type: Support
+  type: Special
   armorType: LightArmor
   weapon: GL
   availability:
@@ -1362,13 +1617,16 @@
   familyName:
     cn: 各务
     jp: 各務
+    en: Kagami
   name:
     cn: 千寻
     jp: チヒロ
+    en: Chihiro
+  nickname: []
   club: 真理部
   affiliation: 千年
   rarity: 3
-  type: Support
+  type: Special
   armorType: HeavyArmor
   weapon: AR
   availability:
@@ -1378,13 +1636,16 @@
   familyName:
     cn: 水羽
     jp: 水羽
+    en: Mizuha
   name:
     cn: 三森
     jp: ミモリ
+    en: Mimori
+  nickname: []
   club: 修行部
   affiliation: 百鬼夜行
   rarity: 3
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: HG
   availability:
@@ -1394,13 +1655,16 @@
   familyName:
     cn: 古关
     jp: 古関
+    en: Kozeki
   name:
     cn: 忧
     jp: ウイ
+    en: Ui
+  nickname: []
   club: 图书委员会
   affiliation: 圣三一
   rarity: 3
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: SR
   availability:
@@ -1410,13 +1674,16 @@
   familyName:
     cn: 若叶
     jp: 若葉
+    en: Wakaba
   name:
     cn: 日向
     jp: ヒナタ
+    en: Hinata
+  nickname: []
   club: 修女会
   affiliation: 圣三一
   rarity: 3
-  type: Main
+  type: Striker
   armorType: HeavyArmor
   weapon: HG
   availability:
@@ -1426,13 +1693,16 @@
   familyName:
     cn: 池仓
     jp: 池倉
+    en: Ikekura
   name:
     cn: 玛利娜
     jp: マリナ
+    en: Marina
+  nickname: []
   club: 红冬事务局
   affiliation: 红冬
   rarity: 3
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: SMG
   availability:
@@ -1442,13 +1712,16 @@
   familyName:
     cn: 月雪
     jp: 月雪
+    en: Tsukiyuki
   name:
     cn: 宫子
     jp: ミヤコ
+    en: Miyako
+  nickname: []
   club: RABBIT小队
   affiliation: SRT
   rarity: 3
-  type: Main
+  type: Striker
   armorType: HeavyArmor
   weapon: SMG
   availability:
@@ -1458,13 +1731,16 @@
   familyName:
     cn: 空井
     jp: 空井
+    en: Sorai
   name:
     cn: 咲
     jp: サキ
+    en: Saki
+  nickname: []
   club: RABBIT小队
   affiliation: SRT
   rarity: 3
-  type: Support
+  type: Special
   armorType: Unarmed
   weapon: MG
   availability:
@@ -1474,13 +1750,16 @@
   familyName:
     cn: 霞泽
     jp: 霞沢
+    en: Kasumizawa
   name:
     cn: 美游
     jp: ミユ
+    en: Miyu
+  nickname: []
   club: RABBIT小队
   affiliation: SRT
   rarity: 3
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: SR
   availability:
@@ -1490,13 +1769,16 @@
   familyName:
     cn: 勇美
     jp: 勇美
+    en: Isami
   name:
     cn: 枫
     jp: カエデ
+    en: Kaede
+  nickname: []
   club: 修行部
   affiliation: 百鬼夜行
   rarity: 3
-  type: Support
+  type: Special
   armorType: Unarmed
   weapon: HG
   availability:
@@ -1506,13 +1788,16 @@
   familyName:
     cn: 枣
     jp: 棗
+    en: Natsume
   name:
     cn: 伊吕波
     jp: イロハ
+    en: Iroha
+  nickname: []
   club: 万魔殿
   affiliation: 格赫那
   rarity: 3
-  type: Support
+  type: Special
   armorType: HeavyArmor
   weapon: HG
   availability:
@@ -1522,13 +1807,16 @@
   familyName:
     cn: 千鸟
     jp: 千鳥
+    en: Chidori
   name:
     cn: 满
     jp: ミチル
+    en: Michiru
+  nickname: []
   club: 忍术研究部
   affiliation: 百鬼夜行
   rarity: 1
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: SG
   availability:
@@ -1538,13 +1826,16 @@
   familyName:
     cn: 大野
     jp: 大野
+    en: Oono
   name:
     cn: 月咏
     jp: ツクヨ
+    en: Tsukuyo
+  nickname: []
   club: 忍术研究部
   affiliation: 百鬼夜行
   rarity: 3
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: SMG
   availability:
@@ -1554,13 +1845,16 @@
   familyName:
     cn: 戒野
     jp: 戒野
+    en: Imashino
   name:
     cn: 美咲
     jp: ミサキ
+    en: Misaki
+  nickname: []
   club: 阿里乌斯小队
   affiliation: 阿里乌斯
   rarity: 3
-  type: Main
+  type: Striker
   armorType: Unarmed
   weapon: RL
   availability:
@@ -1570,13 +1864,16 @@
   familyName:
     cn: 槌永
     jp: 槌永
+    en: Tsuchinaga
   name:
     cn: 日和
     jp: ヒヨリ
+    en: Hiyori
+  nickname: []
   club: 阿里乌斯小队
   affiliation: 阿里乌斯
   rarity: 3
-  type: Support
+  type: Special
   armorType: LightArmor
   weapon: SR
   availability:
@@ -1586,13 +1883,16 @@
   familyName:
     cn: 秤
     jp: 秤
+    en: Hakari
   name:
     cn: 亚津子
     jp: アツコ
+    en: Atsuko
+  nickname: [ 公主 ]
   club: 阿里乌斯小队
   affiliation: 阿里乌斯
   rarity: 3
-  type: Main
+  type: Striker
   armorType: Unarmed
   weapon: SMG
   availability:
@@ -1602,13 +1902,16 @@
   familyName:
     cn: 狐坂
     jp: 狐坂
+    en: Kosaka
   name:
     cn: 若藻(泳装)
     jp: ワカモ（水着）
+    en: Wakamo (Swimsuit)
+  nickname: [ 水藻 ]
   club: 无社团
   affiliation: 百鬼夜行
   rarity: 3
-  type: Main
+  type: Striker
   armorType: HeavyArmor
   weapon: SR
   availability:
@@ -1618,13 +1921,16 @@
   familyName:
     cn: 十六夜
     jp: 十六夜
+    en: Izayoi
   name:
     cn: 野宫(泳装)
     jp: ノノミ（水着）
+    en: Nonomi (Swimsuit)
+  nickname: [ 水富婆 ]
   club: 废校对策委员会
   affiliation: 阿拜多斯
   rarity: 3
-  type: Main
+  type: Striker
   armorType: Unarmed
   weapon: MG
   availability:
@@ -1634,13 +1940,16 @@
   familyName:
     cn: 奥空
     jp: 奥空
+    en: Okusora
   name:
     cn: 绫音(泳装)
     jp: アヤネ（水着）
+    en: Ayane (Swimsuit)
+  nickname: [ 水绫音 ]
   club: 废校对策委员会
   affiliation: 阿拜多斯
   rarity: 1
-  type: Support
+  type: Special
   armorType: LightArmor
   weapon: HG
   availability:
@@ -1650,13 +1959,16 @@
   familyName:
     cn: 小鸟游
     jp: 小鳥遊
+    en: Takanashi
   name:
     cn: 星野(泳装)
     jp: ホシノ（水着）
+    en: Hoshino (Swimsuit)
+  nickname: [ 水大叔 ]
   club: 废校对策委员会
   affiliation: 阿拜多斯
   rarity: 3
-  type: Main
+  type: Striker
   armorType: Unarmed
   weapon: SG
   availability:
@@ -1666,13 +1978,16 @@
   familyName:
     cn: 河和
     jp: 河和
+    en: Kawawa
   name:
     cn: 静子(泳装)
     jp: シズコ（水着）
+    en: Shizuko (Swimsuit)
+  nickname: [ 水静子 ]
   club: 祭典运营委员会
   affiliation: 百鬼夜行
   rarity: 1
-  type: Support
+  type: Special
   armorType: HeavyArmor
   weapon: SG
   availability:
@@ -1682,13 +1997,16 @@
   familyName:
     cn: 久田
     jp: 久田
+    en: Kuda
   name:
     cn: 泉奈(泳装)
     jp: イズナ（水着）
+    en: Izuna (Swimsuit)
+  nickname: [ 小狐狸 ]
   club: 忍术研究部
   affiliation: 百鬼夜行
   rarity: 3
-  type: Main
+  type: Striker
   armorType: Unarmed
   weapon: SMG
   availability:
@@ -1698,13 +2016,16 @@
   familyName:
     cn: 和乐
     jp: 和楽
+    en: Waraku
   name:
     cn: 千世(泳装)
     jp: チセ（水着）
+    en: Chise (Swimsuit)
+  nickname: []
   club: 阴阳部
   affiliation: 百鬼夜行
   rarity: 3
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: GL
   availability:
@@ -1714,13 +2035,16 @@
   familyName:
     cn: 锭前
     jp: 錠前
+    en: Joumae
   name:
     cn: 纱织
     jp: サオリ
+    en: Saori
+  nickname: []
   club: 阿里乌斯小队
   affiliation: 阿里乌斯
   rarity: 3
-  type: Main
+  type: Striker
   armorType: Unarmed
   weapon: AR
   availability:
@@ -1730,13 +2054,16 @@
   familyName:
     cn: 风仓
     jp: 風倉
+    en: Kazekura
   name:
     cn: 萌绘
     jp: モエ
+    en: Moe
+  nickname: []
   club: RABBIT小队
   affiliation: SRT
   rarity: 3
-  type: Support
+  type: Special
   armorType: LightArmor
   weapon: HG
   availability:
@@ -1746,13 +2073,16 @@
   familyName:
     cn: 杏山
     jp: 杏山
+    en: Kyouyama
   name:
     cn: 和纱
     jp: カズサ
+    en: Kazusa
+  nickname: []
   club: 放学后甜点部
   affiliation: 圣三一
   rarity: 3
-  type: Main
+  type: Striker
   armorType: HeavyArmor
   weapon: MG
   availability:
@@ -1762,13 +2092,16 @@
   familyName:
     cn: 春原
     jp: 春原
+    en: Sunohara
   name:
     cn: ココナ
     jp: ココナ
+    en: Kokona
+  nickname: []
   club: 梅花园
   affiliation: 山海经
   rarity: 3
-  type: Main
+  type: Striker
   armorType: Unarmed
   weapon: AR
   availability:
@@ -1778,13 +2111,16 @@
   familyName:
     cn: 白石
     jp: 白石
+    en: Shiraishi
   name:
-    cn: ウタハ（応援団）
+    cn: 歌原(応援団)
     jp: ウタハ（応援団）
+    en: Utaha (Cheerleader)
+  nickname: []
   club: 工程部
   affiliation: 千年
   rarity: 3
-  type: Main
+  type: Striker
   armorType: Unarmed
   weapon: SMG
   availability:
@@ -1794,13 +2130,16 @@
   familyName:
     cn: 生塩
     jp: 生塩
+    en: Ushio
   name:
     cn: ノア
     jp: ノア
+    en: Noa
+  nickname: [ 生理盐水 ]
   club: 研讨会
   affiliation: 千年
   rarity: 3
-  type: Main
+  type: Striker
   armorType: Unarmed
   weapon: HG
   availability:
@@ -1810,13 +2149,16 @@
   familyName:
     cn: 猫塚
     jp: 猫塚
+    en: Nekozuka
   name:
-    cn: ヒビキ（応援団）
+    cn: 响（応援団）
     jp: ヒビキ（応援団）
+    en: Hibiki (Cheerleader)
+  nickname: []
   club: 工程部
   affiliation: 千年
   rarity: 1
-  type: Main
+  type: Striker
   armorType: LightArmor
   weapon: MT
   availability:
@@ -1826,13 +2168,16 @@
   familyName:
     cn: 室笠
     jp: 室笠
+    en: Murokasa
   name:
-    cn: アカネ（バニーガール）
+    cn: 茜(兔女郎)
     jp: アカネ（バニーガール）
+    en: Akane (Bunny)
+  nickname: []
   club: C & C
   affiliation: 千年
   rarity: 3
-  type: Support
+  type: Special
   armorType: HeavyArmor
   weapon: HG
   availability:

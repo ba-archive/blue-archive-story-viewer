@@ -1,8 +1,7 @@
 <template>
-  <div class="fill-screen center">
-    <div class="content-wrapper flex-vertical acrylic rounded">
-      Student Personal Plot
-    </div>
+  <div class="fill-width flex-vertical rounded">
+    Student Personal Plot
+    {{ $route.params.id }}
   </div>
 </template>
 

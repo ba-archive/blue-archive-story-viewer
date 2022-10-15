@@ -30,7 +30,7 @@ function walk(dir, callback) {
 
 walk(path.resolve(__dirname, "..", "public", "config", "yaml"), (pathname) => {
   try {
-    const yaml = fs.readFileSync(pathname, "utf8");
+    const yaml = fs.readFileSync(pathname, "utf8").replaceAll("，", ",");
     const json = jsYaml.load(yaml);
     const jsonPath = pathname.replaceAll("yaml", "json");
     fs.writeFileSync(jsonPath, JSON.stringify(json, null, 0));
