@@ -17,7 +17,7 @@ specifiers:
   postcss: 8.4.18
   prettier: 2.7.1
   prettier-plugin-css-order: 1.3.0
-  rollup-plugin-visualizer: 5.8.2
+  rollup-plugin-visualizer: 5.8.3
   sass: 1.55.0
   terser: 5.15.1
   vite: 3.1.8
@@ -47,7 +47,7 @@ devDependencies:
   postcss: 8.4.18
   prettier: 2.7.1
   prettier-plugin-css-order: 1.3.0_e5gnutg2gcs4i4i55evo6xc2o4
-  rollup-plugin-visualizer: 5.8.2
+  rollup-plugin-visualizer: 5.8.3
   sass: 1.55.0
   terser: 5.15.1
   vite: 3.1.8_sass@1.55.0+terser@5.15.1
@@ -3578,12 +3578,12 @@ packages:
       terser: 5.15.1
     dev: true
 
-  /rollup-plugin-visualizer/5.8.2:
-    resolution: {integrity: sha512-Fh7KoAa7FVVOojmyyX9ro7fBSR7mPG2cgfDbA877HM4IeJJtSZO+I/R3h/u6TB8wVP5J4pXPpTaRMSREyqCS3g==}
+  /rollup-plugin-visualizer/5.8.3:
+    resolution: {integrity: sha512-QGJk4Bqe4AOat5AjipOh8esZH1nck5X2KFpf4VytUdSUuuuSwvIQZjMGgjcxe/zXexltqaXp5Vx1V3LmnQH15Q==}
     engines: {node: '>=14'}
     hasBin: true
     peerDependencies:
-      rollup: ^2.0.0
+      rollup: 2.x || 3.x
     peerDependenciesMeta:
       rollup:
         optional: true
