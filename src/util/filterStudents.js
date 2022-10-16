@@ -54,7 +54,7 @@ function isPossibleName(searchString, studentNamesList) {
   let found = false;
   const lowerCaseSearchString = searchString.toLowerCase();
   const lowercaseStudentNamesList = studentNamesList.map((name) =>
-    name.toLowerCase()
+    name.toString().toLowerCase()
   );
   lowercaseStudentNamesList.forEach((studentName) => {
     if (studentName) {

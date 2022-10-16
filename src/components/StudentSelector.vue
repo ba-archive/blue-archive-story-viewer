@@ -96,16 +96,24 @@ const studentArmorTypes = computed(() =>
 );
 
 const studentNameFilter = ref("");
-const appliedFilters = ref(
-  JSON.parse(localStorage.getItem("appliedFilters")) || {
-    searchString: studentNameFilter,
-    rarity: [],
-    club: [],
-    affiliation: [],
-    type: [],
-    armorType: [],
-  }
-);
+const appliedFilters = ref({
+  searchString: studentNameFilter,
+  rarity: [],
+  club: [],
+  affiliation: [],
+  type: [],
+  armorType: [],
+});
+
+const previousFilters = JSON.parse(localStorage.getItem("appliedFilters"));
+if (previousFilters) {
+  appliedFilters.value.searchString = previousFilters.searchString || "";
+  appliedFilters.value.rarity = previousFilters.rarity || [];
+  appliedFilters.value.club = previousFilters.club || [];
+  appliedFilters.value.affiliation = previousFilters.affiliation || [];
+  appliedFilters.value.type = previousFilters.type || [];
+  appliedFilters.value.armorType = previousFilters.armorType || [];
+}
 
 function isActivate(property, value) {
   return appliedFilters.value[property].includes(value) ? "active" : "";
@@ -146,6 +154,7 @@ const filteredStudents = computed(() => {
           :placeholder="studentNameFilter ? '' : '在学生姓名/黑话内搜索…'"
           v-model="studentNameFilter"
           @focus="$event.target.select()"
+          autocomplete="off"
         />
         <div id="student-filter">
           <div class="filter-group">
