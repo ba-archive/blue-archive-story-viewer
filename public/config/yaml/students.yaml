@@ -160,7 +160,7 @@
     jp: ネル
     en: Neru
   nickname: []
-  club: C & C
+  club: C&C
   affiliation: 千年
   rarity: 3
   type: Striker
@@ -274,7 +274,7 @@
     jp: アカネ
     en: Akane
   nickname: [ 破甲女仆 ]
-  club: C & C
+  club: C&C
   affiliation: 千年
   rarity: 2
   type: Striker
@@ -502,7 +502,7 @@
     jp: アスナ
     en: Asuna
   nickname: [ 亚丝娜 ]
-  club: C & C
+  club: C&C
   affiliation: 千年
   rarity: 1
   type: Striker
@@ -597,7 +597,7 @@
     jp: カリン
     en: Karin
   nickname: [ 黑皮, 花梨 ]
-  club: C & C
+  club: C&C
   affiliation: 千年
   rarity: 3
   type: Special
@@ -1300,7 +1300,7 @@
     jp: ネル（バニーガール）
     en: Neru (Bunny)
   nickname: [ 兔尼禄 ]
-  club: C & C
+  club: C&C
   affiliation: 千年
   rarity: 3
   type: Striker
@@ -1319,7 +1319,7 @@
     jp: カリン（バニーガール）
     en: Karin (Bunny)
   nickname: [ 黑皮, 花梨, 兔花凛 ]
-  club: C & C
+  club: C&C
   affiliation: 千年
   rarity: 3
   type: Striker
@@ -1338,7 +1338,7 @@
     jp: アスナ（バニーガール）
     en: Asuna (Bunny)
   nickname: [ 亚丝娜, 兔丝娜 ]
-  club: C & C
+  club: C&C
   affiliation: 千年
   rarity: 3
   type: Striker
@@ -1793,7 +1793,7 @@
     cn: 伊吕波
     jp: イロハ
     en: Iroha
-  nickname: []
+  nickname: [ 168 ]
   club: 万魔殿
   affiliation: 格赫那
   rarity: 3
@@ -2174,7 +2174,7 @@
     jp: アカネ（バニーガール）
     en: Akane (Bunny)
   nickname: []
-  club: C & C
+  club: C&C
   affiliation: 千年
   rarity: 3
   type: Special

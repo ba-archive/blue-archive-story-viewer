@@ -29,13 +29,20 @@ function walk(dir, callback) {
 }
 
 walk(path.resolve(__dirname, "..", "public", "config", "yaml"), (pathname) => {
-  try {
-    const yaml = fs.readFileSync(pathname, "utf8").replaceAll("，", ",");
-    const json = jsYaml.load(yaml);
-    const jsonPath = pathname.replaceAll("yaml", "json");
-    fs.writeFileSync(jsonPath, JSON.stringify(json, null, 0));
-    console.log(`[${chalk.green("SUCCESS")}] ${jsonPath}`);
-  } catch (e) {
-    console.log(`[${chalk.red("ERROR")}] ${pathname}\n${chalk.red(e)}`);
-  }
+  fs.readFile(pathname, "utf8", (err, data) => {
+    if (err) {
+      console.log(`[${chalk.red("ERROR")}] ${pathname}\n${chalk.red(err)}`);
+    } else {
+      const yaml = data.replaceAll("，", ",");
+      const json = jsYaml.load(yaml);
+      const jsonPath = pathname.replaceAll(/ya?ml/gi, "json");
+      fs.writeFile(jsonPath, JSON.stringify(json, null, 0), (err) => {
+        if (err) {
+          console.log(`[${chalk.red("ERROR")}] ${jsonPath}\n${chalk.red(err)}`);
+        } else {
+          console.log(`[${chalk.green("SUCCESS")}] ${jsonPath}`);
+        }
+      });
+    }
+  });
 });
