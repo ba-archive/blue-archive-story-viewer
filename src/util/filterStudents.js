@@ -52,9 +52,14 @@ function similarity(s1, s2) {
 
 function isPossibleName(searchString, studentNamesList) {
   let found = false;
-  const lowerCaseSearchString = searchString.toLowerCase();
+  const specialCharacters = new RegExp(
+    /[，。！“”/《》？：；「」{}｜\\"$&+,:;=?@#|'<>.^*()%!\-\s]/g
+  );
+  const lowerCaseSearchString = searchString
+    .toLowerCase()
+    .replaceAll(specialCharacters, "");
   const lowercaseStudentNamesList = studentNamesList.map((name) =>
-    name.toString().toLowerCase()
+    name.toString().toLowerCase().replaceAll(specialCharacters, "")
   );
   lowercaseStudentNamesList.forEach((studentName) => {
     if (studentName) {
