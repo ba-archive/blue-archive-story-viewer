@@ -52,9 +52,6 @@ const studentsNameList = computed(() => {
         student.name.cn,
         student.name.jp,
         student.name.en,
-        student.familyName.cn,
-        student.familyName.jp,
-        student.familyName.en,
         ...student.nickname,
       ],
     };
@@ -99,19 +96,14 @@ const studentArmorTypes = computed(() =>
 );
 
 const studentNameFilter = ref("");
-const appliedFilters = ref({
-  searchString: studentNameFilter,
-  rarity: [],
-  club: [],
-  affiliation: [],
-  type: [],
-  armorType: [],
-});
-
-watch(
-  () => appliedFilters.value,
-  (newFilters) => {
-    console.log(newFilters);
+const appliedFilters = ref(
+  JSON.parse(localStorage.getItem("appliedFilters")) || {
+    searchString: studentNameFilter,
+    rarity: [],
+    club: [],
+    affiliation: [],
+    type: [],
+    armorType: [],
   }
 );
 
@@ -130,6 +122,7 @@ function handleFilter(property, value) {
 }
 
 const filteredStudents = computed(() => {
+  localStorage.setItem("appliedFilters", JSON.stringify(appliedFilters.value));
   return filterStudents(
     appliedFilters.value,
     studentsNameList.value,
@@ -150,7 +143,7 @@ const filteredStudents = computed(() => {
         <input
           type="text"
           id="name-filter"
-          :placeholder="studentNameFilter ? '' : '输入学生姓名进行搜索'"
+          :placeholder="studentNameFilter ? '' : '在学生姓名/黑话内搜索…'"
           v-model="studentNameFilter"
           @focus="$event.target.select()"
         />
