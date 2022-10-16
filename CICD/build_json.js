@@ -57,7 +57,7 @@ walk(path.resolve(__dirname, "..", "public", "config", "yaml"), (pathname) => {
           );
         }
       } else {
-        console.log(`[${chalk.gray("IGNORED")}] ${pathname} (not YAML)`)
+        console.log(`[${chalk.gray("IGNORED")}] ${pathname} (not YAML)`);
       }
     }
   });
