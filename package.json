@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "format": "prettier --config .prettierrc.cjs -uw ./src/ ./CICD/ *.md",
+    "format": "prettier --config .prettierrc.cjs -uw ./src/ ./CICD/ ./public/config/yaml/ *.md",
     "build:json": "node ./CICD/build_json.js",
     "build": "pnpm format; pnpm build:json; vite build",
     "preview": "pnpm build; vite preview --host",
