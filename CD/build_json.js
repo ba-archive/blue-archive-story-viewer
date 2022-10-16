@@ -36,13 +36,25 @@ walk(path.resolve(__dirname, "..", "public", "config", "yaml"), (pathname) => {
       const yaml = data.replaceAll("，", ",");
       const json = jsYaml.load(yaml);
       const jsonPath = pathname.replaceAll(/ya?ml/gi, "json");
-      fs.writeFile(jsonPath, JSON.stringify(json, null, 0), (err) => {
-        if (err) {
-          console.log(`[${chalk.red("ERROR")}] ${jsonPath}\n${chalk.red(err)}`);
-        } else {
-          console.log(`[${chalk.green("SUCCESS")}] ${jsonPath}`);
+      const jsonDir = path.dirname(jsonPath);
+      if (undefined !== json) {
+        if (!fs.existsSync(jsonDir)) {
+          fs.mkdirSync(jsonDir, { recursive: true });
         }
-      });
+        fs.writeFile(jsonPath, JSON.stringify(json, null, 0), (err) => {
+          if (err) {
+            console.log(
+              `[${chalk.red("ERROR")}] ${jsonPath}\n${chalk.red(err)}`
+            );
+          } else {
+            console.log(`[${chalk.green("SUCCESS")}] ${jsonPath}`);
+          }
+        });
+      } else {
+        console.log(
+          `[${chalk.yellowBright("SKIPPED")}] ${pathname} (empty file)`
+        );
+      }
     }
   });
 });
