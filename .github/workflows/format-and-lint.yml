@@ -3,7 +3,7 @@ name: Format and Lint Code
 on: push
 
 jobs:
-  code_check:
+  format_and_lint:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
