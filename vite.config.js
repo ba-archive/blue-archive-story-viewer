@@ -82,7 +82,7 @@ export default defineConfig({
       // uncomment to unregister service worker
       // selfDestroying: true,
     }),
-    viteCompression({ algorithm: "brotliCompress" }),
+    viteCompression(),
     visualizer(),
   ],
   build: {
