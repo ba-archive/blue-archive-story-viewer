@@ -29,6 +29,7 @@ function walk(dir, callback) {
 }
 
 walk(path.resolve(__dirname, "..", "public", "config", "yaml"), (pathname) => {
+  const startTime = new Date().getTime();
   fs.readFile(pathname, "utf8", (err, data) => {
     if (err) {
       console.log(`[${chalk.red("ERROR")}] ${pathname}\n${chalk.red(err)}`);
@@ -48,7 +49,12 @@ walk(path.resolve(__dirname, "..", "public", "config", "yaml"), (pathname) => {
                 `[${chalk.red("FAILED")}] ${jsonPath}: ${chalk.red(err)}`
               );
             } else {
-              console.log(`[${chalk.green("SUCCESS")}] ${jsonPath}`);
+              const endTime = new Date().getTime();
+              console.log(
+                `[${chalk.green("SUCCESS")}] ${jsonPath} ${chalk.gray(
+                  `${endTime - startTime}ms`
+                )}`
+              );
             }
           });
         } else {
@@ -57,7 +63,9 @@ walk(path.resolve(__dirname, "..", "public", "config", "yaml"), (pathname) => {
           );
         }
       } else {
-        console.log(`[${chalk.gray("IGNORED")}] ${pathname} (not YAML)`);
+        console.log(
+          `[${chalk.gray("IGNORED")}] ${chalk.gray(pathname + " (not YAML)")}`
+        );
       }
     }
   });

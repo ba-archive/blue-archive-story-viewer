@@ -1,5 +1,7 @@
 <script setup>
-defineProps({
+import { computed } from "vue";
+
+const props = defineProps({
   studentInfo: {
     type: Object,
     required: true,
@@ -35,10 +37,21 @@ defineProps({
 function getImagePath(id) {
   return `/image/avatar_students/${id}.webp`;
 }
+
+const availability = computed(() => {
+  return !!(
+    props.studentInfo.availability.momotalk ||
+    props.studentInfo.availability.story
+  );
+});
 </script>
 
 <template>
-  <div class="student-container" v-once>
+  <div
+    class="student-container"
+    :class="availability ? '' : 'unavailable'"
+    v-once
+  >
     <img
       class="student-avatar"
       :src="getImagePath(studentInfo.id)"
@@ -48,13 +61,37 @@ function getImagePath(id) {
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .student-container {
   display: grid;
+  position: relative;
   grid-template-areas: "avatar";
   place-items: center;
   border-radius: 0.5rem;
   overflow: hidden;
+
+  &.unavailable {
+    cursor: not-allowed;
+
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: hsla(0deg, 0%, 0%, 0.3);
+      width: 100%;
+      height: 100%;
+      content: "";
+    }
+
+    &::after {
+      position: absolute;
+      opacity: 0.8;
+      filter: drop-shadow(0 0 1rem #fff);
+      width: 25%;
+      height: 25%;
+      content: url("/src/assets/padlock.svg");
+    }
+  }
 }
 
 .student-avatar {

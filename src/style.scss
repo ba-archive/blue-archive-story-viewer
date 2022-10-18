@@ -7,7 +7,9 @@
 
 :root {
   --color-text-dark: #2f2f2f;
+  --color-text-ingame: #344a6e;
   --color-text-light: #fff;
+  --color-title-container: #eeeeeeee;
   --color-glass-panel: #c2c7d2b3;
   --color-text-glass-panel: #808080;
   --color-name-tag: #ffffffe0;
@@ -88,6 +90,12 @@ body,
 .flex-vertical {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.flex-horizontal {
+  display: flex;
+  flex-direction: row;
   align-items: center;
 }
 

@@ -1231,7 +1231,7 @@
   armorType: HeavyArmor
   weapon: AR
   availability:
-    momotalk: false
+    momotalk: true
     story: false
 - id: 10025
   familyName:
@@ -2128,7 +2128,7 @@
     story: false
 - id: 10052
   familyName:
-    cn: 生塩
+    cn: 生盐
     jp: 生塩
     en: Ushio
   name:

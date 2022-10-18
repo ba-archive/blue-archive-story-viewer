@@ -14,6 +14,19 @@ const routes = [
             path: ":id",
             name: "studentPersonalStory",
             component: () => import("../components/StudentPersonalHome.vue"),
+            children: [
+              {
+                path: "momotalk",
+                name: "momotalk",
+                component: () => import("../components/MomotalkContainer.vue"),
+              },
+              {
+                path: "story",
+                name: "studentStory",
+                component: () =>
+                  import("../components/StudentStoryContainer.vue"),
+              },
+            ],
           },
         ],
       },

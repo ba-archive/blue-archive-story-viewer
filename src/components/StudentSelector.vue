@@ -40,7 +40,8 @@ axios
 watch(
   () => route.path,
   (newRoute) => {
-    studentSelected.value = newRoute !== "/archive";
+    console.log(newRoute);
+    studentSelected.value = !/\/archive\/?$/.test(newRoute);
   }
 );
 
@@ -246,7 +247,7 @@ const filteredStudents = computed(() => {
             class="student-showcase"
             v-for="student in students"
             :key="student.id"
-            :to="`/archive/${student.id}`"
+            :to="`/archive/${student.id}/momotalk`"
             @click="studentSelected = true"
             v-show="filteredStudents.includes(student.id)"
           >
