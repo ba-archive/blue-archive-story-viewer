@@ -1,6 +1,6 @@
 <template>
   <div class="fill-screen center">
-    <div class="content-wrapper flex-vertical acrylic rounded">
+    <div class="content-wrapper flex-vertical rounded">
       社团剧情在做了在做了
     </div>
   </div>

@@ -6,27 +6,41 @@
 }
 
 :root {
+  --color-background: #edf4fb;
   --color-text-dark: #2f2f2f;
   --color-text-ingame: #344a6e;
   --color-text-light: #fff;
   --color-title-container: #eeeeeeee;
-  --color-glass-panel: #c2c7d2b3;
+  --color-glass-panel: #f4f7ff42;
+  --color-glass-panel-hover: #bcbfc47d;
+  --color-glass-panel-border: #eff3ff;
+  --color-glass-panel-border-darker: #5c606e;
   --color-text-glass-panel: #808080;
   --color-name-tag: #ffffffe0;
+  --color-tag-background: #ffffff;
   --color-text-striker: #cc1a25;
   --color-text-special: #006bff;
   --color-text-light-armor: #a70c19;
   --color-text-heavy-armor: #b26d1f;
   --color-text-unarmed: #216f9c;
-  --var-footer-height: 7vh;
-  --var-app-height: calc(100vh - var(--var-footer-height));
+  --color-main-panel: #f5f5f5;
+  --style-shadow-shallow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.08);
+  --style-shadow-component-near: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.12);
+  --style-shadow-component-far: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.08);
+  --style-shadow-component-farther: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.25);
 }
 
 //noinspection CssUnknownTarget
 body {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
   box-sizing: border-box;
   background: url("/image/homescreen/background.webp") no-repeat center;
   background-size: cover;
+  padding: 1rem;
+  width: 100vw;
+  height: 100vh;
   font-family: "Microsoft YaHei", "PingFang SC", -apple-system, system-ui,
     "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", BlinkMacSystemFont,
     "Helvetica Neue", "Hiragino Sans GB", Arial, sans-serif;
@@ -39,16 +53,17 @@ body {
 }
 
 #app {
-  width: 100vw;
-  height: 93vh;
-}
-
-body,
-#app {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  grid-column-gap: 1.5rem;
+  display: grid;
+  grid-template-columns: max-content auto;
+  grid-template-areas: "navigation-pane main";
+  flex: 1;
+  justify-items: stretch;
+  box-shadow: var(--style-shadow-shallow);
+  border: 0.2rem solid var(--color-glass-panel-border);
+  border-radius: 2rem;
+  background-color: var(--color-glass-panel);
+  padding: 1rem;
 }
 
 .acrylic {
@@ -61,21 +76,6 @@ body,
   overflow: hidden;
 }
 
-.fill-screen {
-  width: 100vw;
-  height: var(--main-height, 93vh);
-}
-
-.content-wrapper {
-  box-shadow: 0.25rem 0.25rem 1rem hsla(0deg, 0%, 0%, 0.25);
-  background-color: var(--color-glass-panel);
-  padding: 1rem;
-  width: 85vw;
-  max-width: 1400px;
-  height: calc(var(--main-height, 93vh) - 4rem);
-  overflow: scroll;
-}
-
 .center {
   display: flex;
   flex-direction: column;
@@ -85,6 +85,10 @@ body,
 
 .fill-width {
   width: 100%;
+}
+
+.fill-screen {
+  flex: 1;
 }
 
 .flex-vertical {
@@ -101,15 +105,4 @@ body,
 
 .rounded {
   border-radius: 0.5rem;
-}
-
-footer {
-  display: flex;
-  bottom: 0;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: var(--var-footer-height);
-  color: var(--color-text-dark);
 }

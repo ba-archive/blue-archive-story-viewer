@@ -141,128 +141,123 @@ const filteredStudents = computed(() => {
 </script>
 
 <template>
-  <div class="fill-screen center">
-    <div class="content-wrapper flex-vertical acrylic rounded">
-      <div class="loading" v-if="!ready">
-        <div class="spinner">
-          <span>{{ initProgress }}%</span>
-        </div>
-      </div>
-      <div id="student-selector-container" v-if="ready && !studentSelected">
-        <input
-          type="text"
-          id="name-filter"
-          :placeholder="studentNameFilter ? '' : '在学生姓名/黑话内搜索…'"
-          v-model="studentNameFilter"
-          @focus="$event.target.select()"
-          autocomplete="off"
-        />
-        <div id="student-filter">
-          <div class="filter-group">
-            <h2 class="filter-label">稀有度</h2>
-            <div class="filter-options">
-              <div
-                class="filter-tag"
-                role="checkbox"
-                v-for="rarity in studentRarities"
-                :class="isActivate('rarity', rarity)"
-                :key="rarity"
-                @click="handleFilter('rarity', rarity)"
-              >
-                ★ {{ rarity }}
-              </div>
-            </div>
-          </div>
-
-          <div class="filter-group">
-            <h2 class="filter-label">学校</h2>
-            <div class="filter-options">
-              <div
-                class="filter-tag"
-                role="checkbox"
-                v-for="affiliation in studentAffiliations"
-                :class="isActivate('affiliation', affiliation)"
-                :key="affiliation"
-                @click="handleFilter('affiliation', affiliation)"
-              >
-                {{ affiliation }}
-              </div>
-            </div>
-          </div>
-          <div class="filter-group">
-            <h2 class="filter-label">战术作用</h2>
-            <div class="filter-options">
-              <div
-                class="filter-tag tactic-type"
-                :class="`${studentType.toLowerCase()} ${isActivate(
-                  'type',
-                  studentType
-                )}`"
-                role="checkbox"
-                v-for="studentType in studentTypes"
-                :key="studentType"
-                @click="handleFilter('type', studentType)"
-              >
-                {{ studentType }}
-              </div>
-            </div>
-          </div>
-          <div class="filter-group">
-            <h2 class="filter-label">装甲类型</h2>
-            <div class="filter-options">
-              <div
-                class="filter-tag armor-type"
-                :class="`${armorType.toLowerCase()} ${isActivate(
-                  'armorType',
-                  armorType
-                )}`"
-                role="checkbox"
-                v-for="armorType in studentArmorTypes"
-                :key="armorType"
-                @click="handleFilter('armorType', armorType)"
-              >
-                {{ armorTypes[armorType].name || armorType }}
-              </div>
-            </div>
-          </div>
-          <div class="filter-group">
-            <h2 class="filter-label">社团</h2>
-            <div class="filter-options">
-              <div
-                class="filter-tag"
-                role="checkbox"
-                v-for="club in studentClubs"
-                :class="isActivate('club', club)"
-                :key="club"
-                @click="handleFilter('club', club)"
-              >
-                {{ club }}
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div id="student-list">
-          <router-link
-            class="student-showcase"
-            v-for="student in students"
-            :key="student.id"
-            :to="`/archive/${student.id}/momotalk`"
-            @click="studentSelected = true"
-            v-show="filteredStudents.includes(student.id)"
-          >
-            <StudentShowbox :student-info="student" />
-          </router-link>
-        </div>
-      </div>
-      <router-view v-if="studentSelected" />
+  <div class="loading" v-if="!ready">
+    <div class="spinner">
+      <span>{{ initProgress }}%</span>
     </div>
   </div>
+  <div id="student-selector-container" v-if="ready && !studentSelected">
+    <input
+      type="text"
+      id="name-filter"
+      :placeholder="studentNameFilter ? '' : '在学生姓名/黑话内搜索…'"
+      v-model="studentNameFilter"
+      @focus="$event.target.select()"
+      autocomplete="off"
+    />
+    <div id="student-filter">
+      <div class="filter-group">
+        <h2 class="filter-label">稀有度</h2>
+        <div class="filter-options">
+          <div
+            class="filter-tag"
+            role="checkbox"
+            v-for="rarity in studentRarities"
+            :class="isActivate('rarity', rarity)"
+            :key="rarity"
+            @click="handleFilter('rarity', rarity)"
+          >
+            ★ {{ rarity }}
+          </div>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <h2 class="filter-label">学校</h2>
+        <div class="filter-options">
+          <div
+            class="filter-tag"
+            role="checkbox"
+            v-for="affiliation in studentAffiliations"
+            :class="isActivate('affiliation', affiliation)"
+            :key="affiliation"
+            @click="handleFilter('affiliation', affiliation)"
+          >
+            {{ affiliation }}
+          </div>
+        </div>
+      </div>
+      <div class="filter-group">
+        <h2 class="filter-label">战术作用</h2>
+        <div class="filter-options">
+          <div
+            class="filter-tag tactic-type"
+            :class="`${studentType.toLowerCase()} ${isActivate(
+              'type',
+              studentType
+            )}`"
+            role="checkbox"
+            v-for="studentType in studentTypes"
+            :key="studentType"
+            @click="handleFilter('type', studentType)"
+          >
+            {{ studentType }}
+          </div>
+        </div>
+      </div>
+      <div class="filter-group">
+        <h2 class="filter-label">装甲类型</h2>
+        <div class="filter-options">
+          <div
+            class="filter-tag armor-type"
+            :class="`${armorType.toLowerCase()} ${isActivate(
+              'armorType',
+              armorType
+            )}`"
+            role="checkbox"
+            v-for="armorType in studentArmorTypes"
+            :key="armorType"
+            @click="handleFilter('armorType', armorType)"
+          >
+            {{ armorTypes[armorType].name || armorType }}
+          </div>
+        </div>
+      </div>
+      <div class="filter-group">
+        <h2 class="filter-label">社团</h2>
+        <div class="filter-options">
+          <div
+            class="filter-tag"
+            role="checkbox"
+            v-for="club in studentClubs"
+            :class="isActivate('club', club)"
+            :key="club"
+            @click="handleFilter('club', club)"
+          >
+            {{ club }}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="student-list">
+      <router-link
+        class="student-showcase"
+        v-for="student in students"
+        :key="student.id"
+        :to="`/archive/${student.id}/momotalk`"
+        @click="studentSelected = true"
+        v-show="filteredStudents.includes(student.id)"
+      >
+        <StudentShowbox :student-info="student" />
+      </router-link>
+    </div>
+  </div>
+  <router-view v-if="studentSelected" />
 </template>
 
 <style scoped lang="scss">
 #student-selector-container {
-  grid-gap: 1rem;
   display: grid;
   grid-template-columns: min-content auto;
   grid-template-areas:
@@ -276,8 +271,11 @@ const filteredStudents = computed(() => {
 
 #name-filter {
   grid-area: name-filter;
+  transition: all 0.125s ease-in-out;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
   border: none;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   background-color: #d7d9e1b3;
   padding: 0.5rem;
   width: calc(100% - 2rem);
@@ -287,8 +285,15 @@ const filteredStudents = computed(() => {
 
   &:focus {
     outline: none;
-    box-shadow: 0 0 0.5rem 2px #b3b3b3;
+    box-shadow: var(--style-shadow-component-near) inset;
   }
+}
+
+#student-container {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  width: 100%;
 }
 
 #student-filter {
@@ -316,8 +321,9 @@ const filteredStudents = computed(() => {
   transition: all 0.175s ease-in-out;
   cursor: pointer;
   margin: 0.25rem;
+  box-shadow: var(--style-shadow-component-far);
   border-radius: 0.5rem;
-  background-color: #ffffffb3;
+  background-color: var(--color-tag-background);
   padding: 0.25rem 0.5rem;
   color: var(--color-text-dark);
   font-weight: bold;
@@ -325,6 +331,7 @@ const filteredStudents = computed(() => {
   user-select: none;
 
   &.active {
+    box-shadow: 0 0 0 transparent;
     background-color: var(--color-text-dark);
     color: var(--color-text-light);
   }
@@ -391,14 +398,14 @@ const filteredStudents = computed(() => {
   content-visibility: auto;
   padding: 0 1rem 1rem 1rem;
   width: 100%;
-  overflow-x: visible;
+  height: available;
   overflow-y: scroll;
 }
 
 .student-showcase {
   display: inline-block;
   transition: all 0.375s ease-in-out;
-  box-shadow: 0.2rem 0.2rem 0.5rem hsla(0deg, 0%, 0%, 0.1);
+  box-shadow: var(--style-shadow-component-far);
   border-radius: 0.5rem;
   width: fit-content;
   height: fit-content;
@@ -406,13 +413,12 @@ const filteredStudents = computed(() => {
 
   &:hover {
     scale: 1.01;
-    box-shadow: 0.2rem 0.2rem 1rem hsla(0deg, 0%, 0%, 0.3);
+    box-shadow: var(--style-shadow-component-farther);
   }
 }
 
 .loading {
   display: flex;
-  position: absolute;
   justify-content: center;
   align-items: center;
   width: 100%;

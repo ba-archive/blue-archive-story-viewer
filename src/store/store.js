@@ -3,18 +3,21 @@ import { defineStore } from "pinia";
 export const mainStore = defineStore("main", {
   state: () => {
     return {
-      lang: "zh",
+      settings: {
+        lang: "zh",
+        theme: "light",
+      },
     };
   },
   persist: true,
   getters: {
     getLang: (state) => {
-      return state.lang;
+      return state.settings.lang;
     },
   },
   actions: {
     setLang(lang) {
-      this.lang = lang;
+      this.settings.lang = lang;
     },
   },
 });
