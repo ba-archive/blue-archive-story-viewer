@@ -47,6 +47,7 @@ select {
   border: none;
   background-color: transparent;
   padding: 0 0.5rem;
+  color: var(--color-text-main);
   font-size: inherit;
   line-height: inherit;
   font-family: inherit;

@@ -1,3 +1,4 @@
+//noinspection CssUnknownTarget
 @font-face {
   src: url("/font/bender-bold.woff2") format("woff2"),
     url("/font/bender-bold.woff") format("woff");
@@ -5,16 +6,17 @@
   font-display: swap;
 }
 
+//noinspection CssUnknownTarget
 html {
-  --color-background: #edf4fb;
-  --color-text-dark: #2f2f2f;
+  --color-main-background: #edf4fb;
+  --color-text-main: #2f2f2f;
   --color-text-ingame: #344a6e;
-  --color-text-light: #fff;
+  --color-text-contrast: #fff;
   --color-title-container: #eeeeeeee;
   --color-glass-panel: #f4f7ff42;
   --color-glass-panel-hover: #bcbfc451;
   --color-glass-panel-border: #eff3ff;
-  --color-glass-panel-border-darker: #5c606e;
+  --color-player-avatar-border: #5c606e;
   --color-text-glass-panel: #808080;
   --color-name-tag: #ffffffe0;
   --color-tag-background: #ffffff;
@@ -23,19 +25,36 @@ html {
   --color-text-light-armor: #a70c19;
   --color-text-heavy-armor: #b26d1f;
   --color-text-unarmed: #216f9c;
-  --color-main-panel: #f5f5f5;
-  --color-switch-track: #ffffff;
+  --color-switch-track: #fff;
   --style-switch-track-shadow: inset 0.2rem 0.2rem 0.35rem #d9d9d9,
-    inset -0.15rem -0.15rem 0.3rem #ffffff;
+    inset -0.15rem -0.15rem 0.3rem #fff;
   --style-switch-texture: linear-gradient(145deg, #c3f0ff, #a4cade);
-  --style-switch-shadow: 0 0 0.4rem #8aa8ba;
+  --style-switch-shadow: 0.1rem 0.1rem 0.4rem #8aa8ba;
   --style-shadow-shallow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.08);
   --style-shadow-component-near: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.12);
   --style-shadow-component-far: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.08);
   --style-shadow-component-farther: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.25);
+  --style-background-image: url("/image/homescreen/background.webp");
 }
 
 html[data-theme="dark"] {
+  --color-main-background: #343e50;
+  --color-text-main: #eee;
+  --color-text-ingame: #eee;
+  --color-text-contrast: #fff;
+  --color-title-container: #404040ed;
+  --color-glass-panel: #f4f7ff42;
+  --color-glass-panel-border: #4b93dc;
+  --color-player-avatar-border: #eee;
+  --color-text-glass-panel: #eee;
+  --color-name-tag: #454545e0;
+  --color-tag-background: #494949;
+  --color-switch-track: #333;
+  --style-switch-track-shadow: inset 0.2rem 0.2rem 0.35rem #262626,
+    inset -0.15rem -0.15rem 0.3rem #000;
+  --style-switch-texture: linear-gradient(145deg, #b8b8b8, #616161);
+  --style-switch-shadow: 0.1rem 0.1rem 0.4rem #616161;
+  --style-background-image: url("/image/homescreen/background-dark.webp");
 }
 
 //noinspection CssUnknownTarget
@@ -44,7 +63,7 @@ body {
   justify-content: center;
   align-items: stretch;
   box-sizing: border-box;
-  background: url("/image/homescreen/background.webp") no-repeat center;
+  background: var(--style-background-image) no-repeat center;
   background-size: cover;
   padding: 1rem;
   width: 100vw;

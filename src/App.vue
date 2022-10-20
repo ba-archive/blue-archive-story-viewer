@@ -1,6 +1,7 @@
 <script setup>
 import { computed, onMounted, ref, watch } from "vue";
 import { useRoute } from "vue-router";
+import HomeWelcomeScreen from "./components/HomeWelcomeScreen.vue";
 import LanguageSwitcher from "./components/LanguageSelector.vue";
 import ThemeSwitcher from "./components/ThemeSwitcher.vue";
 
@@ -57,15 +58,7 @@ const getMainPageClass = computed(() =>
     </div>
   </div>
   <div id="main-view" :class="getMainPageClass">
-    <div
-      id="home-welcome"
-      v-if="isMainPage"
-      class="center flex-vertical fill-screen"
-    >
-      <img class="mika-sticker" src="/src/assets/mika_sticker.webp" />
-      <p>先从左边选择项目哦</p>
-      <p>(现在只做了学生个人剧情)</p>
-    </div>
+    <home-welcome-screen :isMainPage="isMainPage" v-if="isMainPage" />
     <router-view></router-view>
   </div>
 </template>
@@ -86,12 +79,14 @@ const getMainPageClass = computed(() =>
   align-items: center;
   margin-bottom: 2rem;
   margin-left: 1rem;
+  color: var(--color-text-main);
 
   img {
     backdrop-filter: brightness(0.8) saturate(0.8);
-    outline: 0.15rem var(--color-glass-panel-border-darker) solid;
+    outline: 0.15rem var(--color-player-avatar-border) solid;
     outline-offset: 0.15rem;
     border-radius: 50%;
+    -webkit-border-radius: 50%;
     width: 3rem;
     height: 3rem;
   }
@@ -112,7 +107,7 @@ const getMainPageClass = computed(() =>
   display: flex;
   border-radius: 0.5rem;
   padding: 0.25rem 1rem;
-  color: var(--color-text-dark);
+  color: var(--color-text-main);
   text-decoration: none;
 
   &.router-link-active:not(.link-home),
@@ -140,23 +135,11 @@ const getMainPageClass = computed(() =>
   flex-direction: column;
   align-items: stretch;
   border-radius: 2rem;
-  background-color: var(--color-background);
+  background-color: var(--color-main-background);
   overflow-y: scroll;
 
   &.main-page {
     background-color: transparent;
-  }
-}
-
-#home-welcome {
-  img {
-    transform: scaleX(-1);
-    max-width: 200px;
-  }
-
-  p {
-    font-weight: bold;
-    font-size: 1.5rem;
   }
 }
 

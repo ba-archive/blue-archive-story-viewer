@@ -7,9 +7,6 @@ const currentTheme = computed(() => store.getTheme);
 
 function switchTheme(theme) {
   const htmlElement = document.querySelector("html");
-  if (currentTheme.value === theme) {
-    return;
-  }
   switch (theme) {
     case "light":
       htmlElement.dataset.theme = "light";
@@ -18,6 +15,12 @@ function switchTheme(theme) {
       htmlElement.dataset.theme = "dark";
       break;
   }
+}
+if (
+  window.matchMedia &&
+  window.matchMedia("(prefers-color-scheme: dark)").matches
+) {
+  store.setTheme("dark");
 }
 
 switchTheme(currentTheme.value);

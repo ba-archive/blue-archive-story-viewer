@@ -26,5 +26,6 @@ stats.html
 
 public/image/homescreen/*
 !public/image/homescreen/background.webp
+!public/image/homescreen/background-dark.webp
 
 test

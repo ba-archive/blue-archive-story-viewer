@@ -311,6 +311,10 @@ const filteredStudents = computed(() => {
   margin-bottom: 1rem;
 }
 
+.filter-label {
+  color: var(--color-text-main);
+}
+
 .filter-options {
   display: flex;
   flex-wrap: wrap;
@@ -325,15 +329,15 @@ const filteredStudents = computed(() => {
   border-radius: 0.5rem;
   background-color: var(--color-tag-background);
   padding: 0.25rem 0.5rem;
-  color: var(--color-text-dark);
+  color: var(--color-text-main);
   font-weight: bold;
   font-size: 1rem;
   user-select: none;
 
   &.active {
     box-shadow: 0 0 0 transparent;
-    background-color: var(--color-text-dark);
-    color: var(--color-text-light);
+    background-color: black;
+    color: var(--color-text-main);
   }
 }
 
@@ -347,7 +351,7 @@ const filteredStudents = computed(() => {
 
     &.active {
       background-color: var(--color-text-striker);
-      color: var(--color-text-light);
+      color: var(--color-text-contrast);
     }
   }
 
@@ -356,7 +360,7 @@ const filteredStudents = computed(() => {
 
     &.active {
       background-color: var(--color-text-special);
-      color: var(--color-text-light);
+      color: var(--color-text-contrast);
     }
   }
 }
@@ -367,7 +371,7 @@ const filteredStudents = computed(() => {
 
     &.active {
       background-color: var(--color-text-light-armor);
-      color: var(--color-text-light);
+      color: var(--color-text-contrast);
     }
   }
   &.heavyarmor {
@@ -375,7 +379,7 @@ const filteredStudents = computed(() => {
 
     &.active {
       background-color: var(--color-text-heavy-armor);
-      color: var(--color-text-light);
+      color: var(--color-text-contrast);
     }
   }
   &.unarmed {
@@ -383,7 +387,7 @@ const filteredStudents = computed(() => {
 
     &.active {
       background-color: var(--color-text-unarmed);
-      color: var(--color-text-light);
+      color: var(--color-text-contrast);
     }
   }
 }
@@ -430,10 +434,11 @@ const filteredStudents = computed(() => {
     align-items: center;
     animation: spin 1s linear infinite;
     border: 0.2rem solid;
-    border-color: var(--color-text-dark) transparent;
+    border-color: var(--color-text-main) transparent;
     border-radius: 50%;
     width: 4rem;
     height: 4rem;
+    color: var(--color-text-main);
 
     & span {
       animation: spin 1s linear infinite;

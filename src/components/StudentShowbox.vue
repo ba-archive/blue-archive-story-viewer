@@ -108,7 +108,7 @@ const availability = computed(() => {
   background-color: var(--color-name-tag);
   padding: 0.2rem 0;
   width: 100%;
-  color: var(--color-text-dark);
+  color: var(--color-text-main);
   font-weight: bold;
   text-align: center;
 }
