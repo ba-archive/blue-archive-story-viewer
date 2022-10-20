@@ -40,7 +40,6 @@ axios
 watch(
   () => route.path,
   (newRoute) => {
-    console.log(newRoute);
     studentSelected.value = !/\/archive\/?$/.test(newRoute);
   }
 );
@@ -336,8 +335,8 @@ const filteredStudents = computed(() => {
 
   &.active {
     box-shadow: 0 0 0 transparent;
-    background-color: black;
-    color: var(--color-text-main);
+    background-color: var(--color-tag-active-background);
+    color: var(--color-tag-active);
   }
 }
 

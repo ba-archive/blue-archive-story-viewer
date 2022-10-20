@@ -50,6 +50,9 @@ const getMainPageClass = computed(() =>
       <router-link class="nav-link level-1" to="/archive"
         >学生个人剧情</router-link
       >
+      <router-link class="nav-link level-1" to="/contributors"
+        >成为贡献者</router-link
+      >
     </div>
 
     <div id="settings">

@@ -45,6 +45,11 @@ const routes = [
         name: "社团剧情",
         component: () => import("../components/GroupStoryHome.vue"),
       },
+      {
+        path: "/contributors",
+        name: "Contributors",
+        component: () => import("../components/ContributorCredits.vue"),
+      },
     ],
   },
 ];

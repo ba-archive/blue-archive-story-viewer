@@ -20,6 +20,8 @@ html {
   --color-text-glass-panel: #808080;
   --color-name-tag: #ffffffe0;
   --color-tag-background: #ffffff;
+  --color-tag-active-background: #2f2f2f;
+  --color-tag-active: #ffffff;
   --color-text-striker: #cc1a25;
   --color-text-special: #006bff;
   --color-text-light-armor: #a70c19;
@@ -35,6 +37,8 @@ html {
   --style-shadow-component-far: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.08);
   --style-shadow-component-farther: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.25);
   --style-background-image: url("/image/homescreen/background.webp");
+
+  color: var(--color-text-main);
 }
 
 html[data-theme="dark"] {
@@ -49,6 +53,8 @@ html[data-theme="dark"] {
   --color-text-glass-panel: #eee;
   --color-name-tag: #454545e0;
   --color-tag-background: #494949;
+  --color-tag-active-background: #000;
+  --color-tag-active: #eee;
   --color-switch-track: #333;
   --style-switch-track-shadow: inset 0.2rem 0.2rem 0.35rem #262626,
     inset -0.15rem -0.15rem 0.3rem #000;
