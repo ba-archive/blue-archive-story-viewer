@@ -12,7 +12,7 @@ const students = ref([]);
 const initProgress = ref(0);
 const studentSelected = ref(false);
 
-studentSelected.value = false;
+studentSelected.value = !/\/archive\/?$/.test(route.path);
 axios
   .get("/config/json/students.json", {
     onDownloadProgress: (progressEvent) => {

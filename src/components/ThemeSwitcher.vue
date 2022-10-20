@@ -1,6 +1,5 @@
 <script setup>
-import { storeToRefs } from "pinia";
-import { computed, watch } from "vue";
+import { computed } from "vue";
 import { mainStore } from "../store/store.js";
 
 const store = mainStore();
