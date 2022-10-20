@@ -46,7 +46,7 @@ select {
   outline: none;
   border: none;
   background-color: transparent;
-  padding: 0 1rem;
+  padding: 0 0.5rem;
   font-size: inherit;
   line-height: inherit;
   font-family: inherit;
@@ -57,9 +57,9 @@ select {
   display: flex;
   flex-direction: row;
   align-items: center;
-  border: solid 0.1rem var(--color-glass-panel-border-darker);
+  box-shadow: var(--style-switch-track-shadow);
   border-radius: 0.5rem;
-  background-color: var(--color-title-container);
+  background-color: var(--color-switch-track);
   width: fit-content;
   user-select: none;
 

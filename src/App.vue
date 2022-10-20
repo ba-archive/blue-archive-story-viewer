@@ -1,7 +1,8 @@
 <script setup>
 import { computed, onMounted, ref, watch } from "vue";
 import { useRoute } from "vue-router";
-import LanguageSwitcher from "./components/LanguageSwitcher.vue";
+import LanguageSwitcher from "./components/LanguageSelector.vue";
+import ThemeSwitcher from "./components/ThemeSwitcher.vue";
 
 const route = useRoute();
 const isMainPage = ref(true);
@@ -52,6 +53,7 @@ const getMainPageClass = computed(() =>
 
     <div id="settings">
       <language-switcher />
+      <theme-switcher />
     </div>
   </div>
   <div id="main-view" :class="getMainPageClass">
@@ -124,8 +126,9 @@ const getMainPageClass = computed(() =>
 }
 
 #settings {
-  display: flex;
-  flex-direction: row;
+  grid-gap: 1rem;
+  display: grid;
+  grid-auto-flow: column;
   margin-top: auto;
   margin-left: 1rem;
 }

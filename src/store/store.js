@@ -14,10 +14,16 @@ export const mainStore = defineStore("main", {
     getLang: (state) => {
       return state.settings.lang;
     },
+    getTheme: (state) => {
+      return state.settings.theme;
+    },
   },
   actions: {
     setLang(lang) {
       this.settings.lang = lang;
+    },
+    setTheme(theme) {
+      this.settings.theme = theme;
     },
   },
 });
