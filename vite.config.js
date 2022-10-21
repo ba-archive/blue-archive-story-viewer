@@ -80,7 +80,7 @@ export default defineConfig({
         ],
       },
       // uncomment to unregister service worker
-      // selfDestroying: true,
+      selfDestroying: true,
     }),
     viteCompression(),
     visualizer(),

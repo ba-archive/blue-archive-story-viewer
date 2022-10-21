@@ -64,7 +64,7 @@ function isPossibleName(searchString, studentNamesList) {
   lowercaseStudentNamesList.forEach((studentName) => {
     if (studentName) {
       if (
-        similarity(lowerCaseSearchString, studentName) > 0.7 ||
+        similarity(lowerCaseSearchString, studentName) > 0.66 ||
         lowerCaseSearchString.includes(studentName) ||
         studentName.includes(lowerCaseSearchString) ||
         studentName.startsWith(lowerCaseSearchString) ||
