@@ -6,12 +6,12 @@
     </p>
     <p>如果你：</p>
     <ul>
+      <li><strong>有项目管理经验（团队有九个人了）</strong>，或者</li>
       <li>愿意提供没有覆盖到的学生外号，或者</li>
+      <li>有 BA 的解包经验（需要包里的美术资源和 momotalk 文档），或者</li>
       <li>
-        <strong>愿意提供和学生的 momotalk 的日服对话截图（这个很重要！）</strong
-        >，或者
+        愿意提供和学生的 momotalk 的日服对话截图，或者
       </li>
-      <li>有 BA 的解包经验（播放器需要包里的美术资源），或者</li>
       <li>
         了解 Vue / React, 愿意加入
         <a
@@ -30,9 +30,22 @@
           动画库（这个也很重要，不然只能播片了……），</strong
         >
       </li>
-      <p>欢迎在 NGA 当中留言！（链接我发完贴之后更新上来）</p>
+      <p>
+        欢迎在
+        <a href="https://nga.178.com/read.php?tid=33938856" target="_blank"
+          >NGA 帖子</a
+        >
+        当中留言联系我！
+      </p>
 
       <h2>同时感谢以下朋友的贡献：（排名不分先后）</h2>
+      <p><a href="https://nga.178.com/nuke.php?func=ucp&uid=60668025">Shinku_cc</a> 前端</p>
+      <p><a href="https://nga.178.com/nuke.php?func=ucp&uid=64394869">ourandream</a> 前端</p>
+      <p>_Aisle 前端</p>
+      <p><a href="https://nga.178.com/nuke.php?func=ucp&uid=60919291">EllisNewman</a> 解包，美术</p>
+      <p><a href="https://nga.178.com/nuke.php?func=ucp&uid=63222501">陆合正</a> momotalk 资源提供</p>
+      <p><a href="https://nga.178.com/nuke.php?func=ucp&uid=1761181">骑猪追月</a> 后端</p>
+      <p><a href="https://nga.178.com/nuke.php?func=ucp&uid=42164110">第一个mt</a> 全栈</p>
     </ul>
   </div>
 </template>
