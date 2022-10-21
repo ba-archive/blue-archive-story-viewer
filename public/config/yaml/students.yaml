@@ -7,7 +7,7 @@
     cn: 阿露
     jp: アル
     en: Aru
-  nickname: [社长, 愉悦姐]
+  nickname: [社长, 愉悦姐, 亚瑠, 阿鲁]
   club: 征信社68
   affiliation: 格赫那
   rarity: 3
@@ -26,7 +26,7 @@
     cn: 艾米
     jp: エイミ
     en: Eimi
-  nickname: []
+  nickname: [英美]
   club: 特异现象搜查部
   affiliation: 千年
   rarity: 3
@@ -45,7 +45,7 @@
     cn: 晴奈
     jp: ハルナ
     en: Haruna
-  nickname: [神秘狙]
+  nickname: [神秘狙, 羽留奈, 美食狙]
   club: 美食俱乐部
   affiliation: 格赫那
   rarity: 3
@@ -64,7 +64,7 @@
     cn: 日富美
     jp: ヒフミ
     en: Hifumi
-  nickname: [小天使, 一二三, "123", 浮士德]
+  nickname: [小天使, 一二三, "123", 浮士德, 鸡妹]
   club: 补习部
   affiliation: 圣三一
   rarity: 3
@@ -83,7 +83,7 @@
     cn: 日奈
     jp: ヒナ
     en: Hina
-  nickname: [委员长, 魔王]
+  nickname: [委员长, 魔王, 阳奈]
   club: 风纪委员会
   affiliation: 格赫那
   rarity: 3
@@ -121,7 +121,7 @@
     cn: 伊织
     jp: イオリ
     en: Iori
-  nickname: [佐仓]
+  nickname: [佐仓, 佐三枪]
   club: 风纪委员会
   affiliation: 格赫那
   rarity: 3
@@ -140,7 +140,7 @@
     cn: 真纪
     jp: マキ
     en: Maki
-  nickname: []
+  nickname: [真姬, 彩蛋, 涂鸦]
   club: 真理部
   affiliation: 千年
   rarity: 3
@@ -216,7 +216,7 @@
     cn: 瞬
     jp: シュン
     en: Shun
-  nickname: [梅花狙, 教官]
+  nickname: [梅花狙, 教官, 旬]
   club: 梅花园
   affiliation: 山海经
   rarity: 3
@@ -235,7 +235,7 @@
     cn: 堇
     jp: スミレ
     en: Sumire
-  nickname: []
+  nickname: [运动妹]
   club: 训练部
   affiliation: 千年
   rarity: 3
@@ -254,7 +254,7 @@
     cn: 鹤城
     jp: ツルギ
     en: Tsurugi
-  nickname: [颜艺姐]
+  nickname: [颜艺姐, 弦生]
   club: 正义实现委员会
   affiliation: 圣三一
   rarity: 3
@@ -273,7 +273,7 @@
     cn: 茜
     jp: アカネ
     en: Akane
-  nickname: [破甲女仆]
+  nickname: [破甲女仆, 朱音]
   club: C&C
   affiliation: 千年
   rarity: 2
@@ -311,7 +311,7 @@
     cn: 亚伽里
     jp: アカリ
     en: Akari
-  nickname: []
+  nickname: [朱里, 明里]
   club: 美食俱乐部
   affiliation: 格赫那
   rarity: 2
@@ -349,7 +349,7 @@
     cn: 野宫
     jp: ノノミ
     en: Nonomi
-  nickname: [富婆]
+  nickname: [富婆, nnm]
   club: 废校对策委员会
   affiliation: 阿拜多斯
   rarity: 2
@@ -368,7 +368,7 @@
     cn: 佳代子
     jp: カヨコ
     en: Kayoko
-  nickname: []
+  nickname: [恐惧枪]
   club: 征信社68
   affiliation: 格赫那
   rarity: 2
@@ -387,7 +387,7 @@
     cn: 睦月
     jp: ムツキ
     en: Mutsuki
-  nickname: []
+  nickname: [无月, 地雷妹]
   club: 征信社68
   affiliation: 格赫那
   rarity: 2
@@ -406,7 +406,7 @@
     cn: 淳子
     jp: ジュンコ
     en: Junko
-  nickname: []
+  nickname: [牛牛, 纯子, 丸子]
   club: 美食俱乐部
   affiliation: 格赫那
   rarity: 2
@@ -425,7 +425,7 @@
     cn: 芹香
     jp: セリカ
     en: Serika
-  nickname: [黑猫]
+  nickname: [黑猫, 茜香]
   club: 废校对策委员会
   affiliation: 阿拜多斯
   rarity: 2
@@ -463,7 +463,7 @@
     cn: 优香
     jp: ユウカ
     en: Yuuka
-  nickname: [没包人, 半包人, 管账婆, 阻冲之]
+  nickname: [没包人, 半包人, 管账婆, 阻冲之, 佑香]
   club: 研讨会
   affiliation: 千年
   rarity: 2
@@ -482,7 +482,7 @@
     cn: 遥香
     jp: ハルカ
     en: Haruka
-  nickname: []
+  nickname: [春香, 德棍]
   club: 征信社68
   affiliation: 格赫那
   rarity: 1
@@ -520,7 +520,7 @@
     cn: 柯托莉
     jp: コトリ
     en: Kotori
-  nickname: []
+  nickname: [护盾妹, 亚都梨]
   club: 工程部
   affiliation: 千年
   rarity: 1
@@ -558,7 +558,7 @@
     cn: 菲娜
     jp: フィーナ
     en: Pina
-  nickname: []
+  nickname: [不死鸟]
   club: 祭典运营委员会
   affiliation: 百鬼夜行
   rarity: 1
@@ -577,7 +577,7 @@
     cn: 响
     jp: ヒビキ
     en: Hibiki
-  nickname: []
+  nickname: [迫击炮]
   club: 工程部
   affiliation: 千年
   rarity: 3
@@ -615,7 +615,7 @@
     cn: 纱绫
     jp: サヤ
     en: Saya
-  nickname: [老鼠, 老鼠妹]
+  nickname: [鼠鼠, 老鼠妹]
   club: 炼丹术研究会
   affiliation: 山海经
   rarity: 3
@@ -672,7 +672,7 @@
     cn: 花绘
     jp: ハナエ
     en: Hanae
-  nickname: []
+  nickname: [花江]
   club: 救护骑士团
   affiliation: 圣三一
   rarity: 2
@@ -710,7 +710,7 @@
     cn: 歌原
     jp: ウタハ
     en: Utaha
-  nickname: []
+  nickname: [炮台]
   club: 工程部
   affiliation: 千年
   rarity: 2
@@ -881,7 +881,7 @@
     cn: 泉奈
     jp: イズナ
     en: Izuna
-  nickname: []
+  nickname: [伊树菜, 小狐狸, 忍忍]
   club: 忍术研究部
   affiliation: 百鬼夜行
   rarity: 3
@@ -938,7 +938,7 @@
     cn: 绿
     jp: ミドリ
     en: Midori
-  nickname: []
+  nickname: [翠]
   club: 游戏开发部
   affiliation: 千年
   rarity: 3
@@ -957,7 +957,7 @@
     cn: 桃井
     jp: モモイ
     en: Momoi
-  nickname: []
+  nickname: [桃衣, 粉猫]
   club: 游戏开发部
   affiliation: 千年
   rarity: 2
@@ -1128,7 +1128,7 @@
     cn: 鹤城(泳装)
     jp: ツルギ（水着）
     en: Tsurugi (Swimsuit)
-  nickname: [水颜艺]
+  nickname: [水颜艺, 水鹤城]
   club: 正义实现委员会
   affiliation: 圣三一
   rarity: 1
@@ -1147,7 +1147,7 @@
     cn: 日富美(泳装)
     jp: ヒフミ（水着）
     en: Hifumi (Swimsuit)
-  nickname: [小天使, 一二三, "123", 浮士德]
+  nickname: [小天使, 一二三, "123", 浮士德, 水鸡妹, 水日富美]
   club: 补习部
   affiliation: 圣三一
   rarity: 3
@@ -1166,7 +1166,7 @@
     cn: 日奈(泳装)
     jp: ヒナ（水着）
     en: Hina (Swimsuit)
-  nickname: [水日奈, 水魔王]
+  nickname: [水日奈, 水魔王, 水阳奈]
   club: 风纪委员会
   affiliation: 格赫那
   rarity: 3
@@ -1242,7 +1242,7 @@
     cn: 瞬(幼女)
     jp: シュン（幼女）
     en: Shun (Small)
-  nickname: [铜花瞬]
+  nickname: [铜花瞬, 旬]
   club: 梅花园
   affiliation: 山海经
   rarity: 3
@@ -1299,7 +1299,7 @@
     cn: 尼禄(兔女郎)
     jp: ネル（バニーガール）
     en: Neru (Bunny)
-  nickname: [兔尼禄]
+  nickname: [兔女郎尼禄, 红兔]
   club: C&C
   affiliation: 千年
   rarity: 3
@@ -1318,7 +1318,7 @@
     cn: 花凛(兔女郎)
     jp: カリン（バニーガール）
     en: Karin (Bunny)
-  nickname: [黑皮, 花梨, 兔花凛]
+  nickname: [黑皮, 花梨, 兔女郎花凛, 黑兔]
   club: C&C
   affiliation: 千年
   rarity: 3
@@ -1375,7 +1375,7 @@
     cn: 玛丽
     jp: マリー
     en: Mari
-  nickname: []
+  nickname: [修女]
   club: 修女会
   affiliation: 圣三一
   rarity: 2
@@ -1451,7 +1451,7 @@
     cn: 千夏(温泉)
     jp: チナツ（温泉）
     en: Chinatsu (Hot Spring)
-  nickname: [闪避奶]
+  nickname: [闪避奶, 温泉千夏]
   club: 风纪委员会
   affiliation: 格赫那
   rarity: 3
@@ -1508,7 +1508,7 @@
     cn: 阿露(正月)
     jp: アル（正月）
     en: Aru (New Year)
-  nickname: []
+  nickname: [春社长]
   club: 征信社68
   affiliation: 格赫那
   rarity: 3
@@ -1527,7 +1527,7 @@
     cn: 睦月(正月)
     jp: ムツキ（正月）
     en: Mutsuki (New Year)
-  nickname: [春月]
+  nickname: [春月, 正月睦月]
   club: 征信社68
   affiliation: 格赫那
   rarity: 3
@@ -1584,7 +1584,7 @@
     cn: 吹雪
     jp: フブキ
     en: Fubuki
-  nickname: []
+  nickname: [摆烂人]
   club: 瓦尔基里安全局
   affiliation: 瓦尔基里
   rarity: 1
@@ -1603,7 +1603,7 @@
     cn: 濑名
     jp: セナ
     en: Sena
-  nickname: []
+  nickname: [救护车]
   club: 救急医学部
   affiliation: 格赫那
   rarity: 3
@@ -1698,7 +1698,7 @@
     cn: 玛利娜
     jp: マリナ
     en: Marina
-  nickname: []
+  nickname: [保洁阿姨]
   club: 红冬事务局
   affiliation: 红冬
   rarity: 3
@@ -1793,7 +1793,7 @@
     cn: 伊吕波
     jp: イロハ
     en: Iroha
-  nickname: [168]
+  nickname: [168, 彩叶]
   club: 万魔殿
   affiliation: 格赫那
   rarity: 3
@@ -1831,7 +1831,7 @@
     cn: 月咏
     jp: ツクヨ
     en: Tsukuyo
-  nickname: []
+  nickname: [大只女]
   club: 忍术研究部
   affiliation: 百鬼夜行
   rarity: 3
@@ -1926,7 +1926,7 @@
     cn: 野宫(泳装)
     jp: ノノミ（水着）
     en: Nonomi (Swimsuit)
-  nickname: [水富婆]
+  nickname: [水富婆, 水nnm]
   club: 废校对策委员会
   affiliation: 阿拜多斯
   rarity: 3
@@ -1945,7 +1945,7 @@
     cn: 绫音(泳装)
     jp: アヤネ（水着）
     en: Ayane (Swimsuit)
-  nickname: [水绫音]
+  nickname: [水绫音, 直升机]
   club: 废校对策委员会
   affiliation: 阿拜多斯
   rarity: 1
@@ -2002,7 +2002,7 @@
     cn: 泉奈(泳装)
     jp: イズナ（水着）
     en: Izuna (Swimsuit)
-  nickname: [小狐狸]
+  nickname: [小狐狸, 水忍忍]
   club: 忍术研究部
   affiliation: 百鬼夜行
   rarity: 3
@@ -2097,7 +2097,7 @@
     cn: ココナ
     jp: ココナ
     en: Kokona
-  nickname: []
+  nickname: [心奈]
   club: 梅花园
   affiliation: 山海经
   rarity: 3
@@ -2135,7 +2135,7 @@
     cn: ノア
     jp: ノア
     en: Noa
-  nickname: [生理盐水]
+  nickname: [生理盐水, 诺亚]
   club: 研讨会
   affiliation: 千年
   rarity: 3
@@ -2154,7 +2154,7 @@
     cn: 响（応援団）
     jp: ヒビキ（応援団）
     en: Hibiki (Cheerleader)
-  nickname: []
+  nickname: [迫击炮, 拉拉响, 啦啦响]
   club: 工程部
   affiliation: 千年
   rarity: 1
@@ -2173,7 +2173,7 @@
     cn: 茜(兔女郎)
     jp: アカネ（バニーガール）
     en: Akane (Bunny)
-  nickname: []
+  nickname: [白兔]
   club: C&C
   affiliation: 千年
   rarity: 3
