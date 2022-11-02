@@ -30,7 +30,9 @@ const getMainPageClass = computed(() =>
 <template>
   <div id="side-menu-panel">
     <div id="id-sensei">
-      <img src="/src/assets/arona_icon.webp" alt="Arona" />
+      <div class="avatar-wrapper center">
+        <img src="/src/assets/arona_icon.webp" alt="Arona" />
+      </div>
       <div id="welcome-message">
         <p>欢迎，</p>
         <p contenteditable="true">Sensei</p>
@@ -86,14 +88,20 @@ const getMainPageClass = computed(() =>
   margin-left: 1rem;
   color: var(--color-text-main);
 
-  img {
+  .avatar-wrapper {
     backdrop-filter: brightness(0.8) saturate(0.8);
-    outline: 0.15rem var(--color-player-avatar-border) solid;
-    outline-offset: 0.15rem;
+    -webkit-backdrop-filter: brightness(0.95) saturate(0.8);
+    border: 0.15rem var(--color-player-avatar-border) solid;
     border-radius: 50%;
     -webkit-border-radius: 50%;
-    width: 3rem;
-    height: 3rem;
+    padding: 0.15rem;
+
+    img {
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      width: 3rem;
+      height: 3rem;
+    }
   }
 
   #welcome-message {
