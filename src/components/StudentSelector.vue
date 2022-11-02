@@ -149,6 +149,7 @@ const filteredStudents = computed(() => {
     <input
       type="text"
       id="name-filter"
+      class="rounded-medium"
       :placeholder="studentNameFilter ? '' : '在学生姓名/黑话内搜索…'"
       v-model="studentNameFilter"
       @focus="$event.target.select()"
@@ -159,7 +160,7 @@ const filteredStudents = computed(() => {
         <h2 class="filter-label">稀有度</h2>
         <div class="filter-options">
           <div
-            class="filter-tag"
+            class="filter-tag rounded-small"
             role="checkbox"
             v-for="rarity in studentRarities"
             :class="isActivate('rarity', rarity)"
@@ -175,7 +176,7 @@ const filteredStudents = computed(() => {
         <h2 class="filter-label">学校</h2>
         <div class="filter-options">
           <div
-            class="filter-tag"
+            class="filter-tag rounded-small"
             role="checkbox"
             v-for="affiliation in studentAffiliations"
             :class="isActivate('affiliation', affiliation)"
@@ -190,7 +191,7 @@ const filteredStudents = computed(() => {
         <h2 class="filter-label">战术作用</h2>
         <div class="filter-options">
           <div
-            class="filter-tag tactic-type"
+            class="filter-tag tactic-type rounded-small"
             :class="`${studentType.toLowerCase()} ${isActivate(
               'type',
               studentType
@@ -208,7 +209,7 @@ const filteredStudents = computed(() => {
         <h2 class="filter-label">装甲类型</h2>
         <div class="filter-options">
           <div
-            class="filter-tag armor-type"
+            class="filter-tag armor-type rounded-small"
             :class="`${armorType.toLowerCase()} ${isActivate(
               'armorType',
               armorType
@@ -226,7 +227,7 @@ const filteredStudents = computed(() => {
         <h2 class="filter-label">社团</h2>
         <div class="filter-options">
           <div
-            class="filter-tag"
+            class="filter-tag rounded-small"
             role="checkbox"
             v-for="club in studentClubs"
             :class="isActivate('club', club)"
@@ -241,7 +242,7 @@ const filteredStudents = computed(() => {
 
     <div id="student-list">
       <router-link
-        class="student-showcase"
+        class="student-showcase rounded-small"
         v-for="student in students"
         :key="student.id"
         :to="`/archive/${student.id}/momotalk`"
@@ -274,7 +275,6 @@ const filteredStudents = computed(() => {
   margin-top: 1.5rem;
   margin-bottom: 1rem;
   border: none;
-  border-radius: 1rem;
   background-color: #d7d9e1b3;
   padding: 0.5rem;
   width: calc(100% - 2rem);
@@ -284,7 +284,7 @@ const filteredStudents = computed(() => {
 
   &:focus {
     outline: none;
-    box-shadow: var(--style-shadow-component-near) inset;
+    box-shadow: var(--style-shadow-near) inset;
   }
 }
 
@@ -324,8 +324,7 @@ const filteredStudents = computed(() => {
   transition: all 0.175s ease-in-out;
   cursor: pointer;
   margin: 0.25rem;
-  box-shadow: var(--style-shadow-component-far);
-  border-radius: 0.5rem;
+  box-shadow: var(--style-shadow-far);
   background-color: var(--color-tag-background);
   padding: 0.25rem 0.5rem;
   color: var(--color-text-main);
@@ -408,15 +407,14 @@ const filteredStudents = computed(() => {
 .student-showcase {
   display: inline-block;
   transition: all 0.375s ease-in-out;
-  box-shadow: var(--style-shadow-component-far);
-  border-radius: 0.5rem;
+  box-shadow: var(--style-shadow-far);
   width: fit-content;
   height: fit-content;
   text-decoration: none;
 
   &:hover {
     scale: 1.01;
-    box-shadow: var(--style-shadow-component-farther);
+    box-shadow: var(--style-shadow-farther);
   }
 }
 

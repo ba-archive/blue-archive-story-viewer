@@ -30,7 +30,7 @@ function handleOpenTalks(index) {
 </script>
 
 <template>
-  <div class="flex-vertical rounded">
+  <div class="flex-vertical rounded-small">
     <div
       class="momotalks-view-container flex-vertical"
       v-for="(chat, index) in momotalks.chats"

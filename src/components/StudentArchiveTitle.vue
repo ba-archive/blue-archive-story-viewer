@@ -13,7 +13,7 @@ function handleClick() {
 
 <template>
   <div
-    class="archive-title"
+    class="archive-title rounded-small"
     tabindex="0"
     @click="handleClick"
     @keydown.enter="handleClick"
@@ -50,7 +50,6 @@ function handleClick() {
   align-items: center;
   cursor: pointer;
   box-shadow: 0.2rem 0.2rem 1rem hsla(0deg, 0%, 0%, 0.2);
-  border-radius: 0.5rem;
   background: var(--color-title-container);
   padding: 0.5rem;
   width: 100%;

@@ -36,7 +36,7 @@ function toggleTheme() {
   <div id="theme-switcher">
     <img id="dark-mode-icon" src="/src/assets/dark-mode.svg" alt="Dark Mode" />
     <input
-      class="switch"
+      class="switch rounded-medium"
       :checked="'light' === currentTheme"
       type="checkbox"
       @change="toggleTheme"
@@ -85,7 +85,6 @@ input.switch {
   outline: none !important;
   box-shadow: var(--style-switch-track-shadow);
   border: none !important;
-  border-radius: 1rem;
   background-color: var(--color-switch-track);
   min-width: 3rem;
   max-width: 3rem;

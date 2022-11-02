@@ -37,20 +37,22 @@ const getMainPageClass = computed(() =>
       </div>
     </div>
     <div id="navigation">
-      <router-link class="nav-link level-1 link-home" to="/">Home</router-link>
-      <router-link class="nav-link level-1" to="/mainStory"
+      <router-link class="nav-link level-1 link-home rounded-small" to="/"
+        >Home</router-link
+      >
+      <router-link class="nav-link level-1 rounded-small" to="/mainStory"
         >主线剧情</router-link
       >
-      <router-link class="nav-link level-1" to="/miniStory"
+      <router-link class="nav-link level-1 rounded-small" to="/miniStory"
         >Mini Story</router-link
       >
-      <router-link class="nav-link level-1" to="/groupStory"
+      <router-link class="nav-link level-1 rounded-small" to="/groupStory"
         >社团剧情</router-link
       >
-      <router-link class="nav-link level-1" to="/archive"
+      <router-link class="nav-link level-1 rounded-small" to="/archive"
         >学生个人剧情</router-link
       >
-      <router-link class="nav-link level-1" to="/contributors"
+      <router-link class="nav-link level-1 rounded-small" to="/contributors"
         >成为贡献者</router-link
       >
     </div>
@@ -60,7 +62,7 @@ const getMainPageClass = computed(() =>
       <theme-switcher />
     </div>
   </div>
-  <div id="main-view" :class="getMainPageClass">
+  <div id="main-view" class="rounded-large" :class="getMainPageClass">
     <home-welcome-screen :isMainPage="isMainPage" v-if="isMainPage" />
     <router-view></router-view>
   </div>
@@ -108,7 +110,6 @@ const getMainPageClass = computed(() =>
 
 .nav-link {
   display: flex;
-  border-radius: 0.5rem;
   padding: 0.25rem 1rem;
   color: var(--color-text-main);
   text-decoration: none;
@@ -137,7 +138,6 @@ const getMainPageClass = computed(() =>
   flex: 1;
   flex-direction: column;
   align-items: stretch;
-  border-radius: 2rem;
   background-color: var(--color-main-background);
   overflow-y: scroll;
 

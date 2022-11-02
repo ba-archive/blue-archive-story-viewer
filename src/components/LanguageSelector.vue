@@ -22,7 +22,7 @@ function handleLangChange(event) {
 </script>
 
 <template>
-  <div class="selection">
+  <div class="selection rounded-small">
     <select
       class="language-switcher"
       v-model="selectedLang"
@@ -59,7 +59,6 @@ select {
   flex-direction: row;
   align-items: center;
   box-shadow: var(--style-switch-track-shadow);
-  border-radius: 0.5rem;
   background-color: var(--color-switch-track);
   width: fit-content;
   user-select: none;

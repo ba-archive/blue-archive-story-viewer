@@ -1,6 +1,6 @@
 <template>
   <div class="fill-screen center">
-    <div class="content-wrapper flex-vertical rounded">Story Viewer</div>
+    <div class="content-wrapper flex-vertical rounded-small">Story Viewer</div>
   </div>
 </template>
 

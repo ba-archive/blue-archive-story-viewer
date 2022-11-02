@@ -48,7 +48,7 @@ const availability = computed(() => {
 
 <template>
   <div
-    class="student-container"
+    class="student-container rounded-small"
     :class="availability ? '' : 'unavailable'"
     v-once
   >
@@ -67,7 +67,6 @@ const availability = computed(() => {
   position: relative;
   grid-template-areas: "avatar";
   place-items: center;
-  border-radius: 0.5rem;
   overflow: hidden;
 
   &.unavailable {

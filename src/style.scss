@@ -33,9 +33,9 @@ html {
   --style-switch-texture: linear-gradient(145deg, #c3f0ff, #a4cade);
   --style-switch-shadow: 0.1rem 0.1rem 0.4rem #8aa8ba;
   --style-shadow-shallow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.08);
-  --style-shadow-component-near: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.12);
-  --style-shadow-component-far: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.08);
-  --style-shadow-component-farther: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.25);
+  --style-shadow-near: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.12);
+  --style-shadow-far: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.08);
+  --style-shadow-farther: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.25);
   --style-background-image: url("/image/homescreen/background.webp");
 
   color: var(--color-text-main);
@@ -136,6 +136,29 @@ body {
   align-items: center;
 }
 
-.rounded {
+.rounded-small {
   border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+}
+
+.rounded-medium {
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+}
+
+.rounded-large {
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+}
+
+.shadow-near {
+  box-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.12);
+}
+
+.shadow-far {
+  box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.08);
+}
+
+.shadow-farther {
+  box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.25);
 }
