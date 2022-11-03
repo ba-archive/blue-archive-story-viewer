@@ -23,7 +23,7 @@ specifiers:
   terser: 5.15.1
   vite: 3.2.2
   vite-plugin-compression: 0.5.1
-  vite-plugin-pwa: 0.13.1
+  vite-plugin-pwa: 0.13.2
   vue: 3.2.41
   vue-router: 4.1.6
 
@@ -54,7 +54,7 @@ devDependencies:
   terser: 5.15.1
   vite: 3.2.2_sass@1.55.0+terser@5.15.1
   vite-plugin-compression: 0.5.1_vite@3.2.2
-  vite-plugin-pwa: 0.13.1_vite@3.2.2
+  vite-plugin-pwa: 0.13.2_vite@3.2.2
 
 packages:
 
@@ -3949,8 +3949,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-pwa/0.13.1_vite@3.2.2:
-    resolution: {integrity: sha512-NR3dIa+o2hzlzo4lF4Gu0cYvoMjSw2DdRc6Epw1yjmCqWaGuN86WK9JqZie4arNlE1ZuWT3CLiMdiX5wcmmUmg==}
+  /vite-plugin-pwa/0.13.2_vite@3.2.2:
+    resolution: {integrity: sha512-RwWJBaeMATrdicNFCXWb3aUELnmTk4Um72hE97nz9HKYG165kQGUE/TSrXOLExiPWJ23doV1Uw4IcHnOix17aA==}
     peerDependencies:
       vite: ^3.1.0
     dependencies:
