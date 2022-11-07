@@ -21,7 +21,7 @@ specifiers:
   rollup-plugin-visualizer: 5.8.3
   sass: 1.56.0
   terser: 5.15.1
-  vite: 3.2.2
+  vite: 3.2.3
   vite-plugin-compression: 0.5.1
   vite-plugin-pwa: 0.13.2
   vue: 3.2.41
@@ -37,8 +37,8 @@ dependencies:
 
 devDependencies:
   '@trivago/prettier-plugin-sort-imports': 3.3.1_prettier@2.7.1
-  '@vitejs/plugin-legacy': 2.3.1_terser@5.15.1+vite@3.2.2
-  '@vitejs/plugin-vue': 3.2.0_vite@3.2.2+vue@3.2.41
+  '@vitejs/plugin-legacy': 2.3.1_terser@5.15.1+vite@3.2.3
+  '@vitejs/plugin-vue': 3.2.0_vite@3.2.3+vue@3.2.41
   chalk: 5.1.2
   eslint: 8.27.0
   eslint-config-prettier: 8.5.0_eslint@8.27.0
@@ -52,9 +52,9 @@ devDependencies:
   rollup-plugin-visualizer: 5.8.3
   sass: 1.56.0
   terser: 5.15.1
-  vite: 3.2.2_sass@1.56.0+terser@5.15.1
-  vite-plugin-compression: 0.5.1_vite@3.2.2
-  vite-plugin-pwa: 0.13.2_vite@3.2.2
+  vite: 3.2.3_sass@1.56.0+terser@5.15.1
+  vite-plugin-compression: 0.5.1_vite@3.2.3
+  vite-plugin-pwa: 0.13.2_vite@3.2.3
 
 packages:
 
@@ -1521,7 +1521,7 @@ packages:
     resolution: {integrity: sha512-F5DIZ36YVLE+PN+Zwws4kJogq47hNgX3Nx6WyDJ3kcplxyke3XIzB8uK5n/Lpm1HBsbGzd6nmGehL8cPekP+Tg==}
     dev: true
 
-  /@vitejs/plugin-legacy/2.3.1_terser@5.15.1+vite@3.2.2:
+  /@vitejs/plugin-legacy/2.3.1_terser@5.15.1+vite@3.2.3:
     resolution: {integrity: sha512-J5KaGBlSt2tEYPVjM/C8dA6DkRzkFkbPe+Xb4IX5G+XOV5OGbVAfkMjKywdrkO3gGynO8S98i71Lmsff4cWkCQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -1534,17 +1534,17 @@ packages:
       regenerator-runtime: 0.13.10
       systemjs: 6.13.0
       terser: 5.15.1
-      vite: 3.2.2_sass@1.56.0+terser@5.15.1
+      vite: 3.2.3_sass@1.56.0+terser@5.15.1
     dev: true
 
-  /@vitejs/plugin-vue/3.2.0_vite@3.2.2+vue@3.2.41:
+  /@vitejs/plugin-vue/3.2.0_vite@3.2.3+vue@3.2.41:
     resolution: {integrity: sha512-E0tnaL4fr+qkdCNxJ+Xd0yM31UwMkQje76fsDVBBUCoGOUPexu2VDUYHL8P4CwV+zMvWw6nlRw19OnRKmYAJpw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^3.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 3.2.2_sass@1.56.0+terser@5.15.1
+      vite: 3.2.3_sass@1.56.0+terser@5.15.1
       vue: 3.2.41
     dev: true
 
@@ -3936,7 +3936,7 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /vite-plugin-compression/0.5.1_vite@3.2.2:
+  /vite-plugin-compression/0.5.1_vite@3.2.3:
     resolution: {integrity: sha512-5QJKBDc+gNYVqL/skgFAP81Yuzo9R+EAf19d+EtsMF/i8kFUpNi3J/H01QD3Oo8zBQn+NzoCIFkpPLynoOzaJg==}
     peerDependencies:
       vite: '>=2.0.0'
@@ -3944,12 +3944,12 @@ packages:
       chalk: 4.1.2
       debug: 4.3.4
       fs-extra: 10.1.0
-      vite: 3.2.2_sass@1.56.0+terser@5.15.1
+      vite: 3.2.3_sass@1.56.0+terser@5.15.1
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite-plugin-pwa/0.13.2_vite@3.2.2:
+  /vite-plugin-pwa/0.13.2_vite@3.2.3:
     resolution: {integrity: sha512-RwWJBaeMATrdicNFCXWb3aUELnmTk4Um72hE97nz9HKYG165kQGUE/TSrXOLExiPWJ23doV1Uw4IcHnOix17aA==}
     peerDependencies:
       vite: ^3.1.0
@@ -3958,7 +3958,7 @@ packages:
       fast-glob: 3.2.12
       pretty-bytes: 6.0.0
       rollup: 2.79.1
-      vite: 3.2.2_sass@1.56.0+terser@5.15.1
+      vite: 3.2.3_sass@1.56.0+terser@5.15.1
       workbox-build: 6.5.4
       workbox-window: 6.5.4
     transitivePeerDependencies:
@@ -3966,17 +3966,20 @@ packages:
       - supports-color
     dev: true
 
-  /vite/3.2.2_sass@1.56.0+terser@5.15.1:
-    resolution: {integrity: sha512-pLrhatFFOWO9kS19bQ658CnRYzv0WLbsPih6R+iFeEEhDOuYgYCX2rztUViMz/uy/V8cLCJvLFeiOK7RJEzHcw==}
+  /vite/3.2.3_sass@1.56.0+terser@5.15.1:
+    resolution: {integrity: sha512-h8jl1TZ76eGs3o2dIBSsvXDLb1m/Ec1iej8ZMdz+PsaFUsftZeWe2CZOI3qogEsMNaywc17gu0q6cQDzh/weCQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
+      '@types/node': '>= 14'
       less: '*'
       sass: '*'
       stylus: '*'
       sugarss: '*'
       terser: ^5.4.0
     peerDependenciesMeta:
+      '@types/node':
+        optional: true
       less:
         optional: true
       sass:
