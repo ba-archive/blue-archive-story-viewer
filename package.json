@@ -38,6 +38,6 @@
     "terser": "5.15.1",
     "vite": "3.2.3",
     "vite-plugin-compression": "0.5.1",
-    "vite-plugin-pwa": "0.13.2"
+    "vite-plugin-pwa": "0.13.3"
   }
 }
