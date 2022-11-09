@@ -16,7 +16,7 @@
     "fastest-levenshtein": "1.0.16",
     "pinia": "2.0.23",
     "pinia-plugin-persistedstate": "2.3.0",
-    "vue": "3.2.42",
+    "vue": "3.2.43",
     "vue-router": "4.1.6"
   },
   "devDependencies": {
