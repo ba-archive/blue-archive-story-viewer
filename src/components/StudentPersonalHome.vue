@@ -1,5 +1,3 @@
-<script setup></script>
-
 <template>
   <div class="fill-width flex-vertical rounded-small">
     <div class="student-home-nav-bar">
@@ -14,4 +12,8 @@
   </div>
 </template>
 
-<style scoped></style>
+<script setup lang="ts">
+//
+</script>
+
+<style scoped lang="scss"></style>
