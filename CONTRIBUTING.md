@@ -1,6 +1,6 @@
 # 开发规范
 
-2022 年 10 月 30 日后，项目使用 TS + Vue3 + Vite 进行开发。
+项目使用 TS + Vue3 + Vite 进行开发。
 
 其中，Vue SFC 组件使用 `<script setup>` 写法。
 
