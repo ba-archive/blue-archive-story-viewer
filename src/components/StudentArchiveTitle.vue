@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 const emit = defineEmits(["clicked"]);
 defineProps({
   title: { type: String, required: true },
@@ -21,7 +21,7 @@ function handleClick() {
   >
     <p class="section-title">
       <span class="ordered-list">{{
-        (index + 1).toString().padStart(2, "0")
+        (index ? `${index + 1}` : "").toString().padStart(2, "0")
       }}</span>
       <span class="title">{{ title }}</span>
     </p>

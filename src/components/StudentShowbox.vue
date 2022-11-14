@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { computed } from "vue";
 
 const props = defineProps({
@@ -34,7 +34,7 @@ const props = defineProps({
   },
 });
 
-function getImagePath(id) {
+function getImagePath(id: number) {
   return `/image/avatar_students/${id}.webp`;
 }
 

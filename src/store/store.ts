@@ -1,6 +1,7 @@
 import { defineStore } from "pinia";
 
-export const mainStore = defineStore("main", {
+export const mainStore = defineStore({
+  id: "main",
   state: () => {
     return {
       settings: {
@@ -19,10 +20,10 @@ export const mainStore = defineStore("main", {
     },
   },
   actions: {
-    setLang(lang) {
+    setLang(lang: string) {
       this.settings.lang = lang;
     },
-    setTheme(theme) {
+    setTheme(theme: string) {
       this.settings.theme = theme;
     },
   },

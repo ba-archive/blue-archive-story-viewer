@@ -1,17 +1,16 @@
-<script setup>
+<script setup lang="ts">
 import axios from "axios";
 // eslint-disable-next-line no-unused-vars
-import { storeToRefs } from "pinia";
-import { ref } from "vue";
+import { Ref, ref } from "vue";
 import { useRoute } from "vue-router";
-import { mainStore } from "../store/store.js";
+import { mainStore } from "../store/store";
 import MomotalkViewer from "./MomotalkViewer.vue";
 import StudentArchiveTitle from "./StudentArchiveTitle.vue";
 
 const store = mainStore();
 
-const momotalks = ref([]);
-const opentalks = ref([]);
+const momotalks = ref({ chats: [], id: 0 });
+const opentalks: Ref<number[]> = ref([]);
 const route = useRoute();
 
 axios
@@ -20,7 +19,7 @@ axios
     momotalks.value = res.data;
   });
 
-function handleOpenTalks(index) {
+function handleOpenTalks(index: number) {
   if (opentalks.value.includes(index)) {
     opentalks.value = opentalks.value.filter((i) => i !== index);
   } else {
@@ -33,7 +32,7 @@ function handleOpenTalks(index) {
   <div class="flex-vertical rounded-small">
     <div
       class="momotalks-view-container flex-vertical"
-      v-for="(chat, index) in momotalks.chats"
+      v-for="(chat, index) in momotalks?.chats"
       :key="index"
     >
       <student-archive-title

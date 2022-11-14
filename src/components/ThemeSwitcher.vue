@@ -1,18 +1,18 @@
-<script setup>
+<script setup lang="ts">
 import { computed } from "vue";
-import { mainStore } from "../store/store.js";
+import { mainStore } from "../store/store";
 
 const store = mainStore();
 const currentTheme = computed(() => store.getTheme);
 
-function switchTheme(theme) {
+function switchTheme(theme: string) {
   const htmlElement = document.querySelector("html");
   switch (theme) {
     case "light":
-      htmlElement.dataset.theme = "light";
+      htmlElement ? (htmlElement.dataset.theme = "light") : 0;
       break;
     case "dark":
-      htmlElement.dataset.theme = "dark";
+      htmlElement ? (htmlElement.dataset.theme = "dark") : 0;
       break;
   }
 }

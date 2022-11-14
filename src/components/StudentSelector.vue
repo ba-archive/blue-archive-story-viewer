@@ -1,29 +1,32 @@
-<script setup>
+<script setup lang="ts">
 import axios from "axios";
-import { computed, ref, watch } from "vue";
+import { Ref, computed, ref, watch } from "vue";
 import { useRoute } from "vue-router";
-import { filterStudents } from "../util/filterStudents.js";
+import { AppliedFilter } from "../types/AppliedFilter";
+import { Student, StudentAttributes } from "../types/Student";
+import { filterStudents } from "../util/filterStudents";
 import StudentShowbox from "./StudentShowbox.vue";
 
 const route = useRoute();
 
 const ready = ref(false);
-const students = ref([]);
+const students: Ref<Student[]> = ref([]);
 const initProgress = ref(0);
 const studentSelected = ref(false);
 
 studentSelected.value = !/\/archive\/?$/.test(route.path);
+
 axios
   .get("/config/json/students.json", {
     onDownloadProgress: (progressEvent) => {
       initProgress.value = Math.floor(
-        (progressEvent.loaded * 100) / progressEvent.total
+        ((progressEvent.loaded || 0) * 100) / (progressEvent.total || 1)
       );
     },
   })
   .then((response) => {
     try {
-      students.value = response.data.sort((a, b) =>
+      students.value = response.data.sort((a: Student, b: Student) =>
         a.name.cn.localeCompare(b.name.cn, "zh-Hans-CN", {
           sensitivity: "accent",
         })
@@ -58,11 +61,14 @@ const studentsNameList = computed(() => {
   });
 });
 
-function getCohortAttribute(attributeString, needSort = true) {
-  const filtered = [];
-  students.value.forEach((student) => {
-    if (!filtered.includes(student[attributeString])) {
-      filtered.push(student[attributeString]);
+function getCohortAttribute(
+  attribute: string,
+  needSort = true
+): number[] | string[] {
+  const filtered: any[] = [];
+  students.value.forEach((student: Student) => {
+    if (!filtered.includes(student[attribute as keyof StudentAttributes])) {
+      filtered.push(student[attribute as keyof StudentAttributes]);
     }
   });
   if (needSort) {
@@ -77,14 +83,34 @@ function getCohortAttribute(attributeString, needSort = true) {
   return filtered;
 }
 
-const armorTypes = {
-  LightArmor: { name: "轻装甲", order: 1 },
-  HeavyArmor: { name: "重装甲", order: 2 },
-  Unarmed: { name: "神秘装甲", order: 3 },
-};
+const armorTypes = [
+  {
+    string: "LightArmor",
+    name: "轻装甲",
+    order: 1,
+  },
+  {
+    string: "HeavyArmor",
+    name: "重装甲",
+    order: 2,
+  },
+  {
+    string: "Unarmed",
+    name: "神秘装甲",
+    order: 3,
+  },
+];
 
-function sortArmorType(a, b) {
-  return armorTypes[a].order - armorTypes[b].order || -1;
+function sortArmorType(a: string | number, b: string | number): number {
+  const armorTypeA = armorTypes.find((type) => type.string === a) || {
+    name: "0",
+  };
+  const armorTypeB = armorTypes.find((type) => type.string === b) || {
+    name: "1",
+  };
+  return armorTypeA.name.localeCompare(armorTypeB.name, "zh-Hans-CN", {
+    sensitivity: "accent",
+  });
 }
 
 const studentRarities = computed(() => getCohortAttribute("rarity", false));
@@ -92,7 +118,7 @@ const studentClubs = computed(() => getCohortAttribute("club"));
 const studentAffiliations = computed(() => getCohortAttribute("affiliation"));
 const studentTypes = computed(() => getCohortAttribute("type", false));
 const studentArmorTypes = computed(() =>
-  getCohortAttribute("armorType", false).sort(sortArmorType)
+  getCohortAttribute("armorType", false).sort((a, b) => sortArmorType(a, b))
 );
 
 const studentNameFilter = ref("");
@@ -105,7 +131,9 @@ const appliedFilters = ref({
   armorType: [],
 });
 
-const previousFilters = JSON.parse(localStorage.getItem("appliedFilters"));
+const previousFilters = localStorage.getItem("appliedFilters")
+  ? JSON.parse(localStorage.getItem("appliedFilters") || "{}")
+  : false;
 if (previousFilters) {
   appliedFilters.value.searchString = previousFilters.searchString || "";
   appliedFilters.value.rarity = previousFilters.rarity || [];
@@ -115,17 +143,20 @@ if (previousFilters) {
   appliedFilters.value.armorType = previousFilters.armorType || [];
 }
 
-function isActivate(property, value) {
-  return appliedFilters.value[property].includes(value) ? "active" : "";
+function isActivate(property: string, value: string | number) {
+  return appliedFilters.value[property as keyof AppliedFilter].includes(value)
+    ? "active"
+    : "";
 }
 
-function handleFilter(property, value) {
-  if (appliedFilters.value[property].includes(value)) {
-    appliedFilters.value[property] = appliedFilters.value[property].filter(
-      (item) => item !== value
-    );
+function handleFilter(property: string, value: string | number) {
+  if (appliedFilters.value[property as keyof AppliedFilter].includes(value)) {
+    appliedFilters.value[property as keyof AppliedFilter] =
+      appliedFilters.value[property as keyof AppliedFilter].filter(
+        (item: string | number) => item !== value
+      );
   } else {
-    appliedFilters.value[property].push(value);
+    appliedFilters.value[property as keyof AppliedFilter].push(value);
   }
 }
 
@@ -219,7 +250,9 @@ const filteredStudents = computed(() => {
             :key="armorType"
             @click="handleFilter('armorType', armorType)"
           >
-            {{ armorTypes[armorType].name || armorType }}
+            {{
+              armorTypes.find((el) => armorType === el.string).name || armorType
+            }}
           </div>
         </div>
       </div>

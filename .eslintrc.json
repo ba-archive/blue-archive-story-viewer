@@ -3,9 +3,18 @@
     "browser": true,
     "es2021": true
   },
-  "extends": ["eslint:recommended", "plugin:vue/vue3-essential", "prettier"],
-  "plugins": ["vue", "import", "sort-exports"],
+  "parser": "vue-eslint-parser",
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:vue/vue3-essential",
+    "@vue/eslint-config-typescript",
+    "prettier"
+  ],
+  "plugins": ["vue", "import", "sort-exports", "@typescript-eslint"],
   "rules": {
+    "@typescript-eslint/no-explicit-any": "warn",
     "indent": ["error", 2, { "SwitchCase": 1 }],
     "max-len": ["error", { "code": 120 }],
     "linebreak-style": ["error", "unix"],

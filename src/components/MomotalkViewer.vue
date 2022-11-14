@@ -1,7 +1,7 @@
-<script setup>
+<script setup lang="ts">
 import axios from "axios";
 // eslint-disable-next-line no-unused-vars
-import { ref, watch } from "vue";
+import { ref } from "vue";
 import { useRoute } from "vue-router";
 
 const route = useRoute();

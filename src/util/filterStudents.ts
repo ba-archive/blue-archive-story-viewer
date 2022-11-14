@@ -1,56 +1,15 @@
-/**
- * @namespace appliedFilter
- * @type {Object}
- * @property {String} searchString
- * @property {String} rarity
- * @property {String} club
- * @property {String} affiliation
- * @property {String} type
- * @property {String} armorType
- */
-
-/**
- * @namespace studentNames
- * @type {Object}
- * @property {String} id
- * @property {Array} allNames
- */
-
-/**
- * @namespace student
- * @type {Object}
- * @property {String} id
- * @property {Object} familyName
- * @property {String} familyName.cn
- * @property {String} familyName.jp
- * @property {String} familyName.en
- * @property {Object} name
- * @property {String} name.cn
- * @property {String} name.jp
- * @property {String} name.en
- * @property {Array} nickname
- * @property {String} club
- * @property {String} affiliation
- * @property {Number} rarity
- * @property {String} type
- * @property {String} armorType
- * @property {String} weapon
- * @property {Object} availability
- */
-
-/**
- * @function filterStudents
- * @param {Object<appliedFilter>} appliedFilters
- * @param {Array<studentNames>} studentsNameList
- * @param {Array} studentsList
- */
 import { distance } from "fastest-levenshtein";
+import { AppliedFilter } from "../types/AppliedFilter";
+import { Student, StudentAttributes, StudentNames } from "../types/Student";
 
-function similarity(s1, s2) {
+function similarity(s1: string, s2: string): number {
   return 1 - distance(s1, s2) / Math.max(s1.length, s2.length);
 }
 
-function isPossibleName(searchString, studentNamesList) {
+function isPossibleName(
+  searchString: string,
+  studentNamesList: string[] | undefined
+): boolean {
   let found = false;
   const specialCharacters = new RegExp(
     /[，。！“”/《》？：；「」{}｜\\"$&+,:;=?@#|'<>.^*()%!\-\s]/g
@@ -58,10 +17,10 @@ function isPossibleName(searchString, studentNamesList) {
   const lowerCaseSearchString = searchString
     .toLowerCase()
     .replaceAll(specialCharacters, "");
-  const lowercaseStudentNamesList = studentNamesList.map((name) =>
+  const lowercaseStudentNamesList = studentNamesList?.map((name) =>
     name.toString().toLowerCase().replaceAll(specialCharacters, "")
   );
-  lowercaseStudentNamesList.forEach((studentName) => {
+  lowercaseStudentNamesList?.forEach((studentName) => {
     if (studentName) {
       if (
         similarity(lowerCaseSearchString, studentName) > 0.66 ||
@@ -78,11 +37,21 @@ function isPossibleName(searchString, studentNamesList) {
   return found;
 }
 
-function filterStudentsByProperty(property, criteria, initialList) {
-  return initialList.filter((student) => criteria.includes(student[property]));
+function filterStudentsByProperty(
+  property: string,
+  criteria: string[] | number[],
+  initialList: Student[]
+): Student[] {
+  return initialList.filter((student: Student) =>
+    criteria.includes(student[property as keyof StudentAttributes])
+  );
 }
 
-function filterStudents(appliedFilters, studentsNameList, studentsList) {
+function filterStudents(
+  appliedFilters: AppliedFilter,
+  studentsNameList: StudentNames[],
+  studentsList: Student[]
+): string[] {
   if (
     "" === appliedFilters.searchString &&
     0 === appliedFilters.rarity.length &&
@@ -95,12 +64,12 @@ function filterStudents(appliedFilters, studentsNameList, studentsList) {
   }
   let result = studentsList;
   if (appliedFilters.searchString) {
-    const listFilteredByString = [];
+    const listFilteredByString: Student[] = [];
     studentsList.forEach((student) => {
       if (
         isPossibleName(
           appliedFilters.searchString,
-          studentsNameList.find((s) => s.id === student.id).allNames
+          studentsNameList.find((s) => s.id === student.id)?.allNames
         )
       ) {
         listFilteredByString.push(student);
