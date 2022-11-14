@@ -1,5 +1,5 @@
 export interface Student {
-  id: string;
+  id: number;
   familyName: {
     cn: string;
     jp: string;
@@ -32,6 +32,6 @@ export interface StudentAttributes {
 }
 
 export interface StudentNames {
-  id: string;
-  allNames: string[];
+  id: number;
+  allNames: (string | number)[];
 }

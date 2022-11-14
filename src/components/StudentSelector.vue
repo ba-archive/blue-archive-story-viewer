@@ -3,7 +3,7 @@ import axios from "axios";
 import { Ref, computed, ref, watch } from "vue";
 import { useRoute } from "vue-router";
 import { AppliedFilter } from "../types/AppliedFilter";
-import { Student, StudentAttributes } from "../types/Student";
+import { Student, StudentAttributes, StudentNames } from "../types/Student";
 import { filterStudents } from "../util/filterStudents";
 import StudentShowbox from "./StudentShowbox.vue";
 
@@ -47,7 +47,7 @@ watch(
   }
 );
 
-const studentsNameList = computed(() => {
+const studentsNameList = computed<StudentNames[]>(() => {
   return students.value.map((student) => {
     return {
       id: student.id,
@@ -64,8 +64,8 @@ const studentsNameList = computed(() => {
 function getCohortAttribute(
   attribute: string,
   needSort = true
-): number[] | string[] {
-  const filtered: any[] = [];
+): (string | number)[] {
+  const filtered: (string | number)[] = [];
   students.value.forEach((student: Student) => {
     if (!filtered.includes(student[attribute as keyof StudentAttributes])) {
       filtered.push(student[attribute as keyof StudentAttributes]);
@@ -74,7 +74,9 @@ function getCohortAttribute(
   if (needSort) {
     try {
       return filtered.sort((a, b) =>
-        a.localeCompare(b, "zh-Hans-CN", { sensitivity: "accent" })
+        a
+          .toString()
+          .localeCompare(b.toString(), "zh-Hans-CN", { sensitivity: "accent" })
       );
     } catch (e) {
       return filtered;
@@ -122,7 +124,7 @@ const studentArmorTypes = computed(() =>
 );
 
 const studentNameFilter = ref("");
-const appliedFilters = ref({
+const appliedFilters: Ref<AppliedFilter> = ref({
   searchString: studentNameFilter,
   rarity: [],
   club: [],
@@ -144,23 +146,42 @@ if (previousFilters) {
 }
 
 function isActivate(property: string, value: string | number) {
-  return appliedFilters.value[property as keyof AppliedFilter].includes(value)
+  return (
+    appliedFilters.value[property as keyof AppliedFilter] as (string | number)[]
+  ).includes(value)
     ? "active"
     : "";
 }
 
 function handleFilter(property: string, value: string | number) {
-  if (appliedFilters.value[property as keyof AppliedFilter].includes(value)) {
-    appliedFilters.value[property as keyof AppliedFilter] =
-      appliedFilters.value[property as keyof AppliedFilter].filter(
-        (item: string | number) => item !== value
-      );
+  if (
+    (
+      appliedFilters.value[property as keyof AppliedFilter] as (
+        | string
+        | number
+      )[]
+    ).includes(value)
+  ) {
+    (appliedFilters.value[property as keyof AppliedFilter] as (
+      | string
+      | number
+    )[]) = (
+      appliedFilters.value[property as keyof AppliedFilter] as (
+        | string
+        | number
+      )[]
+    ).filter((item: string | number) => item !== value);
   } else {
-    appliedFilters.value[property as keyof AppliedFilter].push(value);
+    (
+      appliedFilters.value[property as keyof AppliedFilter] as (
+        | string
+        | number
+      )[]
+    ).push(value);
   }
 }
 
-const filteredStudents = computed(() => {
+const filteredStudents = computed<number[]>(() => {
   localStorage.setItem("appliedFilters", JSON.stringify(appliedFilters.value));
   return filterStudents(
     appliedFilters.value,
@@ -168,6 +189,10 @@ const filteredStudents = computed(() => {
     students.value
   );
 });
+
+function handleFocus(event: Event) {
+  (event.target as HTMLInputElement).select();
+}
 </script>
 
 <template>
@@ -183,7 +208,7 @@ const filteredStudents = computed(() => {
       class="rounded-medium"
       :placeholder="studentNameFilter ? '' : '在学生姓名/黑话内搜索…'"
       v-model="studentNameFilter"
-      @focus="$event.target.select()"
+      @focus="handleFocus"
       autocomplete="off"
     />
     <div id="student-filter">
@@ -223,7 +248,7 @@ const filteredStudents = computed(() => {
         <div class="filter-options">
           <div
             class="filter-tag tactic-type rounded-small"
-            :class="`${studentType.toLowerCase()} ${isActivate(
+            :class="`${studentType.toString().toLowerCase()} ${isActivate(
               'type',
               studentType
             )}`"
@@ -241,7 +266,7 @@ const filteredStudents = computed(() => {
         <div class="filter-options">
           <div
             class="filter-tag armor-type rounded-small"
-            :class="`${armorType.toLowerCase()} ${isActivate(
+            :class="`${armorType.toString().toLowerCase()} ${isActivate(
               'armorType',
               armorType
             )}`"
@@ -251,7 +276,8 @@ const filteredStudents = computed(() => {
             @click="handleFilter('armorType', armorType)"
           >
             {{
-              armorTypes.find((el) => armorType === el.string).name || armorType
+              armorTypes.find((el) => armorType === el.string)?.name ||
+              armorType
             }}
           </div>
         </div>

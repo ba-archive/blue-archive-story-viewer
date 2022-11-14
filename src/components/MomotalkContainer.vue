@@ -4,12 +4,21 @@ import axios from "axios";
 import { Ref, ref } from "vue";
 import { useRoute } from "vue-router";
 import { mainStore } from "../store/store";
+import { Chat } from "../types/Chats";
 import MomotalkViewer from "./MomotalkViewer.vue";
 import StudentArchiveTitle from "./StudentArchiveTitle.vue";
 
+interface Momotalks {
+  chats: Chat[];
+  student_id: number;
+}
+
 const store = mainStore();
 
-const momotalks = ref({ chats: [], id: 0 });
+const momotalks: Ref<Momotalks> = ref({
+  chats: [{ file: "", title: { zh: "", jp: "" } }],
+  student_id: 0,
+});
 const opentalks: Ref<number[]> = ref([]);
 const route = useRoute();
 
@@ -32,7 +41,7 @@ function handleOpenTalks(index: number) {
   <div class="flex-vertical rounded-small">
     <div
       class="momotalks-view-container flex-vertical"
-      v-for="(chat, index) in momotalks?.chats"
+      v-for="(chat, index) in momotalks.chats"
       :key="index"
     >
       <student-archive-title

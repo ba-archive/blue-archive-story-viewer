@@ -8,7 +8,7 @@ function similarity(s1: string, s2: string): number {
 
 function isPossibleName(
   searchString: string,
-  studentNamesList: string[] | undefined
+  studentNamesList: (string | number)[] | undefined
 ): boolean {
   let found = false;
   const specialCharacters = new RegExp(
@@ -39,7 +39,7 @@ function isPossibleName(
 
 function filterStudentsByProperty(
   property: string,
-  criteria: string[] | number[],
+  criteria: (string | number)[],
   initialList: Student[]
 ): Student[] {
   return initialList.filter((student: Student) =>
@@ -51,7 +51,7 @@ function filterStudents(
   appliedFilters: AppliedFilter,
   studentsNameList: StudentNames[],
   studentsList: Student[]
-): string[] {
+): number[] {
   if (
     "" === appliedFilters.searchString &&
     0 === appliedFilters.rarity.length &&
