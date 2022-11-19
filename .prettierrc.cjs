@@ -3,7 +3,8 @@ module.exports = {
     require.resolve("@trivago/prettier-plugin-sort-imports"),
     require.resolve("prettier-plugin-css-order"),
   ],
-  singleQuote: false,
+  singleQuote: true,
+  arrowParens: 'avoid',
   trailingComma: "es5",
   useTabs: false,
   importOrder: [

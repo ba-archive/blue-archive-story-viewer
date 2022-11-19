@@ -1,14 +1,13 @@
 <template>
   <div id="contributor-container" class="flex-vertical">
     <h2>成为贡献者</h2>
-    <p>
-      这个项目目前是由我一个人在写，进度可能会很慢（特别最近研究生导师催着我接下来两个月要出成果😭）
-    </p>
+    <p>如果你对这个项目感兴趣，欢迎成为贡献者！</p>
     <p>如果你：</p>
     <ul>
-      <li><strong>有项目管理经验（团队有九个人了）</strong>，或者</li>
+      <li><strong>有项目管理经验（团队有 13 个人了）</strong>，或者</li>
+      <li><strong>愿意参与翻译</strong>，或者</li>
       <li>愿意提供没有覆盖到的学生外号，或者</li>
-      <li>有 BA 的解包经验（需要包里的美术资源和 momotalk 文档），或者</li>
+      <li>有 BA 的解包经验（或者能够逆向 so 文件），或者</li>
       <li>愿意提供和学生的 momotalk 的日服对话截图，或者</li>
       <li>
         了解 Vue / React, 愿意加入
@@ -80,9 +79,9 @@
 
 <style scoped lang="scss">
 #contributor-container {
-  align-items: flex-start;
+  align-items: center;
   align-self: center;
-  width: 30rem;
+  width: 100%;
 }
 
 h2 {
@@ -96,7 +95,22 @@ li {
   margin-top: 1rem;
 }
 
+li {
+  list-style: none;
+
+  &::before {
+    margin-right: 0.5rem;
+    content: '•';
+  }
+}
+
 a {
   color: var(--color-text-main);
+}
+
+@media screen and (max-width: 768px) {
+  #contributor-container {
+    justify-content: flex-start;
+  }
 }
 </style>

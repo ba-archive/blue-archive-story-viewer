@@ -18,6 +18,8 @@ export interface Student {
   armorType: string;
   weapon: string;
   availability: {
+    momotalk: boolean;
+    story: boolean;
     [key: string]: boolean;
   };
 }
@@ -29,6 +31,15 @@ export interface StudentAttributes {
   type: string;
   armorType: string;
   weapon: string;
+}
+
+export interface StudentFilters {
+  searchString: string;
+  rarity: number[];
+  club: string[];
+  affiliation: string[];
+  type: string[];
+  armorType: string[];
 }
 
 export interface StudentNames {

@@ -2,18 +2,18 @@ student_id: 10024
 
 chats:
   - title:
-      zh: 基沃托斯长途骑行
+      cn: 基沃托斯长途骑行
       jp: キヴォトス・ロングライド
     file: 10024_momotalk_01
   - title:
-      zh: 仅仅对我特别的
+      cn: 仅仅对我特别的
       jp: 私だけの特別な
     file: 10024_momotalk_02
   - title:
-      zh: 不论何时何地
+      cn: 不论何时何地
       jp: いつどこにいても
     file: 10024_momotalk_03
   - title:
-      zh: 归途
+      cn: 归途
       jp: 帰ってくる場所
     file: 10024_momotalk_04

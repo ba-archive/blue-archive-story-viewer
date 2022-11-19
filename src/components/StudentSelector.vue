@@ -1,54 +1,63 @@
 <script setup lang="ts">
-import axios from "axios";
-import { Ref, computed, ref, watch } from "vue";
-import { useRoute } from "vue-router";
-import { AppliedFilter } from "../types/AppliedFilter";
-import { Student, StudentAttributes, StudentNames } from "../types/Student";
-import { filterStudents } from "../util/filterStudents";
-import StudentShowbox from "./StudentShowbox.vue";
+import axios from 'axios';
+import { Ref, computed, onBeforeMount, onUnmounted, ref } from 'vue';
+import { useRoute } from 'vue-router';
+import { useSettingsStore } from '../store/settings';
+import { AppliedFilter } from '../types/AppliedFilter';
+import { Student, StudentAttributes, StudentNames } from '../types/Student';
+import { filterStudents } from '../util/filterStudents';
+import StudentShowbox from './StudentShowbox.vue';
 
 const route = useRoute();
+const settingsStore = useSettingsStore();
 
 const ready = ref(false);
 const students: Ref<Student[]> = ref([]);
 const initProgress = ref(0);
-const studentSelected = ref(false);
-
-studentSelected.value = !/\/archive\/?$/.test(route.path);
+const studentSelected = computed(() => !/\/archive\/?$/.test(route.path));
 
 axios
-  .get("/config/json/students.json", {
-    onDownloadProgress: (progressEvent) => {
+  .get('/config/json/students.json', {
+    onDownloadProgress: progressEvent => {
       initProgress.value = Math.floor(
         ((progressEvent.loaded || 0) * 100) / (progressEvent.total || 1)
       );
     },
   })
-  .then((response) => {
+  .then(response => {
     try {
-      students.value = response.data.sort((a: Student, b: Student) =>
-        a.name.cn.localeCompare(b.name.cn, "zh-Hans-CN", {
-          sensitivity: "accent",
-        })
-      );
+      students.value = response.data
+        .sort((a: Student, b: Student) =>
+          a.name.cn.localeCompare(b.name.cn, 'zh-Hans-CN', {
+            sensitivity: 'accent',
+          })
+        )
+        .sort((a: Student, b: Student) => {
+          if (
+            (a.availability.story || a.availability.momotalk) &&
+            (b.availability.story || b.availability.momotalk)
+          ) {
+            return 0;
+          }
+          if (a.availability.story || a.availability.momotalk) {
+            return -1;
+          }
+          if (b.availability.story || b.availability.momotalk) {
+            return 1;
+          }
+          return 0;
+        });
     } catch (e) {
       students.value = response.data;
     }
     ready.value = true;
   })
-  .catch((error) => {
+  .catch(error => {
     console.log(error);
   });
 
-watch(
-  () => route.path,
-  (newRoute) => {
-    studentSelected.value = !/\/archive\/?$/.test(newRoute);
-  }
-);
-
 const studentsNameList = computed<StudentNames[]>(() => {
-  return students.value.map((student) => {
+  return students.value.map(student => {
     return {
       id: student.id,
       allNames: [
@@ -76,7 +85,7 @@ function getCohortAttribute(
       return filtered.sort((a, b) =>
         a
           .toString()
-          .localeCompare(b.toString(), "zh-Hans-CN", { sensitivity: "accent" })
+          .localeCompare(b.toString(), 'zh-Hans-CN', { sensitivity: 'accent' })
       );
     } catch (e) {
       return filtered;
@@ -87,102 +96,84 @@ function getCohortAttribute(
 
 const armorTypes = [
   {
-    string: "LightArmor",
-    name: "轻装甲",
+    string: 'LightArmor',
+    name: '轻装甲',
     order: 1,
   },
   {
-    string: "HeavyArmor",
-    name: "重装甲",
+    string: 'HeavyArmor',
+    name: '重装甲',
     order: 2,
   },
   {
-    string: "Unarmed",
-    name: "神秘装甲",
+    string: 'Unarmed',
+    name: '神秘装甲',
     order: 3,
   },
 ];
 
 function sortArmorType(a: string | number, b: string | number): number {
-  const armorTypeA = armorTypes.find((type) => type.string === a) || {
-    name: "0",
+  const armorTypeA = armorTypes.find(type => type.string === a) || {
+    name: '0',
   };
-  const armorTypeB = armorTypes.find((type) => type.string === b) || {
-    name: "1",
+  const armorTypeB = armorTypes.find(type => type.string === b) || {
+    name: '1',
   };
-  return armorTypeA.name.localeCompare(armorTypeB.name, "zh-Hans-CN", {
-    sensitivity: "accent",
+  return armorTypeA.name.localeCompare(armorTypeB.name, 'zh-Hans-CN', {
+    sensitivity: 'accent',
   });
 }
 
-const studentRarities = computed(() => getCohortAttribute("rarity", false));
-const studentClubs = computed(() => getCohortAttribute("club"));
-const studentAffiliations = computed(() => getCohortAttribute("affiliation"));
-const studentTypes = computed(() => getCohortAttribute("type", false));
+const studentRarities = computed(() => getCohortAttribute('rarity', false));
+const studentClubs = computed(() => getCohortAttribute('club'));
+const studentAffiliations = computed(() => getCohortAttribute('affiliation'));
+const studentTypes = computed(() => getCohortAttribute('type', false));
 const studentArmorTypes = computed(() =>
-  getCohortAttribute("armorType", false).sort((a, b) => sortArmorType(a, b))
+  getCohortAttribute('armorType', false).sort((a, b) => sortArmorType(a, b))
 );
 
-const studentNameFilter = ref("");
-const appliedFilters: Ref<AppliedFilter> = ref({
-  searchString: studentNameFilter,
-  rarity: [],
-  club: [],
-  affiliation: [],
-  type: [],
-  armorType: [],
+const studentNameFilter = ref('');
+const appliedFilters = computed<AppliedFilter>(() => {
+  return {
+    searchString: studentNameFilter.value,
+    rarity: settingsStore.getRarityFilter,
+    club: settingsStore.getClubFilter,
+    affiliation: settingsStore.getAffiliationFilter,
+    type: settingsStore.getTypeFilter,
+    armorType: settingsStore.getArmorTypeFilter,
+  };
 });
 
-const previousFilters = localStorage.getItem("appliedFilters")
-  ? JSON.parse(localStorage.getItem("appliedFilters") || "{}")
-  : false;
-if (previousFilters) {
-  appliedFilters.value.searchString = previousFilters.searchString || "";
-  appliedFilters.value.rarity = previousFilters.rarity || [];
-  appliedFilters.value.club = previousFilters.club || [];
-  appliedFilters.value.affiliation = previousFilters.affiliation || [];
-  appliedFilters.value.type = previousFilters.type || [];
-  appliedFilters.value.armorType = previousFilters.armorType || [];
-}
+const isEmptyFilter = computed(() => {
+  return (
+    appliedFilters.value.rarity.length === 0 &&
+    appliedFilters.value.club.length === 0 &&
+    appliedFilters.value.affiliation.length === 0 &&
+    appliedFilters.value.type.length === 0 &&
+    appliedFilters.value.armorType.length === 0
+  );
+});
 
 function isActivate(property: string, value: string | number) {
   return (
     appliedFilters.value[property as keyof AppliedFilter] as (string | number)[]
   ).includes(value)
-    ? "active"
-    : "";
+    ? 'active'
+    : '';
 }
 
-function handleFilter(property: string, value: string | number) {
-  if (
-    (
-      appliedFilters.value[property as keyof AppliedFilter] as (
-        | string
-        | number
-      )[]
-    ).includes(value)
-  ) {
-    (appliedFilters.value[property as keyof AppliedFilter] as (
-      | string
-      | number
-    )[]) = (
-      appliedFilters.value[property as keyof AppliedFilter] as (
-        | string
-        | number
-      )[]
+function handleFilter(property: keyof AppliedFilter, value: string | number) {
+  if ((appliedFilters.value[property] as (string | number)[]).includes(value)) {
+    (appliedFilters.value[property] as (string | number)[]) = (
+      appliedFilters.value[property] as (string | number)[]
     ).filter((item: string | number) => item !== value);
   } else {
-    (
-      appliedFilters.value[property as keyof AppliedFilter] as (
-        | string
-        | number
-      )[]
-    ).push(value);
+    (appliedFilters.value[property] as (string | number)[]).push(value);
   }
+  settingsStore.setStudentFilters(appliedFilters.value);
 }
 
 const filteredStudents = computed<number[]>(() => {
-  localStorage.setItem("appliedFilters", JSON.stringify(appliedFilters.value));
   return filterStudents(
     appliedFilters.value,
     studentsNameList.value,
@@ -193,6 +184,24 @@ const filteredStudents = computed<number[]>(() => {
 function handleFocus(event: Event) {
   (event.target as HTMLInputElement).select();
 }
+
+const showFilter = ref(true);
+
+function updateShowFilter() {
+  showFilter.value = window.innerWidth > 768;
+}
+
+onBeforeMount(() => {
+  if (window.innerWidth <= 768) {
+    showFilter.value = false;
+  }
+
+  window.addEventListener('resize', updateShowFilter);
+});
+
+onUnmounted(() => {
+  window.removeEventListener('resize', updateShowFilter);
+});
 </script>
 
 <template>
@@ -202,16 +211,38 @@ function handleFocus(event: Event) {
     </div>
   </div>
   <div id="student-selector-container" v-if="ready && !studentSelected">
-    <input
-      type="text"
-      id="name-filter"
-      class="rounded-medium"
-      :placeholder="studentNameFilter ? '' : '在学生姓名/黑话内搜索…'"
-      v-model="studentNameFilter"
-      @focus="handleFocus"
-      autocomplete="off"
-    />
-    <div id="student-filter">
+    <div class="filter-banner">
+      <input
+        type="text"
+        id="name-filter"
+        :placeholder="studentNameFilter ? '' : '在学生姓名/黑话内搜索…'"
+        v-model="studentNameFilter"
+        @focus="handleFocus"
+        autocomplete="off"
+      />
+      <div
+        class="clear-filter-icon"
+        v-if="!isEmptyFilter"
+        @click="settingsStore.clearStudentFilters"
+      >
+        <img
+          :src="
+            isEmptyFilter
+              ? '/src/assets/filter.svg'
+              : '/src/assets/clear-filter.svg'
+          "
+          alt="filter"
+        />
+      </div>
+
+      <div
+        class="filter-options-icon-mobile rounded-small"
+        @click="showFilter = !showFilter"
+      >
+        <img src="/src/assets/filter-options.svg" alt="Filter options" />
+      </div>
+    </div>
+    <div class="student-filter" v-show="showFilter">
       <div class="filter-group">
         <h2 class="filter-label">稀有度</h2>
         <div class="filter-options">
@@ -276,8 +307,7 @@ function handleFocus(event: Event) {
             @click="handleFilter('armorType', armorType)"
           >
             {{
-              armorTypes.find((el) => armorType === el.string)?.name ||
-              armorType
+              armorTypes.find(el => armorType === el.string)?.name || armorType
             }}
           </div>
         </div>
@@ -318,32 +348,71 @@ function handleFocus(event: Event) {
 <style scoped lang="scss">
 #student-selector-container {
   display: grid;
+  grid-template-rows: min-content auto;
   grid-template-columns: min-content auto;
   grid-template-areas:
-    "name-filter name-filter"
-    "filter list";
+    'name-filter name-filter'
+    'filter list';
   justify-items: center;
   width: 100%;
   height: 100%;
   overflow-y: scroll;
 }
 
-#name-filter {
+.filter-banner {
+  display: grid;
+  grid-template-columns: min-content auto;
+  grid-template-areas: 'filter-icon input-area';
   grid-area: name-filter;
-  transition: all 0.125s ease-in-out;
-  margin-top: 1.5rem;
-  margin-bottom: 1rem;
-  border: none;
+  align-items: center;
+  justify-items: stretch;
+  margin: 1.5rem 1rem 1rem 1rem;
+  border-radius: 1rem;
   background-color: #d7d9e1b3;
-  padding: 0.5rem;
   width: calc(100% - 2rem);
-  color: var(--color-text-glass-panel);
-  font-size: 1.5rem;
-  text-align: center;
+  height: fit-content;
+  overflow: hidden;
 
-  &:focus {
-    outline: none;
-    box-shadow: var(--style-shadow-near) inset;
+  .filter-options-icon-mobile {
+    display: none;
+  }
+
+  .clear-filter-icon {
+    display: flex;
+    grid-area: filter-icon;
+    align-items: center;
+    align-self: stretch;
+    transition: all 0.375s ease-in-out;
+    cursor: pointer;
+    padding: 0 0.2rem 0 0.6rem;
+
+    img {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+
+    &:hover {
+      filter: brightness(0.8);
+      -webkit-filter: brightness(0.8);
+      background-color: #f7f7f8;
+    }
+  }
+
+  #name-filter {
+    grid-area: input-area;
+    transition: all 0.125s ease-in-out;
+    border: none;
+    background-color: transparent;
+    padding: 0.5rem;
+    width: 100%;
+    color: var(--color-text-glass-panel);
+    font-size: 1.5rem;
+    text-align: center;
+
+    &:focus {
+      outline: none;
+      box-shadow: var(--style-shadow-near) inset;
+    }
   }
 }
 
@@ -354,7 +423,7 @@ function handleFocus(event: Event) {
   width: 100%;
 }
 
-#student-filter {
+.student-filter {
   display: flex;
   grid-area: filter;
   flex-direction: column;
@@ -500,6 +569,73 @@ function handleFocus(event: Event) {
       animation: spin 1s linear infinite;
       animation-direction: reverse;
     }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #student-selector-container {
+    grid-template-rows: min-content min-content auto;
+    grid-template-columns: auto min-content;
+    grid-template-areas:
+      'name-filter name-filter'
+      'filter filter'
+      'list list';
+  }
+
+  .filter-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0;
+    background-color: transparent;
+    margin: 1.5rem 2rem 1rem 2rem;
+    .clear-filter-icon {
+      margin-right: 0.5rem;
+      border-radius: 0.5rem;
+      -webkit-border-radius: 0.5rem;
+      background-color: #d7d9e1b3;
+      padding: 0.5rem 0.5rem 0.5rem 0.6rem;
+    }
+
+    #name-filter {
+      margin-right: 0.5rem;
+      border-radius: 0.5rem;
+      -webkit-border-radius: 0.5rem;
+      background-color: #d7d9e1b3;
+      font-size: 1.25rem;
+      width: 100%;
+    }
+
+    .filter-options-icon-mobile {
+      display: flex;
+      grid-area: filter-options;
+      justify-content: center;
+      align-items: center;
+      align-self: stretch;
+      transition: all 0.375s ease-in-out;
+      cursor: pointer;
+      background-color: #d7d9e1b3;
+      padding: 0.5rem 0.5rem 0.5rem 0.6rem;
+
+      img {
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+
+      &:hover {
+        filter: brightness(0.8);
+        -webkit-filter: brightness(0.8);
+      }
+    }
+  }
+
+  .student-filter {
+    grid-area: filter;
+    padding-left: 0;
+  }
+
+  #student-list {
+    grid-template-columns: repeat(auto-fill, 5rem);
   }
 }
 

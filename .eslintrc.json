@@ -14,11 +14,10 @@
   ],
   "plugins": ["vue", "import", "sort-exports", "@typescript-eslint"],
   "rules": {
-    "@typescript-eslint/no-explicit-any": "warn",
     "indent": ["error", 2, { "SwitchCase": 1 }],
     "max-len": ["error", { "code": 120 }],
     "linebreak-style": ["error", "unix"],
-    "quotes": ["error", "double"],
+    "quotes": ["error", "single"],
     "semi": ["warn", "always"],
     "comma-dangle": [
       "error",

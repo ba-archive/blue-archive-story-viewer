@@ -1,7 +1,7 @@
 <template>
   <div id="home-welcome" class="center flex-vertical fill-screen">
     <img class="mika-sticker" src="/src/assets/mika_sticker.webp" />
-    <p>先从左边选择项目哦</p>
+    <p>先从<span id="choice"></span>选择项目哦</p>
     <p>(现在只做了学生个人剧情)</p>
   </div>
 </template>
@@ -21,6 +21,16 @@
     color: var(--color-text-main);
     font-weight: bold;
     font-size: 1.5rem;
+  }
+}
+
+#choice::after {
+  content: '左边';
+}
+
+@media screen and (max-width: 768px) {
+  #choice::after {
+    content: '右上角';
   }
 }
 </style>

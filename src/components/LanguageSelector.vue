@@ -1,24 +1,24 @@
 <script setup lang="ts">
-import { ref } from "vue";
-import { mainStore } from "../store/store";
+import { ref } from 'vue';
+import { useSettingsStore } from '../store/settings';
 
 const languages = ref([
   {
-    name: "中文",
-    code: "zh",
+    name: '中文',
+    code: 'cn',
   },
   {
-    name: "日本語",
-    code: "jp",
+    name: '日本語',
+    code: 'jp',
   },
 ]);
 
-const store = mainStore();
-const selectedLang = ref(store.getLang);
+const settingsStore = useSettingsStore();
+const selectedLang = ref(settingsStore.getLang);
 
 function handleLangChange(event: Event) {
   const target = event.target as HTMLSelectElement;
-  store.setLang(target.value);
+  settingsStore.setLang(target.value);
 }
 </script>
 

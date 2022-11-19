@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import axios from "axios";
+import axios from 'axios';
 // eslint-disable-next-line no-unused-vars
-import { ref } from "vue";
-import { useRoute } from "vue-router";
+import { ref } from 'vue';
+import { useRoute } from 'vue-router';
 
 const route = useRoute();
 const props = defineProps({
@@ -15,7 +15,7 @@ const talkContent = ref([]);
 
 const url = `/config/json/archive/${route.params.id}/momotalk/${props.momotalk.file}.json`;
 
-axios.get(url).then((res) => {
+axios.get(url).then(res => {
   talkContent.value = res.data;
 });
 </script>

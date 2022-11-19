@@ -1,34 +1,34 @@
 <script setup lang="ts">
-import { computed } from "vue";
-import { mainStore } from "../store/store";
+import { computed } from 'vue';
+import { useSettingsStore } from '../store/settings';
 
-const store = mainStore();
-const currentTheme = computed(() => store.getTheme);
+const settingsStore = useSettingsStore();
+const currentTheme = computed(() => settingsStore.getTheme);
 
 function switchTheme(theme: string) {
-  const htmlElement = document.querySelector("html");
+  const htmlElement = document.querySelector('html') as HTMLHtmlElement;
   switch (theme) {
-    case "light":
-      htmlElement ? (htmlElement.dataset.theme = "light") : 0;
+    case 'light':
+      htmlElement.dataset.theme = 'light';
       break;
-    case "dark":
-      htmlElement ? (htmlElement.dataset.theme = "dark") : 0;
+    case 'dark':
+      htmlElement.dataset.theme = 'dark';
       break;
   }
 }
 if (
   window.matchMedia &&
-  window.matchMedia("(prefers-color-scheme: dark)").matches
+  window.matchMedia('(prefers-color-scheme: dark)').matches
 ) {
-  store.setTheme("dark");
+  settingsStore.setTheme('dark');
 }
 
 switchTheme(currentTheme.value);
 
 function toggleTheme() {
-  const toggledTheme = "light" === currentTheme.value ? "dark" : "light";
+  const toggledTheme = 'light' === currentTheme.value ? 'dark' : 'light';
   switchTheme(toggledTheme);
-  store.setTheme(toggledTheme);
+  settingsStore.setTheme(toggledTheme);
 }
 </script>
 
@@ -54,9 +54,10 @@ function toggleTheme() {
   grid-gap: 0.5rem;
   display: grid;
   grid-template-columns: min-content auto min-content;
-  grid-template-areas: "dark-mode-icon switch light-mode-icon";
+  grid-template-areas: 'dark-mode-icon switch light-mode-icon';
   justify-content: space-evenly;
   align-items: center;
+  width: fit-content;
 
   #dark-mode-icon {
     grid-area: dark-mode-icon;
@@ -74,7 +75,7 @@ function toggleTheme() {
 input.switch {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-areas: "track";
+  grid-template-areas: 'track';
   grid-area: switch;
   align-items: center;
   justify-items: start;
@@ -98,7 +99,7 @@ input.switch {
     background: var(--style-switch-texture);
     width: 1.25rem;
     height: 1.25rem;
-    content: "";
+    content: '';
   }
 
   &:checked::after {

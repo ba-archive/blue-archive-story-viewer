@@ -1,22 +1,22 @@
 <script setup lang="ts">
-import axios from "axios";
+import axios from 'axios';
 // eslint-disable-next-line no-unused-vars
-import { Ref, ref } from "vue";
-import { useRoute } from "vue-router";
-import { mainStore } from "../store/store";
-import { Chat } from "../types/Chats";
-import MomotalkViewer from "./MomotalkViewer.vue";
-import StudentArchiveTitle from "./StudentArchiveTitle.vue";
+import { Ref, ref } from 'vue';
+import { useRoute } from 'vue-router';
+import { useSettingsStore } from '../store/settings';
+import { Chat } from '../types/Chats';
+import MomotalkViewer from './MomotalkViewer.vue';
+import StudentArchiveTitle from './StudentArchiveTitle.vue';
 
 interface Momotalks {
   chats: Chat[];
   student_id: number;
 }
 
-const store = mainStore();
+const settingsStore = useSettingsStore();
 
 const momotalks: Ref<Momotalks> = ref({
-  chats: [{ file: "", title: { zh: "", jp: "" } }],
+  chats: [{ file: '', title: { zh: '', jp: '' } }],
   student_id: 0,
 });
 const opentalks: Ref<number[]> = ref([]);
@@ -24,13 +24,13 @@ const route = useRoute();
 
 axios
   .get(`/config/json/archive/${route.params.id}/momotalk/index.json`)
-  .then((res) => {
+  .then(res => {
     momotalks.value = res.data;
   });
 
 function handleOpenTalks(index: number) {
   if (opentalks.value.includes(index)) {
-    opentalks.value = opentalks.value.filter((i) => i !== index);
+    opentalks.value = opentalks.value.filter(i => i !== index);
   } else {
     opentalks.value.push(index);
   }
@@ -46,7 +46,7 @@ function handleOpenTalks(index: number) {
     >
       <student-archive-title
         @clicked="handleOpenTalks(index)"
-        :title="chat.title[store.getLang]"
+        :title="chat.title[settingsStore.getLang]"
         :index="index"
         :is-active="opentalks.includes(index)"
       />

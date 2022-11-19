@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const emit = defineEmits(["clicked"]);
+const emit = defineEmits(['clicked']);
 defineProps({
   title: { type: String, required: true },
   index: { type: Number, required: false },
@@ -7,7 +7,7 @@ defineProps({
 });
 
 function handleClick() {
-  emit("clicked");
+  emit('clicked');
 }
 </script>
 
@@ -21,7 +21,7 @@ function handleClick() {
   >
     <p class="section-title">
       <span class="ordered-list">{{
-        (index ? `${index + 1}` : "").toString().padStart(2, "0")
+        (index ? `${index + 1}` : '').toString().padStart(2, '0')
       }}</span>
       <span class="title">{{ title }}</span>
     </p>

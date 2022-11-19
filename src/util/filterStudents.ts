@@ -1,6 +1,6 @@
-import { distance } from "fastest-levenshtein";
-import { AppliedFilter } from "../types/AppliedFilter";
-import { Student, StudentAttributes, StudentNames } from "../types/Student";
+import { distance } from 'fastest-levenshtein';
+import { AppliedFilter } from '../types/AppliedFilter';
+import { Student, StudentAttributes, StudentNames } from '../types/Student';
 
 function similarity(s1: string, s2: string): number {
   return 1 - distance(s1, s2) / Math.max(s1.length, s2.length);
@@ -16,11 +16,11 @@ function isPossibleName(
   );
   const lowerCaseSearchString = searchString
     .toLowerCase()
-    .replaceAll(specialCharacters, "");
-  const lowercaseStudentNamesList = studentNamesList?.map((name) =>
-    name.toString().toLowerCase().replaceAll(specialCharacters, "")
+    .replaceAll(specialCharacters, '');
+  const lowercaseStudentNamesList = studentNamesList?.map(name =>
+    name.toString().toLowerCase().replaceAll(specialCharacters, '')
   );
-  lowercaseStudentNamesList?.forEach((studentName) => {
+  lowercaseStudentNamesList?.forEach(studentName => {
     if (studentName) {
       if (
         similarity(lowerCaseSearchString, studentName) > 0.66 ||
@@ -28,7 +28,7 @@ function isPossibleName(
         studentName.includes(lowerCaseSearchString) ||
         studentName.startsWith(lowerCaseSearchString) ||
         studentName.endsWith(lowerCaseSearchString) ||
-        "" === lowerCaseSearchString
+        '' === lowerCaseSearchString
       ) {
         found = true;
       }
@@ -53,23 +53,23 @@ function filterStudents(
   studentsList: Student[]
 ): number[] {
   if (
-    "" === appliedFilters.searchString &&
+    '' === appliedFilters.searchString &&
     0 === appliedFilters.rarity.length &&
     0 === appliedFilters.club.length &&
     0 === appliedFilters.affiliation.length &&
     0 === appliedFilters.type.length &&
     0 === appliedFilters.armorType.length
   ) {
-    return studentsList.map((student) => student.id);
+    return studentsList.map(student => student.id);
   }
   let result = studentsList;
   if (appliedFilters.searchString) {
     const listFilteredByString: Student[] = [];
-    studentsList.forEach((student) => {
+    studentsList.forEach(student => {
       if (
         isPossibleName(
           appliedFilters.searchString,
-          studentsNameList.find((s) => s.id === student.id)?.allNames
+          studentsNameList.find(s => s.id === student.id)?.allNames
         )
       ) {
         listFilteredByString.push(student);
@@ -78,30 +78,30 @@ function filterStudents(
     result = listFilteredByString;
   }
   if (0 !== appliedFilters.rarity.length) {
-    result = filterStudentsByProperty("rarity", appliedFilters.rarity, result);
+    result = filterStudentsByProperty('rarity', appliedFilters.rarity, result);
   }
   if (0 !== appliedFilters.club.length) {
-    result = filterStudentsByProperty("club", appliedFilters.club, result);
+    result = filterStudentsByProperty('club', appliedFilters.club, result);
   }
   if (0 !== appliedFilters.affiliation.length) {
     result = filterStudentsByProperty(
-      "affiliation",
+      'affiliation',
       appliedFilters.affiliation,
       result
     );
   }
   if (0 !== appliedFilters.type.length) {
-    result = filterStudentsByProperty("type", appliedFilters.type, result);
+    result = filterStudentsByProperty('type', appliedFilters.type, result);
   }
   if (0 !== appliedFilters.armorType.length) {
     result = filterStudentsByProperty(
-      "armorType",
+      'armorType',
       appliedFilters.armorType,
       result
     );
   }
 
-  return result.map((student) => student.id);
+  return result.map(student => student.id);
 }
 
 export { filterStudents };

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed } from "vue";
+import { computed } from 'vue';
 
 const props = defineProps({
   studentInfo: {
@@ -9,22 +9,22 @@ const props = defineProps({
       return {
         id: 0,
         familyName: {
-          cn: "",
-          jp: "",
-          en: "",
+          cn: '',
+          jp: '',
+          en: '',
         },
         name: {
-          cn: "",
-          jp: "",
-          en: "",
+          cn: '',
+          jp: '',
+          en: '',
         },
         nickname: [],
         rarity: 1,
-        club: "",
-        affiliation: "",
-        type: "Main",
-        armorType: "LightArmor",
-        weapon: "AR",
+        club: '',
+        affiliation: '',
+        type: 'Main',
+        armorType: 'LightArmor',
+        weapon: 'AR',
         availability: {
           momotalk: false,
           story: false,
@@ -38,8 +38,8 @@ function getImagePath(id: number) {
   return `/image/avatar_students/${id}.webp`;
 }
 
-const availability = computed(() => {
-  return !!(
+const availability = computed<boolean>(() => {
+  return (
     props.studentInfo.availability.momotalk ||
     props.studentInfo.availability.story
   );
@@ -65,7 +65,7 @@ const availability = computed(() => {
 .student-container {
   display: grid;
   position: relative;
-  grid-template-areas: "avatar";
+  grid-template-areas: 'avatar';
   place-items: center;
   overflow: hidden;
 
@@ -79,7 +79,7 @@ const availability = computed(() => {
       background-color: hsla(0deg, 0%, 0%, 0.3);
       width: 100%;
       height: 100%;
-      content: "";
+      content: '';
     }
 
     &::after {
@@ -88,7 +88,7 @@ const availability = computed(() => {
       filter: drop-shadow(0 0 1rem #fff);
       width: 25%;
       height: 25%;
-      content: url("/src/assets/padlock.svg");
+      content: url('/src/assets/padlock.svg');
     }
   }
 }

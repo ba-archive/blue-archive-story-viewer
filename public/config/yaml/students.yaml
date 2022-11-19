@@ -64,7 +64,7 @@
     cn: 日富美
     jp: ヒフミ
     en: Hifumi
-  nickname: [小天使, 一二三, "123", 浮士德, 鸡妹]
+  nickname: [小天使, 一二三, '123', 浮士德, 鸡妹]
   club: 补习部
   affiliation: 圣三一
   rarity: 3
@@ -1147,7 +1147,7 @@
     cn: 日富美(泳装)
     jp: ヒフミ（水着）
     en: Hifumi (Swimsuit)
-  nickname: [小天使, 一二三, "123", 浮士德, 水鸡妹, 水日富美]
+  nickname: [小天使, 一二三, '123', 浮士德, 水鸡妹, 水日富美]
   club: 补习部
   affiliation: 圣三一
   rarity: 3
@@ -1231,7 +1231,7 @@
   armorType: HeavyArmor
   weapon: AR
   availability:
-    momotalk: true
+    momotalk: false
     story: false
 - id: 10025
   familyName:
@@ -2201,7 +2201,7 @@
   weapon: SMG
   availability:
     momotalk: false
-    story: false
+    story: true
 - id: 10054
   familyName:
     cn: 伊落
