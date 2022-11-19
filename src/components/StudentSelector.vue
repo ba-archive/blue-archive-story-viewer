@@ -586,9 +586,9 @@ onUnmounted(() => {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 1.5rem 2rem 1rem 2rem;
     border-radius: 0;
     background-color: transparent;
-    margin: 1.5rem 2rem 1rem 2rem;
     .clear-filter-icon {
       margin-right: 0.5rem;
       border-radius: 0.5rem;
@@ -602,8 +602,8 @@ onUnmounted(() => {
       border-radius: 0.5rem;
       -webkit-border-radius: 0.5rem;
       background-color: #d7d9e1b3;
-      font-size: 1.25rem;
       width: 100%;
+      font-size: 1.25rem;
     }
 
     .filter-options-icon-mobile {
