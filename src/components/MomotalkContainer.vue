@@ -84,4 +84,10 @@ function handleOpenTalks(index: number) {
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .momotalks-view-container {
+    max-width: calc(100vw - 2rem);
+  }
+}
 </style>

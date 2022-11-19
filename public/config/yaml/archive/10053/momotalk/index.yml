@@ -1,0 +1,19 @@
+student_id: 10053
+
+chats:
+  - title:
+      cn: 清晨慢跑
+      jp: 朝のジョギング
+    file: 10053_momotalk_01
+  - title:
+      cn: 科学制作料理的秘诀
+      jp: 科学的な料理の秘訣
+    file: 10053_momotalk_02
+  - title:
+      cn: 理性的应援文化
+      jp: 理性的な応援文化
+    file: 10053_momotalk_03
+  - title:
+      cn: 体育集换卡
+      jp: スポーツカード
+    file: 10053_momotalk_04

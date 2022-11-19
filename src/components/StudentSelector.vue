@@ -335,7 +335,6 @@ onUnmounted(() => {
         v-for="student in students"
         :key="student.id"
         :to="`/archive/${student.id}/momotalk`"
-        @click="studentSelected = true"
         v-show="filteredStudents.includes(student.id)"
       >
         <StudentShowbox :student-info="student" />
