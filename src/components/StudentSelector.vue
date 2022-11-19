@@ -225,12 +225,10 @@ onUnmounted(() => {
         v-if="!isEmptyFilter"
         @click="settingsStore.clearStudentFilters"
       >
+        <img v-show="isEmptyFilter" src="/src/assets/filter.svg" alt="filter" />
         <img
-          :src="
-            isEmptyFilter
-              ? '/src/assets/filter.svg'
-              : '/src/assets/clear-filter.svg'
-          "
+          v-show="!isEmptyFilter"
+          src="/src/assets/clear-filter.svg"
           alt="filter"
         />
       </div>
