@@ -47,7 +47,7 @@ function handleOpenTalks(index: number) {
       <student-archive-title
         @clicked="handleOpenTalks(index)"
         :title="chat.title[settingsStore.getLang]"
-        :index="index"
+        :index="index.toString()"
         :is-active="opentalks.includes(index)"
       />
       <momotalk-viewer :momotalk="chat" v-if="opentalks.includes(index)" />

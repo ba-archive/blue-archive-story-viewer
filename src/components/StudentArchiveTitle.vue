@@ -2,7 +2,7 @@
 const emit = defineEmits(['clicked']);
 defineProps({
   title: { type: String, required: true },
-  index: { type: Number, required: false },
+  index: { type: String, required: false },
   isActive: { type: Boolean, required: false },
 });
 
@@ -21,9 +21,9 @@ function handleClick() {
   >
     <p class="section-title">
       <span class="ordered-list">{{
-        (index ? `${index + 1}` : '').toString().padStart(2, '0')
+        (index ? `${parseInt(index.toString()) + 1}` : '').padStart(2, '0')
       }}</span>
-      <span class="title">{{ title }}</span>
+      <span class="title">{{ title || '!StoryTitleMissing' }}</span>
     </p>
     <!-- eslint-disable max-len -->
     <svg
