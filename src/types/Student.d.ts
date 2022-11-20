@@ -24,6 +24,14 @@ export interface Student {
   };
 }
 
+export interface StudentAttributeFilters {
+  rarity: number[];
+  club: string[];
+  affiliation: string[];
+  type: string[];
+  armorType: string[];
+}
+
 export interface StudentAttributes {
   club: string;
   affiliation: string;

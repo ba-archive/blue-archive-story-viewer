@@ -4,7 +4,12 @@ import { Ref, computed, onBeforeMount, onUnmounted, ref } from 'vue';
 import { useRoute } from 'vue-router';
 import { useSettingsStore } from '../store/settings';
 import { AppliedFilter } from '../types/AppliedFilter';
-import { Student, StudentAttributes, StudentNames } from '../types/Student';
+import {
+  Student,
+  StudentAttributeFilters,
+  StudentAttributes,
+  StudentNames,
+} from '../types/Student';
 import { filterStudents } from '../util/filterStudents';
 import StudentShowbox from './StudentShowbox.vue';
 
@@ -191,6 +196,10 @@ function updateShowFilter() {
   showFilter.value = window.innerWidth > 768;
 }
 
+function handleClearFilterAttribute(property: keyof StudentAttributeFilters) {
+  settingsStore.clearStudentFilter(property);
+}
+
 onBeforeMount(() => {
   if (window.innerWidth <= 768) {
     showFilter.value = false;
@@ -225,11 +234,10 @@ onUnmounted(() => {
         v-if="!isEmptyFilter"
         @click="settingsStore.clearStudentFilters"
       >
-        <img v-show="isEmptyFilter" src="/src/assets/filter.svg" alt="filter" />
         <img
           v-show="!isEmptyFilter"
           src="/src/assets/clear-filter.svg"
-          alt="filter"
+          alt="Clear all filters"
         />
       </div>
 
@@ -242,7 +250,16 @@ onUnmounted(() => {
     </div>
     <div class="student-filter" v-show="showFilter">
       <div class="filter-group">
-        <h2 class="filter-label">稀有度</h2>
+        <h2 class="filter-label">
+          <span>稀有度</span>
+          <span
+            class="clear-filter-button"
+            role="button"
+            tabindex="0"
+            v-show="0 !== appliedFilters.rarity.length"
+            @click="handleClearFilterAttribute('rarity')"
+          ></span>
+        </h2>
         <div class="filter-options">
           <div
             class="filter-tag rounded-small"
@@ -258,7 +275,16 @@ onUnmounted(() => {
       </div>
 
       <div class="filter-group">
-        <h2 class="filter-label">学校</h2>
+        <h2 class="filter-label">
+          <span>学校</span>
+          <span
+            class="clear-filter-button"
+            role="button"
+            tabindex="0"
+            v-show="0 !== appliedFilters.affiliation.length"
+            @click="handleClearFilterAttribute('affiliation')"
+          ></span>
+        </h2>
         <div class="filter-options">
           <div
             class="filter-tag rounded-small"
@@ -273,7 +299,16 @@ onUnmounted(() => {
         </div>
       </div>
       <div class="filter-group">
-        <h2 class="filter-label">战术作用</h2>
+        <h2 class="filter-label">
+          <span>战术作用</span>
+          <span
+            class="clear-filter-button"
+            role="button"
+            tabindex="0"
+            v-show="0 !== appliedFilters.type.length"
+            @click="handleClearFilterAttribute('type')"
+          ></span>
+        </h2>
         <div class="filter-options">
           <div
             class="filter-tag tactic-type rounded-small"
@@ -291,7 +326,16 @@ onUnmounted(() => {
         </div>
       </div>
       <div class="filter-group">
-        <h2 class="filter-label">装甲类型</h2>
+        <h2 class="filter-label">
+          <span>装甲类型</span>
+          <span
+            class="clear-filter-button"
+            role="button"
+            tabindex="0"
+            v-show="0 !== appliedFilters.armorType.length"
+            @click="handleClearFilterAttribute('armorType')"
+          ></span>
+        </h2>
         <div class="filter-options">
           <div
             class="filter-tag armor-type rounded-small"
@@ -311,7 +355,16 @@ onUnmounted(() => {
         </div>
       </div>
       <div class="filter-group">
-        <h2 class="filter-label">社团</h2>
+        <h2 class="filter-label">
+          <span>社团</span>
+          <span
+            class="clear-filter-button"
+            role="button"
+            tabindex="0"
+            v-show="0 !== appliedFilters.club.length"
+            @click="handleClearFilterAttribute('club')"
+          ></span>
+        </h2>
         <div class="filter-options">
           <div
             class="filter-tag rounded-small"
@@ -436,7 +489,25 @@ onUnmounted(() => {
 }
 
 .filter-label {
+  display: flex;
+  align-items: center;
   color: var(--color-text-main);
+
+  .clear-filter-button {
+    mask-image: url('/src/assets/bin.svg');
+    -webkit-mask-image: url('/src/assets/bin.svg');
+    mask-position: bottom;
+    -webkit-mask-position: bottom;
+    mask-size: 1rem;
+    -webkit-mask-size: 1rem;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    cursor: pointer;
+    margin-left: 0.4rem;
+    background-color: var(--color-text-main);
+    width: 1rem;
+    height: 1.25rem;
+  }
 }
 
 .filter-options {

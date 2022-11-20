@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia';
-import { StudentFilters } from '../types/Student';
+import { StudentAttributeFilters, StudentFilters } from '../types/Student';
 
 export const useSettingsStore = defineStore({
   id: 'main',
@@ -57,6 +57,9 @@ export const useSettingsStore = defineStore({
       this.studentFilters.affiliation = [];
       this.studentFilters.type = [];
       this.studentFilters.armorType = [];
+    },
+    clearStudentFilter(property: keyof StudentAttributeFilters) {
+      this.studentFilters[property] = [];
     },
   },
 });
