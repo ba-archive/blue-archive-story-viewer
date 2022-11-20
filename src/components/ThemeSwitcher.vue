@@ -7,12 +7,15 @@ const currentTheme = computed(() => settingsStore.getTheme);
 
 function switchTheme(theme: string) {
   const htmlElement = document.querySelector('html') as HTMLHtmlElement;
+  const metaThemeColor = document.querySelector('meta[name=theme-color]');
   switch (theme) {
     case 'light':
       htmlElement.dataset.theme = 'light';
+      metaThemeColor?.setAttribute('content', '#ffffffd8');
       break;
     case 'dark':
       htmlElement.dataset.theme = 'dark';
+      metaThemeColor?.setAttribute('content', '#343e50d8');
       break;
   }
 }

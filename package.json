@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "format": "prettier --config .prettierrc.cjs -uw ./src/ ./CICD/ ./public/config/yaml/ *.md",
     "build:json": "node ./CICD/build_json.js",
     "build": "pnpm format; pnpm build:json; vue-tsc && vite build",
