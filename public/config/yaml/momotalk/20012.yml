@@ -1,0 +1,555 @@
+CharacterId: 20012
+title:
+  - GroupId: 2001202
+    FavorScheduleId: 200122
+    CharacterId: 20012
+    TextJp: 負傷者なので
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2001203
+    FavorScheduleId: 200123
+    CharacterId: 20012
+    TextJp: 緊急事態
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2001205
+    FavorScheduleId: 200125
+    CharacterId: 20012
+    TextJp: 氷室セナ
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2001206
+    FavorScheduleId: 200126
+    CharacterId: 20012
+    TextJp: 待機中
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+content:
+  - MessageGroupId: 200120010
+    Id: 200120010
+    CharacterId: 20012
+    MessageCondition: FavorRankUp
+    ConditionValue: 2
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200120020
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: >-
+      <응급의학부 발신> <게헨나 자치구 122-6번가> 불량 학생들 간의 전면전으로 인한 피해 발생. 부상자 및 해당 지역 방문 학생들은
+      응급의학부로 찾아오십시오. 해당 지역 방문 예정자들은 일정 변경을 부탁드립니다. PM.02:16
+    MessageJP: >-
+      救急医学部よりゲヘナ全校生徒へ：ゲヘナ自治区122-6番街にて、不良生徒たちの全面抗争が発生。負傷者は救急医学部の方まで。当該地区へ訪問予定の方は、日時の変更をお勧めします　PM02:16
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200120020
+    Id: 200120020
+    CharacterId: 20012
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200120030
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……?
+    MessageJP: ……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200120020
+    Id: 200120030
+    CharacterId: 20012
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200120030
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 응? 세나?
+    MessageJP: セナ？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200120030
+    Id: 200120040
+    CharacterId: 20012
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200120040
+    FeedbackTimeMillisec: 2000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아.
+    MessageJP: あ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200120030
+    Id: 200120050
+    CharacterId: 20012
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 200122
+    NextGroupId: 200120040
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 죄송합니다. 전체 메시지이니 참고만 부탁드리고, 신경 쓰지 마시길.
+    MessageJP: すみません。全体宛のメッセージなので、お気になさらず
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200120040
+    Id: 200120060
+    CharacterId: 20012
+    MessageCondition: FavorRankUp
+    ConditionValue: 3
+    PreConditionGroupId: 200120030
+    PreConditionFavorScheduleId: 200122
+    FavorScheduleId: 0
+    NextGroupId: 200120050
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님. 응급의학부의 히무로 세나입니다.
+    MessageJP: 先生。救急医学部の氷室セナです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200120050
+    Id: 200120070
+    CharacterId: 20012
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200120060
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 상황은 들었습니다. 중요한 일정이라 게헨나에 방문하신다고요.
+    MessageJP: この後ゲヘナにいらっしゃるとお伺いしました
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200120060
+    Id: 200120080
+    CharacterId: 20012
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200120070
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 응. 그런데 몸 상태가 좀 안 좋아서…….
+    MessageJP: うん、だけどちょっと身体の調子がいまいちで……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200120060
+    Id: 200120090
+    CharacterId: 20012
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200120070
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 만일을 대비해 미리 들를 수 있다고 말해 두려고.
+    MessageJP: もしかしたら本来の用事より先に、そっちにお世話になるかも……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200120070
+    Id: 200120100
+    CharacterId: 20012
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200120080
+    FeedbackTimeMillisec: 2000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 일단은 알겠습니다.
+    MessageJP: 分かりました
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200120080
+    Id: 200120110
+    CharacterId: 20012
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 200123
+    NextGroupId: 200120090
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그럼, 그렇게 알고 있겠습니다.
+    MessageJP: ではお待ちしております
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200120090
+    Id: 200120120
+    CharacterId: 20012
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 200120080
+    PreConditionFavorScheduleId: 200123
+    FavorScheduleId: 0
+    NextGroupId: 200120100
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님. 세나입니다. 쉬고 계시는 상황이니 간단히 메시지만 남겨 놓고 돌아가도록 하겠습니다.
+    MessageJP: 先生、救急医学部の氷室セナです。メッセージだけ残して帰ります
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200120100
+    Id: 200120130
+    CharacterId: 20012
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200120110
+    FeedbackTimeMillisec: 2500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: >-
+      땀을 많이 흘리셨으니 충분히 수분을 섭취해 주시고, 책상 위에 상비약을 두었으니 드시기 바랍니다. 덮어드린 담요와 물수건은 땀에
+      젖었으니 바로 세탁하십시오. 다음에 다시 회수하러 방문토록 하겠습니다. 그럼 이만.
+    MessageJP: >-
+      汗をたくさんかかれてますので、起きられたら十分に水分を摂取して、机の上の薬をお飲みになってください。タオルの替えはすぐ横に置いてあります。すぐに諸々の回収と洗濯に参りますので。それでは失礼します
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200120110
+    Id: 200120140
+    CharacterId: 20012
+    MessageCondition: FavorRankUp
+    ConditionValue: 5
+    PreConditionGroupId: 200120100
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200120120
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 응급의학부의 히무로 세나입니다.
+    MessageJP: 先生、救急医学部の氷室セナです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200120120
+    Id: 200120150
+    CharacterId: 20012
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200120130
+    FeedbackTimeMillisec: 2000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 일전에 말씀드렸던 담요와 물수건을 회수하고자 샬레에 방문할 예정이니, 가능하신 시간대가 있으시면 말씀해주시기 바랍니다. 감사합니다.
+    MessageJP: 先日のタオルなどを回収するために、本日シャーレにお伺いする予定です。空いている時間帯などありましたらお知らせください。よろしくお願いします
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200120130
+    Id: 200120160
+    CharacterId: 20012
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200120140
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 이번에는 나도 답례를 좀 할까 하는데.
+    MessageJP: この間はありがとね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200120130
+    Id: 200120170
+    CharacterId: 20012
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200120140
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 여기 말고 밖에서 만나는 건 어때.
+    MessageJP: せっかくだしお礼がしたいんだけど、外で会える？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200120140
+    Id: 200120180
+    CharacterId: 20012
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200120150
+    FeedbackTimeMillisec: 2000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: '?'
+    MessageJP: あ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200120150
+    Id: 200120190
+    CharacterId: 20012
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200120160
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 음
+    MessageJP: はい
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200120150
+    Id: 200120200
+    CharacterId: 20012
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200120160
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 알겠습니다.
+    MessageJP: 分かりました
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200120150
+    Id: 200120210
+    CharacterId: 20012
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 200125
+    NextGroupId: 200120160
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그럼 그렇게 알고 있겠습니다.
+    MessageJP: では、その形で
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200120160
+    Id: 200120220
+    CharacterId: 20012
+    MessageCondition: FavorRankUp
+    ConditionValue: 6
+    PreConditionGroupId: 200120150
+    PreConditionFavorScheduleId: 200125
+    FavorScheduleId: 0
+    NextGroupId: 200120170
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: >-
+      <응급의학부 발신> <게헨나 자치구 32-1번가> 일부 학생들의 소화기 장난으로 인한 사고 발생. 사건 주모자와 피해 학생들 일부가
+      인근 양호실로 강제 이송되었습니다. PM.06:47
+    MessageJP: >-
+      救急医学部よりゲヘナ全校生徒へ：ゲヘナ自治区32-1番街にて、悪戯により消火器の暴発事故が発生。事件の首謀者と被害者の生徒たちの一部は、近くの保健室に輸送されました　PM06:47
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200120170
+    Id: 200120230
+    CharacterId: 20012
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200120180
+    FeedbackTimeMillisec: 2500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: >-
+      <응급의학부 발신> 또한, 상황이 완전히 종료된 것이 아니므로 비상 인원이 대기 중입니다. 해당 지역 방문자는 우회로를 통하거나 일정
+      변경을 요망. PM.06:47
+    MessageJP: >-
+      救急医学部よりゲヘナ全校生徒へ：事態は未だ沈静化していませんので、付近にて人員待機中。当該地区へ訪問予定の方は日時の変更をお勧めします　PM06:47
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200120180
+    Id: 200120240
+    CharacterId: 20012
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200120190
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 고생이 많네.
+    MessageJP: 大変だね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200120180
+    Id: 200120250
+    CharacterId: 20012
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200120190
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 늘 바쁘구나.
+    MessageJP: 今日もお疲れ様
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200120190
+    Id: 200120260
+    CharacterId: 20012
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200120200
+    FeedbackTimeMillisec: 2000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아
+    MessageJP: あ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200120200
+    Id: 200120270
+    CharacterId: 20012
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 0
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 괜찮습니다. 선생님. 신경 쓰실 만한 사안은 아닙니다.
+    MessageJP: 大丈夫です、それほどの事案ではありませんので
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200120200
+    Id: 200120280
+    CharacterId: 20012
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 200126
+    NextGroupId: 0
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그럼 이만.
+    MessageJP: それでは、また
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''

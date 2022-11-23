@@ -8,7 +8,7 @@ export const useSettingsStore = defineStore({
       settings: {
         lang: 'cn',
         theme: 'light',
-        username: 'Sensei',
+        username: 'Sensei' as string,
       },
       studentFilters: {
         searchString: '',

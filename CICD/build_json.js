@@ -35,8 +35,7 @@ walk(path.resolve(__dirname, '..', 'public', 'config', 'yaml'), pathname => {
       console.log(`[${chalk.red('ERROR')}] ${pathname}\n${chalk.red(err)}`);
     } else {
       if (/\.ya?ml$/i.test(pathname)) {
-        const yaml = data.replaceAll('，', ',');
-        const json = jsYaml.load(yaml);
+        const json = jsYaml.load(data);
         const jsonPath = pathname.replaceAll(/ya?ml/gi, 'json');
         const jsonDir = path.dirname(jsonPath);
         if (undefined !== json) {

@@ -1,0 +1,894 @@
+CharacterId: 13004
+title:
+  - GroupId: 1300402
+    FavorScheduleId: 130042
+    CharacterId: 13004
+    TextJp: 偶然の出会いですね
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1300403
+    FavorScheduleId: 130043
+    CharacterId: 13004
+    TextJp: 清掃の時間です
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1300405
+    FavorScheduleId: 130045
+    CharacterId: 13004
+    TextJp: 恩返しの時間です
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1300406
+    FavorScheduleId: 130046
+    CharacterId: 13004
+    TextJp: ゲームは楽しいです
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1300408
+    FavorScheduleId: 130048
+    CharacterId: 13004
+    TextJp: 健康になりましょう
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+content:
+  - MessageGroupId: 130040010
+    Id: 992
+    CharacterId: 13004
+    MessageCondition: FavorRankUp
+    ConditionValue: 2
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040020
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 응, 어쩐지 즐거운 일이 생길 것 같은 하루예요.
+    MessageJP: 今日はなんだか、良いことが起きそうな日です
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040020
+    Id: 993
+    CharacterId: 13004
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040030
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오늘은 어떠셨어요? 좋은 시간 보내고 계시는가요?
+    MessageJP: 先生は今どうですか？楽しい時間、過ごせてますか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040020
+    Id: 994
+    CharacterId: 13004
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040030
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그럼 행복한 하루 되세요, 선생님! 제가 응원할게요!
+    MessageJP: 今日が良い一日になりますように。私、先生のこと応援してますから！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040030
+    Id: 995
+    CharacterId: 13004
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040040
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 고마워, 노노미 쨩.
+    MessageJP: ありがとう、ノノミ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040030
+    Id: 996
+    CharacterId: 13004
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040040
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 노노미도 좋은 하루!
+    MessageJP: ノノミにも良いことがありますように
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040040
+    Id: 997
+    CharacterId: 13004
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040041
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 어라……?
+    MessageJP: あ……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040040
+    Id: 998
+    CharacterId: 13004
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040041
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 우와!
+    MessageJP: うわぁ……！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040040
+    Id: 999
+    CharacterId: 13004
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040041
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 답장해주실 줄은 몰랐어요. 기뻐요~☆
+    MessageJP: お返事をいただけるとは思っていませんでした、嬉しいです～☆
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040041
+    Id: 1000
+    CharacterId: 13004
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040050
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님한테 답장받았어요!
+    MessageJP: 先生からお返事をいただけるなんて！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040041
+    Id: 1001
+    CharacterId: 13004
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040050
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 응응! 저도 행복한 하루가 되었네요!
+    MessageJP: 私はもう、今日一日これだけで十分すぎるくらい幸せです！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040050
+    Id: 1002
+    CharacterId: 13004
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040060
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아. 이건 그냥 안부 인사였으니까~☆ 괜찮으면 종종 보낼게요.
+    MessageJP: 今回は最初の特別なご挨拶ですが、これからも時々送らせてもらいますね☆
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040050
+    Id: 1003
+    CharacterId: 13004
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 130042
+    NextGroupId: 130040060
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ♡♡
+    MessageJP: ♡♡
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040060
+    Id: 1004
+    CharacterId: 13004
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 130040050
+    PreConditionFavorScheduleId: 130042
+    FavorScheduleId: 0
+    NextGroupId: 130040070
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 응…… 오늘은 정말로 제가 사드리고 싶었는데……
+    MessageJP: 私から誘ったんですから、先生にご馳走させてもらいたかったんですが……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040060
+    Id: 1005
+    CharacterId: 13004
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040070
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 다음엔 제가 보답하게 해주세요!
+    MessageJP: 次どこかに行く時は、私に奢らせてくださいね？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040070
+    Id: 1006
+    CharacterId: 13004
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040080
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 응응, 꼭이요.
+    MessageJP: 絶対ですよ？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040080
+    Id: 1007
+    CharacterId: 13004
+    MessageCondition: FavorRankUp
+    ConditionValue: 3
+    PreConditionGroupId: 130040070
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040090
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오늘은 대책위원회 동아리실 대청소를 하는 날이에요!
+    MessageJP: 今日は対策委員会の教室を、大掃除しようかと思います！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040090
+    Id: 1008
+    CharacterId: 13004
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040100
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님이 오셨을 때, 전보다 더 깔끔한 동아리 실이 기다리고 있을 거예요☆
+    MessageJP: 先生がお越しになる頃には、前よりずっと綺麗になってるはずです☆
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040090
+    Id: 1009
+    CharacterId: 13004
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040100
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 응응. 그러니까, 또 놀러 오셔야 해요?
+    MessageJP: 終わった頃にでも、ぜひ見に来てくださいね？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040100
+    Id: 1010
+    CharacterId: 13004
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 130043
+    NextGroupId: 130040110
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 응. 시간 내서 갈게.
+    MessageJP: うん、仕事が終わったらすぐに行くね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040100
+    Id: 1011
+    CharacterId: 13004
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 130043
+    NextGroupId: 130040110
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 너무 무리하지 마.
+    MessageJP: お疲れ様、楽しみにしてるね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040110
+    Id: 1012
+    CharacterId: 13004
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 130040100
+    PreConditionFavorScheduleId: 130043
+    FavorScheduleId: 0
+    NextGroupId: 130040120
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오늘은 정말 수고하셨습니다!
+    MessageJP: 今日はお疲れ様でした！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040120
+    Id: 1013
+    CharacterId: 13004
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040130
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아직 지난번의 보답도 못했는데…… 어쩌죠?
+    MessageJP: まだ前回のお返しもできていないのに、どうしましょう……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040120
+    Id: 1014
+    CharacterId: 13004
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040130
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님께 받은 게 점점 더 많아지고 있어요.
+    MessageJP: 先生に、色々していただいてばかりになってしまっていますね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040130
+    Id: 1015
+    CharacterId: 13004
+    MessageCondition: FavorRankUp
+    ConditionValue: 5
+    PreConditionGroupId: 130040120
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040140
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님~☆
+    MessageJP: 先生～☆
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040140
+    Id: 1016
+    CharacterId: 13004
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040150
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 이번 휴일에, 괜찮으시면 쇼핑하러 가는데 같이 가주시겠어요?
+    MessageJP: 今度の休日、もし時間があったら一緒にショッピングに行きませんか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040150
+    Id: 1017
+    CharacterId: 13004
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040160
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 쇼핑인가. 재미있겠네.
+    MessageJP: ショッピングか、楽しそうだね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040150
+    Id: 1018
+    CharacterId: 13004
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040160
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 좋아. 같이 가자!
+    MessageJP: ぜひぜひ、一緒に行こう！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040160
+    Id: 1019
+    CharacterId: 13004
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040170
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 와아~
+    MessageJP: わっ！ありがとうございます～！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040160
+    Id: 1020
+    CharacterId: 13004
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040170
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님과 같이 데이트!
+    MessageJP: 先生と二人でデートですっ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040160
+    Id: 1021
+    CharacterId: 13004
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040170
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아니, 쇼핑, 쇼핑이에요. 쇼핑~☆
+    MessageJP: あ、いえショッピング、ショッピングですね、先生とショッピング～☆
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040160
+    Id: 1022
+    CharacterId: 13004
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 130045
+    NextGroupId: 130040170
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 기다리고 있겠습니다.
+    MessageJP: では、ショッピングモールでお待ちしておりますね～☆
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040170
+    Id: 1023
+    CharacterId: 13004
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 130040160
+    PreConditionFavorScheduleId: 130045
+    FavorScheduleId: 0
+    NextGroupId: 130040180
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 잘 들어가셨어요? 귀는 아프거나 그러지 않아요?
+    MessageJP: 無事にお家まで着きましたか？お耳、痛かったりしませんか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040170
+    Id: 1024
+    CharacterId: 13004
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040180
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 저는 오늘 무척 즐거운 하루였어요.
+    MessageJP: 私、今日一日とっても楽しかったです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040180
+    Id: 1025
+    CharacterId: 13004
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040190
+    FeedbackTimeMillisec: 2000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 응, 선생님의 귓속을 본 건 저밖에 없을 테니까?
+    MessageJP: それに、先生のお耳の中を知ってる人はそうそういないでしょうし……☆
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040180
+    Id: 1026
+    CharacterId: 13004
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040190
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아하하, 그럼 오늘도 행복한 시간 되길~♡
+    MessageJP: ではでは、また明日も幸せな一日を～♡
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040190
+    Id: 1027
+    CharacterId: 13004
+    MessageCondition: FavorRankUp
+    ConditionValue: 6
+    PreConditionGroupId: 130040180
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040200
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 응……. 지난번에 사간 오셀로 게임, 다 같이 했는데 저만 한 번도 못 이겼어요.
+    MessageJP: この前オセロをみんなでやったのですが……私、一度も勝てなかったんです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040200
+    Id: 1028
+    CharacterId: 13004
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040210
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 다들 너무 잘해서…… 특히 호시노 선배! 엄청 강해요!
+    MessageJP: みんなすごく上手で……特にホシノ先輩、すごく強かったんです！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040200
+    Id: 1029
+    CharacterId: 13004
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040210
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 안 되겠어요, 특훈을 해야겠어요!
+    MessageJP: このままではダメですね、特訓をしなくちゃいけません！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040210
+    Id: 1030
+    CharacterId: 13004
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040220
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 특훈……? 파이팅!
+    MessageJP: 特訓！熱いね！ファイト！！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040210
+    Id: 1031
+    CharacterId: 13004
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040220
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 힘내.
+    MessageJP: そうなんだ、頑張ってね。応援してる
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040220
+    Id: 1032
+    CharacterId: 13004
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 130046
+    NextGroupId: 130040230
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 네! 힘낼게요! 선생님!
+    MessageJP: はい！私、頑張ります！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040230
+    Id: 1033
+    CharacterId: 13004
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 130040220
+    PreConditionFavorScheduleId: 130046
+    FavorScheduleId: 0
+    NextGroupId: 130040240
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 잘 들어가셨나요, 선생님?
+    MessageJP: もうお家に着きましたか、先生？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040230
+    Id: 1034
+    CharacterId: 13004
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040240
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 저는 오늘 무척 즐거웠어요.
+    MessageJP: 今日はありがとうございました。私、とっても楽しかったです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040240
+    Id: 1035
+    CharacterId: 13004
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040250
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 다음에도 같이 둘이서 오셀로를 할 수 있었으면 좋겠어요☆
+    MessageJP: また今度一緒に、先生と色んなゲームをしたいですね☆
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040250
+    Id: 1036
+    CharacterId: 13004
+    MessageCondition: FavorRankUp
+    ConditionValue: 8
+    PreConditionGroupId: 130040240
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130040260
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 아령 필요하세요?
+    MessageJP: 先生、ダンベル欲しかったりしませんか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040260
+    Id: 1037
+    CharacterId: 13004
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 0
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 시로코 쨩에게 선물하려고 샀던 것 중에 몇 개가 남아서.
+    MessageJP: シロコちゃんにプレゼントしようと買ったものが、いくつか余ってまして
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130040260
+    Id: 1038
+    CharacterId: 13004
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 130048
+    NextGroupId: 0
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 괜찮으시다면 나중에 가져가셔도 돼요.
+    MessageJP: アビドスのグラウンドにありますので、よかったら持っていってください
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''

@@ -1,0 +1,1245 @@
+CharacterId: 20002
+title:
+  - GroupId: 2000202
+    FavorScheduleId: 200022
+    CharacterId: 20002
+    TextJp: サヤの研究室へようこそ！
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2000203
+    FavorScheduleId: 200023
+    CharacterId: 20002
+    TextJp: 不老不死の霊薬
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2000205
+    FavorScheduleId: 200025
+    CharacterId: 20002
+    TextJp: ダイエット薬
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2000206
+    FavorScheduleId: 200026
+    CharacterId: 20002
+    TextJp: チーズ・イン・ザ・トラップ
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2000208
+    FavorScheduleId: 200028
+    CharacterId: 20002
+    TextJp: 恋の妙薬
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2000209
+    FavorScheduleId: 200029
+    CharacterId: 20002
+    TextJp: 行方不明のネズ助
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+content:
+  - MessageGroupId: 200020010
+    Id: 1383
+    CharacterId: 20002
+    MessageCondition: FavorRankUp
+    ConditionValue: 2
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020020
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생, 잠깐 나님의 연구실로 와줄 수 있을까?
+    MessageJP: 先生、ちょっとぼく様の研究室に来てくれないか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020020
+    Id: 1384
+    CharacterId: 20002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020030
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 갑자기 연구실에는 왜?
+    MessageJP: 急にどうしたの？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020030
+    Id: 1385
+    CharacterId: 20002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020040
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 나님의 연구와 관련된 아주 중대한 문제가 발생한 것이다!
+    MessageJP: ぼく様の研究に関係がある、とても大事なことなのだ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020030
+    Id: 1386
+    CharacterId: 20002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020040
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 게다가 선생만이 해결할 수 있는 특별한 문제라고!
+    MessageJP: しかも先生にしか解決できない、特別な問題……！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020030
+    Id: 1387
+    CharacterId: 20002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020040
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그럼 나님의 연구실에서 기다리고 있을게!
+    MessageJP: そういうわけで、研究室で待ってるのだ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020040
+    Id: 1388
+    CharacterId: 20002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 200022
+    NextGroupId: 200020050
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……?
+    MessageJP: ……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020050
+    Id: 1389
+    CharacterId: 20002
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 200020040
+    PreConditionFavorScheduleId: 200022
+    FavorScheduleId: 0
+    NextGroupId: 200020060
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생, 반짝거리는 건 이제 좀 괜찮아?
+    MessageJP: キラキラするの、もう治まった？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020060
+    Id: 1390
+    CharacterId: 20002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020070
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아직도 얼굴이 반짝거려서 거울을 쳐다보기가 어려워…….
+    MessageJP: 顔がまだキラキラしてて、鏡を見るたびに目が……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020070
+    Id: 1391
+    CharacterId: 20002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020080
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 거울을 마주하기 어려울 정도의 안광이라니, 그것참 멋진 일이네.
+    MessageJP: 鏡に向き合えないほどの輝きだなんて、素敵なことなのだ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020080
+    Id: 1392
+    CharacterId: 20002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020090
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 하나도 멋지지 않거든!
+    MessageJP: 素敵とかそういうのじゃないんだけど！？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020090
+    Id: 1393
+    CharacterId: 20002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020100
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그나저나 괜찮다면 피부에서 떨어져 나온 금박을 한 조각만 돌려받을 순 없을까?
+    MessageJP: ところでもしよかったら、肌から剥がれた金箔をひとかけらだけくれない？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020090
+    Id: 1394
+    CharacterId: 20002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020100
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 성분을 조사해서 다음 연구에 써보려는 것이다.
+    MessageJP: その成分を調査して、次の研究に使ってみようと思ってるのだ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020100
+    Id: 1395
+    CharacterId: 20002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020110
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 거절한다.
+    MessageJP: 断る
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020110
+    Id: 1396
+    CharacterId: 20002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020120
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 으읏! 어째서 거절하는 것이냐!
+    MessageJP: ううっ！どうしてなのだ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020110
+    Id: 1397
+    CharacterId: 20002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020120
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 이것도 연단술의 발전을 위해 꼭 필요한 일이라고!
+    MessageJP: これも錬丹術の発展のために必要なことなのに！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020120
+    Id: 1398
+    CharacterId: 20002
+    MessageCondition: FavorRankUp
+    ConditionValue: 3
+    PreConditionGroupId: 200020110
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020130
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생, 다시 한번 연구실에 와줄 수 있을까?
+    MessageJP: 先生、もう一度研究室に来てくれないか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020130
+    Id: 1399
+    CharacterId: 20002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020140
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 어째 수상한데…….
+    MessageJP: 怪しい……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020140
+    Id: 1400
+    CharacterId: 20002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020150
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아니야, 이번에야말로 진짜 불로불사의 영약을 만든 것이다!
+    MessageJP: 心配無用、今度こそ本当の不老不死の霊薬が完成したのだ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020140
+    Id: 1401
+    CharacterId: 20002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 200023
+    NextGroupId: 200020150
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 믿기지 않는다면 나님의 연구실에 찾아와서 직접 확인해보라고!
+    MessageJP: 信じられないならぼく様の研究室に来て、直接確かめてみて！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020150
+    Id: 1402
+    CharacterId: 20002
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 200020140
+    PreConditionFavorScheduleId: 200023
+    FavorScheduleId: 0
+    NextGroupId: 200020160
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 나님이 이런 실수를 하다니…… 미안, 선생.
+    MessageJP: ぼく様があんなミスをするなんて……ごめん、先生
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020150
+    Id: 1403
+    CharacterId: 20002
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020160
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그 사소한 실수가 이렇게 큰 변화를 가져올 줄은 나님도 상상하지 못한 것이다.
+    MessageJP: こんなことになるなんて、ぼく様もビックリなのだ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020160
+    Id: 1404
+    CharacterId: 20002
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020170
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 대신이라기는 뭣하지만
+    MessageJP: 代わりにってわけじゃないけど、
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020160
+    Id: 1405
+    CharacterId: 20002
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020170
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 다음에 만나면 상회에서 맛있는 국수를 사줄게.
+    MessageJP: 次に会った時は、玄武商会で美味しいラーメンを奢ってあげるのだ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020160
+    Id: 1406
+    CharacterId: 20002
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020170
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……그런데 혹시 괜찮다면 그 윤기 나는 회색 털을 조금만 얻을 순 없을까?
+    MessageJP: ……それと、もしよかったら……あのツヤツヤの灰色の毛、少し貰えない？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020170
+    Id: 1407
+    CharacterId: 20002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020180
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 거절한다.
+    MessageJP: 断る
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020180
+    Id: 1408
+    CharacterId: 20002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020190
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 으으…… 불로장생의, 연단술의 미래가…….
+    MessageJP: うう……不老不死の、錬丹術の未来が……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020190
+    Id: 1409
+    CharacterId: 20002
+    MessageCondition: FavorRankUp
+    ConditionValue: 5
+    PreConditionGroupId: 200020180
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020200
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 지난번 일은 정말로 미안했던 것이다, 선생.
+    MessageJP: この前はごめんなのだ、先生
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020200
+    Id: 1410
+    CharacterId: 20002
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020210
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 사과의 의미로 맛있는 국수를 대접할 테니까, 현무상회 앞에서 기다려 줘!
+    MessageJP: お詫びに美味しいラーメンを奢るから、玄武商会の前で待ってて！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020210
+    Id: 1411
+    CharacterId: 20002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020220
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 맛있는 국수……?
+    MessageJP: 美味しいラーメン……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020220
+    Id: 1412
+    CharacterId: 20002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020230
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 응, 내가 자주 가는 상회의 맛집이 있는 것이다.
+    MessageJP: うん、ぼく様がよく行くお店があるのだ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020220
+    Id: 1413
+    CharacterId: 20002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 200025
+    NextGroupId: 200020230
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 검증된 맛집이니, 선생도 맛을 보면 분명 그 국수가 좋아지게 될 거다!
+    MessageJP: すっごく美味しいお店だから、先生も味わったらきっと気に入るはず！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020230
+    Id: 1414
+    CharacterId: 20002
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 200020220
+    PreConditionFavorScheduleId: 200025
+    FavorScheduleId: 0
+    NextGroupId: 200020240
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 저번에 같이 먹은 국수는 정말 맛있었지?
+    MessageJP: この間一緒に食べたラーメン、本当に美味しかったのだ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020230
+    Id: 1415
+    CharacterId: 20002
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020240
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 다음에 또 같이 현무상회에 놀러 가는 것이다.
+    MessageJP: また今度一緒に、玄武商会に遊びに行こう！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020240
+    Id: 1416
+    CharacterId: 20002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020250
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그나저나 그때 다이어트약을 건네받은 헬멧단은 어떻게 된 거야?
+    MessageJP: うん、ぜひ。そういえば、あの薬を渡したヘルメット団は、どうなったの？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020250
+    Id: 1417
+    CharacterId: 20002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020260
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 응……? 아, 그 녀석들 말인가…….
+    MessageJP: うん……？そういえばそんな奴らもいたっけ……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020250
+    Id: 1418
+    CharacterId: 20002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020260
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 글쎄, 어디선가 설탕이라도 퍼먹고 있지 않으려나?
+    MessageJP: まあ、どこかで砂糖でも舐めてるんじゃないか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020260
+    Id: 1419
+    CharacterId: 20002
+    MessageCondition: FavorRankUp
+    ConditionValue: 6
+    PreConditionGroupId: 200020250
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020270
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생, 요즘 심심하지 않아?
+    MessageJP: 先生、最近暇なんじゃない？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020270
+    Id: 1420
+    CharacterId: 20002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020280
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님은 일하느라 바빠.
+    MessageJP: ずっと仕事で忙しい……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020280
+    Id: 1421
+    CharacterId: 20002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020290
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 에이, 딱딱하게 굴지 말고. 안 그래도 내가 재미있어 보이는 보드 게임을 하나 구한 것이다.
+    MessageJP: え～、そんな堅いこと言わないで。面白いボードゲームを手に入れたのだ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020280
+    Id: 1422
+    CharacterId: 20002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020290
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 마음 같아서는 빨리 플레이해보고 싶은데, 2인용이라 같이 할 사람을 찾기가 어려워서 말이야.
+    MessageJP: 遊んでみたいんだけど、2人用だから相手を探さないといけなくって
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020280
+    Id: 1423
+    CharacterId: 20002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020290
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생도 관심이 있다면 언제 한 번 연구실에 놀러 오는 것이다!
+    MessageJP: 先生も興味があったら、研究室に遊びに来て！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020290
+    Id: 1424
+    CharacterId: 20002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 200026
+    NextGroupId: 200020300
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 내키면 한 번 놀러 갈게.
+    MessageJP: 仕事が終わったら遊びに行くね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020300
+    Id: 1425
+    CharacterId: 20002
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 200020290
+    PreConditionFavorScheduleId: 200026
+    FavorScheduleId: 0
+    NextGroupId: 200020310
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 으으, 이런 단순한 게임에서 나님이 지다니…… 분해!
+    MessageJP: うう、あんな単純なゲームでぼく様が負けるなんて……悔しい！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020300
+    Id: 1426
+    CharacterId: 20002
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020310
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 다음번에는 절대로 지지 않을 테니까! 각오해 두는 것이다, 선생!
+    MessageJP: 次は絶対負けないから！覚悟しておくのだ、先生！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020310
+    Id: 1427
+    CharacterId: 20002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020320
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 게임보다는 우선 치즈에 대한 집착부터 끊는 게 좋지 않을까……?
+    MessageJP: ゲーム云々じゃなくてチーズへの執着を断ち切らないと無理なんじゃ……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020320
+    Id: 1428
+    CharacterId: 20002
+    MessageCondition: FavorRankUp
+    ConditionValue: 8
+    PreConditionGroupId: 200020310
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020330
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생…… 오늘은 선생에게 할 중요한 이야기가 있다.
+    MessageJP: 先生……今日は先生に、大事な話があるのだ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020330
+    Id: 1429
+    CharacterId: 20002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020340
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 중요한 이야기? 그게 뭔데?
+    MessageJP: 大事な話？どんなこと？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020340
+    Id: 1430
+    CharacterId: 20002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020350
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그건…… 아니, 문자로는 말할 수 없어……!
+    MessageJP: それは……いや、こんな形じゃ言えない……！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020350
+    Id: 1431
+    CharacterId: 20002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020360
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아주 중요한 이야기니까……
+    MessageJP: その、すごく大事な話だから……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020350
+    Id: 1432
+    CharacterId: 20002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020360
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오늘은 샬레의 일이 끝나자마자 바로 연구실로 와주었으면 한다.
+    MessageJP: 今日、シャーレの仕事が終わったら、すぐに研究室に来てくれる？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020350
+    Id: 1433
+    CharacterId: 20002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 200028
+    NextGroupId: 200020360
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 기다리고 있을테니까.
+    MessageJP: 先生のこと、待ってるのだ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020360
+    Id: 1434
+    CharacterId: 20002
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 200020350
+    PreConditionFavorScheduleId: 200028
+    FavorScheduleId: 0
+    NextGroupId: 200020370
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생, 아까 낮잠을 자다가 끝내주는 꿈을 꾼 것이다.
+    MessageJP: 先生、さっき昼寝をしてたら、素晴らしい夢を見たのだ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020370
+    Id: 1435
+    CharacterId: 20002
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020380
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 정신을 차리고 보니 나님의 눈앞에 거대한 치즈 덩어리가 있는 게 아닌가.
+    MessageJP: 気が付いたらぼく様の目の前に、巨大なチーズの塊があって……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020370
+    Id: 1436
+    CharacterId: 20002
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020380
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그렇게 치즈를 원 없이 먹은 건 꿈에서도 처음인 것이다.
+    MessageJP: チーズをあんなに好きなだけ食べたのは、夢の中でも初めてだったのだ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020380
+    Id: 1437
+    CharacterId: 20002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020390
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: …….
+    MessageJP: ……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020390
+    Id: 1438
+    CharacterId: 20002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020400
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그나저나 선생의 팔은 왜 그렇게 상처투성이인 것이냐?
+    MessageJP: ところで、先生の腕はなんであんなに傷だらけだったのだ？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020390
+    Id: 1439
+    CharacterId: 20002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020400
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 들짐승하고 싸우기라도 했어?
+    MessageJP: 野生動物と喧嘩でもした？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020400
+    Id: 1440
+    CharacterId: 20002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020410
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: …….
+    MessageJP: ……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020410
+    Id: 1441
+    CharacterId: 20002
+    MessageCondition: FavorRankUp
+    ConditionValue: 9
+    PreConditionGroupId: 200020400
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020420
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 서, 서, 서, 선생! 큰일인 것이다! 대사건이라고!
+    MessageJP: 先生先生！大変！大事件なのだ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020420
+    Id: 1442
+    CharacterId: 20002
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 200029
+    NextGroupId: 200020430
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 이 문자 메시지를 보면 바로 연구실로 와 줘!
+    MessageJP: このメッセージを見たらすぐに研究室に来て！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020430
+    Id: 1443
+    CharacterId: 20002
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 200020420
+    PreConditionFavorScheduleId: 200029
+    FavorScheduleId: 0
+    NextGroupId: 200020440
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오늘 네즈스케를 찾는 걸 도와줘서 고마워, 선생.
+    MessageJP: 一緒にネズ助探してくれてありがとう、先生。これからもよろしくなのだ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020440
+    Id: 1444
+    CharacterId: 20002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020450
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 네즈스케를 무사히 찾아서 다행이야.
+    MessageJP: ネズ助が見つかってよかったね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020440
+    Id: 1445
+    CharacterId: 20002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020450
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 어려운 일도 아니었는걸.
+    MessageJP: 大したことはしてないよ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020450
+    Id: 1446
+    CharacterId: 20002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020460
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 생각해보니 그동안 내가 네즈스케에게도, 선생에게도 너무 심하게 굴었던 것 같아…….
+    MessageJP: 考えてみれば今まで、ネズ助にも先生にも、ひどいことをし過ぎたのだ……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020450
+    Id: 1447
+    CharacterId: 20002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200020460
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오늘의 일을 교훈 삼아 이제 심한 장난은 치지 않을 테니까…… 앞으로도 잘 부탁하는 것이다!
+    MessageJP: もうこれからひどい悪戯はしないから……これからもよろしくなのだ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200020460
+    Id: 1448
+    CharacterId: 20002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 0
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 나도 잘 부탁해, 사야.
+    MessageJP: うん。これからもよろしくね、サヤ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''

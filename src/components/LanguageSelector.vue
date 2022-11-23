@@ -4,12 +4,28 @@ import { useSettingsStore } from '../store/settings';
 
 const languages = ref([
   {
-    name: '中文',
-    code: 'cn',
+    name: '简体中文',
+    code: 'zh',
+  },
+  {
+    name: '繁體中文',
+    code: 'tw',
   },
   {
     name: '日本語',
     code: 'jp',
+  },
+  {
+    name: 'English',
+    code: 'en',
+  },
+  {
+    name: '한국어',
+    code: 'kr',
+  },
+  {
+    name: 'ไทย',
+    code: 'th',
   },
 ]);
 

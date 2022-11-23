@@ -1,0 +1,858 @@
+CharacterId: 10025
+title:
+  - GroupId: 1002502
+    FavorScheduleId: 100252
+    CharacterId: 10025
+    TextJp: 小さいのも良いですね！
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1002503
+    FavorScheduleId: 100253
+    CharacterId: 10025
+    TextJp: 小さいのはやっぱりダメです！
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1002505
+    FavorScheduleId: 100255
+    CharacterId: 10025
+    TextJp: 安全確認ですから！
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1002506
+    FavorScheduleId: 100256
+    CharacterId: 10025
+    TextJp: それは秘密の
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1002520
+    FavorScheduleId: 1002520
+    CharacterId: 10025
+    TextJp: 変わること、変わらないもの
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+content:
+  - MessageGroupId: 100250010
+    Id: 100250010
+    CharacterId: 10025
+    MessageCondition: FavorRankUp
+    ConditionValue: 2
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250020
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 전에 먹은 약의 부작용이 다시 생겨버린 것 같아요…….
+    MessageJP: 先生、実は、また副作用が出てしまったみたいで……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250020
+    Id: 100250020
+    CharacterId: 10025
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250030
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 또다시 몸이 어려지니 시선도 낮고,
+    MessageJP: この姿はやはり目線も低いですし、
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250020
+    Id: 100250030
+    CharacterId: 10025
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250030
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 팔다리도 가벼운 게 어쩐지 어색한 느낌이네요.
+    MessageJP: 手足も軽いですし、何だか色々と変な感じですね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250030
+    Id: 100250040
+    CharacterId: 10025
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250040
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 괜찮아? 일단 오늘은 실내에서 쉬는 게 좋겠어.
+    MessageJP: 解毒剤が効くまで、あんまり外に出ない方が良いかもね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250040
+    Id: 100250050
+    CharacterId: 10025
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250050
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……아니요. 이참에 평소에 가끔 가던 디저트 가게에 다녀와야겠어요.
+    MessageJP: ……いえ、この機を逃すわけにはいきません。先生、スイーツを食べに行きましょう！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250040
+    Id: 100250060
+    CharacterId: 10025
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250050
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 어린아이가 되었을 때, 꼭 먹어보고 싶은 음식이 있었거든요!
+    MessageJP: 子供になったら、ぜひ食べてみたいものがあったんです！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250050
+    Id: 100250070
+    CharacterId: 10025
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100252
+    NextGroupId: 100250060
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 어린아이가 되었을 때 먹어보고 싶은 음식……?
+    MessageJP: ……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250060
+    Id: 100250080
+    CharacterId: 10025
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 100250050
+    PreConditionFavorScheduleId: 100252
+    FavorScheduleId: 0
+    NextGroupId: 100250070
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 몸이 어려졌다고는 하지만, 설마 입맛까지 어려졌으리라고는 생각지도 못했네요.
+    MessageJP: まさか身体が小さくなると同時に、味覚まで変わっていたなんて……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250060
+    Id: 100250090
+    CharacterId: 10025
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250070
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 이래서는 매화원의 아이들에게 올바른 식사 지도를 하기 어렵겠어요.
+    MessageJP: このままの姿では、梅花園の子たちに「好き嫌いはダメ」とは言えませんね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250070
+    Id: 100250100
+    CharacterId: 10025
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250080
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 원래의 몸으로 되돌아갈 때까지 어른의 음식을 부지런히 먹어 입맛을 길들여놔야겠네요.
+    MessageJP: 少しずつ色んなものを食べて、私も苦手なものを克服しないとです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250070
+    Id: 100250110
+    CharacterId: 10025
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250080
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 우선은 럼 레이즌에 들어가는 럼부터…….
+    MessageJP: まずは順番に、ラムレーズンのラムから……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250080
+    Id: 100250120
+    CharacterId: 10025
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250090
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그건 안 돼!
+    MessageJP: それはダメ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250090
+    Id: 100250130
+    CharacterId: 10025
+    MessageCondition: FavorRankUp
+    ConditionValue: 3
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250100
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……선생님, 혹시 지금 바쁘신가요?
+    MessageJP: ……先生。今、お忙しいですか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250100
+    Id: 100250140
+    CharacterId: 10025
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250110
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 무슨 일이야?
+    MessageJP: どうしたの？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250110
+    Id: 100250150
+    CharacterId: 10025
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250120
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그게, 매화원에서 물건 정리를 하다가 가벼운 사고가 나서…….
+    MessageJP: その、梅花園で色々と整理整頓をしていたら、少々事故が起きてしまったと言いますか……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250110
+    Id: 100250160
+    CharacterId: 10025
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250120
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 옴짝달싹할 수 없게 되어버렸어요…….
+    MessageJP: ちょっと今、動けない状態に……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250120
+    Id: 100250170
+    CharacterId: 10025
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100253
+    NextGroupId: 100250130
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 지금 매화원으로 바로 갈게.
+    MessageJP: 待ってて、すぐ行くね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250130
+    Id: 100250180
+    CharacterId: 10025
+    MessageCondition: FavorRankUp
+    ConditionValue: 5
+    PreConditionGroupId: 100250120
+    PreConditionFavorScheduleId: 100253
+    FavorScheduleId: 0
+    NextGroupId: 100250140
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 그 이야기 들으셨나요?
+    MessageJP: 先生、聞きましたか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250140
+    Id: 100250190
+    CharacterId: 10025
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250150
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 이번에 키보토스 중앙구에 커다란 실내 놀이터가 새로 개장한대요.
+    MessageJP: 今度キヴォトスの中央区に「プレイランド」と呼ばれる、大きな室内型の遊び場がオープンするそうです！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250150
+    Id: 100250200
+    CharacterId: 10025
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250160
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 매화원의 원생들이 다음 견학은 그곳으로 가자고 졸라대서, 견학 전에 미리 안전 점검을 다녀오려고요.
+    MessageJP: 梅花園の子たちがみんな行きたいと言っているので、実際に行く前に一度安全性などを確認しに行こうかと思ってまして
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250150
+    Id: 100250210
+    CharacterId: 10025
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250160
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 괜찮으시다면 이번 주말에 그 실내 놀이터에 가보지 않으시겠어요?
+    MessageJP: もしよろしければ今度の週末、一緒に行きませんか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250160
+    Id: 100250220
+    CharacterId: 10025
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250170
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 응, 괜찮아. 한가하던 참이었거든.
+    MessageJP: うん、私で良ければ喜んで
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250170
+    Id: 100250230
+    CharacterId: 10025
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250180
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그나저나 어려진 몸으로 가도 괜찮겠어?
+    MessageJP: あ、でも、シュンは今の身体で外に出ても大丈夫？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250180
+    Id: 100250240
+    CharacterId: 10025
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250190
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 괜찮아요.
+    MessageJP: はい、大丈夫です！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250180
+    Id: 100250250
+    CharacterId: 10025
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250190
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……아니, 오히려 이번만큼은 어려져서 다행이라고 생각해요.
+    MessageJP: いえ、むしろ今がピッタリのタイミングなんです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250190
+    Id: 100250260
+    CharacterId: 10025
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100255
+    NextGroupId: 100250200
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 어린아이의 시선으로 놀이터를 돌아볼 기회는 흔치 않으니까요!
+    MessageJP: 子どもたちの目線で確認できる機会なんて、めったにありませんので！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250200
+    Id: 100250270
+    CharacterId: 10025
+    MessageCondition: FavorRankUp
+    ConditionValue: 6
+    PreConditionGroupId: 100250190
+    PreConditionFavorScheduleId: 100255
+    FavorScheduleId: 0
+    NextGroupId: 100250210
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 아까 보니 매화원 앞에서 무언가를 열심히 치우고 계시던데…….
+    MessageJP: 先生。先ほど梅花園の前で、何かを片付けてませんでしたか……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250210
+    Id: 100250280
+    CharacterId: 10025
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250220
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 뭔가 이상한 물건이라도 있었나요?
+    MessageJP: 何か変な物でもありました？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250220
+    Id: 100250290
+    CharacterId: 10025
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250230
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 누가 분리수거장 뒤에 낡은 천과 의자로 텐트 같은 걸 만들어놨어.
+    MessageJP: 何か布と椅子でテントみたいなのが作られてて、危ないなって思って。少しだけ横にね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250230
+    Id: 100250300
+    CharacterId: 10025
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250240
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 하하…… 어린 원생들이 또 비밀기지를 만들었나 보네요.
+    MessageJP: ああ、きっと秘密基地ですね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250240
+    Id: 100250310
+    CharacterId: 10025
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250250
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 비밀기지?
+    MessageJP: 秘密基地？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250250
+    Id: 100250320
+    CharacterId: 10025
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250260
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 네, 어린아이들은 자신만의 공간을 갖고 싶어 하는 법이잖아요?
+    MessageJP: はい。子どもたちってそういう、自分たちだけの空間を欲しがるじゃないですか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250250
+    Id: 100250330
+    CharacterId: 10025
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250260
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그래서인지 가끔 교관들의 눈을 피해 작은 구조물을 만들곤 하더라고요.
+    MessageJP: たまに私たちの目を盗んで、そういう秘密のスペースを作ったりしがちなんです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250260
+    Id: 100250340
+    CharacterId: 10025
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250270
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 슌도 어릴 적에는 저런 비밀기지를 만든 적 있어?
+    MessageJP: なるほどね。シュンも子どもの時に、作ったりしたの？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250270
+    Id: 100250350
+    CharacterId: 10025
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250280
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 네. 저도 어릴 적에는 멋진 비밀기지를 하나 갖고 있었지요.
+    MessageJP: はい、正にこのくらいの歳の頃に
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250270
+    Id: 100250360
+    CharacterId: 10025
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250280
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 후후…… 그러고 보니 그 비밀기지에도 가본 지 꽤 오래되었네요.
+    MessageJP: そういえば、最後にその秘密基地に行ったのも、だいぶ前のことですね……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250280
+    Id: 100250370
+    CharacterId: 10025
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250290
+    FeedbackTimeMillisec: 2500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 오후에 시간 나시면 매화원 근처의 놀이터에 들려주세요.
+    MessageJP: 先生。お時間があれば、これから梅花園に来ていただけませんか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250280
+    Id: 100250380
+    CharacterId: 10025
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100256
+    NextGroupId: 100250290
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……아무에게도 말한 적 없는 제 비밀을 알려 드릴게요. ♥
+    MessageJP: ……もし私の秘密が知りたければ、ですが♡
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250290
+    Id: 100250390
+    CharacterId: 10025
+    MessageCondition: FavorRankUp
+    ConditionValue: 20
+    PreConditionGroupId: 100250280
+    PreConditionFavorScheduleId: 100256
+    FavorScheduleId: 0
+    NextGroupId: 100250300
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 어릴 때와 자랐을 때 큰 차이점 중 하나는
+    MessageJP: 幼い時と今の自分の大きな違いの一つは
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250300
+    Id: 100250400
+    CharacterId: 10025
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250310
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 머리 모양인 것 같아요.
+    MessageJP: 髪型だと思います
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250310
+    Id: 100250410
+    CharacterId: 10025
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250320
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 왜 그렇게 생각했어?
+    MessageJP: どうしてそう思ったの？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250320
+    Id: 100250420
+    CharacterId: 10025
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250330
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 어릴 때에는 마음대로 머리 모양을 잡아도 문제가 없지만.
+    MessageJP: 幼い頃はどんな髪型もできますが
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250320
+    Id: 100250430
+    CharacterId: 10025
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250330
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 자랐을 때는…… 어울리지 않는 머리 모양이 많아지거든요.
+    MessageJP: 大きくなったら……似合わないものが多くなってしまうのです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250330
+    Id: 100250440
+    CharacterId: 10025
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100250340
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 슌은 무슨 머리 모양을 해도 어울린다고 생각해.
+    MessageJP: シュンはどんな髪型でも似合うと思うよ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100250340
+    Id: 100250450
+    CharacterId: 10025
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 1002520
+    NextGroupId: 0
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 에헤헤. 말씀만이라도 감사해요. 선생님.
+    MessageJP: えへへ。お言葉だけでも嬉しいです。ありがとうございます、先生
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''

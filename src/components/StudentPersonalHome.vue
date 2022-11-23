@@ -5,7 +5,7 @@
         >momotalk</router-link
       >
       <router-link :to="{ name: 'studentStory' }" class="button" role="button"
-        >Story</router-link
+        >好感剧情</router-link
       >
     </div>
     <router-view></router-view>
@@ -16,4 +16,15 @@
 //
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.student-home-nav-bar {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+
+  .button {
+    padding: 1rem 1.5rem;
+  }
+}
+</style>

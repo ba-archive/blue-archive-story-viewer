@@ -1,0 +1,795 @@
+CharacterId: 20014
+title:
+  - GroupId: 2001402
+    FavorScheduleId: 200142
+    CharacterId: 20014
+    TextJp: 北風と太陽
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2001403
+    FavorScheduleId: 200143
+    CharacterId: 20014
+    TextJp: 迷えるウサギ
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2001405
+    FavorScheduleId: 200145
+    CharacterId: 20014
+    TextJp: 大は小を兼ねる？
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2001406
+    FavorScheduleId: 200146
+    CharacterId: 20014
+    TextJp: 準備OK
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+content:
+  - MessageGroupId: 200140010
+    Id: 200140010
+    CharacterId: 20014
+    MessageCondition: FavorRankUp
+    ConditionValue: 2
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140020
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 혹시 샬레에 반짇고리 있어?
+    MessageJP: 先生、シャーレに裁縫箱はあるか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140020
+    Id: 200140020
+    CharacterId: 20014
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140030
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 응, 사무실 책상에 있어.
+    MessageJP: うん、デスクの中にあるよ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140030
+    Id: 200140030
+    CharacterId: 20014
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140040
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 반짇고리는 갑자기 왜?
+    MessageJP: 全然使って大丈夫だけど、何かあったの？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140040
+    Id: 200140040
+    CharacterId: 20014
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140050
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그게, 쓰고 다니던 철모의 내피가 삭아 끊어지려고 해서.
+    MessageJP: 鉄帽のバンドが切れそうになってて
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140040
+    Id: 200140050
+    CharacterId: 20014
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140050
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 추가 보급을 기대하기 어려운 상황이니 이 정도는 직접 수선해야지.
+    MessageJP: こんな状況だし、自分で直すしか……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140050
+    Id: 200140060
+    CharacterId: 20014
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140060
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그 철모, 벗을 수 있는 거구나…….
+    MessageJP: 直すってことはもしかして、その時は鉄帽脱ぐの？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140060
+    Id: 200140070
+    CharacterId: 20014
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140070
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 응? 당연히 장비인데 벗을 수 있지.
+    MessageJP: まあ、それは当然
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140060
+    Id: 200140080
+    CharacterId: 20014
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 200142
+    NextGroupId: 200140070
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 어째서 사람을 철모에 깃든 요괴 취급하는 거야…….
+    MessageJP: ……何で「絶対に脱がない」みたいに思われてるんだ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140070
+    Id: 200140090
+    CharacterId: 20014
+    MessageCondition: FavorRankUp
+    ConditionValue: 3
+    PreConditionGroupId: 200140060
+    PreConditionFavorScheduleId: 200142
+    FavorScheduleId: 0
+    NextGroupId: 200140080
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 샬레 업무관 앞에 있는 바구니 치우지 마.
+    MessageJP: 先生、念のため
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140080
+    Id: 200140100
+    CharacterId: 20014
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140090
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 돌아갈 때 가져갈 테니까.
+    MessageJP: シャーレの前にかごを置いたんだけど、触らないでそのままにしてほしい。ちゃんと持って帰るから
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140090
+    Id: 200140110
+    CharacterId: 20014
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140100
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……뭔가 풀때기 같은 게 잔뜩 들어있던데.
+    MessageJP: ' あ、何か草みたいなのがたくさん入ってたアレ？'
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140100
+    Id: 200140120
+    CharacterId: 20014
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140110
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 풀때기라니, 선생님은 두릅도 모르는 거야?
+    MessageJP: ああ。っていうか草って……先生は「タラボ」を知らないのか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140100
+    Id: 200140130
+    CharacterId: 20014
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140110
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 막 돋아난 두릅 순은 야생에서 쉽게 구할 수 있는 별미 중 하나지.
+    MessageJP: 生え立てのタラの芽だ、その辺でも簡単に手に入る珍味のひとつ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140110
+    Id: 200140140
+    CharacterId: 20014
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140120
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 물에 살짝 데쳐서 먹어도 맛있고, 튀기면 밥 위에 얹어 텐푸라처럼 먹을 수도 있다고!
+    MessageJP: 軽くゆがいただけでも美味しいし、天ぷらにも良い。ご飯にピッタリのおかずだ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140120
+    Id: 200140150
+    CharacterId: 20014
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140130
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 물론 밀가루도 기름도 구할 수 없는 마당에 튀김은 어렵겠지만.
+    MessageJP: ……まぁもちろん、小麦粉も油もロクに手に入らない今の状況で、天ぷらなんて夢のまた夢なんだが
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140130
+    Id: 200140160
+    CharacterId: 20014
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140140
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그 풀이라면……
+    MessageJP: 多分だけど……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140140
+    Id: 200140170
+    CharacterId: 20014
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140150
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 서쪽 교외의 산길에 잔뜩 자라고 있던데.
+    MessageJP: 同じようなやつが、西の山道にたくさん生えてた気がする
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140150
+    Id: 200140180
+    CharacterId: 20014
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140160
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 뭐? 거기가 어디야, 선생님?
+    MessageJP: 本当か！？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140150
+    Id: 200140190
+    CharacterId: 20014
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 200143
+    NextGroupId: 200140160
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 당장 안내해!
+    MessageJP: 先生、今すぐ案内してくれ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140160
+    Id: 200140200
+    CharacterId: 20014
+    MessageCondition: FavorRankUp
+    ConditionValue: 5
+    PreConditionGroupId: 200140150
+    PreConditionFavorScheduleId: 200143
+    FavorScheduleId: 0
+    NextGroupId: 200140170
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 혹시 휴게실에 있는 TV의 예약 녹화 기능 쓰는 법 알아?
+    MessageJP: 先生。シャーレにあるTVって、録画機能は付いてるのか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140170
+    Id: 200140210
+    CharacterId: 20014
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140180
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오늘 밤 크로노스 채널에서 흥미로운 심야 다큐멘터리가 나온다고 해서…….
+    MessageJP: 今夜「クロノスチャンネル」で、気になるドキュメンタリーがあって……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140180
+    Id: 200140220
+    CharacterId: 20014
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140190
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 내가 대신 녹화해둘게.
+    MessageJP: うん、録画しておくね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140190
+    Id: 200140230
+    CharacterId: 20014
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140200
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 어, 음. 고마워.
+    MessageJP: あ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140190
+    Id: 200140240
+    CharacterId: 20014
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140200
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 요새 전자 제품은 기능이 너무 많아서 오히려 더 불편할 때가 있단 말이지.
+    MessageJP: 助かる、ありがとう
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140200
+    Id: 200140250
+    CharacterId: 20014
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140210
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 게다가 매뉴얼도 점차 디지털화되어서 읽기도 불편하니……
+    MessageJP: 最近はやたらと機能が多い機器ばっかりで、マニュアルもどんどんデジタル化されて読みづらいし……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140200
+    Id: 200140260
+    CharacterId: 20014
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140210
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 기본적인 기능에 충실하던 옛날 제품들이 그리워.
+    MessageJP: シンプルな機能で使いやすかった、昔の製品が恋しい……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140210
+    Id: 200140270
+    CharacterId: 20014
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140220
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 뭔가 사키는 예스럽네……
+    MessageJP: いや、「昔」も何も……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140220
+    Id: 200140280
+    CharacterId: 20014
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140230
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 뭐……?
+    MessageJP: ん？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140220
+    Id: 200140290
+    CharacterId: 20014
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140230
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 지금 나를 할머니 같다고 한 거야?!
+    MessageJP: それはつまり、私が「おばあちゃん」だと言いたいのか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140230
+    Id: 200140300
+    CharacterId: 20014
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 200145
+    NextGroupId: 200140240
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그런 말은 하지 않았어…….
+    MessageJP: いや、そうじゃなくって……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140240
+    Id: 200140310
+    CharacterId: 20014
+    MessageCondition: FavorRankUp
+    ConditionValue: 6
+    PreConditionGroupId: 200140230
+    PreConditionFavorScheduleId: 200145
+    FavorScheduleId: 0
+    NextGroupId: 200140250
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님. 방금 발키리 경찰학교의 지인에게 들었는데.
+    MessageJP: さっきヴァルキューレの知り合いから聞いたんだけど
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140250
+    Id: 200140320
+    CharacterId: 20014
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140260
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 공원 뒤의 산 중턱에 안 쓰는 야영 물자가 버려져 있대.
+    MessageJP: 公園の裏手にある山に、キャンプ用品が色々捨てられてたらしい
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140250
+    Id: 200140330
+    CharacterId: 20014
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140260
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그 근처에 초소가 있었을 때, 치장물자로 쌓아 둔 걸 버려두고 왔다나.
+    MessageJP: 昔ちょっとした基地みたいなのがあったらしくて、そこが無くなる時に放置されたんだとか
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140260
+    Id: 200140340
+    CharacterId: 20014
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140270
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 대부분 낡은 물건이긴 하지만, 우리 입장에서는 없는 것보다 도움이 될 것 같아서.
+    MessageJP: たとえ古いものだとしても、今の私たちにとっては無いよりマシだろうし
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140260
+    Id: 200140350
+    CharacterId: 20014
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140270
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 이번 주말에 등산을 겸해서 수거해 오려고.
+    MessageJP: ちょっと今週末に行こうかと思ってるんだけど……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140270
+    Id: 200140360
+    CharacterId: 20014
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140280
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……다만 혼자 옮기기엔 양이 꽤 많은 것 같아서.
+    MessageJP: その、聞いた感じ多分量が多くて
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140270
+    Id: 200140370
+    CharacterId: 20014
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140280
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님이 좀 도와줄 수는 없을까?
+    MessageJP: 手伝ってくれたら助かる
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140280
+    Id: 200140380
+    CharacterId: 20014
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140290
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 응. 괜찮아. 도와줄게.
+    MessageJP: うん、了解。喜んで
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140290
+    Id: 200140390
+    CharacterId: 20014
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140300
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선뜻 도와줘서 고마워.
+    MessageJP: ありがと
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140290
+    Id: 200140400
+    CharacterId: 20014
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140300
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 다른 대원들도 바쁜 것 같고, 혼자서 왕복하는 것도 어려워서 곤란하던 참이었거든.
+    MessageJP: 何かみんな忙しいらしくて、でもひとりで往復するのもアレだし……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140300
+    Id: 200140410
+    CharacterId: 20014
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200140310
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아, 참. 그러고 보니 그 산은 등산로가 험하기로 유명하니까……
+    MessageJP: そういえばその山、結構登山道が険しいみたいだから
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200140310
+    Id: 200140420
+    CharacterId: 20014
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 200146
+    NextGroupId: 0
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 가급적 두꺼운 옷을 입고 오는 게 좋을 거야.
+    MessageJP: 多分ちゃんとした格好で来た方が良い
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''

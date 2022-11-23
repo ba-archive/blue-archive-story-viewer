@@ -1,14 +1,28 @@
+<!--suppress JSIncompatibleTypesComparison -->
 <script setup lang="ts">
+import { computed } from 'vue';
+
 const emit = defineEmits(['clicked']);
-defineProps({
-  title: { type: String, required: true },
-  index: { type: String, required: false },
+const props = defineProps({
+  title: { type: Object, required: true },
+  index: { type: Number, required: false },
+  language: { type: String, required: true },
   isActive: { type: Boolean, required: false },
 });
 
 function handleClick() {
   emit('clicked');
 }
+
+const selectedLangTitle = computed(() => {
+  if ('zh' === props.language) {
+    return props.title.TextCn || undefined;
+  } else if ('jp' === props.language) {
+    return props.title.TextJp || undefined;
+  } else {
+    return props.title.TextEn || undefined;
+  }
+});
 </script>
 
 <template>
@@ -21,9 +35,9 @@ function handleClick() {
   >
     <p class="section-title">
       <span class="ordered-list">{{
-        (index ? `${parseInt(index.toString()) + 1}` : '').padStart(2, '0')
+        `${parseInt(index?.toString() || '0') + 1}`.padStart(2, '0')
       }}</span>
-      <span class="title">{{ title || '!StoryTitleMissing' }}</span>
+      <span class="title">{{ selectedLangTitle || '!StoryTitleMissing' }}</span>
     </p>
     <!-- eslint-disable max-len -->
     <svg

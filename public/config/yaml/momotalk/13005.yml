@@ -1,0 +1,642 @@
+CharacterId: 13005
+title:
+  - GroupId: 1300502
+    FavorScheduleId: 130052
+    CharacterId: 13005
+    TextJp: 抜き打ち検査
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1300503
+    FavorScheduleId: 130053
+    CharacterId: 13005
+    TextJp: 事務所の掃除
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1300505
+    FavorScheduleId: 130055
+    CharacterId: 13005
+    TextJp: ロック・スピリッツ
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1300506
+    FavorScheduleId: 130056
+    CharacterId: 13005
+    TextJp: 雨の降る日の路地裏
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1300508
+    FavorScheduleId: 130058
+    CharacterId: 13005
+    TextJp: レコード屋
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+content:
+  - MessageGroupId: 130050010
+    Id: 1039
+    CharacterId: 13005
+    MessageCondition: FavorRankUp
+    ConditionValue: 2
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130050020
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생은 인상 때문에 고민해 본 경험 있어?
+    MessageJP: 先生は、自分の外見のことで悩んだことある？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130050020
+    Id: 1040
+    CharacterId: 13005
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130050030
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 왜 갑자기 그런 생각을 한 거야?
+    MessageJP: 急にどうしたの？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130050030
+    Id: 1041
+    CharacterId: 13005
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130050040
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그게…… 선생도 알다시피 내 인상이 좀 사나운 편이잖아.
+    MessageJP: ……先生も知ってる通り私、よく第一印象が怖いって言われるから
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130050030
+    Id: 1042
+    CharacterId: 13005
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130050040
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그러다 보니 이상하게 시비가 걸리는 일이 잦아서 말이야.
+    MessageJP: 変なのに絡まれることも多いし
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130050040
+    Id: 1043
+    CharacterId: 13005
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 130052
+    NextGroupId: 130050050
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 인상이 사나워서 좋은 일은 별로 없는 것 같아.
+    MessageJP: そのおかげで得したことも……あんまり無いし
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130050050
+    Id: 1044
+    CharacterId: 13005
+    MessageCondition: FavorRankUp
+    ConditionValue: 3
+    PreConditionGroupId: 130050040
+    PreConditionFavorScheduleId: 130052
+    FavorScheduleId: 0
+    NextGroupId: 130050060
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생, 전에 구해달라고 의뢰했던 물건이 방금 들어왔어.
+    MessageJP: 先生、前に探してほしいって言ってたの、ようやく手に入ったよ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130050060
+    Id: 1045
+    CharacterId: 13005
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130050070
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오, 드디어 들어왔구나!
+    MessageJP: やった、ありがとう！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130050070
+    Id: 1046
+    CharacterId: 13005
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130050080
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 후후, 반응을 보니 오랫동안 기대했던 물건인가 보네.
+    MessageJP: その反応、相当探してたんだね。なら良かった
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130050070
+    Id: 1047
+    CharacterId: 13005
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130050080
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오후에 시간 되면 우리 흥신소에 들러서 찾아가.
+    MessageJP: 今日の午後にでも、もし時間があったら便利屋に寄って受け取っていって
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130050080
+    Id: 1048
+    CharacterId: 13005
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 130053
+    NextGroupId: 130050090
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 샬레의 일이 끝나면 바로 찾아갈게.
+    MessageJP: シャーレの仕事が終わったら、すぐに行くね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130050090
+    Id: 1049
+    CharacterId: 13005
+    MessageCondition: FavorRankUp
+    ConditionValue: 5
+    PreConditionGroupId: 130050080
+    PreConditionFavorScheduleId: 130053
+    FavorScheduleId: 0
+    NextGroupId: 130050100
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생은 특별히 즐겨 듣는 음악 장르가 있어?
+    MessageJP: 先生は、好きな音楽のジャンルとかある？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130050100
+    Id: 1050
+    CharacterId: 13005
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130050110
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 대중가요려나.
+    MessageJP: ポップスかな
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130050100
+    Id: 1051
+    CharacterId: 13005
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130050110
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 클래식이려나.
+    MessageJP: クラシックかな
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130050110
+    Id: 1052
+    CharacterId: 13005
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130050120
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그렇구나. 무난한 편이네.
+    MessageJP: そっか、まあ似合ってると思う
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130050120
+    Id: 1053
+    CharacterId: 13005
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130050130
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 카요코는 어떤 음악을 좋아해?
+    MessageJP: カヨコはどんな音楽が好きなの？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130050130
+    Id: 1054
+    CharacterId: 13005
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 130055
+    NextGroupId: 130050140
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 나도, 뭐…… 평범한 걸 좋아해서. 선생이랑 음악 취향은 비슷할 것 같아.
+    MessageJP: 私は……まあ、普通のやつ。先生と結構好み近いかも
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130050140
+    Id: 1055
+    CharacterId: 13005
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 130050130
+    PreConditionFavorScheduleId: 130055
+    FavorScheduleId: 0
+    NextGroupId: 130050150
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생, 내가 추천해 준 2집 앨범은 다 들었어?
+    MessageJP: あの2ndアルバム、聞き終わった？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130050140
+    Id: 1056
+    CharacterId: 13005
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130050150
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 어때, 역시 블랙 데스 포이즌의 곡은 최고지?
+    MessageJP: ブラック・デス・ポイズン、最高じゃない？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130050150
+    Id: 1057
+    CharacterId: 13005
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130050160
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……뭔가 인상적이었어.
+    MessageJP: ……脳にガツン！って来る感じだった
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130050150
+    Id: 1058
+    CharacterId: 13005
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130050160
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……뭔가 전위적이었어.
+    MessageJP: ……アバンギャルドな感じだった
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130050160
+    Id: 1059
+    CharacterId: 13005
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130050170
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 역시 선생은 그 곡의 진가를 알아보는구나. 다행이야.
+    MessageJP: さすが、先生なら分かってくれると思った
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130050170
+    Id: 1060
+    CharacterId: 13005
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130050180
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 2집 앨범은 1집 앨범에 비해 가사는 많이 순화되었지만,
+    MessageJP: 2ndアルバムは1stアルバムに比べて歌詞は分かりやすくなったけど、
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130050170
+    Id: 1061
+    CharacterId: 13005
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130050180
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 사운드가 거칠어서 진짜 헤비메탈 팬들은 이쪽을 더 좋아하는 편이지.
+    MessageJP: サウンドはますます激しくなってるから、こっちの方が好きって人は多くて
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130050170
+    Id: 1062
+    CharacterId: 13005
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130050180
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 블랙 데스 포이즌의 2집이 마음에 들었다면 이번에는 3집을 빌려줄게.
+    MessageJP: もし気に入ったなら、今度3rdアルバムを貸してあげる
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130050180
+    Id: 1063
+    CharacterId: 13005
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130050190
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 헤비메탈은 이제 괜찮아…….
+    MessageJP: 考えとくね……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130050190
+    Id: 1064
+    CharacterId: 13005
+    MessageCondition: FavorRankUp
+    ConditionValue: 6
+    PreConditionGroupId: 130050180
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130050200
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생, 일기예보를 보니 오늘 오후에는 비가 온다고 하네.
+    MessageJP: 天気予報で、今日の午後は雨だって
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130050200
+    Id: 1065
+    CharacterId: 13005
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 130056
+    NextGroupId: 130050210
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오늘은 출근할 때 잊지 말고 우산 챙겨가.
+    MessageJP: 傘、忘れないようにね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130050210
+    Id: 1066
+    CharacterId: 13005
+    MessageCondition: FavorRankUp
+    ConditionValue: 8
+    PreConditionGroupId: 130050200
+    PreConditionFavorScheduleId: 130056
+    FavorScheduleId: 0
+    NextGroupId: 130050220
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 트리니티에는 세상의 모든 책을 모아 놓은 거대한 도서관이 있다고 하는데……
+    MessageJP: トリニティに世界中の全ての本を集めた巨大な図書館があるらしいけど……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130050220
+    Id: 1067
+    CharacterId: 13005
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130050230
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 세상의 모든 음반을 모아 놓은 음반 매장은 어디 없으려나?
+    MessageJP: 世界中のレコードを集めたレコード屋とか、どこかにないのかな
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130050230
+    Id: 1068
+    CharacterId: 13005
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130050240
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 키보토스 상점가에 있는 <레코드 빌딩>은 어때?
+    MessageJP: 商店街の「ザ・レコードビル」とかは？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130050240
+    Id: 1069
+    CharacterId: 13005
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130050250
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 세상의 모든 음반이 있는 건 아니지만…… 레코드 빌딩 정도면 나쁘지 않지.
+    MessageJP: あそこも世界中ってわけじゃないけど……品揃えは確かに悪くない
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130050240
+    Id: 1070
+    CharacterId: 13005
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130050250
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 장르를 불문한 다양한 음반을 모아 놓고 있으니까.
+    MessageJP: ジャンルを問わず、色々なレコードが集められてるから
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130050250
+    Id: 1071
+    CharacterId: 13005
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 130058
+    NextGroupId: 0
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 나도 휴일에는 음악을 감상하러 자주 놀러 가곤 해.
+    MessageJP: 休みの日とか、よく行く
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''

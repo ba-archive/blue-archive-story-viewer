@@ -1,0 +1,1146 @@
+CharacterId: 10018
+title:
+  - GroupId: 1001802
+    FavorScheduleId: 100182
+    CharacterId: 10018
+    TextJp: 癒し空間はロッカーの中
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1001803
+    FavorScheduleId: 100183
+    CharacterId: 10018
+    TextJp: 優しいファイター
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1001805
+    FavorScheduleId: 100185
+    CharacterId: 10018
+    TextJp: 恥ずかしがり屋のアルバイト（１）
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1001806
+    FavorScheduleId: 100186
+    CharacterId: 10018
+    TextJp: 恥ずかしがり屋のアルバイト（２）
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1001808
+    FavorScheduleId: 100188
+    CharacterId: 10018
+    TextJp: 遊園地での約束
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+content:
+  - MessageGroupId: 100180010
+    Id: 100180010
+    CharacterId: 10018
+    MessageCondition: FavorRankUp
+    ConditionValue: 2
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180020
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님은 휴식 시간에는 어디서 시간을 보내시나요?
+    MessageJP: 先生は休憩する時、どこで過ごされますか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180020
+    Id: 100180020
+    CharacterId: 10018
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180030
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 샬레 생활관.
+    MessageJP: だいたいシャーレかな
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180020
+    Id: 100180030
+    CharacterId: 10018
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180040
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 화장실.
+    MessageJP: だいたいトイレかな
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180030
+    Id: 100180040
+    CharacterId: 10018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180050
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그렇군요. 확실히 샬레 생활관에는 쉬기 편한 공간이 많으니까요.
+    MessageJP: 確かに、シャーレは休むのにちょうど良い空間が多いですよね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180040
+    Id: 100180050
+    CharacterId: 10018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180050
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……조금 습하긴 해도 나쁘지 않은 공간이네요.
+    MessageJP: そ、それは……でも、ちょっと分かるかもです。悪くないですよね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180050
+    Id: 100180060
+    CharacterId: 10018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180060
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 저는…… 사람이 지나다니지 않는 어둡고 그늘진 장소가 좋아요.
+    MessageJP: わたしは……人が通らなくて、日陰になっている、暗いところが好きです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180060
+    Id: 100180070
+    CharacterId: 10018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180070
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아무에게도 방해받지 않는 저만의 안식처…….
+    MessageJP: 誰にも邪魔されない、わたしだけの癒しの空間……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180060
+    Id: 100180080
+    CharacterId: 10018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100182
+    NextGroupId: 100180070
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그곳에 있으면 마음이 편안해져서, 얼마든지 머무를 수 있어요.
+    MessageJP: そういうところなら、いつまででもいられそうで
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180070
+    Id: 100180090
+    CharacterId: 10018
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 100180060
+    PreConditionFavorScheduleId: 100182
+    FavorScheduleId: 0
+    NextGroupId: 100180080
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 다음부터는 다른 캐비닛을 알아봐 주세요…….
+    MessageJP: 先生、今度は他のロッカーを探しておいていただけると……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180070
+    Id: 100180100
+    CharacterId: 10018
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180080
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 게임개발부의 캐비닛은 제 전용 캐비닛이에요.
+    MessageJP: ゲーム開発部のは、わたし専用のロッカーなので……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180080
+    Id: 100180110
+    CharacterId: 10018
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180090
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 유즈의 캐비닛이 좋아.
+    MessageJP: 一緒に使うのはダメ？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180090
+    Id: 100180120
+    CharacterId: 10018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180100
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그렇게 말씀하셔도…….
+    MessageJP: そ、そう仰られましても二人では入れませんし……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180090
+    Id: 100180130
+    CharacterId: 10018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180100
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 안 되는 건 안 된다고요.
+    MessageJP: ダメなものはダメ、です
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180100
+    Id: 100180140
+    CharacterId: 10018
+    MessageCondition: FavorRankUp
+    ConditionValue: 3
+    PreConditionGroupId: 100180090
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180110
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님은 어떤 종류의 게임을 좋아하세요?
+    MessageJP: 先生は、どんな種類のゲームがお好きですか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180110
+    Id: 100180150
+    CharacterId: 10018
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180120
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 콘솔 게임이 좋아.
+    MessageJP: コンシューマーゲームが好きかな
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180110
+    Id: 100180160
+    CharacterId: 10018
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180120
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아케이드 게임이 좋아.
+    MessageJP: アーケードゲームが好きかな
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180120
+    Id: 100180170
+    CharacterId: 10018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180130
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 저는 게임이라면 대부분 좋아하지만,
+    MessageJP: あ、そうなんですね。わたしは……ゲームでしたら大抵のものは好きです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180120
+    Id: 100180180
+    CharacterId: 10018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180130
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 다른 사람들과 협력해서 플레이해야 하는 온라인 게임만큼은 어쩐지 대화가 부담스러워서……
+    MessageJP: ただ、他の人たちとプレイをしなくちゃいけない、オンラインゲームなどはちょっと……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180120
+    Id: 100180190
+    CharacterId: 10018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180130
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그다지 즐기지는 않아요.
+    MessageJP: なんだかプレッシャーを感じてしまって……あまりやりません
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180130
+    Id: 100180200
+    CharacterId: 10018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180140
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그래도 대전 격투 게임만큼은 괜찮아요.
+    MessageJP: あ、でも、対戦型格闘ゲームはよくやります
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180140
+    Id: 100180210
+    CharacterId: 10018
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180150
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 대전 격투 게임?
+    MessageJP: そうなんだ？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180150
+    Id: 100180220
+    CharacterId: 10018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180160
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 네, 대전 격투 게임은 직접 대화를 나누지 않더라도 충분히 즐길 수 있으니까요.
+    MessageJP: はい、ああいうタイプのゲームは、それほど苦手ではなくて
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180150
+    Id: 100180230
+    CharacterId: 10018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180160
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 안 그래도 이번에 좋아하는 게임사에서 새로운 신작 대전 격투 게임이 나온다고 해서 기대하고 있답니다.
+    MessageJP: 今度、わたしが好きなゲーム会社から新しい対戦格闘ゲームが出るそうで、楽しみです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180160
+    Id: 100180240
+    CharacterId: 10018
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180170
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 뭔가 유즈와는 어울리지 않는 장르의 게임이네.
+    MessageJP: ユズと格ゲーって、なんだか意外な組み合わせだね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180170
+    Id: 100180250
+    CharacterId: 10018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100183
+    NextGroupId: 100180180
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그런가요? 저는 잘 모르겠어요…….
+    MessageJP: そ、そうでしょうか……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180180
+    Id: 100180260
+    CharacterId: 10018
+    MessageCondition: FavorRankUp
+    ConditionValue: 5
+    PreConditionGroupId: 100180170
+    PreConditionFavorScheduleId: 100183
+    FavorScheduleId: 0
+    NextGroupId: 100180190
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 게임을 개발하는 데 이렇게 많은 돈이 필요할 줄은 예전에는 미처 몰랐어요.
+    MessageJP: ゲームを開発するのって、すごくお金が必要なんですよね……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180190
+    Id: 100180270
+    CharacterId: 10018
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180200
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 저번 개발 때는 서버를 유지할 돈이 부족해서
+    MessageJP: 前回の開発ではサーバーを維持するお金が足りなくて、
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180190
+    Id: 100180280
+    CharacterId: 10018
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180200
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 중간에 데이터가 날아가는 일도 있었을 정도니…….
+    MessageJP: 途中でデータを飛ばしてしまったこともあったぐらいなので……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180200
+    Id: 100180290
+    CharacterId: 10018
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180210
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: (ﾟﾛﾟ;) 큰일이잖아. 그래서 어떻게 되었어?
+    MessageJP: (ﾟﾛﾟ;) それは大変だ……最終的にどうなったの？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180210
+    Id: 100180300
+    CharacterId: 10018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180220
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 다행히 백업해 둔 자료가 있어서 데이터를 완전히 날리지는 않았지만,
+    MessageJP: 幸いにもバックアップのデータがあったのでなんとか復旧できましたが……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180210
+    Id: 100180310
+    CharacterId: 10018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180220
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 사흘 치의 작업이 물거품이 되고 말았어요.
+    MessageJP: 4日間分の作業が、水の泡になってしまいました……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180220
+    Id: 100180320
+    CharacterId: 10018
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180230
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 게임 개발의 세계는 냉혹하구나.
+    MessageJP: ゲームの開発は、大変な世界なんだね……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180230
+    Id: 100180330
+    CharacterId: 10018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180240
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 네…….
+    MessageJP: はい……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180230
+    Id: 100180340
+    CharacterId: 10018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180240
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 차기작을 개발할 때는 같은 실수를 반복하지 않도록
+    MessageJP: 次回作の開発の時は、同じミスを繰り返さないように、
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180230
+    Id: 100180350
+    CharacterId: 10018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100185
+    NextGroupId: 100180240
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 미리 부지런히 개발비를 모아둬야겠어요.
+    MessageJP: 前もって開発費を集めておかないとです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180240
+    Id: 100180360
+    CharacterId: 10018
+    MessageCondition: FavorRankUp
+    ConditionValue: 6
+    PreConditionGroupId: 100180230
+    PreConditionFavorScheduleId: 100185
+    FavorScheduleId: 0
+    NextGroupId: 100180250
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 지난번에 한 아르바이트는 최악이었어요.
+    MessageJP: この前のアルバイトは、色々とやってしまいました……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180250
+    Id: 100180370
+    CharacterId: 10018
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180260
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 손님 앞에만 서면 자꾸 몸이 얼어붙어서 실수만 연발하고…….
+    MessageJP: お客様の前で何度も体が固まってしまって、ミスの連発でしたし……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180250
+    Id: 100180380
+    CharacterId: 10018
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180260
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 점장님도 괜찮다고는 하셨지만, 분명 크게 실망하셨을 거예요.
+    MessageJP: 店長さんからは大丈夫だと言っていただけましたが……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180260
+    Id: 100180390
+    CharacterId: 10018
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180270
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그럼 다른 새로운 아르바이트를 해보지 않을래?
+    MessageJP: じゃあ、今度は別のアルバイトをしてみない？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180270
+    Id: 100180400
+    CharacterId: 10018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180280
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 네? 새로운 아르바이트요……?
+    MessageJP: え？別のアルバイトですか……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180270
+    Id: 100180410
+    CharacterId: 10018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180280
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 무, 무리예요! 지난번의 편의점 아르바이트도 겨우 해냈는걸요…….
+    MessageJP: む、無理です！この前のコンビニのアルバイトだって、何とかギリギリだったのに……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180280
+    Id: 100180420
+    CharacterId: 10018
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180290
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 괜찮아. 이번 아르바이트는 사람의 얼굴을 직접 보지 않아도 할 수 있거든.
+    MessageJP: 大丈夫。今度のアルバイトは、直接人の顔を見なくてもできるやつだから
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180290
+    Id: 100180430
+    CharacterId: 10018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180300
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 사람의 얼굴을 직접 보지 않아도 할 수 있는 아르바이트…….
+    MessageJP: え、そんなアルバイトが……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180290
+    Id: 100180440
+    CharacterId: 10018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100186
+    NextGroupId: 100180300
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그, 그렇다면 괜찮을지도…….
+    MessageJP: それなら、大丈夫かもしれません……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180300
+    Id: 100180450
+    CharacterId: 10018
+    MessageCondition: FavorRankUp
+    ConditionValue: 8
+    PreConditionGroupId: 100180290
+    PreConditionFavorScheduleId: 100186
+    FavorScheduleId: 0
+    NextGroupId: 100180310
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 이번 달의 아르바이트 급여를 받았어요!
+    MessageJP: 先生、今月分のアルバイトのお給料をいただきました！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180310
+    Id: 100180460
+    CharacterId: 10018
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180320
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 생각보다 높은 액수를 받아서 남는 돈으로 부원들에게 선물도 할 수 있었답니다.
+    MessageJP: 思ったより金額があったので、余ったお金で部員のみんなへのプレゼントもできました
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180320
+    Id: 100180470
+    CharacterId: 10018
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180330
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ('‿') 좋은 일이네. 축하해!
+    MessageJP: ('‿') それは良かった、お疲れ様！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180330
+    Id: 100180480
+    CharacterId: 10018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180340
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 저…… 괜찮으시다면 이번 주말에 제가 일하는 놀이공원으로 와 주시지 않으시겠어요?
+    MessageJP: それで、えっと……もしよかったら今週末、あの遊園地に来てくれませんか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180340
+    Id: 100180490
+    CharacterId: 10018
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180350
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 놀이공원에? 갑자기 왜?
+    MessageJP: 遊園地に？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180350
+    Id: 100180500
+    CharacterId: 10018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180360
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……선생님께도 드리고 싶은 선물이 있어요.
+    MessageJP: その……先生に、お渡ししたいプレゼントが、ありまして
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180360
+    Id: 100180510
+    CharacterId: 10018
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180370
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선물은 주지 않아도 괜찮은데.
+    MessageJP: 気持ちだけで十分だよ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180370
+    Id: 100180520
+    CharacterId: 10018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180380
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아뇨. 이번에는 꼭 선생님과 같이…….
+    MessageJP: いえ、その、先生と一緒に……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180370
+    Id: 100180530
+    CharacterId: 10018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180380
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아니,
+    MessageJP: じゃなくて、それもですが、えっと……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180370
+    Id: 100180540
+    CharacterId: 10018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180380
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님께 꼭 선물을 드리고 싶어요!
+    MessageJP: 先生に、どうしてもプレゼントをお渡ししたいんです！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180380
+    Id: 100180550
+    CharacterId: 10018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100188
+    NextGroupId: 100180390
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그러니까 이번 주말에는 꼭 놀이공원으로 와 주세요!
+    MessageJP: なので今週末、遊園地に来てください！お願いします！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180390
+    Id: 100180560
+    CharacterId: 10018
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 100180380
+    PreConditionFavorScheduleId: 100188
+    FavorScheduleId: 0
+    NextGroupId: 100180400
+    FeedbackTimeMillisec: 1000
+    MessageType: Image
+    ImagePath: UIs/03_Scenario/04_ScenarioImage/Mo_Yuzu_01
+    MessageKR: ''
+    MessageJP: ''
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180390
+    Id: 100180570
+    CharacterId: 10018
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180400
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선물해드린 티켓을 바로 돌려주시다니…….
+    MessageJP: フリーパス、こんなに早く手元に戻ってくるとは思いませんでした
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180390
+    Id: 100180580
+    CharacterId: 10018
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180400
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 무슨 시키실 일이라도 있으신가요, 선생님?
+    MessageJP: お願いしたいこと……決まりましたか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180400
+    Id: 100180590
+    CharacterId: 10018
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100180410
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 샬레에 오는 길에 빵하고 우유 좀 사다 줘.
+    MessageJP: シャーレに来る時に、パンと牛乳を買ってきてくれない？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180410
+    Id: 100180600
+    CharacterId: 10018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 0
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 뭐든지라고는 했지만 겨우 이런 일에 자유이용권을 쓰지 말아 주세요!
+    MessageJP: 確かに何でもと言いましたが、そんなことにせっかくのフリーパスを使わないでください……！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100180410
+    Id: 100180610
+    CharacterId: 10018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 0
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 이 정도는 그냥 부탁해도 사다 드릴 수 있다고요!
+    MessageJP: これぐらいでしたら、普通に言っていただければ買ってきますから！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''

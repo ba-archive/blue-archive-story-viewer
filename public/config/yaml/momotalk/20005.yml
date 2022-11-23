@@ -1,0 +1,815 @@
+CharacterId: 20005
+title:
+  - GroupId: 2000502
+    FavorScheduleId: 200052
+    CharacterId: 20005
+    TextJp: 夏デビュー！
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2000503
+    FavorScheduleId: 200053
+    CharacterId: 20005
+    TextJp: 踏んだり蹴ったり破れたり
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2000505
+    FavorScheduleId: 200055
+    CharacterId: 20005
+    TextJp: 備品は使用後、綺麗にして元の位置へ
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2000506
+    FavorScheduleId: 200056
+    CharacterId: 20005
+    TextJp: 夏限定のペロロ様グッズ
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+content:
+  - MessageGroupId: 20005010
+    Id: 20005010
+    CharacterId: 20005
+    MessageCondition: FavorRankUp
+    ConditionValue: 2
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005020
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 오후에 시간 괜찮으신가요?
+    MessageJP: 先生、今日お時間ありますか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005020
+    Id: 20005020
+    CharacterId: 20005
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005030
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오늘 방과 후에 시바타운에 있는 대형 쇼핑몰에 수영복을 사러 가려했거든요.
+    MessageJP: 放課後、芝タウンのショッピングモールで水着を買おうかなって思ってまして……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005030
+    Id: 20005030
+    CharacterId: 20005
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005040
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 어떤 수영복이 제게 어울리는지 선생님이 꼭 봐주셨으면 좋겠어요. (≧∇≦)
+    MessageJP: よろしければ、どんな水着が良いか先生に見ていただきたく……！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005040
+    Id: 20005040
+    CharacterId: 20005
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005050
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그래. 같이 가자.
+    MessageJP: えっと、私で良ければ喜んで
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005050
+    Id: 20005050
+    CharacterId: 20005
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005060
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그나저나 전에 쓰던 수영복은 없는 거야?
+    MessageJP: もしかして水着、持ってないとか……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005060
+    Id: 20005060
+    CharacterId: 20005
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005070
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 학교에서 쓰는 평범한 스쿨미즈가 있긴 하지만……
+    MessageJP: 学校のスクール水着はありますが……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005060
+    Id: 20005070
+    CharacterId: 20005
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005070
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그건 너무 평범해요! 평범한 수영복으로는 안 된다고요!
+    MessageJP: それではダメなんです！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005070
+    Id: 20005080
+    CharacterId: 20005
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005080
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 뭐가 안 되는데……?
+    MessageJP: だ、ダメなんだ……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005080
+    Id: 20005090
+    CharacterId: 20005
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005090
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 여름의 해변은 모두가 숨겨왔던 매력을 드러내는 각축장……
+    MessageJP: 夏、そして海といえば、みんなそれぞれ隠していた魅力を披露する戦場……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005080
+    Id: 20005100
+    CharacterId: 20005
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005090
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그곳에 평범한 수영복을 입고 가는 건 총알 없이 전장에 나가는 것과 다름없어요!
+    MessageJP: なのに、そんなところにスクール水着で行くなんて、普通の子にとっては銃弾を持たずに戦場に出るのと同じです！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005090
+    Id: 20005110
+    CharacterId: 20005
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 200052
+    NextGroupId: 20005100
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……말하자면, 여름 데뷔예요!
+    MessageJP: せっかくですし私も、夏デビューしたいんです……！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005100
+    Id: 20005120
+    CharacterId: 20005
+    MessageCondition: FavorRankUp
+    ConditionValue: 3
+    PreConditionGroupId: 20005090
+    PreConditionFavorScheduleId: 200052
+    FavorScheduleId: 0
+    NextGroupId: 20005110
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 무이가하마 시장 근처에 알려지지 않은 예쁜 해변이 있대요.
+    MessageJP: 先生、無為ヶ浜から少し離れた市場の近くに、あまり知られていない綺麗な海辺があるそうです！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005110
+    Id: 20005130
+    CharacterId: 20005
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005120
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오후에 함께 수영하러 가지 않으시겠어요?
+    MessageJP: 今日の午後、そこへ一緒に泳ぎに行きませんか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005120
+    Id: 20005140
+    CharacterId: 20005
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005130
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 좋아.
+    MessageJP: そんなところがあるんだ、それはぜひ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005130
+    Id: 20005150
+    CharacterId: 20005
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005140
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그런데 그 근처는 버스나 전철이 다니지 않을 텐데, 어떻게 가지?
+    MessageJP: でもその辺は、バスも電車も通ってないはずだけど……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005140
+    Id: 20005160
+    CharacterId: 20005
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005150
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 괜찮아요. 제가 직접 모시러 갈게요.
+    MessageJP: 大丈夫です
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005140
+    Id: 20005170
+    CharacterId: 20005
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005150
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 전차로!
+    MessageJP: 私が、戦車で迎えに行きますので！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005150
+    Id: 20005180
+    CharacterId: 20005
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 200053
+    NextGroupId: 20005160
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 전차로?!
+    MessageJP: 戦車で！？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005160
+    Id: 20005190
+    CharacterId: 20005
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 20005150
+    PreConditionFavorScheduleId: 200053
+    FavorScheduleId: 0
+    NextGroupId: 20005170
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 정말 죄송해요.
+    MessageJP: 先生、今日はありがとうございました。それにすみません……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005160
+    Id: 20005200
+    CharacterId: 20005
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005170
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: |-
+      저 때문에 괜한 고생을 하셨으니……
+       (；＿；)
+    MessageJP: 私のせいで、余計に大変なことになってしまって……(；＿；)
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005170
+    Id: 20005210
+    CharacterId: 20005
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005180
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 괜찮아.
+    MessageJP: ううん、気にしないで
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005180
+    Id: 20005220
+    CharacterId: 20005
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005190
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 수영복의 상태는 괜찮아?
+    MessageJP: 水着、直せそう？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005190
+    Id: 20005230
+    CharacterId: 20005
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005200
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 찢어진 수영복은 어쩔 수 없지만…… 여분의 수영복이 있으니 괜찮아요.
+    MessageJP: 恐らく、何とかなるかなと……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005190
+    Id: 20005240
+    CharacterId: 20005
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005200
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 다음번에는 전차가 아니라 택시를 타고 수영을 하러 가죠!
+    MessageJP: 次泳ぎに行く時は、戦車ではなくタクシーで行きましょう！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005200
+    Id: 20005250
+    CharacterId: 20005
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005210
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 수영복을 입은 채로 택시를 타는 건 어쩐지 부끄럽지 않아?
+    MessageJP: 水着姿でタクシーも、結構恥ずかしくない？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005210
+    Id: 20005260
+    CharacterId: 20005
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005220
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 앗…….
+    MessageJP: ……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005220
+    Id: 20005270
+    CharacterId: 20005
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005230
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아아앗……! ((º□º;))
+    MessageJP: 確かに……！((º□º;))
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005230
+    Id: 20005280
+    CharacterId: 20005
+    MessageCondition: FavorRankUp
+    ConditionValue: 5
+    PreConditionGroupId: 20005220
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005240
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 밖에 좀 보세요!
+    MessageJP: 先生！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005240
+    Id: 20005290
+    CharacterId: 20005
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005250
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 구름 한 점 없이 볕이 드는 게 날씨가 아주 맑아요!
+    MessageJP: 雲一つ無くて、すっごく良い天気ですよ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005250
+    Id: 20005300
+    CharacterId: 20005
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005260
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 이런 날 해변에서 일광욕하면 분명 기분 좋을 거예요~
+    MessageJP: せっかくこんなに晴れてますし
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005250
+    Id: 20005310
+    CharacterId: 20005
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005260
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 괜찮으시면 일광욕을 하러 같이 해변에 나가지 않으시겠어요?
+    MessageJP: 一緒に日光浴なんていかがですか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005260
+    Id: 20005320
+    CharacterId: 20005
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005270
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 좋아. 같이 나가자.
+    MessageJP: 良いね、ぜひぜひ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005270
+    Id: 20005330
+    CharacterId: 20005
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005280
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그런데 일광욕을 하려면 장비가 필요하지 않을까?
+    MessageJP: そうとなったら、色々と準備しないとね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005280
+    Id: 20005340
+    CharacterId: 20005
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005290
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 괜찮아요. ヾ(•ω•`)o
+    MessageJP: そこはお任せください！ヾ(•ω•`)o
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005280
+    Id: 20005350
+    CharacterId: 20005
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005290
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 저희에게 해수욕 장비는 없어도 전차는 있으니까요!
+    MessageJP: 今の私たちには、クルセイダーちゃんがありますので！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005290
+    Id: 20005360
+    CharacterId: 20005
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 200055
+    NextGroupId: 20005300
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 전차로 무얼 어쩌려고?!
+    MessageJP: 戦車で何をどうする気！？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005300
+    Id: 20005370
+    CharacterId: 20005
+    MessageCondition: FavorRankUp
+    ConditionValue: 6
+    PreConditionGroupId: 20005290
+    PreConditionFavorScheduleId: 200055
+    FavorScheduleId: 0
+    NextGroupId: 20005310
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 점심 식사하셨나요?
+    MessageJP: 先生、もうお昼は食べましたか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005310
+    Id: 20005380
+    CharacterId: 20005
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005320
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아직 안 먹었어.
+    MessageJP: ううん、まだこれから
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005320
+    Id: 20005390
+    CharacterId: 20005
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005330
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 마침 잘 되었네요. 저도 지금부터 식사하려던 참이었거든요.
+    MessageJP: そうでしたか！私、今からちょうどご飯を食べに行こうかなと思ってまして
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005330
+    Id: 20005400
+    CharacterId: 20005
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005340
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 이 앞의 바다의 집에서 맛있는 야키소바를 판다고 하던데…….
+    MessageJP: 近くの海の家で、美味しい焼きそばを売ってると聞いたんですが……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005330
+    Id: 20005410
+    CharacterId: 20005
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005340
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 괜찮으시다면 바다의 집에서 같이 식사하지 않으시겠어요?
+    MessageJP: よろしければ、先生も一緒にいかがですか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005340
+    Id: 20005420
+    CharacterId: 20005
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 20005350
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 좋아. 같이 점심을 먹자.
+    MessageJP: 焼きそば良いね、行こう！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 20005350
+    Id: 20005430
+    CharacterId: 20005
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 200056
+    NextGroupId: 0
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 네, 그럼 잠시 후에 바다의 집 앞에서 뵐게요!
+    MessageJP: では、海の家の前で待ってますね！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''

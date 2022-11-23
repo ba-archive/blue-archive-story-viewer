@@ -1,0 +1,1389 @@
+CharacterId: 16009
+title:
+  - GroupId: 1600902
+    FavorScheduleId: 160092
+    CharacterId: 16009
+    TextJp: 忍者少女は気難しい
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1600903
+    FavorScheduleId: 160093
+    CharacterId: 16009
+    TextJp: 忍者少女は止められない
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1600905
+    FavorScheduleId: 160095
+    CharacterId: 16009
+    TextJp: 忍者少女は隠さない
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1600906
+    FavorScheduleId: 160096
+    CharacterId: 16009
+    TextJp: 忍者少女は輝きたい
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+content:
+  - MessageGroupId: 160090010
+    Id: 160090010
+    CharacterId: 16009
+    MessageCondition: FavorRankUp
+    ConditionValue: 2
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090020
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 도-모 선생=공. 소생, 미치루라 하오
+    MessageJP: ドーモ、先生殿……小生、ミチルと申す
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090020
+    Id: 160090020
+    CharacterId: 16009
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090030
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 저기… 미치루? 갑자기 왜 그래?
+    MessageJP: えっと……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090030
+    Id: 160090030
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090040
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 이건 우리 같은 닌자 덕후들 사이에서 대대로 통용되는 전통의 인사!
+    MessageJP: ふふっ……これはねー、忍者オタクの間で代々語り継がれてきた伝統の挨拶！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090040
+    Id: 160090040
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090050
+    FeedbackTimeMillisec: 2000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 이걸 받아주지 않는다니 그러고도 선생 공이 나와 같은 닌자 덕후 동지…. <닌자 메이트>를 자처할 수 있겠어?
+    MessageJP: これに返せないとは、先生殿も忍者オタク仲間……忍者メイトとしてはまだ未熟のようだね！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090050
+    Id: 160090050
+    CharacterId: 16009
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090060
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아니, 그런 걸 자처했던 기억은 없는데….
+    MessageJP: 忍者メイト……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090050
+    Id: 160090060
+    CharacterId: 16009
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090100
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 크윽…! 그, 그렇게 말하니 왠지 분한걸…!
+    MessageJP: ぐっ、何か悔しい……！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090060
+    Id: 160090070
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090070
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: '뭐야, 선생 공…. 설마 잊은 거야?! '
+    MessageJP: せ、先生殿……もしかして忘れたの！？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090060
+    Id: 160090080
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090070
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 야심한 밤……. 달밤 아래에서 나와 함께 단둘이서 앰부쉬를 했던 추억을!
+    MessageJP: 草木も寝静まるあの夜更け……月夜の下で、私と一緒に二人でアンブッシュしたあの思い出を！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090070
+    Id: 160090090
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090080
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아, 참고로 앰부쉬란 수풀 속에서 은밀히 행동한다는 뜻의 닌자 은어니까. 기억해두라고!
+    MessageJP: あ、ちなみにアンブッシュは「茂みの中で密かに行動する」っていう意味の忍者用語だよ。覚えておいてね！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090080
+    Id: 160090100
+    CharacterId: 16009
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090090
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그런 굉장한 추억 없거든?! 앰부쉬라니, 뭐냐고!
+    MessageJP: それはちょっと記憶に無いかな……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090090
+    Id: 160090110
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090130
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 뭐, 사소한 건 됐고~
+    MessageJP: まぁまぁ細かい事は気にしない～
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090100
+    Id: 160090120
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090110
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그렇다고 너무 실망하지 마! 선생 공은 보기 드문 닌자의 재능을 가진 사람이니까.
+    MessageJP: 大丈夫、ガッカリしないで！先生殿には忍者の才能がある！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090100
+    Id: 160090130
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090110
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 장래성이 있어! 인법연구부의 부장인 내가 보증해주도록 하지!
+    MessageJP: その将来性は、忍術研究部の部長であるこの私が保証するから！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090110
+    Id: 160090140
+    CharacterId: 16009
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090120
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그, 고, 고마워…?
+    MessageJP: えっと、ありがとう……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090120
+    Id: 160090150
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090130
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 우냐핫! 별말씀을!
+    MessageJP: にゃははっ、くるしゅうない！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090130
+    Id: 160090160
+    CharacterId: 16009
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090140
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그래서 미치루, 무슨 일로 연락을….
+    MessageJP: ところでミチル、今日はどうしたの？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090140
+    Id: 160090170
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090150
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아! 이러는 사이 열차 시간에 늦겠어!
+    MessageJP: やば、電車の時間もうすぐじゃん
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090150
+    Id: 160090180
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090160
+    FeedbackTimeMillisec: 2000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아, 그럼 이만! 물러나 보겠소이다! 선생 공! 또다시 만날 날을 기다리며 아디오스=SAYONARA!
+    MessageJP: それでは先生殿！また会えるその日まで、アディオス=SAYONARA！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090160
+    Id: 160090190
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090170
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: (퍼퍼버버벙!!) <- 연막탄을 터트리는 소리
+    MessageJP: （ボンッ！！）←煙幕弾の効果音
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090170
+    Id: 160090200
+    CharacterId: 16009
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090180
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: …어?! 효과음까지 설명해주는 거야…?!
+    MessageJP: 効果音を説明してくれた……！？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090180
+    Id: 160090210
+    CharacterId: 16009
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 160092
+    NextGroupId: 160090190
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 음, 그러니까, 아디오스=SAYONARA!
+    MessageJP: えっと……アディオス＝SAYONARA！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090190
+    Id: 160090220
+    CharacterId: 16009
+    MessageCondition: FavorRankUp
+    ConditionValue: 3
+    PreConditionGroupId: 160090180
+    PreConditionFavorScheduleId: 160092
+    FavorScheduleId: 0
+    NextGroupId: 160090200
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오늘 오후, 샬레를 방문하겠다. – 닌자M
+    MessageJP: 本日の午後、シャーレへ推参する　忍者M
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090200
+    Id: 160090230
+    CharacterId: 16009
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090210
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아니, 방문 예고를 그런 식으로 해도 말이지….
+    MessageJP: 予告……！？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090200
+    Id: 160090240
+    CharacterId: 16009
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090210
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그보다 그거, 닌자가 아니라 괴도의 방식이잖아….
+    MessageJP: これは忍者ではなく怪盗では……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090210
+    Id: 160090250
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090220
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 에이~ 세세한 건 신경 쓰지 말라고~!
+    MessageJP: 細かいことは言いっこなし！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090210
+    Id: 160090260
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090220
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 게다가 괴도라면 대충 닌자의 후예 같은 거니까. 괜찮아!
+    MessageJP: 怪盗もざっくり言っちゃえば忍者みたいなものだから、大丈夫！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090220
+    Id: 160090270
+    CharacterId: 16009
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090230
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 닌자 만능론인가?!
+    MessageJP: 本当にそうかな！？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090230
+    Id: 160090280
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090240
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 우냐핫! 예고는 했소! 그러니 선생 공! 목을 씻고 기다리고 계시오!
+    MessageJP: とりあえず予告はしたよ、先生殿！首を洗って待っているが良い！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090230
+    Id: 160090290
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090240
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 조만간 소생이 찾아뵙겠소이다!
+    MessageJP: またすぐ相まみえることになろう！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090240
+    Id: 160090300
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090250
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: (퍼퍼버버벙!!) <- 연막탄을 터트린 소리
+    MessageJP: （ボンッ！！）←煙幕弾の効果音
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090250
+    Id: 160090310
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090260
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: (샤샤샤샥!) <- 재빠르게 물러나는 소리
+    MessageJP: （シュバババッ！）←素早く去る音
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090260
+    Id: 160090320
+    CharacterId: 16009
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 160093
+    NextGroupId: 160090270
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: …저기, 뭔가 더 늘지 않았어?
+    MessageJP: ……毎回親切にありがとね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090270
+    Id: 160090330
+    CharacterId: 16009
+    MessageCondition: FavorRankUp
+    ConditionValue: 5
+    PreConditionGroupId: 160090260
+    PreConditionFavorScheduleId: 160093
+    FavorScheduleId: 0
+    NextGroupId: 160090280
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생 공도 알다시피 난 인법연구부의 부장이잖아?
+    MessageJP: 私って、忍術研究部の部長でしょ？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090280
+    Id: 160090340
+    CharacterId: 16009
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090290
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 응, 그렇지.
+    MessageJP: そうだね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090280
+    Id: 160090350
+    CharacterId: 16009
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090290
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 비공인 동아리인데, <부장>이라고 불러도 되는 걸까?
+    MessageJP: そういえば非認可の部活って、「部長」って呼んで良いのかな？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090290
+    Id: 160090360
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090300
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 우냐악! 쓸데없이 한 마디가 더 많잖아! 당연히 되지!
+    MessageJP: うぎゃっ！余計な一言が多いよ！良いんだよ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090290
+    Id: 160090370
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090300
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 이래 봬도 평소에 잔뜩 노력하고 있다구! 닌자 공부라거나, 콘텐츠 제작이라거나
+    MessageJP: 普段からちゃんと活動してるんだから！忍者の勉強とか、動画撮影とか！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090300
+    Id: 160090380
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090310
+    FeedbackTimeMillisec: 2000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 이렇게 하다 보면 언젠가 키보토스의 모두에게 닌자를 널리 알리고, 인법연구부가 정식 동아리로 인정받게 될 날도 올 거라고 믿으니까!
+    MessageJP: このまま頑張れば、いつかはキヴォトスのみんなに忍者を知ってもらって、正式な部活として認められる日も近いはず！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090310
+    Id: 160090390
+    CharacterId: 16009
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090320
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 응, 미치루가 노력하는 건 잘 알고 있어. 언제나 응원할게.
+    MessageJP: うん、頑張ってるもんね。応援してる
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090320
+    Id: 160090400
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090330
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 우햐햣! 고마워, 선생 공! 언제나 선생 공의 응원은 내게 큰 힘이 돼
+    MessageJP: ありがとう、先生殿！そう言ってもらえると、ますます頑張れるよ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090330
+    Id: 160090410
+    CharacterId: 16009
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090340
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그렇게 생각해준다면야 나도 고맙….
+    MessageJP: それは良かった
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090340
+    Id: 160090420
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090350
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그냥 하는 말이 아니라, 정말, 엄청나게 큰 힘이 되고 있어
+    MessageJP: その言葉を聞いたら力が湧いてきて……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090340
+    Id: 160090430
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090350
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 얼마나 큰 힘이 됐냐면, 방금 선생 공이 해준 말 덕분에 망설임이 싹 가셨으니까!
+    MessageJP: おかげで、迷いが無くなったよ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090350
+    Id: 160090440
+    CharacterId: 16009
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090360
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: …응?
+    MessageJP: ……え？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090360
+    Id: 160090450
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090370
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 노력하는데 투자를 아껴선 안 되겠지?
+    MessageJP: やっぱり努力のためにも、投資は惜しんじゃダメだよね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090360
+    Id: 160090460
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090370
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 단골 가게에 새로운 닌자 굿즈가 입고됐대.
+    MessageJP: 行きつけのお店で、新しい忍者グッズが入荷されるんだって
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090370
+    Id: 160090470
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090380
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아, 아니! 인법 도구가…!
+    MessageJP: あ、違う！忍具が！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090380
+    Id: 160090480
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090390
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 좀 비싸서 고민했는데, 선생 공 말을 듣고 결심했어!
+    MessageJP: ちょっと高くて悩んでたんだけど、先生の言葉を聞いて踏ん切りがついたよ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090380
+    Id: 160090490
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090390
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 응! 어디까지나 미래를 위한 투자로써 말이지!
+    MessageJP: そう、これは忍術研究部の未来への投資！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090390
+    Id: 160090500
+    CharacterId: 16009
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090400
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 어딜 봐도 욕망으로 가득하잖아….
+    MessageJP: ただ自分が欲しいわけではなく……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090400
+    Id: 160090510
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090410
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 우냐핫! 그럼 기다리고 있을게! 선생 공!
+    MessageJP: じゃあいつもの場所で待ち合わせね、先生殿！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090400
+    Id: 160090520
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090410
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: (휘리리릭! 파바바바밧!) <- 엄청나게 멋지게 달려가는 소리
+    MessageJP: （くるりっ！シュババババッ！）←ものすごくかっこよく宙返りして走っていく音
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090410
+    Id: 160090530
+    CharacterId: 16009
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 160095
+    NextGroupId: 160090420
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 으, 으응…. 알았어.
+    MessageJP: りょ、了解……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090420
+    Id: 160090540
+    CharacterId: 16009
+    MessageCondition: FavorRankUp
+    ConditionValue: 6
+    PreConditionGroupId: 160090410
+    PreConditionFavorScheduleId: 160095
+    FavorScheduleId: 0
+    NextGroupId: 160090430
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 맞다. 선생 공. 혹시 샬레의 사무실에 그게 있는지 찾아봐 줄 수 있어?
+    MessageJP: そうだ先生、シャーレにあれ無い？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090430
+    Id: 160090550
+    CharacterId: 16009
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090440
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그거라니? 뭘 말이야?
+    MessageJP: あれって……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090440
+    Id: 160090560
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090450
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: '그러니까 그거. 내가 자주 보는 만화책- <카마보코 돌풍전> 19권 말이야 '
+    MessageJP: 「かまぼこ突風伝」の19巻！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090440
+    Id: 160090570
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090450
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 부실에서 아무리 찾아봐도 보이지 않길래. 짚이는 곳이 거기뿐이더라고
+    MessageJP: 部室に無いから、あとはシャーレくらいかなって
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090450
+    Id: 160090580
+    CharacterId: 16009
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090460
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 어느새 샬레에 그런 물건을?!
+    MessageJP: いつの間に置いてたんだ……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090460
+    Id: 160090590
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090470
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 응…? 그야 우리 부실. 일단은 임시고. 언제 백화요란 녀석들이 들이닥칠지 모르고
+    MessageJP: それはその、うちの部室、あくまで仮の場所だし……いつ百花繚乱が押し寄せてくるかも分からないから……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090460
+    Id: 160090600
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090470
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 음양부 녀석들도 매번 시끄럽게 들쑤시고 있으니까
+    MessageJP: あと陰陽部も、いつ来るか分かったもんじゃないし……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090470
+    Id: 160090610
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090480
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 나의 닌자 두뇌를 써서 생각해 본 결과-
+    MessageJP: そこで私の忍者脳で演算した結果
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090470
+    Id: 160090620
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090480
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 굿즈는 샬레에 보관한다. 응. 그게 합리적이란 결론을 내렸지
+    MessageJP: グッズはシャーレに保管するのが合理的、という結論に至ったの！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090480
+    Id: 160090630
+    CharacterId: 16009
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090490
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 샬레는 창고가 아닙니다. 미치루 양….
+    MessageJP: シャーレは倉庫じゃないんですよ、ミチルさん……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090490
+    Id: 160090640
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090500
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아! 심심하면 선생 공도 봐도 되니까! 추천하거든! 카마보코 시리즈!
+    MessageJP: もちろん先生殿も読んで良いよ、「かまぼこ」シリーズ面白いから！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090490
+    Id: 160090650
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090500
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그리고 말 나온 김에 전해두는 건데. 오늘 밤엔 공원에서 집합이니까. 까먹지 마?
+    MessageJP: あ、そういえば今夜は公園に集合ね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090500
+    Id: 160090660
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090510
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그럼 기다리고 있겠소이다! 선생 공!
+    MessageJP: 待ってるよ、先生殿！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090510
+    Id: 160090670
+    CharacterId: 16009
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090520
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: '화제 전환 빠르구만! '
+    MessageJP: 話が相変わらず急展開！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090510
+    Id: 160090680
+    CharacterId: 16009
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090520
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그건 좋은데, 오늘 밤엔 뭘 하려고…?
+    MessageJP: それは良いんだけど、今夜は何をするの？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090520
+    Id: 160090690
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090530
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: (파바바바바바밧!!!) <- 신발 끈 묶는 소리
+    MessageJP: （しゅばばばばばばっ！！！）←靴ひもを結ぶ音
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090530
+    Id: 160090700
+    CharacterId: 16009
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 160096
+    NextGroupId: 160090540
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 이젠 닌자의 행동조차 아니지 않아…?!
+    MessageJP: もう忍者っぽいアクションですらない……！？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090540
+    Id: 160090710
+    CharacterId: 16009
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 160090530
+    PreConditionFavorScheduleId: 160096
+    FavorScheduleId: 0
+    NextGroupId: 160090550
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: '…선생 공, 어제 그거 때문인 건지. '
+    MessageJP: 先生殿、昨日のアレのせいか……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090550
+    Id: 160090720
+    CharacterId: 16009
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090560
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 소생……. 감기에 걸려버렸소이다….
+    MessageJP: 風邪引いちゃったぁ……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090560
+    Id: 160090730
+    CharacterId: 16009
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090570
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: …알았어. 가서 죽 만들어줄 테니까.
+    MessageJP: おかゆ作りに行くね……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090570
+    Id: 160090740
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160090580
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그… 으응, 고, 고마워. 선생 공.
+    MessageJP: ありがとう、先生殿……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160090580
+    Id: 160090750
+    CharacterId: 16009
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 0
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 기, 기다리고 있겠습니다아….
+    MessageJP: えっと、待ってるからね……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''

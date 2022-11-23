@@ -1,0 +1,822 @@
+CharacterId: 10001
+title:
+  - GroupId: 1000102
+    FavorScheduleId: 100012
+    CharacterId: 10001
+    TextJp: 体温調節
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1000103
+    FavorScheduleId: 100013
+    CharacterId: 10001
+    TextJp: 最新の流行を研究（１）
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1000105
+    FavorScheduleId: 100015
+    CharacterId: 10001
+    TextJp: 最新の流行を研究（２）
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1000106
+    FavorScheduleId: 100016
+    CharacterId: 10001
+    TextJp: ファッションの完成
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1000108
+    FavorScheduleId: 100018
+    CharacterId: 10001
+    TextJp: 傷
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+content:
+  - MessageGroupId: 100010010
+    Id: 373
+    CharacterId: 10001
+    MessageCondition: FavorRankUp
+    ConditionValue: 2
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010020
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 요새 날씨가 부쩍 더워진 것 같지 않아?
+    MessageJP: 先生、最近ぐっと暑くなった感じがしない？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010020
+    Id: 374
+    CharacterId: 10001
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010030
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 작전을 마치고 나면 더 후덥지근하게 느껴지기도 하고……
+    MessageJP: 作戦を終えた後とか、すごく蒸し暑いし……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010030
+    Id: 375
+    CharacterId: 10001
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010040
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그런가? 아직 여름이 오려면 멀었는데…….
+    MessageJP: そう？夏はまだまだ遠いけど……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010030
+    Id: 376
+    CharacterId: 10001
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010040
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 작전을 너무 열심히 수행해서 그런 게 아닐까?
+    MessageJP: 作戦中に一生懸命頑張ったからじゃない？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010040
+    Id: 377
+    CharacterId: 10001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100012
+    NextGroupId: 100010050
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그런가…… 내 착각이려나……?
+    MessageJP: そうかな、私の勘違い……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010050
+    Id: 378
+    CharacterId: 10001
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 100010040
+    PreConditionFavorScheduleId: 100012
+    FavorScheduleId: 0
+    NextGroupId: 100010060
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아, 참, 선생님.
+    MessageJP: あ、そういえば先生
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010050
+    Id: 379
+    CharacterId: 10001
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010060
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아까 아이스크림 가게 앞에서 보니
+    MessageJP: さっきアイスクリーム屋さんの前で、
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010050
+    Id: 380
+    CharacterId: 10001
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010060
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 민트초코맛 아이스크림을 사 먹는 트리니티의 여학생들이 보이던데……
+    MessageJP: チョコミントのアイスを食べてるトリニティの生徒を見たんだけど……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010060
+    Id: 381
+    CharacterId: 10001
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010070
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 치약 같은 맛의 아이스크림을 먹는 건 체온 조절에 도움이 되는 걸까……?
+    MessageJP: 歯磨き粉味のアイスってもしかして、体温調節に役立つのかな……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010070
+    Id: 382
+    CharacterId: 10001
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010080
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 민트 아이스크림을 먹는 사람의 기분은 잘 모르겠어…….
+    MessageJP: チョコミント味が好きな人たちの気持ちが分からない……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010070
+    Id: 383
+    CharacterId: 10001
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010090
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 치약 같은 맛이라니, 민트에게 사과해!
+    MessageJP: 歯磨き粉味なんかじゃないよ！チョコミントに謝って！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010080
+    Id: 384
+    CharacterId: 10001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010091
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그렇지?
+    MessageJP: そうだよね？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010090
+    Id: 385
+    CharacterId: 10001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010091
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 어라……? 화내는 부분이 그쪽?
+    MessageJP: あっ……先生、そっち側の人？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010091
+    Id: 386
+    CharacterId: 10001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010100
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 여고생의 세계는 심오하네…….
+    MessageJP: やっぱり女子高生の世界は奥が深い……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010100
+    Id: 387
+    CharacterId: 10001
+    MessageCondition: FavorRankUp
+    ConditionValue: 3
+    PreConditionGroupId: 100010091
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010110
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 최근 고민이 하나 생겼는데…….
+    MessageJP: 先生、私、最近一つ悩みがあって……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010110
+    Id: 388
+    CharacterId: 10001
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010120
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 고민? 세미나의 임무와 관련된 일이야?
+    MessageJP: 悩み？セミナーの仕事に関係すること？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010120
+    Id: 389
+    CharacterId: 10001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010130
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아니, 임무와 관련된 일은 아니고, 아주 개인적인 것이라.
+    MessageJP: ううん。それとは関係ない、すごく個人的なことなんだけど
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010120
+    Id: 390
+    CharacterId: 10001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010130
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님이 들어줬으면 좋겠어.
+    MessageJP: 先生に、聞いてほしくて
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010130
+    Id: 391
+    CharacterId: 10001
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010140
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 나라도 괜찮다면 언제든지 들어줄게.
+    MessageJP: 私で良ければ、いつでも聞くよ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010140
+    Id: 392
+    CharacterId: 10001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010150
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 역시 선생님에게 물어보길 잘했어…….
+    MessageJP: うん、お願い
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010140
+    Id: 393
+    CharacterId: 10001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100013
+    NextGroupId: 100010150
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 고마워, 선생님.
+    MessageJP: ……ありがとう、先生
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010150
+    Id: 394
+    CharacterId: 10001
+    MessageCondition: FavorRankUp
+    ConditionValue: 5
+    PreConditionGroupId: 100010140
+    PreConditionFavorScheduleId: 100013
+    FavorScheduleId: 0
+    NextGroupId: 100010160
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 지난번에 여학생들이 좋아하는 것을 조사하는 데 협조해 주겠다고 했지?
+    MessageJP: 先生この前、女子生徒が好きな物の調査に協力するって言ってくれたよね？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010160
+    Id: 395
+    CharacterId: 10001
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010170
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그렇게 말하긴 했지만…….
+    MessageJP: うん、まあ言ったけど……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010170
+    Id: 396
+    CharacterId: 10001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010180
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 새로운 조사야.
+    MessageJP: 次の調査をしよう
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010170
+    Id: 397
+    CharacterId: 10001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010180
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 키보토스 시내 중심가로 바로 나와줘.
+    MessageJP: キヴォトスの中心街に来てほしい
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010180
+    Id: 398
+    CharacterId: 10001
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010190
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 갑자기? 지금 바로?
+    MessageJP: 今から？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010190
+    Id: 399
+    CharacterId: 10001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100015
+    NextGroupId: 100010200
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 응, 지금 당장.
+    MessageJP: うん、今から
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010200
+    Id: 400
+    CharacterId: 10001
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 100010190
+    PreConditionFavorScheduleId: 100015
+    FavorScheduleId: 0
+    NextGroupId: 100010210
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 밀폐된 공간에서 노래를 부르는 건 의외로 즐겁네…….
+    MessageJP: 密閉空間で歌うことが、あんなに楽しいなんて……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010200
+    Id: 401
+    CharacterId: 10001
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010210
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 적을 향해 탄환을 난사할 때처럼 묘한 고양감이 느껴져.
+    MessageJP: 敵に対して銃を乱射する時みたいな高揚感があった
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010210
+    Id: 402
+    CharacterId: 10001
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010220
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……그럼 노래방에서 총을 쏘면 더 즐겁지 않을까?
+    MessageJP: ……いっそのこと、カラオケで銃を撃てばもっと楽しかったり？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010220
+    Id: 403
+    CharacterId: 10001
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010230
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그건 안 돼!
+    MessageJP: それは絶対にダメ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010230
+    Id: 404
+    CharacterId: 10001
+    MessageCondition: FavorRankUp
+    ConditionValue: 6
+    PreConditionGroupId: 100010220
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010240
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 오늘은 여성복 매장에 새 옷을 사러 갈 거야.
+    MessageJP: 先生、今日は新しい服を買いに行く
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010240
+    Id: 405
+    CharacterId: 10001
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010250
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 예쁜 옷을 찾을 수 있었으면 좋겠네.
+    MessageJP: 素敵な服が見つかるといいね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010250
+    Id: 406
+    CharacterId: 10001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010260
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 내게 잘 어울리는 옷이 있는지 선생님이 같이 가서 봐주었으면 좋겠는데……
+    MessageJP: 私に似合う服かどうか、先生に見てほしくって……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010250
+    Id: 407
+    CharacterId: 10001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010260
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오늘 방과 후에 시간 괜찮아?
+    MessageJP: 今日の放課後、空いてる？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010260
+    Id: 408
+    CharacterId: 10001
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010270
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 응. 여유로워.
+    MessageJP: あ、うん。大丈夫だよ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010270
+    Id: 409
+    CharacterId: 10001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100016
+    NextGroupId: 100010280
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 좋아, 그럼 키보토스 중심가의 쇼핑몰에서 보자.
+    MessageJP: 良かった。じゃあキヴォトスの中心街の、ショッピングモールで待ち合わせ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010280
+    Id: 410
+    CharacterId: 10001
+    MessageCondition: FavorRankUp
+    ConditionValue: 8
+    PreConditionGroupId: 100010270
+    PreConditionFavorScheduleId: 100016
+    FavorScheduleId: 0
+    NextGroupId: 100010290
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 작전 완료, 미션 클리어. 선생님, 수고 많았어.
+    MessageJP: 作戦終了、ミッションクリア。お疲れ様、先生
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010290
+    Id: 411
+    CharacterId: 10001
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010300
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아까 보니 팔에서 피가 나던데, 치료하지 않아도 되겠어?
+    MessageJP: さっきすれ違った時、腕から血が出てた気がするけど、もう手当てはした？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010300
+    Id: 412
+    CharacterId: 10001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010310
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 괜찮아, 살짝 긁힌 수준인걸.
+    MessageJP: 大丈夫、ちょっと擦りむいただけだから
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010300
+    Id: 413
+    CharacterId: 10001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010310
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 작전 중에 이 정도의 상처를 입는 건 흔한 일이야.
+    MessageJP: 作戦中に、これぐらいの怪我はよくあること
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010310
+    Id: 414
+    CharacterId: 10001
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100010320
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 안 돼. 상처를 소독해 줄 테니 양호실로 와.
+    MessageJP: それはダメ。消毒するから、保健室に来て
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100010320
+    Id: 415
+    CharacterId: 10001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100018
+    NextGroupId: 0
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 나는 정말 괜찮다니까…….
+    MessageJP: 大丈夫なのに……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''

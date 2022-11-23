@@ -1,0 +1,1209 @@
+CharacterId: 10011
+title:
+  - GroupId: 1001102
+    FavorScheduleId: 100112
+    CharacterId: 10011
+    TextJp: おやつの時間
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1001103
+    FavorScheduleId: 100113
+    CharacterId: 10011
+    TextJp: 食事の後は、綺麗に歯磨き
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1001105
+    FavorScheduleId: 100115
+    CharacterId: 10011
+    TextJp: まだそんな歳ではありません！
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1001106
+    FavorScheduleId: 100116
+    CharacterId: 10011
+    TextJp: たかいたかーい
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1001108
+    FavorScheduleId: 100118
+    CharacterId: 10011
+    TextJp: プレゼント選び
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1001109
+    FavorScheduleId: 100119
+    CharacterId: 10011
+    TextJp: 午後過ぎの甘いお昼寝
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+content:
+  - MessageGroupId: 100110010
+    Id: 808
+    CharacterId: 10011
+    MessageCondition: FavorRankUp
+    ConditionValue: 2
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110020
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 여러분, 매화원의 오늘 오후 간식은 상회에서 받아온 달콤한 과일이에요.
+    MessageJP: 本日の梅花園のおやつは、商会から頂いてきた甘ーいフルーツですよ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110020
+    Id: 809
+    CharacterId: 10011
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110030
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그러니 모두들 간식 시간에 늦지 말고 꼭 참가해주세요!
+    MessageJP: みなさん、時間に遅れないように参加してくださいね！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110030
+    Id: 810
+    CharacterId: 10011
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100112
+    NextGroupId: 100110040
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……이거 나한테 보낸 메시지야?
+    MessageJP: ……これ、本当に私宛のメッセージかな？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110040
+    Id: 811
+    CharacterId: 10011
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 100110030
+    PreConditionFavorScheduleId: 100112
+    FavorScheduleId: 0
+    NextGroupId: 100110050
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 과일은 맛있게 드셨나요, 선생님?
+    MessageJP: お味はいかがでしたか、先生？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110050
+    Id: 812
+    CharacterId: 10011
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110060
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 맛있게 잘 먹었어.
+    MessageJP: 美味しかったよ、ありがとう
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110060
+    Id: 813
+    CharacterId: 10011
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110070
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 후후, 입에 맞으셨다니 다행이네요.
+    MessageJP: ふふ、お口に合ったのならよかったです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110060
+    Id: 814
+    CharacterId: 10011
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110070
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 내일도 달콤한 간식을 준비해둘 테니 자주 매화원에 놀러 와주세요!
+    MessageJP: またおやつをご用意してますので、いつでも梅花園にいらしてくださいね！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110070
+    Id: 815
+    CharacterId: 10011
+    MessageCondition: FavorRankUp
+    ConditionValue: 3
+    PreConditionGroupId: 100110060
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110071
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 오늘 오후에는,
+    MessageJP: 実は今日のお昼ごろに、
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110071
+    Id: 816
+    CharacterId: 10011
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110080
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 매화원 아이들이 깨끗이 이를 닦을 수 있도록 인형극을 할 예정이에요.
+    MessageJP: 梅花園の子たちが進んで歯磨きしてくれるよう、人形劇をやる予定なんです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110080
+    Id: 817
+    CharacterId: 10011
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110090
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 인형극이라, 재미있어 보이네.
+    MessageJP: 人形劇か、楽しそうだね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110090
+    Id: 818
+    CharacterId: 10011
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110100
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 네.
+    MessageJP: はい
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110090
+    Id: 819
+    CharacterId: 10011
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110100
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 나쁜 충치균을 물리치는 전대물 느낌의 인형극이라, 학생들의 반응도 뜨겁답니다.
+    MessageJP: 悪い虫歯菌を倒す戦隊モノの人形劇で、反応も毎回すごく良いんです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110090
+    Id: 820
+    CharacterId: 10011
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110100
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그런데 오늘은 <충치> 역할을 맡아줄 교관이 없어서......
+    MessageJP: ただ、「虫歯」役をやってくれるアシスタントの方が今いなくて……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110100
+    Id: 821
+    CharacterId: 10011
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110110
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 혹시 선생님께서 연극을 도와주실 수 있을까요?
+    MessageJP: よろしければ先生、手伝ってくださいませんか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110110
+    Id: 822
+    CharacterId: 10011
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110120
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 하지만 나는 연기에는 자신이 없는걸…….
+    MessageJP: 私、演技に自信は無いんだけど……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110120
+    Id: 823
+    CharacterId: 10011
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100113
+    NextGroupId: 100110130
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 후후, 괜찮아요. 제가 옆에서 연기하는 걸 도와드릴게요.
+    MessageJP: ふふ、大丈夫ですよ。私がすぐ隣でお手伝いしますので
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110130
+    Id: 824
+    CharacterId: 10011
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 100110120
+    PreConditionFavorScheduleId: 100113
+    FavorScheduleId: 0
+    NextGroupId: 100110140
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님의 도움 덕분에 인형극을 성공적으로 끝마칠 수 있었어요. 후후.
+    MessageJP: 先生のおかげで、人形劇を無事に終えることができました！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110130
+    Id: 825
+    CharacterId: 10011
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110140
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님도 식사 후에는 이를 닦는 것, 꼭 잊지 마세요!
+    MessageJP: 先生もお食事の後の歯磨き、これからも忘れないでくださいね！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110140
+    Id: 826
+    CharacterId: 10011
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110150
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 네, 슌 교관님!
+    MessageJP: はい、シュン教官！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110140
+    Id: 827
+    CharacterId: 10011
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110160
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 나는 어린아이가 아닌데…….
+    MessageJP: 大丈夫だよ、私は子供じゃないし……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110150
+    Id: 828
+    CharacterId: 10011
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110170
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 후후, 참 잘했어요.
+    MessageJP: ふふ、良い子ですね。なんて
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110160
+    Id: 829
+    CharacterId: 10011
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110170
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 어른에게도 이를 깨끗이 닦는 건 중요한 일이에요!
+    MessageJP: 大人にとっても、歯を磨くのは大事なことですから！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110170
+    Id: 830
+    CharacterId: 10011
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110180
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 다음번에도 충치 검사를 할 테니 그때까지 이를 깨끗이 잘 닦아두셔야 해요!
+    MessageJP: また抜き打ち検査しますので、これからも忘れないようにしてくださいね！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110180
+    Id: 831
+    CharacterId: 10011
+    MessageCondition: FavorRankUp
+    ConditionValue: 5
+    PreConditionGroupId: 100110170
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110190
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오늘은 컨디션이 나빠서…… 매화원에 들르지 않고 먼저 들어가 보겠습니다.
+    MessageJP: すみません、体調が悪くて……梅花園には寄らず、このまま失礼します
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110190
+    Id: 832
+    CharacterId: 10011
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110200
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 감기에라도 걸린 거야?
+    MessageJP: 大丈夫？風邪でも引いちゃったのかな？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110200
+    Id: 833
+    CharacterId: 10011
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110210
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아뇨, 단순한 컨디션 난조라…… 걱정하지 않으셔도 괜찮아요.
+    MessageJP: ちょっと具合が悪いだけですので……ご心配をおかけしてしまいすみません
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110200
+    Id: 834
+    CharacterId: 10011
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100115
+    NextGroupId: 100110210
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님도 건강 주의하세요.
+    MessageJP: 先生も、健康には気を付けてくださいね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110210
+    Id: 835
+    CharacterId: 10011
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 100110200
+    PreConditionFavorScheduleId: 100115
+    FavorScheduleId: 0
+    NextGroupId: 100110220
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 후후, 선생님과 이야기를 나누었더니 금세 기분이 나아졌네요.
+    MessageJP: ふふ、先生とお話ししていたら、気分が明るくなりました
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110210
+    Id: 836
+    CharacterId: 10011
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110220
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 어쩐지 선생님 앞에 서면 저도 나이를 잊고 어린 아이가 되어버리는 것 같아요.
+    MessageJP: なんだか先生の前だと私も、普通の子供に戻ってしまうみたいです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110220
+    Id: 837
+    CharacterId: 10011
+    MessageCondition: FavorRankUp
+    ConditionValue: 6
+    PreConditionGroupId: 100110210
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110230
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 아까 보니 매화원의 학생들에게 재밌어 보이는 걸 해주고 계시던데…….
+    MessageJP: 先ほど梅花園の子たちと、面白そうなことをしていたのを見たのですが……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110230
+    Id: 838
+    CharacterId: 10011
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110240
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 재밌어 보이는 것?
+    MessageJP: 面白そうなこと？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110240
+    Id: 839
+    CharacterId: 10011
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110250
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 학생들의 팔을 잡고 하늘로 높이 들어 올리는 놀이…… <높게높게> 말이에요.
+    MessageJP: 脇に手を入れて高く持ち上げるあの、「たかいたかい」です！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110240
+    Id: 840
+    CharacterId: 10011
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110250
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 괜찮으시다면 제게도 해주실 수 있나요?
+    MessageJP: よろしければ、私にもしていただけませんか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110250
+    Id: 841
+    CharacterId: 10011
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110260
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 하지만 슌에게는 조금 위험하지 않을까……?
+    MessageJP: シュンとするのはちょっと危ないんじゃないかな……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110260
+    Id: 842
+    CharacterId: 10011
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110270
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 괜찮아요. 저는 선생님이 생각하시는 것보다 훨씬 유연하니까요.
+    MessageJP: 大丈夫です。私、先生が思ってる以上に体が柔らかいので
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110260
+    Id: 843
+    CharacterId: 10011
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100116
+    NextGroupId: 100110270
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 후후, 자세한 건 직접 만나서 말씀드릴게요.
+    MessageJP: ふふ、今度でまたお会いした時に、ぜひお願いしますね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110270
+    Id: 844
+    CharacterId: 10011
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 100110260
+    PreConditionFavorScheduleId: 100116
+    FavorScheduleId: 0
+    NextGroupId: 100110280
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 매화원의 아이들과 언제나 즐겁게 놀아 주셔서 감사합니다, 선생님.
+    MessageJP: いつも梅花園の子たちと遊んでいただいてありがとうございます、先生
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110270
+    Id: 845
+    CharacterId: 10011
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110280
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 다만 오늘 하지 못한 <높게높게>는 다음에 꼭 받아 낼 거예요.
+    MessageJP: ただ「たかいたかい」は、いつかまた必ずやっていただきますので
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110270
+    Id: 846
+    CharacterId: 10011
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110280
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 각오하세요, 선생님!
+    MessageJP: 忘れないでくださいね！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110280
+    Id: 847
+    CharacterId: 10011
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110290
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그러니까 슌에게는 너무 위험한 놀이라고 해도…….
+    MessageJP: だから、シュンとやるのは色々な意味で危ないって……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110290
+    Id: 848
+    CharacterId: 10011
+    MessageCondition: FavorRankUp
+    ConditionValue: 8
+    PreConditionGroupId: 100110280
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110300
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 오늘 오후에 시간 괜찮으신가요?
+    MessageJP: 先生、今日の午後はお時間ありますでしょうか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110300
+    Id: 849
+    CharacterId: 10011
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110310
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 응, 괜찮아. 무슨 일인데?
+    MessageJP: うん、大丈夫だよ。どうしたの？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110310
+    Id: 850
+    CharacterId: 10011
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110320
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그게 매화원에서는 매달 생일을 맞은 아이들에게 선물을 해주곤 하는데,
+    MessageJP: 梅花園では毎月誕生日の子たちにプレゼントを渡すのですが、
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110310
+    Id: 851
+    CharacterId: 10011
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110320
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 매번 선물을 고르는 게 고민이라서요.
+    MessageJP: 毎回プレゼント選びに悩んでしまっていまして……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110310
+    Id: 852
+    CharacterId: 10011
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110320
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 괜찮으시다면 잡화점에서 같이 선물 고르는 걸 도와주실 수 있으실까요?
+    MessageJP: よろしければ今日、一緒にプレゼント選びを手伝っていただけませんか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110320
+    Id: 853
+    CharacterId: 10011
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110330
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 물론이야.
+    MessageJP: もちろん
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110330
+    Id: 854
+    CharacterId: 10011
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110340
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 후후, 그럼.
+    MessageJP: ふふ、ありがとうございます
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110330
+    Id: 855
+    CharacterId: 10011
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100118
+    NextGroupId: 100110340
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 방과 후에 키보토스 시내의 쇼핑몰에서 뵐게요.
+    MessageJP: それでは放課後、キヴォトス市内のショッピングモールでお願いしますね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110340
+    Id: 856
+    CharacterId: 10011
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 100110330
+    PreConditionFavorScheduleId: 100118
+    FavorScheduleId: 0
+    NextGroupId: 100110350
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님께서 소개해주신 그 가게의 케이크, 다들 좋아하더라구요.
+    MessageJP: 先生が紹介してくださったあのケーキ、みんな喜んでいました
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110350
+    Id: 857
+    CharacterId: 10011
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110360
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 좋은 가게를 소개해주셔서 감사합니다.
+    MessageJP: 良いお店を紹介してくださって、ありがとうございます
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110360
+    Id: 858
+    CharacterId: 10011
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110370
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 입맛에 맞은 것 같아 다행이네.
+    MessageJP: それは良かった
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110370
+    Id: 859
+    CharacterId: 10011
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110380
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 네, 다음번에도 잘 부탁드릴게요!
+    MessageJP: また次回も、ぜひお願いしますね！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110380
+    Id: 860
+    CharacterId: 10011
+    MessageCondition: FavorRankUp
+    ConditionValue: 9
+    PreConditionGroupId: 100110370
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110390
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 요새 너무 무리하시는 게 아니신가요?
+    MessageJP: 先生、もしかして最近、ご無理なさっていませんか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110390
+    Id: 861
+    CharacterId: 10011
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110400
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 얼굴에 피로가 가득해 보이시던데…….
+    MessageJP: お疲れのご様子でしたが……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110400
+    Id: 862
+    CharacterId: 10011
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110410
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 이틀 연속 철야를 하긴 했지만 아직은 문제없어.
+    MessageJP: 二日連続で徹夜だけど、まだ大丈夫
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110400
+    Id: 863
+    CharacterId: 10011
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110420
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: (대답이 없다. 이미 잠든 것 같다.)
+    MessageJP: （返事がない。もう眠っているようだ）
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110410
+    Id: 864
+    CharacterId: 10011
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110430
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그런 말씀 마세요.
+    MessageJP: 大丈夫、ではありません……！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110410
+    Id: 865
+    CharacterId: 10011
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110430
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그러다가 정말로 큰 병이 날 수도 있다고요!
+    MessageJP: そのままですと、いつかは大変な病気になってしまうかもしれませんよ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110420
+    Id: 866
+    CharacterId: 10011
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110430
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 정말……! 장난치지 말아주세요!
+    MessageJP: もうっ！本当に眠られたのなら良いのですが、起きてますよね……！？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110430
+    Id: 867
+    CharacterId: 10011
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100119
+    NextGroupId: 100110440
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 피로는 만병의 원인, 푹 주무시는 것도 중요하답니다.
+    MessageJP: 疲れは万病のもとなんですから、ぐっすり寝ることは大事なんですよ？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110440
+    Id: 868
+    CharacterId: 10011
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 100110430
+    PreConditionFavorScheduleId: 100119
+    FavorScheduleId: 0
+    NextGroupId: 100110450
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 후후. 피로는 많이 풀리셨나요, 선생님?
+    MessageJP: ふふ、少しは楽になりましたか、先生？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110450
+    Id: 869
+    CharacterId: 10011
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110460
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 응. 푹 잤더니 확실히 많이 좋아졌어.
+    MessageJP: うん、おかげ様でだいぶスッキリしたよ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110460
+    Id: 870
+    CharacterId: 10011
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100110470
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 다음에도 일하다가 졸음이 쏟아지시거든 저희 매화원을 찾아주세요.
+    MessageJP: また辛くなった時は、いつでも梅花園に立ち寄ってくださいね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100110470
+    Id: 871
+    CharacterId: 10011
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 0
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 제가 다른 학생들에게 들키지 않도록, 몰래 이불을 깔아 둘게요. 후후……
+    MessageJP: みんなにはバレないよう、こっそり布団を敷いておきますので。ふふっ……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''

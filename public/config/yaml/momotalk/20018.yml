@@ -1,0 +1,689 @@
+CharacterId: 20018
+title:
+  - GroupId: 2001802
+    FavorScheduleId: 200182
+    CharacterId: 20018
+    TextJp: Collateral Damage
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2001803
+    FavorScheduleId: 200183
+    CharacterId: 20018
+    TextJp: Missing in Action
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2001805
+    FavorScheduleId: 200185
+    CharacterId: 20018
+    TextJp: Unexploded Ordnance
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2001806
+    FavorScheduleId: 200186
+    CharacterId: 20018
+    TextJp: Phase Line
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+content:
+  - MessageGroupId: 200180010
+    Id: 200180010
+    CharacterId: 20018
+    MessageCondition: FavorRankUp
+    ConditionValue: 2
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200180020
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오랜만이네, 선생님.
+    MessageJP: 先生久しぶり
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180020
+    Id: 200180020
+    CharacterId: 20018
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200180030
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 다른 소대원들에게 듣자 하니, 나를 찾았다고 하던데……
+    MessageJP: 私を探してたって聞いたんだけど……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180020
+    Id: 200180030
+    CharacterId: 20018
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200180030
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 무슨 일이라도 생긴 거야?
+    MessageJP: どうしたの？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180030
+    Id: 200180040
+    CharacterId: 20018
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200180040
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 안녕, 모에.
+    MessageJP: こんにちは、モエ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180030
+    Id: 200180050
+    CharacterId: 20018
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200180040
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 미안한데 조금 도와줬으면 하는데, 괜찮아?
+    MessageJP: ごめん、ちょっと手伝ってほしいことがあるんだけど今大丈夫かな？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180040
+    Id: 200180060
+    CharacterId: 20018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200180050
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님을 돕는 거라면 어렵지 않지만……
+    MessageJP: 先生の手伝い？別にいいけど……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180040
+    Id: 200180070
+    CharacterId: 20018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200180050
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그나저나 별일이네. 선생님이 내게 도와 달라는 말을 하다니.
+    MessageJP: にしても珍しいね。先生が手伝ってほしいだなんて
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180050
+    Id: 200180080
+    CharacterId: 20018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200180060
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아, 특별한 의미는 없어. 뭔가 재미있는 사건의 예감이 들어서 말이지, 후후.
+    MessageJP: あ、別に深い意味はないよ。なんか面白い事件の予感するだけ……くひひ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180050
+    Id: 200180090
+    CharacterId: 20018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 200182
+    NextGroupId: 200180060
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그럼 준비하고 있을게.
+    MessageJP: じゃあ、準備してるね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180060
+    Id: 200180100
+    CharacterId: 20018
+    MessageCondition: FavorRankUp
+    ConditionValue: 3
+    PreConditionGroupId: 200180050
+    PreConditionFavorScheduleId: 200182
+    FavorScheduleId: 0
+    NextGroupId: 200180070
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님. 다른 학생에게 들었는데……
+    MessageJP: 先生、ちょっと小耳に挟んだんだけど……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180070
+    Id: 200180110
+    CharacterId: 20018
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200180080
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 샬레에 있는 작업용 PC의 데이터가 다 날아갔다는 게 사실이야?
+    MessageJP: シャーレの作業用パソコンのデータが全部消えたって本当？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180080
+    Id: 200180120
+    CharacterId: 20018
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200180090
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 쿠히히…… 맞아……
+    MessageJP: くひひ……そうだよ……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180080
+    Id: 200180130
+    CharacterId: 20018
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200180090
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 이제 다 틀렸어…… 쿠히히……
+    MessageJP: そう、これで全部おしまい……くひひ……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180090
+    Id: 200180140
+    CharacterId: 20018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200180100
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 우와, 선생님이 나처럼 웃고 있어.
+    MessageJP: うわ……先生が私みたいに笑ってる
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180090
+    Id: 200180150
+    CharacterId: 20018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200180100
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아무래도 문제가 심상치 않은 모양인데.
+    MessageJP: これはかなりヤバそうだね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180100
+    Id: 200180160
+    CharacterId: 20018
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200180110
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 와보면 알게 될 거야……
+    MessageJP: ' まぁ、来たら分かるよ……'
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180110
+    Id: 200180170
+    CharacterId: 20018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 200183
+    NextGroupId: 200180120
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 알겠어. 오후에 시간 날 때 샬레에 들를게.
+    MessageJP: わかった、それじゃあ昼過ぎくらいにシャーレ行くね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180120
+    Id: 200180180
+    CharacterId: 20018
+    MessageCondition: FavorRankUp
+    ConditionValue: 5
+    PreConditionGroupId: 200180110
+    PreConditionFavorScheduleId: 200183
+    FavorScheduleId: 0
+    NextGroupId: 200180130
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 그거 알아?
+    MessageJP: 先生、知ってる？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180130
+    Id: 200180190
+    CharacterId: 20018
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200180140
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 스위치나 버튼 위에 설치하는 안전 덮개는 흔히 <몰리 가드>라고 부르거든.
+    MessageJP: |-
+      スイッチやボタンの上に設置する安全カバーあるじゃん。
+      あれ、「モリーガード」って言うんだよ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180140
+    Id: 200180200
+    CharacterId: 20018
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200180150
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 왜 안전 덮개에 그런 이름이 붙었느냐면
+    MessageJP: なんでそんな名前がついたかっていうと
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180140
+    Id: 200180210
+    CharacterId: 20018
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200180150
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 몰리라는 아이가 비상 스위치를 자꾸 누르려 해서 발명된 덮개이기 때문이래.
+    MessageJP: モリーという子が、何度も非常ボタンを押そうとしたから発明されたカバーだからなんだって
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180150
+    Id: 200180220
+    CharacterId: 20018
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200180160
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그렇구나.
+    MessageJP: そうなんだ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180150
+    Id: 200180230
+    CharacterId: 20018
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200180160
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 흥미로운 사실이네.
+    MessageJP: 興味深い内容だね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180160
+    Id: 200180240
+    CharacterId: 20018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200180170
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그 사실을 생각할 때마다 뭔가 아쉬워.
+    MessageJP: その話を聞くたびに、ちょっと残念になるんだよね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180160
+    Id: 200180250
+    CharacterId: 20018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200180170
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 내가 몰리보다 먼저 태어났더라면
+    MessageJP: 私がモリーより先に生まれていたら
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180170
+    Id: 200180260
+    CharacterId: 20018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200180180
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 지금쯤 전 세계의 사람들은 안전 덮개를 <모에 가드>라고 불렀을 텐데……
+    MessageJP: 今頃、安全カバーの名前は「モエガード」になっていたのかなって……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180180
+    Id: 200180270
+    CharacterId: 20018
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 200185
+    NextGroupId: 200180190
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 명예로운 호칭은 아닌 것 같은데……
+    MessageJP: 別に名誉な名前ではないと思うんだけど……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180190
+    Id: 200180280
+    CharacterId: 20018
+    MessageCondition: FavorRankUp
+    ConditionValue: 6
+    PreConditionGroupId: 200180180
+    PreConditionFavorScheduleId: 200185
+    FavorScheduleId: 0
+    NextGroupId: 200180200
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 으음. 미안하지만 선생님……
+    MessageJP: んー、ごめん、先生……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180200
+    Id: 200180290
+    CharacterId: 20018
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200180210
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 잠깐 코우사기 공원에 와주지 않을래?
+    MessageJP: ちょっと子ウサギ公園に来てくれない？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180210
+    Id: 200180300
+    CharacterId: 20018
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200180220
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 상관없지만……
+    MessageJP: いいけど……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180210
+    Id: 200180310
+    CharacterId: 20018
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200180220
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 갑자기 무슨 일이야?
+    MessageJP: 急にどうしたの？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180220
+    Id: 200180320
+    CharacterId: 20018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200180230
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 다름이 아니라 전에 추가로 주문한 물자가 공원에 도착했거든.
+    MessageJP: この間、追加で注文した物資が公園に届いたの
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180220
+    Id: 200180330
+    CharacterId: 20018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200180230
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그런데 마침 다른 소대원들이 작전 중이라 혼자 정리를 해야 하는데……
+    MessageJP: でも、みんなちょうど作戦でいないから、一人で整理しなきゃいけなくて……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180230
+    Id: 200180340
+    CharacterId: 20018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200180240
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 무거운 짐이 잔뜩 있어서 옮기기 어려운 건 둘째 치더라도
+    MessageJP: 重い荷物をたくさん動かすのはちょっと……というのはさておき
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180230
+    Id: 200180350
+    CharacterId: 20018
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200180240
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 터지기 쉬운 위험한 폭탄이 잔뜩 있어서
+    MessageJP: 引火しやすい危険な爆弾がいっぱいあるから……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200180240
+    Id: 200180360
+    CharacterId: 20018
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 200186
+    NextGroupId: 0
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 지금 바로 갈게
+    MessageJP: すぐ行くね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''

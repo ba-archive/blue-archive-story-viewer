@@ -1,0 +1,1038 @@
+CharacterId: 10017
+title:
+  - GroupId: 1001702
+    FavorScheduleId: 100172
+    CharacterId: 10017
+    TextJp: 勲章授与式
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1001703
+    FavorScheduleId: 100173
+    CharacterId: 10017
+    TextJp: ピーマンとハンバーグ
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1001705
+    FavorScheduleId: 100175
+    CharacterId: 10017
+    TextJp: チェリノは九歳？
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1001706
+    FavorScheduleId: 100176
+    CharacterId: 10017
+    TextJp: 雪原の暗殺者
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1001708
+    FavorScheduleId: 100178
+    CharacterId: 10017
+    TextJp: 悪夢
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+content:
+  - MessageGroupId: 100170010
+    Id: 100170010
+    CharacterId: 10017
+    MessageCondition: FavorRankUp
+    ConditionValue: 2
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170020
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 기뻐하게나, 콤라드.
+    MessageJP: 喜べ、カムラッド！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170020
+    Id: 100170020
+    CharacterId: 10017
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170030
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 콤라드의 노력을 치하하기 위해
+    MessageJP: カムラッドのこれまでの努力を称えて
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170020
+    Id: 100170030
+    CharacterId: 10017
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170030
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 우리 붉은겨울 연방학원에서 콤라드에게
+    MessageJP: 我がレッドウィンター連邦学園からカムラッドに新たな勲章
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170020
+    Id: 100170040
+    CharacterId: 10017
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170030
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: <특별 학생 우호 훈장>을 수여하기로 했다네!
+    MessageJP: 「特別友好章」を授与することにしたのだ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170030
+    Id: 100170050
+    CharacterId: 10017
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170040
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 특별 학생 우호 훈장은 지난번에도 받지 않았어?
+    MessageJP: あれ……特別友好章って、この前も貰わなかったっけ？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170040
+    Id: 100170060
+    CharacterId: 10017
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170050
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 무슨 소리인가. 지난번에 수여한 훈장은 <특별 학생 우정 훈장> 이었다고.
+    MessageJP: 何を言っている、この前授与した勲章は「特別友情章」だ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170040
+    Id: 100170070
+    CharacterId: 10017
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170050
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 훈장의 종류를 벌써부터 헷갈리면 어쩌자는 건가.
+    MessageJP: 勲章の種類を間違えるとはけしからん
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170050
+    Id: 100170080
+    CharacterId: 10017
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170060
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 훈장이 몇 종류나 있는 거야…….
+    MessageJP: 勲章ってそんなに色々あるんだ……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170060
+    Id: 100170090
+    CharacterId: 10017
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170070
+    FeedbackTimeMillisec: 2000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 붉은겨울 연방학원에서는 학원의 발전에 크게 기여한 학생들을 표창하기 위해
+    MessageJP: レッドウィンターでは、学園の発展に大きく貢献した者を表彰するために、
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170060
+    Id: 100170100
+    CharacterId: 10017
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170070
+    FeedbackTimeMillisec: 2000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 총 247가지의 훈장을 보유하고 있지.
+    MessageJP: 計247種類の勲章が存在する
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170070
+    Id: 100170110
+    CharacterId: 10017
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170080
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 체리노는 그중 몇 가지의 훈장을 받았어?
+    MessageJP: すごい数だね。チェリノはいくつの勲章を持ってるの？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170080
+    Id: 100170120
+    CharacterId: 10017
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170090
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 후후, 어리석은 질문이로군. 콤라드.
+    MessageJP: ふふ、バカげた質問だな。カムラッド
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170080
+    Id: 100170130
+    CharacterId: 10017
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100172
+    NextGroupId: 100170090
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……247종 전부다!
+    MessageJP: ……247種、全部だ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170090
+    Id: 100170140
+    CharacterId: 10017
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 100170080
+    PreConditionFavorScheduleId: 100172
+    FavorScheduleId: 0
+    NextGroupId: 100170100
+    FeedbackTimeMillisec: 2000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 이것 보거라, 콤라드. 이 몸이 그린 새로운 훈장의 디자인이니라!
+    MessageJP: 見ろカムラッド。あの後おいらの手で仕上げた、新しい勲章のデザインだ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170100
+    Id: 100170150
+    CharacterId: 10017
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170110
+    FeedbackTimeMillisec: 1500
+    MessageType: Image
+    ImagePath: UIs/03_Scenario/04_ScenarioImage/Mo_Cherino_01
+    MessageKR: ''
+    MessageJP: ''
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170110
+    Id: 100170160
+    CharacterId: 10017
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170120
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 후후, 디자인만으로도 광채가 나지 않느냐?
+    MessageJP: ふふ、デザインからしてすでに光り輝いているだろう？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170120
+    Id: 100170170
+    CharacterId: 10017
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170130
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 인상적이네.
+    MessageJP: 良いと思う！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170120
+    Id: 100170180
+    CharacterId: 10017
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170130
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 이런 디자인의 훈장은 처음 봐…….
+    MessageJP: ……頑張ったね！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170130
+    Id: 100170190
+    CharacterId: 10017
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170140
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그렇지? 좀 더 칭찬해도 괜찮느니라!
+    MessageJP: ふふっ、もっと褒めても良いぞ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170130
+    Id: 100170200
+    CharacterId: 10017
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170140
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 어쩌면 이 몸에게는 훌륭한 디자이너의 자질이 있을지도……!
+    MessageJP: もしかしたらおいらには、デザイナーの素質まであるのかもしれない……！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170140
+    Id: 100170210
+    CharacterId: 10017
+    MessageCondition: FavorRankUp
+    ConditionValue: 3
+    PreConditionGroupId: 100170130
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170150
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 우으…….
+    MessageJP: うぅ……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170150
+    Id: 100170220
+    CharacterId: 10017
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170160
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 콤라드에게는 특별히 가리는 음식이 있는가?
+    MessageJP: なあ、カムラッドには何か苦手な食べ物とかあるのか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170160
+    Id: 100170230
+    CharacterId: 10017
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170170
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 갑자기 가리는 음식은 왜?
+    MessageJP: 急にどうしたの？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170170
+    Id: 100170240
+    CharacterId: 10017
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170180
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 이 몸은 피망이 싫다네. 맵고, 쓰고, 아린 맛이 나지 않는가!
+    MessageJP: おいらはピーマンが嫌いだ。苦くて、変な味がする！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170170
+    Id: 100170250
+    CharacterId: 10017
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170180
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 으으……. 그 끔찍한 맛은 악마의 열매라고 해도 좋을 정도라네!
+    MessageJP: くぅっ……あのひどい味は、悪魔の食べ物と呼んでも良いぐらいだ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170180
+    Id: 100170260
+    CharacterId: 10017
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170190
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 편식은 몸에 나빠.
+    MessageJP: 好き嫌いは身体に良くないよ？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170190
+    Id: 100170270
+    CharacterId: 10017
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170200
+    FeedbackTimeMillisec: 2000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 편식이 아니야! 피망을 싫어하는 건 사람이면 당연한 거라고!
+    MessageJP: 好き嫌いじゃない！ピーマンが食べられないのは、人として当然のことだ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170190
+    Id: 100170280
+    CharacterId: 10017
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100173
+    NextGroupId: 100170200
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 이렇게 간단한 진리를 학생들은 어째서 깨닫지 못하는 건지…….
+    MessageJP: こんな簡単な真理を、なぜ皆理解できないのか……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170200
+    Id: 100170290
+    CharacterId: 10017
+    MessageCondition: FavorRankUp
+    ConditionValue: 5
+    PreConditionGroupId: 100170190
+    PreConditionFavorScheduleId: 100173
+    FavorScheduleId: 0
+    NextGroupId: 100170210
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 후후후, 콤라드.
+    MessageJP: ふふふ、カムラッド
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170210
+    Id: 100170300
+    CharacterId: 10017
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170220
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 지난번에 시내에서 푸딩을 사주겠다는 약속은 잊지 않았겠지?
+    MessageJP: この前の、プリンを買ってくれるという約束は忘れていないだろうな？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170220
+    Id: 100170310
+    CharacterId: 10017
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170230
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 물론 잊지 않고 있어.
+    MessageJP: もちろん、覚えてるよ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170230
+    Id: 100170320
+    CharacterId: 10017
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170231
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 역시 콤라드야. 말뿐인 약속을 늘어놓는 어른들과는 다르다니까.
+    MessageJP: 流石はカムラッド、口だけの約束をするような大人ではないということだな
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170230
+    Id: 100170330
+    CharacterId: 10017
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170231
+    FeedbackTimeMillisec: 2000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 콤라드가 사주는 푸딩을 잔뜩 먹기 위해
+    MessageJP: せっかくカムラッドに奢ってもらうのだし、たくさん食べるために何と
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170230
+    Id: 100170340
+    CharacterId: 10017
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170231
+    FeedbackTimeMillisec: 2000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오늘은 점심 간식도 거르고 기대하고 있었느니라.
+    MessageJP: 今日はお昼のおやつも抜いたのだ！ふふ、楽しみだな……！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170231
+    Id: 100170350
+    CharacterId: 10017
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170240
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오늘 방과 후, 가게 앞에서 기다리고 있을 테니 늦으면 안 돼!
+    MessageJP: 今日の放課後、お店の前で待っているから遅れないように！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170240
+    Id: 100170360
+    CharacterId: 10017
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100175
+    NextGroupId: 100170250
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 푸딩을 여러 개 사주겠다는 말은 한 적이 없는 것 같은데…….
+    MessageJP: たくさん買ってあげるとは、言ってないような……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170250
+    Id: 100170370
+    CharacterId: 10017
+    MessageCondition: FavorRankUp
+    ConditionValue: 6
+    PreConditionGroupId: 100170240
+    PreConditionFavorScheduleId: 100175
+    FavorScheduleId: 0
+    NextGroupId: 100170260
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 콤라드, 어서 창밖을 보게나!
+    MessageJP: カムラッド、外を見ろ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170260
+    Id: 100170380
+    CharacterId: 10017
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170270
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 눈이야, 눈이 내리고 있다고!
+    MessageJP: 雪だ、雪がすごい降っているぞ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170270
+    Id: 100170390
+    CharacterId: 10017
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170280
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 샬레는 구름 한 점 없이 화창한데.
+    MessageJP: シャーレの方は、雲一つない晴天だよ……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170280
+    Id: 100170400
+    CharacterId: 10017
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170290
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그럼 바로 붉은겨울 자치구로 오게나!
+    MessageJP: なにっ！？それなら、今すぐ我がレッドウィンター連邦学園に来い！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170280
+    Id: 100170410
+    CharacterId: 10017
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170290
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 이곳에 오면 눈사람도, 눈토끼도 원하는 만큼 만들 수 있다고!
+    MessageJP: ここに来れば雪だるまも雪ウサギも、好きなだけ作れるぞ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170290
+    Id: 100170420
+    CharacterId: 10017
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170300
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 일이 끝나고 갈게.
+    MessageJP: 仕事が終わったら行くね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170300
+    Id: 100170430
+    CharacterId: 10017
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170310
+    FeedbackTimeMillisec: 2000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 안 돼! 눈이 언제 그치고 녹아버릴지도 모르는데, 여유를 부릴 틈은 없다고!
+    MessageJP: ダメだ！いつ雪が止んでしまうかも分からないのに、そんな余裕はない！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170300
+    Id: 100170440
+    CharacterId: 10017
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100176
+    NextGroupId: 100170310
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 지금 당장, 바로 오게나!
+    MessageJP: 今すぐ！今すぐ来るのだ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170310
+    Id: 100170450
+    CharacterId: 10017
+    MessageCondition: FavorRankUp
+    ConditionValue: 8
+    PreConditionGroupId: 100170300
+    PreConditionFavorScheduleId: 100176
+    FavorScheduleId: 0
+    NextGroupId: 100170320
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 콤라드. 콤라드는 특별히 무서워하는 게 있는가?
+    MessageJP: カムラッドは、何か怖い物とかないのか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170320
+    Id: 100170460
+    CharacterId: 10017
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170330
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 나는 귀신이 무서워.
+    MessageJP: うーん、お化けとかかな……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170320
+    Id: 100170470
+    CharacterId: 10017
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170340
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 나는 만쥬가 무서워.
+    MessageJP: まんじゅうこわい
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170330
+    Id: 100170480
+    CharacterId: 10017
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170350
+    FeedbackTimeMillisec: 2000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 후후, 귀신을 무서워하다니 콤라드도 어린아이 같은 구석이 있군.
+    MessageJP: ふふん。お化けが怖いなんて、カムラッドにも子供みたいなところがあるのだな
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170330
+    Id: 100170490
+    CharacterId: 10017
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170350
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 걱정 말게나, 콤라드. 설령 귀신이 정말로 나타나더라도 이 몸이 무찔러줄 테니!
+    MessageJP: 心配するな、カムラッド。仮にお化けが現れたとしても、おいらがやっつけてやる！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170340
+    Id: 100170500
+    CharacterId: 10017
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170350
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 으응? 달콤한 만쥬가 무섭다니, 그게 무슨 소리인가?
+    MessageJP: まんじゅうって、あの甘いお饅頭か？あれが怖いなんて、どういうことだ？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170340
+    Id: 100170510
+    CharacterId: 10017
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170350
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 콤라드도 알 수 없는 소리를 자꾸 하는군…….
+    MessageJP: カムラッドは時々よく分からないことを言うな……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170350
+    Id: 100170520
+    CharacterId: 10017
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100170360
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 체리노는 무얼 무서워해?
+    MessageJP: チェリノは怖いものとかある？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170360
+    Id: 100170530
+    CharacterId: 10017
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 0
+    FeedbackTimeMillisec: 2000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그 무슨 망언인가! 이 몸이 무서워하는 것이라니!
+    MessageJP: お、おいらに怖いものなんてあるわけないだろう！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170360
+    Id: 100170540
+    CharacterId: 10017
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 0
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 위대한 지도자에게 공포란 불필요한 감정!
+    MessageJP: 偉大なる指導者にとって、恐怖など必要の無い感情だ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100170360
+    Id: 100170550
+    CharacterId: 10017
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100178
+    NextGroupId: 0
+    FeedbackTimeMillisec: 2500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 붉은겨울 학원의 서기장이자 학생회장이자, 미화부장이자, 청소부장인 이 몸에게 두려움 따윈 없느니라!
+    MessageJP: レッドウィンター連邦学園の生徒会長であり、書記長兼、環境美化部部長兼、清掃部部長のおいらに、恐れるものなど無い！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''

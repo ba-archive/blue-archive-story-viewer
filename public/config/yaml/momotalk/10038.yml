@@ -1,0 +1,858 @@
+CharacterId: 10038
+title:
+  - GroupId: 1003802
+    FavorScheduleId: 100382
+    CharacterId: 10038
+    TextJp: SRT、突入します！
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1003803
+    FavorScheduleId: 100383
+    CharacterId: 10038
+    TextJp: SRT、救出します！
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1003805
+    FavorScheduleId: 100385
+    CharacterId: 10038
+    TextJp: SRT、保護します！
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1003806
+    FavorScheduleId: 100386
+    CharacterId: 10038
+    TextJp: SRT、降下します！
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1003808
+    FavorScheduleId: 100388
+    CharacterId: 10038
+    TextJp: SRT、休憩します！
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+content:
+  - MessageGroupId: 100380010
+    Id: 100380010
+    CharacterId: 10038
+    MessageCondition: FavorRankUp
+    ConditionValue: 2
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380020
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: <SYSTEM> 여기는 RABBIT 1. 착륙 허가를 요청합니다.
+    MessageJP: こちらRABBIT1、着陸の許可を要請します
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380020
+    Id: 100380020
+    CharacterId: 10038
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380030
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……미야코? 메일을 잘못 보낸 거 아냐?
+    MessageJP: ……ミヤコ？メール送り間違えてない？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380030
+    Id: 100380030
+    CharacterId: 10038
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380040
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: <SYSTEM> 고도 2000 피트까지 하강. 강하 준비 완료했습니다.
+    MessageJP: 高度2000フィートまで下降、準備完了です
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380040
+    Id: 100380040
+    CharacterId: 10038
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380050
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……???
+    MessageJP: ……？？？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380050
+    Id: 100380050
+    CharacterId: 10038
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380060
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: <SYSTEM> 목표까지 약 1.5 마일— 곧 돌입합니다.
+    MessageJP: 目標まで約1.5マイル――まもなく突入します
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380060
+    Id: 100380060
+    CharacterId: 10038
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100382
+    NextGroupId: 100380070
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……미야코? 어디에 돌입하려는 거야?
+    MessageJP: ……ミヤコ？どこに突入しようとしてるの？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380070
+    Id: 100380070
+    CharacterId: 10038
+    MessageCondition: FavorRankUp
+    ConditionValue: 3
+    PreConditionGroupId: 100380060
+    PreConditionFavorScheduleId: 100382
+    FavorScheduleId: 0
+    NextGroupId: 100380080
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님은 개 파이시나요, 고양이 파이시나요?
+    MessageJP: 突然ですが、先生は犬派ですか？猫派ですか?
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380080
+    Id: 100380080
+    CharacterId: 10038
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380090
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 나는 개 파야.
+    MessageJP: 犬派だよ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380080
+    Id: 100380090
+    CharacterId: 10038
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380100
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 나는 고양이 파야.
+    MessageJP: 猫派だよ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380090
+    Id: 100380100
+    CharacterId: 10038
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380110
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그렇네요. 개는 충성스럽고 사람을 잘 따라서 좋아하는 사람이 많지요.
+    MessageJP: そうですか。確かに犬は忠誠心があり、人懐っこいということで好きな方が多いですね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380100
+    Id: 100380110
+    CharacterId: 10038
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380110
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그렇네요. 고양이는 귀엽고 도도한 매력이 있어서 좋아하는 사람이 많지요.
+    MessageJP: そうですか。確かに猫は可愛くてつんとした魅力があって、好きな方が多いですね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380110
+    Id: 100380120
+    CharacterId: 10038
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380120
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그럼 미야코는 개 파야, 고양이 파야?
+    MessageJP: ミヤコは犬派？猫派？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380120
+    Id: 100380130
+    CharacterId: 10038
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380130
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 글쎄요. 저는……
+    MessageJP: そうですね、 私は……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380120
+    Id: 100380140
+    CharacterId: 10038
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100383
+    NextGroupId: 100380130
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……토끼 파려나요.
+    MessageJP: ……強いて言えば、ウサギ派でしょうか
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380130
+    Id: 100380150
+    CharacterId: 10038
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 100380120
+    PreConditionFavorScheduleId: 100383
+    FavorScheduleId: 0
+    NextGroupId: 100380140
+    FeedbackTimeMillisec: 1000
+    MessageType: Image
+    ImagePath: UIs/03_Scenario/04_ScenarioImage/Mo_Miyako_01
+    MessageKR: ''
+    MessageJP: ''
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380140
+    Id: 100380160
+    CharacterId: 10038
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380150
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 아까 분양 받은 토끼의 사진이에요.
+    MessageJP: 先生、写真をどうぞ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380140
+    Id: 100380170
+    CharacterId: 10038
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380150
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 막 먹이를 먹고 잠든 참이랍니다.
+    MessageJP: ちょうど餌を食べて寝たところです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380150
+    Id: 100380180
+    CharacterId: 10038
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380160
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 토끼는 정말 귀엽네.
+    MessageJP: すごく可愛いね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380160
+    Id: 100380190
+    CharacterId: 10038
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380170
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그렇죠? 토끼에게는 개나 고양이와는 다른 매력이 있어요.
+    MessageJP: ですよね？ウサギには、犬や猫とはまた違った魅力があります
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380160
+    Id: 100380200
+    CharacterId: 10038
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380170
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 나중에 깨어나면 새로운 사진을 찍어서 보내 드릴게요.
+    MessageJP: 後で目覚めたら、また写真を撮って送りますね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380170
+    Id: 100380210
+    CharacterId: 10038
+    MessageCondition: FavorRankUp
+    ConditionValue: 5
+    PreConditionGroupId: 100380160
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380180
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그러고보니 선생님께 선물 받은 그 토끼의 이름을 아직 정하지 못했네요.
+    MessageJP: そういえば先生からプレゼントしていただいた、あのウサギの名前がまだ決まってないんです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380180
+    Id: 100380220
+    CharacterId: 10038
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380190
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 어떤 이름으로 해야 귀엽고 사랑스럽고 용맹한 이 토끼의 성격을 잘 드러낼 수 있을까요?
+    MessageJP: 可愛くて愛おしくて勇敢なこのウサギの性格をよく表すような名前、何かないでしょうか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380190
+    Id: 100380230
+    CharacterId: 10038
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380200
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 스탠퍼드 2세.
+    MessageJP: スタンフォード2世
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380190
+    Id: 100380240
+    CharacterId: 10038
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380210
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 장어 덮밥.
+    MessageJP: うなぎ丼
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380200
+    Id: 100380250
+    CharacterId: 10038
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380220
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그건 토끼에게 붙이기엔 너무 화려한 이름같아요.
+    MessageJP: それはウサギに付けるには派手すぎだと思いますが……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380210
+    Id: 100380260
+    CharacterId: 10038
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380220
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……그건 좀 토끼에게 미안한 이름이 아닐까요.
+    MessageJP: ……それをウサギに付けるのはどうかと思います
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380220
+    Id: 100380270
+    CharacterId: 10038
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380230
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그럼 토순이는 어때?
+    MessageJP: じゃあ「ぴょんこ」はどう？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380230
+    Id: 100380280
+    CharacterId: 10038
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380240
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 토순이…… 토순이…….
+    MessageJP: ぴょんこ、ぴょんこ……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380240
+    Id: 100380290
+    CharacterId: 10038
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380250
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 네, 멋진 이름이라고 생각해요.
+    MessageJP: はい、素敵な名前だと思います
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380240
+    Id: 100380300
+    CharacterId: 10038
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100385
+    NextGroupId: 100380250
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그럼 앞으로 이 토끼는 토순이라고 부르도록 하겠습니다.
+    MessageJP: それではこれからこのウサギはぴょんこと呼びます
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380250
+    Id: 100380310
+    CharacterId: 10038
+    MessageCondition: FavorRankUp
+    ConditionValue: 6
+    PreConditionGroupId: 100380240
+    PreConditionFavorScheduleId: 100385
+    FavorScheduleId: 0
+    NextGroupId: 100380260
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: <SYSTEM> 여기는 RABBIT 1. 이륙 허가를 요청합니다……
+    MessageJP: こちらRABBIT1。離陸の許可を要請します……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380260
+    Id: 100380320
+    CharacterId: 10038
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380270
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 잠깐, 미야코. 스톱! 스톱!
+    MessageJP: ミヤコ、ストップ！ストップ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380270
+    Id: 100380330
+    CharacterId: 10038
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380280
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 네? 선생님?
+    MessageJP: ……あれ？先生？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380270
+    Id: 100380340
+    CharacterId: 10038
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380280
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 어라, 또 선생님의 메일 주소를 헬리콥터 관제소 주소와 착각했군요. 죄송해요.
+    MessageJP: あ。また宛先を間違えていました、すみません
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380280
+    Id: 100380350
+    CharacterId: 10038
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380290
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오늘도 강하 작전이 있어?
+    MessageJP: 今日も降下作戦があるの？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380290
+    Id: 100380360
+    CharacterId: 10038
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380300
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 네, 선생님. 오늘 2200시에 헬기를 사용한 강하 작전이 예정되어 있습니다.
+    MessageJP: はい。本日2200に、ヘリを使った降下作戦が予定されています
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380300
+    Id: 100380370
+    CharacterId: 10038
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380310
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 키보토스에 불법으로 동물들을 들여오는 밀수업자들을 습격하는 임무입니다.
+    MessageJP: キヴォトスへ不法に動物たちを輸入している、密輸業者たちを襲撃する任務です
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380310
+    Id: 100380380
+    CharacterId: 10038
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380320
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 이번 강하 작전에는 나도 따라갈게.
+    MessageJP: 今回の降下作戦には私も付いて行くよ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380320
+    Id: 100380390
+    CharacterId: 10038
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380330
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 네? 선생님도 함께 헬리콥터를 타시겠다고요?
+    MessageJP: はい？先生も一緒にヘリに乗られるのですか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380320
+    Id: 100380400
+    CharacterId: 10038
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100386
+    NextGroupId: 100380330
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 위험할텐데…… 괜찮으신가요?
+    MessageJP: 危ないと思いますが……大丈夫ですか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380330
+    Id: 100380410
+    CharacterId: 10038
+    MessageCondition: FavorRankUp
+    ConditionValue: 8
+    PreConditionGroupId: 100380320
+    PreConditionFavorScheduleId: 100386
+    FavorScheduleId: 0
+    NextGroupId: 100380340
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 계신가요……?
+    MessageJP: 先生、ちょっとよろしいでしょうか……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380340
+    Id: 100380420
+    CharacterId: 10038
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380350
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 특별한 일정이 있어서 연락 드린 것은 아니라……
+    MessageJP: いいえ、特別なご用事があって連絡したわけではないのですが……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380350
+    Id: 100380430
+    CharacterId: 10038
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380360
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 나중에 다시 연락드리겠습니다.
+    MessageJP: やっぱりまた後で、ご連絡します
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380360
+    Id: 100380440
+    CharacterId: 10038
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100380370
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 미안, 미야코. 회의 중이라 확인이 늦었어.
+    MessageJP: ごめん、ミヤコ。会議中だったから確認が遅くなっちゃった
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100380370
+    Id: 100380450
+    CharacterId: 10038
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100388
+    NextGroupId: 0
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 미야코……?
+    MessageJP: ミヤコ……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''

@@ -1,0 +1,930 @@
+CharacterId: 26006
+title:
+  - GroupId: 2600602
+    FavorScheduleId: 260062
+    CharacterId: 26006
+    TextJp: 運が良い日
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2600603
+    FavorScheduleId: 260063
+    CharacterId: 26006
+    TextJp: 観察日記
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2600605
+    FavorScheduleId: 260065
+    CharacterId: 26006
+    TextJp: 流星群が見られる場所
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2600606
+    FavorScheduleId: 260066
+    CharacterId: 26006
+    TextJp: 流星群と願い事
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2600608
+    FavorScheduleId: 260068
+    CharacterId: 26006
+    TextJp: 雲を探しに
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+content:
+  - MessageGroupId: 260060010
+    Id: 260060010
+    CharacterId: 26006
+    MessageCondition: FavorRankUp
+    ConditionValue: 2
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060020
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 선생님은 운세 점괘를 얼마나 믿으시나요?
+    MessageJP: 先生は占いってどれぐらい信じてますか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060020
+    Id: 260060020
+    CharacterId: 26006
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060030
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 제법 잘 맞는다고 생각해.
+    MessageJP: 結構信じてるよ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060020
+    Id: 260060030
+    CharacterId: 26006
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060040
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그다지 맞는 것 같지는 않은데…….
+    MessageJP: そんなに信じない方かな……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060030
+    Id: 260060040
+    CharacterId: 26006
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060050
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그렇군요. 나중에 선생님이 보는 운세 점괘를 제게도 알려주세요!
+    MessageJP: そうなんですね。今度先生が見ている占い、私にも教えてください！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060040
+    Id: 260060050
+    CharacterId: 26006
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060050
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그런가요? 그럼 일간 키보토스의 <오늘의 운세>를 확인해보세요.
+    MessageJP: そうなんですか？日刊キヴォトスの「今日の運勢」、お勧めですよ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060040
+    Id: 260060060
+    CharacterId: 26006
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060050
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 이곳의 운세 점괘는 틀린 적이 없거든요!
+    MessageJP: あの占いは、外れたことがありませんから！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060050
+    Id: 260060070
+    CharacterId: 26006
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060060
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: <오늘의 운세>에 따르면 오늘의 저는 금전운이 좋다고 하네요!
+    MessageJP: 「今日の運勢」によると、私は金運がばっちりだそうです！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060060
+    Id: 260060080
+    CharacterId: 26006
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060070
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 특별반에 온 이후로 금전운이 좋다는 점괘는 나온 적이 없었는데……
+    MessageJP: 特別クラスに来てから、金運が良いという占い結果が出たのは初めてなんです……！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060060
+    Id: 260060090
+    CharacterId: 26006
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060070
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 후후, 벌써부터 기대가 되어서 참을 수가 없네요!
+    MessageJP: ふふ、今から楽しみで仕方ありません！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060070
+    Id: 260060100
+    CharacterId: 26006
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060080
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 좋은 일이 있었으면 좋겠네.
+    MessageJP: 良いこと、起きるといいね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060080
+    Id: 260060110
+    CharacterId: 26006
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 260062
+    NextGroupId: 260060090
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 네, 그러게 말이에요!
+    MessageJP: はい！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060090
+    Id: 260060120
+    CharacterId: 26006
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 260060080
+    PreConditionFavorScheduleId: 260062
+    FavorScheduleId: 0
+    NextGroupId: 260060100
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 으으…… 아까 못 먹고 남긴 고급 스위츠가 신경 쓰여서 잠이 오질 않아요.
+    MessageJP: うう、食べきれず残してしまったあの高級スイーツが、今も頭に残って眠れません……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060090
+    Id: 260060130
+    CharacterId: 26006
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060100
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 모처럼 금전운이 따랐는데도 그 기회를 살리지 못하다니, 너무 아쉬워요.
+    MessageJP: せっかくの金運だったのに、チャンスをふいに……なんてもったいないことを……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060100
+    Id: 260060140
+    CharacterId: 26006
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060110
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 다음번에도 르와조 블뢰에서 스위츠를 사줄게.
+    MessageJP: また今度、同じお店で奢ってあげるよ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060110
+    Id: 260060150
+    CharacterId: 26006
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060120
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아, 안 돼요! 그런 약속을 들어버리면…….
+    MessageJP: だ、ダメです！そ、そんな約束をされてしまいますと……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060110
+    Id: 260060160
+    CharacterId: 26006
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060120
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 앞으로도 계속 잠을 잘 수 없게 되어버린다고요!
+    MessageJP: これから先そのお店に行くまで、ずっと眠れなくなってしまいます！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060120
+    Id: 260060170
+    CharacterId: 26006
+    MessageCondition: FavorRankUp
+    ConditionValue: 3
+    PreConditionGroupId: 260060110
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060130
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 오늘은 쭉 샬레에만 계시나요?
+    MessageJP: 先生、今日はずっとシャーレにいらっしゃるんですか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060130
+    Id: 260060180
+    CharacterId: 26006
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060140
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 응. 샬레에만 있는데. 무슨 용무라도 있어?
+    MessageJP: うん、その予定。何か用事あったりする？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060140
+    Id: 260060190
+    CharacterId: 26006
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060150
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아뇨, 아무 일도 없어요.
+    MessageJP: いえ大丈夫です、今は特にありません
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060140
+    Id: 260060200
+    CharacterId: 26006
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060150
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그냥 여쭤본 것뿐이에요. 헤헤.
+    MessageJP: ただ聞いてみただけです、えへへ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060150
+    Id: 260060210
+    CharacterId: 26006
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 260063
+    NextGroupId: 260060160
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: '???'
+    MessageJP: ？？？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060160
+    Id: 260060220
+    CharacterId: 26006
+    MessageCondition: FavorRankUp
+    ConditionValue: 5
+    PreConditionGroupId: 260060150
+    PreConditionFavorScheduleId: 260063
+    FavorScheduleId: 0
+    NextGroupId: 260060170
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 그 소식 들으셨나요?
+    MessageJP: 先生、聞きましたか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060170
+    Id: 260060230
+    CharacterId: 26006
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060180
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 유성우에요, 유성우!
+    MessageJP: 流星群ですよ、流星群！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060180
+    Id: 260060240
+    CharacterId: 26006
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060190
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……유성우?
+    MessageJP: 流星群？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060190
+    Id: 260060250
+    CharacterId: 26006
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060200
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 네, 신문에서 봤는데, 이번 보름에 사자자리 유성우가 찾아온대요!
+    MessageJP: はい、ニュースで見たんですが、今度の満月の日にしし座流星群が見られるみたいです！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060190
+    Id: 260060260
+    CharacterId: 26006
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060200
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 게다가 이번 보름에 오는 사자자리 유성우는 붉은겨울 학원 자치구에서도 볼 수 있다고 하네요.
+    MessageJP: その上、今回のしし座流星群は、レッドウィンターの自治区でも見られるそうで！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060200
+    Id: 260060270
+    CharacterId: 26006
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060210
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 지난번 유성우는 이 근처에서 관측할 수 없어서 정말 아쉬웠는데…….
+    MessageJP: この前の流星群は、この辺りでは観測できなくて本当に残念でしたが、今度こそ……！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060200
+    Id: 260060280
+    CharacterId: 26006
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060210
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 직접 보는 유성우는 얼마나 아름다울까요?
+    MessageJP: 実際に見たら、どれほど綺麗なんでしょうね？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060210
+    Id: 260060290
+    CharacterId: 26006
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 260065
+    NextGroupId: 260060220
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 벌써부터 기대가 되네요!
+    MessageJP: 今から楽しみです！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060220
+    Id: 260060300
+    CharacterId: 26006
+    MessageCondition: FavorRankUp
+    ConditionValue: 6
+    PreConditionGroupId: 260060210
+    PreConditionFavorScheduleId: 260065
+    FavorScheduleId: 0
+    NextGroupId: 260060230
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님! 이번 유성우가 절정을 이루는 순간은 밤 11시래요!
+    MessageJP: 先生！今夜の流星群のピーク時は夜の11時だそうです！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060230
+    Id: 260060310
+    CharacterId: 26006
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060240
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그러니 꼭 그 전에 오셔야 해요!
+    MessageJP: ですので、それよりも前に来てくださいね！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060240
+    Id: 260060320
+    CharacterId: 26006
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060250
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 알고 있어. 여유 있게 한 시간 전에 가도록 할게.
+    MessageJP: 分かった、余裕を持って一時間前には行くようにするね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060250
+    Id: 260060330
+    CharacterId: 26006
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060260
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 절대로 늦으시면 안 돼요!
+    MessageJP: 遅れちゃダメですよ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060260
+    Id: 260060340
+    CharacterId: 26006
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060270
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 알고 있다니까……
+    MessageJP: 分かった分かった
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060270
+    Id: 260060350
+    CharacterId: 26006
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 260066
+    NextGroupId: 260060280
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 꼭이에요! 꼭!
+    MessageJP: 絶対ですよ！絶対！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060280
+    Id: 260060360
+    CharacterId: 26006
+    MessageCondition: FavorRankUp
+    ConditionValue: 8
+    PreConditionGroupId: 260060270
+    PreConditionFavorScheduleId: 260066
+    FavorScheduleId: 0
+    NextGroupId: 260060290
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님은 어떤 날씨를 제일 좋아하시나요?
+    MessageJP: 先生はどんな天気が好きですか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060290
+    Id: 260060370
+    CharacterId: 26006
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060300
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 맑은 날.
+    MessageJP: 晴れかな
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060290
+    Id: 260060380
+    CharacterId: 26006
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060310
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 비 내리는 날.
+    MessageJP: 雨かな
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060300
+    Id: 260060390
+    CharacterId: 26006
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060320
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 무난하네요. 다들 맑은 날을 좋아하죠.
+    MessageJP: なるほど、晴れた日が好きという人は多いですよね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060310
+    Id: 260060400
+    CharacterId: 26006
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060320
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 드물긴 하지만 비 내리는 흐린 날도 인기가 많긴 하죠.
+    MessageJP: 晴れの日ほど多くはない印象ですが、雨も人気ありますよね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060320
+    Id: 260060410
+    CharacterId: 26006
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060330
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 뭐, 구름 하나 없이 맑은 날도, 자박자박 비가 내리는 날도 좋기는 하지만……
+    MessageJP: 私は、雲一つない晴れた空も、ポツポツと降る雨も好きですが……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060320
+    Id: 260060420
+    CharacterId: 26006
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 260068
+    NextGroupId: 260060330
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 저는 구름이 잔뜩 흩뿌려진 하늘이 제일 좋아요!
+    MessageJP: 実は、雲一面の空が一番好きなんです！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060330
+    Id: 260060430
+    CharacterId: 26006
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 260060320
+    PreConditionFavorScheduleId: 260068
+    FavorScheduleId: 0
+    NextGroupId: 260060340
+    FeedbackTimeMillisec: 1000
+    MessageType: Image
+    ImagePath: UIs/03_Scenario/04_ScenarioImage/Mo_Nodoka_01
+    MessageKR: ''
+    MessageJP: ''
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060340
+    Id: 260060440
+    CharacterId: 26006
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060350
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 보세요, 선생님.
+    MessageJP: 見てください、先生！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060340
+    Id: 260060450
+    CharacterId: 26006
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060350
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님을 위해 대신 예쁜 풍경을 찍어 왔어요. 어떤가요?
+    MessageJP: 約束の、撮ってきた写真です。どうですか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060350
+    Id: 260060460
+    CharacterId: 26006
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060360
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 예쁜 하늘인걸.
+    MessageJP: すごく綺麗だね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060360
+    Id: 260060470
+    CharacterId: 26006
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060370
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그렇죠? 제가 구름이 많은 날을 좋아하는 이유가 바로 이거예요.
+    MessageJP: そうですよね！私が雲の多い日が好きなのは、こういった景色が好きだからなんです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060360
+    Id: 260060480
+    CharacterId: 26006
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260060370
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님도 같이 왔으면 좋았을 텐데…….
+    MessageJP: 先生と一緒に行けたらもっと良かったのですが……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260060370
+    Id: 260060490
+    CharacterId: 26006
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 0
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 마, 마지막 문자는 신경 쓰지 마세요!
+    MessageJP: い、今のメッセージは気にしないでください！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''

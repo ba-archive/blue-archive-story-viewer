@@ -1,0 +1,831 @@
+CharacterId: 13012
+title:
+  - GroupId: 1301202
+    FavorScheduleId: 130122
+    CharacterId: 13012
+    TextJp: のん気な大捜査線
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1301203
+    FavorScheduleId: 130123
+    CharacterId: 13012
+    TextJp: 銃声とジルコニア
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1301205
+    FavorScheduleId: 130125
+    CharacterId: 13012
+    TextJp: ザ・シューター/二大標的？
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1301206
+    FavorScheduleId: 130126
+    CharacterId: 13012
+    TextJp: アイアン・コネクション
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+content:
+  - MessageGroupId: 130120010
+    Id: 130120010
+    CharacterId: 13012
+    MessageCondition: FavorRankUp
+    ConditionValue: 2
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120020
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 순찰 시간입니다!
+    MessageJP: 先生、パトロールの時間ですよ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120020
+    Id: 130120020
+    CharacterId: 13012
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120030
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 어제는 북구의 업무지구를 순찰했으니, 오늘은 중앙구의 업무지구를 순찰하도록 하죠!
+    MessageJP: 昨日は北区だったので、今日は中央区を回ることにしましょうか！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120030
+    Id: 130120030
+    CharacterId: 13012
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120040
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 하지만 오늘은 휴일이잖아…….
+    MessageJP: 今日は、休日のはず……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120030
+    Id: 130120040
+    CharacterId: 13012
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120040
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오늘은 쉬면 안 될까?
+    MessageJP: 今日くらいお休みにしない……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120040
+    Id: 130120050
+    CharacterId: 13012
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120050
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 안 돼요! 사건은 회의실이 아니라 현장에서 일어나는 법이니까요.
+    MessageJP: そうはいきません！事件は会議室ではなく、現場で起きるのですから！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120050
+    Id: 130120060
+    CharacterId: 13012
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120060
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 저희가 이렇게 대화를 나누는 이 순간에도……
+    MessageJP: 私たちが、気持ちの良い二度寝を享受している間にも……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120050
+    Id: 130120070
+    CharacterId: 13012
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120060
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 시민의 손으로는 해결할 수 없는 대형 범죄가 저희를 기다리고 있다고요!
+    MessageJP: 市民の方々には解決できないような大型犯罪が、どこかで起きつつあるかもしれないんですよ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120060
+    Id: 130120080
+    CharacterId: 13012
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 130122
+    NextGroupId: 130120070
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그렇다면 더 나가고 싶지 않아…….
+    MessageJP: それなら尚のこと、あんまり行きたくないな……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120070
+    Id: 130120090
+    CharacterId: 13012
+    MessageCondition: FavorRankUp
+    ConditionValue: 3
+    PreConditionGroupId: 130120060
+    PreConditionFavorScheduleId: 130122
+    FavorScheduleId: 0
+    NextGroupId: 130120080
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 사건입니다!
+    MessageJP: 先生、事件です！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120080
+    Id: 130120100
+    CharacterId: 13012
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120090
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 소식에 따르면 한 불량 학생이 시바 타운의 보석상 앞에서 인질을 붙잡고 농성을 하고 있다고 합니다!
+    MessageJP: どうやら芝タウンの宝石店で、不良生徒が人質を取って立てこもっているそうです！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120080
+    Id: 130120110
+    CharacterId: 13012
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120090
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그런데 교통 정체 때문에 교섭인의 도착이 늦어지는 모양이네요.
+    MessageJP: そしてどうやら、交通渋滞で交渉人の到着が遅れているらしく……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120090
+    Id: 130120120
+    CharacterId: 13012
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120100
+    FeedbackTimeMillisec: 2000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 음……
+    MessageJP: ……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120090
+    Id: 130120130
+    CharacterId: 13012
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120100
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 만약 본관이 이 기회에 현장에 먼저 도착해서 교섭을 성공시킨다면……
+    MessageJP: 本官がこの機に、先に現場へ向かって交渉を成功させたら……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120090
+    Id: 130120140
+    CharacterId: 13012
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120100
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 발키리의 높으신 분들도 본관의 능력을 인정해주시지 않을까요?
+    MessageJP: ヴァルキューレの上層部の方々も、本官の能力を認めてくださるでしょうか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120100
+    Id: 130120150
+    CharacterId: 13012
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120110
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 전문 교섭인이 올 때까지 기다리는 게 좋지 않을까?
+    MessageJP: プロの交渉人を待った方が良いんじゃ……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120110
+    Id: 130120160
+    CharacterId: 13012
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120120
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아뇨. 지금 이 순간에도 인질은 두려움에 떨고 있을 거예요.
+    MessageJP: ……いえ、決めました。今この瞬間も人質は恐怖に震えているはずです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120110
+    Id: 130120170
+    CharacterId: 13012
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120120
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아무리 본관이 정식 경찰은 아니라고는 하지만, 교섭은 조금도 지체할 수 없습니다!
+    MessageJP: まだ正式な警察ではないとはいえ、立ち止まってはいられません
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120110
+    Id: 130120180
+    CharacterId: 13012
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 130123
+    NextGroupId: 130120120
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 키리노, 출동합니다!
+    MessageJP: キリノ、出動します！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120120
+    Id: 130120190
+    CharacterId: 13012
+    MessageCondition: FavorRankUp
+    ConditionValue: 5
+    PreConditionGroupId: 130120110
+    PreConditionFavorScheduleId: 130123
+    FavorScheduleId: 0
+    NextGroupId: 130120130
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 우으, 선생님……. (T_T)
+    MessageJP: うう、先生……(T_T)
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120130
+    Id: 130120200
+    CharacterId: 13012
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120140
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 지난번의 인질 사건 때문에 높은 분들로부터 경고를 받았습니다.
+    MessageJP: この前の人質事件のことで、上層部の方々から警告を受けてしまいました……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120140
+    Id: 130120210
+    CharacterId: 13012
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120150
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그때 총만 제대로 쏘았더라면…….
+    MessageJP: もっと、私の銃の腕前さえ良ければ……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120140
+    Id: 130120220
+    CharacterId: 13012
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120150
+    FeedbackTimeMillisec: 2500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 어떻게 하면 총을 잘 쏠 수 있을까요?
+    MessageJP: 先生、射撃の腕はどうすれば上がるのでしょうか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120150
+    Id: 130120230
+    CharacterId: 13012
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120160
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그걸 내게 물어봐도…….
+    MessageJP: それはちょっと、私に聞かれても……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120160
+    Id: 130120240
+    CharacterId: 13012
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120170
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그럼 최소한 본관이 사격하는 모습을 옆에서 지켜봐 주실 수는 없으신가요?
+    MessageJP: そうですね……ではせめて、今度本官が射撃をしているところを隣で見てていただけませんか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120160
+    Id: 130120250
+    CharacterId: 13012
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120170
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 사격 시의 나쁜 습관이나 자세를 교정하면 명중률을 올리는 데 도움이 된다고 하니까요.
+    MessageJP: 命中率を上げるためには、射撃時の悪い癖や姿勢を治すことが大事だと聞きましたので！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120170
+    Id: 130120260
+    CharacterId: 13012
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120180
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그거라면 어렵지 않지.
+    MessageJP: うん、それなら喜んで
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120180
+    Id: 130120270
+    CharacterId: 13012
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120190
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 감사합니다, 선생님!
+    MessageJP: ありがとうございます、先生！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120180
+    Id: 130120280
+    CharacterId: 13012
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 130125
+    NextGroupId: 130120190
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그럼 학교의 실내 사격장에서 기다리고 있겠습니다!
+    MessageJP: では、校内の射撃場にてお待ちしております！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120190
+    Id: 130120290
+    CharacterId: 13012
+    MessageCondition: FavorRankUp
+    ConditionValue: 6
+    PreConditionGroupId: 130120180
+    PreConditionFavorScheduleId: 130125
+    FavorScheduleId: 0
+    NextGroupId: 130120200
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 으으, 긴장되네요…….
+    MessageJP: 先生、すごく緊張してきました……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120200
+    Id: 130120300
+    CharacterId: 13012
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120210
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 무슨 일이라도 있어?
+    MessageJP: どうしたの？何かこの後試験とか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120210
+    Id: 130120310
+    CharacterId: 13012
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120220
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오후에 주변 유치원의 학생들이 견학 차 발키리 경찰학교에 올 예정이라는데……
+    MessageJP: 本日の午後、近くの幼稚園の園児たちがヴァルキューレ警察学校の見学に来るそうでして……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120210
+    Id: 130120320
+    CharacterId: 13012
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120220
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그 견학의 안내를 본관이 맡게 되어서요.
+    MessageJP: その案内を、本官が担当することになったのです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120220
+    Id: 130120330
+    CharacterId: 13012
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120230
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 혹시라도 너무 긴장해서 실수를 하지는 않을까, 벌써부터 걱정이 됩니다.
+    MessageJP: 何かミスをしてしまったらどうしようと考えると、すごく不安で……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120230
+    Id: 130120340
+    CharacterId: 13012
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120240
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 내가 실수하지 않도록 옆에서 도와줄게.
+    MessageJP: 私も行ってよければ、横でサポートしようか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120240
+    Id: 130120350
+    CharacterId: 13012
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120250
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……선생님께서 직접 도와주시러 오시는 건가요?
+    MessageJP: え、良いんですか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120240
+    Id: 130120360
+    CharacterId: 13012
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120250
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그렇다면 안심입니다. 감사합니다, 선생님!
+    MessageJP: それなら安心です、ありがとうございます先生！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120250
+    Id: 130120370
+    CharacterId: 13012
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120260
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 어쩐지 의욕이 넘치는 것 같네.
+    MessageJP: 何だかすごく気合入ってそうだし、私に手伝えることがあればぜひ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120260
+    Id: 130120380
+    CharacterId: 13012
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120270
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 물론이지요. 어린 학생들에게 경찰의 멋진 모습을 보여줄 수 있는 모처럼의 기회니까요!
+    MessageJP: 助かります。そうですね、せっかくの機会ですので、園児たちには警察のかっこいい姿を見せてあげたいなと思っているんです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120260
+    Id: 130120390
+    CharacterId: 13012
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120270
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 본관도 어릴 적 견학을 통해 경찰의 꿈을 갖게 되었었지요.
+    MessageJP: 何せ本官も、幼い頃に同じような見学会に行って、そこで警察官になることを志したので……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120260
+    Id: 130120400
+    CharacterId: 13012
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120270
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그때의 선배들처럼 멋진 모습을 보여야 할 텐데…….
+    MessageJP: あの時の警察の方々のように、カッコいい姿を見せないと……！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120270
+    Id: 130120410
+    CharacterId: 13012
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120280
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 키리노.
+    MessageJP: キリノ、一つだけ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120280
+    Id: 130120420
+    CharacterId: 13012
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120290
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 네?
+    MessageJP: はい、何でしょう？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120290
+    Id: 130120430
+    CharacterId: 13012
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 130120300
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 당황하더라도 총은 꺼내면 안 돼.
+    MessageJP: 銃は取り出さないようにね。園の子たちに当たると危ないから
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 130120300
+    Id: 130120440
+    CharacterId: 13012
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 130126
+    NextGroupId: 0
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 다, 당연하지요! 본관도 그 정도는 알고 있습니다!
+    MessageJP: そ、それは……！な、何だか不本意ではありますが……はい、そうですね……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''

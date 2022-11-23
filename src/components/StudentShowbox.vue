@@ -1,7 +1,5 @@
 <script setup lang="ts">
-import { computed } from 'vue';
-
-const props = defineProps({
+defineProps({
   studentInfo: {
     type: Object,
     required: true,
@@ -37,21 +35,10 @@ const props = defineProps({
 function getImagePath(id: number) {
   return `/image/avatar_students/${id}.webp`;
 }
-
-const availability = computed<boolean>(() => {
-  return (
-    props.studentInfo.availability.momotalk ||
-    props.studentInfo.availability.story
-  );
-});
 </script>
 
 <template>
-  <div
-    class="student-container rounded-small"
-    :class="availability ? '' : 'unavailable'"
-    v-once
-  >
+  <div class="student-container rounded-small" v-once>
     <img
       class="student-avatar"
       :src="getImagePath(studentInfo.id)"

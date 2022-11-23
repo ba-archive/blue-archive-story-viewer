@@ -1,0 +1,723 @@
+CharacterId: 20007
+title:
+  - GroupId: 2000702
+    FavorScheduleId: 200072
+    CharacterId: 20007
+    TextJp: バーチャル・シンガーの秘密
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2000703
+    FavorScheduleId: 200073
+    CharacterId: 20007
+    TextJp: バーチャル・シンガーの悩み
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2000705
+    FavorScheduleId: 200075
+    CharacterId: 20007
+    TextJp: バーチャル・シンガーの気持ち
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2000706
+    FavorScheduleId: 200076
+    CharacterId: 20007
+    TextJp: バーチャル・シンガーのステージ
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+content:
+  - MessageGroupId: 200070010
+    Id: 200070010
+    CharacterId: 20007
+    MessageCondition: FavorRankUp
+    ConditionValue: 2
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200070020
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……당신이 샬레의 선생님이신가요?
+    MessageJP: えっと、シャーレの先生……で、合ってますか?
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070020
+    Id: 200070020
+    CharacterId: 20007
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200070030
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……누구?
+    MessageJP: どちら様……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070020
+    Id: 200070030
+    CharacterId: 20007
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200070030
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 학생은 아닌 것 같은데…….
+    MessageJP: どこかで会ったことある……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070030
+    Id: 200070040
+    CharacterId: 20007
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200070040
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 쉬잇.
+    MessageJP: ふふっ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070030
+    Id: 200070050
+    CharacterId: 20007
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200070040
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 지금 여기서는 말씀드릴 수 없어요.
+    MessageJP: できればご説明したいところなのですが……それはまた後ほど
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070040
+    Id: 200070060
+    CharacterId: 20007
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200070050
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 키보토스의 해결사이자, 학생들이 믿고 의지한다는 선생님께 부탁이 있어요.
+    MessageJP: 数多くの生徒たちの信頼を集め、頼れる存在として認識されている……そして、キヴォトス全体におけるフィクサーである先生に、お願いがあるんです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070040
+    Id: 200070070
+    CharacterId: 20007
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200070050
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 해가 진 뒤 제가 지정한 장소로 나와주세요.
+    MessageJP: 日が暮れた頃に、この後私が指定する場所に来ていただけますか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070050
+    Id: 200070080
+    CharacterId: 20007
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 200072
+    NextGroupId: 200070060
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 다른 사람에게는 절대로 말씀하시면 안 돼요!
+    MessageJP: あ、他の方にはどうかご内密でお願いしますね！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070060
+    Id: 200070090
+    CharacterId: 20007
+    MessageCondition: FavorRankUp
+    ConditionValue: 3
+    PreConditionGroupId: 200070050
+    PreConditionFavorScheduleId: 200072
+    FavorScheduleId: 0
+    NextGroupId: 200070070
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 전에 연락드렸던 미쿠입니다.
+    MessageJP: 先生、こんにちは！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070070
+    Id: 200070100
+    CharacterId: 20007
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200070080
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 공연 준비는 잘 되어가고 있어?
+    MessageJP: あれからどう？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070080
+    Id: 200070110
+    CharacterId: 20007
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200070090
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그럭저럭 괜찮게 진행되는 중이에요.
+    MessageJP: あ、はい。そちらの方は何とか
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070080
+    Id: 200070120
+    CharacterId: 20007
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200070090
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……목소리가 나오지 않는 것만 제외한다면요.
+    MessageJP: まだ、声は出ませんが……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070090
+    Id: 200070130
+    CharacterId: 20007
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200070100
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 혹시 그 이후로 목소리를 되돌리는 방법에 대해 알아내신 게 있으신가요?
+    MessageJP: あの後、何か見つかりましたか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070100
+    Id: 200070140
+    CharacterId: 20007
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200070110
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 음, 여러 가지를 조사해 봤어.
+    MessageJP: うん。調べてみた感じ、幾つか良さそうな方法が
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070110
+    Id: 200070150
+    CharacterId: 20007
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200070120
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 역시 선생님이시네요!
+    MessageJP: 本当ですか！？さすがは先生です！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070110
+    Id: 200070160
+    CharacterId: 20007
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200070120
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그럼 오후 연습이 끝난 뒤에 잠깐 뵐 수 있을까요?
+    MessageJP: では、午後の練習が終わった後にでも少し会えますでしょうか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070120
+    Id: 200070170
+    CharacterId: 20007
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 200073
+    NextGroupId: 200070130
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 라이브 하우스의 대기실에서 기다리고 있겠습니다.
+    MessageJP: ライブハウスの控室で待ってますので
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070130
+    Id: 200070180
+    CharacterId: 20007
+    MessageCondition: FavorRankUp
+    ConditionValue: 5
+    PreConditionGroupId: 200070120
+    PreConditionFavorScheduleId: 200073
+    FavorScheduleId: 0
+    NextGroupId: 200070140
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 벌써 공연이 일주일 앞으로 다가왔네요…….
+    MessageJP: ライブまで、あと一週間になってしまいました……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070140
+    Id: 200070190
+    CharacterId: 20007
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200070150
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 노래는 여전히 부를 수 없어?
+    MessageJP: 喉の調子は変わらず？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070150
+    Id: 200070200
+    CharacterId: 20007
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200070160
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 네. 어떤 수를 써도 목소리가 돌아오질 않아서…….
+    MessageJP: はい……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070150
+    Id: 200070210
+    CharacterId: 20007
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200070160
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아무래도 이번 공연은 취소해야 할 것 같네요.
+    MessageJP: やはりもう一度、中止にできないか聞いてみた方が良いでしょうか
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070160
+    Id: 200070220
+    CharacterId: 20007
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200070170
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그건 아쉽네.
+    MessageJP: まだ何か、やり方は……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070160
+    Id: 200070230
+    CharacterId: 20007
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200070170
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 나도 미쿠의 공연을 기대했는데.
+    MessageJP: 私もミクのライブが見たいし……どうにかして何か良い方法を……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070170
+    Id: 200070240
+    CharacterId: 20007
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200070180
+    FeedbackTimeMillisec: 2500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 저, 선생님.
+    MessageJP: あの、先生
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070170
+    Id: 200070250
+    CharacterId: 20007
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200070180
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 괜찮으시면 시내 뒤편의 골목에서 잠깐 뵐 수 있을까요?
+    MessageJP: よろしければ今から、お会いできませんか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070180
+    Id: 200070260
+    CharacterId: 20007
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 200075
+    NextGroupId: 200070190
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 드리고 싶은 말씀이 있어요.
+    MessageJP: ちょっとお話したいことがありまして。路地裏でお待ちしてます
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070190
+    Id: 200070270
+    CharacterId: 20007
+    MessageCondition: FavorRankUp
+    ConditionValue: 6
+    PreConditionGroupId: 200070180
+    PreConditionFavorScheduleId: 200075
+    FavorScheduleId: 0
+    NextGroupId: 200070200
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 저번에 말씀하신 곡을 완성했어요.
+    MessageJP: 先生、曲が完成しました……！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070200
+    Id: 200070280
+    CharacterId: 20007
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200070210
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아직 부족한 부분이 많긴 하지만 분명 이 곡이라면……
+    MessageJP: 色々と未熟な感じではありますが……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070200
+    Id: 200070290
+    CharacterId: 20007
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200070210
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 관객 여러분께 제 마음을 전달할 수 있을 거예요.
+    MessageJP: 心を込めて、作ってみました
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070210
+    Id: 200070300
+    CharacterId: 20007
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200070220
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 수고 많았어.
+    MessageJP: お疲れ様！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070210
+    Id: 200070310
+    CharacterId: 20007
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200070220
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 분명 다들 좋아할 거야.
+    MessageJP: きっと大丈夫、みんな喜んでくれるよ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070220
+    Id: 200070320
+    CharacterId: 20007
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200070230
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 하지만 정말로 괜찮을까요?
+    MessageJP: ですが、本当に大丈夫でしょうか……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070230
+    Id: 200070330
+    CharacterId: 20007
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200070240
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 곡을 넣을 수 있는 라이브 하우스의 공연 시설이라면 엄중하게 관리되고 있을 텐데,
+    MessageJP: 普通にお願いしても難しそうですし……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070230
+    Id: 200070340
+    CharacterId: 20007
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200070240
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 지금에 와서 새로운 곡으로 바꾸는 건 어렵지 않을까요?
+    MessageJP: こっそりやるにも、セキュリティがしっかりしてますし……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070240
+    Id: 200070350
+    CharacterId: 20007
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200070250
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그건 걱정하지 마.
+    MessageJP: 任せて
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070240
+    Id: 200070360
+    CharacterId: 20007
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200070250
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 샬레에는 해킹도 엔지니어링도 유능한 학생들이 잔뜩 있거든.
+    MessageJP: シャーレには、ハッキングとかエンジニアリングが得意な生徒がたくさんいるから
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070250
+    Id: 200070370
+    CharacterId: 20007
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 0
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 저, 지금에 와서 여쭈는 것도 이상하지만…….
+    MessageJP: えっと、今さらなのですが……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200070250
+    Id: 200070380
+    CharacterId: 20007
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 200076
+    NextGroupId: 0
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 샬레는 무얼 하는 조직인가요?
+    MessageJP: シャーレって、いったい何の組織なんですか……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''

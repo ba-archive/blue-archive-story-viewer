@@ -14,9 +14,6 @@
   type: Striker
   armorType: LightArmor
   weapon: SR
-  availability:
-    momotalk: false
-    story: false
 - id: 10001
   familyName:
     cn: 和泉元
@@ -33,9 +30,6 @@
   type: Striker
   armorType: LightArmor
   weapon: SG
-  availability:
-    momotalk: false
-    story: false
 - id: 10002
   familyName:
     cn: 黑馆
@@ -52,9 +46,6 @@
   type: Striker
   armorType: HeavyArmor
   weapon: SR
-  availability:
-    momotalk: false
-    story: false
 - id: 10003
   familyName:
     cn: 阿慈谷
@@ -71,9 +62,6 @@
   type: Striker
   armorType: LightArmor
   weapon: AR
-  availability:
-    momotalk: false
-    story: false
 - id: 10004
   familyName:
     cn: 空崎
@@ -90,9 +78,6 @@
   type: Striker
   armorType: HeavyArmor
   weapon: MG
-  availability:
-    momotalk: false
-    story: false
 - id: 10005
   familyName:
     cn: 小鸟游
@@ -109,9 +94,6 @@
   type: Striker
   armorType: HeavyArmor
   weapon: SG
-  availability:
-    momotalk: false
-    story: false
 - id: 10006
   familyName:
     cn: 银镜
@@ -128,9 +110,6 @@
   type: Striker
   armorType: HeavyArmor
   weapon: SR
-  availability:
-    momotalk: false
-    story: false
 - id: 10007
   familyName:
     cn: 小涂
@@ -147,9 +126,6 @@
   type: Striker
   armorType: LightArmor
   weapon: MG
-  availability:
-    momotalk: false
-    story: false
 - id: 10008
   familyName:
     cn: 美甘
@@ -166,9 +142,6 @@
   type: Striker
   armorType: LightArmor
   weapon: SMG
-  availability:
-    momotalk: false
-    story: false
 - id: 10009
   familyName:
     cn: 狮子堂
@@ -185,9 +158,6 @@
   type: Striker
   armorType: LightArmor
   weapon: MG
-  availability:
-    momotalk: false
-    story: false
 - id: 10010
   familyName:
     cn: 砂狼
@@ -204,9 +174,6 @@
   type: Striker
   armorType: LightArmor
   weapon: AR
-  availability:
-    momotalk: false
-    story: false
 - id: 10011
   familyName:
     cn: 春原
@@ -223,9 +190,6 @@
   type: Striker
   armorType: LightArmor
   weapon: SR
-  availability:
-    momotalk: false
-    story: false
 - id: 10012
   familyName:
     cn: 乙花
@@ -242,9 +206,6 @@
   type: Striker
   armorType: Unarmed
   weapon: SG
-  availability:
-    momotalk: false
-    story: false
 - id: 10013
   familyName:
     cn: 剑崎
@@ -261,9 +222,6 @@
   type: Striker
   armorType: HeavyArmor
   weapon: SG
-  availability:
-    momotalk: false
-    story: false
 - id: 13000
   familyName:
     cn: 室笠
@@ -280,9 +238,6 @@
   type: Striker
   armorType: LightArmor
   weapon: HG
-  availability:
-    momotalk: false
-    story: false
 - id: 13001
   familyName:
     cn: 和乐
@@ -299,9 +254,6 @@
   type: Striker
   armorType: HeavyArmor
   weapon: GL
-  availability:
-    momotalk: false
-    story: false
 - id: 13002
   familyName:
     cn: 鳄渊
@@ -318,9 +270,6 @@
   type: Striker
   armorType: HeavyArmor
   weapon: AR
-  availability:
-    momotalk: false
-    story: false
 - id: 13003
   familyName:
     cn: 羽川
@@ -337,9 +286,6 @@
   type: Striker
   armorType: HeavyArmor
   weapon: SR
-  availability:
-    momotalk: false
-    story: false
 - id: 13004
   familyName:
     cn: 十六夜
@@ -356,9 +302,6 @@
   type: Striker
   armorType: LightArmor
   weapon: MG
-  availability:
-    momotalk: false
-    story: false
 - id: 13005
   familyName:
     cn: 鬼方
@@ -375,9 +318,6 @@
   type: Striker
   armorType: HeavyArmor
   weapon: HG
-  availability:
-    momotalk: false
-    story: false
 - id: 13006
   familyName:
     cn: 浅黄
@@ -394,9 +334,6 @@
   type: Striker
   armorType: LightArmor
   weapon: MG
-  availability:
-    momotalk: false
-    story: false
 - id: 13007
   familyName:
     cn: 赤司
@@ -413,9 +350,6 @@
   type: Striker
   armorType: LightArmor
   weapon: AR
-  availability:
-    momotalk: false
-    story: false
 - id: 13008
   familyName:
     cn: 黑见
@@ -432,9 +366,6 @@
   type: Striker
   armorType: LightArmor
   weapon: AR
-  availability:
-    momotalk: false
-    story: false
 - id: 13009
   familyName:
     cn: 春日
@@ -451,9 +382,6 @@
   type: Striker
   armorType: Unarmed
   weapon: SMG
-  availability:
-    momotalk: false
-    story: false
 - id: 13010
   familyName:
     cn: 早濑
@@ -470,9 +398,6 @@
   type: Striker
   armorType: HeavyArmor
   weapon: SMG
-  availability:
-    momotalk: false
-    story: false
 - id: 16000
   familyName:
     cn: 伊草
@@ -489,9 +414,6 @@
   type: Striker
   armorType: LightArmor
   weapon: SG
-  availability:
-    momotalk: false
-    story: false
 - id: 16001
   familyName:
     cn: 一之濑
@@ -508,9 +430,6 @@
   type: Striker
   armorType: LightArmor
   weapon: AR
-  availability:
-    momotalk: false
-    story: false
 - id: 16002
   familyName:
     cn: 丰见
@@ -527,9 +446,6 @@
   type: Striker
   armorType: LightArmor
   weapon: MG
-  availability:
-    momotalk: false
-    story: false
 - id: 16003
   familyName:
     cn: 守月
@@ -546,9 +462,6 @@
   type: Striker
   armorType: HeavyArmor
   weapon: AR
-  availability:
-    momotalk: false
-    story: false
 - id: 16004
   familyName:
     cn: 朝比奈
@@ -565,9 +478,6 @@
   type: Striker
   armorType: LightArmor
   weapon: MG
-  availability:
-    momotalk: false
-    story: false
 - id: 20000
   familyName:
     cn: 猫冢
@@ -584,9 +494,6 @@
   type: Special
   armorType: HeavyArmor
   weapon: MT
-  availability:
-    momotalk: false
-    story: false
 - id: 20001
   familyName:
     cn: 角楯
@@ -603,9 +510,6 @@
   type: Special
   armorType: HeavyArmor
   weapon: SR
-  availability:
-    momotalk: false
-    story: false
 - id: 20002
   familyName:
     cn: 叶子
@@ -622,9 +526,6 @@
   type: Special
   armorType: LightArmor
   weapon: HG
-  availability:
-    momotalk: false
-    story: false
 - id: 23000
   familyName:
     cn: 栗村
@@ -641,9 +542,6 @@
   type: Special
   armorType: LightArmor
   weapon: SMG
-  availability:
-    momotalk: false
-    story: false
 - id: 23001
   familyName:
     cn: 爱清
@@ -660,9 +558,6 @@
   type: Special
   armorType: HeavyArmor
   weapon: SMG
-  availability:
-    momotalk: false
-    story: false
 - id: 23002
   familyName:
     cn: 朝颜
@@ -679,9 +574,6 @@
   type: Special
   armorType: HeavyArmor
   weapon: AR
-  availability:
-    momotalk: false
-    story: false
 - id: 23003
   familyName:
     cn: 小钩
@@ -698,9 +590,6 @@
   type: Special
   armorType: LightArmor
   weapon: AR
-  availability:
-    momotalk: false
-    story: false
 - id: 23004
   familyName:
     cn: 白石
@@ -717,9 +606,6 @@
   type: Special
   armorType: HeavyArmor
   weapon: SMG
-  availability:
-    momotalk: false
-    story: false
 - id: 23005
   familyName:
     cn: 奥空
@@ -736,9 +622,6 @@
   type: Special
   armorType: LightArmor
   weapon: HG
-  availability:
-    momotalk: false
-    story: false
 - id: 26000
   familyName:
     cn: 火宫
@@ -755,9 +638,6 @@
   type: Special
   armorType: LightArmor
   weapon: HG
-  availability:
-    momotalk: false
-    story: false
 - id: 26001
   familyName:
     cn: 音濑
@@ -774,9 +654,6 @@
   type: Special
   armorType: LightArmor
   weapon: HG
-  availability:
-    momotalk: false
-    story: false
 - id: 26002
   familyName:
     cn: 牛牧
@@ -793,9 +670,6 @@
   type: Special
   armorType: LightArmor
   weapon: SG
-  availability:
-    momotalk: false
-    story: false
 - id: 26003
   familyName:
     cn: 鹫见
@@ -812,9 +686,6 @@
   type: Special
   armorType: LightArmor
   weapon: AR
-  availability:
-    momotalk: false
-    story: false
 - id: 26004
   familyName:
     cn: 圆堂
@@ -831,9 +702,6 @@
   type: Special
   armorType: LightArmor
   weapon: AR
-  availability:
-    momotalk: false
-    story: false
 - id: 26005
   familyName:
     cn: 伊原木
@@ -850,9 +718,6 @@
   type: Special
   armorType: HeavyArmor
   weapon: AR
-  availability:
-    momotalk: false
-    story: false
 - id: 20003
   familyName:
     cn: 静山
@@ -869,9 +734,6 @@
   type: Special
   armorType: HeavyArmor
   weapon: SR
-  availability:
-    momotalk: false
-    story: false
 - id: 10014
   familyName:
     cn: 久田
@@ -888,9 +750,6 @@
   type: Striker
   armorType: LightArmor
   weapon: SMG
-  availability:
-    momotalk: false
-    story: false
 - id: 23006
   familyName:
     cn: 河和
@@ -907,9 +766,6 @@
   type: Special
   armorType: Unarmed
   weapon: SG
-  availability:
-    momotalk: false
-    story: false
 - id: 10015
   familyName:
     cn: 天童
@@ -926,9 +782,6 @@
   type: Striker
   armorType: Unarmed
   weapon: RG
-  availability:
-    momotalk: false
-    story: false
 - id: 10016
   familyName:
     cn: 才羽
@@ -945,9 +798,6 @@
   type: Striker
   armorType: LightArmor
   weapon: SR
-  availability:
-    momotalk: false
-    story: false
 - id: 13011
   familyName:
     cn: 才羽
@@ -964,9 +814,6 @@
   type: Striker
   armorType: LightArmor
   weapon: AR
-  availability:
-    momotalk: false
-    story: false
 - id: 10017
   familyName:
     cn: 连河
@@ -983,9 +830,6 @@
   type: Striker
   armorType: LightArmor
   weapon: HG
-  availability:
-    momotalk: false
-    story: false
 - id: 26006
   familyName:
     cn: 天见
@@ -1002,9 +846,6 @@
   type: Special
   armorType: HeavyArmor
   weapon: SMG
-  availability:
-    momotalk: false
-    story: false
 - id: 10018
   familyName:
     cn: 花冈
@@ -1021,9 +862,6 @@
   type: Striker
   armorType: Unarmed
   weapon: GL
-  availability:
-    momotalk: false
-    story: false
 - id: 10019
   familyName:
     cn: 白洲
@@ -1040,9 +878,6 @@
   type: Striker
   armorType: HeavyArmor
   weapon: AR
-  availability:
-    momotalk: false
-    story: false
 - id: 23007
   familyName:
     cn: 浦和
@@ -1059,9 +894,6 @@
   type: Special
   armorType: Unarmed
   weapon: AR
-  availability:
-    momotalk: false
-    story: false
 - id: 10020
   familyName:
     cn: 下江
@@ -1078,9 +910,6 @@
   type: Striker
   armorType: HeavyArmor
   weapon: SR
-  availability:
-    momotalk: false
-    story: false
 - id: 10021
   familyName:
     cn: 白洲
@@ -1097,9 +926,6 @@
   type: Striker
   armorType: LightArmor
   weapon: AR
-  availability:
-    momotalk: false
-    story: false
 - id: 20004
   familyName:
     cn: 静山
@@ -1116,9 +942,6 @@
   type: Special
   armorType: LightArmor
   weapon: SR
-  availability:
-    momotalk: false
-    story: false
 - id: 16005
   familyName:
     cn: 剑崎
@@ -1135,9 +958,6 @@
   type: Striker
   armorType: Unarmed
   weapon: SG
-  availability:
-    momotalk: false
-    story: false
 - id: 20005
   familyName:
     cn: 阿慈谷
@@ -1154,9 +974,6 @@
   type: Special
   armorType: HeavyArmor
   weapon: AR
-  availability:
-    momotalk: false
-    story: false
 - id: 10022
   familyName:
     cn: 空崎
@@ -1173,9 +990,6 @@
   type: Striker
   armorType: HeavyArmor
   weapon: MG
-  availability:
-    momotalk: false
-    story: false
 - id: 10023
   familyName:
     cn: 银镜
@@ -1192,9 +1006,6 @@
   type: Striker
   armorType: Unarmed
   weapon: SR
-  availability:
-    momotalk: false
-    story: false
 - id: 16006
   familyName:
     cn: 狮子堂
@@ -1211,9 +1022,6 @@
   type: Striker
   armorType: LightArmor
   weapon: MG
-  availability:
-    momotalk: false
-    story: false
 - id: 10024
   familyName:
     cn: 砂狼
@@ -1230,9 +1038,6 @@
   type: Striker
   armorType: HeavyArmor
   weapon: AR
-  availability:
-    momotalk: false
-    story: false
 - id: 10025
   familyName:
     cn: 春原
@@ -1249,9 +1054,6 @@
   type: Striker
   armorType: LightArmor
   weapon: SR
-  availability:
-    momotalk: false
-    story: false
 - id: 13012
   familyName:
     cn: 中务
@@ -1268,9 +1070,6 @@
   type: Striker
   armorType: Unarmed
   weapon: HG
-  availability:
-    momotalk: false
-    story: false
 - id: 20006
   familyName:
     cn: 叶子
@@ -1287,9 +1086,6 @@
   type: Special
   armorType: Unarmed
   weapon: HG
-  availability:
-    momotalk: false
-    story: false
 - id: 10026
   familyName:
     cn: 美甘
@@ -1306,9 +1102,6 @@
   type: Striker
   armorType: HeavyArmor
   weapon: SMG
-  availability:
-    momotalk: false
-    story: false
 - id: 10027
   familyName:
     cn: 角楯
@@ -1325,9 +1118,6 @@
   type: Striker
   armorType: HeavyArmor
   weapon: SR
-  availability:
-    momotalk: false
-    story: false
 - id: 10028
   familyName:
     cn: 一之濑
@@ -1344,9 +1134,6 @@
   type: Striker
   armorType: LightArmor
   weapon: AR
-  availability:
-    momotalk: false
-    story: false
 - id: 10029
   familyName:
     cn: 柚鸟
@@ -1363,9 +1150,6 @@
   type: Striker
   armorType: HeavyArmor
   weapon: SMG
-  availability:
-    momotalk: false
-    story: false
 - id: 23008
   familyName:
     cn: 伊落
@@ -1382,9 +1166,6 @@
   type: Special
   armorType: Unarmed
   weapon: HG
-  availability:
-    momotalk: false
-    story: false
 - id: 20007
   familyName:
     cn: 初音
@@ -1401,9 +1182,6 @@
   type: Special
   armorType: LightArmor
   weapon: GL
-  availability:
-    momotalk: false
-    story: false
 - id: 20008
   familyName:
     cn: 天雨
@@ -1420,9 +1198,6 @@
   type: Special
   armorType: HeavyArmor
   weapon: HG
-  availability:
-    momotalk: false
-    story: false
 - id: 20009
   familyName:
     cn: 连河
@@ -1439,9 +1214,6 @@
   type: Special
   armorType: HeavyArmor
   weapon: HG
-  availability:
-    momotalk: false
-    story: false
 - id: 10030
   familyName:
     cn: 火宫
@@ -1458,9 +1230,6 @@
   type: Striker
   armorType: LightArmor
   weapon: HG
-  availability:
-    momotalk: false
-    story: false
 - id: 16007
   familyName:
     cn: 佐城
@@ -1477,9 +1246,6 @@
   type: Striker
   armorType: Unarmed
   weapon: SR
-  availability:
-    momotalk: false
-    story: false
 - id: 20010
   familyName:
     cn: 天见
@@ -1496,9 +1262,6 @@
   type: Special
   armorType: Unarmed
   weapon: SMG
-  availability:
-    momotalk: false
-    story: false
 - id: 10031
   familyName:
     cn: 陆八魔
@@ -1515,9 +1278,6 @@
   type: Striker
   armorType: Unarmed
   weapon: SR
-  availability:
-    momotalk: false
-    story: false
 - id: 10032
   familyName:
     cn: 浅黄
@@ -1534,9 +1294,6 @@
   type: Striker
   armorType: HeavyArmor
   weapon: MG
-  availability:
-    momotalk: false
-    story: false
 - id: 20011
   familyName:
     cn: 黑见
@@ -1553,9 +1310,6 @@
   type: Special
   armorType: Unarmed
   weapon: AR
-  availability:
-    momotalk: false
-    story: false
 - id: 10033
   familyName:
     cn: 狐坂
@@ -1572,9 +1326,6 @@
   type: Striker
   armorType: LightArmor
   weapon: SR
-  availability:
-    momotalk: false
-    story: false
 - id: 16008
   familyName:
     cn: 合欢垣
@@ -1591,9 +1342,6 @@
   type: Striker
   armorType: HeavyArmor
   weapon: SR
-  availability:
-    momotalk: false
-    story: false
 - id: 20012
   familyName:
     cn: 冰室
@@ -1610,9 +1358,6 @@
   type: Special
   armorType: LightArmor
   weapon: GL
-  availability:
-    momotalk: false
-    story: false
 - id: 20013
   familyName:
     cn: 各务
@@ -1629,9 +1374,6 @@
   type: Special
   armorType: HeavyArmor
   weapon: AR
-  availability:
-    momotalk: false
-    story: false
 - id: 10034
   familyName:
     cn: 水羽
@@ -1648,9 +1390,6 @@
   type: Striker
   armorType: LightArmor
   weapon: HG
-  availability:
-    momotalk: false
-    story: false
 - id: 10035
   familyName:
     cn: 古关
@@ -1667,9 +1406,6 @@
   type: Striker
   armorType: LightArmor
   weapon: SR
-  availability:
-    momotalk: false
-    story: false
 - id: 10036
   familyName:
     cn: 若叶
@@ -1686,9 +1422,6 @@
   type: Striker
   armorType: HeavyArmor
   weapon: HG
-  availability:
-    momotalk: false
-    story: false
 - id: 10037
   familyName:
     cn: 池仓
@@ -1705,9 +1438,6 @@
   type: Striker
   armorType: LightArmor
   weapon: SMG
-  availability:
-    momotalk: false
-    story: false
 - id: 10038
   familyName:
     cn: 月雪
@@ -1724,9 +1454,6 @@
   type: Striker
   armorType: HeavyArmor
   weapon: SMG
-  availability:
-    momotalk: false
-    story: false
 - id: 20014
   familyName:
     cn: 空井
@@ -1743,9 +1470,6 @@
   type: Special
   armorType: Unarmed
   weapon: MG
-  availability:
-    momotalk: false
-    story: false
 - id: 10039
   familyName:
     cn: 霞泽
@@ -1762,9 +1486,6 @@
   type: Striker
   armorType: LightArmor
   weapon: SR
-  availability:
-    momotalk: false
-    story: false
 - id: 20015
   familyName:
     cn: 勇美
@@ -1781,9 +1502,6 @@
   type: Special
   armorType: Unarmed
   weapon: HG
-  availability:
-    momotalk: false
-    story: false
 - id: 20016
   familyName:
     cn: 枣
@@ -1800,9 +1518,6 @@
   type: Special
   armorType: HeavyArmor
   weapon: HG
-  availability:
-    momotalk: false
-    story: false
 - id: 16009
   familyName:
     cn: 千鸟
@@ -1819,9 +1534,6 @@
   type: Striker
   armorType: LightArmor
   weapon: SG
-  availability:
-    momotalk: false
-    story: false
 - id: 10040
   familyName:
     cn: 大野
@@ -1838,9 +1550,6 @@
   type: Striker
   armorType: LightArmor
   weapon: SMG
-  availability:
-    momotalk: false
-    story: false
 - id: 10041
   familyName:
     cn: 戒野
@@ -1857,9 +1566,6 @@
   type: Striker
   armorType: Unarmed
   weapon: RL
-  availability:
-    momotalk: false
-    story: false
 - id: 20017
   familyName:
     cn: 槌永
@@ -1876,9 +1582,6 @@
   type: Special
   armorType: LightArmor
   weapon: SR
-  availability:
-    momotalk: false
-    story: false
 - id: 10042
   familyName:
     cn: 秤
@@ -1895,9 +1598,6 @@
   type: Striker
   armorType: Unarmed
   weapon: SMG
-  availability:
-    momotalk: false
-    story: false
 - id: 10043
   familyName:
     cn: 狐坂
@@ -1914,9 +1614,6 @@
   type: Striker
   armorType: HeavyArmor
   weapon: SR
-  availability:
-    momotalk: false
-    story: false
 - id: 10044
   familyName:
     cn: 十六夜
@@ -1933,9 +1630,6 @@
   type: Striker
   armorType: Unarmed
   weapon: MG
-  availability:
-    momotalk: false
-    story: false
 - id: 26007
   familyName:
     cn: 奥空
@@ -1952,9 +1646,6 @@
   type: Special
   armorType: LightArmor
   weapon: HG
-  availability:
-    momotalk: false
-    story: false
 - id: 10045
   familyName:
     cn: 小鸟游
@@ -1971,9 +1662,6 @@
   type: Striker
   armorType: Unarmed
   weapon: SG
-  availability:
-    momotalk: false
-    story: false
 - id: 26008
   familyName:
     cn: 河和
@@ -1990,9 +1678,6 @@
   type: Special
   armorType: HeavyArmor
   weapon: SG
-  availability:
-    momotalk: false
-    story: false
 - id: 10046
   familyName:
     cn: 久田
@@ -2009,9 +1694,6 @@
   type: Striker
   armorType: Unarmed
   weapon: SMG
-  availability:
-    momotalk: false
-    story: false
 - id: 10047
   familyName:
     cn: 和乐
@@ -2028,9 +1710,6 @@
   type: Striker
   armorType: LightArmor
   weapon: GL
-  availability:
-    momotalk: false
-    story: false
 - id: 10048
   familyName:
     cn: 锭前
@@ -2047,9 +1726,6 @@
   type: Striker
   armorType: Unarmed
   weapon: AR
-  availability:
-    momotalk: false
-    story: false
 - id: 20018
   familyName:
     cn: 风仓
@@ -2066,9 +1742,6 @@
   type: Special
   armorType: LightArmor
   weapon: HG
-  availability:
-    momotalk: false
-    story: false
 - id: 10049
   familyName:
     cn: 杏山
@@ -2085,9 +1758,6 @@
   type: Striker
   armorType: HeavyArmor
   weapon: MG
-  availability:
-    momotalk: false
-    story: false
 - id: 10050
   familyName:
     cn: 春原
@@ -2104,9 +1774,6 @@
   type: Striker
   armorType: Unarmed
   weapon: AR
-  availability:
-    momotalk: false
-    story: false
 - id: 10051
   familyName:
     cn: 白石
@@ -2123,9 +1790,6 @@
   type: Striker
   armorType: Unarmed
   weapon: SMG
-  availability:
-    momotalk: false
-    story: false
 - id: 10052
   familyName:
     cn: 生盐
@@ -2142,9 +1806,6 @@
   type: Striker
   armorType: Unarmed
   weapon: HG
-  availability:
-    momotalk: false
-    story: false
 - id: 16010
   familyName:
     cn: 猫塚
@@ -2161,9 +1822,6 @@
   type: Striker
   armorType: LightArmor
   weapon: MT
-  availability:
-    momotalk: false
-    story: false
 - id: 20019
   familyName:
     cn: 室笠
@@ -2180,9 +1838,6 @@
   type: Special
   armorType: HeavyArmor
   weapon: HG
-  availability:
-    momotalk: false
-    story: false
 - id: 10053
   familyName:
     cn: 早濑
@@ -2218,9 +1873,6 @@
   type: Special
   armorType: Unarmed
   weapon: HG
-  availability:
-    momotalk: false
-    story: false
 - id: 16011
   familyName:
     cn: 羽川
@@ -2237,6 +1889,3 @@
   type: Striker
   armorType: Unarmed
   weapon: SR
-  availability:
-    momotalk: false
-    story: false

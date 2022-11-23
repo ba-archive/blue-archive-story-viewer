@@ -72,7 +72,7 @@ const getMainPageClass = computed(() =>
   #main-view {
     border-radius: 0;
     -webkit-border-radius: 0;
-    padding: 3rem 1rem 0 1rem;
+    padding: 3.5rem 1rem 0 1rem;
     width: 100vw;
     overflow: auto;
   }

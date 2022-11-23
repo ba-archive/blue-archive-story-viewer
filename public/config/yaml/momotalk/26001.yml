@@ -1,0 +1,671 @@
+CharacterId: 26001
+title:
+  - GroupId: 2600102
+    FavorScheduleId: 260012
+    CharacterId: 26001
+    TextJp: 大人の秘密
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2600103
+    FavorScheduleId: 260013
+    CharacterId: 26001
+    TextJp: メリーさんの電波
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2600105
+    FavorScheduleId: 260015
+    CharacterId: 26001
+    TextJp: 言えないこと
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2600106
+    FavorScheduleId: 260016
+    CharacterId: 26001
+    TextJp: まっしろで透き通るような
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+content:
+  - MessageGroupId: 260010010
+    Id: 1558
+    CharacterId: 26001
+    MessageCondition: FavorRankUp
+    ConditionValue: 2
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260010020
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 선생님.
+    MessageJP: 先生、先生
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010020
+    Id: 1559
+    CharacterId: 26001
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260010030
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님은 특별히 좋아하는 물건이 있으십니까?
+    MessageJP: 先生は、何かいつも大事にしているものはありますか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010030
+    Id: 1560
+    CharacterId: 26001
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260010040
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 갑자기 그렇게 물어봐도 잘 모르겠는데…….
+    MessageJP: パッと思いつくものは無いかな……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010040
+    Id: 1561
+    CharacterId: 26001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260010050
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 특별히 좋아해서 수집하는 물건은 없으신가요?
+    MessageJP: 特別に好きで、集めているものは？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010040
+    Id: 1562
+    CharacterId: 26001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260010050
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 특별히 좋아해서 하루 종일 들고 다니는 물건은 없으신가요?
+    MessageJP: お気に入りで、一日中持ち歩いてるものは？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010040
+    Id: 1563
+    CharacterId: 26001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260010050
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 특별히 좋아해서 몸에서 조금이라도 떨어지면 불안을 느끼는 물건은 없으신가요?
+    MessageJP: 肌身離さず持っていて、少し手放すと不安になるもの、何かありませんか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010050
+    Id: 1564
+    CharacterId: 26001
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260010060
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……그런 특별한 취향은 내게 없어.
+    MessageJP: そこまで執着するようなものは、私にはないかなあ……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010060
+    Id: 1565
+    CharacterId: 26001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260010070
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그런가요……. 조금 어렵게 되었군요.
+    MessageJP: そうですか……難しいですね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010070
+    Id: 1566
+    CharacterId: 26001
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260010080
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 뭐가 어렵다는 말이야?
+    MessageJP: 何が難しいの？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010080
+    Id: 1567
+    CharacterId: 26001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 260012
+    NextGroupId: 260010090
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아무것도 아닙니다.
+    MessageJP: いえ、何でもありません
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010090
+    Id: 1568
+    CharacterId: 26001
+    MessageCondition: FavorRankUp
+    ConditionValue: 3
+    PreConditionGroupId: 260010080
+    PreConditionFavorScheduleId: 260012
+    FavorScheduleId: 0
+    NextGroupId: 260010100
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, <메리 씨의 전화>라는 괴담을 알고 있으신가요?
+    MessageJP: 先生、「メリーさんの電話」という怪談をご存知ですか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010100
+    Id: 1569
+    CharacterId: 26001
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260010110
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 잘 모르겠는데.
+    MessageJP: 聞いたことないかも
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010110
+    Id: 1570
+    CharacterId: 26001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260010120
+    FeedbackTimeMillisec: 2000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: <메리 씨의 전화>는 어느 소녀가 메리라는 이름의 인형을 버리자, 그 인형이 소녀에게 직접 전화를 걸어온다는 내용의 괴담입니다.
+    MessageJP: ある少女の元に、昔捨てたはずのメリーという人形から電話が来るんです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010110
+    Id: 1571
+    CharacterId: 26001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260010120
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: >-
+      이 괴담의 무서운 포인트는 전화를 걸 때마다 메리의 위치가 점점 소녀에게 가까워지다가 마지막에는 등 뒤에서 인형이 나타난다는
+      점이지요.
+    MessageJP: 怖いのは、電話が来るたびにメリーさんが徐々に近づいてくるという……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010120
+    Id: 1572
+    CharacterId: 26001
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260010130
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그런데 갑자기 괴담은 왜?
+    MessageJP: そういう話なんだ……ところで、どうして急にそんな怪談を？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010130
+    Id: 1573
+    CharacterId: 26001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260010140
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그냥, 갑자기 궁금해져서 그렇습니다.
+    MessageJP: 特に意味はありません、何となくです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010140
+    Id: 1574
+    CharacterId: 26001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260010150
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 이 전화를 역추적한다면 메리 씨는 어디서 전화를 걸고 있는 것으로 표시될까요?
+    MessageJP: ……その電話を逆探知したら、メリーさんの居場所が分かりますね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010140
+    Id: 1575
+    CharacterId: 26001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260010150
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 언젠가 메리 씨가 제 핸드폰에도 전화를 걸어왔으면 좋겠습니다.
+    MessageJP: メリーさん、私のスマホに電話をかけてきてくれないでしょうか
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010150
+    Id: 1576
+    CharacterId: 26001
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 260013
+    NextGroupId: 260010160
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 무, 무서워……!
+    MessageJP: 怖いよ……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010160
+    Id: 1577
+    CharacterId: 26001
+    MessageCondition: FavorRankUp
+    ConditionValue: 5
+    PreConditionGroupId: 260010150
+    PreConditionFavorScheduleId: 260013
+    FavorScheduleId: 0
+    NextGroupId: 260010170
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 혹시 최근에 이상한 내용의 전화를 받으신 적은 없으십니까?
+    MessageJP: 先生、もしかして最近、変な電話がかかってきませんでしたか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010170
+    Id: 1578
+    CharacterId: 26001
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260010180
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 뭔가 위험해 보이는 사람이 위험한 말을 한다던가…….
+    MessageJP: 怖い人から通話がかかってきたとか、怪しい内容の電話が来たとか……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010180
+    Id: 1579
+    CharacterId: 26001
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260010190
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 특별히 기억에 남는 전화는 없는데. 왜?
+    MessageJP: 特に無かったと思うけど、どうして？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010190
+    Id: 1580
+    CharacterId: 26001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260010200
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그게 사실은…….
+    MessageJP: 実は……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010200
+    Id: 1581
+    CharacterId: 26001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 260015
+    NextGroupId: 260010210
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아니, 나중에 말씀드리겠습니다.
+    MessageJP: いえ、後ほど直接お話します
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010210
+    Id: 260010010
+    CharacterId: 26001
+    MessageCondition: FavorRankUp
+    ConditionValue: 6
+    PreConditionGroupId: 260010200
+    PreConditionFavorScheduleId: 260015
+    FavorScheduleId: 0
+    NextGroupId: 260010220
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……아.
+    MessageJP: ……あ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010220
+    Id: 260010020
+    CharacterId: 26001
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260010230
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 무슨 일이야?
+    MessageJP: どうしたの？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010230
+    Id: 260010030
+    CharacterId: 26001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260010240
+    FeedbackTimeMillisec: 2500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그게…… 컴퓨터와 연결된 이어폰을 착용하고 있다는 사실을 잊은 채 자리에서 일어나는 바람에 의자 위로 넘어질 뻔 했습니다.
+    MessageJP: パソコンにイヤホンを繋げたまま立ち上がって、危うく転びそうに
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010240
+    Id: 260010040
+    CharacterId: 26001
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260010250
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 음악에 몰두하다보면 흔히 있는 일이지.
+    MessageJP: 夢中になってるとよくあるよね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010250
+    Id: 260010050
+    CharacterId: 26001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260010260
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 네, 의외로 사람의 청각은 반복되는 자극에 쉽게 무디어지는 법이니까요.
+    MessageJP: はい。聴覚というものは、繰り返しの刺激には簡単に慣れてしまうものですから
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010260
+    Id: 260010060
+    CharacterId: 26001
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260010270
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 코타마는 평소에는 주로 어떤 음악을 들어?
+    MessageJP: コタマは普段、どんな音楽を聴くの？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010270
+    Id: 260010070
+    CharacterId: 26001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260010280
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 제가 듣는 음악, 말입니까?
+    MessageJP: 私がよく聞く音楽……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010280
+    Id: 260010080
+    CharacterId: 26001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260010290
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 어, 그게…….
+    MessageJP: えっと、それは……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010280
+    Id: 260010090
+    CharacterId: 26001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260010290
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: …….
+    MessageJP: ……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010290
+    Id: 260010100
+    CharacterId: 26001
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 260010300
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 비밀입니다.
+    MessageJP: 秘密です
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 260010300
+    Id: 260010110
+    CharacterId: 26001
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 260016
+    NextGroupId: 0
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 어째서?!
+    MessageJP: なんで！？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''

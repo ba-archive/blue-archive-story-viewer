@@ -1,0 +1,1101 @@
+CharacterId: 20003
+title:
+  - GroupId: 2000302
+    FavorScheduleId: 200032
+    CharacterId: 20003
+    TextJp: 黒い制服
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2000303
+    FavorScheduleId: 200033
+    CharacterId: 20003
+    TextJp: 正義とは
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2000305
+    FavorScheduleId: 200035
+    CharacterId: 20003
+    TextJp: 狙撃手の試練（１）
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2000306
+    FavorScheduleId: 200036
+    CharacterId: 20003
+    TextJp: 狙撃手の試練（２）
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2000308
+    FavorScheduleId: 200038
+    CharacterId: 20003
+    TextJp: 正義の実現
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2000309
+    FavorScheduleId: 200039
+    CharacterId: 20003
+    TextJp: 煙とバカは高い所が好き
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+content:
+  - MessageGroupId: 200030010
+    Id: 2136
+    CharacterId: 20003
+    MessageCondition: FavorRankUp
+    ConditionValue: 2
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030020
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오늘도 수고 많으셨습니다.
+    MessageJP: 今日もお疲れ様でした
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030020
+    Id: 2137
+    CharacterId: 20003
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030030
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 마시로도 수고 많았어.
+    MessageJP: マシロの方こそ、お疲れ様
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030030
+    Id: 2138
+    CharacterId: 20003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030040
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님의 지휘 덕분에 오늘도 다치지 않고 무사히 악을 섬멸할 수 있었습니다.
+    MessageJP: 先生のおかげで今日も怪我無く、無事に悪を撃退することができました
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030030
+    Id: 2139
+    CharacterId: 20003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030040
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님의 지휘는 완벽했습니다. 오늘도 한 수 배웠습니다.
+    MessageJP: 先生の指揮は今日も素晴らしかったです。色々と学ばせていただきました
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030030
+    Id: 2140
+    CharacterId: 20003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030040
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 다만…….
+    MessageJP: あ、そういえば……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030040
+    Id: 2141
+    CharacterId: 20003
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030050
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 다만……?
+    MessageJP: そういえば？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030040
+    Id: 2142
+    CharacterId: 20003
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030050
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 무슨 문제라도 있어?
+    MessageJP: 何か他に問題でもあった？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030050
+    Id: 2143
+    CharacterId: 20003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030060
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그게 작전 중에 치마의 솔기가 뜯어져서……
+    MessageJP: いえ、その、作戦中にスカートの縫い目がほつれてしまって……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030050
+    Id: 2144
+    CharacterId: 20003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 200032
+    NextGroupId: 200030060
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 여벌 제복이 추가로 필요할지도 모르겠습니다.
+    MessageJP: もし直せなさそうだったら、予備の制服を出さないとかもしれません
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030060
+    Id: 2145
+    CharacterId: 20003
+    MessageCondition: FavorRankUp
+    ConditionValue: 3
+    PreConditionGroupId: 200030050
+    PreConditionFavorScheduleId: 200032
+    FavorScheduleId: 0
+    NextGroupId: 200030070
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 최근에 정의와 관련된 흥미로운 책을 읽었습니다.
+    MessageJP: 最近、正義について興味深い本を読みました
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030070
+    Id: 2146
+    CharacterId: 20003
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030080
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 정의를 추구하는 자가 여러 가지 상황에서 어떻게 행동해야 할지
+    MessageJP: 正義を追求する者が、様々な状況においてどういった行動をとるべきか……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030070
+    Id: 2147
+    CharacterId: 20003
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030080
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 알려주는 책이더군요.
+    MessageJP: そういったことを教えてくれる本でした
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030080
+    Id: 2148
+    CharacterId: 20003
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030090
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 정의의 용사를 위한 매뉴얼 같은 건가?
+    MessageJP: 正義の勇者マニュアル……みたいな？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030080
+    Id: 2149
+    CharacterId: 20003
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030100
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 불의를 추구하는 자를 위한 책도 있어?
+    MessageJP: 悪を追求する者のための本もあったりする？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030090
+    Id: 2150
+    CharacterId: 20003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030110
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 말하자면 그렇습니다. 매우 흥미롭더군요.
+    MessageJP: 確かに、そういったものと近いかもしれません。とても興味深かったです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030100
+    Id: 2151
+    CharacterId: 20003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030110
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그건 잘 모르겠습니다만…….
+    MessageJP: それは、すみません、ちょっと分からないですね……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030110
+    Id: 2152
+    CharacterId: 20003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030120
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그런데 책을 읽다 보니 이해가 가질 않는 부분이 몇 가지 있었습니다.
+    MessageJP: ただ、読んでると理解できない部分もいくつかありまして
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030110
+    Id: 2153
+    CharacterId: 20003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030120
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 분명 정의에 대한 제 이해가 부족해서 그런 것이겠지요.
+    MessageJP: きっと、正義についての私の理解が足りないせいかと思うのですが……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030120
+    Id: 2154
+    CharacterId: 20003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030130
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 괜찮으시다면 선생님께서 제게 정의를 알려주시겠습니까?
+    MessageJP: よろしければ、先生。私に、正義について教えてくれませんか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030130
+    Id: 2155
+    CharacterId: 20003
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 200033
+    NextGroupId: 200030140
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 정의……?
+    MessageJP: 正義について……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030140
+    Id: 2156
+    CharacterId: 20003
+    MessageCondition: FavorRankUp
+    ConditionValue: 5
+    PreConditionGroupId: 200030130
+    PreConditionFavorScheduleId: 200033
+    FavorScheduleId: 0
+    NextGroupId: 200030150
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 금일 샬레의 사격장에서 진행한 훈련을 종료했습니다. 바로 학교로 복귀하겠습니다.
+    MessageJP: シャーレでの本日の訓練を終えました。この後、学園に戻ります
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030150
+    Id: 2157
+    CharacterId: 20003
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030160
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 저격수는 평소에 어떤 훈련을 주로 해?
+    MessageJP: 狙撃手って、普段どんな訓練をするの？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030160
+    Id: 2158
+    CharacterId: 20003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030170
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 저격수의 훈련이 궁금하시다고요?
+    MessageJP: 狙撃手の訓練、気になりますか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030160
+    Id: 2159
+    CharacterId: 20003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030170
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 저격수의 훈련도 다른 병과의 학생들과 크게 다르지는 않습니다.
+    MessageJP: と言っても、基本的に他の方々とそんなに違いは無いのですが
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030160
+    Id: 2160
+    CharacterId: 20003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030170
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 다른 점이라면 역시 은신에 필요한 기술을 익히는 정도일까요.
+    MessageJP: 違う点と言えば、やはり身を潜める技術を学ぶことでしょうか
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030170
+    Id: 2161
+    CharacterId: 20003
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030180
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 나도 견학해볼 수 없을까?
+    MessageJP: 今度、見学してもいい？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030180
+    Id: 2162
+    CharacterId: 20003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 200035
+    NextGroupId: 200030190
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 견학하시는 건 상관없지만…… 그다지 재미는 없을 겁니다.
+    MessageJP: 見学するのは構わないのですが……特に面白いものではないと思いますよ？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030190
+    Id: 2163
+    CharacterId: 20003
+    MessageCondition: FavorRankUp
+    ConditionValue: 6
+    PreConditionGroupId: 200030180
+    PreConditionFavorScheduleId: 200035
+    FavorScheduleId: 0
+    NextGroupId: 200030191
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오늘 훈련으로 인해
+    MessageJP: 以前お伝えしましたがあらためて
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030191
+    Id: 2164
+    CharacterId: 20003
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030200
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 예정된 당번 활동은 연기되었습니다.
+    MessageJP: 本日訓練のため、当初予定していた当番は別日に変更させていただきました
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030191
+    Id: 2165
+    CharacterId: 20003
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030200
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 참고 부탁드립니다.
+    MessageJP: よろしくお願いします
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030200
+    Id: 2166
+    CharacterId: 20003
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030210
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오늘 훈련에도 같이 따라가도 괜찮아?
+    MessageJP: うん、了解。ところで今日の訓練、一緒に行ってもいい？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030210
+    Id: 2167
+    CharacterId: 20003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030220
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오늘도 훈련을 도와주시겠다고요?
+    MessageJP: 訓練を手伝ってくださるんですか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030220
+    Id: 2168
+    CharacterId: 20003
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030230
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 응, 무슨 문제라도 있어?
+    MessageJP: うん、良いかな？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030230
+    Id: 2169
+    CharacterId: 20003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030240
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 참관은 괜찮습니다만…… 오늘 훈련은 조금 고될 테니, 각오하시는 게 좋을 겁니다.
+    MessageJP: 問題は無いのですが……今日のは少々大変なので、覚悟された方が良いかと
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030240
+    Id: 2170
+    CharacterId: 20003
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 200036
+    NextGroupId: 200030250
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ( ºㅁº )
+    MessageJP: ( ºㅁº )
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030250
+    Id: 2171
+    CharacterId: 20003
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 200030240
+    PreConditionFavorScheduleId: 200036
+    FavorScheduleId: 0
+    NextGroupId: 200030260
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 저…… 선생님, 괜찮으신가요?
+    MessageJP: あの、先生……大丈夫でしたか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030250
+    Id: 2172
+    CharacterId: 20003
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030260
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 돌아가는 길에 보니 얼굴에 넋이 나간 것처럼 보여서…….
+    MessageJP: 帰り道、どこか魂が抜けたような表情をされていましたが……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030260
+    Id: 2173
+    CharacterId: 20003
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030270
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ( ºㅁº )
+    MessageJP: ( ºㅁº )
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030270
+    Id: 2174
+    CharacterId: 20003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030280
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 역시 선생님께는 조금 어려운 훈련이었으려나요.......
+    MessageJP: やはり、いきなりあの訓練は少し厳しすぎたでしょうか……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030280
+    Id: 2175
+    CharacterId: 20003
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030290
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ( ºㅁº )
+    MessageJP: ( ºㅁº )
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030290
+    Id: 2176
+    CharacterId: 20003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030300
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……선생님?!
+    MessageJP: 先生！？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030300
+    Id: 2177
+    CharacterId: 20003
+    MessageCondition: FavorRankUp
+    ConditionValue: 8
+    PreConditionGroupId: 200030290
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030310
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 정의를 실현할 때입니다!
+    MessageJP: 今こそ正義を実現する時です！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030310
+    Id: 2178
+    CharacterId: 20003
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030321
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 무슨 일이야?
+    MessageJP: どうしたの？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030310
+    Id: 2179
+    CharacterId: 20003
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030320
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 드디어 내 목숨을 노리러 오는 건가…….
+    MessageJP: ついに私の命が尽きる時が……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030320
+    Id: 2180
+    CharacterId: 20003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030321
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그게 무슨 말씀이신가요? 무언가 정의에 반하는 일이라도 저지르셨나요?
+    MessageJP: えっ、先生は何か正義に反することをしてしまったのですか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030321
+    Id: 2181
+    CharacterId: 20003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030330
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선배들의 첩보에 의하면
+    MessageJP: えっと、先輩たちの情報によりますと、
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030321
+    Id: 2182
+    CharacterId: 20003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030330
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 극악무도한 블랙마켓의 악당이 오늘 정오에
+    MessageJP: 極悪非道なブラックマーケットの悪党が本日の正午、
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030321
+    Id: 2183
+    CharacterId: 20003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030330
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 트리니티 학원 근처를 지나갈 예정이라고 합니다.
+    MessageJP: トリニティ総合学園の近くを通りかかるとのことです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030330
+    Id: 2184
+    CharacterId: 20003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030340
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 근처 건물의 옥상에서 기다렸다가 그 악인을 저격하도록 하죠!
+    MessageJP: 建物の屋上で待ち構えて、その悪党を狙撃しましょう！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030340
+    Id: 2185
+    CharacterId: 20003
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 200038
+    NextGroupId: 200030350
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 저격, 무서워…….
+    MessageJP: 狙撃、怖い……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030350
+    Id: 2186
+    CharacterId: 20003
+    MessageCondition: FavorRankUp
+    ConditionValue: 9
+    PreConditionGroupId: 200030340
+    PreConditionFavorScheduleId: 200038
+    FavorScheduleId: 0
+    NextGroupId: 200030360
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오늘은 예상했던 것보다 훈련이 일찍 끝났네요.
+    MessageJP: 今日は予想以上に早く、訓練が終わりましたね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030360
+    Id: 2187
+    CharacterId: 20003
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030370
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 모처럼 개인 시간을 가질 수 있을 것 같습니다.
+    MessageJP: 頑張った分、プライベートの時間ができそうです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030370
+    Id: 2188
+    CharacterId: 20003
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030380
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 마시로는 개인 시간에 보통 무슨 일을 해?
+    MessageJP: マシロはこういう時、普段何をするの？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030380
+    Id: 2189
+    CharacterId: 20003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030390
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 글쎄요. 독서를 하거나 산책을 주로 하지만……
+    MessageJP: そうですね、読書をしたり散歩をしたりしますが……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030380
+    Id: 2190
+    CharacterId: 20003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030390
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 높은 곳에 올라가는 것도 좋아한답니다.
+    MessageJP: 高いところに登るのも好きです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030390
+    Id: 2191
+    CharacterId: 20003
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 200030400
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 높은 곳에 올라간다고?
+    MessageJP: 高いところ……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030400
+    Id: 2192
+    CharacterId: 20003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 0
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 어라, 선생님께서 그렇게 놀랄 만큼 특이한 취미였나요?
+    MessageJP: その反応……もしかしてこれ、変わった趣味なのでしょうか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 200030400
+    Id: 2193
+    CharacterId: 20003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 200039
+    NextGroupId: 0
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 평범하다고 생각했습니다만…….
+    MessageJP: 普通の趣味だと思っていたのですが……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''

@@ -18,7 +18,8 @@ const routes: Array<RouteRecordRaw> = [
               {
                 path: 'momotalk',
                 name: 'momotalk',
-                component: () => import('../components/MomotalkContainer.vue'),
+                component: () =>
+                  import('../components/momotalk/MomotalkContainer.vue'),
               },
               {
                 path: 'story',

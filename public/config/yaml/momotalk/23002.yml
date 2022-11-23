@@ -1,0 +1,1056 @@
+CharacterId: 23002
+title:
+  - GroupId: 2300202
+    FavorScheduleId: 230022
+    CharacterId: 23002
+    TextJp: 痛くない注射？
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2300203
+    FavorScheduleId: 230023
+    CharacterId: 23002
+    TextJp: 不眠症
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2300205
+    FavorScheduleId: 230025
+    CharacterId: 23002
+    TextJp: ラジオ体操
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2300206
+    FavorScheduleId: 230026
+    CharacterId: 23002
+    TextJp: トリニティ式の外科手術
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 2300208
+    FavorScheduleId: 230028
+    CharacterId: 23002
+    TextJp: アサガオの観察日記
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+content:
+  - MessageGroupId: 230020010
+    Id: 1502
+    CharacterId: 23002
+    MessageCondition: FavorRankUp
+    ConditionValue: 2
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020020
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 혹시 선생님도 주사를 무서워하시나요?
+    MessageJP: 先生は注射、怖いですか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020020
+    Id: 1503
+    CharacterId: 23002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020030
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 주사 정도야 문제없이 맞을 수 있지.
+    MessageJP: 平気だよ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020020
+    Id: 1504
+    CharacterId: 23002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020040
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 주사 무서워! 바늘 무서워!
+    MessageJP: 注射無理！針怖い！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020030
+    Id: 1505
+    CharacterId: 23002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020050
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 와, 역시 어른이시네요!
+    MessageJP: そうなんですね、さすが大人です！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020030
+    Id: 1506
+    CharacterId: 23002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020050
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 하지만 대부분의 학생은 뾰족한 주삿바늘을 무서워하니까요.
+    MessageJP: 生徒はみんな大抵、注射の針を怖がってしまって……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020040
+    Id: 1507
+    CharacterId: 23002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020050
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……역시 어른들도 주사는 무섭나 보네요.
+    MessageJP: やっぱり大人でも注射は怖いんですね……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020040
+    Id: 1508
+    CharacterId: 23002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020050
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 확실히 뾰족한 주삿바늘은 보고만 있어도 섬뜩한 기분이 드니까요.
+    MessageJP: 注射の針を見てゾッとするのは、大人も子供も関係ないのかもしれません
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020050
+    Id: 1509
+    CharacterId: 23002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020060
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그런데 선배들에게 들었는데, 능숙한 간호사들은 주사를 아프지 않게 놓을 수 있대요.
+    MessageJP: でも先輩たち曰く、ベテランの看護師さんの注射は全然痛くないそうです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020050
+    Id: 1510
+    CharacterId: 23002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020060
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 주사가 아프지 않다면 병원에 오는 걸 무서워하는 사람들도 줄어들 텐데…….
+    MessageJP: 注射が痛くなければ、病院を怖がる人も減りそうなのですが……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020060
+    Id: 1511
+    CharacterId: 23002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 230022
+    NextGroupId: 230020070
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 어떻게 하면 주사를 아프지 않게 놓을 수 있을까요?
+    MessageJP: どうすれば、痛くなくなるのでしょうか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020070
+    Id: 1512
+    CharacterId: 23002
+    MessageCondition: FavorRankUp
+    ConditionValue: 3
+    PreConditionGroupId: 230020060
+    PreConditionFavorScheduleId: 230022
+    FavorScheduleId: 0
+    NextGroupId: 230020080
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 요새 잠은 제대로 주무시고 계시는가요?
+    MessageJP: 先生、最近きちんと眠れてますか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020080
+    Id: 1513
+    CharacterId: 23002
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020090
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 눈 밑에 다크서클이 진한 게, 얼굴에 피로가 가득해 보여요…….
+    MessageJP: 目の下のクマもひどかったですし、すごく疲れた顔をしていましたが
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020090
+    Id: 1514
+    CharacterId: 23002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020100
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 요새 불면증이 심해져서…….
+    MessageJP: 最近ちょっと不眠症っぽくてね……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020090
+    Id: 1515
+    CharacterId: 23002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020100
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 어쩐지 밤에 잠이 잘 오질 않아…….
+    MessageJP: なんだか夜眠れなくって……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020100
+    Id: 1516
+    CharacterId: 23002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020110
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 잠은 제때 제대로 주무셔야죠!
+    MessageJP: やっぱり、そうだったんですか
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020100
+    Id: 1517
+    CharacterId: 23002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020110
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 피로는 만병의 원인! 잠을 자꾸 설치면 건강도 나빠지고, 병에 걸릴 수도 있다고요.
+    MessageJP: 疲れは万病のもと！きちんと睡眠をとらないと病気になってしまうかもです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020110
+    Id: 1518
+    CharacterId: 23002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020120
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 안 되겠어요. 선생님께서 잠을 푹 주무실 수 있도록 제가 좋은 방법을 준비해두고 있을 테니,
+    MessageJP: 先生がぐっすり眠れるよう、何か良い方法を探しておきますね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020110
+    Id: 1519
+    CharacterId: 23002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 230023
+    NextGroupId: 230020120
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 내일 점심시간에 양호실을 찾아주세요!
+    MessageJP: 明日のお昼、保健室に来てください！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020120
+    Id: 1520
+    CharacterId: 23002
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 230020110
+    PreConditionFavorScheduleId: 230023
+    FavorScheduleId: 0
+    NextGroupId: 230020130
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 역시 허브차는 잠이 오는 데까지 걸리는 시간이 너무 긴 것 같아요.
+    MessageJP: ハーブティーは良かったのですが眠るまで少し時間がかかってしまいますね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020120
+    Id: 1521
+    CharacterId: 23002
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020130
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그래서 인터넷에서 잠이 더 잘 오는 차를 조사해보았답니다.
+    MessageJP: そこで、ネットでもっと効果のあるものを見つけてきました！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020130
+    Id: 1522
+    CharacterId: 23002
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020140
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 음…… 투구꽃 뿌리로 달인 차는 어떠신가요?
+    MessageJP: トリカブトの根っこ……？というもので淹れたお茶が良さそうです！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020140
+    Id: 1523
+    CharacterId: 23002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020150
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 죽일 셈이냐!
+    MessageJP: 殺す気！？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020150
+    Id: 1524
+    CharacterId: 23002
+    MessageCondition: FavorRankUp
+    ConditionValue: 5
+    PreConditionGroupId: 230020140
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020160
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님은 주로 어디서 라디오 체조를 하시나요?
+    MessageJP: 先生は普段、どこでラジオ体操をしてるんですか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020160
+    Id: 1525
+    CharacterId: 23002
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020170
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 공원? 학교? 아니면 사무실?
+    MessageJP: 公園？学校？それともシャーレで？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020160
+    Id: 1526
+    CharacterId: 23002
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020170
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그러고 보니 선생님이 라디오 체조를 하는 모습은 본 적이 없는 것 같네요.
+    MessageJP: そういえば、先生がラジオ体操をしているところって見たことないですね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020170
+    Id: 1527
+    CharacterId: 23002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020180
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 라디오 체조는 초등학생 이후로 해 본 일이 없는데…….
+    MessageJP: ラジオ体操なんて、小学生以来やってないなあ……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020180
+    Id: 1528
+    CharacterId: 23002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020190
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 네? 라디오 체조를 안 나가신다고요?
+    MessageJP: えっ、ラジオ体操やってないんですか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020180
+    Id: 1529
+    CharacterId: 23002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020190
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그럼 착한 아이 도장도 받을 수 없잖아요!
+    MessageJP: それじゃあ、はなまるスタンプがもらえないじゃないですか！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020190
+    Id: 1530
+    CharacterId: 23002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020200
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님도 제가 나가는 공원에 함께 나오셔서 같이 라디오 체조를 해요!
+    MessageJP: 先生も一緒に、私のいつもの公園に行ってラジオ体操をしましょう！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020200
+    Id: 1531
+    CharacterId: 23002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020210
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 싫어.
+    MessageJP: やだ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020200
+    Id: 1532
+    CharacterId: 23002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020210
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 귀찮아.
+    MessageJP: 朝は眠い
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020210
+    Id: 1533
+    CharacterId: 23002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020220
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 안 돼요. 선생님처럼 책상 앞에 오래 앉아 있는 어른들에게 체조는 중요한 일과라고요!
+    MessageJP: 先生みたいに座りっぱなしの大人こそ、ちゃんと身体を動かさないと！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020210
+    Id: 1534
+    CharacterId: 23002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 230025
+    NextGroupId: 230020220
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님~!
+    MessageJP: さあ、行きましょう！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020220
+    Id: 1535
+    CharacterId: 23002
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 230020210
+    PreConditionFavorScheduleId: 230025
+    FavorScheduleId: 0
+    NextGroupId: 230020230
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오랜만에 라디오 체조를 해 본 소감은 어떠신가요, 선생님?
+    MessageJP: 久しぶりのラジオ体操の感想はいかがですか、先生？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020220
+    Id: 1536
+    CharacterId: 23002
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020230
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 일찍 일어나서 체조를 하니 확실히 기분이 개운해지지 않으셨나요?
+    MessageJP: 朝早く起きて体操をすると、すっきりしませんか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020230
+    Id: 1537
+    CharacterId: 23002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020240
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 확실히 평소보다 개운한 느낌이네.
+    MessageJP: 確かに、いつもより爽やかな気分
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020240
+    Id: 1538
+    CharacterId: 23002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020250
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그렇죠? 라디오 체조는 평소에 안 쓰는 근육을 풀어주기 때문에 건강에도 좋답니다!
+    MessageJP: でしょう？ラジオ体操は普段使わない筋肉もほぐすので健康に良いんです！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020240
+    Id: 1539
+    CharacterId: 23002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020250
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그러니까 앞으로는 선생님도 매일 공원에서 진행하는 아침 라디오 체조에 참여하세요!
+    MessageJP: ですので、これからは先生も毎日、朝のラジオ体操に参加してくださいね！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020250
+    Id: 1540
+    CharacterId: 23002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020260
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……찾아오지 않으시면 제가 샬레 하우스로 직접 찾아갈 거예요!
+    MessageJP: もし来てなかったら、私がシャーレまで迎えに行きますから！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020260
+    Id: 1541
+    CharacterId: 23002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020270
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 휴일은 좀 봐줘…….
+    MessageJP: せめて休日は勘弁して……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020270
+    Id: 1542
+    CharacterId: 23002
+    MessageCondition: FavorRankUp
+    ConditionValue: 6
+    PreConditionGroupId: 230020260
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020280
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 얼마 전에 트리니티 도서관에서 오래된 의학 서적을 발견했는데, 처음 보는 치료법이 잔뜩 적혀 있더라구요.
+    MessageJP: 図書館で古い医学書を見つけたのですが、知らない治療法だらけでした！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020280
+    Id: 1543
+    CharacterId: 23002
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020290
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 혹시 현대에 전승되지 못한 금단의 의술 같은 걸까요?
+    MessageJP: もしかして……現代では秘匿された、禁断の医術なのでしょうか！？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020290
+    Id: 1544
+    CharacterId: 23002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020300
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 민간에서 전해지던 대체요법 같은 게 아닐까?
+    MessageJP: 民間療法みたいなものじゃないかな？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020300
+    Id: 1545
+    CharacterId: 23002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020310
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그런가요…….
+    MessageJP: そういうことでしたか……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020310
+    Id: 1546
+    CharacterId: 23002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020320
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그럼 다음에 선생님이 다치시면 여기 적힌 새로운 치료법으로 치료해 드릴게요.
+    MessageJP: ですが何事も挑戦です。もし先生が今度怪我をされたら試してみましょう！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020310
+    Id: 1547
+    CharacterId: 23002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020320
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 기대하고 계세요!
+    MessageJP: 楽しみにしててくださいね！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020320
+    Id: 1548
+    CharacterId: 23002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 230026
+    NextGroupId: 230020330
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아니, 다치는 걸 기대하고 있어도 곤란한데…….
+    MessageJP: 怪我を楽しみにっていうのはちょっと……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020330
+    Id: 1549
+    CharacterId: 23002
+    MessageCondition: FavorRankUp
+    ConditionValue: 8
+    PreConditionGroupId: 230020320
+    PreConditionFavorScheduleId: 230026
+    FavorScheduleId: 0
+    NextGroupId: 230020340
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 샬레의 집무실은 어쩐지 조금 삭막한 느낌이 들어요.
+    MessageJP: シャーレの執務室はなんだか、少し殺風景な気がします
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020340
+    Id: 1550
+    CharacterId: 23002
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020350
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 꽃병이라도 하나 가져다 놓으면 좋을 텐데…….
+    MessageJP: 花瓶なんか置いてみたら、素敵になるんじゃないでしょうか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020350
+    Id: 1551
+    CharacterId: 23002
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020360
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님은 어떤 꽃을 좋아하시나요?
+    MessageJP: 先生はどんなお花が好きですか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020360
+    Id: 1552
+    CharacterId: 23002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020370
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 꽃이라면 무엇이든 좋아해.
+    MessageJP: お花ならだいたい好きだよ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020360
+    Id: 1553
+    CharacterId: 23002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020370
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 꽃가루가 날리지 않는 종류의 꽃.
+    MessageJP: 害のある花粉が飛ばなければ何でも
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020370
+    Id: 1554
+    CharacterId: 23002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020380
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그럼 제가 좋아하는 꽃 중에서 몇 가지를 찾아볼게요.
+    MessageJP: それでは、私が好きなお花をいくつか見繕ってみますね！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020380
+    Id: 1555
+    CharacterId: 23002
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020390
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 하나에는 무슨 꽃을 제일 좋아해?
+    MessageJP: ハナエは何の花が一番好き？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020390
+    Id: 1556
+    CharacterId: 23002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 230020400
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 음…… 저도 꽃이라면 대부분 괜찮지만, 그중에서도 나팔꽃이 제일 좋아요.
+    MessageJP: うーん……私もお花は何でも好きですが、一番はアサガオですね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 230020390
+    Id: 1557
+    CharacterId: 23002
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 230028
+    NextGroupId: 0
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아침에 활짝 핀 나팔꽃을 보면 아침을 알리기 위해 트럼펫을 부는 작은 천사가 떠오르거든요.
+    MessageJP: 花開いたアサガオは、まるでトランペットで朝を知らせる天使みたいです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''

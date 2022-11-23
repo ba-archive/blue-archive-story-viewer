@@ -1,0 +1,795 @@
+CharacterId: 10016
+title:
+  - GroupId: 1001602
+    FavorScheduleId: 100162
+    CharacterId: 10016
+    TextJp: 締め切りですよ、先生
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1001603
+    FavorScheduleId: 100163
+    CharacterId: 10016
+    TextJp: 展示会ですよ、先生
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1001605
+    FavorScheduleId: 100165
+    CharacterId: 10016
+    TextJp: 初回限定盤ですよ、先生
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+  - GroupId: 1001606
+    FavorScheduleId: 100166
+    CharacterId: 10016
+    TextJp: 大切な思い出です、先生
+    TextCn: ''
+    TextKr: ''
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
+content:
+  - MessageGroupId: 100160010
+    Id: 100160010
+    CharacterId: 10016
+    MessageCondition: FavorRankUp
+    ConditionValue: 2
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100160020
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 혹시 시간 있으신가요?
+    MessageJP: 先生、今日お時間ありますか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160020
+    Id: 100160020
+    CharacterId: 10016
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100160030
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그게 다른 게 아니라.
+    MessageJP: 実はその、
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160020
+    Id: 100160030
+    CharacterId: 10016
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100160030
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 상담하고 싶은 게 있는데요……
+    MessageJP: 相談したいことがありまして……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160030
+    Id: 100160040
+    CharacterId: 10016
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100160040
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 상담?
+    MessageJP: 相談したいこと？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160040
+    Id: 100160050
+    CharacterId: 10016
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100162
+    NextGroupId: 100160050
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 네, 넷! 저희 동아리실에서 기다리고 있을게요!
+    MessageJP: はい。私は今日ずっと部室にいますので、よろしければお願いします！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160050
+    Id: 100160060
+    CharacterId: 10016
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 100160040
+    PreConditionFavorScheduleId: 100162
+    FavorScheduleId: 0
+    NextGroupId: 100160060
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……죄송합니다.
+    MessageJP: ……すみません
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160050
+    Id: 100160070
+    CharacterId: 10016
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100160060
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 괜히 게임으로 열이 오른 탓에 선생님에게 엄청난 민폐를……
+    MessageJP: つい熱くなってしまい、先生にご迷惑を……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160060
+    Id: 100160080
+    CharacterId: 10016
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100160070
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 미도리가 가진 의외의 일면을 발견했어……
+    MessageJP: ミドリの新たな一面が明らかに……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160060
+    Id: 100160090
+    CharacterId: 10016
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100160070
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 괜찮아. 무척 재미있었으니까.
+    MessageJP: 大丈夫、すごく楽しかったよ
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160070
+    Id: 100160100
+    CharacterId: 10016
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100160080
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 으, 으으…… 쥐구멍이 있다면 숨고 싶어요……
+    MessageJP: う、うぅ……穴があったら入りたいです……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160070
+    Id: 100160110
+    CharacterId: 10016
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100160080
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 다음번엔 대전 게임이 아닌 쪽으로…… 부탁드릴게요……
+    MessageJP: 次は対戦型ではないゲームで、お願いします……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160080
+    Id: 100160120
+    CharacterId: 10016
+    MessageCondition: FavorRankUp
+    ConditionValue: 3
+    PreConditionGroupId: 100160070
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100160090
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 이번에 밀레니엄 게임 아트워크 전시회가 열린대요.
+    MessageJP: 先生。今度、ミレニアムでゲームアート展示会が開かれるそうです
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160090
+    Id: 100160130
+    CharacterId: 10016
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100160091
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 이번에 저와 전시회에 단둘이……
+    MessageJP: なのでその、私と二人で
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160090
+    Id: 100160140
+    CharacterId: 10016
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100160091
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 가 아니라!
+    MessageJP: ……じゃなくて！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160091
+    Id: 100160150
+    CharacterId: 10016
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100160100
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 시, 신작 게임을 개발하기 위해선 공부를 게을리하면 안되니까요!
+    MessageJP: 新しいゲームを開発するためには、勉強もしないといけませんから……！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160100
+    Id: 100160160
+    CharacterId: 10016
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100160110
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 암, 공부는 중요하지.
+    MessageJP: 確かに、勉強は大切だね
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160110
+    Id: 100160170
+    CharacterId: 10016
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100160120
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 여, 역시 그렇죠?
+    MessageJP: や、やっぱりそうですよね！？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160120
+    Id: 100160180
+    CharacterId: 10016
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100160130
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그, 그러니까. 그게……
+    MessageJP: え、えっと、ですからその……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160120
+    Id: 100160190
+    CharacterId: 10016
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100163
+    NextGroupId: 100160130
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 같이 가시지 않을래요?
+    MessageJP: ……一緒に、行きませんか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160130
+    Id: 100160200
+    CharacterId: 10016
+    MessageCondition: FavorRankUp
+    ConditionValue: 5
+    PreConditionGroupId: 100160120
+    PreConditionFavorScheduleId: 100163
+    FavorScheduleId: 0
+    NextGroupId: 100160140
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님! 속보예요! 속보! 어마어마한 속보요!
+    MessageJP: 先生、速報です！速報！ものすごいニュースですよ！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160140
+    Id: 100160210
+    CharacterId: 10016
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100160150
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 미도리, 진정해. 컴다운.
+    MessageJP: ミドリ、落ち着いて。一回クールダウン
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160140
+    Id: 100160220
+    CharacterId: 10016
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100160170
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그 정도로 속보야? 어떡하지? 폭죽을 준비할까?!
+    MessageJP: ものすごいニュース？どうしよう、花火とか用意した方が良いかな！？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160150
+    Id: 100160230
+    CharacterId: 10016
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100160160
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 후우후우, 네, 지, 진정했어요!
+    MessageJP: ……はい、深呼吸して落ち着きました！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160160
+    Id: 100160240
+    CharacterId: 10016
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100160180
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그래서, 무슨 일이야?
+    MessageJP: 何があったの？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160170
+    Id: 100160250
+    CharacterId: 10016
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100160180
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그, 그 정도까지 해야 할 일인가 하면, 그, 글쎄요?
+    MessageJP: えっと、流石に花火は要らないかと思いますが……！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160170
+    Id: 100160260
+    CharacterId: 10016
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100160180
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 어, 어쨌거나!
+    MessageJP: と、とにかく！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160180
+    Id: 100160270
+    CharacterId: 10016
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100160190
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 이번에 전설의 명작 고전 게임의 후속작이 나왔대요!
+    MessageJP: 今度、伝説の名作レトロゲームの続編が出るそうです！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160180
+    Id: 100160280
+    CharacterId: 10016
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100160190
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그 게임의 초회한정판을 반드시 입수하고 싶어요.
+    MessageJP: そのゲームの初回限定盤を、絶対に手に入れたくって
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160190
+    Id: 100160290
+    CharacterId: 10016
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100165
+    NextGroupId: 100160200
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생님, 어울려 주실 거죠?
+    MessageJP: 先生、付き合ってくれませんか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160200
+    Id: 100160300
+    CharacterId: 10016
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 100160190
+    PreConditionFavorScheduleId: 100165
+    FavorScheduleId: 0
+    NextGroupId: 100160210
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오늘 고마웠어요.
+    MessageJP: 今日はありがとうございました
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160200
+    Id: 100160310
+    CharacterId: 10016
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100160210
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 다음에 같이 플레이해요. 선생님.
+    MessageJP: 今度、一緒にプレイしましょうね。先生
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160210
+    Id: 100160320
+    CharacterId: 10016
+    MessageCondition: FavorRankUp
+    ConditionValue: 6
+    PreConditionGroupId: 100160200
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100160220
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 저, 오락실이라는 곳에 대해 들었는데요.
+    MessageJP: 私、聞いたことがあります
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160220
+    Id: 100160330
+    CharacterId: 10016
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100160230
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 무서운 사람들이 잔뜩 있는 곳이라고……
+    MessageJP: ゲームセンターは怖い人たちがたくさんいる場所だ、と……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160220
+    Id: 100160340
+    CharacterId: 10016
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100160230
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오락실은 정말 그런 장소인가요?
+    MessageJP: 本当にそうなんでしょうか？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160230
+    Id: 100160350
+    CharacterId: 10016
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100160240
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 남의 말만 듣고 편견을 가지면 안 돼.
+    MessageJP: うーん、場所によるんじゃないかな……？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160240
+    Id: 100160360
+    CharacterId: 10016
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100160250
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그, 그렇죠. 직접 가보기 전부터 편견부터 가지면……
+    MessageJP: そ、そうですよね。私、まだ実際に行ったことが無くて……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160250
+    Id: 100160370
+    CharacterId: 10016
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100160260
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그러니 이번에 같이 가볼래?
+    MessageJP: じゃあ、今度一緒に行ってみる？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160260
+    Id: 100160380
+    CharacterId: 10016
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 100166
+    NextGroupId: 100160270
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오, 오락실을요?!
+    MessageJP: えっ、ゲームセンターにですか！？ぜひ！！
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160270
+    Id: 100160390
+    CharacterId: 10016
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 100160260
+    PreConditionFavorScheduleId: 100166
+    FavorScheduleId: 0
+    NextGroupId: 100160280
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오늘 어울려주셔서 감사했습니다.
+    MessageJP: 今日は付き合っていただいてありがとうございました
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160280
+    Id: 100160400
+    CharacterId: 10016
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100160290
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 다만, 오늘 같이 오락실을 찾았던 건
+    MessageJP: ただ、今日一緒にゲームセンターに行ったことは、
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160290
+    Id: 100160410
+    CharacterId: 10016
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 0
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그게. 저……
+    MessageJP: えっと、その……
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100160290
+    Id: 100160420
+    CharacterId: 10016
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 0
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 모두에겐 비밀이에요?
+    MessageJP: ミンナニハ　ナイショデスヨ？
+    MessageCN: ''
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
