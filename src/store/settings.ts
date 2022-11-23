@@ -6,7 +6,7 @@ export const useSettingsStore = defineStore({
   state: () => {
     return {
       settings: {
-        lang: 'cn',
+        lang: 'zh',
         theme: 'light',
         username: 'Sensei' as string,
       },

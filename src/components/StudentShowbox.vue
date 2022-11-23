@@ -23,10 +23,6 @@ defineProps({
         type: 'Main',
         armorType: 'LightArmor',
         weapon: 'AR',
-        availability: {
-          momotalk: false,
-          story: false,
-        },
       };
     },
   },
