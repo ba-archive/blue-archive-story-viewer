@@ -4,7 +4,7 @@ title:
     FavorScheduleId: 100242
     CharacterId: 10024
     TextJp: キヴォトス・ロングライド
-    TextCn: ''
+    TextCn: 基沃托斯长途骑行
     TextKr: ''
     TextEn: ''
     TextTh: ''
@@ -13,7 +13,7 @@ title:
     FavorScheduleId: 100243
     CharacterId: 10024
     TextJp: 私だけの特別な
-    TextCn: ''
+    TextCn: 仅仅对我特别的
     TextKr: ''
     TextEn: ''
     TextTh: ''
@@ -22,7 +22,7 @@ title:
     FavorScheduleId: 100245
     CharacterId: 10024
     TextJp: いつどこにいても
-    TextCn: ''
+    TextCn: 不论何时何地
     TextKr: ''
     TextEn: ''
     TextTh: ''
@@ -31,7 +31,7 @@ title:
     FavorScheduleId: 100246
     CharacterId: 10024
     TextJp: 帰ってくる場所
-    TextCn: ''
+    TextCn: 归有所依
     TextKr: ''
     TextEn: ''
     TextTh: ''
@@ -51,7 +51,7 @@ content:
     ImagePath: ''
     MessageKR: 한동안은 자리를 비울 예정이야.
     MessageJP: しばらく遠出する予定なの
-    MessageCN: ''
+    MessageCN: 我预计会出远门一段时间
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -69,7 +69,7 @@ content:
     ImagePath: ''
     MessageKR: 모두에게도 메시지는 보내 두었으니까.
     MessageJP: みんなにもメッセージは送っておいたんだけど
-    MessageCN: ''
+    MessageCN: 和大家也已经打过招呼了
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -87,7 +87,7 @@ content:
     ImagePath: ''
     MessageKR: 선생님도 알고 있었으면 해서.
     MessageJP: 先生にも伝えておこうかなって
-    MessageCN: ''
+    MessageCN: 想着也和老师说一声比较好
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -105,7 +105,7 @@ content:
     ImagePath: ''
     MessageKR: ……시로코?
     MessageJP: ……遠出？
-    MessageCN: ''
+    MessageCN: ……出远门？
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -123,7 +123,7 @@ content:
     ImagePath: ''
     MessageKR: 뭐야? 갑자기 무슨 일?
     MessageJP: 急にどうしたの……？
-    MessageCN: ''
+    MessageCN: 这么突然，是发生什么事了吗……？
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -141,7 +141,7 @@ content:
     ImagePath: ''
     MessageKR: 으으응. 아무것도.
     MessageJP: 大丈夫、大したことじゃない
-    MessageCN: ''
+    MessageCN: 没关系，不是什么大事
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -159,7 +159,7 @@ content:
     ImagePath: ''
     MessageKR: 그럼 이만.
     MessageJP: じゃあ、またね。先生
-    MessageCN: ''
+    MessageCN: 那么，再见了。老师
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -177,7 +177,7 @@ content:
     ImagePath: ''
     MessageKR: 선생님.
     MessageJP: 先生
-    MessageCN: ''
+    MessageCN: 老师
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -195,7 +195,7 @@ content:
     ImagePath: ''
     MessageKR: 쉬는 타이밍이라 연락했어.
     MessageJP: ちょうど休むタイミングだったから、連絡してみた
-    MessageCN: ''
+    MessageCN: 刚好在休息，所以就试着联系了
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -213,7 +213,7 @@ content:
     ImagePath: ''
     MessageKR: 이렇게 곧바로?
     MessageJP: まだ数分くらいしか経ってない気が……？
-    MessageCN: ''
+    MessageCN: 感觉好像才过了几分钟……？
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -231,7 +231,7 @@ content:
     ImagePath: ''
     MessageKR: 벌써 멀리 간 거야?
     MessageJP: もしかして、もう結構遠くまで行った感じ……？
-    MessageCN: ''
+    MessageCN: 难道说，已经骑了相当远了吗……？
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -249,7 +249,7 @@ content:
     ImagePath: ''
     MessageKR: 응?
     MessageJP: ん？
-    MessageCN: ''
+    MessageCN: 嗯？
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -267,7 +267,7 @@ content:
     ImagePath: ''
     MessageKR: 아니. 아직 요 앞 신호등.
     MessageJP: ううん、まださっき先生といた場所の近く
-    MessageCN: ''
+    MessageCN: 没有，我还在刚刚和老师在一起的地方附近
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -285,7 +285,7 @@ content:
     ImagePath: ''
     MessageKR: 음
     MessageJP: ちょうど信号で、足を止めたから連絡してみた
-    MessageCN: ''
+    MessageCN: 正好是等红灯的空闲时间，所以就和老师发消息看看了
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -303,7 +303,7 @@ content:
     ImagePath: ''
     MessageKR: 멈출 때마다 연락하라고 해서 한 건데…….
     MessageJP: ……あれ？
-    MessageCN: ''
+    MessageCN: ……诶？
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -321,7 +321,7 @@ content:
     ImagePath: ''
     MessageKR: 아무래도 뜻을 오해했나 봐.
     MessageJP: もしかして止まるたびにって、こういう意味じゃない？
-    MessageCN: ''
+    MessageCN: 难道说所谓的停下来，不是这个时候吗？
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -339,7 +339,7 @@ content:
     ImagePath: ''
     MessageKR: ……
     MessageJP: ……ごめん、勘違いしてた
-    MessageCN: ''
+    MessageCN: 抱歉，是我弄错了
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -357,7 +357,7 @@ content:
     ImagePath: ''
     MessageKR: 그럼 쉴 때 연락할게.
     MessageJP: じゃあ、えっと……休憩とかで自転車を降りたら、その度に連絡するね
-    MessageCN: ''
+    MessageCN: 那，嗯……等我下车休息的时候，再和老师联系吧
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -375,7 +375,7 @@ content:
     ImagePath: ''
     MessageKR: 선생님. 연락이야.
     MessageJP: 先生
-    MessageCN: ''
+    MessageCN: 老师
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -393,7 +393,7 @@ content:
     ImagePath: ''
     MessageKR: 아비도스를 완전히 빠져나왔어. 곧 있으면 해안 도로에 도착할 거야.
     MessageJP: 今アビドスを完全に抜けたところ、もうすぐ海岸道路に着きそう
-    MessageCN: ''
+    MessageCN: 我现在已经穿过了阿拜多斯，马上就会到沿海道路了
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -411,7 +411,7 @@ content:
     ImagePath: ''
     MessageKR: 벌써 거기까지? 대단한걸.
     MessageJP: 速いね……！？
-    MessageCN: ''
+    MessageCN: 好快……？！
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -429,7 +429,7 @@ content:
     ImagePath: ''
     MessageKR: 전문가 같아.
     MessageJP: プロ選手みたいな速度だね……今のところ順調？
-    MessageCN: ''
+    MessageCN: 跟专业运动员一样的速度啊……现在还顺利吗？
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -447,7 +447,7 @@ content:
     ImagePath: ''
     MessageKR: 어……
     MessageJP: ん
-    MessageCN: ''
+    MessageCN: 嗯
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -465,7 +465,7 @@ content:
     ImagePath: ''
     MessageKR: 음……
     MessageJP: あ、そういえば……
-    MessageCN: ''
+    MessageCN: 啊，说起来……
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -483,7 +483,7 @@ content:
     ImagePath: ''
     MessageKR: 시로코?
     MessageJP: どうしたの？
-    MessageCN: ''
+    MessageCN: 怎么了？
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -501,7 +501,7 @@ content:
     ImagePath: ''
     MessageKR: 아니.
     MessageJP: あ、いや
-    MessageCN: ''
+    MessageCN: 啊，没什么
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -519,7 +519,7 @@ content:
     ImagePath: ''
     MessageKR: 응.
     MessageJP: ごめん、やっぱり大丈夫
-    MessageCN: ''
+    MessageCN: 抱歉，没事了
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -537,7 +537,7 @@ content:
     ImagePath: ''
     MessageKR: 고마워.
     MessageJP: ありがとう
-    MessageCN: ''
+    MessageCN: 谢谢
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -555,7 +555,7 @@ content:
     ImagePath: ''
     MessageKR: 다음엔 해안도로 중간까지 쭉 달릴 거야.
     MessageJP: この後は、海岸道路沿いにずっと走るつもり
-    MessageCN: ''
+    MessageCN: 之后我打算沿着沿海公路骑行
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -573,7 +573,7 @@ content:
     ImagePath: ''
     MessageKR: 그럼 그때 다시 연락할게. 선생님.
     MessageJP: じゃあまた連絡するね、先生
-    MessageCN: ''
+    MessageCN: 那就之后再联系啦，老师
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -591,7 +591,7 @@ content:
     ImagePath: ''
     MessageKR: 덕분에 계속해서 달릴 수 있었어.
     MessageJP: ありがとう、先生。色々と助かった
-    MessageCN: ''
+    MessageCN: 老师，谢谢。帮了我很多忙
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -609,7 +609,7 @@ content:
     ImagePath: ''
     MessageKR: 역시 가방 안에 든 것들은 시간이 지나면서 조금씩 식으니까.
     MessageJP: カバンの中に入れてると、どうしても飲み物はぬるくなっちゃうし
-    MessageCN: ''
+    MessageCN: 饮料要是放在包里的话，不管用什么办法，最后都会变成常温的
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -627,7 +627,7 @@ content:
     ImagePath: ''
     MessageKR: 막 챙겨 온 드링크가 훨씬 시원한 것 같아.
     MessageJP: 持ってきてくれたドリンク、すっごく冷たくて嬉しかった
-    MessageCN: ''
+    MessageCN: 老师带过来的饮料很冰爽，我很开心
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -645,7 +645,7 @@ content:
     ImagePath: ''
     MessageKR: 타올도
     MessageJP: タオルも
-    MessageCN: ''
+    MessageCN: 毛巾也是
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -663,7 +663,7 @@ content:
     ImagePath: ''
     MessageKR: ……아.
     MessageJP: あ
-    MessageCN: ''
+    MessageCN: 啊
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -681,7 +681,7 @@ content:
     ImagePath: ''
     MessageKR: 그러고 보니 나에게서 받아 간 타올은 어떻게 됐어?
     MessageJP: そういえばさっき先生に渡したタオル、良ければ……
-    MessageCN: ''
+    MessageCN: 说到这个，刚刚给老师的毛巾，要不还是……
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -699,7 +699,7 @@ content:
     ImagePath: ''
     MessageKR: 세탁해서 잘 보관해뒀어.
     MessageJP: 洗濯してちゃんと保管しておいたよ。今度返すね
-    MessageCN: ''
+    MessageCN: 洗好之后会好好保管的。下次还给你
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -717,7 +717,7 @@ content:
     ImagePath: ''
     MessageKR: ……아,
     MessageJP: えっと
-    MessageCN: ''
+    MessageCN: 那个
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -735,7 +735,7 @@ content:
     ImagePath: ''
     MessageKR: 응…….
     MessageJP: うん、やっぱりそうだよね……
-    MessageCN: ''
+    MessageCN: 嗯，确实是这样来着……
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -753,7 +753,7 @@ content:
     ImagePath: ''
     MessageKR: 역시 그렇겠지. 고마워.
     MessageJP: ううん、ありがとう
-    MessageCN: ''
+    MessageCN: 嗯嗯，谢谢老师了
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -771,7 +771,7 @@ content:
     ImagePath: ''
     MessageKR: 아무튼
     MessageJP: んと
-    MessageCN: ''
+    MessageCN: 嗯
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -789,7 +789,7 @@ content:
     ImagePath: ''
     MessageKR: 다음에 또 연락할게. 선생님.
     MessageJP: じゃあ
-    MessageCN: ''
+    MessageCN: 那
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -807,7 +807,7 @@ content:
     ImagePath: ''
     MessageKR: 그럼.
     MessageJP: また連絡するね、先生
-    MessageCN: ''
+    MessageCN: 就之后再联系啦，老师
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -825,7 +825,7 @@ content:
     ImagePath: ''
     MessageKR: 그러고 보니 선생님.
     MessageJP: そういえば
-    MessageCN: ''
+    MessageCN: 话说起来
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -843,7 +843,7 @@ content:
     ImagePath: ''
     MessageKR: 일전에 한번, 라이딩 일정 지도를 공유해달라고 했었잖아.
     MessageJP: 先生この前、行き先の予定を教えてほしいって言ってたけど
-    MessageCN: ''
+    MessageCN: 之前老师说想让我告诉您我的行程安排
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -861,7 +861,7 @@ content:
     ImagePath: ''
     MessageKR: 무슨 이유로 달라고 한 거야?
     MessageJP: この情報は、何か先生の役に立つの？
-    MessageCN: ''
+    MessageCN: 这个信息对老师有什么用吗？
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -879,7 +879,7 @@ content:
     ImagePath: ''
     MessageKR: 미리 쉬는 위치마다 가서 기다리게.
     MessageJP: また補給品とか持っていこうかなって
-    MessageCN: ''
+    MessageCN: 我想着可以再给你带点补充物品
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -897,7 +897,7 @@ content:
     ImagePath: ''
     MessageKR: 서포터 일을 제대로 하려고.
     MessageJP: サポーターとして色々手伝えるかなと思って
-    MessageCN: ''
+    MessageCN: 作为白子的支援者，这样就应该能在很多地方帮上忙了
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -915,7 +915,7 @@ content:
     ImagePath: ''
     MessageKR: 아
     MessageJP: あ……
-    MessageCN: ''
+    MessageCN: 啊……
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -933,7 +933,7 @@ content:
     ImagePath: ''
     MessageKR: 으음……
     MessageJP: ん、そっか
-    MessageCN: ''
+    MessageCN: 嗯，是这样啊
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -951,7 +951,7 @@ content:
     ImagePath: ''
     MessageKR: 괜찮아? 일도 바쁠 텐데…….
     MessageJP: でも、大丈夫？仕事も忙しいのに……
-    MessageCN: ''
+    MessageCN: 但是，没关系吗？明明老师的工作也很忙……
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -969,7 +969,7 @@ content:
     ImagePath: ''
     MessageKR: 아니
     MessageJP: いや、その
-    MessageCN: ''
+    MessageCN: 不是，就是
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -987,7 +987,7 @@ content:
     ImagePath: ''
     MessageKR: 싫다는 건 아니야. 절대로.
     MessageJP: もちろん、嫌なわけじゃない
-    MessageCN: ''
+    MessageCN: 不是不喜欢的意思
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -1005,7 +1005,7 @@ content:
     ImagePath: ''
     MessageKR: 선생님만 괜찮다면야 나도 좋지만…….
     MessageJP: その、私はすごく嬉しいけど……
-    MessageCN: ''
+    MessageCN: 那个，我是很高兴啦……
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -1023,10 +1023,10 @@ content:
     ImagePath: ''
     MessageKR: 응.
     MessageJP: じゃあ、無理しない程度にお願い
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 那，老师也不要太勉强自己
+    MessageEN: Yes.
+    MessageTH: อื้อ
+    MessageTW: 嗯，
   - MessageGroupId: 100240320
     Id: 100240560
     CharacterId: 10024
@@ -1041,7 +1041,7 @@ content:
     ImagePath: ''
     MessageKR: 그럼 다음 포인트에서도 만나.
     MessageJP: 次のポイントに着くの、楽しみにしてるね
-    MessageCN: ''
+    MessageCN: 我也很期待能到下个地点和老师见面呢
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -1059,7 +1059,7 @@ content:
     ImagePath: ''
     MessageKR: 선생님. 도착했어.
     MessageJP: 先生、そろそろ着きそう
-    MessageCN: ''
+    MessageCN: 老师，我快到了
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -1077,7 +1077,7 @@ content:
     ImagePath: ''
     MessageKR: 이제 나오면 될 것 같아.
     MessageJP: もう出てきても大丈夫
-    MessageCN: ''
+    MessageCN: 老师可以出来了
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -1095,7 +1095,7 @@ content:
     ImagePath: ''
     MessageKR: 나오다니, 어디로?
     MessageJP: 出てきても大丈夫……？
-    MessageCN: ''
+    MessageCN: 可以出去……？
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -1113,7 +1113,7 @@ content:
     ImagePath: ''
     MessageKR: "'도착했다'니?"
     MessageJP: えっと、どこに着いたの？
-    MessageCN: ''
+    MessageCN: 那个，白子现在在哪？
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -1131,7 +1131,7 @@ content:
     ImagePath: ''
     MessageKR: 음…….
     MessageJP: んと……
-    MessageCN: ''
+    MessageCN: 那个……
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -1149,7 +1149,7 @@ content:
     ImagePath: ''
     MessageKR: 일단 나오면 알 수 있을 거야.
     MessageJP: とにかく、出てきたら分かるから
-    MessageCN: ''
+    MessageCN: 总之老师出来就知道了
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -1167,7 +1167,7 @@ content:
     ImagePath: ''
     MessageKR: 그럼 기다리고 있을게.
     MessageJP: 待ってるね
-    MessageCN: ''
+    MessageCN: 我等着老师
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -1185,7 +1185,7 @@ content:
     ImagePath: ''
     MessageKR: 생각해 보니
     MessageJP: そういえば
-    MessageCN: ''
+    MessageCN: 说起来
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -1203,7 +1203,7 @@ content:
     ImagePath: ''
     MessageKR: 이번에 키보토스 종단을 성공적으로 마쳤으니까
     MessageJP: 今回、キヴォトス縦断ができたから
-    MessageCN: ''
+    MessageCN: 因为我这次成功纵贯了基沃托斯
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -1221,7 +1221,7 @@ content:
     ImagePath: ''
     MessageKR: 다음번에는 키보토스 횡단을 해볼까 해.
     MessageJP: 次はキヴォトス横断をしてみようかなって
-    MessageCN: ''
+    MessageCN: 就想着下次不如试试看横穿基沃托斯吧
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -1239,7 +1239,7 @@ content:
     ImagePath: ''
     MessageKR: 응. 진짜 횡단은 아니고 기분만 내는 거지만.
     MessageJP: これも本当の横断じゃなくて、だいたいそんな感じってだけなんだけど
-    MessageCN: ''
+    MessageCN: 当然也不是真正的横穿，只是类似横穿的感觉罢了
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -1257,7 +1257,7 @@ content:
     ImagePath: ''
     MessageKR: 선생님만 괜찮다면, 다음번에는 같이 달릴까 하는데…….
     MessageJP: 先生さえよかったら、その、一緒に走ったり……
-    MessageCN: ''
+    MessageCN: 老师要是没问题的话，那个，下次一起的话……
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -1275,7 +1275,7 @@ content:
     ImagePath: ''
     MessageKR: 직접 참여는 조금…….
     MessageJP: 実際の参加は、ちょっと……応援してるね
-    MessageCN: ''
+    MessageCN: 实际参加的话有点问题……我会为你应援的
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -1293,7 +1293,7 @@ content:
     ImagePath: ''
     MessageKR: 서포터로 충분합니다…….
     MessageJP: サポーターとして、全力で支えさせてもらうね……
-    MessageCN: ''
+    MessageCN: 我会作为支援者全力支持白子的……
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -1311,7 +1311,7 @@ content:
     ImagePath: ''
     MessageKR: 으음……. 역시 그런가.
     MessageJP: うーん……
-    MessageCN: ''
+    MessageCN: 嗯……
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -1329,7 +1329,7 @@ content:
     ImagePath: ''
     MessageKR: 아쉽네.
     MessageJP: そっか、残念
-    MessageCN: ''
+    MessageCN: 是这样吗，真可惜
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -1347,7 +1347,7 @@ content:
     ImagePath: ''
     MessageKR: 그럼 다음번에도 서포터로…….
     MessageJP: じゃあ……これからも、サポーターとして
-    MessageCN: ''
+    MessageCN: 那……从今天起作为我的支援者
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -1365,7 +1365,7 @@ content:
     ImagePath: ''
     MessageKR: 잘 부탁해. 선생님.
     MessageJP: よろしくね、先生
-    MessageCN: ''
+    MessageCN: 就拜托您啦，老师
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
