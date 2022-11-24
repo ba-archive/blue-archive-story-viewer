@@ -43,9 +43,3 @@ export interface SplitMomotalk {
   FavorScheduleId: number;
   splitMomotalkContent: Momotalk[];
 }
-
-export interface MessageList {
-  type: 'text' | 'image';
-  content: string;
-  responseTime: number;
-}

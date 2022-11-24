@@ -1,14 +1,18 @@
 <script setup lang="ts">
-// eslint-disable-next-line no-unused-vars, @typescript-eslint/no-unused-vars
-import { ref } from 'vue';
+import { Ref, ref } from 'vue';
 import { Momotalk } from '../../types/Chats';
+import MomoTalkComponent from './MomoTalkComponent.vue';
 
-defineProps<{
+const props = defineProps<{
   messageGroup: number;
-  content: Momotalk[] | undefined;
+  content: Momotalk[];
 }>();
 
-// const messageList = ref([]);
+const messageList: Ref<Momotalk[]> = ref([]);
+
+for (const message of props.content) {
+  messageList.value.push(message);
+}
 </script>
 
 <template>
@@ -34,18 +38,24 @@ defineProps<{
       <!-- eslint-enable max-len -->
       <span>MomoTalk</span>
     </div>
-    <div>{{ content }}</div>
+    <momo-talk-component
+      v-for="message in messageList"
+      :key="message.Id"
+      :message="message"
+    />
   </div>
 </template>
 
 <style scoped lang="scss">
 .momotalk-main-interface {
+  width: 100%;
 }
 .momotalk-banner {
   background-color: var(--color-momotalk-background);
   padding: 0.5rem;
   width: 100%;
   color: var(--color-momotalk-banner-text);
+  user-select: none;
 
   svg {
     fill: var(--color-momotalk-banner-text);

@@ -19,8 +19,30 @@ const selectedLangTitle = computed(() => {
     return props.title.TextCn || undefined;
   } else if ('jp' === props.language) {
     return props.title.TextJp || undefined;
-  } else {
+  } else if ('en' === props.language) {
     return props.title.TextEn || undefined;
+  } else if ('kr' === props.language) {
+    return props.title.TextKr || undefined;
+  } else if ('th' === props.language) {
+    return props.title.TextTh || undefined;
+  } else if ('tw' === props.language) {
+    return props.title.TextTw || undefined;
+  }
+});
+
+const fallbackTitle = computed(() => {
+  if (props.title.TextCn) {
+    return props.title.TextCn;
+  } else if (props.title.TextJp) {
+    return props.title.TextJp;
+  } else if (props.title.TextEn) {
+    return props.title.TextEn;
+  } else if (props.title.TextKr) {
+    return props.title.TextKr;
+  } else if (props.title.TextTh) {
+    return props.title.TextTh;
+  } else if (props.title.TextTw) {
+    return props.title.TextTw;
   }
 });
 </script>
@@ -37,7 +59,9 @@ const selectedLangTitle = computed(() => {
       <span class="ordered-list">{{
         `${parseInt(index?.toString() || '0') + 1}`.padStart(2, '0')
       }}</span>
-      <span class="title">{{ selectedLangTitle || '!StoryTitleMissing' }}</span>
+      <span class="title">{{
+        selectedLangTitle || `!!FallBack: ${fallbackTitle}`
+      }}</span>
     </p>
     <!-- eslint-disable max-len -->
     <svg
