@@ -2,7 +2,6 @@ import { visualizer } from 'rollup-plugin-visualizer';
 import { defineConfig } from 'vite';
 import viteCompression from 'vite-plugin-compression';
 import { VitePWA } from 'vite-plugin-pwa';
-import VueTypeImports from 'vite-plugin-vue-type-imports';
 import legacy from '@vitejs/plugin-legacy';
 import vue from '@vitejs/plugin-vue';
 
@@ -10,7 +9,6 @@ import vue from '@vitejs/plugin-vue';
 export default defineConfig({
   plugins: [
     vue(),
-    VueTypeImports(),
     legacy({
       targets: [
         'Android >= 39',
