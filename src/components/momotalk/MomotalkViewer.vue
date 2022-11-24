@@ -1,15 +1,63 @@
 <script setup lang="ts">
+// eslint-disable-next-line no-unused-vars, @typescript-eslint/no-unused-vars
+import { ref } from 'vue';
 import { Momotalk } from '../../types/Chats';
 
 defineProps<{
   messageGroup: number;
   content: Momotalk[] | undefined;
 }>();
+
+// const messageList = ref([]);
 </script>
 
 <template>
   <div>{{ messageGroup }}</div>
-  <div>{{ content }}</div>
+  <div class="momotalk-main-interface flex-vertical">
+    <div class="momotalk-banner flex-horizontal center">
+      <!-- eslint-disable max-len -->
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        xml:space="preserve"
+        id="Layer_2_00000033347787382183846980000016369978894466167968_"
+        x="0"
+        y="0"
+        viewBox="0 0 512 477.9"
+      >
+        <path
+          d="M101.8 396.4c-53.3 0-98.4 53.8-101.8 79.5 81.4 7.9 196.1-6.8 252.1-65-74.7 13.5-135.9-5.2-150.3-14.5zM281.4 412.5c55.1 73.3 137.7 58.5 230.5 63.3 3.5-42.1-73.2-80.9-103.9-82.2-39.9 28.5-123.3 19.5-126.6 18.9z"
+        />
+        <path
+          d="M256.4 0C136.8 45 31.5 151.4 31.5 259.4c0 85 68.4 153.9 195.3 137.3 3.9-.5 7.6-1.1 11.2-1.7-1.1-.4-2.1-.9-2.9-1.3-19.4-9.8-53.4-56.7-39-112.6 1.4 59.3 39.7 102.6 57.1 111 2.7 1.3 11.9 4.6 25.5 6.7 51.9 8 164.9 4.7 187.9-116.7C498.9 111.4 256.4 0 256.4 0z"
+        />
+      </svg>
+      <!-- eslint-enable max-len -->
+      <span>MomoTalk</span>
+    </div>
+    <div>{{ content }}</div>
+  </div>
 </template>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.momotalk-main-interface {
+}
+.momotalk-banner {
+  background-color: var(--color-momotalk-background);
+  padding: 0.5rem;
+  width: 100%;
+  color: var(--color-momotalk-banner-text);
+
+  svg {
+    fill: var(--color-momotalk-banner-text);
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  span {
+    margin-left: 1rem;
+    font-size: 1.25rem;
+    font-family: 'Asap Condensed', sans-serif;
+    letter-spacing: 0.05rem;
+  }
+}
+</style>

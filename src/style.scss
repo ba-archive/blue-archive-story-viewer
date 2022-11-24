@@ -7,6 +7,14 @@
 }
 
 //noinspection CssUnknownTarget
+@font-face {
+  src: url('/font/AsapCondensed-BoldItalic.woff2') format('woff2'),
+    url('/font/AsapCondensed-BoldItalic.woff') format('woff');
+  font-family: 'Asap Condensed';
+  font-display: swap;
+}
+
+//noinspection CssUnknownTarget
 html {
   --color-main-background: #edf4fb;
   --color-text-main: #2f2f2f;
@@ -30,6 +38,9 @@ html {
   --color-switch-track: #fff;
   --color-mobile-nav-background: #ffffffd8;
   --color-mobile-subnav-background: #ffffffb3;
+  --color-momotalk-banner-text: #fff;
+  --color-momotalk-background: #f19eaa;
+
   --style-switch-track-shadow: inset 0.2rem 0.2rem 0.35rem #d9d9d9,
     inset -0.15rem -0.15rem 0.3rem #fff;
   --style-switch-texture: linear-gradient(145deg, #c3f0ff, #a4cade);
@@ -46,6 +57,7 @@ html {
   color: var(--color-text-main);
 }
 
+//noinspection CssUnknownTarget
 html[data-theme='dark'] {
   --color-main-background: #343e50;
   --color-text-main: #eee;
@@ -63,6 +75,9 @@ html[data-theme='dark'] {
   --color-switch-track: #333;
   --color-mobile-nav-background: #343e50d8;
   --color-mobile-subnav-background: #343e50b3;
+  --color-momotalk-banner-text: #333;
+  --color-momotalk-background: #b77b84;
+
   --style-switch-track-shadow: inset 0.2rem 0.2rem 0.35rem #262626,
     inset -0.15rem -0.15rem 0.3rem #000;
   --style-switch-texture: linear-gradient(145deg, #b8b8b8, #616161);
@@ -168,6 +183,13 @@ body {
 
 .shadow-farther {
   box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.25);
+}
+
+// 使用幼圆字体，但是幼圆英文丑的一批，需要之后改进
+.youyuan {
+  font-family: 'YouYuan', 'Microsoft YaHei', 'PingFang SC', -apple-system,
+    system-ui, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans',
+    BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans GB', Arial, sans-serif;
 }
 
 .username {
