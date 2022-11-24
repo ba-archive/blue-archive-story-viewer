@@ -15,7 +15,7 @@ function handleClick() {
 }
 
 const selectedLangTitle = computed(() => {
-  if ('zh' === props.language) {
+  if ('zh' === props.language || 'cn' === props.language) {
     return props.title.TextCn || undefined;
   } else if ('jp' === props.language) {
     return props.title.TextJp || undefined;
@@ -28,6 +28,7 @@ const selectedLangTitle = computed(() => {
   } else if ('tw' === props.language) {
     return props.title.TextTw || undefined;
   }
+  return undefined;
 });
 
 const fallbackTitle = computed(() => {
@@ -44,6 +45,7 @@ const fallbackTitle = computed(() => {
   } else if (props.title.TextTw) {
     return props.title.TextTw;
   }
+  return undefined;
 });
 </script>
 

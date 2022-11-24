@@ -1,82 +1,109 @@
 <script setup lang="ts">
 import { Ref, ref } from 'vue';
-import { Momotalk } from '../../types/Chats';
+import {
+  CurrentMessageItem,
+  Momotalk,
+  SelectionOption,
+} from '../../types/Chats';
+import MomoTalkComponent from './MomoTalkComponent.vue';
 
 const props = defineProps<{
   messageGroup: number;
   content: Momotalk[];
 }>();
 
-interface Option {
-  text: string;
-  NextGroupId: number;
-}
-interface CurrentMessageItem {
-  text?: string;
-  options?: {
-    current: number;
-    content: Option[];
-  };
-  left: boolean;
-  right: boolean;
-  avatar: boolean;
-  FavorScheduleId?: number;
-  NextGroupId?: number;
-}
-
 const messageList: Ref<CurrentMessageItem[]> = ref([]);
 
 async function next(NextGroupId: number) {
-  let items = findItemsByGroupId(NextGroupId);
-  let item = items[0];
-  if (!item) {
+  const messageGroupElements = findItemsByGroupId(NextGroupId);
+  const firstMessageGroupElement = messageGroupElements[0];
+  if (!firstMessageGroupElement) {
+    // NextGroupId 没有返回结果，聊天结束
     return;
   }
-  if (item.MessageCondition == 'Answer') {
-    let options: Option[] = [];
-    for (let i of findItemsByGroupId(NextGroupId)) {
-      options.push({ text: i.MessageCN!, NextGroupId: i.NextGroupId });
+  if (firstMessageGroupElement.MessageCondition == 'Answer') {
+    // 遇到玩家选项，需要合并后发送给子组件
+    const options: SelectionOption[] = [];
+    const answerElements = findItemsByGroupId(NextGroupId);
+    const favorScheduleId =
+      answerElements.find(element => element.FavorScheduleId !== 0)
+        ?.FavorScheduleId || 0;
+    for (const answerElement of answerElements) {
+      options.push({
+        MessageCN: answerElement.MessageCN,
+        MessageJP: answerElement.MessageJP,
+        MessageEN: answerElement.MessageEN,
+        MessageKR: answerElement.MessageKR,
+        MessageTH: answerElement.MessageTH,
+        MessageTW: answerElement.MessageTW,
+        NextGroupId: answerElement.NextGroupId,
+      });
     }
     messageList.value.push({
-      left: false,
-      right: true,
       avatar: false,
+      MessageGroupId: firstMessageGroupElement.MessageGroupId,
+      Id: firstMessageGroupElement.Id,
+      CharacterId: firstMessageGroupElement.CharacterId,
+      ConditionValue: 0,
+      PreConditionGroupId: 0,
+      FavorScheduleId: favorScheduleId,
+      NextGroupId: 0,
+      FeedbackTimeMillisec: 0,
+      MessageCondition: 'Answer',
       options: { current: -1, content: options },
+      MessageType: 'Text',
+      ImagePath: '',
     });
     await wait(1000);
     return;
   } else {
+    // 不需要玩家选择（即学生发给玩家的信息）
     messageList.value.push({
-      text: item.MessageCN!,
-      left: true,
-      right: false,
       avatar: true,
+      MessageGroupId: firstMessageGroupElement.MessageGroupId,
+      Id: firstMessageGroupElement.Id,
+      CharacterId: firstMessageGroupElement.CharacterId,
+      ConditionValue: firstMessageGroupElement.ConditionValue,
+      PreConditionGroupId: firstMessageGroupElement.PreConditionGroupId,
+      FavorScheduleId: firstMessageGroupElement.FavorScheduleId,
+      NextGroupId: firstMessageGroupElement.NextGroupId,
+      FeedbackTimeMillisec: firstMessageGroupElement.FeedbackTimeMillisec,
+      MessageCondition: firstMessageGroupElement.MessageCondition,
+      MessageType: firstMessageGroupElement.MessageType,
+      ImagePath: firstMessageGroupElement.ImagePath,
+      MessageJP: firstMessageGroupElement.MessageJP,
+      MessageCN: firstMessageGroupElement.MessageCN,
+      MessageEN: firstMessageGroupElement.MessageEN,
+      MessageKR: firstMessageGroupElement.MessageKR,
+      MessageTH: firstMessageGroupElement.MessageTH,
+      MessageTW: firstMessageGroupElement.MessageTW,
     });
     await wait(1000);
-    for (let i of items.slice(1)) {
+    for (let currentMessageItem of messageGroupElements.slice(1)) {
       messageList.value.push({
-        text: i.MessageCN!,
-        left: true,
-        right: false,
         avatar: false,
+        MessageGroupId: currentMessageItem.MessageGroupId,
+        Id: currentMessageItem.Id,
+        CharacterId: currentMessageItem.CharacterId,
+        ConditionValue: currentMessageItem.ConditionValue,
+        PreConditionGroupId: currentMessageItem.PreConditionGroupId,
+        FavorScheduleId: currentMessageItem.FavorScheduleId,
+        NextGroupId: currentMessageItem.NextGroupId,
+        FeedbackTimeMillisec: currentMessageItem.FeedbackTimeMillisec,
+        MessageCondition: currentMessageItem.MessageCondition,
+        MessageType: currentMessageItem.MessageType,
+        ImagePath: currentMessageItem.ImagePath,
+        MessageJP: currentMessageItem.MessageJP,
+        MessageCN: currentMessageItem.MessageCN,
+        MessageEN: currentMessageItem.MessageEN,
+        MessageKR: currentMessageItem.MessageKR,
+        MessageTH: currentMessageItem.MessageTH,
+        MessageTW: currentMessageItem.MessageTW,
       });
       await wait(1000);
     }
   }
-  let last = items.pop();
-  if (last) {
-    if (last.FavorScheduleId) {
-      messageList.value.push({
-        left: false,
-        right: false,
-        FavorScheduleId: last.FavorScheduleId,
-        avatar: false,
-        NextGroupId: last.NextGroupId,
-      });
-      return;
-    }
-  }
-  next(item.NextGroupId);
+  await next(firstMessageGroupElement.NextGroupId);
 }
 
 function wait(ms: number) {
@@ -87,42 +114,20 @@ function findItemsByGroupId(GroupId: number) {
   return props.content.filter(value => value.MessageGroupId == GroupId);
 }
 
-function handleOption(index: number, select: number) {
-  if (messageList.value[index].options!.current != -1) {
-    return;
-  }
-  messageList.value[index].options!.current = select;
-  next(messageList.value[index].options!.content[select].NextGroupId);
+const showOptionChange = ref(false);
+
+// 处理用户选择和重新选择事件
+function handleUserSelect(Id: number, nextGroupId: number) {
+  const selectionIndex = messageList.value.findIndex(value => value.Id === Id);
+  messageList.value = messageList.value.slice(0, selectionIndex + 1);
+  next(nextGroupId);
 }
 
-let currentChangeOptions = ref<Option[]>([]);
-let currentChangeIndex = ref(0);
-let showOptionChange = ref(false);
-function handleChange(index: number, options: Option[]) {
-  currentChangeIndex.value = index;
-  currentChangeOptions.value = options;
-  showOptionChange.value = true;
-}
-function handleChangeOption(select: number) {
-  messageList.value[currentChangeIndex.value].options!.current = select;
-  messageList.value = messageList.value.slice(0, currentChangeIndex.value + 1);
-  next(
-    messageList.value[currentChangeIndex.value].options!.content[select]
-      .NextGroupId
-  );
-}
 next(props.content[0].MessageGroupId);
 </script>
 
 <template>
-  <div class="optionChange" v-if="showOptionChange">
-    <div
-      v-for="(i, index) in currentChangeOptions"
-      @click="handleChangeOption(index)"
-    >
-      {{ i.text }}
-    </div>
-  </div>
+  <div class="optionChange" v-if="showOptionChange"></div>
   <div>{{ messageGroup }}</div>
   <div class="momotalk-main-interface flex-vertical">
     <div class="momotalk-banner flex-horizontal center">
@@ -146,34 +151,12 @@ next(props.content[0].MessageGroupId);
       <span>MomoTalk</span>
     </div>
     <div class="messages">
-      <div v-for="(i, index) in messageList">
-        <div v-if="i.left" class="messages__left">
-          <span v-if="i.avatar">avatar</span>
-          <div class="messages__left__text">
-            {{ i.text }}
-          </div>
-        </div>
-        <div v-if="i.right" class="messages__right">
-          <div class="messages__right__options">
-            <div v-for="(j, jIndex) in i.options?.content">
-              <div
-                v-if="i.options?.current ==-1 || i.options!.current == jIndex"
-                @click="handleOption(index, jIndex)"
-                @contextmenu.prevent="handleChange(index, i.options!.content)"
-              >
-                {{ j.text }}
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          v-if="i.FavorScheduleId"
-          class="messages__left messages__favor"
-          @click="next(i.NextGroupId!)"
-        >
-          前往XX的羁绊剧情
-        </div>
-      </div>
+      <momo-talk-component
+        v-for="(message, index) in messageList"
+        :key="index"
+        :message="message"
+        @userSelect="handleUserSelect"
+      />
     </div>
   </div>
 </template>

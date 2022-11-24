@@ -10,6 +10,10 @@ function isPossibleName(
   searchString: string,
   studentNamesList: (string | number)[] | undefined
 ): boolean {
+  const filteredNameList = studentNamesList?.filter(res => {
+    return res !== undefined;
+  });
+  console.log(filteredNameList);
   let found = false;
   const specialCharacters = new RegExp(
     /[，。！“”/《》？：；「」{}｜\\"$&+,:;=?@#|'<>.^*()%!\-\s]/g
@@ -17,9 +21,10 @@ function isPossibleName(
   const lowerCaseSearchString = searchString
     .toLowerCase()
     .replaceAll(specialCharacters, '');
-  const lowercaseStudentNamesList = studentNamesList?.map(name =>
-    name.toString().toLowerCase().replaceAll(specialCharacters, '')
-  );
+  const lowercaseStudentNamesList = filteredNameList?.map(name => {
+    console.log(name);
+    return name.toString().toLowerCase().replaceAll(specialCharacters, '');
+  });
   lowercaseStudentNamesList?.forEach(studentName => {
     if (studentName) {
       if (

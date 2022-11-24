@@ -1,31 +1,21 @@
 <script setup lang="ts">
-defineProps({
-  studentInfo: {
-    type: Object,
-    required: true,
-    default: () => {
-      return {
-        id: 0,
-        familyName: {
-          cn: '',
-          jp: '',
-          en: '',
-        },
-        name: {
-          cn: '',
-          jp: '',
-          en: '',
-        },
-        nickname: [],
-        rarity: 1,
-        club: '',
-        affiliation: '',
-        type: 'Main',
-        armorType: 'LightArmor',
-        weapon: 'AR',
-      };
-    },
-  },
+import { PropType, computed } from 'vue';
+import { useSettingsStore } from '../store/settings';
+import { Student } from '../types/Student';
+
+const props = defineProps({
+  studentInfo: Object as PropType<Student>,
+});
+
+const settingsStore = useSettingsStore();
+const selectedLang = computed(() => settingsStore.getLang.replace('cn', 'zh'));
+
+const studentName = computed(() => {
+  return (
+    (props.studentInfo?.name[selectedLang.value as keyof Student['name']] as
+      | string
+      | undefined) || ''
+  );
 });
 
 function getImagePath(id: number) {
@@ -40,7 +30,7 @@ function getImagePath(id: number) {
       :src="getImagePath(studentInfo.id)"
       :alt="studentInfo.name.cn"
     />
-    <div class="name-tag">{{ studentInfo.name.cn }}</div>
+    <div class="name-tag">{{ studentName }}</div>
   </div>
 </template>
 

@@ -1,8 +1,9 @@
 <script setup lang="ts">
 import axios from 'axios';
-import { Ref, computed, onBeforeMount, onUnmounted, ref } from 'vue';
+import { computed, onBeforeMount, onUnmounted, ref } from 'vue';
 import { useRoute } from 'vue-router';
 import { useSettingsStore } from '../store/settings';
+import { useStudentStore } from '../store/students';
 import { AppliedFilter } from '../types/AppliedFilter';
 import {
   Student,
@@ -15,9 +16,9 @@ import StudentShowbox from './StudentShowbox.vue';
 
 const route = useRoute();
 const settingsStore = useSettingsStore();
+const studentStore = useStudentStore();
 
 const ready = ref(false);
-const students: Ref<Student[]> = ref([]);
 const initProgress = ref(0);
 const studentSelected = computed(() => !/\/archive\/?$/.test(route.path));
 
@@ -31,35 +32,23 @@ axios
   })
   .then(response => {
     try {
-      students.value = response.data
-        .sort((a: Student, b: Student) =>
-          a.name.cn.localeCompare(b.name.cn, 'zh-Hans-CN', {
-            sensitivity: 'accent',
-          })
-        )
-        .sort((a: Student, b: Student) => {
-          if (
-            (a.availability.story || a.availability.momotalk) &&
-            (b.availability.story || b.availability.momotalk)
-          ) {
-            return 0;
-          }
-          if (a.availability.story || a.availability.momotalk) {
-            return -1;
-          }
-          if (b.availability.story || b.availability.momotalk) {
-            return 1;
-          }
-          return 0;
-        });
+      const students = response.data.sort((a: Student, b: Student) =>
+        a.name.cn.localeCompare(b.name.cn, 'zh-Hans-CN', {
+          sensitivity: 'accent',
+        })
+      );
+      studentStore.setStudents(students);
     } catch (e) {
-      students.value = response.data;
+      const students = response.data;
+      studentStore.setStudents(students);
     }
     ready.value = true;
   })
   .catch(error => {
     console.log(error);
   });
+
+const students = computed(() => studentStore.getAllStudents);
 
 const studentsNameList = computed<StudentNames[]>(() => {
   return students.value.map(student => {

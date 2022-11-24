@@ -1,15 +1,9 @@
+/* eslint-disable sort-exports/sort-exports */
+
 export interface Student {
   id: number;
-  familyName: {
-    cn: string;
-    jp: string;
-    en: string;
-  };
-  name: {
-    cn: string;
-    jp: string;
-    en: string;
-  };
+  familyName: StudentName;
+  name: StudentName;
   nickname: string[] | number[];
   club: string;
   affiliation: string;
@@ -17,11 +11,12 @@ export interface Student {
   type: string;
   armorType: string;
   weapon: string;
-  availability: {
-    momotalk: boolean;
-    story: boolean;
-    [key: string]: boolean;
-  };
+}
+
+export interface StudentName {
+  cn: string;
+  jp: string;
+  en: string;
 }
 
 export interface StudentAttributeFilters {
