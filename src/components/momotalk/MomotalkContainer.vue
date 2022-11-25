@@ -16,6 +16,7 @@ const language = computed(() => settingsStore.getLang);
 
 const momotalks: Ref<Momotalks> = ref({
   CharacterId: 0,
+  translate: '',
   title: [],
   content: [],
   splitMomotalk: [],
@@ -58,6 +59,7 @@ function getSplitMomotalk(momotalkContent: Momotalk[]): SplitMomotalk[] {
 axios.get(`/config/json/momotalk/${route.params.id}.json`).then(res => {
   const data = res.data as Momotalks;
   momotalks.value.CharacterId = data.CharacterId;
+  momotalks.value.translate = data.translate;
   momotalks.value.title = data.title;
   momotalks.value.content = data.content;
 
@@ -94,6 +96,7 @@ function getRelatedChat(GroupId: number): Momotalk[] | undefined {
       />
       <momotalk-viewer
         :messageGroup="chat.GroupId"
+        :translate="momotalks.translate"
         :content="getRelatedChat(chat.GroupId)"
         v-if="opentalks.includes(index)"
       />

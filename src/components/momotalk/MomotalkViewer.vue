@@ -9,16 +9,13 @@ import MomoTalkComponent from './MomoTalkComponent.vue';
 
 const props = defineProps<{
   messageGroup: number;
+  translate: string | undefined;
   content: Momotalk[] | undefined;
 }>();
 
-let nextId = ref(0);
 const messageList: Ref<CurrentMessageItem[]> = ref([]);
 
-async function next(NextGroupId: number, id: number) {
-  if (nextId.value != id) {
-    return;
-  }
+async function next(NextGroupId: number) {
   const messageGroupElements = findItemsByGroupId(NextGroupId);
   const firstMessageGroupElement = messageGroupElements[0];
   if (!firstMessageGroupElement) {
@@ -43,9 +40,6 @@ async function next(NextGroupId: number, id: number) {
         NextGroupId: answerElement.NextGroupId,
       });
     }
-    if (nextId.value != id) {
-      return;
-    }
     messageList.value.push({
       avatar: false,
       MessageGroupId: firstMessageGroupElement.MessageGroupId,
@@ -64,9 +58,6 @@ async function next(NextGroupId: number, id: number) {
     await wait(1000);
     return;
   } else {
-    if (nextId.value != id) {
-      return;
-    }
     // 不需要玩家选择（即学生发给玩家的信息）
     messageList.value.push({
       avatar: true,
@@ -90,9 +81,6 @@ async function next(NextGroupId: number, id: number) {
     });
     await wait(1000);
     for (let currentMessageItem of messageGroupElements.slice(1)) {
-      if (nextId.value != id) {
-        return;
-      }
       messageList.value.push({
         avatar: false,
         MessageGroupId: currentMessageItem.MessageGroupId,
@@ -116,7 +104,7 @@ async function next(NextGroupId: number, id: number) {
       await wait(1000);
     }
   }
-  await next(firstMessageGroupElement.NextGroupId, id);
+  await next(firstMessageGroupElement.NextGroupId);
 }
 
 function wait(ms: number) {
@@ -135,13 +123,12 @@ const showOptionChange = ref(false);
 function handleUserSelect(Id: number, nextGroupId: number) {
   const selectionIndex = messageList.value.findIndex(value => value.Id === Id);
   messageList.value = messageList.value.slice(0, selectionIndex + 1);
-  nextId.value++;
-  next(nextGroupId, nextId.value);
+  next(nextGroupId);
 }
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
-next(props.content[0].MessageGroupId, 0);
+next(props.content[0].MessageGroupId);
 </script>
 
 <template>
@@ -166,7 +153,16 @@ next(props.content[0].MessageGroupId, 0);
         />
       </svg>
       <!-- eslint-enable max-len -->
-      <span>MomoTalk</span>
+      <div class="momotalk-title-text">
+        <span class="title">MomoTalk</span>
+        <div class="credit">
+          <span>translated by </span>
+          <span v-if="translate">{{ translate }}@</span>
+          <a href="https://space.bilibili.com/37507923" target="_blank">
+            碧蓝档案资讯站
+          </a>
+        </div>
+      </div>
     </div>
     <div class="messages">
       <momo-talk-component
@@ -193,62 +189,34 @@ next(props.content[0].MessageGroupId, 0);
 
   svg {
     fill: var(--color-momotalk-banner-text);
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 2rem;
+    height: 2rem;
   }
 
-  span {
+  .momotalk-title-text {
+    display: flex;
+    position: relative;
+    flex-direction: column;
     margin-left: 1rem;
+    font-style: italic;
     font-size: 1.25rem;
-    font-family: 'Asap Condensed', sans-serif;
-    letter-spacing: 0.05rem;
-  }
-}
+    font-family: 'Asap Condensed', 'Microsoft YaHei', 'PingFang SC',
+      -apple-system, system-ui, 'Segoe UI', Roboto, Ubuntu, Cantarell,
+      'Noto Sans', BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans GB',
+      Arial, sans-serif;
 
-.messages {
-  width: 100%;
-
-  &__left {
-    display: flex;
-    justify-content: left;
-    width: 100%;
-
-    &__text {
-      background-color: aquamarine;
+    .title {
+      letter-spacing: 0.05rem;
     }
-  }
 
-  &__right {
-    display: flex;
-    justify-content: right;
-    width: 100%;
+    .credit {
+      font-size: 0.5rem;
 
-    &__options {
-      background-color: antiquewhite;
-
-      & div {
-        div {
-          cursor: pointer;
-          border: 1px solid black;
-        }
+      a {
+        display: inline-flex;
+        color: var(--color-momotalk-banner-text);
       }
     }
-  }
-
-  &__favor {
-    cursor: pointer;
-    background-color: beige;
-  }
-}
-
-.optionChange {
-  position: absolute;
-  top: 3vh;
-  right: 0;
-  background-color: antiquewhite;
-  & div {
-    cursor: pointer;
-    border: 1px solid black;
   }
 }
 </style>
