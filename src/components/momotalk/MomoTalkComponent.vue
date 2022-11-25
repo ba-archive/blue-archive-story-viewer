@@ -210,15 +210,15 @@ function getMessageText(
   justify-content: flex-start;
   align-items: center;
   margin-left: auto;
-  border: 1px solid lightgray;
-  background-color: #e5ebf1;
+  border: 1px solid var(--color-momotalk-user-action-border);
+  background-color: var(--color-momotalk-user-reply-background);
   padding: 0.5rem;
 
   .user-reply-banner {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid var(--color-momotalk-user-action-border);
     width: 100%;
     color: var(--color-text-ingame);
     user-select: none;
@@ -268,15 +268,16 @@ function getMessageText(
   justify-content: flex-start;
   align-items: center;
   margin-left: auto;
-  border: 1px solid lightgray;
-  background: #fceef2 url('/src/assets/heart.svg') no-repeat right -25% center;
+  border: 1px solid var(--color-momotalk-user-action-border);
+  background: var(--color-momotalk-favor-schedule-background)
+    url('/src/assets/heart.svg') no-repeat right -25% center;
   padding: 0.5rem;
 
   .favor-schedule-banner {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid var(--color-momotalk-user-action-border);
     width: 100%;
     color: var(--color-text-ingame);
     user-select: none;
