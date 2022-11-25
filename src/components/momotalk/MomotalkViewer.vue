@@ -12,9 +12,13 @@ const props = defineProps<{
   content: Momotalk[] | undefined;
 }>();
 
+let nextId=ref(0)
 const messageList: Ref<CurrentMessageItem[]> = ref([]);
 
-async function next(NextGroupId: number) {
+async function next(NextGroupId: number,id:number) {
+  if(nextId.value!=id){
+    return
+  }
   const messageGroupElements = findItemsByGroupId(NextGroupId);
   const firstMessageGroupElement = messageGroupElements[0];
   if (!firstMessageGroupElement) {
@@ -39,6 +43,9 @@ async function next(NextGroupId: number) {
         NextGroupId: answerElement.NextGroupId,
       });
     }
+    if(nextId.value!=id){
+      return
+    }
     messageList.value.push({
       avatar: false,
       MessageGroupId: firstMessageGroupElement.MessageGroupId,
@@ -57,6 +64,9 @@ async function next(NextGroupId: number) {
     await wait(1000);
     return;
   } else {
+    if(nextId.value!=id){
+      return
+    }
     // 不需要玩家选择（即学生发给玩家的信息）
     messageList.value.push({
       avatar: true,
@@ -80,6 +90,9 @@ async function next(NextGroupId: number) {
     });
     await wait(1000);
     for (let currentMessageItem of messageGroupElements.slice(1)) {
+      if(nextId.value!=id){
+        return
+      }
       messageList.value.push({
         avatar: false,
         MessageGroupId: currentMessageItem.MessageGroupId,
@@ -103,7 +116,7 @@ async function next(NextGroupId: number) {
       await wait(1000);
     }
   }
-  await next(firstMessageGroupElement.NextGroupId);
+  await next(firstMessageGroupElement.NextGroupId,id);
 }
 
 function wait(ms: number) {
@@ -122,12 +135,13 @@ const showOptionChange = ref(false);
 function handleUserSelect(Id: number, nextGroupId: number) {
   const selectionIndex = messageList.value.findIndex(value => value.Id === Id);
   messageList.value = messageList.value.slice(0, selectionIndex + 1);
-  next(nextGroupId);
+  nextId.value++
+  next(nextGroupId,nextId.value);
 }
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
-next(props.content[0].MessageGroupId);
+next(props.content[0].MessageGroupId,0);
 </script>
 
 <template>
