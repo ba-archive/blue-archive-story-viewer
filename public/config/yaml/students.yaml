@@ -8,7 +8,7 @@
     jp: アル
     en: Aru
   nickname: [社长, 愉悦姐, 亚瑠, 阿鲁]
-  club: 征信社68
+  club: 便利屋68
   affiliation: 格赫那
   rarity: 3
   type: Striker
@@ -40,7 +40,7 @@
     jp: ハルナ
     en: Haruna
   nickname: [神秘狙, 羽留奈, 美食狙]
-  club: 美食俱乐部
+  club: 美食研究会
   affiliation: 格赫那
   rarity: 3
   type: Striker
@@ -88,7 +88,7 @@
     jp: ホシノ
     en: Hoshino
   nickname: [大叔]
-  club: 废校对策委员会
+  club: 对策委员会
   affiliation: 阿拜多斯
   rarity: 3
   type: Striker
@@ -152,7 +152,7 @@
     jp: イズミ
     en: Izumi
   nickname: [汉堡妹, 老八]
-  club: 美食俱乐部
+  club: 美食研究会
   affiliation: 格赫那
   rarity: 3
   type: Striker
@@ -168,7 +168,7 @@
     jp: シロコ
     en: Shiroko
   nickname: [xcw, 小仓唯]
-  club: 废校对策委员会
+  club: 对策委员会
   affiliation: 阿拜多斯
   rarity: 3
   type: Striker
@@ -208,7 +208,7 @@
   weapon: SG
 - id: 10013
   familyName:
-    zh: 剑崎
+    zh: 剑先
     jp: 剣先
     en: Kenzaki
   name:
@@ -216,7 +216,7 @@
     jp: ツルギ
     en: Tsurugi
   nickname: [颜艺姐, 弦生]
-  club: 正义实现委员会
+  club: 正义实现部
   affiliation: 圣三一
   rarity: 3
   type: Striker
@@ -228,10 +228,10 @@
     jp: 室笠
     en: Murokasa
   name:
-    zh: 茜
+    zh: 朱音
     jp: アカネ
     en: Akane
-  nickname: [破甲女仆, 朱音]
+  nickname: [破甲女仆, 茜]
   club: C&C
   affiliation: 千年
   rarity: 2
@@ -260,11 +260,11 @@
     jp: 鰐渕
     en: Wanibuchi
   name:
-    zh: 亚伽里
+    zh: 明里
     jp: アカリ
     en: Akari
-  nickname: [朱里, 明里]
-  club: 美食俱乐部
+  nickname: [朱里, 亚伽里]
+  club: 美食研究会
   affiliation: 格赫那
   rarity: 2
   type: Striker
@@ -280,7 +280,7 @@
     jp: ハスミ
     en: Hasumi
   nickname: []
-  club: 正义实现委员会
+  club: 正义实现部
   affiliation: 圣三一
   rarity: 2
   type: Striker
@@ -296,7 +296,7 @@
     jp: ノノミ
     en: Nonomi
   nickname: [富婆, nnm]
-  club: 废校对策委员会
+  club: 对策委员会
   affiliation: 阿拜多斯
   rarity: 2
   type: Striker
@@ -312,7 +312,7 @@
     jp: カヨコ
     en: Kayoko
   nickname: [恐惧枪]
-  club: 征信社68
+  club: 便利屋68
   affiliation: 格赫那
   rarity: 2
   type: Striker
@@ -328,7 +328,7 @@
     jp: ムツキ
     en: Mutsuki
   nickname: [无月, 地雷妹]
-  club: 征信社68
+  club: 便利屋68
   affiliation: 格赫那
   rarity: 2
   type: Striker
@@ -340,11 +340,11 @@
     jp: 赤司
     en: Akashi
   name:
-    zh: 淳子
+    zh: 纯子
     jp: ジュンコ
     en: Junko
-  nickname: [牛牛, 纯子, 丸子]
-  club: 美食俱乐部
+  nickname: [牛牛, 淳子, 丸子]
+  club: 美食研究会
   affiliation: 格赫那
   rarity: 2
   type: Striker
@@ -360,7 +360,7 @@
     jp: セリカ
     en: Serika
   nickname: [黑猫, 茜香]
-  club: 废校对策委员会
+  club: 对策委员会
   affiliation: 阿拜多斯
   rarity: 2
   type: Striker
@@ -408,7 +408,7 @@
     jp: ハルカ
     en: Haruka
   nickname: [春香, 德棍]
-  club: 征信社68
+  club: 便利屋68
   affiliation: 格赫那
   rarity: 1
   type: Striker
@@ -436,10 +436,10 @@
     jp: 豊見
     en: Toyomi
   name:
-    zh: 柯托莉
+    zh: 小鸟
     jp: コトリ
     en: Kotori
-  nickname: [护盾妹, 亚都梨]
+  nickname: [护盾妹, 亚都梨, 柯托莉]
   club: 工程部
   affiliation: 千年
   rarity: 1
@@ -456,7 +456,7 @@
     jp: スズミ
     en: Suzumi
   nickname: []
-  club: 圣三一警备部
+  club: 圣三一自卫队
   affiliation: 圣三一
   rarity: 1
   type: Striker
@@ -512,14 +512,14 @@
   weapon: SR
 - id: 20002
   familyName:
-    zh: 叶子
+    zh: 药子
     jp: 薬子
     en: Yakushi
   name:
-    zh: 纱绫
+    zh: 沙耶
     jp: サヤ
     en: Saya
-  nickname: [鼠鼠, 老鼠妹]
+  nickname: [鼠鼠, 老鼠妹, 纱绫]
   club: 炼丹术研究会
   affiliation: 山海经
   rarity: 3
@@ -536,7 +536,7 @@
     jp: アイリ
     en: Airi
   nickname: []
-  club: 放学后甜点部
+  club: 放课后甜点部
   affiliation: 圣三一
   rarity: 2
   type: Special
@@ -552,7 +552,7 @@
     jp: フウカ
     en: Fuuka
   nickname: [煮饭婆]
-  club: 给食部
+  club: 供给部
   affiliation: 格赫那
   rarity: 2
   type: Special
@@ -596,7 +596,7 @@
     jp: 白石
     en: Shiraishi
   name:
-    zh: 歌原
+    zh: 咏叶
     jp: ウタハ
     en: Utaha
   nickname: [炮台]
@@ -616,7 +616,7 @@
     jp: アヤネ
     en: Ayane
   nickname: []
-  club: 废校对策委员会
+  club: 对策委员会
   affiliation: 阿拜多斯
   rarity: 2
   type: Special
@@ -664,7 +664,7 @@
     jp: ジュリ
     en: Juri
   nickname: []
-  club: 给食部
+  club: 供给部
   affiliation: 格赫那
   rarity: 1
   type: Special
@@ -708,11 +708,11 @@
     jp: 伊原木
     en: Ibaragi
   name:
-    zh: 好美
+    zh: 喜美
     jp: ヨシミ
     en: Yoshimi
-  nickname: []
-  club: 放学后甜点部
+  nickname: [好美]
+  club: 放课后甜点部
   affiliation: 圣三一
   rarity: 1
   type: Special
@@ -728,7 +728,7 @@
     jp: マシロ
     en: Mashiro
   nickname: [天台狙]
-  club: 正义实现委员会
+  club: 正义实现部
   affiliation: 圣三一
   rarity: 3
   type: Special
@@ -840,7 +840,7 @@
     jp: ノドカ
     en: Nodoka
   nickname: [望远镜, 偷窥狂]
-  club: 227特别班
+  club: 227号特别班
   affiliation: 红冬
   rarity: 1
   type: Special
@@ -936,7 +936,7 @@
     jp: マシロ（水着）
     en: Mashiro (Swimsuit)
   nickname: [水真白]
-  club: 正义实现委员会
+  club: 正义实现部
   affiliation: 圣三一
   rarity: 3
   type: Special
@@ -944,7 +944,7 @@
   weapon: SR
 - id: 16005
   familyName:
-    zh: 剑崎
+    zh: 剑先
     jp: 剣先
     en: Kenzaki
   name:
@@ -952,7 +952,7 @@
     jp: ツルギ（水着）
     en: Tsurugi (Swimsuit)
   nickname: [水颜艺, 水鹤城]
-  club: 正义实现委员会
+  club: 正义实现部
   affiliation: 圣三一
   rarity: 1
   type: Striker
@@ -1016,7 +1016,7 @@
     jp: イズミ（水着）
     en: Izumi (Swimsuit)
   nickname: [汉堡妹, 老八, 水泉, 水老八, 水汉堡, 西瓜妹]
-  club: 美食俱乐部
+  club: 美食研究会
   affiliation: 格赫那
   rarity: 1
   type: Striker
@@ -1032,7 +1032,7 @@
     jp: シロコ（ライディング）
     en: Shiroko (Cycling)
   nickname: [xcw, 小车唯]
-  club: 废校对策委员会
+  club: 对策委员会
   affiliation: 阿拜多斯
   rarity: 3
   type: Striker
@@ -1064,7 +1064,7 @@
     jp: キリノ
     en: Kirino
   nickname: []
-  club: 瓦尔基里安全局
+  club: 生活安全局
   affiliation: 瓦尔基里
   rarity: 2
   type: Striker
@@ -1072,14 +1072,14 @@
   weapon: HG
 - id: 20006
   familyName:
-    zh: 叶子
+    zh: 药子
     jp: 薬子
     en: Yakushi
   name:
-    zh: 纱绫(私服)
+    zh: 沙耶(私服)
     jp: サヤ（私服）
     en: Saya (Casual)
-  nickname: [私服老鼠]
+  nickname: [私服老鼠, 纱绫]
   club: 炼丹术研究会
   affiliation: 山海经
   rarity: 3
@@ -1144,7 +1144,7 @@
     jp: ナツ
     en: Natsu
   nickname: [康纳, 哲学家]
-  club: 放学后甜点部
+  club: 放课后甜点部
   affiliation: 圣三一
   rarity: 3
   type: Striker
@@ -1236,10 +1236,10 @@
     jp: 佐城
     en: Sashiro
   name:
-    zh: 智惠
+    zh: 巴
     jp: トモエ
     en: Tomoe
-  nickname: []
+  nickname: [智惠]
   club: 红冬事务局
   affiliation: 红冬
   rarity: 1
@@ -1256,7 +1256,7 @@
     jp: ノドカ（温泉）
     en: Nodoka (Hot Spring)
   nickname: [望远镜, 偷窥狂]
-  club: 227特别班
+  club: 227号特别班
   affiliation: 红冬
   rarity: 3
   type: Special
@@ -1272,7 +1272,7 @@
     jp: アル（正月）
     en: Aru (New Year)
   nickname: [春社长]
-  club: 征信社68
+  club: 便利屋68
   affiliation: 格赫那
   rarity: 3
   type: Striker
@@ -1288,7 +1288,7 @@
     jp: ムツキ（正月）
     en: Mutsuki (New Year)
   nickname: [春月, 正月睦月]
-  club: 征信社68
+  club: 便利屋68
   affiliation: 格赫那
   rarity: 3
   type: Striker
@@ -1304,7 +1304,7 @@
     jp: セリカ（正月）
     en: Serika (New Year)
   nickname: [黑猫, 春黑]
-  club: 废校对策委员会
+  club: 对策委员会
   affiliation: 阿拜多斯
   rarity: 3
   type: Special
@@ -1336,7 +1336,7 @@
     jp: フブキ
     en: Fubuki
   nickname: [摆烂人]
-  club: 瓦尔基里安全局
+  club: 生活安全局
   affiliation: 瓦尔基里
   rarity: 1
   type: Striker
@@ -1352,7 +1352,7 @@
     jp: セナ
     en: Sena
   nickname: [救护车]
-  club: 救急医学部
+  club: 急救医学部
   affiliation: 格赫那
   rarity: 3
   type: Special
@@ -1624,7 +1624,7 @@
     jp: ノノミ（水着）
     en: Nonomi (Swimsuit)
   nickname: [水富婆, 水nnm]
-  club: 废校对策委员会
+  club: 对策委员会
   affiliation: 阿拜多斯
   rarity: 3
   type: Striker
@@ -1640,7 +1640,7 @@
     jp: アヤネ（水着）
     en: Ayane (Swimsuit)
   nickname: [水绫音, 直升机]
-  club: 废校对策委员会
+  club: 对策委员会
   affiliation: 阿拜多斯
   rarity: 1
   type: Special
@@ -1656,7 +1656,7 @@
     jp: ホシノ（水着）
     en: Hoshino (Swimsuit)
   nickname: [水大叔]
-  club: 废校对策委员会
+  club: 对策委员会
   affiliation: 阿拜多斯
   rarity: 3
   type: Striker
@@ -1752,7 +1752,7 @@
     jp: カズサ
     en: Kazusa
   nickname: []
-  club: 放学后甜点部
+  club: 放课后甜点部
   affiliation: 圣三一
   rarity: 3
   type: Striker
@@ -1764,10 +1764,10 @@
     jp: 春原
     en: Sunohara
   name:
-    zh: ココナ
+    zh: 心奈
     jp: ココナ
     en: Kokona
-  nickname: [心奈]
+  nickname: []
   club: 梅花园
   affiliation: 山海经
   rarity: 3
@@ -1780,8 +1780,8 @@
     jp: 白石
     en: Shiraishi
   name:
-    zh: 歌原(応援団)
-    jp: ウタハ（応援団）
+    zh: 咏叶(应援团)
+    jp: ウタハ（应援团）
     en: Utaha (Cheerleader)
   nickname: []
   club: 工程部
@@ -1796,7 +1796,7 @@
     jp: 生塩
     en: Ushio
   name:
-    zh: ノア
+    zh: 诺雅
     jp: ノア
     en: Noa
   nickname: [生理盐水, 诺亚]
@@ -1812,8 +1812,8 @@
     jp: 猫塚
     en: Nekozuka
   name:
-    zh: 响（応援団）
-    jp: ヒビキ（応援団）
+    zh: 响（应援团）
+    jp: ヒビキ（应援团）
     en: Hibiki (Cheerleader)
   nickname: [迫击炮, 拉拉响, 啦啦响]
   club: 工程部
@@ -1828,10 +1828,10 @@
     jp: 室笠
     en: Murokasa
   name:
-    zh: 茜(兔女郎)
+    zh: 朱音(兔女郎)
     jp: アカネ（バニーガール）
     en: Akane (Bunny)
-  nickname: [白兔]
+  nickname: [白兔, 茜]
   club: C&C
   affiliation: 千年
   rarity: 3
@@ -1883,9 +1883,25 @@
     jp: ハスミ（体操服）
     en: Hasumi
   nickname: []
-  club: 正义实现委员会
+  club: 正义实现部
   affiliation: 圣三一
   rarity: 1
   type: Striker
   armorType: Unarmed
   weapon: SR
+- id: 20020
+  familyName:
+    zh: 明星
+    jp: 明星
+    en: akeboshi
+  name:
+    zh: 日鞠
+    jp: ヒマリ
+    en: himari
+  nickname: []
+  club: 真理部
+  affiliation: 千年
+  rarity: 3
+  type: Special
+  armorType: LightArmor
+  weapon: HG
