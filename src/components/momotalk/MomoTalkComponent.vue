@@ -221,6 +221,7 @@ function getMessageText(
     border-bottom: 1px solid lightgray;
     width: 100%;
     color: var(--color-text-ingame);
+    user-select: none;
 
     span {
       display: flex;
@@ -251,6 +252,7 @@ function getMessageText(
       cursor: pointer;
       background-color: var(--color-option-button);
       padding: 0.5rem;
+      user-select: none;
 
       &.selected {
         background-color: #5889c4;
@@ -277,6 +279,7 @@ function getMessageText(
     border-bottom: 1px solid lightgray;
     width: 100%;
     color: var(--color-text-ingame);
+    user-select: none;
 
     span {
       display: flex;
@@ -302,6 +305,7 @@ function getMessageText(
     background-color: #ff92a4;
     padding: 0.5rem;
     color: var(--color-text-contrast);
+    user-select: none;
   }
 }
 </style>
