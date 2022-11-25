@@ -9,7 +9,7 @@
     en: Aru
   nickname: [社长, 愉悦姐, 亚瑠, 阿鲁]
   club: 便利屋68
-  affiliation: 格赫那
+  affiliation: 格黑娜
   rarity: 3
   type: Striker
   armorType: LightArmor
@@ -41,7 +41,7 @@
     en: Haruna
   nickname: [神秘狙, 羽留奈, 美食狙]
   club: 美食研究会
-  affiliation: 格赫那
+  affiliation: 格黑娜
   rarity: 3
   type: Striker
   armorType: HeavyArmor
@@ -73,7 +73,7 @@
     en: Hina
   nickname: [委员长, 魔王, 阳奈]
   club: 风纪委员会
-  affiliation: 格赫那
+  affiliation: 格黑娜
   rarity: 3
   type: Striker
   armorType: HeavyArmor
@@ -89,7 +89,7 @@
     en: Hoshino
   nickname: [大叔]
   club: 对策委员会
-  affiliation: 阿拜多斯
+  affiliation: 阿比多斯
   rarity: 3
   type: Striker
   armorType: HeavyArmor
@@ -105,7 +105,7 @@
     en: Iori
   nickname: [佐仓, 佐三枪]
   club: 风纪委员会
-  affiliation: 格赫那
+  affiliation: 格黑娜
   rarity: 3
   type: Striker
   armorType: HeavyArmor
@@ -153,7 +153,7 @@
     en: Izumi
   nickname: [汉堡妹, 老八]
   club: 美食研究会
-  affiliation: 格赫那
+  affiliation: 格黑娜
   rarity: 3
   type: Striker
   armorType: LightArmor
@@ -169,7 +169,7 @@
     en: Shiroko
   nickname: [xcw, 小仓唯]
   club: 对策委员会
-  affiliation: 阿拜多斯
+  affiliation: 阿比多斯
   rarity: 3
   type: Striker
   armorType: LightArmor
@@ -265,7 +265,7 @@
     en: Akari
   nickname: [朱里, 亚伽里]
   club: 美食研究会
-  affiliation: 格赫那
+  affiliation: 格黑娜
   rarity: 2
   type: Striker
   armorType: HeavyArmor
@@ -297,7 +297,7 @@
     en: Nonomi
   nickname: [富婆, nnm]
   club: 对策委员会
-  affiliation: 阿拜多斯
+  affiliation: 阿比多斯
   rarity: 2
   type: Striker
   armorType: LightArmor
@@ -313,7 +313,7 @@
     en: Kayoko
   nickname: [恐惧枪]
   club: 便利屋68
-  affiliation: 格赫那
+  affiliation: 格黑娜
   rarity: 2
   type: Striker
   armorType: HeavyArmor
@@ -329,7 +329,7 @@
     en: Mutsuki
   nickname: [无月, 地雷妹]
   club: 便利屋68
-  affiliation: 格赫那
+  affiliation: 格黑娜
   rarity: 2
   type: Striker
   armorType: LightArmor
@@ -345,7 +345,7 @@
     en: Junko
   nickname: [牛牛, 淳子, 丸子]
   club: 美食研究会
-  affiliation: 格赫那
+  affiliation: 格黑娜
   rarity: 2
   type: Striker
   armorType: LightArmor
@@ -361,7 +361,7 @@
     en: Serika
   nickname: [黑猫, 茜香]
   club: 对策委员会
-  affiliation: 阿拜多斯
+  affiliation: 阿比多斯
   rarity: 2
   type: Striker
   armorType: LightArmor
@@ -409,7 +409,7 @@
     en: Haruka
   nickname: [春香, 德棍]
   club: 便利屋68
-  affiliation: 格赫那
+  affiliation: 格黑娜
   rarity: 1
   type: Striker
   armorType: LightArmor
@@ -553,7 +553,7 @@
     en: Fuuka
   nickname: [煮饭婆]
   club: 供给部
-  affiliation: 格赫那
+  affiliation: 格黑娜
   rarity: 2
   type: Special
   armorType: HeavyArmor
@@ -617,7 +617,7 @@
     en: Ayane
   nickname: []
   club: 对策委员会
-  affiliation: 阿拜多斯
+  affiliation: 阿比多斯
   rarity: 2
   type: Special
   armorType: LightArmor
@@ -633,7 +633,7 @@
     en: Chinatsu
   nickname: [闪避奶]
   club: 风纪委员会
-  affiliation: 格赫那
+  affiliation: 格黑娜
   rarity: 1
   type: Special
   armorType: LightArmor
@@ -665,7 +665,7 @@
     en: Juri
   nickname: []
   club: 供给部
-  affiliation: 格赫那
+  affiliation: 格黑娜
   rarity: 1
   type: Special
   armorType: LightArmor
@@ -985,7 +985,7 @@
     en: Hina (Swimsuit)
   nickname: [水日奈, 水魔王, 水阳奈]
   club: 风纪委员会
-  affiliation: 格赫那
+  affiliation: 格黑娜
   rarity: 3
   type: Striker
   armorType: HeavyArmor
@@ -1001,7 +1001,7 @@
     en: Iori (Swimsuit)
   nickname: [水佐仓]
   club: 风纪委员会
-  affiliation: 格赫那
+  affiliation: 格黑娜
   rarity: 3
   type: Striker
   armorType: Unarmed
@@ -1017,7 +1017,7 @@
     en: Izumi (Swimsuit)
   nickname: [汉堡妹, 老八, 水泉, 水老八, 水汉堡, 西瓜妹]
   club: 美食研究会
-  affiliation: 格赫那
+  affiliation: 格黑娜
   rarity: 1
   type: Striker
   armorType: LightArmor
@@ -1033,7 +1033,7 @@
     en: Shiroko (Cycling)
   nickname: [xcw, 小车唯]
   club: 对策委员会
-  affiliation: 阿拜多斯
+  affiliation: 阿比多斯
   rarity: 3
   type: Striker
   armorType: HeavyArmor
@@ -1193,7 +1193,7 @@
     en: Ako
   nickname: []
   club: 风纪委员会
-  affiliation: 格赫那
+  affiliation: 格黑娜
   rarity: 3
   type: Special
   armorType: HeavyArmor
@@ -1225,7 +1225,7 @@
     en: Chinatsu (Hot Spring)
   nickname: [闪避奶, 温泉千夏]
   club: 风纪委员会
-  affiliation: 格赫那
+  affiliation: 格黑娜
   rarity: 3
   type: Striker
   armorType: LightArmor
@@ -1273,7 +1273,7 @@
     en: Aru (New Year)
   nickname: [春社长]
   club: 便利屋68
-  affiliation: 格赫那
+  affiliation: 格黑娜
   rarity: 3
   type: Striker
   armorType: Unarmed
@@ -1289,7 +1289,7 @@
     en: Mutsuki (New Year)
   nickname: [春月, 正月睦月]
   club: 便利屋68
-  affiliation: 格赫那
+  affiliation: 格黑娜
   rarity: 3
   type: Striker
   armorType: HeavyArmor
@@ -1305,7 +1305,7 @@
     en: Serika (New Year)
   nickname: [黑猫, 春黑]
   club: 对策委员会
-  affiliation: 阿拜多斯
+  affiliation: 阿比多斯
   rarity: 3
   type: Special
   armorType: Unarmed
@@ -1353,7 +1353,7 @@
     en: Sena
   nickname: [救护车]
   club: 急救医学部
-  affiliation: 格赫那
+  affiliation: 格黑娜
   rarity: 3
   type: Special
   armorType: LightArmor
@@ -1513,7 +1513,7 @@
     en: Iroha
   nickname: [168, 彩叶]
   club: 万魔殿
-  affiliation: 格赫那
+  affiliation: 格黑娜
   rarity: 3
   type: Special
   armorType: HeavyArmor
@@ -1625,7 +1625,7 @@
     en: Nonomi (Swimsuit)
   nickname: [水富婆, 水nnm]
   club: 对策委员会
-  affiliation: 阿拜多斯
+  affiliation: 阿比多斯
   rarity: 3
   type: Striker
   armorType: Unarmed
@@ -1641,7 +1641,7 @@
     en: Ayane (Swimsuit)
   nickname: [水绫音, 直升机]
   club: 对策委员会
-  affiliation: 阿拜多斯
+  affiliation: 阿比多斯
   rarity: 1
   type: Special
   armorType: LightArmor
@@ -1657,7 +1657,7 @@
     en: Hoshino (Swimsuit)
   nickname: [水大叔]
   club: 对策委员会
-  affiliation: 阿拜多斯
+  affiliation: 阿比多斯
   rarity: 3
   type: Striker
   armorType: Unarmed
