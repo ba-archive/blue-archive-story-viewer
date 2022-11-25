@@ -220,12 +220,12 @@ next(props.content[0].MessageGroupId, 0);
     flex-direction: column;
     justify-content: flex-start;
     margin-left: 0.5rem;
+    font-style: italic;
     font-size: 1.25rem;
     font-family: 'Asap Condensed', 'Microsoft YaHei', 'PingFang SC',
       -apple-system, system-ui, 'Segoe UI', Roboto, Ubuntu, Cantarell,
       'Noto Sans', BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans GB',
       Arial, sans-serif;
-    font-style: italic;
 
     .title {
       letter-spacing: 0.05rem;
