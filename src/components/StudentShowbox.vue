@@ -18,17 +18,17 @@ const studentName = computed(() => {
   );
 });
 
-function getImagePath(id: number) {
+function getImagePath(id: number | undefined): string {
   return `/image/avatar_students/${id}.webp`;
 }
 </script>
 
 <template>
-  <div class="student-container rounded-small" v-once>
+  <div class="student-container rounded-small">
     <img
       class="student-avatar"
-      :src="getImagePath(studentInfo.id)"
-      :alt="studentInfo.name.cn"
+      :src="getImagePath(studentInfo?.id)"
+      :alt="studentInfo?.name.cn"
     />
     <div class="name-tag">{{ studentName }}</div>
   </div>

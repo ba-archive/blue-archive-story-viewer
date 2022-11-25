@@ -13,7 +13,6 @@ function isPossibleName(
   const filteredNameList = studentNamesList?.filter(res => {
     return res !== undefined;
   });
-  console.log(filteredNameList);
   let found = false;
   const specialCharacters = new RegExp(
     /[，。！“”/《》？：；「」{}｜\\"$&+,:;=?@#|'<>.^*()%!\-\s]/g
