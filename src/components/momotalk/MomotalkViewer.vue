@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Ref, ref } from 'vue';
+import { PropType, Ref, ref } from 'vue';
 import {
   CurrentMessageItem,
   Momotalk,
@@ -7,11 +7,15 @@ import {
 } from '../../types/Chats';
 import MomoTalkComponent from './MomoTalkComponent.vue';
 
-const props = defineProps<{
-  messageGroup: number;
-  translate: string | undefined;
-  content: Momotalk[] | undefined;
-}>();
+const props = defineProps({
+  messageGroup: Number,
+  translate: {
+    type: String,
+    default: '',
+    required: false,
+  },
+  content: Object as PropType<Momotalk>,
+});
 
 const messageList: Ref<CurrentMessageItem[]> = ref([]);
 
@@ -177,6 +181,10 @@ next(props.content[0].MessageGroupId);
 
 <style scoped lang="scss">
 .momotalk-main-interface {
+  width: 100%;
+}
+
+.messages {
   width: 100%;
 }
 
