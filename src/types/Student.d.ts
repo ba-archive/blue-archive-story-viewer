@@ -14,7 +14,7 @@ export interface Student {
 }
 
 export interface StudentName {
-  cn: string;
+  zh: string;
   jp: string;
   en: string;
 }

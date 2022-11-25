@@ -28,7 +28,7 @@ function getImagePath(id: number | undefined): string {
     <img
       class="student-avatar"
       :src="getImagePath(studentInfo?.id)"
-      :alt="studentInfo?.name.cn"
+      :alt="studentInfo?.name.zh"
     />
     <div class="name-tag">{{ studentName }}</div>
   </div>
