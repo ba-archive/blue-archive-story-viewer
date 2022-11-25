@@ -9,7 +9,7 @@ import MomoTalkComponent from './MomoTalkComponent.vue';
 
 const props = defineProps<{
   messageGroup: number;
-  content: Momotalk[];
+  content: Momotalk[] | undefined;
 }>();
 
 const messageList: Ref<CurrentMessageItem[]> = ref([]);
@@ -111,7 +111,9 @@ function wait(ms: number) {
 }
 
 function findItemsByGroupId(GroupId: number) {
-  return props.content.filter(value => value.MessageGroupId == GroupId);
+  return props.content?.filter(
+    value => value.MessageGroupId == GroupId
+  ) as Momotalk[];
 }
 
 const showOptionChange = ref(false);
@@ -123,6 +125,8 @@ function handleUserSelect(Id: number, nextGroupId: number) {
   next(nextGroupId);
 }
 
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
 next(props.content[0].MessageGroupId);
 </script>
 

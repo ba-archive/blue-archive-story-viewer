@@ -27,10 +27,10 @@
         <div
           role="button"
           class="rounded-small shadow-near"
-          v-for="(option, index) in message?.options.content"
+          v-for="(option, index) in message?.options?.content"
           :key="index"
           :class="index === currentSelection ? 'selected' : ''"
-          @click="handleSelection(index, message.Id, option.NextGroupId)"
+          @click="handleSelection(index, message?.Id, option.NextGroupId)"
         >
           {{ getMessageText(option) }}
         </div>
@@ -38,7 +38,7 @@
     </div>
   </div>
 
-  <div class="momotalk-unit" v-if="0 !== message.FavorScheduleId">
+  <div class="momotalk-unit" v-if="0 !== message?.FavorScheduleId">
     <div class="favor-schedule-unit rounded-small">
       <div class="favor-schedule-banner">
         <span>羁绊事件</span>
@@ -82,16 +82,23 @@ const messageType = props.message?.MessageType || 'Text';
 const studentAvatar = `/image/avatar_students/${characterId}.webp`;
 
 const currentSelection = ref(-1);
-function getMessageImagePath(originPath: string): string {
-  const fileName = originPath.split('/').pop();
-  return `/image/ScenarioImage/${fileName}.png`;
+function getMessageImagePath(originPath: string | undefined): string {
+  if (originPath) {
+    const fileName = originPath.split('/').pop();
+    return `/image/ScenarioImage/${fileName}.png`;
+  }
+  return '';
 }
 
 const emit = defineEmits(['userSelect']);
 
-function handleSelection(selected: number, Id: number, nextGroupId: number) {
+function handleSelection(
+  selected: number,
+  Id: number | undefined,
+  nextGroupId: number
+) {
   currentSelection.value = selected;
-  emit('userSelect', Id, nextGroupId);
+  emit('userSelect', Id || 0, nextGroupId);
 }
 
 function stripRubyContent(content: string | undefined): string {
@@ -140,7 +147,9 @@ function getTextInLang(
   return text || undefined;
 }
 
-function getMessageText(messageText: MessageText | CurrentMessageItem): string {
+function getMessageText(
+  messageText: MessageText | CurrentMessageItem | undefined
+): string {
   if (messageText) {
     let text = getTextInLang(selectedLang.value, messageText);
     if (text) {
