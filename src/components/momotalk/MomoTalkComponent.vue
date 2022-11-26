@@ -12,10 +12,17 @@
         :src="studentAvatar"
       />
       <div class="message-content-wrap rounded-small">
-        <span v-if="'Image' !== messageType">{{
-          getMessageText(message)
-        }}</span>
-        <img v-else :src="getMessageImagePath(message?.ImagePath)" />
+        <div v-if="!showMessageContent" class="typing-indicator">
+          <span class="dot-1">·</span>
+          <span class="dot-2">·</span>
+          <span class="dot-3">·</span>
+        </div>
+        <div v-show="showMessageContent" class="message-content">
+          <span v-if="'Image' !== messageType">{{
+            getMessageText(message)
+          }}</span>
+          <img v-else :src="getMessageImagePath(message?.ImagePath)" />
+        </div>
       </div>
     </div>
 
@@ -38,7 +45,10 @@
     </div>
   </div>
 
-  <div class="momotalk-unit" v-if="0 !== message?.FavorScheduleId">
+  <div
+    class="momotalk-unit"
+    v-if="0 !== message?.FavorScheduleId && showFavorMessageContent"
+  >
     <div class="favor-schedule-unit rounded-small">
       <div class="favor-schedule-banner">
         <span>羁绊事件</span>
@@ -82,6 +92,18 @@ const messageType = props.message?.MessageType || 'Text';
 const studentAvatar = `/image/avatar_students/${characterId}.webp`;
 
 const currentSelection = ref(-1);
+
+const showMessageContent = ref(false);
+const showFavorMessageContent = ref(false);
+// 这里是故意用 || 而不是 ?? 的，不然第一条消息需要等待太久，用户体验不好
+const feedbackTime = props.message?.FeedbackTimeMillisec || 1000;
+setTimeout(() => {
+  showMessageContent.value = true;
+}, feedbackTime);
+setTimeout(() => {
+  showFavorMessageContent.value = true;
+}, feedbackTime + 500);
+
 function getMessageImagePath(originPath: string | undefined): string {
   if (originPath) {
     const fileName = originPath.split('/').pop();
@@ -202,6 +224,35 @@ function getMessageText(
   img {
     width: 10rem;
     height: auto;
+  }
+}
+
+.typing-indicator {
+  .dot-1 {
+    animation: typing 1.5s infinite;
+  }
+  .dot-2 {
+    animation: typing 1.5s infinite;
+    animation-delay: 0.2s;
+  }
+  .dot-3 {
+    animation: typing 1.5s infinite;
+    animation-delay: 0.4s;
+  }
+}
+
+@keyframes typing {
+  0% {
+    transform: scale(1);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
   }
 }
 

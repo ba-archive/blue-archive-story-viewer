@@ -20,6 +20,7 @@ const props = defineProps({
 let nextId = ref(0);
 const messageList: Ref<CurrentMessageItem[]> = ref([]);
 
+// TODO: 在硬到结块之前重写这坨屎山
 async function next(NextGroupId: number, id: number) {
   if (nextId.value != id) {
     return;
@@ -66,7 +67,7 @@ async function next(NextGroupId: number, id: number) {
       MessageType: 'Text',
       ImagePath: '',
     });
-    await wait(1000);
+    await wait(-1000);
     return;
   } else {
     if (nextId.value != id) {
@@ -93,7 +94,7 @@ async function next(NextGroupId: number, id: number) {
       MessageTH: firstMessageGroupElement.MessageTH,
       MessageTW: firstMessageGroupElement.MessageTW,
     });
-    await wait(1000);
+    await wait(firstMessageGroupElement.FeedbackTimeMillisec || 1500);
     for (let currentMessageItem of messageGroupElements.slice(1)) {
       if (nextId.value != id) {
         return;
@@ -118,14 +119,14 @@ async function next(NextGroupId: number, id: number) {
         MessageTH: currentMessageItem.MessageTH,
         MessageTW: currentMessageItem.MessageTW,
       });
-      await wait(1000);
+      await wait(currentMessageItem.FeedbackTimeMillisec || 1500);
     }
   }
   await next(firstMessageGroupElement.NextGroupId, id);
 }
 
 function wait(ms: number) {
-  return new Promise(resolve => setTimeout(resolve, ms));
+  return new Promise(resolve => setTimeout(resolve, ms + 1000));
 }
 
 function findItemsByGroupId(GroupId: number) {
