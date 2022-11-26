@@ -4,13 +4,11 @@
     <p>如果你对这个项目感兴趣，欢迎成为贡献者！</p>
     <p>如果你：</p>
     <ul>
-      <li><strong>有项目管理经验（团队有 13 个人了）</strong>，或者</li>
-      <li><strong>愿意参与翻译</strong>，或者</li>
+      <li><strong>有项目管理经验（团队有 20 个人了）</strong>，或者</li>
       <li>愿意提供没有覆盖到的学生外号，或者</li>
-      <li>有 BA 的解包经验（或者能够逆向 so 文件），或者</li>
-      <li>愿意提供和学生的 momotalk 的日服对话截图，或者</li>
+      <li>有 BA 的解包经验（或者能够逆向 Android .so 文件），或者</li>
       <li>
-        了解 Vue / React, 愿意加入
+        了解 Vue3 + pinia + TypeScript 的开发模式, 愿意加入
         <a
           href="https://github.com/ba-archive/blue-archive-story-viewer"
           target="_blank"
@@ -20,19 +18,27 @@
       <li>
         <strong
           >了解
+          <a href="https://github.com/pixijs/pixijs" target="_blank">PixiJS</a
+          >，
           <a href="https://github.com/pixijs/spine" target="_blank"
             >pixi-spine</a
+          >，
+          <a href="https://github.com/pixijs/sound" target="_blank"
+            >pixi-sound</a
           >
-          或者其他 web 上的 Spine
-          动画库（这个也很重要，不然只能播片了……），</strong
-        >
+          等库
+        </strong>
       </li>
       <p>
-        欢迎在
-        <a href="https://nga.178.com/read.php?tid=33938856" target="_blank"
-          >NGA 帖子</a
+        欢迎私信联系我！
+        <a
+          href="https://message.bilibili.com/#/whisper/mid14066311"
+          target="_blank"
+          >（电脑用户点这里）</a
+        >，
+        <a href="https://space.bilibili.com/14066311" target="_blank"
+          >（手机用户点这里）</a
         >
-        当中留言联系我！
       </p>
 
       <h2>同时感谢以下朋友的贡献：（排名不分先后）</h2>
