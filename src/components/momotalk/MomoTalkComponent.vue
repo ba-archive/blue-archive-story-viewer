@@ -130,43 +130,31 @@ function stripRubyContent(content: string | undefined): string {
   return content.replaceAll(/\[\/?ruby=?.*?]/gi, '');
 }
 
+const languageMap = {
+  zh: 'MessageCN',
+  tw: 'MessageTW',
+  en: 'MessageEN',
+  jp: 'MessageJP',
+  kr: 'MessageKR',
+  th: 'MessageTH',
+};
+
 function getFallBackText(message: MessageText | CurrentMessageItem): string {
-  if (message.MessageCN) {
-    return stripRubyContent(message.MessageCN);
-  } else if (message.MessageTW) {
-    return stripRubyContent(message.MessageTW);
-  } else if (message.MessageJP) {
-    return stripRubyContent(message.MessageJP);
-  } else if (message.MessageEN) {
-    return stripRubyContent(message.MessageEN);
-  } else if (message.MessageKR) {
-    return stripRubyContent(message.MessageKR);
-  } else if (message.MessageTH) {
-    return stripRubyContent(message.MessageTH);
-  } else {
-    return 'NoFallbackText';
+  for (const lang in languageMap) {
+    const text = Reflect.get(message, Reflect.get(languageMap, lang));
+    if (text) {
+      return text;
+    }
   }
+  return 'NoFallbackText';
 }
 
 function getTextInLang(
   selectedLang: string,
   content: MessageText | CurrentMessageItem
 ): string | undefined {
-  let text;
-  if ('zh' === selectedLang) {
-    text = stripRubyContent(content.MessageCN);
-  } else if ('jp' === selectedLang) {
-    text = stripRubyContent(content.MessageJP);
-  } else if ('en' === selectedLang) {
-    text = stripRubyContent(content.MessageEN);
-  } else if ('kr' === selectedLang) {
-    text = stripRubyContent(content.MessageKR);
-  } else if ('th' === selectedLang) {
-    text = stripRubyContent(content.MessageTH);
-  } else if ('tw' === selectedLang) {
-    text = stripRubyContent(content.MessageTW);
-  }
-  return text || undefined;
+  const text = Reflect.get(content, Reflect.get(languageMap, selectedLang));
+  return stripRubyContent(text);
 }
 
 function getMessageText(
