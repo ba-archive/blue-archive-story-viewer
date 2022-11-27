@@ -135,8 +135,6 @@ function findItemsByGroupId(GroupId: number) {
   ) as Momotalk[];
 }
 
-const showOptionChange = ref(false);
-
 // 处理用户选择和重新选择事件
 function handleUserSelect(Id: number, nextGroupId: number) {
   const selectionIndex = messageList.value.findIndex(value => value.Id === Id);
@@ -151,8 +149,6 @@ next(props.content[0].MessageGroupId, 0);
 </script>
 
 <template>
-  <div class="optionChange" v-if="showOptionChange"></div>
-  <div>{{ messageGroup }}</div>
   <div class="momotalk-main-interface flex-vertical">
     <div class="momotalk-banner flex-horizontal center">
       <!-- eslint-disable max-len -->
@@ -221,7 +217,6 @@ next(props.content[0].MessageGroupId, 0);
     flex-direction: column;
     justify-content: flex-start;
     margin-left: 0.5rem;
-    font-style: italic;
     font-size: 1.25rem;
     font-family: 'Asap Condensed', 'Microsoft YaHei', 'PingFang SC',
       -apple-system, system-ui, 'Segoe UI', Roboto, Ubuntu, Cantarell,
@@ -233,6 +228,7 @@ next(props.content[0].MessageGroupId, 0);
     }
 
     .credit {
+      font-style: italic;
       font-size: 0.5rem;
 
       a {
