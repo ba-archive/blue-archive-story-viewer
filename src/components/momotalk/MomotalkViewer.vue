@@ -31,7 +31,7 @@ async function next(NextGroupId: number, id: number) {
     // NextGroupId 没有返回结果，聊天结束
     return;
   }
-  if (firstMessageGroupElement.MessageCondition == 'Answer') {
+  if (firstMessageGroupElement.MessageCondition === 'Answer') {
     // 遇到玩家选项，需要合并后发送给子组件
     const options: SelectionOption[] = [];
     const answerElements = findItemsByGroupId(NextGroupId);

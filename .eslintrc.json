@@ -15,6 +15,7 @@
   "plugins": ["vue", "import", "sort-exports", "@typescript-eslint"],
   "rules": {
     "indent": ["error", 2, { "SwitchCase": 1 }],
+    "eqeqeq": ["error", "always"],
     "max-len": ["error", { "code": 120 }],
     "linebreak-style": ["error", "unix"],
     "quotes": ["error", "single"],
