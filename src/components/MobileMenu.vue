@@ -222,7 +222,7 @@ function updateUsername(event: Event) {
   }
 }
 // TODO: Android webview 的较新版本会导致 z-index 产生严重性能问题 (20221128)
-// 使用 translate3d 缓解
+// 使用 translate3d 缓解，后续重写布局
 .submenu-controller {
   position: absolute;
   top: 0;

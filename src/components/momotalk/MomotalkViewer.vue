@@ -22,7 +22,7 @@ const messageList: Ref<CurrentMessageItem[]> = ref([]);
 
 // TODO: 在硬到结块之前重写这坨屎山
 async function next(NextGroupId: number, id: number) {
-  if (nextId.value != id) {
+  if (id !== nextId.value) {
     return;
   }
   const messageGroupElements = findItemsByGroupId(NextGroupId);
@@ -49,7 +49,7 @@ async function next(NextGroupId: number, id: number) {
         NextGroupId: answerElement.NextGroupId,
       });
     }
-    if (nextId.value != id) {
+    if (id !== nextId.value) {
       return;
     }
     messageList.value.push({
@@ -70,7 +70,7 @@ async function next(NextGroupId: number, id: number) {
     await wait(-1000);
     return;
   } else {
-    if (nextId.value != id) {
+    if (id !== nextId.value) {
       return;
     }
     // 不需要玩家选择（即学生发给玩家的信息）
@@ -96,7 +96,7 @@ async function next(NextGroupId: number, id: number) {
     });
     await wait(firstMessageGroupElement.FeedbackTimeMillisec || 1500);
     for (let currentMessageItem of messageGroupElements.slice(1)) {
-      if (nextId.value != id) {
+      if (id !== nextId.value) {
         return;
       }
       messageList.value.push({
@@ -131,7 +131,7 @@ function wait(ms: number) {
 
 function findItemsByGroupId(GroupId: number) {
   return props.content?.filter(
-    value => value.MessageGroupId == GroupId
+    value => value.MessageGroupId === GroupId
   ) as Momotalk[];
 }
 
