@@ -17,11 +17,22 @@ const props = defineProps({
   content: Object as PropType<Momotalk[]>,
 });
 
+/**
+ * 需要运行的next序列的id
+ */
 let nextId = ref(0);
 const messageList: Ref<CurrentMessageItem[]> = ref([]);
 
+/**
+ * 执行一个next序列
+ * @param NextGroupId next序列的下一目的地的GroupId
+ * @param id next序列的id
+ */
 // TODO: 在硬到结块之前重写这坨屎山
 async function next(NextGroupId: number, id: number) {
+  /**
+   * 通过id判断当前的next序列是否是需要运行的next序列, 不是则停止运行, 下面push前的判断同理
+   */
   if (id !== nextId.value) {
     return;
   }
@@ -139,6 +150,7 @@ function findItemsByGroupId(GroupId: number) {
 function handleUserSelect(Id: number, nextGroupId: number) {
   const selectionIndex = messageList.value.findIndex(value => value.Id === Id);
   messageList.value = messageList.value.slice(0, selectionIndex + 1);
+  //执行一个新的next序列, 并将需要执行的next序列的id设为自己的id
   nextId.value++;
   next(nextGroupId, nextId.value);
 }
