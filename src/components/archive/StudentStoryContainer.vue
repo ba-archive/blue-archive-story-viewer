@@ -6,7 +6,7 @@
       <img
         class="hire"
         src="/src/assets/eat_people.webp"
-        alt="求求你啦帮帮我们吧"
+        alt="代码滞销帮帮我们"
       />
     </router-link>
   </div>
