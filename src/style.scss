@@ -18,6 +18,7 @@
 html {
   --color-main-background: #edf4fb;
   --color-text-main: #2f2f2f;
+  --color-card-background: #fff;
   --color-text-ingame: #344a6e;
   --color-text-contrast: #fff;
   --color-title-container: #eeeeeeee;
@@ -65,6 +66,7 @@ html {
 html[data-theme='dark'] {
   --color-main-background: #343e50;
   --color-text-main: #eee;
+  --color-card-background: #2f2f2f;
   --color-text-ingame: #eee;
   --color-text-contrast: #fff;
   --color-title-container: #404040ed;

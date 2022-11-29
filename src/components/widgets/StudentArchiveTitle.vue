@@ -40,7 +40,7 @@ function getFallbackTitle() {
 
 <template>
   <div
-    class="archive-title rounded-small"
+    class="archive-title rounded-small shadow-farther"
     tabindex="0"
     @click="handleClick"
     @keydown.enter="handleClick"
@@ -78,7 +78,6 @@ function getFallbackTitle() {
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  box-shadow: 0.2rem 0.2rem 1rem hsla(0deg, 0%, 0%, 0.2);
   background: var(--color-title-container);
   padding: 0.5rem;
   width: 100%;

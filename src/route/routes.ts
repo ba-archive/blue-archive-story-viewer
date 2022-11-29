@@ -8,12 +8,13 @@ const routes: Array<RouteRecordRaw> = [
       {
         path: 'archive',
         name: 'studentSelector',
-        component: () => import('../components/StudentSelector.vue'),
+        component: () => import('../components/archive/StudentSelector.vue'),
         children: [
           {
             path: ':id',
             name: 'studentPersonalStory',
-            component: () => import('../components/StudentPersonalHome.vue'),
+            component: () =>
+              import('../components/archive/StudentPersonalHome.vue'),
             children: [
               {
                 path: 'momotalk',
@@ -25,7 +26,7 @@ const routes: Array<RouteRecordRaw> = [
                 path: 'story',
                 name: 'studentStory',
                 component: () =>
-                  import('../components/StudentStoryContainer.vue'),
+                  import('../components/archive/StudentStoryContainer.vue'),
               },
             ],
           },
@@ -47,9 +48,14 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('../components/GroupStoryHome.vue'),
       },
       {
-        path: '/contributors',
+        path: '/contribute',
+        name: 'Contribute',
+        component: () => import('../components/ContributeToProject.vue'),
+      },
+      {
+        path: '/friendlinks',
         name: 'Contributors',
-        component: () => import('../components/ContributorCredits.vue'),
+        component: () => import('../components/FriendLinks.vue'),
       },
     ],
   },

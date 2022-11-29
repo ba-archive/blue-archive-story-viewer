@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import { useSettingsStore } from '../store/settings';
+import { useSettingsStore } from '../../store/settings';
 
 const languages = ref([
   {

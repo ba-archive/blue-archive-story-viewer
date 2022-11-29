@@ -2,35 +2,33 @@
   <div id="contributor-container" class="flex-vertical">
     <h2>成为贡献者</h2>
     <p>如果你对这个项目感兴趣，欢迎成为贡献者！</p>
+    <p>我们的路线图：</p>
+    <a href="/src/assets/roadmap.webp">
+      <img class="roadmap" src="/src/assets/roadmap.webp" />
+    </a>
+    <br />
     <p>如果你：</p>
     <ul>
       <li><strong>有项目管理经验（团队有 20 个人了）</strong>，或者</li>
-      <li>愿意提供没有覆盖到的学生外号，或者</li>
-      <li>有 BA 的解包经验（或者能够逆向 Android .so 文件），或者</li>
       <li>
-        了解 Vue3 + pinia + TypeScript 的开发模式, 愿意加入
-        <a
-          href="https://github.com/ba-archive/blue-archive-story-viewer"
-          target="_blank"
-          >项目建设</a
-        >
-      </li>
-      <li>
-        <strong
-          >了解
-          <a href="https://github.com/pixijs/pixijs" target="_blank">PixiJS</a
-          >，
-          <a href="https://github.com/pixijs/spine" target="_blank"
-            >pixi-spine</a
-          >，
-          <a href="https://github.com/pixijs/sound" target="_blank"
-            >pixi-sound</a
-          >
-          等库
+        <strong>
+          熟悉 Vue3 + pinia + TypeScript 的开发模式, 愿意加入
+          <a
+            href="https://github.com/ba-archive/blue-archive-story-viewer"
+            target="_blank"
+            >项目建设</a
+          >，或者
         </strong>
       </li>
+      <li><strong>有基于 Go / Java 的后端开发经验</strong>，或者</li>
+      <li><strong>有服务器运维经验</strong>，或者</li>
+      <li><strong>有 DevOps 经验，能够建立 CI/CD 管线</strong>，或者</li>
+      <li><strong>有前后端架构设计经验（想试试手也可以）</strong>，或者</li>
+      <li><strong>有 UI 设计经验</strong>，或者</li>
+      <li><strong>想汇报 bug，意见或建议</strong>，</li>
+
       <p>
-        欢迎私信联系我！
+        欢迎联系我！
         <a
           href="https://message.bilibili.com/#/whisper/mid14066311"
           target="_blank"
@@ -38,6 +36,9 @@
         >，
         <a href="https://space.bilibili.com/14066311" target="_blank"
           >（手机用户点这里）</a
+        >，
+        <a href="mailto:mail@blue-archive.io" target="_blank"
+          >（邮箱地址点这里）</a
         >
       </p>
 
@@ -114,9 +115,17 @@ a {
   color: var(--color-text-main);
 }
 
+.roadmap {
+  max-width: 50rem;
+}
+
 @media screen and (max-width: 768px) {
   #contributor-container {
     justify-content: flex-start;
+  }
+
+  .roadmap {
+    max-width: 90vw;
   }
 }
 </style>

@@ -66,7 +66,13 @@
           </router-link>
           <router-link
             class="nav-link level-1 rounded-small"
-            to="/contributors"
+            to="/friendlinks"
+            @click="closeMenu"
+            >友情链接
+          </router-link>
+          <router-link
+            class="nav-link level-1 rounded-small"
+            to="/contribute"
             @click="closeMenu"
             >成为贡献者
           </router-link>
@@ -86,8 +92,8 @@
 <script lang="ts" setup>
 import { computed, ref } from 'vue';
 import { useSettingsStore } from '../../store/settings';
-import LanguageSelector from '../LanguageSelector.vue';
-import ThemeSwitcher from '../ThemeSwitcher.vue';
+import LanguageSelector from '../widgets/LanguageSelector.vue';
+import ThemeSwitcher from '../widgets/ThemeSwitcher.vue';
 
 const settingsStore = useSettingsStore();
 const showMenu = ref(false);

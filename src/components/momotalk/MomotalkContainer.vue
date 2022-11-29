@@ -5,7 +5,7 @@ import { useRoute } from 'vue-router';
 import { useSettingsStore } from '../../store/settings';
 import { Momotalk, SplitMomotalk } from '../../types/Chats';
 import { Momotalks } from '../../types/Chats';
-import StudentArchiveTitle from '../StudentArchiveTitle.vue';
+import StudentArchiveTitle from '../widgets/StudentArchiveTitle.vue';
 import MomotalkViewer from './MomotalkViewer.vue';
 
 const settingsStore = useSettingsStore();

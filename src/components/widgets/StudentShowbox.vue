@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { PropType, computed } from 'vue';
-import { useSettingsStore } from '../store/settings';
-import { Student } from '../types/Student';
+import { useSettingsStore } from '../../store/settings';
+import { Student } from '../../types/Student';
 
 const props = defineProps({
   studentInfo: Object as PropType<Student>,

@@ -2,17 +2,17 @@
 import axios from 'axios';
 import { computed, onBeforeMount, onUnmounted, ref } from 'vue';
 import { useRoute } from 'vue-router';
-import { useSettingsStore } from '../store/settings';
-import { useStudentStore } from '../store/students';
-import { AppliedFilter } from '../types/AppliedFilter';
+import { useSettingsStore } from '../../store/settings';
+import { useStudentStore } from '../../store/students';
+import { AppliedFilter } from '../../types/AppliedFilter';
 import {
   Student,
   StudentAttributeFilters,
   StudentAttributes,
   StudentNames,
-} from '../types/Student';
-import { filterStudents } from '../util/filterStudents';
-import StudentShowbox from './StudentShowbox.vue';
+} from '../../types/Student';
+import { filterStudents } from '../../util/filterStudents';
+import StudentShowbox from '../widgets/StudentShowbox.vue';
 
 const route = useRoute();
 const settingsStore = useSettingsStore();

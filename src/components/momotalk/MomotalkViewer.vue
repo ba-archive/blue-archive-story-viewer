@@ -204,6 +204,7 @@ next(props.content[0].MessageGroupId, 0);
 
 <style scoped lang="scss">
 .momotalk-main-interface {
+  margin-top: 1rem;
   width: 100%;
 }
 

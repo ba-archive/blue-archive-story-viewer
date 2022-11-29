@@ -31,7 +31,10 @@
       <router-link class="nav-link level-1 rounded-small" to="/archive"
         >学生个人剧情
       </router-link>
-      <router-link class="nav-link level-1 rounded-small" to="/contributors"
+      <router-link class="nav-link level-1 rounded-small" to="/friendlinks"
+        >友情链接
+      </router-link>
+      <router-link class="nav-link level-1 rounded-small" to="/contribute"
         >成为贡献者
       </router-link>
     </div>
@@ -46,8 +49,8 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 import { useSettingsStore } from '../../store/settings';
-import LanguageSelector from '../LanguageSelector.vue';
-import ThemeSwitcher from '../ThemeSwitcher.vue';
+import LanguageSelector from '../widgets/LanguageSelector.vue';
+import ThemeSwitcher from '../widgets/ThemeSwitcher.vue';
 
 const settingsStore = useSettingsStore();
 const username = computed(() => settingsStore.getUsername);
