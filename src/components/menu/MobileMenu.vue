@@ -31,16 +31,9 @@
       </div>
     </div>
 
-    <transition name="mask-transition">
-      <div v-if="showMenu" class="submenu-controller" @click="closeMenu"></div>
-    </transition>
-
     <transition name="menu-transition">
-      <div
-        class="mobile-submenu-container acrylic shadow-near"
-        v-show="showMenu"
-      >
-        <div class="mobile-submenu">
+      <div class="mobile-submenu-container flex-vertical" v-show="showMenu">
+        <div class="mobile-submenu acrylic fill-width">
           <router-link
             class="nav-link level-1 link-home rounded-small"
             to="/"
@@ -83,6 +76,8 @@
             <theme-switcher />
           </div>
         </div>
+
+        <div class="submenu-controller fill-screen" @click="closeMenu"></div>
       </div>
     </transition>
   </div>
@@ -90,9 +85,9 @@
 
 <script lang="ts" setup>
 import { computed, ref } from 'vue';
-import { useSettingsStore } from '../store/settings';
-import LanguageSelector from './LanguageSelector.vue';
-import ThemeSwitcher from './ThemeSwitcher.vue';
+import { useSettingsStore } from '../../store/settings';
+import LanguageSelector from '../LanguageSelector.vue';
+import ThemeSwitcher from '../ThemeSwitcher.vue';
 
 const settingsStore = useSettingsStore();
 const showMenu = ref(false);
@@ -195,11 +190,15 @@ function updateUsername(event: Event) {
 
 .mobile-submenu-container {
   z-index: -1;
+  height: 100vh;
   color: var(--color-text-main);
 
   .mobile-submenu {
     display: flex;
     flex-direction: column;
+    filter: drop-shadow(0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.12));
+    -webkit-filter: drop-shadow(0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.12));
+    box-shadow: 0 0 0 200vh rgba(0, 0, 0, 0.1);
     background-color: var(--color-mobile-subnav-background);
 
     a {
@@ -211,6 +210,10 @@ function updateUsername(event: Event) {
       width: 100%;
       color: var(--color-text-main);
       text-decoration: none;
+
+      &:first-child {
+        padding-top: 0.75rem;
+      }
     }
   }
 
@@ -221,18 +224,9 @@ function updateUsername(event: Event) {
     padding: 0.5rem 1rem;
   }
 }
-// TODO: Android webview 的较新版本会导致 z-index 产生严重性能问题 (20221128)
-// 使用 translate3d 缓解，后续重写布局
+
 .submenu-controller {
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: translate3d(0, 0, 0);
-  opacity: 0.2;
-  z-index: -1;
-  background-color: #000;
   width: 100vw;
-  height: 100vh;
 }
 
 .menu-transition-enter-active,

@@ -1,7 +1,5 @@
 <script setup lang="ts">
-/* eslint-disable @typescript-eslint/ban-ts-comment */
 import axios from 'axios';
-// eslint-disable-next-line no-unused-vars
 import { Ref, computed, ref } from 'vue';
 import { useRoute } from 'vue-router';
 import { useSettingsStore } from '../../store/settings';

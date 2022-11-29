@@ -45,9 +45,9 @@
 
 <script setup lang="ts">
 import { computed } from 'vue';
-import { useSettingsStore } from '../store/settings';
-import LanguageSelector from './LanguageSelector.vue';
-import ThemeSwitcher from './ThemeSwitcher.vue';
+import { useSettingsStore } from '../../store/settings';
+import LanguageSelector from '../LanguageSelector.vue';
+import ThemeSwitcher from '../ThemeSwitcher.vue';
 
 const settingsStore = useSettingsStore();
 const username = computed(() => settingsStore.getUsername);

@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 import { useRoute } from 'vue-router';
-import DesktopMenu from './components/DesktopMenu.vue';
 import HomeWelcomeScreen from './components/HomeWelcomeScreen.vue';
-import MobileMenu from './components/MobileMenu.vue';
+import DesktopMenu from './components/menu/DesktopMenu.vue';
+import MobileMenu from './components/menu/MobileMenu.vue';
 
 const route = useRoute();
 
