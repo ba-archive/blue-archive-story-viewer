@@ -70,13 +70,6 @@ export interface CurrentMessageItem {
   MessageTW?: string | undefined;
 }
 
-export interface UserSelectElement extends CurrentMessageItem {
-  options: {
-    current: number;
-    content: SelectionOption[];
-  };
-}
-
 export interface SelectionOption {
   MessageKR?: string | undefined;
   MessageJP: string | undefined;
