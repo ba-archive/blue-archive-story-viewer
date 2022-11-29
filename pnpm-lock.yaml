@@ -20,7 +20,7 @@ specifiers:
   fastest-levenshtein: 1.0.16
   js-yaml: 4.1.0
   pinia: 2.0.26
-  pinia-plugin-persistedstate: 2.4.0
+  pinia-plugin-persistedstate: 3.0.1
   postcss: 8.4.19
   prettier: 2.8.0
   prettier-plugin-css-order: 1.3.0
@@ -41,7 +41,7 @@ dependencies:
   axios-retry: 3.3.1
   fastest-levenshtein: 1.0.16
   pinia: 2.0.26_mgnvym7yiazkylwwogi5r767ue
-  pinia-plugin-persistedstate: 2.4.0_pinia@2.0.26
+  pinia-plugin-persistedstate: 3.0.1_pinia@2.0.26
   vue: 3.2.45
   vue-router: 4.1.6_vue@3.2.45
 
@@ -3666,13 +3666,10 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
-  /pinia-plugin-persistedstate/2.4.0_pinia@2.0.26:
-    resolution: {integrity: sha512-bQcpv47jk3ISl+InuJWsFaS/K7pRZ97kfoD2WCf/suhnlLy48k3BnFM2tI6YZ1xMsDaPv4yOsaPuPAUuSmEO2Q==}
+  /pinia-plugin-persistedstate/3.0.1_pinia@2.0.26:
+    resolution: {integrity: sha512-WRNWtR4v8StJqBQH+Qiz88SGnlr4wvEyh7wtA+fYEVLoIOnpZ0v4FICvUcC8eUkAIvQL3n6/Ew2yryw7okazvA==}
     peerDependencies:
       pinia: ^2.0.0
-    peerDependenciesMeta:
-      pinia:
-        optional: true
     dependencies:
       pinia: 2.0.26_mgnvym7yiazkylwwogi5r767ue
     dev: false
