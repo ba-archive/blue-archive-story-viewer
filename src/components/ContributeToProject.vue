@@ -7,28 +7,35 @@
       <img class="roadmap" src="/src/assets/roadmap.webp" />
     </a>
     <br />
-    <p>如果你：</p>
+    <p>我们需要：</p>
     <ul>
-      <li><strong>有项目管理经验（团队有 20 个人了）</strong>，或者</li>
       <li>
-        <strong>
-          熟悉 Vue3 + pinia + TypeScript 的开发模式, 愿意加入
-          <a
-            href="https://github.com/ba-archive/blue-archive-story-viewer"
-            target="_blank"
-            >项目建设</a
-          >，或者
-        </strong>
+        <mark>项目经理</mark>：有项目管理经验（团队有 20
+        个人），对前后端技术和架构有一定了解；
       </li>
-      <li><strong>有基于 Go / Java 的后端开发经验</strong>，或者</li>
-      <li><strong>有服务器运维经验</strong>，或者</li>
-      <li><strong>有 DevOps 经验，能够建立 CI/CD 管线</strong>，或者</li>
-      <li><strong>有前后端架构设计经验（想试试手也可以）</strong>，或者</li>
-      <li><strong>有 UI 设计经验</strong>，或者</li>
-      <li><strong>想汇报 bug，意见或建议</strong>，</li>
+      <li>
+        <mark>前端</mark>：熟悉 Vue3 + pinia + TypeScript 的开发模式, 愿意加入
+        <a
+          href="https://github.com/ba-archive/blue-archive-story-viewer"
+          target="_blank"
+          >项目建设</a
+        >；
+      </li>
+      <li><mark>后端</mark>：有基于 Go / Java 的后端开发经验；</li>
+      <li>
+        <mark>服务器运维</mark>：有 Linux
+        服务器运维经验，会合理配置服务器系统防火墙和 openresty 服务；
+      </li>
+      <li>
+        <mark>DevOps</mark>：能够帮助团队建立从资源更新到部署的自动化 CI/CD
+        管线；
+      </li>
+      <li><mark>架构</mark>：有前后端架构设计经验（想试试手也可以）；</li>
+      <li><mark>UI</mark>：会使用 Figma 等工具提供原型图等图像资产；</li>
+      <li><mark>正在查看内容的你</mark>：汇报 bug，意见或建议</li>
 
       <p>
-        欢迎联系我！
+        欢迎联系！
         <a
           href="https://message.bilibili.com/#/whisper/mid14066311"
           target="_blank"
@@ -76,6 +83,7 @@
         >
         全栈
       </p>
+      <p>以及每一个热爱碧蓝档案的玩家</p>
     </ul>
   </div>
 </template>
@@ -117,6 +125,15 @@ a {
 
 .roadmap {
   max-width: 50rem;
+}
+
+mark {
+  background-color: transparent;
+  font-weight: bold;
+  text-decoration-line: underline;
+  text-decoration-color: cornflowerblue;
+  text-decoration-thickness: 0.2rem;
+  text-underline-offset: 0.2rem;
 }
 
 @media screen and (max-width: 768px) {

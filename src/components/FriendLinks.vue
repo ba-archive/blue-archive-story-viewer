@@ -2,7 +2,6 @@
   <div class="flex-vertical">
     <article>
       <h2>友情链接</h2>
-      <p>这个项目能够成功上线，离不开以下朋友的帮助。</p>
       <div class="contribution-wall">
         <a
           href="https://space.bilibili.com/37507923"
@@ -10,7 +9,8 @@
           class="contribution-brick rounded-small shadow-near"
         >
           <img class="avatar" src="/image/contributor/zixunzhan.jpg" />
-          <p>碧蓝档案资讯站</p>
+          <h4>碧蓝档案资讯站</h4>
+          <p>为玩家服务的民间组织，尊重官方设定</p>
         </a>
       </div>
       <h3></h3>
@@ -19,7 +19,7 @@
 </template>
 
 <script setup lang="ts">
-//
+// 这行注释别删，删了 prettier 会报错
 </script>
 
 <style scoped lang="scss">
@@ -28,7 +28,7 @@ article {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 30rem;
+  width: min(50rem, 768px);
 }
 
 .contribution-wall {
@@ -42,21 +42,26 @@ article {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: all 0.375s ease-in-out;
   background-color: var(--color-card-background);
   padding: 1rem;
-  width: 100%;
-  height: 100%;
   color: var(--color-text-main);
-  font-weight: bold;
   text-align: center;
   text-decoration: none;
-}
 
-.avatar {
-  margin-bottom: 1rem;
-  border-radius: 50%;
-  width: 5rem;
-  height: 5rem;
+  &:hover {
+    box-shadow: var(--style-shadow-farther);
+  }
+
+  .avatar {
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+  }
+
+  p {
+    color: #bababa;
+  }
 }
 
 h1,

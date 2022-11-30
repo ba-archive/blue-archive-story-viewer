@@ -13,7 +13,7 @@
 </template>
 
 <script setup lang="ts">
-//
+// 这行注释别删，删了 prettier 会报错
 </script>
 
 <style scoped lang="scss">
