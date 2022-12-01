@@ -1905,3 +1905,19 @@
   type: Special
   armorType: LightArmor
   weapon: HG
+- id: 10055
+  familyName:
+    zh: 间宵
+    jp: 間宵
+    en: Mayoi
+  name:
+    zh: 时雨
+    jp: シグレ
+    en: Shigure
+  nickname: []
+  club: 227号特别班
+  affiliation: 红冬
+  rarity: 3
+  type: Striker
+  armorType: HeavyArmor
+  weapon: GL
