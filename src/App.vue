@@ -74,7 +74,7 @@ const getMainPageClass = computed(() =>
     -webkit-border-radius: 0;
     padding: 3.5rem 1rem 1rem 1rem;
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - 3.5rem);
     overflow-x: hidden;
     overflow-y: scroll;
   }
