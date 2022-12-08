@@ -3,9 +3,7 @@
     <h2>成为贡献者</h2>
     <p>如果你对这个项目感兴趣，欢迎成为贡献者！</p>
     <p>我们的路线图：</p>
-    <a href="/src/assets/roadmap.webp">
-      <img class="roadmap" src="/src/assets/roadmap.webp" />
-    </a>
+    <img class="roadmap" src="/src/assets/roadmap.webp" />
     <br />
     <p>我们需要：</p>
     <ul>
@@ -96,7 +94,7 @@
 #contributor-container {
   align-items: center;
   align-self: center;
-  width: 100%;
+  width: min(50rem, 90%);
 }
 
 h2 {
@@ -124,7 +122,7 @@ a {
 }
 
 .roadmap {
-  max-width: 50rem;
+  max-width: min(50rem, 90%);
 }
 
 mark {
@@ -142,7 +140,7 @@ mark {
   }
 
   .roadmap {
-    max-width: 90vw;
+    max-width: 90%;
   }
 }
 </style>

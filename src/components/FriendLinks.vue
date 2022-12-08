@@ -28,7 +28,7 @@ article {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  width: min(50rem, 768px);
+  width: min(50rem, 90%);
 }
 
 .contribution-wall {
