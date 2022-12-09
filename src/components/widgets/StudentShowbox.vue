@@ -41,29 +41,6 @@ function getImagePath(id: number | undefined): string {
   grid-template-areas: 'avatar';
   place-items: center;
   overflow: hidden;
-
-  &.unavailable {
-    cursor: not-allowed;
-
-    &::before {
-      position: absolute;
-      top: 0;
-      left: 0;
-      background-color: hsla(0deg, 0%, 0%, 0.3);
-      width: 100%;
-      height: 100%;
-      content: '';
-    }
-
-    &::after {
-      position: absolute;
-      opacity: 0.8;
-      filter: drop-shadow(0 0 1rem #fff);
-      width: 25%;
-      height: 25%;
-      content: url('/src/assets/padlock.svg');
-    }
-  }
 }
 
 .student-avatar {

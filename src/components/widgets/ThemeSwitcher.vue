@@ -83,6 +83,7 @@ input.switch {
   align-items: center;
   justify-items: start;
   appearance: none;
+  -webkit-appearance: none;
   transition: all 0.375s ease-in-out;
   cursor: pointer;
   box-sizing: content-box;

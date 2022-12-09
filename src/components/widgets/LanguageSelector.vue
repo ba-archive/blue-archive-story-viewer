@@ -59,6 +59,7 @@ function handleLangChange(event: Event) {
 <style scoped lang="scss">
 select {
   appearance: none;
+  -webkit-appearance: none;
   cursor: pointer;
   outline: none;
   border: none;
@@ -79,17 +80,5 @@ select {
   background-color: var(--color-switch-track);
   width: fit-content;
   user-select: none;
-
-  //&::after {
-  //  display: inline-block;
-  //  margin-right: 0.5rem;
-  //  border-top: 0.5rem solid var(--color-text-dark);
-  //  border-right: 0.5rem solid transparent;
-  //  border-left: 0.5rem solid transparent;
-  //  width: 0;
-  //  height: 0;
-  //  content: "";
-  //  cursor: default;
-  //}
 }
 </style>
