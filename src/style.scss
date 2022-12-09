@@ -215,6 +215,35 @@ body {
   text-underline-offset: 0.1rem;
 }
 
+// consistent scrollbar style on all desktop browsers
+@media screen and (min-width: 768px) {
+  html[data-scrollbar='customize'] {
+    scrollbar-gutter: stable;
+    scrollbar-width: thin;
+
+    ::-webkit-scrollbar {
+      border-radius: 1rem;
+      background: transparent;
+      width: 0.65rem;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      border: 2px solid transparent;
+      border-radius: 0.65rem;
+      background: #777a7d;
+      background-clip: content-box;
+
+      &:hover {
+        background: #555;
+      }
+    }
+
+    ::-webkit-scrollbar-track {
+      background-color: transparent;
+    }
+  }
+}
+
 @media screen and (max-width: 768px) {
   body {
     padding: 0;

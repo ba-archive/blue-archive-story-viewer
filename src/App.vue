@@ -12,6 +12,16 @@ const isMainPage = computed(() => route.path === '/');
 const getMainPageClass = computed(() =>
   route.path === '/' ? 'main-page' : ''
 );
+
+const isMac = () => {
+  const userAgent = navigator.userAgent;
+  return userAgent.indexOf('Mac OS X') > -1;
+};
+
+if (!isMac()) {
+  const htmlElement = document.querySelector('html') as HTMLHtmlElement;
+  htmlElement.dataset.scrollbar = 'customize';
+}
 </script>
 
 <template>
