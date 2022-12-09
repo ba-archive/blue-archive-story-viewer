@@ -35,7 +35,7 @@ const getMainPageClass = computed(() =>
   flex-direction: column;
   align-items: stretch;
   background-color: var(--color-main-background);
-  overflow-y: scroll;
+  overflow-y: auto;
 
   &.main-page {
     background-color: transparent;
