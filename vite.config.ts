@@ -1,6 +1,7 @@
+/* eslint-disable no-unused-vars,@typescript-eslint/no-unused-vars */
+
 import { visualizer } from 'rollup-plugin-visualizer';
 import { defineConfig } from 'vite';
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import viteCompression from 'vite-plugin-compression';
 import { VitePWA } from 'vite-plugin-pwa';
 import legacy from '@vitejs/plugin-legacy';
@@ -84,7 +85,7 @@ export default defineConfig({
       selfDestroying: true,
     }),
     // viteCompression(),
-    visualizer(),
+    // visualizer(),
   ],
   build: {
     emptyOutDir: true,
