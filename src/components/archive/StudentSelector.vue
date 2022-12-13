@@ -407,7 +407,7 @@ onUnmounted(() => {
   justify-items: stretch;
   margin: 1.5rem 1rem 1rem 1rem;
   border-radius: 1rem;
-  background-color: #d7d9e1b3;
+  background-color: var(--color-student-filter-background);
   width: calc(100% - 2rem);
   height: fit-content;
   overflow: hidden;
