@@ -40,5 +40,12 @@
         "memberSyntaxSortOrder": ["all", "single", "multiple", "none"]
       }
     ]
-  }
+  },
+  "overrides": [
+    {
+      "files": ["*.yaml", "*.yml"],
+      "plugins": ["yaml"],
+      "extends": ["plugin:yaml/recommended"]
+    }
+  ]
 }
