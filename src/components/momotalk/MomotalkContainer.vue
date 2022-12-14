@@ -57,7 +57,7 @@ function getSplitMomotalk(momotalkContent: Momotalk[]): SplitMomotalk[] {
 axios.get(`/config/json/momotalk/${route.params.id}.json`).then(res => {
   const data = res.data as Momotalks;
   momotalks.value.CharacterId = data.CharacterId;
-  momotalks.value.translate = data.translate;
+  momotalks.value.translator = data.translator;
   momotalks.value.title = data.title;
   momotalks.value.content = data.content;
 
@@ -94,7 +94,7 @@ function getRelatedChat(GroupId: number): Momotalk[] | undefined {
       />
       <momotalk-viewer
         :messageGroup="chat.GroupId"
-        :translate="momotalks.translate"
+        :translator="momotalks.translator"
         :content="getRelatedChat(chat.GroupId)"
         v-if="opentalks.includes(index)"
       />

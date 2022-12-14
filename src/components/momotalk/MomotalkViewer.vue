@@ -9,7 +9,7 @@ import MomoTalkComponent from './MomoTalkComponent.vue';
 
 const props = defineProps({
   messageGroup: Number,
-  translate: {
+  translator: {
     type: String,
     default: '',
     required: false,
@@ -184,7 +184,7 @@ next(props.content[0].MessageGroupId, 0);
         <span class="title">MomoTalk</span>
         <div class="credit">
           <span>translated by </span>
-          <span v-if="translate">{{ translate }}@</span>
+          <span v-if="translator">{{ translator }}@</span>
           <a href="https://space.bilibili.com/37507923" target="_blank">
             碧蓝档案资讯站
           </a>

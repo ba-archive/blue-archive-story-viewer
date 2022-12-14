@@ -2,7 +2,7 @@
 
 export interface Momotalks {
   CharacterId: number;
-  translate?: string;
+  translator?: string;
   title: Title[];
   content: Momotalk[];
   splitMomotalk: SplitMomotalk[];
