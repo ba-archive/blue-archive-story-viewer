@@ -5,7 +5,7 @@ import { useSettingsStore } from '../../store/settings';
 const languages = ref([
   {
     name: '简体中文',
-    code: 'zh',
+    code: 'cn',
   },
   {
     name: '繁體中文',

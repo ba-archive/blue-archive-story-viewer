@@ -8,7 +8,7 @@ const props = defineProps({
 });
 
 const settingsStore = useSettingsStore();
-const selectedLang = computed(() => settingsStore.getLang.replace('cn', 'zh'));
+const selectedLang = computed(() => settingsStore.getLang.replace('zh', 'cn'));
 
 const studentName = computed(() => {
   return (
@@ -28,7 +28,7 @@ function getImagePath(id: number | undefined): string {
     <img
       class="student-avatar"
       :src="getImagePath(studentInfo?.id)"
-      :alt="studentInfo?.name.zh"
+      :alt="studentInfo?.name.cn"
     />
     <div class="name-tag">{{ studentName }}</div>
   </div>

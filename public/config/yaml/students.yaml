@@ -1,10 +1,10 @@
 - id: 10000
   familyName:
-    zh: 陆八魔
+    cn: 陆八魔
     jp: 陸八魔
     en: Rikuhachima
   name:
-    zh: 阿露
+    cn: 阿露
     jp: アル
     en: Aru
   nickname: [社长, 愉悦姐, 亚瑠, 阿鲁]
@@ -16,11 +16,11 @@
   weapon: SR
 - id: 10001
   familyName:
-    zh: 和泉元
+    cn: 和泉元
     jp: 和泉元
     en: Izumimoto
   name:
-    zh: 艾米
+    cn: 艾米
     jp: エイミ
     en: Eimi
   nickname: [英美]
@@ -32,11 +32,11 @@
   weapon: SG
 - id: 10002
   familyName:
-    zh: 黑馆
+    cn: 黑馆
     jp: 黒舘
     en: Kurodate
   name:
-    zh: 晴奈
+    cn: 晴奈
     jp: ハルナ
     en: Haruna
   nickname: [神秘狙, 羽留奈, 美食狙]
@@ -48,11 +48,11 @@
   weapon: SR
 - id: 10003
   familyName:
-    zh: 阿慈谷
+    cn: 阿慈谷
     jp: 阿慈谷
     en: Ajitani
   name:
-    zh: 日富美
+    cn: 日富美
     jp: ヒフミ
     en: Hifumi
   nickname: [小天使, 一二三, '123', 浮士德, 鸡妹]
@@ -64,11 +64,11 @@
   weapon: AR
 - id: 10004
   familyName:
-    zh: 空崎
+    cn: 空崎
     jp: 空崎
     en: Sorasaki
   name:
-    zh: 日奈
+    cn: 日奈
     jp: ヒナ
     en: Hina
   nickname: [委员长, 魔王, 阳奈]
@@ -80,11 +80,11 @@
   weapon: MG
 - id: 10005
   familyName:
-    zh: 小鸟游
+    cn: 小鸟游
     jp: 小鳥遊
     en: Takanashi
   name:
-    zh: 星野
+    cn: 星野
     jp: ホシノ
     en: Hoshino
   nickname: [大叔]
@@ -96,11 +96,11 @@
   weapon: SG
 - id: 10006
   familyName:
-    zh: 银镜
+    cn: 银镜
     jp: 銀鏡
     en: Shiromi
   name:
-    zh: 伊织
+    cn: 伊织
     jp: イオリ
     en: Iori
   nickname: [佐仓, 佐三枪]
@@ -112,11 +112,11 @@
   weapon: SR
 - id: 10007
   familyName:
-    zh: 小涂
+    cn: 小涂
     jp: 小塗
     en: Konuri
   name:
-    zh: 真纪
+    cn: 真纪
     jp: マキ
     en: Maki
   nickname: [真姬, 彩蛋, 涂鸦]
@@ -128,11 +128,11 @@
   weapon: MG
 - id: 10008
   familyName:
-    zh: 美甘
+    cn: 美甘
     jp: 美甘
     en: Mikamo
   name:
-    zh: 尼禄
+    cn: 尼禄
     jp: ネル
     en: Neru
   nickname: []
@@ -144,11 +144,11 @@
   weapon: SMG
 - id: 10009
   familyName:
-    zh: 狮子堂
+    cn: 狮子堂
     jp: 獅子堂
     en: Shishidou
   name:
-    zh: 泉
+    cn: 泉
     jp: イズミ
     en: Izumi
   nickname: [汉堡妹, 老八]
@@ -160,11 +160,11 @@
   weapon: MG
 - id: 10010
   familyName:
-    zh: 砂狼
+    cn: 砂狼
     jp: 砂狼
     en: Sunaookami
   name:
-    zh: 白子
+    cn: 白子
     jp: シロコ
     en: Shiroko
   nickname: [xcw, 小仓唯]
@@ -176,11 +176,11 @@
   weapon: AR
 - id: 10011
   familyName:
-    zh: 春原
+    cn: 春原
     jp: 春原
     en: Sunohara
   name:
-    zh: 瞬
+    cn: 瞬
     jp: シュン
     en: Shun
   nickname: [梅花狙, 教官, 旬]
@@ -192,11 +192,11 @@
   weapon: SR
 - id: 10012
   familyName:
-    zh: 乙花
+    cn: 乙花
     jp: 乙花
     en: Otohana
   name:
-    zh: 堇
+    cn: 堇
     jp: スミレ
     en: Sumire
   nickname: [运动妹]
@@ -208,11 +208,11 @@
   weapon: SG
 - id: 10013
   familyName:
-    zh: 剑先
+    cn: 剑先
     jp: 剣先
     en: Kenzaki
   name:
-    zh: 鹤城
+    cn: 鹤城
     jp: ツルギ
     en: Tsurugi
   nickname: [颜艺姐, 弦生]
@@ -224,11 +224,11 @@
   weapon: SG
 - id: 13000
   familyName:
-    zh: 室笠
+    cn: 室笠
     jp: 室笠
     en: Murokasa
   name:
-    zh: 朱音
+    cn: 朱音
     jp: アカネ
     en: Akane
   nickname: [破甲女仆, 茜]
@@ -240,11 +240,11 @@
   weapon: HG
 - id: 13001
   familyName:
-    zh: 和乐
+    cn: 和乐
     jp: 和楽
     en: Waraku
   name:
-    zh: 千世
+    cn: 千世
     jp: チセ
     en: Chise
   nickname: []
@@ -256,11 +256,11 @@
   weapon: GL
 - id: 13002
   familyName:
-    zh: 鳄渊
+    cn: 鳄渊
     jp: 鰐渕
     en: Wanibuchi
   name:
-    zh: 明里
+    cn: 明里
     jp: アカリ
     en: Akari
   nickname: [朱里, 亚伽里]
@@ -272,11 +272,11 @@
   weapon: AR
 - id: 13003
   familyName:
-    zh: 羽川
+    cn: 羽川
     jp: 羽川
     en: Hanekawa
   name:
-    zh: 莲见
+    cn: 莲见
     jp: ハスミ
     en: Hasumi
   nickname: []
@@ -288,11 +288,11 @@
   weapon: SR
 - id: 13004
   familyName:
-    zh: 十六夜
+    cn: 十六夜
     jp: 十六夜
     en: Izayoi
   name:
-    zh: 野宫
+    cn: 野宫
     jp: ノノミ
     en: Nonomi
   nickname: [富婆, nnm]
@@ -304,11 +304,11 @@
   weapon: MG
 - id: 13005
   familyName:
-    zh: 鬼方
+    cn: 鬼方
     jp: 鬼方
     en: Onikata
   name:
-    zh: 佳代子
+    cn: 佳代子
     jp: カヨコ
     en: Kayoko
   nickname: [恐惧枪]
@@ -320,11 +320,11 @@
   weapon: HG
 - id: 13006
   familyName:
-    zh: 浅黄
+    cn: 浅黄
     jp: 浅黄
     en: Asagi
   name:
-    zh: 睦月
+    cn: 睦月
     jp: ムツキ
     en: Mutsuki
   nickname: [无月, 地雷妹]
@@ -336,11 +336,11 @@
   weapon: MG
 - id: 13007
   familyName:
-    zh: 赤司
+    cn: 赤司
     jp: 赤司
     en: Akashi
   name:
-    zh: 纯子
+    cn: 纯子
     jp: ジュンコ
     en: Junko
   nickname: [牛牛, 淳子, 丸子]
@@ -352,11 +352,11 @@
   weapon: AR
 - id: 13008
   familyName:
-    zh: 黑见
+    cn: 黑见
     jp: 黒見
     en: Kuromi
   name:
-    zh: 芹香
+    cn: 芹香
     jp: セリカ
     en: Serika
   nickname: [黑猫, 茜香]
@@ -368,11 +368,11 @@
   weapon: AR
 - id: 13009
   familyName:
-    zh: 春日
+    cn: 春日
     jp: 春日
     en: Kasuga
   name:
-    zh: 椿
+    cn: 椿
     jp: ツバキ
     en: Tsubaki
   nickname: [狗盾, 神秘盾]
@@ -384,11 +384,11 @@
   weapon: SMG
 - id: 13010
   familyName:
-    zh: 早濑
+    cn: 早濑
     jp: 早瀬
     en: Hayase
   name:
-    zh: 优香
+    cn: 优香
     jp: ユウカ
     en: Yuuka
   nickname: [没包人, 半包人, 管账婆, 阻冲之, 佑香]
@@ -400,11 +400,11 @@
   weapon: SMG
 - id: 16000
   familyName:
-    zh: 伊草
+    cn: 伊草
     jp: 伊草
     en: Igusa
   name:
-    zh: 遥香
+    cn: 遥香
     jp: ハルカ
     en: Haruka
   nickname: [春香, 德棍]
@@ -416,11 +416,11 @@
   weapon: SG
 - id: 16001
   familyName:
-    zh: 一之濑
+    cn: 一之濑
     jp: 一之瀬
     en: Ichinose
   name:
-    zh: 明日奈
+    cn: 明日奈
     jp: アスナ
     en: Asuna
   nickname: [亚丝娜]
@@ -432,11 +432,11 @@
   weapon: AR
 - id: 16002
   familyName:
-    zh: 丰见
+    cn: 丰见
     jp: 豊見
     en: Toyomi
   name:
-    zh: 小鸟
+    cn: 小鸟
     jp: コトリ
     en: Kotori
   nickname: [护盾妹, 亚都梨, 柯托莉]
@@ -448,11 +448,11 @@
   weapon: MG
 - id: 16003
   familyName:
-    zh: 守月
+    cn: 守月
     jp: 守月
     en: Morizuki
   name:
-    zh: 铃美
+    cn: 铃美
     jp: スズミ
     en: Suzumi
   nickname: []
@@ -464,11 +464,11 @@
   weapon: AR
 - id: 16004
   familyName:
-    zh: 朝比奈
+    cn: 朝比奈
     jp: 朝比奈
     en: Asahina
   name:
-    zh: 菲娜
+    cn: 菲娜
     jp: フィーナ
     en: Pina
   nickname: [不死鸟]
@@ -480,11 +480,11 @@
   weapon: MG
 - id: 20000
   familyName:
-    zh: 猫冢
+    cn: 猫冢
     jp: 猫塚
     en: Nekozuka
   name:
-    zh: 响
+    cn: 响
     jp: ヒビキ
     en: Hibiki
   nickname: [迫击炮]
@@ -496,11 +496,11 @@
   weapon: MT
 - id: 20001
   familyName:
-    zh: 角楯
+    cn: 角楯
     jp: 角楯
     en: Kakudate
   name:
-    zh: 花凛
+    cn: 花凛
     jp: カリン
     en: Karin
   nickname: [黑皮, 花梨]
@@ -512,11 +512,11 @@
   weapon: SR
 - id: 20002
   familyName:
-    zh: 药子
+    cn: 药子
     jp: 薬子
     en: Yakushi
   name:
-    zh: 沙耶
+    cn: 沙耶
     jp: サヤ
     en: Saya
   nickname: [鼠鼠, 老鼠妹, 纱绫]
@@ -528,11 +528,11 @@
   weapon: HG
 - id: 23000
   familyName:
-    zh: 栗村
+    cn: 栗村
     jp: 栗村
     en: Kurimura
   name:
-    zh: 爱莉
+    cn: 爱莉
     jp: アイリ
     en: Airi
   nickname: []
@@ -544,11 +544,11 @@
   weapon: SMG
 - id: 23001
   familyName:
-    zh: 爱清
+    cn: 爱清
     jp: 愛清
     en: Aikiyo
   name:
-    zh: 枫香
+    cn: 枫香
     jp: フウカ
     en: Fuuka
   nickname: [煮饭婆]
@@ -560,11 +560,11 @@
   weapon: SMG
 - id: 23002
   familyName:
-    zh: 朝颜
+    cn: 朝颜
     jp: 朝顔
     en: Asagao
   name:
-    zh: 花绘
+    cn: 花绘
     jp: ハナエ
     en: Hanae
   nickname: [花江]
@@ -576,11 +576,11 @@
   weapon: AR
 - id: 23003
   familyName:
-    zh: 小钩
+    cn: 小钩
     jp: 小鈎
     en: Omagari
   name:
-    zh: 晴
+    cn: 晴
     jp: ハレ
     en: Hare
   nickname: [小勾八]
@@ -592,11 +592,11 @@
   weapon: AR
 - id: 23004
   familyName:
-    zh: 白石
+    cn: 白石
     jp: 白石
     en: Shiraishi
   name:
-    zh: 咏叶
+    cn: 咏叶
     jp: ウタハ
     en: Utaha
   nickname: [炮台]
@@ -608,11 +608,11 @@
   weapon: SMG
 - id: 23005
   familyName:
-    zh: 奥空
+    cn: 奥空
     jp: 奥空
     en: Okusora
   name:
-    zh: 绫音
+    cn: 绫音
     jp: アヤネ
     en: Ayane
   nickname: []
@@ -624,11 +624,11 @@
   weapon: HG
 - id: 26000
   familyName:
-    zh: 火宫
+    cn: 火宫
     jp: 火宮
     en: Hinomiya
   name:
-    zh: 千夏
+    cn: 千夏
     jp: チナツ
     en: Chinatsu
   nickname: [闪避奶]
@@ -640,11 +640,11 @@
   weapon: HG
 - id: 26001
   familyName:
-    zh: 音濑
+    cn: 音濑
     jp: 音瀬
     en: Otose
   name:
-    zh: 小玉
+    cn: 小玉
     jp: コタマ
     en: Kotama
   nickname: []
@@ -656,11 +656,11 @@
   weapon: HG
 - id: 26002
   familyName:
-    zh: 牛牧
+    cn: 牛牧
     jp: 牛牧
     en: Ushimaki
   name:
-    zh: 茱莉
+    cn: 茱莉
     jp: ジュリ
     en: Juri
   nickname: []
@@ -672,11 +672,11 @@
   weapon: SG
 - id: 26003
   familyName:
-    zh: 鹫见
+    cn: 鹫见
     jp: 鷲見
     en: Sumi
   name:
-    zh: 芹娜
+    cn: 芹娜
     jp: セリナ
     en: Serina
   nickname: [小护士]
@@ -688,11 +688,11 @@
   weapon: AR
 - id: 26004
   familyName:
-    zh: 圆堂
+    cn: 圆堂
     jp: 円堂
     en: Endou
   name:
-    zh: 志美子
+    cn: 志美子
     jp: シミコ
     en: Shimiko
   nickname: []
@@ -704,11 +704,11 @@
   weapon: AR
 - id: 26005
   familyName:
-    zh: 伊原木
+    cn: 伊原木
     jp: 伊原木
     en: Ibaragi
   name:
-    zh: 喜美
+    cn: 喜美
     jp: ヨシミ
     en: Yoshimi
   nickname: [好美]
@@ -720,11 +720,11 @@
   weapon: AR
 - id: 20003
   familyName:
-    zh: 静山
+    cn: 静山
     jp: 静山
     en: Shizuyama
   name:
-    zh: 真白
+    cn: 真白
     jp: マシロ
     en: Mashiro
   nickname: [天台狙]
@@ -736,11 +736,11 @@
   weapon: SR
 - id: 10014
   familyName:
-    zh: 久田
+    cn: 久田
     jp: 久田
     en: Kuda
   name:
-    zh: 泉奈
+    cn: 泉奈
     jp: イズナ
     en: Izuna
   nickname: [伊树菜, 小狐狸, 忍忍]
@@ -752,11 +752,11 @@
   weapon: SMG
 - id: 23006
   familyName:
-    zh: 河和
+    cn: 河和
     jp: 河和
     en: Kawawa
   name:
-    zh: 静子
+    cn: 静子
     jp: シズコ
     en: Shizuko
   nickname: []
@@ -768,11 +768,11 @@
   weapon: SG
 - id: 10015
   familyName:
-    zh: 天童
+    cn: 天童
     jp: 天童
     en: Tendou
   name:
-    zh: 爱丽丝
+    cn: 爱丽丝
     jp: アリス
     en: Aris
   nickname: []
@@ -784,11 +784,11 @@
   weapon: RG
 - id: 10016
   familyName:
-    zh: 才羽
+    cn: 才羽
     jp: 才羽
     en: Saiba
   name:
-    zh: 绿
+    cn: 绿
     jp: ミドリ
     en: Midori
   nickname: [翠]
@@ -800,11 +800,11 @@
   weapon: SR
 - id: 13011
   familyName:
-    zh: 才羽
+    cn: 才羽
     jp: 才羽
     en: Saiba
   name:
-    zh: 桃井
+    cn: 桃井
     jp: モモイ
     en: Momoi
   nickname: [桃衣, 粉猫]
@@ -816,11 +816,11 @@
   weapon: AR
 - id: 10017
   familyName:
-    zh: 连河
+    cn: 连河
     jp: 連河
     en: Renkawa
   name:
-    zh: 切里诺
+    cn: 切里诺
     jp: チェリノ
     en: Cherino
   nickname: [斯大林, 斯大萝]
@@ -832,11 +832,11 @@
   weapon: HG
 - id: 26006
   familyName:
-    zh: 天见
+    cn: 天见
     jp: 天見
     en: Amami
   name:
-    zh: 和香
+    cn: 和香
     jp: ノドカ
     en: Nodoka
   nickname: [望远镜, 偷窥狂]
@@ -848,11 +848,11 @@
   weapon: SMG
 - id: 10018
   familyName:
-    zh: 花冈
+    cn: 花冈
     jp: 花岡
     en: Hanaoka
   name:
-    zh: 柚子
+    cn: 柚子
     jp: ユズ
     en: Yuzu
   nickname: []
@@ -864,11 +864,11 @@
   weapon: GL
 - id: 10019
   familyName:
-    zh: 白洲
+    cn: 白洲
     jp: 白洲
     en: Shirasu
   name:
-    zh: 梓
+    cn: 梓
     jp: アズサ
     en: Azusa
   nickname: []
@@ -880,11 +880,11 @@
   weapon: AR
 - id: 23007
   familyName:
-    zh: 浦和
+    cn: 浦和
     jp: 浦和
     en: Urawa
   name:
-    zh: 花子
+    cn: 花子
     jp: ハナコ
     en: Hanako
   nickname: []
@@ -896,11 +896,11 @@
   weapon: AR
 - id: 10020
   familyName:
-    zh: 下江
+    cn: 下江
     jp: 下江
     en: Shimoe
   name:
-    zh: 小春
+    cn: 小春
     jp: コハル
     en: Koharu
   nickname: []
@@ -912,11 +912,11 @@
   weapon: SR
 - id: 10021
   familyName:
-    zh: 白洲
+    cn: 白洲
     jp: 白洲
     en: Shirasu
   name:
-    zh: 梓(泳装)
+    cn: 梓(泳装)
     jp: アズサ（水着）
     en: Azusa (Swimsuit)
   nickname: []
@@ -928,11 +928,11 @@
   weapon: AR
 - id: 20004
   familyName:
-    zh: 静山
+    cn: 静山
     jp: 静山
     en: Shizuyama
   name:
-    zh: 真白(泳装)
+    cn: 真白(泳装)
     jp: マシロ（水着）
     en: Mashiro (Swimsuit)
   nickname: [水真白]
@@ -944,11 +944,11 @@
   weapon: SR
 - id: 16005
   familyName:
-    zh: 剑先
+    cn: 剑先
     jp: 剣先
     en: Kenzaki
   name:
-    zh: 鹤城(泳装)
+    cn: 鹤城(泳装)
     jp: ツルギ（水着）
     en: Tsurugi (Swimsuit)
   nickname: [水颜艺, 水鹤城]
@@ -960,11 +960,11 @@
   weapon: SG
 - id: 20005
   familyName:
-    zh: 阿慈谷
+    cn: 阿慈谷
     jp: 阿慈谷
     en: Ajitani
   name:
-    zh: 日富美(泳装)
+    cn: 日富美(泳装)
     jp: ヒフミ（水着）
     en: Hifumi (Swimsuit)
   nickname: [小天使, 一二三, '123', 浮士德, 水鸡妹, 水日富美]
@@ -976,11 +976,11 @@
   weapon: AR
 - id: 10022
   familyName:
-    zh: 空崎
+    cn: 空崎
     jp: 空崎
     en: Sorasaki
   name:
-    zh: 日奈(泳装)
+    cn: 日奈(泳装)
     jp: ヒナ（水着）
     en: Hina (Swimsuit)
   nickname: [水日奈, 水魔王, 水阳奈]
@@ -992,11 +992,11 @@
   weapon: MG
 - id: 10023
   familyName:
-    zh: 银镜
+    cn: 银镜
     jp: 銀鏡
     en: Shiromi
   name:
-    zh: 伊织(泳装)
+    cn: 伊织(泳装)
     jp: イオリ（水着）
     en: Iori (Swimsuit)
   nickname: [水佐仓]
@@ -1008,11 +1008,11 @@
   weapon: SR
 - id: 16006
   familyName:
-    zh: 狮子堂
+    cn: 狮子堂
     jp: 獅子堂
     en: Shishidou
   name:
-    zh: 泉(泳装)
+    cn: 泉(泳装)
     jp: イズミ（水着）
     en: Izumi (Swimsuit)
   nickname: [汉堡妹, 老八, 水泉, 水老八, 水汉堡, 西瓜妹]
@@ -1024,11 +1024,11 @@
   weapon: MG
 - id: 10024
   familyName:
-    zh: 砂狼
+    cn: 砂狼
     jp: 砂狼
     en: Sunaookami
   name:
-    zh: 白子(单车)
+    cn: 白子(单车)
     jp: シロコ（ライディング）
     en: Shiroko (Cycling)
   nickname: [xcw, 小车唯]
@@ -1040,11 +1040,11 @@
   weapon: AR
 - id: 10025
   familyName:
-    zh: 春原
+    cn: 春原
     jp: 春原
     en: Sunohara
   name:
-    zh: 瞬(幼女)
+    cn: 瞬(幼女)
     jp: シュン（幼女）
     en: Shun (Small)
   nickname: [铜花瞬, 旬]
@@ -1056,11 +1056,11 @@
   weapon: SR
 - id: 13012
   familyName:
-    zh: 中务
+    cn: 中务
     jp: 中務
     en: Nakatsukasa
   name:
-    zh: 桐乃
+    cn: 桐乃
     jp: キリノ
     en: Kirino
   nickname: []
@@ -1072,11 +1072,11 @@
   weapon: HG
 - id: 20006
   familyName:
-    zh: 药子
+    cn: 药子
     jp: 薬子
     en: Yakushi
   name:
-    zh: 沙耶(私服)
+    cn: 沙耶(私服)
     jp: サヤ（私服）
     en: Saya (Casual)
   nickname: [私服老鼠, 纱绫]
@@ -1088,11 +1088,11 @@
   weapon: HG
 - id: 10026
   familyName:
-    zh: 美甘
+    cn: 美甘
     jp: 美甘
     en: Mikamo
   name:
-    zh: 尼禄(兔女郎)
+    cn: 尼禄(兔女郎)
     jp: ネル（バニーガール）
     en: Neru (Bunny)
   nickname: [兔女郎尼禄, 红兔]
@@ -1104,11 +1104,11 @@
   weapon: SMG
 - id: 10027
   familyName:
-    zh: 角楯
+    cn: 角楯
     jp: 角楯
     en: Kakudate
   name:
-    zh: 花凛(兔女郎)
+    cn: 花凛(兔女郎)
     jp: カリン（バニーガール）
     en: Karin (Bunny)
   nickname: [黑皮, 花梨, 兔女郎花凛, 黑兔]
@@ -1120,11 +1120,11 @@
   weapon: SR
 - id: 10028
   familyName:
-    zh: 一之濑
+    cn: 一之濑
     jp: 一之瀬
     en: Ichinose
   name:
-    zh: 明日奈(兔女郎)
+    cn: 明日奈(兔女郎)
     jp: アスナ（バニーガール）
     en: Asuna (Bunny)
   nickname: [亚丝娜, 兔丝娜]
@@ -1136,11 +1136,11 @@
   weapon: AR
 - id: 10029
   familyName:
-    zh: 柚鸟
+    cn: 柚鸟
     jp: 柚鳥
     en: Yutori
   name:
-    zh: 夏
+    cn: 夏
     jp: ナツ
     en: Natsu
   nickname: [康纳, 哲学家]
@@ -1152,11 +1152,11 @@
   weapon: SMG
 - id: 23008
   familyName:
-    zh: 伊落
+    cn: 伊落
     jp: 伊落
     en: Iochi
   name:
-    zh: 玛丽
+    cn: 玛丽
     jp: マリー
     en: Mari
   nickname: [修女]
@@ -1168,11 +1168,11 @@
   weapon: HG
 - id: 20007
   familyName:
-    zh: 初音
+    cn: 初音
     jp: 初音
     en: Hatsune
   name:
-    zh: 初音未来
+    cn: 初音未来
     jp: 初音ミク
     en: Hatsune Miku
   nickname: []
@@ -1184,11 +1184,11 @@
   weapon: GL
 - id: 20008
   familyName:
-    zh: 天雨
+    cn: 天雨
     jp: 天雨
     en: Amau
   name:
-    zh: 亚子
+    cn: 亚子
     jp: アコ
     en: Ako
   nickname: []
@@ -1200,11 +1200,11 @@
   weapon: HG
 - id: 20009
   familyName:
-    zh: 连河
+    cn: 连河
     jp: 連河
     en: Renkawa
   name:
-    zh: 切里诺(温泉)
+    cn: 切里诺(温泉)
     jp: チェリノ（温泉）
     en: Cherino (Hot Spring)
   nickname: [斯大林, 斯大萝]
@@ -1216,11 +1216,11 @@
   weapon: HG
 - id: 10030
   familyName:
-    zh: 火宫
+    cn: 火宫
     jp: 火宮
     en: Hinomiya
   name:
-    zh: 千夏(温泉)
+    cn: 千夏(温泉)
     jp: チナツ（温泉）
     en: Chinatsu (Hot Spring)
   nickname: [闪避奶, 温泉千夏]
@@ -1232,11 +1232,11 @@
   weapon: HG
 - id: 16007
   familyName:
-    zh: 佐城
+    cn: 佐城
     jp: 佐城
     en: Sashiro
   name:
-    zh: 巴
+    cn: 巴
     jp: トモエ
     en: Tomoe
   nickname: [智惠]
@@ -1248,11 +1248,11 @@
   weapon: SR
 - id: 20010
   familyName:
-    zh: 天见
+    cn: 天见
     jp: 天見
     en: Amami
   name:
-    zh: 和香(温泉)
+    cn: 和香(温泉)
     jp: ノドカ（温泉）
     en: Nodoka (Hot Spring)
   nickname: [望远镜, 偷窥狂]
@@ -1264,11 +1264,11 @@
   weapon: SMG
 - id: 10031
   familyName:
-    zh: 陆八魔
+    cn: 陆八魔
     jp: 陸八魔
     en: Rikuhachima
   name:
-    zh: 阿露(正月)
+    cn: 阿露(正月)
     jp: アル（正月）
     en: Aru (New Year)
   nickname: [春社长]
@@ -1280,11 +1280,11 @@
   weapon: SR
 - id: 10032
   familyName:
-    zh: 浅黄
+    cn: 浅黄
     jp: 浅黄
     en: Asagi
   name:
-    zh: 睦月(正月)
+    cn: 睦月(正月)
     jp: ムツキ（正月）
     en: Mutsuki (New Year)
   nickname: [春月, 正月睦月]
@@ -1296,11 +1296,11 @@
   weapon: MG
 - id: 20011
   familyName:
-    zh: 黑见
+    cn: 黑见
     jp: 黒見
     en: Kuromi
   name:
-    zh: 芹香(正月)
+    cn: 芹香(正月)
     jp: セリカ（正月）
     en: Serika (New Year)
   nickname: [黑猫, 春黑]
@@ -1312,11 +1312,11 @@
   weapon: AR
 - id: 10033
   familyName:
-    zh: 狐坂
+    cn: 狐坂
     jp: 狐坂
     en: Kosaka
   name:
-    zh: 若藻
+    cn: 若藻
     jp: ワカモ
     en: Wakamo
   nickname: [大狐狸]
@@ -1328,11 +1328,11 @@
   weapon: SR
 - id: 16008
   familyName:
-    zh: 合欢垣
+    cn: 合欢垣
     jp: 合歓垣
     en: Nemugaki
   name:
-    zh: 吹雪
+    cn: 吹雪
     jp: フブキ
     en: Fubuki
   nickname: [摆烂人]
@@ -1344,11 +1344,11 @@
   weapon: SR
 - id: 20012
   familyName:
-    zh: 冰室
+    cn: 冰室
     jp: 氷室
     en: Himuro
   name:
-    zh: 濑名
+    cn: 濑名
     jp: セナ
     en: Sena
   nickname: [救护车]
@@ -1360,11 +1360,11 @@
   weapon: GL
 - id: 20013
   familyName:
-    zh: 各务
+    cn: 各务
     jp: 各務
     en: Kagami
   name:
-    zh: 千寻
+    cn: 千寻
     jp: チヒロ
     en: Chihiro
   nickname: []
@@ -1376,11 +1376,11 @@
   weapon: AR
 - id: 10034
   familyName:
-    zh: 水羽
+    cn: 水羽
     jp: 水羽
     en: Mizuha
   name:
-    zh: 三森
+    cn: 三森
     jp: ミモリ
     en: Mimori
   nickname: []
@@ -1392,11 +1392,11 @@
   weapon: HG
 - id: 10035
   familyName:
-    zh: 古关
+    cn: 古关
     jp: 古関
     en: Kozeki
   name:
-    zh: 忧
+    cn: 忧
     jp: ウイ
     en: Ui
   nickname: []
@@ -1408,11 +1408,11 @@
   weapon: SR
 - id: 10036
   familyName:
-    zh: 若叶
+    cn: 若叶
     jp: 若葉
     en: Wakaba
   name:
-    zh: 日向
+    cn: 日向
     jp: ヒナタ
     en: Hinata
   nickname: []
@@ -1424,11 +1424,11 @@
   weapon: HG
 - id: 10037
   familyName:
-    zh: 池仓
+    cn: 池仓
     jp: 池倉
     en: Ikekura
   name:
-    zh: 玛利娜
+    cn: 玛利娜
     jp: マリナ
     en: Marina
   nickname: [保洁阿姨]
@@ -1440,11 +1440,11 @@
   weapon: SMG
 - id: 10038
   familyName:
-    zh: 月雪
+    cn: 月雪
     jp: 月雪
     en: Tsukiyuki
   name:
-    zh: 宫子
+    cn: 宫子
     jp: ミヤコ
     en: Miyako
   nickname: []
@@ -1456,11 +1456,11 @@
   weapon: SMG
 - id: 20014
   familyName:
-    zh: 空井
+    cn: 空井
     jp: 空井
     en: Sorai
   name:
-    zh: 咲
+    cn: 咲
     jp: サキ
     en: Saki
   nickname: []
@@ -1472,11 +1472,11 @@
   weapon: MG
 - id: 10039
   familyName:
-    zh: 霞泽
+    cn: 霞泽
     jp: 霞沢
     en: Kasumizawa
   name:
-    zh: 美游
+    cn: 美游
     jp: ミユ
     en: Miyu
   nickname: []
@@ -1488,11 +1488,11 @@
   weapon: SR
 - id: 20015
   familyName:
-    zh: 勇美
+    cn: 勇美
     jp: 勇美
     en: Isami
   name:
-    zh: 枫
+    cn: 枫
     jp: カエデ
     en: Kaede
   nickname: []
@@ -1504,11 +1504,11 @@
   weapon: HG
 - id: 20016
   familyName:
-    zh: 枣
+    cn: 枣
     jp: 棗
     en: Natsume
   name:
-    zh: 伊吕波
+    cn: 伊吕波
     jp: イロハ
     en: Iroha
   nickname: [168, 彩叶]
@@ -1520,11 +1520,11 @@
   weapon: HG
 - id: 16009
   familyName:
-    zh: 千鸟
+    cn: 千鸟
     jp: 千鳥
     en: Chidori
   name:
-    zh: 满
+    cn: 满
     jp: ミチル
     en: Michiru
   nickname: []
@@ -1536,11 +1536,11 @@
   weapon: SG
 - id: 10040
   familyName:
-    zh: 大野
+    cn: 大野
     jp: 大野
     en: Oono
   name:
-    zh: 月咏
+    cn: 月咏
     jp: ツクヨ
     en: Tsukuyo
   nickname: [大只女]
@@ -1552,11 +1552,11 @@
   weapon: SMG
 - id: 10041
   familyName:
-    zh: 戒野
+    cn: 戒野
     jp: 戒野
     en: Imashino
   name:
-    zh: 美咲
+    cn: 美咲
     jp: ミサキ
     en: Misaki
   nickname: []
@@ -1568,11 +1568,11 @@
   weapon: RL
 - id: 20017
   familyName:
-    zh: 槌永
+    cn: 槌永
     jp: 槌永
     en: Tsuchinaga
   name:
-    zh: 日和
+    cn: 日和
     jp: ヒヨリ
     en: Hiyori
   nickname: []
@@ -1584,11 +1584,11 @@
   weapon: SR
 - id: 10042
   familyName:
-    zh: 秤
+    cn: 秤
     jp: 秤
     en: Hakari
   name:
-    zh: 亚津子
+    cn: 亚津子
     jp: アツコ
     en: Atsuko
   nickname: [公主]
@@ -1600,11 +1600,11 @@
   weapon: SMG
 - id: 10043
   familyName:
-    zh: 狐坂
+    cn: 狐坂
     jp: 狐坂
     en: Kosaka
   name:
-    zh: 若藻(泳装)
+    cn: 若藻(泳装)
     jp: ワカモ（水着）
     en: Wakamo (Swimsuit)
   nickname: [水藻]
@@ -1616,11 +1616,11 @@
   weapon: SR
 - id: 10044
   familyName:
-    zh: 十六夜
+    cn: 十六夜
     jp: 十六夜
     en: Izayoi
   name:
-    zh: 野宫(泳装)
+    cn: 野宫(泳装)
     jp: ノノミ（水着）
     en: Nonomi (Swimsuit)
   nickname: [水富婆, 水nnm]
@@ -1632,11 +1632,11 @@
   weapon: MG
 - id: 26007
   familyName:
-    zh: 奥空
+    cn: 奥空
     jp: 奥空
     en: Okusora
   name:
-    zh: 绫音(泳装)
+    cn: 绫音(泳装)
     jp: アヤネ（水着）
     en: Ayane (Swimsuit)
   nickname: [水绫音, 直升机]
@@ -1648,11 +1648,11 @@
   weapon: HG
 - id: 10045
   familyName:
-    zh: 小鸟游
+    cn: 小鸟游
     jp: 小鳥遊
     en: Takanashi
   name:
-    zh: 星野(泳装)
+    cn: 星野(泳装)
     jp: ホシノ（水着）
     en: Hoshino (Swimsuit)
   nickname: [水大叔]
@@ -1664,11 +1664,11 @@
   weapon: SG
 - id: 26008
   familyName:
-    zh: 河和
+    cn: 河和
     jp: 河和
     en: Kawawa
   name:
-    zh: 静子(泳装)
+    cn: 静子(泳装)
     jp: シズコ（水着）
     en: Shizuko (Swimsuit)
   nickname: [水静子]
@@ -1680,11 +1680,11 @@
   weapon: SG
 - id: 10046
   familyName:
-    zh: 久田
+    cn: 久田
     jp: 久田
     en: Kuda
   name:
-    zh: 泉奈(泳装)
+    cn: 泉奈(泳装)
     jp: イズナ（水着）
     en: Izuna (Swimsuit)
   nickname: [小狐狸, 水忍忍]
@@ -1696,11 +1696,11 @@
   weapon: SMG
 - id: 10047
   familyName:
-    zh: 和乐
+    cn: 和乐
     jp: 和楽
     en: Waraku
   name:
-    zh: 千世(泳装)
+    cn: 千世(泳装)
     jp: チセ（水着）
     en: Chise (Swimsuit)
   nickname: []
@@ -1712,11 +1712,11 @@
   weapon: GL
 - id: 10048
   familyName:
-    zh: 锭前
+    cn: 锭前
     jp: 錠前
     en: Joumae
   name:
-    zh: 纱织
+    cn: 纱织
     jp: サオリ
     en: Saori
   nickname: []
@@ -1728,11 +1728,11 @@
   weapon: AR
 - id: 20018
   familyName:
-    zh: 风仓
+    cn: 风仓
     jp: 風倉
     en: Kazekura
   name:
-    zh: 萌绘
+    cn: 萌绘
     jp: モエ
     en: Moe
   nickname: []
@@ -1744,11 +1744,11 @@
   weapon: HG
 - id: 10049
   familyName:
-    zh: 杏山
+    cn: 杏山
     jp: 杏山
     en: Kyouyama
   name:
-    zh: 和纱
+    cn: 和纱
     jp: カズサ
     en: Kazusa
   nickname: []
@@ -1760,11 +1760,11 @@
   weapon: MG
 - id: 10050
   familyName:
-    zh: 春原
+    cn: 春原
     jp: 春原
     en: Sunohara
   name:
-    zh: 心奈
+    cn: 心奈
     jp: ココナ
     en: Kokona
   nickname: []
@@ -1776,11 +1776,11 @@
   weapon: AR
 - id: 10051
   familyName:
-    zh: 白石
+    cn: 白石
     jp: 白石
     en: Shiraishi
   name:
-    zh: 咏叶(应援团)
+    cn: 咏叶(应援团)
     jp: ウタハ（应援团）
     en: Utaha (Cheerleader)
   nickname: []
@@ -1792,11 +1792,11 @@
   weapon: SMG
 - id: 10052
   familyName:
-    zh: 生盐
+    cn: 生盐
     jp: 生塩
     en: Ushio
   name:
-    zh: 诺雅
+    cn: 诺雅
     jp: ノア
     en: Noa
   nickname: [生理盐水, 诺亚]
@@ -1808,11 +1808,11 @@
   weapon: HG
 - id: 16010
   familyName:
-    zh: 猫塚
+    cn: 猫塚
     jp: 猫塚
     en: Nekozuka
   name:
-    zh: 响（应援团）
+    cn: 响（应援团）
     jp: ヒビキ（应援团）
     en: Hibiki (Cheerleader)
   nickname: [迫击炮, 拉拉响, 啦啦响]
@@ -1824,11 +1824,11 @@
   weapon: MT
 - id: 20019
   familyName:
-    zh: 室笠
+    cn: 室笠
     jp: 室笠
     en: Murokasa
   name:
-    zh: 朱音(兔女郎)
+    cn: 朱音(兔女郎)
     jp: アカネ（バニーガール）
     en: Akane (Bunny)
   nickname: [白兔, 茜]
@@ -1840,11 +1840,11 @@
   weapon: HG
 - id: 10053
   familyName:
-    zh: 早濑
+    cn: 早濑
     jp: 早瀬
     en: Hayase
   name:
-    zh: 优香(体操服)
+    cn: 优香(体操服)
     jp: ユウカ（体操服）
     en: Yuuka
   nickname: [有包人, 管账婆, 阻冲之, 佑香, 体香]
@@ -1859,11 +1859,11 @@
     story: true
 - id: 10054
   familyName:
-    zh: 伊落
+    cn: 伊落
     jp: 伊落
     en: Iochi
   name:
-    zh: 玛丽(体操服)
+    cn: 玛丽(体操服)
     jp: マリー（体操服）
     en: Mari
   nickname: [修女]
@@ -1875,11 +1875,11 @@
   weapon: HG
 - id: 16011
   familyName:
-    zh: 羽川
+    cn: 羽川
     jp: 羽川
     en: Hanekawa
   name:
-    zh: 莲见(体操服)
+    cn: 莲见(体操服)
     jp: ハスミ（体操服）
     en: Hasumi
   nickname: []
@@ -1891,11 +1891,11 @@
   weapon: SR
 - id: 20020
   familyName:
-    zh: 明星
+    cn: 明星
     jp: 明星
     en: akeboshi
   name:
-    zh: 日鞠
+    cn: 日鞠
     jp: ヒマリ
     en: himari
   nickname: []
@@ -1907,11 +1907,11 @@
   weapon: HG
 - id: 10055
   familyName:
-    zh: 间宵
+    cn: 间宵
     jp: 間宵
     en: Mayoi
   name:
-    zh: 时雨
+    cn: 时雨
     jp: シグレ
     en: Shigure
   nickname: []

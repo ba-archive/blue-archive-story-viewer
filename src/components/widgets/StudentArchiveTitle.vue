@@ -15,6 +15,7 @@ function handleClick() {
 }
 
 const languageMap = {
+  cn: 'TextCn',
   zh: 'TextCn',
   tw: 'TextTw',
   en: 'TextEn',

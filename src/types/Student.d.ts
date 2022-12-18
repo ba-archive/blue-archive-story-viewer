@@ -8,13 +8,13 @@ export interface Student {
   club: string;
   affiliation: string;
   rarity: number;
-  type: string;
-  armorType: string;
-  weapon: string;
+  type: 'Striker' | 'Special';
+  armorType: 'LightArmor' | 'HeavyArmor' | 'Unarmed';
+  weapon: 'SG' | 'SMG' | 'AR' | 'GL' | 'HG' | 'RL' | 'SR' | 'RG' | 'MG' | 'MT';
 }
 
 export interface StudentName {
-  zh: string;
+  cn: string;
   jp: string;
   en: string;
 }

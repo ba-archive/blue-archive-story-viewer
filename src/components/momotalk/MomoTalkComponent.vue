@@ -131,6 +131,7 @@ function stripRubyContent(content: string | undefined): string {
 }
 
 const languageMap = {
+  cn: 'MessageCN',
   zh: 'MessageCN',
   tw: 'MessageTW',
   en: 'MessageEN',

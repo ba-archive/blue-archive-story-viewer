@@ -33,7 +33,7 @@ axios
   .then(response => {
     try {
       const students = response.data.sort((a: Student, b: Student) =>
-        a.name.zh.localeCompare(b.name.zh, 'zh-Hans-CN', {
+        a.name.cn.localeCompare(b.name.cn, 'zh-Hans-CN', {
           sensitivity: 'accent',
         })
       );
@@ -55,7 +55,7 @@ const studentsNameList = computed<StudentNames[]>(() => {
     return {
       id: student.id,
       allNames: [
-        student.name.zh,
+        student.name.cn,
         student.name.jp,
         student.name.en,
         ...student.nickname,

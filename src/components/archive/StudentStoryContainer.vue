@@ -26,7 +26,7 @@ const student = computed(() => {
 });
 
 const studentName = computed(() => {
-  return student.value?.name.zh;
+  return student.value?.name.cn;
 });
 </script>
 
