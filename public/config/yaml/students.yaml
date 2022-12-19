@@ -1921,3 +1921,35 @@
   type: Striker
   armorType: HeavyArmor
   weapon: GL
+- id: 10056
+  familyName:
+    cn: 鹫见
+    jp: 鷲見
+    en: Sumi
+  name:
+    cn: 芹娜(圣诞)
+    jp: セリナ（クリスマス）
+    en: Serina (Christmas)
+  nickname: [小护士]
+  club: 救护骑士团
+  affiliation: 圣三一
+  rarity: 3
+  type: Striker
+  armorType: Unarmed
+  weapon: AR
+- id: 20021
+  familyName:
+    cn: 朝颜
+    jp: 朝顔
+    en: Asagao
+  name:
+    cn: 花绘(圣诞)
+    jp: ハナエ（クリスマス）
+    en: Hanae (Christmas)
+  nickname: [花江]
+  club: 救护骑士团
+  affiliation: 圣三一
+  rarity: 3
+  type: Special
+  armorType: Unarmed
+  weapon: AR
