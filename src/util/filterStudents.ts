@@ -21,7 +21,6 @@ function isPossibleName(
     .toLowerCase()
     .replaceAll(specialCharacters, '');
   const lowercaseStudentNamesList = filteredNameList?.map(name => {
-    console.log(name);
     return name.toString().toLowerCase().replaceAll(specialCharacters, '');
   });
   lowercaseStudentNamesList?.forEach(studentName => {
