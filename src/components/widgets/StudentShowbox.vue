@@ -41,6 +41,7 @@ function getImagePath(id: number | undefined): string {
   grid-template-areas: 'avatar';
   place-items: center;
   overflow: hidden;
+  user-select: none;
 }
 
 .student-avatar {

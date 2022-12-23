@@ -1,7 +1,6 @@
 <template>
   <div class="flex-vertical rounded-small">
     <div class="title">// 这里本应该展示{{ studentName }}的好感剧情</div>
-    <div>// 但是</div>
     <router-link to="/contribute">
       <img
         class="hire"

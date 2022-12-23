@@ -3,7 +3,7 @@
     <h2>成为贡献者</h2>
     <p>如果你对这个项目感兴趣，欢迎成为贡献者！</p>
     <p>我们的路线图：</p>
-    <img class="roadmap" src="/src/assets/roadmap.webp" />
+    <img class="roadmap rounded-medium" src="/src/assets/roadmap.webp" />
     <br />
     <p>我们需要：</p>
     <ul>

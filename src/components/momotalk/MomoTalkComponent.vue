@@ -53,12 +53,13 @@
       <div class="favor-schedule-banner">
         <span>羁绊事件</span>
       </div>
-      <div
+      <router-link
+        :to="`/archive/${characterId}/story`"
         role="button"
         class="favor-schedule-button rounded-small shadow-near"
       >
         前往{{ studentName }}的羁绊事件
-      </div>
+      </router-link>
     </div>
   </div>
 </template>
@@ -76,7 +77,7 @@ const props = defineProps({
 
 const settingsStore = useSettingsStore();
 const studentStore = useStudentStore();
-const selectedLang = computed(() => settingsStore.getLang.replace('cn', 'zh'));
+const selectedLang = computed(() => settingsStore.getLang.replace('zh', 'cn'));
 
 const characterId = props.message?.CharacterId || 10000;
 const studentInfo = studentStore.getStudentById(characterId);
@@ -345,6 +346,7 @@ function getMessageText(
     padding: 0.5rem;
     color: var(--color-text-contrast);
     user-select: none;
+    text-decoration: none;
   }
 }
 </style>

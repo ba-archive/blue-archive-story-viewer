@@ -13,7 +13,6 @@
           <p>为玩家服务的民间组织，尊重官方设定</p>
         </a>
       </div>
-      <h3></h3>
     </article>
   </div>
 </template>
@@ -33,20 +32,23 @@ article {
 
 .contribution-wall {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+  grid-template-columns: repeat(auto-fill, 1fr);
   margin-top: 1rem;
 }
 
 .contribution-brick {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  grid-column-gap: 1rem;
+  display: grid;
+  grid-template-columns: min-content auto;
+  grid-template-areas:
+    'avatar title'
+    '. description';
   align-items: center;
   transition: all 0.375s ease-in-out;
   background-color: var(--color-card-background);
   padding: 1rem;
+  max-width: 16rem;
   color: var(--color-text-main);
-  text-align: center;
   text-decoration: none;
 
   &:hover {
@@ -54,28 +56,34 @@ article {
   }
 
   .avatar {
+    grid-area: avatar;
     border-radius: 50%;
-    width: 5rem;
-    height: 5rem;
+    width: 2.5rem;
+  }
+
+  h4 {
+    grid-area: title;
   }
 
   p {
+    grid-area: description;
     color: #bababa;
+    font-size: 0.9rem;
   }
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
   margin: 1rem auto 0.5rem;
 }
 
 @media screen and (max-width: 768px) {
   article {
-    width: 20rem;
+    width: fit-content;
+  }
+
+  .contribution-brick {
+    width: calc(100vw - 2rem);
+    max-width: unset;
   }
 }
 </style>
