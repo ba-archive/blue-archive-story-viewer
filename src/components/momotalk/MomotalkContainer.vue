@@ -69,9 +69,9 @@ axios
     momotalks.value.splitMomotalk = getSplitMomotalk(data.content);
   })
   .catch(e => {
-    fetchError.value = true;
-    fetchErrorMessage.value = e.message;
     console.error(e);
+    fetchError.value = true;
+    fetchErrorMessage.value = e;
   });
 
 function handleOpenTalks(index: number) {
