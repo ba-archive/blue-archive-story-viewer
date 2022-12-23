@@ -1311,14 +1311,14 @@
   weapon: GL
 - id: 10056
   familyName:
-    cn: 鷲見
+    cn: 鹫见
     jp: 鷲見
     en: Sumi
     kr: 스미
     tw: 鷲見
     th: 鷲見
   name:
-    cn: セリナ（クリスマス）
+    cn: 芹娜(圣诞)
     jp: セリナ（クリスマス）
     en: Serina (Christmas)
     kr: 세리나(크리스마스)
@@ -2422,7 +2422,7 @@
     tw: 朝顔
     th: 朝顔
   name:
-    cn: ハナエ（クリスマス）
+    cn: 花绘(圣诞)
     jp: ハナエ（クリスマス）
     en: Hanae (Christmas)
     kr: 하나에(크리스마스)
