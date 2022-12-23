@@ -214,19 +214,6 @@ body {
     BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans GB', Arial, sans-serif;
 }
 
-.username {
-  display: inline-flex;
-  border: none;
-  background: transparent;
-  max-width: 8rem;
-  color: var(--color-text-main);
-  font-weight: bold;
-  font-size: 1rem;
-  text-align: left;
-  text-decoration: underline;
-  text-underline-offset: 0.1rem;
-}
-
 // consistent scrollbar style on all desktop browsers
 @media screen and (min-width: 768px) {
   html[data-scrollbar='customize'] {

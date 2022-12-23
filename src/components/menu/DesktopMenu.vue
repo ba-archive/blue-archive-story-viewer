@@ -6,12 +6,7 @@
       </div>
       <div class="welcome-message">
         <p>欢迎，</p>
-        <input
-          class="username"
-          type="text"
-          :value="username"
-          @change="updateUsername"
-        />
+        <user-name-input />
         <span>老师</span>
       </div>
     </div>
@@ -47,20 +42,9 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue';
-import { useSettingsStore } from '../../store/settings';
 import LanguageSelector from '../widgets/LanguageSelector.vue';
 import ThemeSwitcher from '../widgets/ThemeSwitcher.vue';
-
-const settingsStore = useSettingsStore();
-const username = computed(() => settingsStore.getUsername);
-
-function updateUsername(event: Event) {
-  const target = event.target as HTMLInputElement;
-  const value = target.value.slice(0, 8);
-  settingsStore.setUsername(value);
-  target.style.width = `${Math.min(value.length, 8)}rem`;
-}
+import UserNameInput from '../widgets/UserNameInput.vue';
 </script>
 
 <style scoped lang="scss">
@@ -100,6 +84,7 @@ function updateUsername(event: Event) {
 
   .welcome-message {
     margin-left: 1rem;
+    color: var(--color-text-main);
     font-weight: bold;
     font-size: 1rem;
   }

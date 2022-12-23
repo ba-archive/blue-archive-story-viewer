@@ -6,12 +6,7 @@
           <img src="/src/assets/arona_icon.webp" alt="Arona" />
         </div>
         <div class="welcome-message">
-          <input
-            class="username"
-            type="text"
-            :value="username"
-            @change="updateUsername"
-          />
+          <user-name-input />
           <span>老师</span>
         </div>
       </div>
@@ -90,14 +85,12 @@
 </template>
 
 <script lang="ts" setup>
-import { computed, ref } from 'vue';
-import { useSettingsStore } from '../../store/settings';
+import { ref } from 'vue';
 import LanguageSelector from '../widgets/LanguageSelector.vue';
 import ThemeSwitcher from '../widgets/ThemeSwitcher.vue';
+import UserNameInput from '../widgets/UserNameInput.vue';
 
-const settingsStore = useSettingsStore();
 const showMenu = ref(false);
-const username = computed(() => settingsStore.getUsername);
 
 function toggleMenu() {
   showMenu.value = !showMenu.value;
@@ -105,13 +98,6 @@ function toggleMenu() {
 
 function closeMenu() {
   showMenu.value = false;
-}
-
-function updateUsername(event: Event) {
-  const target = event.target as HTMLInputElement;
-  const value = target.value.slice(0, 8);
-  settingsStore.setUsername(value);
-  target.style.width = `${Math.min(value.length, 8)}rem`;
 }
 </script>
 
