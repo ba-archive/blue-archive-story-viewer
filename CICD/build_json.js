@@ -50,9 +50,9 @@ walk(path.resolve(__dirname, '..', 'public', 'config', 'yaml'), pathname => {
             } else {
               const endTime = new Date().getTime();
               console.log(
-                `[${chalk.green('SUCCESS')}] ${jsonPath} ${chalk.gray(
-                  `${endTime - startTime}ms`
-                )}`
+                `[${chalk.green('SUCCESS')}] ${chalk.green(
+                  jsonPath
+                )} ${chalk.gray(`${endTime - startTime}ms`)}`
               );
             }
           });
