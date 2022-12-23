@@ -76,6 +76,10 @@ function getRelatedChat(GroupId: number): Momotalk[] | undefined {
   return momotalks.value.splitMomotalk.find(e => e.FavorScheduleId === GroupId)
     ?.splitMomotalkContent;
 }
+
+function getStudentAvatar(CharacterId: number): string {
+  return `/image/avatar_students/${CharacterId}.webp`;
+}
 </script>
 
 <template>
@@ -87,6 +91,7 @@ function getRelatedChat(GroupId: number): Momotalk[] | undefined {
     >
       <student-archive-title
         @clicked="handleOpenTalks(index)"
+        :avatar="getStudentAvatar(momotalks.CharacterId)"
         :title="chat"
         :language="language"
         :index="index"

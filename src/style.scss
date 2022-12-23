@@ -21,7 +21,8 @@ html {
   --color-card-background: #fff;
   --color-text-ingame: #344a6e;
   --color-text-contrast: #fff;
-  --color-title-container: #eeeeeeee;
+  --color-title-container: #ffffffd4;
+  --color-text-decoration: #ededed;
   --color-glass-panel: #f4f7ff42;
   --color-glass-panel-hover: #bcbfc451;
   --color-student-filter-background: #d7d9e1b3;
@@ -49,7 +50,7 @@ html {
 
   --color-shadow-near: hsl(210deg 55% 46% / 10%);
   --color-shadow-far: hsl(210deg 55% 46% / 17%);
-  --color-shadow-farther: hsl(210deg 55% 66% / 40%);
+  --color-shadow-farther: hsl(210deg 55% 66% / 20%);
 
   --style-switch-track-shadow: inset 0.2rem 0.2rem 0.35rem #d9d9d9,
     inset -0.15rem -0.15rem 0.3rem #fff;
@@ -75,6 +76,7 @@ html[data-theme='dark'] {
   --color-text-ingame: #eee;
   --color-text-contrast: #fff;
   --color-title-container: #404040ed;
+  --color-text-decoration: #5c5c5c;
   --color-glass-panel: #f4f7ff42;
   --color-glass-panel-border: #4b93dc;
   --color-student-filter-background: #2a2a2ab3;

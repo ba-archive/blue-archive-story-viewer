@@ -1,9 +1,9 @@
-<!--suppress JSIncompatibleTypesComparison -->
 <script setup lang="ts">
 import { computed } from 'vue';
 
 const emit = defineEmits(['clicked']);
 const props = defineProps({
+  avatar: { type: String, required: false, default: '' },
   title: { type: Object, required: true },
   index: { type: Number, required: false },
   language: { type: String, required: true },
@@ -41,21 +41,21 @@ function getFallbackTitle() {
 
 <template>
   <div
-    class="archive-title rounded-small shadow-farther"
+    class="archive-title rounded-medium shadow-farther"
     tabindex="0"
     @click="handleClick"
     @keydown.enter="handleClick"
     @keydown.space="handleClick"
   >
-    <p class="section-title">
-      <span class="ordered-list">{{
-        `${parseInt(index?.toString() || '0') + 1}`.padStart(2, '0')
-      }}</span>
+    <div class="section-title">
+      <img :src="props.avatar" class="avatar rounded-small" />
       <span class="title">{{
         selectedLangTitle || `!!FallBack: ${getFallbackTitle()}`
       }}</span>
-    </p>
-    <!-- eslint-disable max-len -->
+      <span class="ordered-list">{{
+        `${parseInt(index?.toString() || '0') + 1}`.padStart(2, '0')
+      }}</span>
+    </div>
     <svg
       class="navigate-arrow"
       :class="isActive ? 'open' : ''"
@@ -63,12 +63,13 @@ function getFallbackTitle() {
       xml:space="preserve"
       viewBox="0 0 451.8 451.8"
     >
+      <!-- eslint-disable max-len -->
       <path
         fill="#344A6E"
         d="M225.9 354.7c-8.1 0-16.2-3.1-22.4-9.3L9.3 151.2c-12.4-12.4-12.4-32.4 0-44.8C21.7 94 41.7 94 54 106.4l171.9 171.9 171.9-171.9c12.4-12.4 32.4-12.4 44.7 0 12.4 12.4 12.4 32.4 0 44.8L248.3 345.4c-6.2 6.2-14.3 9.3-22.4 9.3z"
       />
+      <!-- eslint-enable max-len -->
     </svg>
-    <!-- eslint-enable max-len -->
   </div>
 </template>
 
@@ -93,13 +94,23 @@ function getFallbackTitle() {
     justify-content: flex-start;
     align-items: center;
 
+    img.avatar {
+      width: 2rem;
+      height: 2rem;
+      object-fit: cover;
+    }
+
     .ordered-list {
-      border-right: 0.1rem solid lightgray;
-      padding-right: 0.5rem;
+      margin-left: 0.5rem;
+      color: var(--color-text-decoration);
+
+      &::before {
+        content: '#';
+      }
     }
 
     .title {
-      padding-left: 0.5rem;
+      margin-left: 0.5rem;
     }
   }
 

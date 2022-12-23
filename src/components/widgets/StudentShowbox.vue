@@ -46,7 +46,6 @@ function getImagePath(id: number | undefined): string {
 .student-avatar {
   grid-area: avatar;
   width: 100%;
-  //height: 100%;
   object-fit: cover;
 }
 

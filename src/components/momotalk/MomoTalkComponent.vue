@@ -187,7 +187,7 @@ function getMessageText(
 .student-reply {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .student-avatar {
