@@ -51,6 +51,7 @@ axios
     console.log(error);
     fetchError.value = true;
     fetchErrorMessage.value = error.message;
+    ready.value = true;
   });
 
 const students = computed(() => studentStore.getAllStudents);
