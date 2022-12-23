@@ -18,7 +18,7 @@ const username = computed(() => settingsStore.getUsername);
 
 function updateUsername(event: Event) {
   const target = event.target as HTMLInputElement;
-  const value = target.innerText || '';
+  const value = target.innerText ?? '';
   settingsStore.setUsername(value.slice(0, 10));
 }
 </script>
