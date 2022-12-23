@@ -54,15 +54,25 @@ function getSplitMomotalk(momotalkContent: Momotalk[]): SplitMomotalk[] {
   return splitMomotalk;
 }
 
-axios.get(`/config/json/momotalk/${route.params.id}.json`).then(res => {
-  const data = res.data as Momotalks;
-  momotalks.value.CharacterId = data.CharacterId;
-  momotalks.value.translator = data.translator;
-  momotalks.value.title = data.title;
-  momotalks.value.content = data.content;
+const fetchError = ref(false);
+const fetchErrorMessage = ref('');
 
-  momotalks.value.splitMomotalk = getSplitMomotalk(data.content);
-});
+axios
+  .get(`/config/json/momotalk/${route.params.id}.json`)
+  .then(res => {
+    const data = res.data as Momotalks;
+    momotalks.value.CharacterId = data.CharacterId;
+    momotalks.value.translator = data.translator;
+    momotalks.value.title = data.title;
+    momotalks.value.content = data.content;
+
+    momotalks.value.splitMomotalk = getSplitMomotalk(data.content);
+  })
+  .catch(e => {
+    fetchError.value = true;
+    fetchErrorMessage.value = e.message;
+    console.error(e);
+  });
 
 function handleOpenTalks(index: number) {
   if (opentalks.value.includes(index)) {
@@ -83,6 +93,23 @@ function getStudentAvatar(CharacterId: number): string {
 </script>
 
 <template>
+  <div class="error-container" v-if="fetchError">
+    <img src="/src/assets/network-error.svg" alt="Network Error" />
+    <div class="error-message">
+      <p>数据加载失败，请刷新页面重试。</p>
+      <!--eslint-disable max-len-->
+      <p>
+        如果多次刷新页面仍无效，请
+        <a
+          :href="`mailto:mail@blue-archive.io?subject=%E9%94%99%E8%AF%AF%E6%8A%A5%E5%91%8A%EF%BC%88blue-archive.io%EF%BC%89&body=Fetch failed with /config/json/momotalk/${route.params.id}.json: %0D%0A%0D%0A${fetchErrorMessage}%0D%0A%0D%0AOrigin: ${route.path}`"
+          target="_blank"
+          >联系我们</a
+        >。
+      </p>
+      <!--eslint-enable max-len-->
+      <p class="error-content">Error: {{ fetchErrorMessage }}</p>
+    </div>
+  </div>
   <div class="momotalk-component-container">
     <div
       class="momotalks-view-container flex-vertical"
