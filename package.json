@@ -10,12 +10,12 @@
     "build": "pnpm format; pnpm build:json && vue-tsc && vite build",
     "build:github": "pnpm build; cp ./dist/index.html ./dist/404.html",
     "preview": "pnpm build; vite preview --host",
-    "check": "eslint --config ./.eslintrc.json ./src/ ./CICD/ ./public/config/yaml/ --ext .js,.ts,.vue,.yml,.yaml"
+    "check": "eslint --config ./.eslintrc.json ./src/ ./CICD/ ./public/config/yaml/ --ext .js,.ts,.vue,.yml,.yaml && vue-tsc --noEmit"
   },
   "dependencies": {
     "@vue/compiler-sfc": "3.x",
     "axios": "1.2.1",
-    "axios-retry": "^3.3.1",
+    "axios-retry": "3.3.1",
     "fastest-levenshtein": "1.0.16",
     "pinia": "2.0.28",
     "pinia-plugin-persistedstate": "3.0.1",
@@ -36,7 +36,7 @@
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-sort-exports": "0.8.0",
     "eslint-plugin-vue": "9.8.0",
-    "eslint-plugin-yaml": "^0.5.0",
+    "eslint-plugin-yaml": "0.5.0",
     "js-yaml": "4.1.0",
     "postcss": "8.4.20",
     "prettier": "2.8.1",
