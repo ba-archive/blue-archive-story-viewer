@@ -12,6 +12,7 @@ import {
   StudentNames,
 } from '../../types/Student';
 import { filterStudents } from '../../util/filterStudents';
+import ErrorScreen from '../widgets/ErrorScreen.vue';
 import StudentShowbox from '../widgets/StudentShowbox.vue';
 
 const route = useRoute();
@@ -209,23 +210,11 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="error-container" v-if="fetchError">
-    <img src="/src/assets/network-error.svg" alt="Network Error" />
-    <div class="error-message">
-      <p>数据加载失败，请刷新页面重试。</p>
-      <!--eslint-disable max-len-->
-      <p>
-        如果多次刷新页面仍无效，请
-        <a
-          :href="`mailto:mail@blue-archive.io?subject=%E9%94%99%E8%AF%AF%E6%8A%A5%E5%91%8A%EF%BC%88blue-archive.io%EF%BC%89&body=Fetch failed with /config/json/students.json: %0D%0A%0D%0A${fetchErrorMessage}%0D%0A%0D%0AOrigin: ${route.path}`"
-          target="_blank"
-          >联系我们</a
-        >。
-      </p>
-      <!--eslint-enable max-len-->
-      <p class="error-content">Error: {{ fetchErrorMessage }}</p>
-    </div>
-  </div>
+  <error-screen
+    v-if="fetchError"
+    :error-message="fetchErrorMessage"
+    :route-path="route.path"
+  />
   <div class="loading" v-if="!ready">
     <div class="spinner">
       <span>{{ initProgress }}%</span>
@@ -504,6 +493,7 @@ onUnmounted(() => {
   display: flex;
   align-items: center;
   color: var(--color-text-main);
+  user-select: none;
 
   .clear-filter-button {
     mask-image: url('/src/assets/bin.svg');

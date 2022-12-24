@@ -216,26 +216,6 @@ body {
     BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans GB', Arial, sans-serif;
 }
 
-.error-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  img {
-    max-width: calc(100vw - 2rem);
-  }
-
-  p {
-    text-align: center;
-  }
-
-  .error-content {
-    margin-top: 1rem;
-    color: #ff3d00;
-  }
-}
-
 // consistent scrollbar style on all desktop browsers
 @media screen and (min-width: 768px) {
   html[data-scrollbar='customize'] {

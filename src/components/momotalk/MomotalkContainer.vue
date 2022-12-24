@@ -5,6 +5,7 @@ import { useRoute } from 'vue-router';
 import { useSettingsStore } from '../../store/settings';
 import { Momotalk, SplitMomotalk } from '../../types/Chats';
 import { Momotalks } from '../../types/Chats';
+import ErrorScreen from '../widgets/ErrorScreen.vue';
 import StudentArchiveTitle from '../widgets/StudentArchiveTitle.vue';
 import MomotalkViewer from './MomotalkViewer.vue';
 
@@ -93,23 +94,11 @@ function getStudentAvatar(CharacterId: number): string {
 </script>
 
 <template>
-  <div class="error-container" v-if="fetchError">
-    <img src="/src/assets/network-error.svg" alt="Network Error" />
-    <div class="error-message">
-      <p>数据加载失败，请刷新页面重试。</p>
-      <!--eslint-disable max-len-->
-      <p>
-        如果多次刷新页面仍无效，请
-        <a
-          :href="`mailto:mail@blue-archive.io?subject=%E9%94%99%E8%AF%AF%E6%8A%A5%E5%91%8A%EF%BC%88blue-archive.io%EF%BC%89&body=Fetch failed with /config/json/momotalk/${route.params.id}.json: %0D%0A%0D%0A${fetchErrorMessage}%0D%0A%0D%0AOrigin: ${route.path}`"
-          target="_blank"
-          >联系我们</a
-        >。
-      </p>
-      <!--eslint-enable max-len-->
-      <p class="error-content">Error: {{ fetchErrorMessage }}</p>
-    </div>
-  </div>
+  <error-screen
+    :route-path="route.path"
+    :error-message="fetchErrorMessage"
+    v-if="fetchError"
+  />
   <div class="momotalk-component-container">
     <div
       class="momotalks-view-container flex-vertical"
