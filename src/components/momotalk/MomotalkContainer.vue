@@ -56,7 +56,7 @@ function getSplitMomotalk(momotalkContent: Momotalk[]): SplitMomotalk[] {
 }
 
 const fetchError = ref(false);
-const fetchErrorMessage = ref('');
+const fetchErrorMessage = ref({});
 
 axios
   .get(`/config/json/momotalk/${route.params.id}.json`)

@@ -24,7 +24,7 @@ const initProgress = ref(0);
 const studentSelected = computed(() => !/\/archive\/?$/.test(route.path));
 
 const fetchError = ref(false);
-const fetchErrorMessage = ref('');
+const fetchErrorMessage = ref({});
 
 axios
   .get('/config/json/students.json', {

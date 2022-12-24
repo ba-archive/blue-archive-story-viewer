@@ -2,7 +2,7 @@ import { defineStore } from 'pinia';
 import { StudentAttributeFilters, StudentFilters } from '../types/Student';
 
 export const useSettingsStore = defineStore({
-  id: 'main',
+  id: 'ba-main-storage',
   state: () => {
     return {
       settings: {

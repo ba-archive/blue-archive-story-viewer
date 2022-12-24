@@ -2,8 +2,8 @@
   <span
     class="user-name-input"
     contenteditable="true"
-    @input="updateUsername"
-    @keydown.enter.prevent
+    @keydown.enter="activeLoseFocus"
+    @focusout="updateUsername"
   >
     {{ username }}
   </span>
@@ -16,10 +16,15 @@ import { useSettingsStore } from '../../store/settings';
 const settingsStore = useSettingsStore();
 const username = computed(() => settingsStore.getUsername);
 
+function activeLoseFocus(event: Event) {
+  (event.target as HTMLElement).blur();
+}
+
 function updateUsername(event: Event) {
   const target = event.target as HTMLInputElement;
   const value = target.innerText ?? '';
-  settingsStore.setUsername(value.slice(0, 10));
+  const result = '' === value ? 'Sensei' : value;
+  settingsStore.setUsername(result.replaceAll(/\s/g, '').slice(0, 10));
 }
 </script>
 
