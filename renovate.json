@@ -9,7 +9,8 @@
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "all non-major dependencies",
       "groupSlug": "all-minor-patch",
-      "stabilityDays": 3
+      "stabilityDays": 3,
+      "automerge": true
     }
   ]
 }
