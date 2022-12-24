@@ -706,7 +706,7 @@ onUnmounted(() => {
   }
 
   #student-list {
-    grid-template-columns: repeat(auto-fill, 6rem);
+    grid-template-columns: repeat(auto-fill, 5rem);
   }
 }
 
