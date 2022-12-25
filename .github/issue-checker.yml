@@ -22,9 +22,14 @@ labels:
       - '[Uu][Ii]'
       - '界面'
   - name: momotalk
-    content: momotalk
+    content: "module: momotalk"
     regexes:
       - '([Mm][Oo]){2}\s{0,}[Tt][Aa][Ll][Kk]'
+  - name: story
+    content: "module: story"
+    regexes:
+      - '([Ss][Tt][Oo][Rr][Yy])'
+      - '故事|剧情'
   - name: safari
     content: safari
     regexes:
