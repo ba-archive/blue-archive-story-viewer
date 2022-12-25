@@ -97,12 +97,14 @@ function getFallbackTitle() {
     align-items: center;
 
     img.avatar {
+      flex: none;
       width: 2rem;
       height: 2rem;
       object-fit: cover;
     }
 
     .ordered-list {
+      margin-right: 1rem;
       margin-left: 0.5rem;
       color: var(--color-text-decoration);
 
@@ -118,6 +120,7 @@ function getFallbackTitle() {
 
   .navigation-button {
     display: flex;
+    flex: none;
     justify-content: center;
     align-items: center;
     background-color: var(--color-primary-button);
