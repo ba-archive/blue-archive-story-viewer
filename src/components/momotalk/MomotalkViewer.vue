@@ -183,11 +183,12 @@ next(props.content[0].MessageGroupId, 0);
       <div class="momotalk-title-text">
         <span class="title">MomoTalk</span>
         <div class="credit">
-          <span>translated by </span>
+          <span>由 </span>
           <span v-if="translator">{{ translator }}@</span>
           <a href="https://space.bilibili.com/37507923" target="_blank">
             碧蓝档案资讯站
           </a>
+          <span> 翻译</span>
         </div>
       </div>
     </div>
