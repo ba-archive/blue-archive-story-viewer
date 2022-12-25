@@ -6,12 +6,6 @@ on:
     types: [opened, edited]
   issue_comment:
     types: [created, edited]
-  push:
-
-permissions:
-  contents: read
-  issues: write
-  pull-requests: write
 
 jobs:
   triage:
@@ -23,3 +17,13 @@ jobs:
           configuration-path: .github/issue-checker.yml
           not-before: 2022-08-05T00:00:00Z
           include-title: 1
+  add_to_project:
+    name: Add issue to project
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@v0.4.0
+        with:
+          project-url: https://github.com/orgs/ba-archive/projects/1
+          github-token: ${{ secrets.PROJECT_AUTOMATION }}
+          labeled: 'bug, enhancement, UI, module: momotalk, module: story'
+          label-operator: OR
