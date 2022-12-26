@@ -140,15 +140,15 @@ html[data-theme='dark'] {
 
 ```scss
 .shadow-near {
-  box-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.12);
+  box-shadow: 0.1rem 0.1rem 0.2rem var(--color-shadow-near);
 }
 
 .shadow-far {
-  box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.08);
+  box-shadow: 0.2rem 0.2rem 0.5rem var(--color-shadow-far);
 }
 
 .shadow-farther {
-  box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.25);
+  box-shadow: 0.2rem 0.2rem 1rem var(--color-shadow-farther);
 }
 ```
 
@@ -156,8 +156,8 @@ html[data-theme='dark'] {
 
 ```scss
 html {
-  --style-shadow-near: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.12);
-  --style-shadow-far: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.08);
-  --style-shadow-farther: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.25);
+  --style-shadow-near: 0.1rem 0.1rem 0.2rem var(--color-shadow-near);
+  --style-shadow-far: 0.2rem 0.2rem 0.5rem var(--color-shadow-far);
+  --style-shadow-farther: 0.2rem 0.2rem 1rem var(--color-shadow-farther);
 }
 ```
