@@ -40,6 +40,11 @@ labels:
     content: firefox
     regexes:
       - '[Ff][Ii][Rr][Ee][Ff][Oo][Xx]|火狐'
+  - name: duplicate
+    mode: add
+    content: duplicate
+    regexes:
+      - '[Dd]uplicate of #\d+|[和与跟]\s?#\d+\s?是?重复'
 # For comments
 comments:
   - name: Upload failed
