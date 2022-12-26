@@ -85,7 +85,7 @@ export default defineConfig({
       selfDestroying: true,
     }),
     // viteCompression(),
-    // visualizer(),
+    visualizer(),
   ],
   build: {
     emptyOutDir: true,
