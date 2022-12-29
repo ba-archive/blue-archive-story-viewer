@@ -1331,6 +1331,28 @@
   type: Striker
   armorType: Unarmed
   weapon: AR
+- id: 10057
+  familyName:
+    cn: 黑馆
+    jp: 黒舘
+    en: Kurodate
+    kr: 쿠로다테
+    tw: 黒舘
+    th: 黒舘
+  name:
+    cn: 晴奈(正月)
+    jp: ハルナ（正月）
+    en: Haruna (New Year)
+    kr: 하루나(새해)
+    tw: ハルナ（正月）
+    th: ハルナ（正月）
+  nickname: []
+  club: 美食研究会
+  affiliation: 格黑娜
+  rarity: 3
+  type: Striker
+  armorType: LightArmor
+  weapon: SR
 - id: 13000
   familyName:
     cn: 室笠
@@ -1924,6 +1946,28 @@
   type: Striker
   armorType: Unarmed
   weapon: SR
+- id: 16012
+  familyName:
+    cn: 赤司
+    jp: 赤司
+    en: Akashi
+    kr: 아카시
+    tw: 赤司
+    th: 赤司
+  name:
+    cn: 纯子(正月)
+    jp: ジュンコ（正月）
+    en: Junko (New Year)
+    kr: 준코(새해)
+    tw: ジュンコ（正月）
+    th: ジュンコ（正月）
+  nickname: []
+  club: 美食研究会
+  affiliation: 格黑娜
+  rarity: 1
+  type: Striker
+  armorType: HeavyArmor
+  weapon: AR
 - id: 20000
   familyName:
     cn: 猫冢
@@ -2435,6 +2479,28 @@
   type: Special
   armorType: Unarmed
   weapon: AR
+- id: 20022
+  familyName:
+    cn: 爱清
+    jp: 愛清
+    en: Aikiyo
+    kr: 아이키요
+    tw: 愛清
+    th: 愛清
+  name:
+    cn: 枫香(正月)
+    jp: フウカ（正月）
+    en: Fuuka (New Year)
+    kr: 후우카(새해)
+    tw: フウカ（正月）
+    th: フウカ（正月）
+  nickname: []
+  club: 供给部
+  affiliation: 格黑娜
+  rarity: 3
+  type: Special
+  armorType: Unarmed
+  weapon: SMG
 - id: 23000
   familyName:
     cn: 栗村
