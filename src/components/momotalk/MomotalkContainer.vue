@@ -26,6 +26,10 @@ const route = useRoute();
 function getSplitMomotalk(momotalkContent: Momotalk[]): SplitMomotalk[] {
   const splitMomotalk: SplitMomotalk[] = [];
 
+  if (!momotalkContent) {
+    throw new Error(`Momotalk content cannot be ${momotalkContent}`);
+  }
+
   for (const chat of momotalkContent) {
     if (0 === splitMomotalk.length) {
       // 初始状态，第一条的 ConditionValue 必不为 0
