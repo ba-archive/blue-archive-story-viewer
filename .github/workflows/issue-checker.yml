@@ -12,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: zzyyyl/issue-checker@v1.7
+        if: ${{ github.actor != 'renovate[bot]' }}
         with:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
           configuration-path: .github/issue-checker.yml
