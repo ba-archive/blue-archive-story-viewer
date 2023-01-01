@@ -14,11 +14,11 @@
   },
   "dependencies": {
     "@vue/compiler-sfc": "3.x",
-    "axios": "1.2.1",
+    "axios": "1.2.2",
     "axios-retry": "3.3.1",
     "fastest-levenshtein": "1.0.16",
     "pinia": "2.0.28",
-    "pinia-plugin-persistedstate": "3.0.1",
+    "pinia-plugin-persistedstate": "3.0.2",
     "vue": "3.2.45",
     "vue-router": "4.1.6"
   },
