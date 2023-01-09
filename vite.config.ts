@@ -1,5 +1,4 @@
 /* eslint-disable no-unused-vars,@typescript-eslint/no-unused-vars */
-
 import { visualizer } from 'rollup-plugin-visualizer';
 import { defineConfig } from 'vite';
 import viteCompression from 'vite-plugin-compression';
@@ -66,23 +65,22 @@ export default defineConfig({
           },
           {
             urlPattern: /(.*?)\.(png|jpe?g|svg|gif|webp|ico)$/i,
-            handler: 'StaleWhileRevalidate',
+            handler: 'CacheFirst',
             options: {
               cacheName: 'image-cache',
             },
           },
           {
             urlPattern: /(.*?)\.(js|css|json)$/i,
-            handler: 'NetworkFirst',
+            handler: 'StaleWhileRevalidate',
             options: {
               cacheName: 'asset-cache',
-              networkTimeoutSeconds: 5,
             },
           },
         ],
       },
       // uncomment to unregister service worker
-      selfDestroying: true,
+      // selfDestroying: true,
     }),
     // viteCompression(),
     visualizer(),
