@@ -10,6 +10,7 @@
         class="student-avatar"
         :class="message?.avatar ? '' : 'hidden'"
         :src="studentAvatar"
+        :alt="studentName"
       />
       <div class="message-content-wrap rounded-small">
         <div v-if="!showMessageContent" class="typing-indicator">
@@ -21,7 +22,11 @@
           <span v-if="'Image' !== messageType">{{
             getMessageText(message)
           }}</span>
-          <img v-else :src="getMessageImagePath(message?.ImagePath)" />
+          <img
+            v-else
+            :src="getMessageImagePath(message?.ImagePath)"
+            alt="聊天图片"
+          />
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 <template>
   <div id="home-welcome" class="center flex-vertical fill-screen">
-    <img class="mika-sticker" src="/src/assets/mika_sticker.webp" />
+    <img class="mika-sticker" src="/src/assets/mika_sticker.webp" alt="mika" />
     <p>先从<span id="choice"></span>选择项目哦</p>
     <p>(现在只做了学生个人剧情)</p>
   </div>

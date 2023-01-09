@@ -48,7 +48,7 @@ function getFallbackTitle() {
     @keydown.space="handleClick"
   >
     <div class="section-title">
-      <img :src="props.avatar" class="avatar rounded-small" />
+      <img :src="props.avatar" class="avatar rounded-small" alt="avatar" />
       <span class="title">{{
         selectedLangTitle || `!!FallBack: ${getFallbackTitle()}`
       }}</span>

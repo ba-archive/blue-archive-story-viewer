@@ -8,7 +8,11 @@
           target="_blank"
           class="contribution-brick rounded-small shadow-near"
         >
-          <img class="avatar" src="/image/contributor/zixunzhan.jpg" />
+          <img
+            class="avatar"
+            src="/image/contributor/zixunzhan.jpg"
+            alt="资讯站logo"
+          />
           <h4>碧蓝档案资讯站</h4>
           <p>为玩家服务的民间组织，尊重官方设定</p>
         </a>
