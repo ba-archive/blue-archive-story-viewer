@@ -64,10 +64,10 @@ export default defineConfig({
             },
           },
           {
-            urlPattern: /(.*?)\.(png|jpe?g|svg|gif|webp|ico)$/i,
-            handler: 'CacheFirst',
+            urlPattern: /(.*?)\.(png|jpe?g|svg|gif|webp|ico|atlas|skel)$/i,
+            handler: 'StaleWhileRevalidate',
             options: {
-              cacheName: 'image-cache',
+              cacheName: 'image-live2d-cache',
             },
           },
           {

@@ -13,6 +13,7 @@ import {
 } from '../../types/Student';
 import { filterStudents } from '../../util/filterStudents';
 import ErrorScreen from '../widgets/ErrorScreen.vue';
+import ProgressBar from '../widgets/ProgressBar.vue';
 import StudentShowbox from '../widgets/StudentShowbox.vue';
 
 const route = useRoute();
@@ -21,6 +22,13 @@ const studentStore = useStudentStore();
 
 const ready = ref(false);
 const initProgress = ref(0);
+
+/*
+ * @namespace studentSelected
+ * @description 监听学生有没有被选中
+ *              这段是历史遗留了，当时 router-view 不能正确隐藏选择面板，
+ *              只能整一个这种扭曲的东西
+ */
 const studentSelected = computed(() => !/\/archive\/?$/.test(route.path));
 
 const fetchError = ref(false);
@@ -43,6 +51,7 @@ axios
       );
       studentStore.setStudents(students);
     } catch (e) {
+      // 用户浏览器不支持 localeCompare，则返回不排序的数组
       const students = response.data;
       studentStore.setStudents(students);
     }
@@ -57,6 +66,7 @@ axios
 
 const students = computed(() => studentStore.getAllStudents);
 
+// 包含每个学生所有名字的 array，用于根据名字过滤
 const studentsNameList = computed<StudentNames[]>(() => {
   return students.value.map(student => {
     return {
@@ -71,14 +81,15 @@ const studentsNameList = computed<StudentNames[]>(() => {
   });
 });
 
+// 获取不重复的某个学生属性，用于在边栏展示
 function getCohortAttribute(
-  attribute: string,
+  attribute: keyof StudentAttributes,
   needSort = true
 ): (string | number)[] {
   const filtered: (string | number)[] = [];
   students.value.forEach((student: Student) => {
-    if (!filtered.includes(student[attribute as keyof StudentAttributes])) {
-      filtered.push(student[attribute as keyof StudentAttributes]);
+    if (!filtered.includes(student[attribute])) {
+      filtered.push(student[attribute]);
     }
   });
   if (needSort) {
@@ -113,6 +124,7 @@ const armorTypes = [
   },
 ];
 
+// 因为约定俗成的装甲属性排列是 轻装甲-重装甲-神秘装甲，所以根据这个顺序进行排序
 function sortArmorType(a: string | number, b: string | number): number {
   const armorTypeA = armorTypes.find(type => type.string === a) || {
     name: '0',
@@ -134,6 +146,7 @@ const studentArmorTypes = computed(() =>
 );
 
 const studentNameFilter = ref('');
+// 学生属性过滤器
 const appliedFilters = computed<AppliedFilter>(() => {
   return {
     searchString: studentNameFilter.value,
@@ -215,10 +228,8 @@ onUnmounted(() => {
     :error-message="fetchErrorMessage"
     :route-path="route.path"
   />
-  <div class="loading" v-if="!ready">
-    <div class="spinner">
-      <span>{{ initProgress }}%</span>
-    </div>
+  <div class="loading-container" v-if="!ready">
+    <progress-bar :show-percentage="true" :progress="initProgress" />
   </div>
   <div id="student-selector-container" v-if="ready && !studentSelected">
     <div class="filter-banner">
@@ -598,7 +609,6 @@ onUnmounted(() => {
   content-visibility: auto;
   padding: 0 1rem 1rem 1rem;
   width: 100%;
-  height: available;
   overflow-y: scroll;
 }
 
@@ -616,30 +626,12 @@ onUnmounted(() => {
   }
 }
 
-.loading {
+.loading-container {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
-
-  & .spinner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    animation: spin 1s linear infinite;
-    border: 0.2rem solid;
-    border-color: var(--color-text-main) transparent;
-    border-radius: 50%;
-    width: 4rem;
-    height: 4rem;
-    color: var(--color-text-main);
-
-    & span {
-      animation: spin 1s linear infinite;
-      animation-direction: reverse;
-    }
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -707,15 +699,6 @@ onUnmounted(() => {
 
   #student-list {
     grid-template-columns: repeat(auto-fill, 5rem);
-  }
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
   }
 }
 </style>
