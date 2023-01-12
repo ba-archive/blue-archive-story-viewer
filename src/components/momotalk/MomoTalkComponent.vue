@@ -58,8 +58,12 @@
       <div class="favor-schedule-banner">
         <span>羁绊事件</span>
       </div>
-      <div :to="`/archive/${characterId}/story`" role="button" class="favor-schedule-button rounded-small shadow-near"
-        @click="nextMessage(message!.NextGroupId)">
+      <div
+        :to="`/archive/${characterId}/story`"
+        role="button"
+        class="favor-schedule-button rounded-small shadow-near"
+        @click="nextMessage(message!.NextGroupId)"
+      >
         前往{{ studentName }}的羁绊事件
       </div>
     </div>
@@ -118,7 +122,7 @@ function getMessageImagePath(originPath: string | undefined): string {
 const emit = defineEmits(['userSelect', 'nextMessage']);
 
 function nextMessage(NextGroupId: number) {
-  emit('nextMessage', NextGroupId, 500)
+  emit('nextMessage', NextGroupId, 500);
 }
 
 function handleSelection(

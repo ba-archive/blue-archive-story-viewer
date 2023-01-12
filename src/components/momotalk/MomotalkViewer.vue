@@ -111,7 +111,7 @@ async function next(NextGroupId: number, id: number) {
     });
     await wait(firstMessageGroupElement.FeedbackTimeMillisec || 1500);
     if (firstMessageGroupElement.FavorScheduleId !== 0) {
-      return
+      return;
     }
     for (let currentMessageItem of messageGroupElements.slice(1)) {
       if (id !== nextId.value) {
@@ -139,7 +139,7 @@ async function next(NextGroupId: number, id: number) {
       });
       await wait(currentMessageItem.FeedbackTimeMillisec || 1500);
       if (currentMessageItem.FavorScheduleId !== 0) {
-        return
+        return;
       }
     }
   }
@@ -165,9 +165,9 @@ function handleUserSelect(Id: number, nextGroupId: number) {
   next(nextGroupId, nextId.value);
 }
 
-function handleNextMessage(NextGroupId:number,id:number){
-  nextId.value=id
-  next(NextGroupId,id)
+function handleNextMessage(NextGroupId: number, id: number) {
+  nextId.value = id;
+  next(NextGroupId, id);
 }
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
@@ -213,7 +213,8 @@ next(props.content[0].MessageGroupId, 0);
         :key="index"
         :message="message"
         @userSelect="handleUserSelect"
-        @next-message="handleNextMessage" />
+        @next-message="handleNextMessage"
+      />
     </div>
   </div>
 </template>
