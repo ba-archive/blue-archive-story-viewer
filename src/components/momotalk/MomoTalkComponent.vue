@@ -58,13 +58,10 @@
       <div class="favor-schedule-banner">
         <span>羁绊事件</span>
       </div>
-      <router-link
-        :to="`/archive/${characterId}/story`"
-        role="button"
-        class="favor-schedule-button rounded-small shadow-near"
-      >
+      <div :to="`/archive/${characterId}/story`" role="button" class="favor-schedule-button rounded-small shadow-near"
+        @click="nextMessage(message!.NextGroupId)">
         前往{{ studentName }}的羁绊事件
-      </router-link>
+      </div>
     </div>
   </div>
 </template>
@@ -118,7 +115,11 @@ function getMessageImagePath(originPath: string | undefined): string {
   return '';
 }
 
-const emit = defineEmits(['userSelect']);
+const emit = defineEmits(['userSelect', 'nextMessage']);
+
+function nextMessage(NextGroupId: number) {
+  emit('nextMessage', NextGroupId, 500)
+}
 
 function handleSelection(
   selected: number,

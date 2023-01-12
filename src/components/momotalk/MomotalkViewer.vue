@@ -38,6 +38,10 @@ async function next(NextGroupId: number, id: number) {
   }
   const messageGroupElements = findItemsByGroupId(NextGroupId);
   const firstMessageGroupElement = messageGroupElements[0];
+  const favorScheduleId =
+    messageGroupElements.find(element => element.FavorScheduleId !== 0)
+      ?.FavorScheduleId || 0;
+
   if (!firstMessageGroupElement) {
     // NextGroupId 没有返回结果，聊天结束
     return;
@@ -106,6 +110,9 @@ async function next(NextGroupId: number, id: number) {
       MessageTW: firstMessageGroupElement.MessageTW,
     });
     await wait(firstMessageGroupElement.FeedbackTimeMillisec || 1500);
+    if (firstMessageGroupElement.FavorScheduleId !== 0) {
+      return
+    }
     for (let currentMessageItem of messageGroupElements.slice(1)) {
       if (id !== nextId.value) {
         return;
@@ -131,6 +138,9 @@ async function next(NextGroupId: number, id: number) {
         MessageTW: currentMessageItem.MessageTW,
       });
       await wait(currentMessageItem.FeedbackTimeMillisec || 1500);
+      if (currentMessageItem.FavorScheduleId !== 0) {
+        return
+      }
     }
   }
   await next(firstMessageGroupElement.NextGroupId, id);
@@ -153,6 +163,11 @@ function handleUserSelect(Id: number, nextGroupId: number) {
   //执行一个新的next序列, 并将需要执行的next序列的id设为自己的id
   nextId.value++;
   next(nextGroupId, nextId.value);
+}
+
+function handleNextMessage(NextGroupId:number,id:number){
+  nextId.value=id
+  next(NextGroupId,id)
 }
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
@@ -198,7 +213,7 @@ next(props.content[0].MessageGroupId, 0);
         :key="index"
         :message="message"
         @userSelect="handleUserSelect"
-      />
+        @next-message="handleNextMessage" />
     </div>
   </div>
 </template>
