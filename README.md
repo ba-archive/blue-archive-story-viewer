@@ -6,8 +6,7 @@
 这是一个计划用于查看[碧蓝档案/蔚蓝档案](https://bluearchive.jp)（主线、学生个人好感）剧情的工具。
 
 ## 计划功能
-
-请参照 [momotalk 查看器功能一览](https://github.com/ba-archive/blue-archive-story-viewer/issues/31) 以及 [剧情播放器功能列表](https://github.com/ba-archive/blue-archive-story-viewer/issues/40)。
+<img src="https://user-images.githubusercontent.com/9006264/212298015-8ed82d88-f555-4491-82de-f3baa014156a.png" width="640" />
 
 ## 进度
 
