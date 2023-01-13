@@ -6,6 +6,7 @@ import { useSettingsStore } from '../../store/settings';
 import { Momotalk, SplitMomotalk } from '../../types/Chats';
 import { Momotalks } from '../../types/Chats';
 import ErrorScreen from '../widgets/ErrorScreen.vue';
+import ProgressBar from '../widgets/ProgressBar.vue';
 import StudentArchiveTitle from '../widgets/StudentArchiveTitle.vue';
 import MomotalkViewer from './MomotalkViewer.vue';
 
@@ -59,11 +60,19 @@ function getSplitMomotalk(momotalkContent: Momotalk[]): SplitMomotalk[] {
   return splitMomotalk;
 }
 
+const initProgress = ref(0);
+const ready = ref(false);
 const fetchError = ref(false);
 const fetchErrorMessage = ref({});
 
 axios
-  .get(`/config/json/momotalk/${route.params.id}.json`)
+  .get(`/config/json/momotalk/${route.params.id}.json`, {
+    onDownloadProgress: progressEvent => {
+      initProgress.value = Math.floor(
+        ((progressEvent.loaded || 0) * 100) / (progressEvent.total || 1)
+      );
+    },
+  })
   .then(res => {
     const data = res.data as Momotalks;
     momotalks.value.CharacterId = data.CharacterId;
@@ -72,9 +81,11 @@ axios
     momotalks.value.content = data.content;
 
     momotalks.value.splitMomotalk = getSplitMomotalk(data.content);
+    ready.value = true;
   })
   .catch(e => {
     console.error(e);
+    ready.value = true;
     fetchError.value = true;
     fetchErrorMessage.value = e;
   });
@@ -103,6 +114,9 @@ function getStudentAvatar(CharacterId: number): string {
     :error-message="fetchErrorMessage"
     v-if="fetchError"
   />
+  <div class="loading-container" v-if="!ready">
+    <progress-bar :show-percentage="true" :progress="initProgress" />
+  </div>
   <div class="momotalk-component-container">
     <div
       class="momotalks-view-container flex-vertical"
@@ -133,7 +147,10 @@ function getStudentAvatar(CharacterId: number): string {
   display: grid;
   grid-auto-flow: row;
   place-items: center;
+  content-visibility: auto;
+  padding: 0 1rem 1rem 1rem;
 }
+
 .momotalks-view-container {
   width: 30rem;
 }

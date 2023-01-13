@@ -626,14 +626,6 @@ onUnmounted(() => {
   }
 }
 
-.loading-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-}
-
 @media screen and (max-width: 768px) {
   #student-selector-container {
     grid-template-rows: min-content min-content auto;

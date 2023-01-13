@@ -9,7 +9,7 @@
       >
     </div>
     <router-view v-slot="{ Component }">
-      <keep-alive include="MomotalkContainer">
+      <keep-alive include="MomotalkContainer" :max="1">
         <component :is="Component" />
       </keep-alive>
     </router-view>
