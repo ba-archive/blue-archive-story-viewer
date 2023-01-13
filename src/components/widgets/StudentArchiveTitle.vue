@@ -96,7 +96,7 @@ function getFallbackTitle() {
     justify-content: flex-start;
     align-items: center;
 
-    img.avatar {
+    img.logo {
       flex: none;
       width: 2rem;
       height: 2rem;

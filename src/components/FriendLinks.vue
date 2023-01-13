@@ -1,29 +1,43 @@
+<script setup lang="ts">
+const links = [
+  {
+    title: '碧蓝档案资讯站',
+    url: 'https://space.bilibili.com/37507923',
+    logo: '/image/contributor/zixunzhan.jpg',
+    logoDescription: '资讯站logo',
+    description: '为玩家服务的民间组织，尊重官方设定',
+  },
+  {
+    title: '项目主页',
+    url: 'https://github.com/ba-archive/blue-archive-story-viewer',
+    logo: '/image/contributor/github-logo.svg',
+    logoDescription: 'GitHub logo',
+    description: '',
+  },
+];
+</script>
+
 <template>
   <div class="flex-vertical">
     <article>
       <h2>友情链接</h2>
       <div class="contribution-wall">
         <a
-          href="https://space.bilibili.com/37507923"
+          v-for="link in links"
+          :href="link.url"
           target="_blank"
           class="contribution-brick rounded-small shadow-near"
+          :key="link.url"
+          v-once
         >
-          <img
-            class="avatar"
-            src="/image/contributor/zixunzhan.jpg"
-            alt="资讯站logo"
-          />
-          <h4>碧蓝档案资讯站</h4>
-          <p>为玩家服务的民间组织，尊重官方设定</p>
+          <img class="logo" :src="link.logo" :alt="link.logoDescription" />
+          <h4>{{ link.title }}</h4>
+          <p>{{ link.description }}</p>
         </a>
       </div>
     </article>
   </div>
 </template>
-
-<script setup lang="ts">
-// 这行注释别删，删了 prettier 会报错
-</script>
 
 <style scoped lang="scss">
 article {
@@ -35,9 +49,11 @@ article {
 }
 
 .contribution-wall {
+  grid-gap: 1rem;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 1fr);
+  grid-template-columns: repeat(auto-fill, 16rem);
   margin-top: 1rem;
+  width: 100%;
 }
 
 .contribution-brick {
@@ -59,7 +75,7 @@ article {
     box-shadow: var(--style-shadow-farther);
   }
 
-  .avatar {
+  .logo {
     grid-area: avatar;
     border-radius: 50%;
     width: 2.5rem;
@@ -83,6 +99,10 @@ h2 {
 @media screen and (max-width: 768px) {
   article {
     width: fit-content;
+  }
+
+  .contribution-wall {
+    grid-template-columns: min-content;
   }
 
   .contribution-brick {
