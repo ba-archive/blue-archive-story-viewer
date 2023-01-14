@@ -6,6 +6,7 @@ on:
     types: [opened, edited]
   issue_comment:
     types: [created, edited]
+  push:
 
 jobs:
   triage:
