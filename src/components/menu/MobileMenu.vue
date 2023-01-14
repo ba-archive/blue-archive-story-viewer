@@ -105,7 +105,7 @@ function closeMenu() {
 .mobile-menu-wrapper {
   display: flex;
   position: fixed;
-  top: 0;
+  top: -1px;
   left: 0;
   flex-direction: column;
   z-index: 9;

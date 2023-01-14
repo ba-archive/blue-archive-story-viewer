@@ -50,7 +50,7 @@ onBeforeUnmount(() => {
   <mobile-menu v-if="showMobileMenu" />
   <desktop-menu v-else />
   <div id="main-view" class="rounded-large" :class="getMainPageClass">
-    <home-welcome-screen :isMainPage="isMainPage" v-if="isMainPage" />
+    <home-welcome-screen v-if="isMainPage" />
     <router-view></router-view>
   </div>
 </template>
