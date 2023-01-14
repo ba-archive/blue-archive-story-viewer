@@ -1,11 +1,12 @@
 <script setup lang="ts">
-import { computed } from 'vue';
+import { computed, onBeforeMount, onBeforeUnmount, ref } from 'vue';
 import { useRoute } from 'vue-router';
 import HomeWelcomeScreen from './components/HomeWelcomeScreen.vue';
 import DesktopMenu from './components/menu/DesktopMenu.vue';
 import MobileMenu from './components/menu/MobileMenu.vue';
 
 const route = useRoute();
+const showMobileMenu = ref(false);
 
 const isMainPage = computed(() => route.path === '/');
 
@@ -22,11 +23,32 @@ if (!isMac()) {
   const htmlElement = document.querySelector('html') as HTMLHtmlElement;
   htmlElement.dataset.scrollbar = 'customize';
 }
+
+let ticking = false;
+function handleWindowSizeChange() {
+  if (ticking) return;
+  ticking = true;
+  window.requestAnimationFrame(() => {
+    const htmlElement = document.querySelector('html') as HTMLHtmlElement;
+    showMobileMenu.value = htmlElement.clientWidth <= 768;
+    ticking = false;
+  });
+}
+
+onBeforeMount(() => {
+  const htmlElement = document.querySelector('html') as HTMLHtmlElement;
+  showMobileMenu.value = htmlElement.clientWidth <= 768;
+  window.addEventListener('resize', handleWindowSizeChange);
+});
+
+onBeforeUnmount(() => {
+  window.removeEventListener('resize', handleWindowSizeChange);
+});
 </script>
 
 <template>
-  <desktop-menu class="desktop-menu" />
-  <mobile-menu class="mobile-menu" />
+  <mobile-menu v-if="showMobileMenu" />
+  <desktop-menu v-else />
   <div id="main-view" class="rounded-large" :class="getMainPageClass">
     <home-welcome-screen :isMainPage="isMainPage" v-if="isMainPage" />
     <router-view></router-view>
@@ -34,10 +56,6 @@ if (!isMac()) {
 </template>
 
 <style scoped lang="scss">
-.mobile-menu {
-  display: none;
-}
-
 #main-view {
   display: flex;
   grid-area: main;
@@ -66,19 +84,6 @@ if (!isMac()) {
 }
 
 @media screen and (max-width: 768px) {
-  .desktop-menu {
-    display: none;
-  }
-
-  .mobile-menu {
-    display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 9;
-    width: 100vw;
-  }
-
   #main-view {
     border-radius: 0;
     -webkit-border-radius: 0;

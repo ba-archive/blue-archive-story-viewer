@@ -27,7 +27,7 @@
     </div>
 
     <transition name="menu-transition">
-      <div class="mobile-submenu-container flex-vertical" v-show="showMenu">
+      <div class="mobile-submenu-container flex-vertical" v-if="showMenu">
         <div class="mobile-submenu acrylic fill-width">
           <router-link
             class="nav-link level-1 link-home rounded-small"
@@ -104,7 +104,12 @@ function closeMenu() {
 <style scoped lang="scss">
 .mobile-menu-wrapper {
   display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
   flex-direction: column;
+  z-index: 9;
+  width: 100vw;
 }
 
 .mobile-menu-bar {
