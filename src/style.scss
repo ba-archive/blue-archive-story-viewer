@@ -153,7 +153,6 @@ body {
 }
 
 .acrylic {
-  position: relative;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   background-image: url('/src/assets/nnnoise.png');
@@ -267,5 +266,7 @@ body {
     border-radius: 0;
     background-color: var(--color-glass-panel);
     padding: 0;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
   }
 }
