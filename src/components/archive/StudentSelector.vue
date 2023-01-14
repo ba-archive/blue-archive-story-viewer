@@ -634,7 +634,6 @@ onUnmounted(() => {
       'name-filter name-filter'
       'filter filter'
       'list list';
-    height: calc(100vh - 6rem);
   }
 
   .filter-banner {

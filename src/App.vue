@@ -87,9 +87,9 @@ onBeforeUnmount(() => {
   #main-view {
     border-radius: 0;
     -webkit-border-radius: 0;
-    padding: 3.5rem 1rem 1rem 1rem;
+    padding: 3.5rem 1rem 0 1rem;
     width: 100vw;
-    height: calc(100vh - 3.5rem);
+    min-height: 100vh;
     overflow-x: hidden;
     overflow-y: scroll;
   }
