@@ -261,12 +261,12 @@ body {
     display: flex;
     flex: 1;
     flex-direction: column;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
     box-shadow: var(--style-shadow-shallow);
     border: none;
     border-radius: 0;
     background-color: var(--color-glass-panel);
     padding: 0;
-    backdrop-filter: none;
-    -webkit-backdrop-filter: none;
   }
 }
