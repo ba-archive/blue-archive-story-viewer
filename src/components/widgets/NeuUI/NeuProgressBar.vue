@@ -8,18 +8,15 @@
 </template>
 
 <script setup lang="ts">
-defineProps({
-  progress: {
-    type: Number,
-    default: 0,
-    required: true,
-  },
-  showPercentage: {
-    type: Boolean,
-    default: false,
-    required: false,
-  },
-});
+withDefaults(
+  defineProps<{
+    progress: number;
+    showPercentage?: boolean;
+  }>(),
+  {
+    progress: 0,
+  }
+);
 </script>
 
 <style scoped lang="scss">
@@ -34,7 +31,10 @@ defineProps({
   .percentage {
     color: var(--color-text-main);
   }
+
   .progress-bar-background {
+    box-shadow: inset 0.1rem 0.1rem 0.1rem #ccc,
+      inset -0.1rem -0.1rem 0.1rem #dbdbdb;
     border-radius: 0.5rem;
     background-color: #d3d3d3;
     width: 100%;
@@ -42,7 +42,12 @@ defineProps({
 
     .progress {
       border-radius: 0.5rem;
-      background-color: #006bff;
+      background-image: linear-gradient(
+        180deg,
+        hsl(215deg 80% 60%),
+        #006bff,
+        hsl(215deg 100% 40%)
+      );
       height: 100%;
     }
   }

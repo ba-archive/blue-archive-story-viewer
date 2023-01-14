@@ -13,7 +13,7 @@ import {
 } from '../../types/Student';
 import { filterStudents } from '../../util/filterStudents';
 import ErrorScreen from '../widgets/ErrorScreen.vue';
-import ProgressBar from '../widgets/ProgressBar.vue';
+import ProgressBar from '../widgets/NeuUI/NeuProgressBar.vue';
 import StudentShowbox from '../widgets/StudentShowbox.vue';
 
 const route = useRoute();

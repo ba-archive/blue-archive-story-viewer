@@ -6,7 +6,7 @@ import { useSettingsStore } from '../../store/settings';
 import { Momotalk, SplitMomotalk } from '../../types/Chats';
 import { Momotalks } from '../../types/Chats';
 import ErrorScreen from '../widgets/ErrorScreen.vue';
-import ProgressBar from '../widgets/ProgressBar.vue';
+import ProgressBar from '../widgets/NeuUI/NeuProgressBar.vue';
 import StudentArchiveTitle from '../widgets/StudentArchiveTitle.vue';
 import MomotalkViewer from './MomotalkViewer.vue';
 
