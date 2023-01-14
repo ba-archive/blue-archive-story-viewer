@@ -628,19 +628,14 @@ onUnmounted(() => {
 
 @media screen and (max-width: 768px) {
   #student-selector-container {
-    grid-template-rows: min-content min-content auto;
-    grid-template-columns: auto min-content;
-    grid-template-areas:
-      'name-filter name-filter'
-      'filter filter'
-      'list list';
+    display: flex;
+    flex-direction: column;
   }
 
   .filter-banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1.5rem 2rem 1rem 2rem;
     border-radius: 0;
     background-color: transparent;
     .clear-filter-icon {
