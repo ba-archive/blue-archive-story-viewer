@@ -7,7 +7,7 @@ export const useSettingsStore = defineStore({
     return {
       settings: {
         lang: 'cn',
-        theme: 'light',
+        theme: 'light' as 'light' | 'dark',
         username: 'Sensei' as string,
       },
       studentFilters: {
@@ -36,7 +36,7 @@ export const useSettingsStore = defineStore({
     setLang(lang: string) {
       this.settings.lang = lang;
     },
-    setTheme(theme: string) {
+    setTheme(theme: 'light' | 'dark') {
       this.settings.theme = theme;
     },
     setUsername(username: string) {

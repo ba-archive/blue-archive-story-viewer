@@ -1,24 +1,24 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 import { useSettingsStore } from '../../store/settings';
+import NeuSwitch from './NeuUI/NeuSwitch.vue';
 
 const settingsStore = useSettingsStore();
 const currentTheme = computed(() => settingsStore.getTheme);
 
-function switchTheme(theme: string) {
+function switchTheme(theme: 'light' | 'dark') {
   const htmlElement = document.querySelector('html') as HTMLHtmlElement;
   const metaThemeColor = document.querySelector('meta[name=theme-color]');
-  switch (theme) {
-    case 'light':
-      htmlElement.dataset.theme = 'light';
-      metaThemeColor?.setAttribute('content', '#ffffffd8');
-      break;
-    case 'dark':
-      htmlElement.dataset.theme = 'dark';
-      metaThemeColor?.setAttribute('content', '#343e50d8');
-      break;
+
+  if ('light' === theme) {
+    htmlElement.dataset.theme = 'light';
+    metaThemeColor?.setAttribute('content', '#ffffffd8');
+  } else {
+    htmlElement.dataset.theme = 'dark';
+    metaThemeColor?.setAttribute('content', '#343e50d8');
   }
 }
+
 if (
   window.matchMedia &&
   window.matchMedia('(prefers-color-scheme: dark)').matches
@@ -28,24 +28,27 @@ if (
 
 switchTheme(currentTheme.value);
 
-function toggleTheme() {
-  const toggledTheme = 'light' === currentTheme.value ? 'dark' : 'light';
-  switchTheme(toggledTheme);
-  settingsStore.setTheme(toggledTheme);
+function toggleTheme(value: 'light' | 'dark') {
+  switchTheme(value);
+  settingsStore.setTheme(value);
 }
 </script>
 
 <template>
-  <div id="theme-switcher">
-    <img id="dark-mode-icon" src="/src/assets/dark-mode.svg" alt="Dark Mode" />
-    <input
-      class="switch rounded-medium"
+  <div class="theme-switcher">
+    <img
+      class="dark-mode-icon"
+      src="/src/assets/dark-mode.svg"
+      alt="Dark Mode"
+    />
+    <neu-switch
       :checked="'light' === currentTheme"
-      type="checkbox"
-      @change="toggleTheme"
+      checked-value="light"
+      unchecked-value="dark"
+      @update:value="toggleTheme"
     />
     <img
-      id="light-mode-icon"
+      class="light-mode-icon"
       src="/src/assets/light-mode.svg"
       alt="Light Mode"
     />
@@ -53,7 +56,7 @@ function toggleTheme() {
 </template>
 
 <style scoped lang="scss">
-#theme-switcher {
+.theme-switcher {
   grid-gap: 0.5rem;
   display: grid;
   grid-template-columns: min-content auto min-content;
@@ -61,17 +64,21 @@ function toggleTheme() {
   justify-content: space-evenly;
   align-items: center;
   width: fit-content;
+  user-select: none;
 
-  #dark-mode-icon {
-    grid-area: dark-mode-icon;
-    width: 1.5rem;
-    height: 1.5rem;
+  .dark-mode-icon,
+  .light-mode-icon {
+    cursor: not-allowed;
+    width: 1.25rem;
+    height: 1.25rem;
   }
 
-  #light-mode-icon {
+  .dark-mode-icon {
+    grid-area: dark-mode-icon;
+  }
+
+  .light-mode-icon {
     grid-area: light-mode-icon;
-    width: 1.5rem;
-    height: 1.5rem;
   }
 }
 
