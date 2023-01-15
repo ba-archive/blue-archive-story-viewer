@@ -21,8 +21,8 @@ export default defineConfig({
     }),
     VitePWA({
       injectRegister: 'auto',
-      registerType: 'autoUpdate',
       includeManifestIcons: true,
+      registerType: 'prompt',
       includeAssets: ['favicon/*.png'],
       manifest: {
         name: 'Blue Archive Story Viewer',
