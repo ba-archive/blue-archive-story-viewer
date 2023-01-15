@@ -102,7 +102,7 @@ function toggleSwitch() {
 
     .neu-switch__thumb {
       flex: none;
-      transition: all 0.375s cubic-bezier(0.85, -0.06, 0.22, 1.26)
+      transition: all 0.375s cubic-bezier(0.85, -0.06, 0.22, 1.26);
       box-shadow: var(--style-switch-shadow);
       border-radius: 50%;
       background: var(--style-switch-texture);
