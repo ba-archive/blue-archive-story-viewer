@@ -59,8 +59,8 @@ article {
 .contribution-brick {
   grid-column-gap: 1rem;
   display: grid;
-  grid-template-columns: min-content auto;
   grid-template-rows: max-content auto;
+  grid-template-columns: min-content auto;
   grid-template-areas:
     'avatar title'
     '. description';
