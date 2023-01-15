@@ -11,27 +11,13 @@
       </div>
     </div>
     <div id="navigation">
-      <router-link class="nav-link level-1 link-home rounded-small" to="/"
-        >Home
-      </router-link>
-      <router-link class="nav-link level-1 rounded-small" to="/mainStory"
-        >主线剧情
-      </router-link>
-      <router-link class="nav-link level-1 rounded-small" to="/miniStory"
-        >Mini Story
-      </router-link>
-      <router-link class="nav-link level-1 rounded-small" to="/groupStory"
-        >社团剧情
-      </router-link>
-      <router-link class="nav-link level-1 rounded-small" to="/archive"
-        >学生个人剧情
-      </router-link>
-      <router-link class="nav-link level-1 rounded-small" to="/friendlinks"
-        >友情链接
-      </router-link>
-      <router-link class="nav-link level-1 rounded-small" to="/contribute"
-        >成为贡献者
-      </router-link>
+      <router-link
+        v-for="mainRoute in mainRoutes"
+        :key="mainRoute.path"
+        :to="mainRoute.path"
+        class="nav-link rounded-small"
+        >{{ getRouteTranslation(mainRoute, selectedLanguage) }}</router-link
+      >
     </div>
 
     <div id="settings">
@@ -42,9 +28,18 @@
 </template>
 
 <script setup lang="ts">
+import { computed } from 'vue';
+import { RouteRecordRaw } from 'vue-router';
+import { routes } from '../../route/routes';
+import { useSettingsStore } from '../../store/settings';
+import { getMainRoutes, getRouteTranslation } from '../../util/routerUtils';
 import LanguageSelector from '../widgets/LanguageSelector.vue';
 import ThemeSwitcher from '../widgets/ThemeSwitcher.vue';
 import UserNameInput from '../widgets/UserNameInput.vue';
+
+const settingsStore = useSettingsStore();
+const selectedLanguage = computed(() => settingsStore.getLang);
+const mainRoutes = computed<Array<RouteRecordRaw>>(() => getMainRoutes(routes));
 </script>
 
 <style scoped lang="scss">

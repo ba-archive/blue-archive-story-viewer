@@ -30,47 +30,13 @@
       <div class="mobile-submenu-container flex-vertical" v-if="showMenu">
         <div class="mobile-submenu acrylic fill-width">
           <router-link
-            class="nav-link level-1 link-home rounded-small"
-            to="/"
+            v-for="mainRoute in mainRoutes"
+            :key="mainRoute.path"
+            :to="mainRoute.path"
+            class="nav-link rounded-small"
             @click="closeMenu"
-            >Home
-          </router-link>
-          <router-link
-            class="nav-link level-1 rounded-small"
-            to="/mainStory"
-            @click="closeMenu"
-            >主线剧情
-          </router-link>
-          <router-link
-            class="nav-link level-1 rounded-small"
-            to="/miniStory"
-            @click="closeMenu"
-            >Mini Story
-          </router-link>
-          <router-link
-            class="nav-link level-1 rounded-small"
-            to="/groupStory"
-            @click="closeMenu"
-            >社团剧情
-          </router-link>
-          <router-link
-            class="nav-link level-1 rounded-small"
-            to="/archive"
-            @click="closeMenu"
-            >学生个人剧情
-          </router-link>
-          <router-link
-            class="nav-link level-1 rounded-small"
-            to="/friendlinks"
-            @click="closeMenu"
-            >友情链接
-          </router-link>
-          <router-link
-            class="nav-link level-1 rounded-small"
-            to="/contribute"
-            @click="closeMenu"
-            >成为贡献者
-          </router-link>
+            >{{ getRouteTranslation(mainRoute, selectedLanguage) }}</router-link
+          >
 
           <div class="mobile-settings-container">
             <language-selector />
@@ -85,12 +51,20 @@
 </template>
 
 <script lang="ts" setup>
-import { ref } from 'vue';
+import { computed, ref } from 'vue';
+import { RouteRecordRaw } from 'vue-router';
+import { routes } from '../../route/routes';
+import { useSettingsStore } from '../../store/settings';
+import { getMainRoutes, getRouteTranslation } from '../../util/routerUtils';
 import LanguageSelector from '../widgets/LanguageSelector.vue';
 import ThemeSwitcher from '../widgets/ThemeSwitcher.vue';
 import UserNameInput from '../widgets/UserNameInput.vue';
 
 const showMenu = ref(false);
+
+const settingsStore = useSettingsStore();
+const selectedLanguage = computed(() => settingsStore.getLang);
+const mainRoutes = computed<Array<RouteRecordRaw>>(() => getMainRoutes(routes));
 
 function toggleMenu() {
   showMenu.value = !showMenu.value;
