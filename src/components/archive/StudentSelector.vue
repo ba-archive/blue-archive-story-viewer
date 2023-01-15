@@ -201,8 +201,18 @@ function handleFocus(event: Event) {
 
 const showFilter = ref(true);
 
+let currentWidth = window.innerWidth;
+let ticking = false;
 function updateShowFilter() {
-  showFilter.value = window.innerWidth > 768;
+  if (ticking) return;
+  ticking = true;
+  window.requestAnimationFrame(() => {
+    if (currentWidth === window.innerWidth) return;
+    // 仅在视口宽度发生变化时更新 showFilter 状态
+    currentWidth = window.innerWidth;
+    showFilter.value = window.innerWidth > 768;
+    ticking = false;
+  });
 }
 
 function handleClearFilterAttribute(property: keyof StudentAttributeFilters) {
