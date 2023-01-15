@@ -472,7 +472,7 @@ onUnmounted(() => {
 
   #name-filter {
     grid-area: input-area;
-    transition: all 0.125s ease-in-out;
+    transition: all 0.175s ease-in-out;
     border: none;
     background-color: transparent;
     padding: 0.5rem;
@@ -513,6 +513,7 @@ onUnmounted(() => {
 .filter-label {
   display: flex;
   align-items: center;
+  transition: all 0.375s ease-in-out;
   color: var(--color-text-main);
   user-select: none;
 

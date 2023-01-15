@@ -273,20 +273,20 @@ body {
     border-radius: 1rem;
     background: var(--color-card-background);
     padding: 1rem;
-  }
 
-  h4 {
-    margin-bottom: 0.5rem;
-    font-weight: normal;
-  }
+    h4 {
+      margin-bottom: 0.5rem;
+      font-weight: normal;
+    }
 
-  .sw-update-button {
-    cursor: pointer;
-    border-radius: 0.25rem;
-    background-color: var(--color-primary-button);
-    padding: 0.25rem 1rem;
-    color: #fff;
-    font-weight: bold;
+    .sw-update-button {
+      cursor: pointer;
+      border-radius: 0.25rem;
+      background-color: var(--color-primary-button);
+      padding: 0.25rem 1rem;
+      color: #fff;
+      font-weight: bold;
+    }
   }
 }
 

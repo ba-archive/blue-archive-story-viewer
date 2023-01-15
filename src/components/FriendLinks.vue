@@ -1,5 +1,13 @@
 <script setup lang="ts">
-const links = [
+interface FriendLink {
+  title: string;
+  url: string;
+  logo: string;
+  logoDescription: string;
+  shouldReverseOnDarkTheme?: boolean;
+  description: string;
+}
+const links: FriendLink[] = [
   {
     title: '碧蓝档案资讯站',
     url: 'https://space.bilibili.com/37507923',
@@ -12,6 +20,7 @@ const links = [
     url: 'https://github.com/ba-archive/blue-archive-story-viewer',
     logo: '/image/contributor/github-logo.svg',
     logoDescription: 'GitHub logo',
+    shouldReverseOnDarkTheme: true,
     description: '',
   },
 ];
@@ -30,7 +39,14 @@ const links = [
           :key="link.url"
           v-once
         >
-          <img class="logo" :src="link.logo" :alt="link.logoDescription" />
+          <img
+            class="logo"
+            :class="
+              link.shouldReverseOnDarkTheme ? 'should-reverse-on-dark' : ''
+            "
+            :src="link.logo"
+            :alt="link.logoDescription"
+          />
           <h4>{{ link.title }}</h4>
           <p>{{ link.description }}</p>
         </a>
@@ -93,7 +109,14 @@ article {
   }
 }
 
+html[data-theme='dark'] {
+  .should-reverse-on-dark {
+    filter: invert(1);
+  }
+}
+
 h2 {
+  transition: color 0.375s ease-in-out;
   margin: 1rem auto 0.5rem;
 }
 

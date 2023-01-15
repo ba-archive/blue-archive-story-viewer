@@ -53,6 +53,7 @@ function getImagePath(id: number | undefined): string {
 .name-tag {
   grid-area: avatar;
   align-self: end;
+  transition: all 0.375s ease-in-out;
   border-radius: 0 0 0.5rem 0.5rem;
   background-color: var(--color-name-tag);
   padding: 0.2rem 0;

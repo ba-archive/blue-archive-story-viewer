@@ -81,6 +81,7 @@ function getFallbackTitle() {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  transition: all 0.375s ease-in-out;
   cursor: pointer;
   background: var(--color-title-container);
   padding: 0.5rem 1rem 0.5rem 0.5rem;
@@ -104,6 +105,7 @@ function getFallbackTitle() {
     }
 
     .ordered-list {
+      transition: color 0.375s ease-in-out;
       margin-right: 1rem;
       margin-left: 0.5rem;
       color: var(--color-text-decoration);
@@ -123,6 +125,7 @@ function getFallbackTitle() {
     flex: none;
     justify-content: center;
     align-items: center;
+    transition: background-color 0.375s ease-in-out;
     background-color: var(--color-primary-button);
     width: 1.75rem;
     height: 1.75rem;
@@ -130,6 +133,7 @@ function getFallbackTitle() {
 
   .navigation-arrow {
     transform: rotate(90deg);
+    transition: transform 0.175s cubic-bezier(0.68, -0.55, 0.27, 1.55);
     cursor: pointer;
     width: 1rem;
     height: 1rem;

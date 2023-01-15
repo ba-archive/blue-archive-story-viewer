@@ -62,6 +62,7 @@ onBeforeUnmount(() => {
   flex: 1;
   flex-direction: column;
   align-items: stretch;
+  transition: background-color 0.375s ease-in-out;
   background-color: var(--color-main-background);
   overflow-y: auto;
 
