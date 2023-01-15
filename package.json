@@ -35,7 +35,7 @@
     "chalk": "5.2.0",
     "eslint": "8.31.0",
     "eslint-config-prettier": "8.6.0",
-    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-import": "2.27.4",
     "eslint-plugin-sort-exports": "0.8.0",
     "eslint-plugin-vue": "9.8.0",
     "eslint-plugin-yaml": "0.5.0",
