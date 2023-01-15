@@ -12,10 +12,16 @@ import './style.scss';
 const updateSW = registerSW({
   onNeedRefresh() {
     Toastify({
-      text: `<h4 style='display:inline;margin-bottom:1rem'>后台资源已更新，请刷新页面以使用新版本</h4>
-<a class='do-sw-update'>刷新</a>`,
+      text: `<div class='sw-update-card'><h4>后台资源已更新，请点击按钮更新以使用新版本</h4>
+<div class='sw-update-button'>刷新</div></div>`,
+      duration: -1,
+      className: 'sw-update-toast',
       escapeMarkup: false,
       gravity: 'bottom',
+      style: {
+        transform: 'none !important',
+        bottom: 'unset !important',
+      },
       onClick() {
         // noinspection JSIgnoredPromiseFromCall
         updateSW(true);
