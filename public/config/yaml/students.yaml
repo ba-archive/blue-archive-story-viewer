@@ -1345,7 +1345,7 @@
     en: Haruna (New Year)
     kr: 하루나(새해)
     tw: ハルナ（正月）
-    th: ハルナ（正月）
+    th: ฮารุนะ (ปีใหม่)
   nickname: []
   club: 美食研究会
   affiliation: 格黑娜
@@ -1353,6 +1353,28 @@
   type: Striker
   armorType: LightArmor
   weapon: SR
+- id: 10058
+  familyName:
+    cn: 苍森
+    jp: 蒼森
+    en: Aomori
+    kr: 아오모리
+    tw: 蒼森
+    th: 蒼森
+  name:
+    cn: 美弥
+    jp: ミネ
+    en: Mine
+    kr: 미네
+    tw: ミネ
+    th: มิเนะ
+  nickname: []
+  club: 救护骑士团
+  affiliation: 圣三一
+  rarity: 3
+  type: Striker
+  armorType: LightArmor
+  weapon: SG
 - id: 13000
   familyName:
     cn: 室笠
@@ -1960,7 +1982,7 @@
     en: Junko (New Year)
     kr: 준코(새해)
     tw: ジュンコ（正月）
-    th: ジュンコ（正月）
+    th: จุนโกะ (ปีใหม่)
   nickname: []
   club: 美食研究会
   affiliation: 格黑娜
@@ -2493,7 +2515,7 @@
     en: Fuuka (New Year)
     kr: 후우카(새해)
     tw: フウカ（正月）
-    th: フウカ（正月）
+    th: ฟูกะ (ปีใหม่)
   nickname: []
   club: 供给部
   affiliation: 格黑娜
