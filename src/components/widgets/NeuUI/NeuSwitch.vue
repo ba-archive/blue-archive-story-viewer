@@ -88,6 +88,7 @@ function toggleSwitch() {
 .neu-switch {
   display: inline-flex;
   position: relative;
+  transition: all 0.375s ease-in-out;
   cursor: pointer;
   box-shadow: var(--style-switch-track-shadow);
   border-radius: 1rem;

@@ -18,6 +18,7 @@
   }
 
   p {
+    transition: color 0.375s ease-in-out;
     color: var(--color-text-main);
     font-weight: bold;
     font-size: 1.5rem;

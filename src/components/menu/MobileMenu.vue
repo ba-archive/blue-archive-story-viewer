@@ -7,7 +7,7 @@
         </div>
         <div class="welcome-message">
           <user-name-input />
-          <span>老师</span>
+          <span>老师，欢迎</span>
         </div>
       </div>
 
@@ -64,7 +64,7 @@ const showMenu = ref(false);
 
 const settingsStore = useSettingsStore();
 const selectedLanguage = computed(() => settingsStore.getLang);
-const mainRoutes = computed<Array<RouteRecordRaw>>(() => getMainRoutes(routes));
+const mainRoutes = computed<RouteRecordRaw[]>(() => getMainRoutes(routes));
 
 function toggleMenu() {
   showMenu.value = !showMenu.value;
@@ -113,6 +113,7 @@ function closeMenu() {
 
 .welcome-message {
   margin-left: 0.5rem;
+  font-weight: bold;
 }
 
 .button {
@@ -188,6 +189,11 @@ function closeMenu() {
 
       &:first-child {
         padding-top: 0.75rem;
+      }
+
+      &.router-link-active:not(:first-child),
+      &.router-link-exact-active {
+        font-weight: bolder;
       }
     }
   }

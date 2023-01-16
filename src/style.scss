@@ -112,6 +112,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: stretch;
+  transition: background 0.375s ease-in-out;
   box-sizing: border-box;
   background: var(--style-background-image) no-repeat center;
   background-size: cover;
@@ -136,9 +137,11 @@ body {
   grid-template-areas: 'navigation-pane main';
   flex: 1;
   justify-items: stretch;
-  transition: border 0.375s ease-in-out;
+  transition: border-color 0.375s ease-in-out;
   box-shadow: var(--style-shadow-shallow);
-  border: 0.2rem solid var(--color-glass-panel-border);
+  border-width: 0.2rem;
+  border-style: solid;
+  border-color: var(--color-glass-panel-border);
   border-radius: 2rem;
   background-color: var(--color-glass-panel);
   padding: 1rem;
@@ -303,7 +306,9 @@ body {
     backdrop-filter: none;
     -webkit-backdrop-filter: none;
     box-shadow: var(--style-shadow-shallow);
-    border: none;
+    border-width: 0;
+    border-style: none;
+    border-color: var(--color-glass-panel-border);
     border-radius: 0;
     background-color: var(--color-glass-panel);
     padding: 0;

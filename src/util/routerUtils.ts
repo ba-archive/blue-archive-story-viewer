@@ -2,8 +2,8 @@ import { RouteRecordRaw } from 'vue-router';
 import { RouteMeta } from '../types/Routes';
 
 export function flattenRouterRecords(
-  routerRecords: Array<RouteRecordRaw>
-): Array<RouteRecordRaw> {
+  routerRecords: RouteRecordRaw[]
+): RouteRecordRaw[] {
   const res = [];
   for (const routerRecord of routerRecords) {
     if (routerRecord.children) {
