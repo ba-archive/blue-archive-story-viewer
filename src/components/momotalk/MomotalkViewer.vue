@@ -220,11 +220,13 @@ next(props.content[0].MessageGroupId, 0);
   width: 100%;
   color: var(--color-momotalk-banner-text);
   user-select: none;
+  transition: all .375s ease-in-out;
 
   svg {
     fill: var(--color-momotalk-banner-text);
     width: 2rem;
     height: 2rem;
+    transition: fill .375s ease-in-out;
   }
 
   .momotalk-title-text {
@@ -249,6 +251,7 @@ next(props.content[0].MessageGroupId, 0);
       a {
         display: inline-flex;
         color: var(--color-momotalk-banner-text);
+        transition: color .375s ease-in-out;
       }
     }
   }

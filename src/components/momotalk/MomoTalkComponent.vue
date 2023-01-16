@@ -214,6 +214,7 @@ function getMessageText(
   padding: 0.5rem;
   width: fit-content;
   color: var(--color-text-contrast);
+  transition: color .375s ease-in-out;
 
   img {
     width: 10rem;
@@ -256,6 +257,7 @@ function getMessageText(
   border: 1px solid var(--color-momotalk-user-action-border);
   background-color: var(--color-momotalk-user-reply-background);
   padding: 0.5rem;
+  transition: all .375s ease-in-out;
 
   .user-reply-banner {
     display: flex;
@@ -265,6 +267,7 @@ function getMessageText(
     width: 100%;
     color: var(--color-text-ingame);
     user-select: none;
+    transition: all .375s ease-in-out;
 
     span {
       display: flex;
@@ -315,6 +318,7 @@ function getMessageText(
   background: var(--color-momotalk-favor-schedule-background)
     url('/src/assets/heart.svg') no-repeat right -25% center;
   padding: 0.5rem;
+  transition: all .375s ease-in-out;
 
   .favor-schedule-banner {
     display: flex;
@@ -324,6 +328,7 @@ function getMessageText(
     width: 100%;
     color: var(--color-text-ingame);
     user-select: none;
+    transition: all .375s ease-in-out;
 
     span {
       display: flex;
@@ -351,6 +356,7 @@ function getMessageText(
     color: var(--color-text-contrast);
     user-select: none;
     text-decoration: none;
+    transition: color .375s ease-in-out;
   }
 }
 </style>
