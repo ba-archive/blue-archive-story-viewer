@@ -18,7 +18,7 @@ const routes: Array<RouteRecordRaw> = [
     },
     children: [
       {
-        path: 'archive',
+        path: '/archive',
         name: 'StudentSelector',
         meta: {
           shouldShowInNav: true,
@@ -66,7 +66,7 @@ const routes: Array<RouteRecordRaw> = [
         ],
       },
       {
-        path: 'mainStory',
+        path: '/mainStory',
         name: 'MainStory',
         meta: {
           shouldShowInNav: true,
@@ -83,7 +83,7 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('../components/MainStoryHome.vue'),
       },
       {
-        path: 'miniStory',
+        path: '/miniStory',
         name: 'MiniStory',
         meta: {
           shouldShowInNav: true,
@@ -100,7 +100,7 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('../components/MiniStoryHome.vue'),
       },
       {
-        path: 'groupStory',
+        path: '/groupStory',
         name: 'GroupStory',
         meta: {
           shouldShowInNav: true,
