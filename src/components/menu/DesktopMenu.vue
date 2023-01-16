@@ -96,7 +96,7 @@ const mainRoutes = computed<Array<RouteRecordRaw>>(() => getMainRoutes(routes));
   color: var(--color-text-main);
   text-decoration: none;
 
-  &.router-link-active:not(.link-home),
+  &.router-link-active:not(:first-child),
   &.router-link-exact-active {
     font-weight: bolder;
   }
