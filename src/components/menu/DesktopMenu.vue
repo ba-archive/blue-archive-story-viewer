@@ -68,6 +68,7 @@ const mainRoutes = computed<Array<RouteRecordRaw>>(() => getMainRoutes(routes));
     border-radius: 50%;
     -webkit-border-radius: 50%;
     padding: 0.15rem;
+    transition: border .375s ease-in-out;
 
     img {
       border-radius: 50%;
@@ -82,6 +83,7 @@ const mainRoutes = computed<Array<RouteRecordRaw>>(() => getMainRoutes(routes));
     color: var(--color-text-main);
     font-weight: bold;
     font-size: 1rem;
+    transition: color .375s ease-in-out;
   }
 }
 
@@ -95,6 +97,7 @@ const mainRoutes = computed<Array<RouteRecordRaw>>(() => getMainRoutes(routes));
   padding: 0.25rem 1rem;
   color: var(--color-text-main);
   text-decoration: none;
+  transition: color .375s ease-in-out;
 
   &.router-link-active:not(:first-child),
   &.router-link-exact-active {

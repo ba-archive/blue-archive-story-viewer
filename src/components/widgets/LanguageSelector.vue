@@ -70,6 +70,7 @@ select {
   line-height: inherit;
   font-family: inherit;
   text-align: center;
+  transition: color 0.375s ease-in-out;
 }
 
 .selection {
@@ -80,5 +81,6 @@ select {
   background-color: var(--color-switch-track);
   width: fit-content;
   user-select: none;
+  transition: all 0.375s ease-in-out;
 }
 </style>

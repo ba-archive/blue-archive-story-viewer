@@ -92,6 +92,7 @@ function closeMenu() {
   align-items: center;
   background-color: var(--color-mobile-nav-background);
   padding: 0.5rem 1rem;
+  transition: background-color 0.375s ease-in-out;
 }
 
 .avatar-wrapper {
@@ -101,6 +102,7 @@ function closeMenu() {
   border-radius: 50%;
   -webkit-border-radius: 50%;
   padding: 0.1rem;
+  transition: border 0.375s ease-in-out;
 
   img {
     border-radius: 50%;
@@ -124,7 +126,7 @@ function closeMenu() {
 
 .menu-line {
   display: block;
-  transition: all 0.375s ease-in-out;
+  transition: all 0.375s cubic-bezier(0.85, -0.06, 0.22, 1.26);
   background-color: var(--color-text-main);
   width: 1.5rem;
   height: 2px;
@@ -171,6 +173,7 @@ function closeMenu() {
     -webkit-filter: drop-shadow(0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.12));
     box-shadow: 0 0 0 200vh rgba(0, 0, 0, 0.1);
     background-color: var(--color-mobile-subnav-background);
+    transition: background-color 0.375s ease-in-out;
 
     a {
       display: flex;
@@ -181,6 +184,7 @@ function closeMenu() {
       width: 100%;
       color: var(--color-text-main);
       text-decoration: none;
+      transition: color 0.375s ease-in-out;
 
       &:first-child {
         padding-top: 0.75rem;
@@ -208,16 +212,6 @@ function closeMenu() {
 .menu-transition-enter-from,
 .menu-transition-leave-to {
   transform: translate3d(0, -100%, 0);
-  opacity: 0;
-}
-
-.mask-transition-enter-active,
-.mask-transition-leave-active {
-  transition: all 0.375s ease;
-}
-
-.mask-transition-enter-from,
-.mask-transition-leave-to {
   opacity: 0;
 }
 
