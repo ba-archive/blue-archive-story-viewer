@@ -4,8 +4,11 @@ import { useRoute } from 'vue-router';
 import HomeWelcomeScreen from './components/HomeWelcomeScreen.vue';
 import DesktopMenu from './components/menu/DesktopMenu.vue';
 import MobileMenu from './components/menu/MobileMenu.vue';
+import { useSettingsStore } from './store/settings';
+import { switchTheme } from './util/userInterfaceUtils';
 
 const route = useRoute();
+const settingsStore = useSettingsStore();
 const showMobileMenu = ref(false);
 
 const isMainPage = computed(() => route.path === '/');
@@ -39,6 +42,14 @@ onBeforeMount(() => {
   const htmlElement = document.querySelector('html') as HTMLHtmlElement;
   showMobileMenu.value = htmlElement.clientWidth <= 768;
   window.addEventListener('resize', handleWindowSizeChange);
+
+  if (
+    window.matchMedia &&
+    window.matchMedia('(prefers-color-scheme: dark)').matches
+  ) {
+    settingsStore.setTheme('dark');
+    switchTheme('dark');
+  }
 });
 
 onBeforeUnmount(() => {

@@ -1,32 +1,11 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 import { useSettingsStore } from '../../store/settings';
+import { switchTheme } from '../../util/userInterfaceUtils';
 import NeuSwitch from './NeuUI/NeuSwitch.vue';
 
 const settingsStore = useSettingsStore();
 const currentTheme = computed(() => settingsStore.getTheme);
-
-function switchTheme(theme: 'light' | 'dark') {
-  const htmlElement = document.querySelector('html') as HTMLHtmlElement;
-  const metaThemeColor = document.querySelector('meta[name=theme-color]');
-
-  if ('light' === theme) {
-    htmlElement.dataset.theme = 'light';
-    metaThemeColor?.setAttribute('content', '#ffffffd8');
-  } else {
-    htmlElement.dataset.theme = 'dark';
-    metaThemeColor?.setAttribute('content', '#343e50d8');
-  }
-}
-
-if (
-  window.matchMedia &&
-  window.matchMedia('(prefers-color-scheme: dark)').matches
-) {
-  settingsStore.setTheme('dark');
-}
-
-switchTheme(currentTheme.value);
 
 function toggleTheme(value: 'light' | 'dark') {
   switchTheme(value);
