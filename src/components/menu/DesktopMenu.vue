@@ -39,7 +39,8 @@ import UserNameInput from '../widgets/UserNameInput.vue';
 
 const settingsStore = useSettingsStore();
 const selectedLanguage = computed(() => settingsStore.getLang);
-const mainRoutes = computed<Array<RouteRecordRaw>>(() => getMainRoutes(routes));
+// 主导航路由
+const mainRoutes = computed<RouteRecordRaw[]>(() => getMainRoutes(routes));
 </script>
 
 <style scoped lang="scss">

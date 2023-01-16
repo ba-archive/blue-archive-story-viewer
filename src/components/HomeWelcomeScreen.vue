@@ -12,6 +12,8 @@
 
 <style scoped lang="scss">
 #home-welcome {
+  user-select: none;
+
   img {
     transform: scaleX(-1);
     max-width: 200px;

@@ -62,9 +62,8 @@
         :to="`/archive/${characterId}/story`"
         role="button"
         class="favor-schedule-button rounded-small shadow-near"
+        >前往{{ studentName }}的羁绊事件</router-link
       >
-        前往{{ studentName }}的羁绊事件
-      </router-link>
     </div>
   </div>
 </template>

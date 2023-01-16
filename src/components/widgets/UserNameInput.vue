@@ -16,6 +16,7 @@ import { useSettingsStore } from '../../store/settings';
 const settingsStore = useSettingsStore();
 const username = computed(() => settingsStore.getUsername);
 
+// 触发主动失焦事件
 function activeLoseFocus(event: Event) {
   (event.target as HTMLElement).blur();
 }

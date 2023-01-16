@@ -28,6 +28,7 @@ const selectedLangTitle = computed(() => {
   return Reflect.get(props.title, Reflect.get(languageMap, props.language));
 });
 
+// 用于指定语言无对应文本时返回 fallback 文本
 function getFallbackTitle() {
   for (const lang in languageMap) {
     const text = Reflect.get(props.title, Reflect.get(languageMap, lang));

@@ -24,6 +24,7 @@ const momotalks: Ref<Momotalks> = ref({
 const opentalks: Ref<number[]> = ref([]);
 const route = useRoute();
 
+// 把角色的全部 momotalk 按照对应剧情切片
 function getSplitMomotalk(momotalkContent: Momotalk[]): SplitMomotalk[] {
   const splitMomotalk: SplitMomotalk[] = [];
 
@@ -90,6 +91,7 @@ axios
     fetchErrorMessage.value = e;
   });
 
+// 处理点击展开的逻辑
 function handleOpenTalks(index: number) {
   if (opentalks.value.includes(index)) {
     opentalks.value = opentalks.value.filter(i => i !== index);
@@ -98,7 +100,8 @@ function handleOpenTalks(index: number) {
   }
 }
 
-function getRelatedChat(GroupId: number): Momotalk[] | undefined {
+// 根据角色的好感剧情对应的 GroupId，返回对应剧情的 momotalk
+function getCorrespondingChat(GroupId: number): Momotalk[] | undefined {
   return momotalks.value.splitMomotalk.find(e => e.FavorScheduleId === GroupId)
     ?.splitMomotalkContent;
 }
@@ -134,7 +137,7 @@ function getStudentAvatar(CharacterId: number): string {
       <momotalk-viewer
         :messageGroup="chat.GroupId"
         :translator="momotalks.translator"
-        :content="getRelatedChat(chat.GroupId)"
+        :content="getCorrespondingChat(chat.GroupId)"
         v-if="opentalks.includes(index)"
       />
     </div>

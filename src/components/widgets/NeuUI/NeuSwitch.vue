@@ -27,6 +27,7 @@ const switchWidth = ref({
   thumb: 0,
 });
 
+// 计算拨片和轨道宽度，以便计算拨片位置
 const vCalculateWidth: Directive = {
   mounted(el: HTMLElement, binding: DirectiveBinding) {
     if ('thumb' === binding.value) {
@@ -51,6 +52,7 @@ const props = withDefaults(
 
 const shouldSwitchOn = ref(props.checked || false);
 
+// 如果 props.checked 发生变化，更新 shouldSwitchOn
 watch(
   () => props.checked,
   newValue => {

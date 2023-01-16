@@ -64,6 +64,7 @@ const showMenu = ref(false);
 
 const settingsStore = useSettingsStore();
 const selectedLanguage = computed(() => settingsStore.getLang);
+// 主导航路由
 const mainRoutes = computed<RouteRecordRaw[]>(() => getMainRoutes(routes));
 
 function toggleMenu() {

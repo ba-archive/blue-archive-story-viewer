@@ -106,6 +106,11 @@ function getCohortAttribute(
   return filtered;
 }
 
+/**
+ * @namespace armorTypes
+ * @description 目前游戏内的三种装甲类型
+ *              order 用于排序
+ */
 const armorTypes = [
   {
     string: 'LightArmor',
@@ -136,6 +141,8 @@ function sortArmorType(a: string | number, b: string | number): number {
     sensitivity: 'accent',
   });
 }
+
+// 获取全部学生的不重复的属性用于边栏展示
 
 const studentRarities = computed(() => getCohortAttribute('rarity', false));
 const studentClubs = computed(() => getCohortAttribute('club'));
@@ -168,6 +175,7 @@ const isEmptyFilter = computed(() => {
   );
 });
 
+// 查询一个 tag 是否被选中
 function isActivate(property: string, value: string | number) {
   return (
     appliedFilters.value[property as keyof AppliedFilter] as (string | number)[]
@@ -176,6 +184,7 @@ function isActivate(property: string, value: string | number) {
     : '';
 }
 
+// 处理学生属性过滤器的状态变化，把新的状态存入 settingsStore 并更新过滤后的学生列表
 function handleFilter(property: keyof AppliedFilter, value: string | number) {
   if ((appliedFilters.value[property] as (string | number)[]).includes(value)) {
     (appliedFilters.value[property] as (string | number)[]) = (
@@ -201,6 +210,7 @@ function handleFocus(event: Event) {
 
 const showFilter = ref(true);
 
+// 处理视口尺寸变化（响应式布局）
 let currentWidth = window.innerWidth;
 let ticking = false;
 function updateShowFilter() {
@@ -215,6 +225,7 @@ function updateShowFilter() {
   });
 }
 
+// 重置过滤器
 function handleClearFilterAttribute(property: keyof StudentAttributeFilters) {
   settingsStore.clearStudentFilter(property);
 }
