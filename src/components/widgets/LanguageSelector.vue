@@ -60,6 +60,7 @@ function handleLangChange(event: Event) {
 select {
   appearance: none;
   -webkit-appearance: none;
+  transition: color 0.375s ease-in-out;
   cursor: pointer;
   outline: none;
   border: none;
@@ -70,17 +71,16 @@ select {
   line-height: inherit;
   font-family: inherit;
   text-align: center;
-  transition: color 0.375s ease-in-out;
 }
 
 .selection {
   display: flex;
   flex-direction: row;
   align-items: center;
+  transition: all 0.375s ease-in-out;
   box-shadow: var(--style-switch-track-shadow);
   background-color: var(--color-switch-track);
   width: fit-content;
   user-select: none;
-  transition: all 0.375s ease-in-out;
 }
 </style>

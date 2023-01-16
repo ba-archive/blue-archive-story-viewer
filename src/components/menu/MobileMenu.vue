@@ -90,19 +90,19 @@ function closeMenu() {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: background-color 0.375s ease-in-out;
   background-color: var(--color-mobile-nav-background);
   padding: 0.5rem 1rem;
-  transition: background-color 0.375s ease-in-out;
 }
 
 .avatar-wrapper {
   backdrop-filter: brightness(0.8) saturate(0.8);
   -webkit-backdrop-filter: brightness(0.95) saturate(0.8);
+  transition: border 0.375s ease-in-out;
   border: 0.1rem var(--color-player-avatar-border) solid;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   padding: 0.1rem;
-  transition: border 0.375s ease-in-out;
 
   img {
     border-radius: 50%;
@@ -171,20 +171,20 @@ function closeMenu() {
     flex-direction: column;
     filter: drop-shadow(0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.12));
     -webkit-filter: drop-shadow(0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.12));
+    transition: background-color 0.375s ease-in-out;
     box-shadow: 0 0 0 200vh rgba(0, 0, 0, 0.1);
     background-color: var(--color-mobile-subnav-background);
-    transition: background-color 0.375s ease-in-out;
 
     a {
       display: flex;
       justify-content: center;
       align-items: center;
+      transition: color 0.375s ease-in-out;
       border-radius: 0;
       padding: 0.5rem 1rem;
       width: 100%;
       color: var(--color-text-main);
       text-decoration: none;
-      transition: color 0.375s ease-in-out;
 
       &:first-child {
         padding-top: 0.75rem;

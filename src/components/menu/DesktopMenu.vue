@@ -64,11 +64,11 @@ const mainRoutes = computed<Array<RouteRecordRaw>>(() => getMainRoutes(routes));
   .avatar-wrapper {
     backdrop-filter: brightness(0.8) saturate(0.8);
     -webkit-backdrop-filter: brightness(0.95) saturate(0.8);
+    transition: border 0.375s ease-in-out;
     border: 0.15rem var(--color-player-avatar-border) solid;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     padding: 0.15rem;
-    transition: border .375s ease-in-out;
 
     img {
       border-radius: 50%;
@@ -79,11 +79,11 @@ const mainRoutes = computed<Array<RouteRecordRaw>>(() => getMainRoutes(routes));
   }
 
   .welcome-message {
+    transition: color 0.375s ease-in-out;
     margin-left: 1rem;
     color: var(--color-text-main);
     font-weight: bold;
     font-size: 1rem;
-    transition: color .375s ease-in-out;
   }
 }
 
@@ -94,10 +94,10 @@ const mainRoutes = computed<Array<RouteRecordRaw>>(() => getMainRoutes(routes));
 
 .nav-link {
   display: flex;
+  transition: color 0.375s ease-in-out;
   padding: 0.25rem 1rem;
   color: var(--color-text-main);
   text-decoration: none;
-  transition: color .375s ease-in-out;
 
   &.router-link-active:not(:first-child),
   &.router-link-exact-active {

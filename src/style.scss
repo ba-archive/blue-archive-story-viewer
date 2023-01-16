@@ -136,13 +136,13 @@ body {
   grid-template-areas: 'navigation-pane main';
   flex: 1;
   justify-items: stretch;
+  transition: border 0.375s ease-in-out;
   box-shadow: var(--style-shadow-shallow);
   border: 0.2rem solid var(--color-glass-panel-border);
   border-radius: 2rem;
   background-color: var(--color-glass-panel);
   padding: 1rem;
   max-width: 1920px;
-  transition: border .375s ease-in-out;
 }
 
 .loading-container {
