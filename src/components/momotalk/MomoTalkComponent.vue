@@ -209,12 +209,12 @@ function getMessageText(
 }
 
 .message-content-wrap {
+  transition: color 0.375s ease-in-out;
   margin-left: 0.5rem;
   background-color: #505a6d;
   padding: 0.5rem;
   width: fit-content;
   color: var(--color-text-contrast);
-  transition: color .375s ease-in-out;
 
   img {
     width: 10rem;
@@ -253,21 +253,21 @@ function getMessageText(
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  transition: all 0.375s ease-in-out;
   margin-left: auto;
   border: 1px solid var(--color-momotalk-user-action-border);
   background-color: var(--color-momotalk-user-reply-background);
   padding: 0.5rem;
-  transition: all .375s ease-in-out;
 
   .user-reply-banner {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    transition: all 0.375s ease-in-out;
     border-bottom: 1px solid var(--color-momotalk-user-action-border);
     width: 100%;
     color: var(--color-text-ingame);
     user-select: none;
-    transition: all .375s ease-in-out;
 
     span {
       display: flex;
@@ -313,22 +313,22 @@ function getMessageText(
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  transition: all 0.375s ease-in-out;
   margin-left: auto;
   border: 1px solid var(--color-momotalk-user-action-border);
   background: var(--color-momotalk-favor-schedule-background)
     url('/src/assets/heart.svg') no-repeat right -25% center;
   padding: 0.5rem;
-  transition: all .375s ease-in-out;
 
   .favor-schedule-banner {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    transition: all 0.375s ease-in-out;
     border-bottom: 1px solid var(--color-momotalk-user-action-border);
     width: 100%;
     color: var(--color-text-ingame);
     user-select: none;
-    transition: all .375s ease-in-out;
 
     span {
       display: flex;
@@ -349,6 +349,7 @@ function getMessageText(
   }
 
   .favor-schedule-button {
+    transition: color 0.375s ease-in-out;
     cursor: pointer;
     margin-top: 1rem;
     background-color: #ff92a4;
@@ -356,7 +357,6 @@ function getMessageText(
     color: var(--color-text-contrast);
     user-select: none;
     text-decoration: none;
-    transition: color .375s ease-in-out;
   }
 }
 </style>

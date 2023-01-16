@@ -215,18 +215,18 @@ next(props.content[0].MessageGroupId, 0);
 }
 
 .momotalk-banner {
+  transition: all 0.375s ease-in-out;
   background-color: var(--color-momotalk-background);
   padding: 0.5rem;
   width: 100%;
   color: var(--color-momotalk-banner-text);
   user-select: none;
-  transition: all .375s ease-in-out;
 
   svg {
     fill: var(--color-momotalk-banner-text);
+    transition: fill 0.375s ease-in-out;
     width: 2rem;
     height: 2rem;
-    transition: fill .375s ease-in-out;
   }
 
   .momotalk-title-text {
@@ -250,8 +250,8 @@ next(props.content[0].MessageGroupId, 0);
 
       a {
         display: inline-flex;
+        transition: color 0.375s ease-in-out;
         color: var(--color-momotalk-banner-text);
-        transition: color .375s ease-in-out;
       }
     }
   }
