@@ -90,7 +90,6 @@ html[data-theme='dark'] {
   --color-tag-active-background: #000;
   --color-tag-active: #eee;
   --color-tag-background: #494949;
-  --color-text-contrast: #fff;
   --color-text-decoration: #5c5c5c;
   --color-text-glass-panel: #eee;
   --color-text-ingame: #eee;
@@ -256,6 +255,7 @@ body {
 }
 
 // control pwa install prompt
+//noinspection CssUnusedSymbol
 .sw-update-toast {
   display: flex;
   position: fixed;
