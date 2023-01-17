@@ -52,10 +52,9 @@
 
 <script lang="ts" setup>
 import { computed, ref } from 'vue';
-import { RouteRecordRaw } from 'vue-router';
-import { routes } from '../../route/routes';
+import { useRouter } from 'vue-router';
 import { useSettingsStore } from '../../store/settings';
-import { getMainRoutes, getRouteTranslation } from '../../util/routerUtils';
+import { getRouteTranslation } from '../../util/routerUtils';
 import LanguageSelector from '../widgets/LanguageSelector.vue';
 import ThemeSwitcher from '../widgets/ThemeSwitcher.vue';
 import UserNameInput from '../widgets/UserNameInput.vue';
@@ -64,8 +63,16 @@ const showMenu = ref(false);
 
 const settingsStore = useSettingsStore();
 const selectedLanguage = computed(() => settingsStore.getLang);
+const router = useRouter();
 // 主导航路由
-const mainRoutes = computed<RouteRecordRaw[]>(() => getMainRoutes(routes));
+const mainRoutes = computed(() =>
+  router
+    .getRoutes()
+    .filter(route => route.meta?.shouldShowInNav)
+    .sort((a, b) => {
+      return (a.meta?.navOrder as number) - (b.meta?.navOrder as number) || 0;
+    })
+);
 
 function toggleMenu() {
   showMenu.value = !showMenu.value;

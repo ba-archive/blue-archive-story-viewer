@@ -1,31 +1,6 @@
 import { RouteRecordRaw } from 'vue-router';
 import { RouteMeta } from '../types/Routes';
 
-export function flattenRouterRecords(
-  routerRecords: RouteRecordRaw[]
-): RouteRecordRaw[] {
-  const res = [];
-  for (const routerRecord of routerRecords) {
-    if (routerRecord.children) {
-      res.push(routerRecord);
-      res.push(...flattenRouterRecords(routerRecord.children));
-    } else {
-      res.push(routerRecord);
-    }
-  }
-  return res;
-}
-
-export function getMainRoutes(
-  routerRecords: Array<RouteRecordRaw>
-): Array<RouteRecordRaw> {
-  return flattenRouterRecords(routerRecords)
-    .filter(route => route.meta?.shouldShowInNav)
-    .sort((a, b) => {
-      return (a.meta?.navOrder as number) - (b.meta?.navOrder as number) || 0;
-    });
-}
-
 export function getRouteTranslation(
   route: RouteRecordRaw,
   lang: string
