@@ -36,6 +36,7 @@ const baseUrl = window.location.origin;
   justify-content: center;
   align-items: center;
   margin: auto;
+  user-select: none;
 
   img {
     max-width: 20rem;

@@ -152,6 +152,15 @@ const routes: Array<RouteRecordRaw> = [
       },
     ],
   },
+  {
+    path: '/404',
+    name: '404',
+    component: () => import('../components/NotFound.vue'),
+  },
+  {
+    path: '/:pathMatch(.*)',
+    redirect: '/404',
+  },
 ];
 
 const routerConvert = createRouter({
