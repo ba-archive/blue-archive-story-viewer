@@ -10,7 +10,15 @@
 @font-face {
   src: url('/font/AsapCondensed-BoldItalic.woff2') format('woff2'),
     url('/font/AsapCondensed-BoldItalic.woff') format('woff');
-  font-family: 'Asap Condensed';
+  font-family: 'Asap Condensed Bold Italic';
+  font-display: swap;
+}
+
+//noinspection CssUnknownTarget
+@font-face {
+  src: url('/font/AsapCondensed-Medium.woff2') format('woff2'),
+    url('/font/AsapCondensed-Medium.woff') format('woff');
+  font-family: 'Asap Condensed Medium';
   font-display: swap;
 }
 

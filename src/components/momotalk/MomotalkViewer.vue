@@ -235,7 +235,7 @@ next(props.content[0].MessageGroupId, 0);
     justify-content: flex-start;
     margin-left: 0.5rem;
     font-size: 1.25rem;
-    font-family: 'Asap Condensed', 'Microsoft YaHei', 'PingFang SC',
+    font-family: 'Asap Condensed Bold Italic', 'Microsoft YaHei', 'PingFang SC',
       -apple-system, system-ui, 'Segoe UI', Roboto, Ubuntu, Cantarell,
       'Noto Sans', BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans GB',
       Arial, sans-serif;
@@ -245,8 +245,12 @@ next(props.content[0].MessageGroupId, 0);
     }
 
     .credit {
-      font-style: italic;
+      transform: skewX(-6deg);
       font-size: 0.5rem;
+      font-family: 'Asap Condensed Medium', 'Microsoft YaHei', 'PingFang SC',
+        -apple-system, system-ui, 'Segoe UI', Roboto, Ubuntu, Cantarell,
+        'Noto Sans', BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans GB',
+        Arial, sans-serif;
 
       a {
         display: inline-flex;
