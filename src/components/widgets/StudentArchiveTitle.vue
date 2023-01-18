@@ -24,8 +24,19 @@ const languageMap = {
   th: 'TextTh',
 };
 
+function stripRubyContent(content: string | undefined): string {
+  if (!content) {
+    return '';
+  }
+  return content.replaceAll(/\[\/?ruby=?.*?]/gi, '');
+}
+
 const selectedLangTitle = computed(() => {
-  return Reflect.get(props.title, Reflect.get(languageMap, props.language));
+  const rawTitle = Reflect.get(
+    props.title,
+    Reflect.get(languageMap, props.language)
+  );
+  return stripRubyContent(rawTitle);
 });
 
 // 用于指定语言无对应文本时返回 fallback 文本
@@ -33,7 +44,7 @@ function getFallbackTitle() {
   for (const lang in languageMap) {
     const text = Reflect.get(props.title, Reflect.get(languageMap, lang));
     if (text) {
-      return text;
+      return stripRubyContent(text);
     }
   }
   return 'NoFallbackText';
