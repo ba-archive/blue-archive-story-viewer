@@ -293,8 +293,8 @@ body {
     .sw-update-button {
       cursor: pointer;
       border-radius: 0.25rem;
-      background-color: var(--color-primary-button);
-      padding: 0.25rem 1rem;
+      background: var(--color-primary-button);
+      padding: 0.4rem 1rem;
       color: #fff;
       font-weight: bold;
     }

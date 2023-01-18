@@ -82,19 +82,6 @@ onBeforeUnmount(() => {
   }
 }
 
-.fade-enter-active,
-.fade-leave-active {
-  position: absolute;
-  transition: opacity 0.375s;
-  width: 100vw;
-  height: var(--main-height, 93vh);
-}
-
-.fade-leave-to,
-.fade-enter-from {
-  opacity: 0;
-}
-
 @media screen and (max-width: 768px) {
   #main-view {
     border-radius: 0;

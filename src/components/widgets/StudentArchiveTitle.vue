@@ -138,7 +138,7 @@ function getFallbackTitle() {
     justify-content: center;
     align-items: center;
     transition: background-color 0.375s ease-in-out;
-    background-color: var(--color-primary-button);
+    background: var(--color-primary-button);
     width: 1.75rem;
     height: 1.75rem;
   }
