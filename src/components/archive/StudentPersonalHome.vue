@@ -1,10 +1,16 @@
 <template>
   <div class="fill-width flex-vertical rounded-small">
     <div class="student-home-nav-bar">
-      <router-link :to="{ name: 'Momotalk' }" class="button" role="button"
+      <router-link
+        :to="{ name: 'Momotalk' }"
+        class="button rounded-small"
+        role="button"
         >momotalk</router-link
       >
-      <router-link :to="{ name: 'StudentStory' }" class="button" role="button"
+      <router-link
+        :to="{ name: 'StudentStory' }"
+        class="button rounded-small"
+        role="button"
         >好感剧情</router-link
       >
     </div>
@@ -28,7 +34,17 @@
   place-items: center;
 
   .button {
+    transition: all 0.375s ease-in-out;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     padding: 1rem 1.5rem;
+    color: var(--color-text-main);
+    font-weight: bold;
+    text-decoration: none;
+
+    &.router-link-exact-active {
+      box-shadow: var(--style-primary-inset-main);
+    }
   }
 }
 </style>

@@ -58,6 +58,7 @@ function backToLastState() {
       display: flex;
       justify-content: center;
       align-items: center;
+      transition: background 0.375s ease-in-out;
       cursor: pointer;
       background: var(--color-primary-button);
       padding: 0.4rem 1rem;

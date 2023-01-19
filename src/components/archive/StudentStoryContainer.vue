@@ -1,7 +1,7 @@
 <template>
   <div class="flex-vertical rounded-small">
     <div class="title">
-      这里本该展示{{ studentName }}的好感剧情，但是我们没写完
+      这里本该展示{{ studentName }}的好感剧情，但是我们没写完播放器
     </div>
     <router-link to="/contribute">
       <img
@@ -32,6 +32,10 @@ const studentName = computed(() => {
 </script>
 
 <style scoped lang="scss">
+.title {
+  margin-bottom: 1rem;
+}
+
 img.hire {
   cursor: pointer;
   margin: 0 auto;

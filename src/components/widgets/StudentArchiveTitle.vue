@@ -137,7 +137,8 @@ function getFallbackTitle() {
     flex: none;
     justify-content: center;
     align-items: center;
-    transition: background-color 0.375s ease-in-out;
+    transition: background 0.375s ease-in-out;
+    box-shadow: var(--style-primary-button-inset-shadow);
     background: var(--color-primary-button);
     width: 1.75rem;
     height: 1.75rem;
@@ -145,6 +146,8 @@ function getFallbackTitle() {
 
   .navigation-arrow {
     transform: rotate(90deg);
+    filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.1));
+    -webkit-filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.1));
     transition: transform 0.175s cubic-bezier(0.68, -0.55, 0.27, 1.55);
     cursor: pointer;
     width: 1rem;
