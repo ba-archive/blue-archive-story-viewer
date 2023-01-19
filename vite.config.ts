@@ -6,8 +6,15 @@ import { VitePWA } from 'vite-plugin-pwa';
 import legacy from '@vitejs/plugin-legacy';
 import vue from '@vitejs/plugin-vue';
 
+import postcssPresetEnv from 'postcss-preset-env';
+
 // https://vitejs.dev/config/
 export default defineConfig({
+  css: {
+    postcss: {
+      plugins: [postcssPresetEnv()],
+    },
+  },
   plugins: [
     vue(),
     legacy({
