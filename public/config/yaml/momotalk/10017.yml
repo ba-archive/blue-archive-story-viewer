@@ -134,7 +134,8 @@ content:
     MessageKR: 특별 학생 우호 훈장은 지난번에도 받지 않았어?
     MessageJP: あれ……特別友好章って、この前も貰わなかったっけ？
     MessageCN: 那个……特别友好章，我之前好像就拿到过一次？
-    MessageEN: Wait, didn't you get the Special Student Friendship Medal last time
+    MessageEN:
+      Wait, didn't you get the Special Student Friendship Medal last time
       too?
     MessageTH: 'คราวก่อนก็ได้รับเหรียญนี้ไปแล้ว
 
@@ -155,7 +156,8 @@ content:
     MessageKR: 무슨 소리인가. 지난번에 수여한 훈장은 <특별 학생 우정 훈장> 이었다고.
     MessageJP: 何を言っている、この前授与した勲章は「特別友情章」だ
     MessageCN: 说什么呢，上次授予的勋章是“特別友情章”
-    MessageEN: What are you talking about? Last time it was the Special Student Cordiality
+    MessageEN:
+      What are you talking about? Last time it was the Special Student Cordiality
       Medal.
     MessageTH: 'พูดอะไรน่ะ เหรียญที่ได้ไปคราวที่แล้ว
 
@@ -216,7 +218,8 @@ content:
     MessageKR: 붉은겨울 연방학원에서는 학원의 발전에 크게 기여한 학생들을 표창하기 위해
     MessageJP: レッドウィンターでは、学園の発展に大きく貢献した者を表彰するために、
     MessageCN: 红冬为了表彰对学园发展作出重大贡献的人，
-    MessageEN: The Red Winter Federal Academy has a total of 247 different medals
+    MessageEN:
+      The Red Winter Federal Academy has a total of 247 different medals
       to
     MessageTH: 'ที่สถาบันสหพันธ์เรดวินเทอร์
 
@@ -293,7 +296,7 @@ content:
     MessageKR: ……247종 전부다!
     MessageJP: ……247種、全部だ！
     MessageCN: ……247种勋章，咱全都有！
-    MessageEN: '...I''ve been awarded all 247 medals!'
+    MessageEN: "...I've been awarded all 247 medals!"
     MessageTH: เราได้มาทั้ง 247 แบบแล้ว!
     MessageTW: ……247種，全部！
   - MessageGroupId: 100170090
@@ -707,7 +710,8 @@ content:
     MessageKR: 오늘 방과 후, 가게 앞에서 기다리고 있을 테니 늦으면 안 돼!
     MessageJP: 今日の放課後、お店の前で待っているから遅れないように！
     MessageCN: 今天放学后，咱在店门口等同志，同志可别迟到了！
-    MessageEN: I'll be waiting in front of the store after school today. Don't be
+    MessageEN:
+      I'll be waiting in front of the store after school today. Don't be
       late!
     MessageTH: 'หลังเลิกเรียนวันนี้เราจะไปรออยู่หน้า
 
@@ -820,7 +824,8 @@ content:
     MessageKR: 이곳에 오면 눈사람도, 눈토끼도 원하는 만큼 만들 수 있다고!
     MessageJP: ここに来れば雪だるまも雪ウサギも、好きなだけ作れるぞ！
     MessageCN: 同志过来的话，雪人、雪兔，想堆多少个就能多少个！
-    MessageEN: If you come here, you can make as many snowmen and snow bunnies as
+    MessageEN:
+      If you come here, you can make as many snowmen and snow bunnies as
       you want!
     MessageTH: 'ถ้ามาที่นี่ก็จะปั้นตุ๊กตาหิมะ
 
@@ -859,7 +864,8 @@ content:
     MessageKR: 안 돼! 눈이 언제 그치고 녹아버릴지도 모르는데, 여유를 부릴 틈은 없다고!
     MessageJP: ダメだ！いつ雪が止んでしまうかも分からないのに、そんな余裕はない！
     MessageCN: 不行！不知道什么时候雪就会停，机不可失！
-    MessageEN: No! You never know when the snow will stop! You have to come right
+    MessageEN:
+      No! You never know when the snow will stop! You have to come right
       now!
     MessageTH: 'ไม่ได้! เราไม่รู้ว่าหิมะจะหยุดตกและ
 
@@ -1092,7 +1098,8 @@ content:
     MessageKR: 붉은겨울 학원의 서기장이자 학생회장이자, 미화부장이자, 청소부장인 이 몸에게 두려움 따윈 없느니라!
     MessageJP: レッドウィンター連邦学園の生徒会長であり、書記長兼、環境美化部部長兼、清掃部部長のおいらに、恐れるものなど無い！
     MessageCN: 身为红冬联邦学园的学生会长兼书记长兼环境美化部部长兼清扫部部长的咱，根本不会有害怕的东西！
-    MessageEN: I am the Great Leader, esteemed Student Council president, Beautifier
+    MessageEN:
+      I am the Great Leader, esteemed Student Council president, Beautifier
       of Lands, and Chief of Sanitation of Red Winter Academy! I don't fear a thing!
     MessageTH: 'ในฐานะของประธานสภานักเรียน
 

@@ -100,7 +100,8 @@ content:
     MessageKR: 별 건 아니고, 작전 수행에 필요한 물건들이 생겼는데 선생님이 좀 가져다줬으면 해.
     MessageJP: ちょっとお願いというか、任務に必要なものがあって
     MessageCN: 我有件事想请老师帮忙，或者说，我有件任务物品想麻烦老师替我跑一趟
-    MessageEN: It's nothing, really. There are some items that I need to conduct a
+    MessageEN:
+      It's nothing, really. There are some items that I need to conduct a
       mission, and I was wondering if you could bring them.
     MessageTH: 'ไม่มีอะไรหรอก พอดีมีของที่ต้องใช้
 
@@ -123,7 +124,8 @@ content:
     MessageKR: 여기까지 와줄 필요는 없고 지정한 장소로 가져가면 아스나 선배가 기다리고 있을 거야.
     MessageJP: この後場所を教えるから、アスナ先輩に渡してもらえると助かる
     MessageCN: 等会我会告诉老师地点的，如果老师能帮我交给明日奈前辈的话就帮大忙了
-    MessageEN: You don't need to come all the way here. Just bring them to the designated
+    MessageEN:
+      You don't need to come all the way here. Just bring them to the designated
       spot, and Asuna will be waiting for you.
     MessageTH: ครูไม่ต้องมาถึงที่นี่ก็ได้ แค่เอาไปที่พิกัดที่ฉันบอกก็พอ เดี๋ยวอาสึนะจะไปรออยู่ที่นั่นเอง
     MessageTW: 之後會告訴你地點，如果能交給明日奈前輩的話就幫大忙了
@@ -142,7 +144,8 @@ content:
     MessageKR: 웬만하면 우리들 선에서 해결하겠지만, 상황이 좀 여의치가 않게 됐네.
     MessageJP: 今、少し手が離せなくて……
     MessageCN: 我现在，有点抽不开身……
-    MessageEN: Normally, we would try to take care of this ourselves, but the situation
+    MessageEN:
+      Normally, we would try to take care of this ourselves, but the situation
       is turning out to be a bit difficult.
     MessageTH: พวกเราพยายามแก้ไขเรื่องนี้เองแล้ว แต่ว่าสถานการณ์มันยุ่งยากขึ้นนิดหน่อย
     MessageTW: 現在有點忙，離不開……
@@ -215,7 +218,8 @@ content:
     MessageKR: 고마워, 선생님. 직접 만나진 않겠지만 미리 감사를 표하지.
     MessageJP: 今日は直接会ってお礼できないかもしれないけど、また今度あらためて
     MessageCN: 虽然这次可能没办法，但是等到下次见面的时候我会当面感谢老师的
-    MessageEN: Thank you, Sensei. Since I won't be seeing you personally, I'll thank
+    MessageEN:
+      Thank you, Sensei. Since I won't be seeing you personally, I'll thank
       you in advance.
     MessageTH: ขอบคุณนะคุณครู ถึงเราจะไม่ได้เจอกันก็เถอะ แต่ก็ขอขอบคุณไว้ล่วงหน้าแล้วกัน
     MessageTW: 今天可能無法直接當面道謝，下次再見面吧
@@ -434,7 +438,8 @@ content:
     MessageKR: 마침 잠입 수사 중인데, 잠입한 일이 접객과 관련된 일이라서 말이지.
     MessageJP: 潜入捜査中だから、事態が動いたらお返しどころじゃなくなるかもだけど……今は落ち着いてるから、多分大丈夫
     MessageCN: 之前因为我当时正在进行潜入调查，要是事态发生变化，到时就顾不上报答了……但是现在事件告一段落了，所以应该没问题
-    MessageEN: I'm currently on an undercover investigation, and it happens to be
+    MessageEN:
+      I'm currently on an undercover investigation, and it happens to be
       customer service related.
     MessageTH: ตอนนี้เรากำลังปลอมตัวเข้าไปสืบสวนอยู่ และมันเป็นงานเกี่ยวกับการบริการน่ะ
     MessageTW: 因為正在進行潛入調查，如果情勢改變的話，也許就無法回禮了……但是目前還好，大概沒問題
@@ -999,7 +1004,8 @@ content:
     MessageKR: 오늘 입은 옷의 경우에는 아무래도 잘 질리지는 않을 것 같다.
     MessageJP: 今日は来てくれてありがとう
     MessageCN: 谢谢老师今天能来
-    MessageEN: As for the outfit I wore today, I don't think I'll get tired of it
+    MessageEN:
+      As for the outfit I wore today, I don't think I'll get tired of it
       easily.
     MessageTH: ฉันคงไม่เบื่อชุดที่ใส่ไปในวันนี้ง่ายๆ หรอก
     MessageTW: 謝謝你今天能來

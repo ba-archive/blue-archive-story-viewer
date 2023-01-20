@@ -569,14 +569,14 @@ content:
     FeedbackTimeMillisec: 1000
     MessageType: Text
     ImagePath: ''
-    MessageKR: 만나서 이야기하지 못할 것도 없죠, 네! 
+    MessageKR: 만나서 이야기하지 못할 것도 없죠, 네!
     MessageJP: '会って話せない……ことも無いです！はい！ '
     MessageCN: 也不是……不能见面聊！嗯！
-    MessageEN: I guess why not? We can meet and chat! Sure! 
+    MessageEN: I guess why not? We can meet and chat! Sure!
     MessageTH: 'ถ้าได้เจอกันแล้วก็คงคุยกันได้ทุกเรื่อง
 
       ใช่มั้ยล่ะคะ! '
-    MessageTW: 也沒有事是……不能見面說的！對！ 
+    MessageTW: 也沒有事是……不能見面說的！對！
   - MessageGroupId: 260080230
     Id: 260080310
     CharacterId: 26008
@@ -589,11 +589,11 @@ content:
     FeedbackTimeMillisec: 0
     MessageType: Text
     ImagePath: ''
-    MessageKR: 안! 녕! 하세요! 
+    MessageKR: 안! 녕! 하세요!
     MessageJP: 先生！
     MessageCN: 老师！
-    MessageEN: Hello! 
-    MessageTH: สะ-หวัด-ดี-ค่ะ! 
+    MessageEN: Hello!
+    MessageTH: สะ-หวัด-ดี-ค่ะ!
     MessageTW: 老師！
   - MessageGroupId: 260080240
     Id: 260080320
@@ -737,11 +737,11 @@ content:
     FeedbackTimeMillisec: 1000
     MessageType: Text
     ImagePath: ''
-    MessageKR: 자, 다른 게 아니라 
-    MessageJP: あ、ちなみに 
+    MessageKR: 자, 다른 게 아니라
+    MessageJP: あ、ちなみに
     MessageCN: 啊，顺便一提
-    MessageEN: So, the reason why 
-    MessageTH: คือว่า... 
+    MessageEN: So, the reason why
+    MessageTH: คือว่า...
     MessageTW: 啊，對了
   - MessageGroupId: 260080290
     Id: 260080400

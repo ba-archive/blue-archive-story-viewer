@@ -161,7 +161,7 @@ content:
     MessageKR: …… 잘됐네.
     MessageJP: ……タイミングばっちり。良かった
     MessageCN: ……时机完美。太好了
-    MessageEN: '...That''s great.'
+    MessageEN: "...That's great."
     MessageTH: '...ดีเลย'
     MessageTW: ……時機完美。太好了
   - MessageGroupId: 200000050
@@ -215,7 +215,8 @@ content:
     MessageKR: 선생님 방의 모든 전자기기에 자폭 장치를 설치하는 건 어떨까?
     MessageJP: 先生の部屋のありとあらゆる電子機器に自爆機能を付けるのはどう？
     MessageCN: 老师房间里所有的电子设备都加上一个自爆功能怎么样？
-    MessageEN: What do you think about installing a self-destruct device in all your
+    MessageEN:
+      What do you think about installing a self-destruct device in all your
       electronics?
     MessageTH: 'ทำไมเราไม่ติดตั้งตัวจุดระเบิดกับเครื่อง
 
@@ -294,7 +295,7 @@ content:
     MessageKR: ……농담이야.
     MessageJP: ……冗談
     MessageCN: ……开玩笑的
-    MessageEN: '...I''m just joking.'
+    MessageEN: "...I'm just joking."
     MessageTH: ล้อเล่นนะ...
     MessageTW: ……開玩笑的
   - MessageGroupId: 200000090
@@ -424,7 +425,7 @@ content:
     MessageKR: 부상자가 발생하지 않은 게 정말 다행이야.
     MessageJP: 負傷者が出なくてよかった
     MessageCN: 还好没有人受伤
-    MessageEN: 'I''m so glad no one got hurt. '
+    MessageEN: "I'm so glad no one got hurt. "
     MessageTH: 'โชคดีที่ไม่มีใครบาดเจ็บ '
     MessageTW: 幸好沒有人受傷
   - MessageGroupId: 200000140
@@ -556,7 +557,8 @@ content:
     MessageKR: 다들 의외라고 말하지만, 밀레니엄 학원에도 야구부가 있어.
     MessageJP: みんな意外って言うけれど、ミレニアムにも野球部があるんだよ
     MessageCN: 虽然大家都说很意外，但其实千年也有棒球部哦
-    MessageEN: Everyone is surprised to learn this, but the Millennium School has
+    MessageEN:
+      Everyone is surprised to learn this, but the Millennium School has
       a baseball team.
     MessageTH: 'แม้คนอื่นจะคาดไม่ถึง แต่ที่โรงเรียน
 
@@ -577,7 +579,8 @@ content:
     MessageKR: 데이터 야구와 과학적 훈련으로 유명한 야구팀이야…….
     MessageJP: データ野球と科学的なトレーニングで、一部界隈では結構有名
     MessageCN: 而且还由于基于数据的棒球分析和科学的训练方法，在一些圈子里相当出名
-    MessageEN: They're famous for playing data-driven baseball, which is based on
+    MessageEN:
+      They're famous for playing data-driven baseball, which is based on
       their scientific training...
     MessageTH: 'ทีมเบสบอลของเรามีชื่อเสียงเรื่องการ
 
@@ -1020,7 +1023,8 @@ content:
     MessageKR: 올해의 여고생 IT 아이템으로
     MessageJP: 今年の女子高生に人気のデジタルガジェットとして、
     MessageCN: 而且，昏睡铁管还作为今年深受女高中生欢迎的数码产品
-    MessageEN: It was selected as the big item of the year for female high school
+    MessageEN:
+      It was selected as the big item of the year for female high school
       students
     MessageTH: แถมได้ลงนิตยสารแฟชั่น
     MessageTW: 作為今年深受女高中生歡迎的數位小配件
@@ -1057,7 +1061,8 @@ content:
     MessageKR: 유명 브랜드마다 신상 실신 쇠파이프를 잇달아 발매하기 시작했어.
     MessageJP: 有名ブランドも新作の失神鉄パイプを次々に発表し始めてる
     MessageCN: 知名品牌也陆续推出新款的昏睡铁管
-    MessageEN: Now all the famous brands have started designing their own Fainting
+    MessageEN:
+      Now all the famous brands have started designing their own Fainting
       Steel Pipes.
     MessageTH: 'พวกแบรนด์ดังๆ ก็เริ่มขายท่อเหล็กหลับ
 
@@ -1392,7 +1397,8 @@ content:
     MessageKR: 우산이 두 개였다면, 알 수 없는 심리였겠지……. 역시 심리학은 재미있네.
     MessageJP: 傘が二つあったら、知らないままの心理だった……やっぱり心理学は面白い
     MessageCN: 要是有两把伞，我现在就会是毫不知情的心理呢……心理学果然很有趣
-    MessageEN: If we had brought two umbrellas, this never would have happened...
+    MessageEN:
+      If we had brought two umbrellas, this never would have happened...
       Isn't psychology interesting?
     MessageTH: 'ถ้ามีร่ม 2 คัน ก็คงไม่รู้ว่าคุณครูเป็นคน
 

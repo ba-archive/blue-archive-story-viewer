@@ -194,7 +194,8 @@ content:
     MessageKR: 그런데 선배들에게 들었는데, 능숙한 간호사들은 주사를 아프지 않게 놓을 수 있대요.
     MessageJP: でも先輩たち曰く、ベテランの看護師さんの注射は全然痛くないそうです
     MessageCN: 但是前辈们说过，熟练的护士打的针好像一点都不会痛
-    MessageEN: The older students told me that skilled nurses know how to make shots
+    MessageEN:
+      The older students told me that skilled nurses know how to make shots
       painless.
     MessageTH: 'แต่ฉันได้ยินมาจากพวกรุ่นพี่ พยาบาลที่
 
@@ -273,7 +274,8 @@ content:
     MessageKR: 눈 밑에 다크서클이 진한 게, 얼굴에 피로가 가득해 보여요…….
     MessageJP: 目の下のクマもひどかったですし、すごく疲れた顔をしていましたが
     MessageCN: 您看上去黑眼圈很重，脸色也很憔悴
-    MessageEN: Those dark circles look pretty bad, and your skin is looking pretty
+    MessageEN:
+      Those dark circles look pretty bad, and your skin is looking pretty
       rough...
     MessageTH: 'สีหน้าคุณครูดูอ่อนล้ามากๆ แถมใต้ตา
 
@@ -350,7 +352,8 @@ content:
     MessageKR: 피로는 만병의 원인! 잠을 자꾸 설치면 건강도 나빠지고, 병에 걸릴 수도 있다고요.
     MessageJP: 疲れは万病のもと！きちんと睡眠をとらないと病気になってしまうかもです
     MessageCN: 疲惫是万病之源！老师没有充足的睡眠的话可能会生病的
-    MessageEN: Exhaustion is the worst! Lack of sleep will ruin your health and make
+    MessageEN:
+      Exhaustion is the worst! Lack of sleep will ruin your health and make
       you sick!
     MessageTH: 'ความอ่อนเพลียจะทำให้ล้มป่วยได้ค่ะ!
 
@@ -373,7 +376,8 @@ content:
     MessageKR: 안 되겠어요. 선생님께서 잠을 푹 주무실 수 있도록 제가 좋은 방법을 준비해두고 있을 테니,
     MessageJP: 先生がぐっすり眠れるよう、何か良い方法を探しておきますね
     MessageCN: 为了能让老师睡个好觉，我会想想有没有什么好办法的
-    MessageEN: This won't do. I'll make something that'll help you sleep better at
+    MessageEN:
+      This won't do. I'll make something that'll help you sleep better at
       night.
     MessageTH: 'ไม่ได้การแล้วค่ะ ฉันเตรียมวิธีการพิเศษ
 
@@ -434,7 +438,8 @@ content:
     MessageKR: 그래서 인터넷에서 잠이 더 잘 오는 차를 조사해보았답니다.
     MessageJP: そこで、ネットでもっと効果のあるものを見つけてきました！
     MessageCN: 所以，我在网上找到了效果更好的东西！
-    MessageEN: I'll search the internet for a tea that will make you sleepy in no
+    MessageEN:
+      I'll search the internet for a tea that will make you sleepy in no
       time.
     MessageTH: แต่ว่าฉันหาชาที่มีสรรพคุณดีกว่าไว้แล้วค่ะ
     MessageTW: 所以，我在網路上找到了更有效的東西！
@@ -665,7 +670,8 @@ content:
     MessageKR: 안 돼요. 선생님처럼 책상 앞에 오래 앉아 있는 어른들에게 체조는 중요한 일과라고요!
     MessageJP: 先生みたいに座りっぱなしの大人こそ、ちゃんと身体を動かさないと！
     MessageCN: 就是像老师这样整天坐着的人，才更要好好活动身体！
-    MessageEN: I won't take no for an answer. People like you who sit in front of
+    MessageEN:
+      I won't take no for an answer. People like you who sit in front of
       a computer all day need to stretch!
     MessageTH: 'ไม่ได้นะคะ! สำหรับผู้ใหญ่อย่างคุณครูที่
 
@@ -764,7 +770,8 @@ content:
     MessageKR: 그렇죠? 라디오 체조는 평소에 안 쓰는 근육을 풀어주기 때문에 건강에도 좋답니다!
     MessageJP: でしょう？ラジオ体操は普段使わない筋肉もほぐすので健康に良いんです！
     MessageCN: 对吧？广播体操可以放松平时没用到的肌肉，对健康很有帮助的！
-    MessageEN: Right? These morning stretches help relieve tension in muscles that
+    MessageEN:
+      Right? These morning stretches help relieve tension in muscles that
       you don't really use, so they're great for your health!
     MessageTH: 'ใช่ไหมล่ะคะ? การทำกายบริหารจะช่วย
 
@@ -845,7 +852,8 @@ content:
     MessageKR: 얼마 전에 트리니티 도서관에서 오래된 의학 서적을 발견했는데, 처음 보는 치료법이 잔뜩 적혀 있더라구요.
     MessageJP: 図書館で古い医学書を見つけたのですが、知らない治療法だらけでした！
     MessageCN: 我在图书馆找到了一本很旧的医学书，里面写的全是我闻所未闻的治疗方法！
-    MessageEN: I found an old medical book at the Trinity Library a few days ago,
+    MessageEN:
+      I found an old medical book at the Trinity Library a few days ago,
       and it was filled with treatment methods I've never heard of before.
     MessageTH: 'เมื่อสองสามวันก่อน ฉันเจอตำราแพทย์
 
@@ -870,7 +878,8 @@ content:
     MessageKR: 혹시 현대에 전승되지 못한 금단의 의술 같은 걸까요?
     MessageJP: もしかして……現代では秘匿された、禁断の医術なのでしょうか！？
     MessageCN: 难道这就是……在现代被隐匿起来的，禁断的医术吗！？
-    MessageEN: I wonder if they're taboo techniques that were never passed down to
+    MessageEN:
+      I wonder if they're taboo techniques that were never passed down to
       modern society?
     MessageTH: 'หรือว่ามันเป็นพวกตำรายาต้องห้ามที่ไม่ได้
 
@@ -891,7 +900,8 @@ content:
     MessageKR: 민간에서 전해지던 대체요법 같은 게 아닐까?
     MessageJP: 民間療法みたいなものじゃないかな？
     MessageCN: 应该是民间疗法之类的东西吧？
-    MessageEN: Maybe they were alternative methods that were used between non-medical
+    MessageEN:
+      Maybe they were alternative methods that were used between non-medical
       professionals?
     MessageTH: 'หรือจะเป็นการรักษาทางเลือกที่
 
@@ -930,7 +940,8 @@ content:
     MessageKR: 그럼 다음에 선생님이 다치시면 여기 적힌 새로운 치료법으로 치료해 드릴게요.
     MessageJP: ですが何事も挑戦です。もし先生が今度怪我をされたら試してみましょう！
     MessageCN: 但是万事皆为挑战。如果老师下次受伤了的话，就来我这边试试看吧！
-    MessageEN: Well, when you get hurt next time, I'm going to use one of these methods
+    MessageEN:
+      Well, when you get hurt next time, I'm going to use one of these methods
       on you.
     MessageTH: 'ถ้างั้นต่อไปถ้าเกิดคุณครูได้รับบาดเจ็บ
 
@@ -1143,7 +1154,8 @@ content:
     MessageKR: 아침에 활짝 핀 나팔꽃을 보면 아침을 알리기 위해 트럼펫을 부는 작은 천사가 떠오르거든요.
     MessageJP: 花開いたアサガオは、まるでトランペットで朝を知らせる天使みたいです
     MessageCN: 盛开的牵牛花，简直就像是吹着小号宣告清晨来临的天使一样
-    MessageEN: When they blossom in the morning, they remind me of little angels playing
+    MessageEN:
+      When they blossom in the morning, they remind me of little angels playing
       trumpets to announce morning has come.
     MessageTH: 'เวลาที่เห็นดอกมอร์นิ่งกลอรี่บานในตอน
 

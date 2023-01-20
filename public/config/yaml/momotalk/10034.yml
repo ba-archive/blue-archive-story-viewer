@@ -313,7 +313,8 @@ content:
     MessageKR: 그야 저 미모리. 요조숙녀를 목표로 정진하는 수행부 소속의 수행부원.
     MessageJP: 私が、大和撫子を目標として精進を重ねる、修行部の部員だからです。
     MessageCN: 我是以成为大和抚子为目标而不断精进的，修行部的部员哦。
-    MessageEN: Well, because I'm a member of the Inner Discipline Club. I'm working
+    MessageEN:
+      Well, because I'm a member of the Inner Discipline Club. I'm working
       towards becoming a proper lady.
     MessageTH: 'เอ่อ... ก็คือฉันเป็นสมาชิก
 
@@ -506,7 +507,8 @@ content:
     MessageKR: 선생님, 저번에 이어 이번엔 가정 요리를 수행해볼까 해요.
     MessageJP: 先生、前回に引き続き修行の一環として、今度は家庭料理を作ってみようと思います。
     MessageCN: 老师，作为上次跟您提到的修行的后续环节，我这次想试着做家常菜。
-    MessageEN: Sensei, continuing our previous conversation, I'd like to work on home
+    MessageEN:
+      Sensei, continuing our previous conversation, I'd like to work on home
       cooking.
     MessageTH: 'คุณครูคะ ครั้งนี้ฉันว่าจะฝึก
 
@@ -773,7 +775,8 @@ content:
     MessageKR: 혹시 실례가 아니라면 이번 봉사활동을 도와주실 수 있으실까요?
     MessageJP: もしよろしければ先生も、そのお手伝いをしていただけませんか？
     MessageCN: 如果老师愿意的话，能烦请老师帮我一下吗？
-    MessageEN: Would you mind helping me with my volunteer work? If it's not too much
+    MessageEN:
+      Would you mind helping me with my volunteer work? If it's not too much
       trouble?
     MessageTH: 'อยากรู้ว่าคุณครูจะมาช่วย
 

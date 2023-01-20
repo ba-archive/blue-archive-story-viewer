@@ -93,7 +93,8 @@ content:
     MessageKR: 무슨 임무인지 모르겠지만, 내일 임무는 밀레니엄 시가지에서 한다고 해.
     MessageJP: どんな任務か知らないけど、明日の任務はミレニアムの市街地で行うらしい
     MessageCN: 虽然暂时还不知道是什么样的任务，但我明天执行任务的地点好像是千年的街区地带
-    MessageEN: I'm not sure what tomorrow's mission is, but it'll be at Millennium's
+    MessageEN:
+      I'm not sure what tomorrow's mission is, but it'll be at Millennium's
       urban district.
     MessageTH: 'ถึงจะไม่รู้ว่าเป็นภารกิจอะไร แต่ว่า
 
@@ -710,7 +711,8 @@ content:
     MessageKR: 피자를 사서 부실로 돌아갔더니, 친구가 기다리고 있었어.
     MessageJP: ピザを買って教室に入ったら、さっき先生に話した友人がそこで待ってて
     MessageCN: 我买了披萨进教室后，刚才和老师提到的朋友就在那里等着我
-    MessageEN: I bought some pizza and went to the club room, and my friend was waiting
+    MessageEN:
+      I bought some pizza and went to the club room, and my friend was waiting
       for me there.
     MessageTH: 'ฉันซื้อพิซซ่ามาแล้วพอกลับไปถึง
 
@@ -767,7 +769,8 @@ content:
     MessageKR: 카페에서 일하는 친구가 급한 사정이 생겨서, 대타를 뛰게 되었어.
     MessageJP: 友人に急用ができたらしくて、代わりにバイトに行くことになった
     MessageCN: 我朋友好像突然有急事，所以我替她去打工了
-    MessageEN: My friend who works part-time at a cafe had an emergency, so I took
+    MessageEN:
+      My friend who works part-time at a cafe had an emergency, so I took
       her shift.
     MessageTH: 'เพื่อนที่ทำงานอยู่ที่คาเฟ่มีธุระด่วน
 
@@ -828,7 +831,7 @@ content:
     MessageKR: ……뭔가 수상하지 않아?
     MessageJP: ……そのお店、大丈夫？
     MessageCN: ……那家店，没问题吗？
-    MessageEN: '...Isn''t it strange?'
+    MessageEN: "...Isn't it strange?"
     MessageTH: มัน... ไม่ดูแปลกๆ งั้นเหรอ
     MessageTW: ……那間店，沒問題吧？
   - MessageGroupId: 200010280
@@ -1050,7 +1053,8 @@ content:
     MessageKR: 카린을 찍은 적은 없어. 찬란한 미소의 캐서린은 찍었지만.
     MessageJP: カリンは撮ってないよ。笑顔が眩しいキャサリンは撮ったけど
     MessageCN: 我没拍花凛哦。我拍的是笑容耀眼的凯瑟琳
-    MessageEN: I didn't take any photos of you. I did take pictures of Catherine,
+    MessageEN:
+      I didn't take any photos of you. I did take pictures of Catherine,
       though.
     MessageTH: 'ครูไม่ได้ถ่ายตอนทำท่านั้นเลยนะ
 

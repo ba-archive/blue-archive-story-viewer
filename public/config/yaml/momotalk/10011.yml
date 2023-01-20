@@ -71,7 +71,8 @@ content:
     MessageKR: 여러분, 매화원의 오늘 오후 간식은 상회에서 받아온 달콤한 과일이에요.
     MessageJP: 本日の梅花園のおやつは、商会から頂いてきた甘ーいフルーツですよ
     MessageCN: 今天梅花园的点心，是从商会买来的特～甜水果哦
-    MessageEN: Everyone, this afternoon's snack at the Plum Blossom Garden is sweet
+    MessageEN:
+      Everyone, this afternoon's snack at the Plum Blossom Garden is sweet
       fruit I got from the Promenade.
     MessageTH: 'ทุกคนคะ ของว่างยามบ่ายวันนี้ของสวน
 
@@ -184,7 +185,8 @@ content:
     MessageKR: 내일도 달콤한 간식을 준비해둘 테니 자주 매화원에 놀러 와주세요!
     MessageJP: またおやつをご用意してますので、いつでも梅花園にいらしてくださいね！
     MessageCN: 我之后也会为您准备点心，所以还请您随时光临梅花园哦！
-    MessageEN: I'll prepare more sweet treats for you tomorrow, so please stop by
+    MessageEN:
+      I'll prepare more sweet treats for you tomorrow, so please stop by
       the Plum Blossom Garden often!
     MessageTH: 'พรุ่งนี้ฉันก็จะเตรียมของว่างแสนอร่อยไว้
 
@@ -223,7 +225,8 @@ content:
     MessageKR: 매화원 아이들이 깨끗이 이를 닦을 수 있도록 인형극을 할 예정이에요.
     MessageJP: 梅花園の子たちが進んで歯磨きしてくれるよう、人形劇をやる予定なんです
     MessageCN: 为了能让梅花园的孩子们主动刷牙，我准备让孩子们看一次人偶剧
-    MessageEN: we're doing a puppet show to help the students of the Plum Blossom
+    MessageEN:
+      we're doing a puppet show to help the students of the Plum Blossom
       Garden learn to brush their teeth.
     MessageTH: 'จะมีการแสดงละครหุ่นเพื่อให้เด็กๆ ใน
 
@@ -280,7 +283,8 @@ content:
     MessageKR: 나쁜 충치균을 물리치는 전대물 느낌의 인형극이라, 학생들의 반응도 뜨겁답니다.
     MessageJP: 悪い虫歯菌を倒す戦隊モノの人形劇で、反応も毎回すごく良いんです
     MessageCN: 讲的是打倒坏蛋蛀牙菌的战队的故事，每次在孩子们当中的反响都很好
-    MessageEN: It's like a sentai puppet show about defeating cavity bacteria, and
+    MessageEN:
+      It's like a sentai puppet show about defeating cavity bacteria, and
       the students love it!
     MessageTH: 'เพราะเป็นการแสดงละครหุ่นเรื่องการต่อสู้
 
@@ -303,7 +307,7 @@ content:
     MessageKR: 그런데 오늘은 <충치> 역할을 맡아줄 교관이 없어서......
     MessageJP: ただ、「虫歯」役をやってくれるアシスタントの方が今いなくて……
     MessageCN: 但是，我现在没有扮演“蛀牙菌”的助手……
-    MessageEN: 'But today we don''t have an instructor to play the role of the cavity... '
+    MessageEN: "But today we don't have an instructor to play the role of the cavity... "
     MessageTH: 'แต่ว่าวันนี้ไม่มีครูคนไหนว่างที่จะมา
 
       แสดงบท "เจ้าแมงกินฟัน" เลยค่ะ.... '
@@ -495,7 +499,8 @@ content:
     MessageKR: 다음번에도 충치 검사를 할 테니 그때까지 이를 깨끗이 잘 닦아두셔야 해요!
     MessageJP: また抜き打ち検査しますので、これからも忘れないようにしてくださいね！
     MessageCN: 之后我会突击检查，今后也请不要忘记哦！
-    MessageEN: I'll be checking for cavities next time, so keep up with your hygiene
+    MessageEN:
+      I'll be checking for cavities next time, so keep up with your hygiene
       until then!
     MessageTH: 'คราวหน้าจะเป็นการตรวจสุขภาพฟันนะคะ
 
@@ -516,7 +521,8 @@ content:
     MessageKR: 오늘은 컨디션이 나빠서…… 매화원에 들르지 않고 먼저 들어가 보겠습니다.
     MessageJP: すみません、体調が悪くて……梅花園には寄らず、このまま失礼します
     MessageCN: 对不起，我今天身体不太舒服……我就不去梅花园了，如果造成不便还请谅解
-    MessageEN: I'm not feeling well today... I'll have to skip the Plum Blossom Garden
+    MessageEN:
+      I'm not feeling well today... I'll have to skip the Plum Blossom Garden
       and head straight home.
     MessageTH: 'วันนี้ฉันรู้สึกไม่ค่อยดีเท่าไหร่... คงไม่เข้า
 
@@ -613,7 +619,8 @@ content:
     MessageKR: 어쩐지 선생님 앞에 서면 저도 나이를 잊고 어린 아이가 되어버리는 것 같아요.
     MessageJP: なんだか先生の前だと私も、普通の子供に戻ってしまうみたいです
     MessageCN: 总觉得在老师面前，我也变回了普通的孩子
-    MessageEN: Somehow, when I'm with you, I forget my age and become just like a
+    MessageEN:
+      Somehow, when I'm with you, I forget my age and become just like a
       child.
     MessageTH: 'ไม่รู้ว่าทำไมพออยู่ต่อหน้าคุณครูแล้ว
 
@@ -634,7 +641,8 @@ content:
     MessageKR: 선생님, 아까 보니 매화원의 학생들에게 재밌어 보이는 걸 해주고 계시던데…….
     MessageJP: 先ほど梅花園の子たちと、面白そうなことをしていたのを見たのですが……
     MessageCN: 话说刚刚，我看到老师在和梅花园的孩子们做很有趣的事情……
-    MessageEN: Sensei, I saw you doing something fun with the Plum Blossom Garden
+    MessageEN:
+      Sensei, I saw you doing something fun with the Plum Blossom Garden
       students earlier...
     MessageTH: คุณครูคะ เมื่อกี้ฉันเห็นคุณครูเล่นอะไรสนุกๆ ให้นักเรียนของสวนต้นบ๊วยดูด้วยนี่คะ....
     MessageTW: 剛剛看到你和梅花園的孩子在做有趣的事
@@ -671,7 +679,8 @@ content:
     MessageKR: 학생들의 팔을 잡고 하늘로 높이 들어 올리는 놀이…… <높게높게> 말이에요.
     MessageJP: 脇に手を入れて高く持ち上げるあの、「たかいたかい」です！
     MessageCN: 把手伸到孩子们的胳膊下，然后把孩子高高举起的那个“飞高高”！
-    MessageEN: That game where you grab their arms and lift them high into the air...
+    MessageEN:
+      That game where you grab their arms and lift them high into the air...
       I think it was called Higher and Higher.
     MessageTH: 'ก็ที่คุณครูเล่นกุมมือนักเรียนแล้วชูขึ้น
 
@@ -770,7 +779,8 @@ content:
     MessageKR: 매화원의 아이들과 언제나 즐겁게 놀아 주셔서 감사합니다, 선생님.
     MessageJP: いつも梅花園の子たちと遊んでいただいてありがとうございます、先生
     MessageCN: 谢谢您一直陪梅花园的孩子们一起玩，老师
-    MessageEN: Thank you for always spending time with the students of the Plum Blossom
+    MessageEN:
+      Thank you for always spending time with the students of the Plum Blossom
       Garden, Sensei.
     MessageTH: 'ขอบคุณคุณครูมากนะคะ ที่มาเล่นสนุกกับ
 
@@ -791,7 +801,8 @@ content:
     MessageKR: 다만 오늘 하지 못한 <높게높게>는 다음에 꼭 받아 낼 거예요.
     MessageJP: ただ「たかいたかい」は、いつかまた必ずやっていただきますので
     MessageCN: 只是下次也请务必对我也来一次“飞高高”呢
-    MessageEN: But next time, you definitely have to give me a turn playing Higher
+    MessageEN:
+      But next time, you definitely have to give me a turn playing Higher
       and Higher.
     MessageTH: 'แต่ว่าการเล่น "ชูสูงๆ" ที่ไม่ได้เล่น
 
@@ -888,7 +899,8 @@ content:
     MessageKR: 그게 매화원에서는 매달 생일을 맞은 아이들에게 선물을 해주곤 하는데,
     MessageJP: 梅花園では毎月誕生日の子たちにプレゼントを渡すのですが、
     MessageCN: 梅花园每个月都会送礼物给当月过生日的孩子们
-    MessageEN: Every month, the Plum Blossom Garden gives gifts to the children who
+    MessageEN:
+      Every month, the Plum Blossom Garden gives gifts to the children who
       are celebrating their birthdays.
     MessageTH: 'คือว่าที่สวนต้นบ๊วย เราจะให้ของขวัญกับ
 
@@ -929,7 +941,8 @@ content:
     MessageKR: 괜찮으시다면 잡화점에서 같이 선물 고르는 걸 도와주실 수 있으실까요?
     MessageJP: よろしければ今日、一緒にプレゼント選びを手伝っていただけませんか？
     MessageCN: 如果可以的话，老师今天能帮我一起挑选给孩子们的礼物吗？
-    MessageEN: If it's okay with you, can you help me pick out some gifts at the general
+    MessageEN:
+      If it's okay with you, can you help me pick out some gifts at the general
       store?
     MessageTH: 'ถ้าคุณครูมีเวลา ช่วยไปเลือกซื้อของ
 
@@ -1080,7 +1093,7 @@ content:
     MessageKR: 선생님, 요새 너무 무리하시는 게 아니신가요?
     MessageJP: 先生、もしかして最近、ご無理なさっていませんか？
     MessageCN: 老师，您最近是不是又在勉强自己了？
-    MessageEN: 'Sensei, don''t you think you''ve been working too hard recently? '
+    MessageEN: "Sensei, don't you think you've been working too hard recently? "
     MessageTH: 'คุณครูคะ ช่วงนี้คุณครูหักโหมไปรึเปล่าคะ? '
     MessageTW: 老師，最近是不是工作過度了？
   - MessageGroupId: 100110390
@@ -1210,7 +1223,8 @@ content:
     MessageKR: 피로는 만병의 원인, 푹 주무시는 것도 중요하답니다.
     MessageJP: 疲れは万病のもとなんですから、ぐっすり寝ることは大事なんですよ？
     MessageCN: 疲劳是万病之源，所以好好睡觉很重要哦？
-    MessageEN: Fatigue is the cause of most illnesses, so it's important to get a
+    MessageEN:
+      Fatigue is the cause of most illnesses, so it's important to get a
       good night's sleep.
     MessageTH: 'ความเหนื่อยล้าจะทำให้ล้มป่วยได้ การพัก
 
@@ -1269,7 +1283,8 @@ content:
     MessageKR: 다음에도 일하다가 졸음이 쏟아지시거든 저희 매화원을 찾아주세요.
     MessageJP: また辛くなった時は、いつでも梅花園に立ち寄ってくださいね
     MessageCN: 要是老师之后也感到难过的话，不管什么时候都可以来梅花园哦
-    MessageEN: Next time you feel drowsy at work, please come back to the Plum Blossom
+    MessageEN:
+      Next time you feel drowsy at work, please come back to the Plum Blossom
       Garden.
     MessageTH: 'ต่อไป ถ้าทำงานแล้วรู้สึกง่วงขึ้นมา ก็มา
 
@@ -1290,7 +1305,8 @@ content:
     MessageKR: 제가 다른 학생들에게 들키지 않도록, 몰래 이불을 깔아 둘게요. 후후……
     MessageJP: みんなにはバレないよう、こっそり布団を敷いておきますので。ふふっ……
     MessageCN: 为了不让大家发现，我会悄悄给老师盖上被子的。呵呵……
-    MessageEN: I'll lay down a private mat for you so the other students don't find
+    MessageEN:
+      I'll lay down a private mat for you so the other students don't find
       out. Heehee...
     MessageTH: 'ฉันจะปูที่นอนไว้ให้คุณครู โดยไม่ให้
 

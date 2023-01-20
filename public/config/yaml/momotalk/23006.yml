@@ -73,7 +73,8 @@ content:
     MessageKR: 「딸기 찹쌀떡! 딸기 팥빵! 딸기 만쥬! 딸기 야츠하시! 거기다 딸기 안미츠까지!」
     MessageJP: 「苺大福や苺どら焼き、苺饅頭に苺八つ橋！それに苺あんみつまで！」
     MessageCN: “草莓大福、草莓铜锣烧、草莓馒头、草莓八桥！更有草莓豆沙水果凉粉！”
-    MessageEN: '"Strawberry rice cakes! Strawberry bread! Strawberry pastries! Strawberry
+    MessageEN:
+      '"Strawberry rice cakes! Strawberry bread! Strawberry pastries! Strawberry
       yatsuhashi! And strawberry anmitsu!"'
     MessageTH: '「โมจิสตรอว์เบอร์รี!
 
@@ -100,7 +101,8 @@ content:
     MessageKR: 「키보토스 각지의 딸기가 담긴 백야당의 전통 디저트를 맛보자!」
     MessageJP: 「キヴォトス各地の苺を揃える『キヴォトス苺天国』と、伝統的な甘味喫茶『百夜堂』のコラボレーションをご賞味あれ！」
     MessageCN: “汇集了基沃托斯各地草莓的‘基沃托斯草莓天国’和传统甜味咖啡店‘百夜堂’的联动，诚邀您前来品尝！”
-    MessageEN: '"Taste Momoyodou''s traditional strawberry-filled desserts from all
+    MessageEN:
+      '"Taste Momoyodou''s traditional strawberry-filled desserts from all
       around Kivotos!"'
     MessageTH: '「ขอเชิญชวนมาชิมของหวานใส่
 
@@ -701,7 +703,8 @@ content:
     MessageKR: 마츠리운영관리부의 부장으로서, 선생님에게 요구합니다!
     MessageJP: お祭り運営委員会の委員長として、先生に一つお願いがあります
     MessageCN: 作为祭典运营委员会的委员长，我有件事想拜托老师
-    MessageEN: As president of the Festival Operations Department, I would like to
+    MessageEN:
+      As president of the Festival Operations Department, I would like to
       make a request!
     MessageTH: 'ในฐานะหัวหน้าชมรมจัดงานเทศกาล
 

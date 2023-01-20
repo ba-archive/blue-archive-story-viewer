@@ -62,7 +62,8 @@ content:
     MessageKR: 창고를 정리하다가 여러 가지를 발견했는데……. 여긴 정말 엄청난 곳이에요!
     MessageJP: 倉庫を整理してたら、色々とでてきて……それが、すごいんです！
     MessageCN: 我整理了一下仓库，发现了各种各样的东西……而且那些东西都非常厉害！
-    MessageEN: I found a bunch of stuff when I was organizing the storage... This
+    MessageEN:
+      I found a bunch of stuff when I was organizing the storage... This
       is incredible!
     MessageTH: 'ตอนที่เก็บกวาดห้องเก็บของ ฉันเจอ
 
@@ -229,7 +230,8 @@ content:
     MessageKR: 직접 오시는 건 번거로우실 테니, 제가 찍어서 보내 드릴게요.
     MessageJP: 直接いらっしゃるのはお手間だと思うので、写真を送りますね
     MessageCN: 让老师直接过来的话就太麻烦老师了，我就发照片吧
-    MessageEN: I don't wanna ask you to come all the way here, so I'll just send you
+    MessageEN:
+      I don't wanna ask you to come all the way here, so I'll just send you
       pictures.
     MessageTH: 'ถ้าจะขอให้คุณครูมาดูก็คงจะรบกวนเกิน
 

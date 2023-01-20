@@ -71,7 +71,8 @@ content:
     MessageKR: 어제는 북구의 업무지구를 순찰했으니, 오늘은 중앙구의 업무지구를 순찰하도록 하죠!
     MessageJP: 昨日は北区だったので、今日は中央区を回ることにしましょうか！
     MessageCN: 昨天巡了北区，那我们今天就去中央区巡逻吧！
-    MessageEN: We patrolled the north district last time, so let's patrol the central
+    MessageEN:
+      We patrolled the north district last time, so let's patrol the central
       district today!
     MessageTH: 'เมื่อวานเราไปลาดตระเวนที่เขตธุรกิจที่
 
@@ -224,7 +225,8 @@ content:
     MessageKR: 소식에 따르면 한 불량 학생이 시바타운의 보석상 앞에서 인질을 붙잡고 농성을 하고 있다고 합니다!
     MessageJP: どうやら芝タウンの宝石店で、不良生徒が人質を取って立てこもっているそうです！
     MessageCN: 听说在芝城的珠宝店，不良学生挟持了人质正与警方对峙！
-    MessageEN: According to the report, a thug has taken a hostage in front of a jeweler
+    MessageEN:
+      According to the report, a thug has taken a hostage in front of a jeweler
       in Shiba Town.
     MessageTH: 'ตามข่าวที่ได้ยินมา มีเด็กเกเรคนหนึ่ง
 
@@ -345,7 +347,8 @@ content:
     MessageKR: 아뇨. 지금 이 순간에도 인질은 두려움에 떨고 있을 거예요.
     MessageJP: ……いえ、決めました。今この瞬間も人質は恐怖に震えているはずです
     MessageCN: ……不，我决定了。此时此刻，人质一定仍在恐惧中颤抖
-    MessageEN: I don't think so. Imagine what must be going through the hostage's
+    MessageEN:
+      I don't think so. Imagine what must be going through the hostage's
       mind.
     MessageTH: 'ไม่ได้ค่ะ เวลานี้คนที่ถูกจับเป็นตัวประกัน
 
@@ -366,7 +369,8 @@ content:
     MessageKR: 아무리 본관이 정식 경찰은 아니라고는 하지만, 교섭은 조금도 지체할 수 없습니다!
     MessageJP: まだ正式な警察ではないとはいえ、立ち止まってはいられません
     MessageCN: 虽然我还不是正式的警察，但我不能就此止步
-    MessageEN: I may not be an official officer, but I can't let the negotiation be
+    MessageEN:
+      I may not be an official officer, but I can't let the negotiation be
       delayed any longer!
     MessageTH: 'ถึงฉันจะยังไม่ได้เป็นเจ้าหน้าที่อย่าง
 
@@ -767,7 +771,8 @@ content:
     MessageKR: 물론이지요. 어린 학생들에게 경찰의 멋진 모습을 보여줄 수 있는 모처럼의 기회니까요!
     MessageJP: 助かります。そうですね、せっかくの機会ですので、園児たちには警察のかっこいい姿を見せてあげたいなと思っているんです
     MessageCN: 帮大忙了。确实机会难得，所以我想让幼儿园的孩子们见识一下警察帅气的一面
-    MessageEN: Of course. This is the best opportunity to show the good side of police
+    MessageEN:
+      Of course. This is the best opportunity to show the good side of police
       to the young students.
     MessageTH: 'แน่นอนค่ะ เพราะนี่เป็นโอกาสที่จะแสดง
 

@@ -71,7 +71,8 @@ content:
     MessageKR: 이 모모톡을 받으면 곧바로 게임개발부의 부실로……
     MessageJP: このモモトークを見たら、すぐにゲーム開発部の部室へと来たれ……
     MessageCN: 看到这条momotalk的话，请马上来游戏开发部的活动室吧……
-    MessageEN: Please come to the Game Development Department's club room as soon
+    MessageEN:
+      Please come to the Game Development Department's club room as soon
       as you get this message...
     MessageTH: 'ถ้าเห็น MOMOTALK นี้จงรีบมาที่ห้อง
 
@@ -184,7 +185,8 @@ content:
     MessageKR: 아니, 아니지. 시나리오에 따라선 이런 분기도 충분히 매력적……
     MessageJP: いや、でもシナリオによってはこういう分岐もアリ……
     MessageCN: 不对，按照剧本来看，确实可以有这种分支……
-    MessageEN: No, no... Based on the scenario, this type of story branch should be
+    MessageEN:
+      No, no... Based on the scenario, this type of story branch should be
       just fine...
     MessageTH: 'ไม่หรอก ไม่เป็นไร บางทีบรรยากาศ
 
@@ -353,7 +355,7 @@ content:
     MessageKR: ……뭣 때문에 그래?
     MessageJP: 急にどうしたの？
     MessageCN: 桃井为什么突然问这个？
-    MessageEN: '...What''s the problem?'
+    MessageEN: "...What's the problem?"
     MessageTH: ทำไมถึงสงสัยล่ะ?
     MessageTW: 怎麼突然這麼問呢？
   - MessageGroupId: 130110120
@@ -425,7 +427,8 @@ content:
     MessageKR: 소재가 고리타분하다느니, 전개가 루즈하다느니.
     MessageJP: 発想が古いとか、展開が中だるみしてるだとか
     MessageCN: 想法太老套啊，故事发展太无聊啊，之类的
-    MessageEN: The story is boring, the game mechanics aren't tight... Yada, yada,
+    MessageEN:
+      The story is boring, the game mechanics aren't tight... Yada, yada,
       yada...
     MessageTH: "บ่นว่าเนื้อเรื่องน่าเบื่อ\n หรือการเดินเรื่องหละหลวมบ้างล่ะ... บลาๆ"
     MessageTW: 想法過時，進程緩慢等等
@@ -444,7 +447,8 @@ content:
     MessageKR: 안 되겠어. 선생님, 게임개발부 부실에서 봐!
     MessageJP: もうダメ！先生、今からゲーム開発部の部室に来て！
     MessageCN: 我已经受不了了！老师，麻烦马上来游戏开发部的活动室吧！
-    MessageEN: I can't stand it. Meet me in the Game Development Department club room,
+    MessageEN:
+      I can't stand it. Meet me in the Game Development Department club room,
       Sensei!
     MessageTH: 'ฉันทนไม่ไหวแล้ว มาเจอกัน
 
@@ -905,7 +909,8 @@ content:
     MessageKR: 무려 울트라 마린 시스터즈 40주년 스탬프 랠리가……!
     MessageJP: なんと、ウルトラマリンシスターズ40周年スタンプラリー！
     MessageCN: 竟然，有奥特玛琳姐妹40周年的集章拉力赛！
-    MessageEN: There's a stamp rally going on for the Ultra Marine Sisters' fortieth
+    MessageEN:
+      There's a stamp rally going on for the Ultra Marine Sisters' fortieth
       anniversary!
     MessageTH: 'แสตมป์แรลลี่ครบรอบ 40 ปี อัลตร้า
 

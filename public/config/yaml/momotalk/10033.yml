@@ -187,7 +187,8 @@ content:
     MessageKR: 따사로운 햇살에 절로 눈이 부실 만큼 날이 많이 풀렸습니다.
     MessageJP: 本日は日差しも暖かく、良い天気ですわね
     MessageCN: 今天的阳光很暖和，是个好天气呢
-    MessageEN: It's already so warm out. The sunshine is so strong that it makes me
+    MessageEN:
+      It's already so warm out. The sunshine is so strong that it makes me
       squint.
     MessageTH: 'วันนี้ดูเป็นวันสบายๆ เหมาะกับ
 
@@ -228,7 +229,8 @@ content:
     MessageKR: 계절의 급변으로 용태가 갑자기 나빠지는 불상사 또한 종종 일어나는 법.
     MessageJP: 急に気温が変わる時は、体調も崩れてしまいがちものです
     MessageCN: 气温骤变的时候，稍不注意就会生病的
-    MessageEN: The temperature can change so drastically that it could have an impact
+    MessageEN:
+      The temperature can change so drastically that it could have an impact
       on your health.
     MessageTH: 'สภาพอากาศอาจเปลี่ยนแปลง
 
@@ -937,7 +939,8 @@ content:
     MessageKR: 아무리 바란다고 한들, 제 고집으로 선생님을 방해해서야 언어도단.
     MessageJP: 幾ら臨んだところで、私の我儘が先生の邪魔となってはいけませんし……
     MessageCN: 无论如何，我也不可以让自己的任性妨碍到老师呢……
-    MessageEN: I desperately wanted you to come with me today, but I know I shouldn't
+    MessageEN:
+      I desperately wanted you to come with me today, but I know I shouldn't
       be too clingy.
     MessageTH: 'ถึงฉันจะต้องการมากแค่ไหน
 

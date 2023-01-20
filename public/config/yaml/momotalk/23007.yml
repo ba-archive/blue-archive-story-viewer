@@ -721,7 +721,7 @@ content:
     MessageKR: 이건 진심이랍니다.
     MessageJP: これは、本心からの言葉ですよ
     MessageCN: 但是，我说的全都是真心话哦
-    MessageEN: 'I''m being sincere.  '
+    MessageEN: "I'm being sincere.  "
     MessageTH: 'ฉันพูดจากใจเลยนะคะ  '
     MessageTW: 但那確實是我的真心話
   - MessageGroupId: 230070230
@@ -757,7 +757,7 @@ content:
     MessageKR: 오늘 방과 후에 보충수업부 활동에 필요한
     MessageJP: 今日の放課後、
     MessageCN: 今天放学后
-    MessageEN: 'I''m going to buy stuff I need for '
+    MessageEN: "I'm going to buy stuff I need for "
     MessageTH: 'วันนี้หลังเลิกเรียน ฉันจะไปซื้ออุปกรณ์
 
       ที่จำเป็น '
@@ -869,7 +869,7 @@ content:
     MessageKR: 네. 맞습니다.
     MessageJP: はい、普通の格好で
     MessageCN: 是的，正常的衣服
-    MessageEN: 'Yes, that''s right. '
+    MessageEN: "Yes, that's right. "
     MessageTH: 'ค่ะ ใช่แล้วค่ะ '
     MessageTW: 是，沒錯
   - MessageGroupId: 230070290

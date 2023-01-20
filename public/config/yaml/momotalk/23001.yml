@@ -690,7 +690,8 @@ content:
     MessageKR: 오늘 점심에 도와주시기로 한 거 잊지 않으셨죠?
     MessageJP: 今日お手伝いしてくださるお話、ちゃんと覚えていらっしゃいますか？
     MessageCN: 老师还记得答应过今天来帮我忙的事情吗？
-    MessageEN: You promised to help me during lunch today. You haven't forgotten,
+    MessageEN:
+      You promised to help me during lunch today. You haven't forgotten,
       have you?
     MessageTH: 'ยังไม่ลืมนัดที่จะมาช่วยฉันตอนมื้อเที่ยง
 

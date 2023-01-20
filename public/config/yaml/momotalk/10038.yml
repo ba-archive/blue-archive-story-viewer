@@ -540,7 +540,7 @@ content:
     MessageKR: ……그건 좀 토끼에게 미안한 이름이 아닐까요.
     MessageJP: ……それをウサギに付けるのはどうかと思います
     MessageCN: ……老师是怎么想到给兔子起这种名字的啊
-    MessageEN: '...I don''t want someone to eat my rabbit.'
+    MessageEN: "...I don't want someone to eat my rabbit."
     MessageTH: 'ถ้าตั้งชื่อน้องแบบนั้นคงรู้สึกผิด
 
       กับน้องแน่เลยค่ะ...'
@@ -690,7 +690,8 @@ content:
     MessageKR: 어라, 또 선생님의 메일 주소를 헬리콥터 관제소 주소와 착각했군요. 죄송해요.
     MessageJP: あ。また宛先を間違えていました、すみません
     MessageCN: 啊。不好意思，我又发错消息了
-    MessageEN: Oh... I mistook your email address for the helicopter control station
+    MessageEN:
+      Oh... I mistook your email address for the helicopter control station
       again. I'm sorry.
     MessageTH: 'เอ๋? ฉันจำชื่อห้องแชทของคุณครูสลับกับ
 
@@ -731,7 +732,8 @@ content:
     MessageKR: 네, 선생님. 오늘 2200시에 헬기를 사용한 강하 작전이 예정되어 있습니다.
     MessageJP: はい。本日2200に、ヘリを使った降下作戦が予定されています
     MessageCN: 是的，今天2200，我预计要执行一个直升机空降作战行动
-    MessageEN: Yes, Sensei. A helicopter descent operation is scheduled today at 2200
+    MessageEN:
+      Yes, Sensei. A helicopter descent operation is scheduled today at 2200
       hours.
     MessageTH: 'ค่ะ คุณครู วันนี้มีแผนปฏิบัติการโรยตัว
 
@@ -752,7 +754,8 @@ content:
     MessageKR: 키보토스에 불법으로 동물들을 들여오는 밀수업자들을 습격하는 임무입니다.
     MessageJP: キヴォトスへ不法に動物たちを輸入している、密輸業者たちを襲撃する任務です
     MessageCN: 任务目标是袭击那些把动物非法进口到基沃托斯的走私犯
-    MessageEN: The mission is to raid the smugglers who have been illegally bringing
+    MessageEN:
+      The mission is to raid the smugglers who have been illegally bringing
       animals into Kivotos.
     MessageTH: 'เป็นภารกิจบุกโจมตีกลุ่มลักลอบขนสัตว์
 

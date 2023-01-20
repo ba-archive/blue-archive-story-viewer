@@ -109,7 +109,8 @@ content:
     MessageKR: 이걸 받아주지 않는다니 그러고도 선생 공이 나와 같은 닌자 덕후 동지…. <닌자 메이트>를 자처할 수 있겠어?
     MessageJP: これに返せないとは、先生殿も忍者オタク仲間……忍者メイトとしてはまだ未熟のようだね！
     MessageCN: 连这都接不上的话，老师大人作为忍者粉之友……忍者伴侣的修为还太浅了！
-    MessageEN: You must accept this way of greeting to be my ninja nerd friend...and
+    MessageEN:
+      You must accept this way of greeting to be my ninja nerd friend...and
       ultimately, my ninja companion!
     MessageTH: 'ถึงจะไม่ยอมรับออกมาก็เถอะ แต่ท่าน
 
@@ -188,7 +189,8 @@ content:
     MessageKR: 야심한 밤……. 달밤 아래에서 나와 함께 단둘이서 앰부쉬를 했던 추억을!
     MessageJP: 草木も寝静まるあの夜更け……月夜の下で、私と一緒に二人でアンブッシュしたあの思い出を！
     MessageCN: 在草木皆眠的那个深夜……以及你我二人埋伏在月夜下的那个夜晚!
-    MessageEN: Late at night...under the moon, talking about ambushes...just you and
+    MessageEN:
+      Late at night...under the moon, talking about ambushes...just you and
       me!
     MessageTH: 'ในกลางดึกคืนหนึ่ง ความทรงจำที่เราไป
 
@@ -209,7 +211,8 @@ content:
     MessageKR: 아, 참고로 앰부쉬란 수풀 속에서 은밀히 행동한다는 뜻의 닌자 은어니까. 기억해두라고!
     MessageJP: あ、ちなみにアンブッシュは「茂みの中で密かに行動する」っていう意味の忍者用語だよ。覚えておいてね！
     MessageCN: 啊。顺便一提，埋伏是个忍者用语，意思是“在草丛中秘密行动”。记好了！
-    MessageEN: Oh, just so you know, "ambush" is ninja slang for secretive movement
+    MessageEN:
+      Oh, just so you know, "ambush" is ninja slang for secretive movement
       in the bushes. Don't forget it!
     MessageTH: 'อ๋อ ขยายความคำว่าซุ่มโจมตี คือการซุ่ม
 
@@ -268,7 +271,8 @@ content:
     MessageKR: 그렇다고 너무 실망하지 마! 선생 공은 보기 드문 닌자의 재능을 가진 사람이니까.
     MessageJP: 大丈夫、ガッカリしないで！先生殿には忍者の才能がある！
     MessageCN: 没关系，不要失望！老师大人是有忍者才能的！
-    MessageEN: Don't be disappointed, though! You have the rare potential to be a
+    MessageEN:
+      Don't be disappointed, though! You have the rare potential to be a
       ninja.
     MessageTH: 'แต่ไม่ต้องผิดหวังไปหรอกนะ!
 
@@ -291,7 +295,8 @@ content:
     MessageKR: 장래성이 있어! 인법연구부의 부장인 내가 보증해주도록 하지!
     MessageJP: その将来性は、忍術研究部の部長であるこの私が保証するから！
     MessageCN: 作为忍术研究部部长，我可以保证老师大人的未来一片光明!
-    MessageEN: You have a bright future! As president of the Ninjutsu Research Club,
+    MessageEN:
+      You have a bright future! As president of the Ninjutsu Research Club,
       I can vouch for you!
     MessageTH: 'อนาคตไกลเลยล่ะ! ในฐานะชมรมวิจัย
 
@@ -384,7 +389,8 @@ content:
     MessageKR: 아, 그럼 이만! 물러나 보겠소이다! 선생 공! 또다시 만날 날을 기다리며 아디오스=SAYONARA!
     MessageJP: それでは先生殿！また会えるその日まで、アディオス=SAYONARA！
     MessageCN: 那么老师大人！在我们重逢之日来临之前，adiós=再见！
-    MessageEN: I must take my leave! I look forward to seeing you again someday! Adios!
+    MessageEN:
+      I must take my leave! I look forward to seeing you again someday! Adios!
       Sayonara!
     MessageTH: 'ขอตัวก่อนนะ! ข้าน้อยไปแล้วนะ!
 
@@ -499,7 +505,8 @@ content:
     MessageKR: 그보다 그거, 닌자가 아니라 괴도의 방식이잖아….
     MessageJP: これは忍者ではなく怪盗では……？
     MessageCN: 这不是忍者，是怪盗吧……?
-    MessageEN: That's not how a ninja gives notice. That's more like a mysterious
+    MessageEN:
+      That's not how a ninja gives notice. That's more like a mysterious
       thief...
     MessageTH: 'แล้วอีกอย่างนั่นมันไม่ใช่วิธีของนินจา
 
@@ -767,11 +774,13 @@ content:
     FeedbackTimeMillisec: 2000
     MessageType: Text
     ImagePath: ''
-    MessageKR: 이렇게 하다 보면 언젠가 키보토스의 모두에게 닌자를 널리 알리고, 인법연구부가 정식 동아리로 인정받게 될 날도 올 거라고
+    MessageKR:
+      이렇게 하다 보면 언젠가 키보토스의 모두에게 닌자를 널리 알리고, 인법연구부가 정식 동아리로 인정받게 될 날도 올 거라고
       믿으니까!
     MessageJP: このまま頑張れば、いつかはキヴォトスのみんなに忍者を知ってもらって、正式な部活として認められる日も近いはず！
     MessageCN: 只要这样继续努力，总有一天基沃托斯的大家都会知道忍者的存在，我们被认证为正式社团的日子也就不远了！
-    MessageEN: If I keep up the good work, one day I'll be promoting ninjas to everyone
+    MessageEN:
+      If I keep up the good work, one day I'll be promoting ninjas to everyone
       in Kivotos and the Ninjutsu Research Club will be recognized as an official
       club!
     MessageTH: 'ถ้าทำแบบนี้ต่อไปสักวันจะต้องทำให้
@@ -857,7 +866,8 @@ content:
     MessageKR: 그냥 하는 말이 아니라, 정말, 엄청나게 큰 힘이 되고 있어
     MessageJP: その言葉を聞いたら力が湧いてきて……
     MessageCN: 听到老师大人的话，力量就不断涌现……
-    MessageEN: I'm not just saying that. You have no idea how much you're helping
+    MessageEN:
+      I'm not just saying that. You have no idea how much you're helping
       me.
     MessageTH: 'ข้าน้อยไม่ได้พูดส่งๆ นะ มันเป็นกำลัง
 
@@ -878,7 +888,8 @@ content:
     MessageKR: 얼마나 큰 힘이 됐냐면, 방금 선생 공이 해준 말 덕분에 망설임이 싹 가셨으니까!
     MessageJP: おかげで、迷いが無くなったよ！
     MessageCN: 托您的福，我已经不再迷茫了！
-    MessageEN: Your support is so powerful that all of my hesitation has completely
+    MessageEN:
+      Your support is so powerful that all of my hesitation has completely
       disappeared!
     MessageTH: 'ถ้าให้เห็นภาพละก็... คำพูดของท่าน
 
@@ -975,7 +986,8 @@ content:
     MessageKR: 좀 비싸서 고민했는데, 선생 공 말을 듣고 결심했어!
     MessageJP: ちょっと高くて悩んでたんだけど、先生の言葉を聞いて踏ん切りがついたよ！
     MessageCN: 虽然我还在纠结是不是有点贵，但是听了老师的话，我下定决心了！
-    MessageEN: The stuff is kind of expensive, so I was hesitant...but now I've changed
+    MessageEN:
+      The stuff is kind of expensive, so I was hesitant...but now I've changed
       my mind!
     MessageTH: 'ราคามันค่อนข้างสูงจนคิดอยู่นาน
 
@@ -1148,7 +1160,8 @@ content:
     MessageKR: 부실에서 아무리 찾아봐도 보이지 않길래. 짚이는 곳이 거기뿐이더라고
     MessageJP: 部室に無いから、あとはシャーレくらいかなって
     MessageCN: 因为活动室里没找到，我觉得那应该就是在夏莱了
-    MessageEN: I searched the club room everywhere for it but couldn't find it. It's
+    MessageEN:
+      I searched the club room everywhere for it but couldn't find it. It's
       gotta be in the office.
     MessageTH: 'ข้าน้อยลองหาที่ห้องทำงานแล้วแต่ไม่เจอ
 
@@ -1187,7 +1200,8 @@ content:
     MessageKR: 응…? 그야 우리 부실. 일단은 임시고. 언제 백화요란 녀석들이 들이닥칠지 모르고
     MessageJP: それはその、うちの部室、あくまで仮の場所だし……いつ百花繚乱が押し寄せてくるかも分からないから……
     MessageCN: 那个，因为，我们的活动室毕竟只是临时的……也说不定哪天哪天百花缭乱的人就进来了
-    MessageEN: Huh...? Well, our club room is temporary, and we don't know when those
+    MessageEN:
+      Huh...? Well, our club room is temporary, and we don't know when those
       Hyakkayouran jerks will invade.
     MessageTH: 'หืม? ก็ห้องของชมรมเราน่ะเป็นแค่ห้อง
 
@@ -1288,7 +1302,8 @@ content:
     MessageKR: 아! 심심하면 선생 공도 봐도 되니까! 추천하거든! 카마보코 시리즈!
     MessageJP: もちろん先生殿も読んで良いよ、「かまぼこ」シリーズ面白いから！
     MessageCN: 当然老师也可以读一读，毕竟《鱼糕》系列非常有意思！
-    MessageEN: Oh! If you ever get bored, you should read it! I highly recommend the
+    MessageEN:
+      Oh! If you ever get bored, you should read it! I highly recommend the
       Kama-Boko series!
     MessageTH: 'อ้อ! ถ้าเกิดเบื่อๆ ท่านอาจารย์จะอ่านก็ได้นะ!
 
@@ -1311,7 +1326,8 @@ content:
     MessageKR: 그리고 말 나온 김에 전해두는 건데. 오늘 밤엔 공원에서 집합이니까. 까먹지 마?
     MessageJP: あ、そういえば今夜は公園に集合ね
     MessageCN: 啊，对了，今晚在公园集合吧
-    MessageEN: Also, I should remind you we're gathering at the park tonight. Don't
+    MessageEN:
+      Also, I should remind you we're gathering at the park tonight. Don't
       forget!
     MessageTH: 'ไหนๆ ก็พูดเรื่องนี้แล้ว คืนนี้มีนัดรวมตัว
 
@@ -1458,7 +1474,7 @@ content:
     MessageKR: …알았어. 가서 죽 만들어줄 테니까.
     MessageJP: おかゆ作りに行くね……
     MessageCN: 我给你熬点粥送过去吧……
-    MessageEN: '...Okay. I''ll make you some soup.'
+    MessageEN: "...Okay. I'll make you some soup."
     MessageTH: เข้าใจแล้ว เดี๋ยวครูไปทำโจ๊กให้กินนะ
     MessageTW: …知道了。我去幫你煮碗粥。
   - MessageGroupId: 160090570

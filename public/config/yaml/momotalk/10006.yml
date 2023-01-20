@@ -98,7 +98,8 @@ content:
     MessageKR: 듣자 하니 최근 외진 골목길에서 여학생들의 치마 속을 훔쳐보려는 변태가 출몰한다나 봐.
     MessageJP: 女子生徒のスカートを覗こうとするヘンタイが出没してる、って噂があって
     MessageCN: 有传闻说，最近有个偷窥女生裙底的变态出没
-    MessageEN: From what I've heard, there's a pervert hanging around the alleys,
+    MessageEN:
+      From what I've heard, there's a pervert hanging around the alleys,
       trying to flip skirts.
     MessageTH: 'ก็ช่วงนี้น่ะสิ มีโรคจิตที่พยายามแอบดูใต้
 
@@ -155,7 +156,8 @@ content:
     MessageKR: 선생님도 혹시 수상한 변태를 보거든 게헨나 선도부에 바로 연락해줘.
     MessageJP: 先生も、もし怪しいヘンタイを見かけたら、すぐ風紀委員会に連絡して
     MessageCN: 老师如果见到了可疑的变态，也请立即联系风纪委员会
-    MessageEN: If you see someone suspicious, please contact the Gehenna Prefect Team
+    MessageEN:
+      If you see someone suspicious, please contact the Gehenna Prefect Team
       right away.
     MessageTH: 'ถ้าคุณครูเห็นโรคจิตน่าสงสัยล่ะก็
 
@@ -402,7 +404,8 @@ content:
     MessageKR: 최근 첩보 멤버의 보고에 따르면 블랙마켓의 밀수품 거래량이 늘어난 것 같아.
     MessageJP: 報告だと最近、ブラックマーケットで密輸品の取引量が増えてるらしい
     MessageCN: 根据线报，最近黑市走私商品的交易量好像增长了
-    MessageEN: According to a recent report from intelligence, the volume of contraband
+    MessageEN:
+      According to a recent report from intelligence, the volume of contraband
       on the Black Market seems to have increased.
     MessageTH: 'ล่าสุดหน่วยข่าวกรองเพิ่งรายงานมาว่ามี
 
@@ -425,7 +428,8 @@ content:
     MessageKR: 생활에 필요한 물건이라면 일반 마켓에서도 다 구할 수 있는데…
     MessageJP: 生活に必要なものなら、普通のマーケットで何でも手に入るのに……
     MessageCN: 生活必须品之类的东西，不是在普通的市场上就全都能买到吗……
-    MessageEN: You can get everything you need for your daily life at the regular
+    MessageEN:
+      You can get everything you need for your daily life at the regular
       market...
     MessageTH: 'ถ้าเป็นของกินของใช้ทั่วไป ไปซื้อเอาใน
 
@@ -748,7 +752,8 @@ content:
     MessageKR: 총을 사용하는 위험한 임무에는 우리가 함께하는 게 당연하지.
     MessageJP: ああいう危険な任務なら、私たちが一緒に行くのは当たり前
     MessageCN: 这种危险的任务，我们陪老师一起去也是理所当然的
-    MessageEN: It only makes sense for us to join you on a dangerous mission when
+    MessageEN:
+      It only makes sense for us to join you on a dangerous mission when
       guns are involved.
     MessageTH: 'ภารกิจเสี่ยงอันตรายที่ต้องใช้ปืนน่ะ
 
@@ -841,7 +846,8 @@ content:
     MessageKR: 선생님, 이 문자를 보면 게헨나 정문 앞의 3거리 주택가로 와줘……
     MessageJP: 先生、このメッセージを見たら、ゲヘナ正門前の住宅街3丁目に……
     MessageCN: 老师，看到这条消息之后，请到格黑娜正门前的住宅街3号路来……
-    MessageEN: Sensei, when you see this text, please come to the District 3 residential
+    MessageEN:
+      Sensei, when you see this text, please come to the District 3 residential
       area by Gehenna's main gate.
     MessageTH: 'คุณครู ถ้าเห็นข้อความนี้ช่วยมาที่
 

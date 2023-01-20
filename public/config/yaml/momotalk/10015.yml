@@ -232,7 +232,7 @@ content:
     MessageKR: 그렇습니다.
     MessageJP: はい、よろしくお願いします
     MessageCN: 好的，请多指教了
-    MessageEN: 'That''s right. '
+    MessageEN: "That's right. "
     MessageTH: 'ก็คงประมาณนั้นค่ะ '
     MessageTW: 沒錯
   - MessageGroupId: 1001500070
@@ -344,7 +344,8 @@ content:
     MessageKR: 선생님도 노력하셔야 합니다. 지금 레벨에 잠이 옵니까?
     MessageJP: 先生も頑張ってください、そんなレベルで大丈夫ですか？
     MessageCN: 老师也请加油，那种等级真的没问题吗？
-    MessageEN: You have to work harder too. How can you sleep comfortably at that
+    MessageEN:
+      You have to work harder too. How can you sleep comfortably at that
       level?
     MessageTH: 'คุณครูก็ต้องพยายามนะคะ เลเวลไม่
 
@@ -647,7 +648,8 @@ content:
     MessageKR: 턱수염 폐하와 대머리 황제님 모두와 맺어지는 히든 엔딩을 찾아냈지만……
     MessageJP: 顎髭陛下とハゲ皇帝の両方と結ばれる、隠しエンドを見つけたのですが……
     MessageCN: 爱丽丝发现，如果让颚髯陛下和秃头皇帝两方结为连理的话，就能触发隐藏结局……
-    MessageEN: I found a hidden ending with the Bearded King and the Bald Emperor,
+    MessageEN:
+      I found a hidden ending with the Bearded King and the Bald Emperor,
       but...
     MessageTH: 'ฉันเจอเนื้อเรื่องจบเกมแบบใหม่ของ
 
@@ -670,7 +672,8 @@ content:
     MessageKR: 엔딩 직전에서 불법 소프트웨어가 감지되었다면서
     MessageJP: 違法なソフトウェアの使用が検知されたからと、セミナーの方々が押し寄せてきて
     MessageCN: 但被检测到使用了违法软件、研讨会的人们都过来了
-    MessageEN: I got a message saying that illegal software had been detected just
+    MessageEN:
+      I got a message saying that illegal software had been detected just
       before the ending.
     MessageTH: 'ได้ยินมาว่าตรวจพบซอร์ฟแวร์ผิด
 

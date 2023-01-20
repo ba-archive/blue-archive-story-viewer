@@ -619,7 +619,8 @@ content:
     MessageKR: 우연히 이즈나가 좋아하는 명작 닌자 시대극 시리즈를 구했어요!
     MessageJP: イズナの大好きな名作、忍者の時代劇シリーズをついに手に入れました！
     MessageCN: 泉奈终于把自己最喜欢的名作，忍者的时代剧系列买到手了！
-    MessageEN: I got my hands on a ninja-themed historical drama series! It's one
+    MessageEN:
+      I got my hands on a ninja-themed historical drama series! It's one
       of my favorites!
     MessageTH: 'อิซุนะเจอซีรีส์ย้อนยุคเกี่ยวกับนินจา
 

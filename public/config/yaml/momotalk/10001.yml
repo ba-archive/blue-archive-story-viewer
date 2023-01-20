@@ -214,7 +214,8 @@ content:
     MessageKR: 치약 같은 맛의 아이스크림을 먹는 건 체온 조절에 도움이 되는 걸까……?
     MessageJP: 歯磨き粉味のアイスってもしかして、体温調節に役立つのかな……？
     MessageCN: 牙膏味的冰淇淋，莫非有助于调节体温……？
-    MessageEN: Do you think eating ice cream that tastes like toothpaste helps them
+    MessageEN:
+      Do you think eating ice cream that tastes like toothpaste helps them
       cool down?
     MessageTH: 'การได้กินไอศกรีมรสยาสีฟันแบบนั้นอาจ
 
@@ -459,7 +460,8 @@ content:
     MessageKR: 선생님, 지난번에 여학생들이 좋아하는 것을 조사하는 데 협조해 주겠다고 했지?
     MessageJP: 先生この前、女子生徒が好きな物の調査に協力するって言ってくれたよね？
     MessageCN: 老师之前说过会帮我调查女学生们喜欢的东西对吧？
-    MessageEN: Sensei, didn't you say you'd help me understand what female students
+    MessageEN:
+      Sensei, didn't you say you'd help me understand what female students
       like?
     MessageTH: 'คุณครู จำที่เคยบอกว่าจะช่วยฉันสำรวจ
 

@@ -125,7 +125,8 @@ content:
     MessageKR: 전에 선생이 가고 싶다고 했던 중화요리집이 이번 주말부터 신메뉴를 내놓는다고 해서 알려주려 했던 것이다!
     MessageJP: この前先生が言ってた中華料理屋で新メニューが出るって聞いて、教えようと思っただけなのに！
     MessageCN: 咱只是想告诉老师，之前老师说的中餐馆好像推出了新菜单的呢！
-    MessageEN: I just wanted to tell you that eastern restaurant you like is launching
+    MessageEN:
+      I just wanted to tell you that eastern restaurant you like is launching
       a new menu this weekend!
     MessageTH: 'ฉันจะบอกว่าร้านอาหารจีนที่คุณครู
 
@@ -588,7 +589,8 @@ content:
     MessageKR: 지난번에 개발한 특제 매운 소스가 생각 외로 큰 인기를 끄는 바람에……
     MessageJP: この前開発した特製の激辛ソースが、思った以上に大人気で……
     MessageCN: 之前开发的特制超辣酱汁，比想象中还要受欢迎……
-    MessageEN: The special spicy sauce I made last week is much more popular than
+    MessageEN:
+      The special spicy sauce I made last week is much more popular than
       I expected.
     MessageTH: 'ซอสเผ็ดสูตรพิเศษที่ฉันคิดค้นขึ้น
 
@@ -609,7 +611,8 @@ content:
     MessageKR: 특제 소스를 만드느라 연구할 시간이 부족해진 것이다……
     MessageJP: そっちに時間を取られて、研究に手が回らないのだ
     MessageCN: 结果咱的时间都被制作辣酱占用了，根本无暇研究的呢
-    MessageEN: I'm at the point where I have no time for research because I'm always
+    MessageEN:
+      I'm at the point where I have no time for research because I'm always
       making sauce.
     MessageTH: 'เพราะมัวแต่เอาเวลาไปทำซอสสูตร
 
@@ -650,7 +653,8 @@ content:
     MessageKR: 연단방은 불로불사의 영약을 만드는 곳이지, 소스를 만드는 곳이 아니라고!
     MessageJP: 錬丹術研究会はあくまで「不老不死の霊薬を作ること」を目的とした場所であって、ソースを作る場所じゃないのだ！
     MessageCN: 炼丹术研究会终究是以“制造长生不老的灵药”为目的努力的地方，才不是什么生产酱汁的作坊的呢！
-    MessageEN: We're supposed to make elixirs that grant eternal life and youth, not
+    MessageEN:
+      We're supposed to make elixirs that grant eternal life and youth, not
       make special sauces!
     MessageTH: 'ชมรมวิจัยศาสตร์การปรุงยาเป็นชมรม
 

@@ -71,7 +71,8 @@ content:
     MessageKR: 고뇌하는 일이 있으시다면, 더 늦기 전에 시스터를 찾아와주세요.
     MessageJP: 何か悩みごとなどがありましたら、いつでも私たちの元をお訪ねください
     MessageCN: 如果您有什么烦恼的话，请随时拜访我们
-    MessageEN: If you're struggling with something, please come see a sister before
+    MessageEN:
+      If you're struggling with something, please come see a sister before
       it's too late.
     MessageTH: ถ้าคุณมีสิ่งใดที่กวนใจอยู่ล่ะก็ โปรดมาพบกับซิสเตอร์ก่อนที่จะสายเกินไป
     MessageTW: 有什麼煩惱的話，請隨時拜訪我們
@@ -90,7 +91,8 @@ content:
     MessageKR: 찾아오기 힘드신 분은 말씀해 주시면 찾아가겠습니다.
     MessageJP: お越しになれない方の元へは、私たちの方からお伺いしますので。ぜひお気軽にお申し付けください
     MessageCN: 如果您不方便到场，也可以由我们登门拜访。所以，请您放下顾虑，随时联系我们
-    MessageEN: If it's difficult to come to us, please let us know and we will come
+    MessageEN:
+      If it's difficult to come to us, please let us know and we will come
       to you.
     MessageTH: ถ้าคุณมาไม่ได้ ขอให้บอกฉันนะคะ ฉันจะไปพบคุณเองค่ะ
     MessageTW: 來不了的人，我們會登門拜訪。請隨時與我們聯繫
@@ -543,7 +545,8 @@ content:
     MessageKR: 그러고 보니 마침 오늘은 성당에도 다른 일정들이 없는 날이네요.
     MessageJP: 今日はちょうど、大聖堂では何の用事もない日でして
     MessageCN: 今天刚好大教堂没有别的事情
-    MessageEN: Come to think of it, there isn't anything scheduled for today at the
+    MessageEN:
+      Come to think of it, there isn't anything scheduled for today at the
       cathedral.
     MessageTH: 'พอมาคิดดูแล้ววันนี้ก็ไม่ได้มีตารางงานอะไร
 
@@ -618,7 +621,8 @@ content:
     MessageKR: 역시, 선생님을 위한다고는 했지만 사실 저를 위한 기도였을지도 모르겠네요.
     MessageJP: やはり先生のためと言いつつ、自分のためにもなっていたようです
     MessageCN: 果然，虽然我总说是为了老师，但最后好像也变成了为自己祈祷
-    MessageEN: Actually, I said I was praying for you, but it might have been more
+    MessageEN:
+      Actually, I said I was praying for you, but it might have been more
       of a prayer for me.
     MessageTH: ถึงฉันบอกว่าจะสวดภาวนาให้คุณครู แต่ที่จริงอาจเป็นการสวดภาวนาให้ตัวเองก็ได้ค่ะ
     MessageTW: 雖說是為了老師，但似乎也是為了我自己
@@ -785,9 +789,11 @@ content:
     MessageKR: 고뇌하는 일이 있으시다면, 그 고뇌가 하루빨리 해결되길 기도하겠습니다.
     MessageJP: 何か悩みごとなどがありましたら、いつでも私たちの元をお訪ねください
     MessageCN: 如果老师有什么烦恼的话，请随时和我们倾诉
-    MessageEN: If you have any troubles, I pray that they are resolved as soon as
+    MessageEN:
+      If you have any troubles, I pray that they are resolved as soon as
       possible.
-    MessageTH: 'ถ้าคุณครูมีเรื่องไม่สบายใจล่ะก็ ฉันจะภาวนาให้เรื่องไม่สบายใจของคุณครู
+    MessageTH:
+      'ถ้าคุณครูมีเรื่องไม่สบายใจล่ะก็ ฉันจะภาวนาให้เรื่องไม่สบายใจของคุณครู
 
       หายไปโดยเร็วนะคะ'
     MessageTW: 有什麼煩惱的話，請隨時拜訪我們
@@ -806,7 +812,8 @@ content:
     MessageKR: 오늘은 성당에서 직접 찾아뵙지 못하는 점, 너그러이 이해해 주시기 바랍니다.
     MessageJP: ただ、本日私は聖堂にいないのですが……
     MessageCN: 只是，今天我不在教堂……
-    MessageEN: I am unable to meet with you at the cathedral today. I ask for your
+    MessageEN:
+      I am unable to meet with you at the cathedral today. I ask for your
       kind understanding.
     MessageTH: ต้องขออภัยด้วยนะคะ ที่วันนี้ไปพบที่วิหารไม่ได้ค่ะ
     MessageTW: 只是，今天我不在教堂……
@@ -1205,7 +1212,8 @@ content:
     MessageKR: 혹시 선생님께서 괜찮으시다면, 만날 수 있는 날을 잡아도 될까 해서 여쭤봤던 거예요.
     MessageJP: もしよろしければ、どこかでお会いしてお話してもよろしいですか？
     MessageCN: 如果老师不介意的话，我们可以找个地方见面谈谈吗？
-    MessageEN: If it's okay with you, I was wondering if we could schedule a day to
+    MessageEN:
+      If it's okay with you, I was wondering if we could schedule a day to
       meet up.
     MessageTH: ถ้าคุณครูไม่ว่าอะไร ฉันจะขอนัดวันที่คุณครูสะดวกได้ไหมคะ
     MessageTW: 如果可以的話，可以找個地方見面說嗎？

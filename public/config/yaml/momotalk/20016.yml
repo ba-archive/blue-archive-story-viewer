@@ -257,7 +257,8 @@ content:
     MessageKR: 내게 부메랑처럼 돌아오는 것. 중간관리자가 하는 일이 다 그렇죠. 뭐.
     MessageJP: 大変ですよね、中間管理職
     MessageCN: 中层管理这个职位还真是辛苦呢
-    MessageEN: You try to delegate, but it comes back like a boomerang. That's the
+    MessageEN:
+      You try to delegate, but it comes back like a boomerang. That's the
       life of a middle manager.
     MessageTH: 'งานมันก็เหมือนเวรกรรม ที่หนีเท่าไร
 

@@ -98,7 +98,7 @@ content:
     MessageKR: …아니, 그렇게 호들갑 떨 것까진….
     MessageJP: そこまで驚くことか……
     MessageCN: 至于这么震惊吗……
-    MessageEN: '...You don''t have to make a fuss.'
+    MessageEN: "...You don't have to make a fuss."
     MessageTH: เดี๋ยวสิ ไม่เห็นต้องเวอร์ขนาดนั้นเลย
     MessageTW: 有這麼吃驚嗎……
   - MessageGroupId: 100480040
@@ -452,7 +452,8 @@ content:
     MessageKR: 호들갑은……. 아, 음. 최근엔 블랙마켓을 통해 소개받은 일을 하고 있다.
     MessageJP: 大げさだな……近頃は、ブラックマーケットで紹介された依頼をこなしている
     MessageCN: 反应太夸张了……最近，在着手黑市上介绍的委托
-    MessageEN: You're way too eager... Uh, I've been working a job I got from the
+    MessageEN:
+      You're way too eager... Uh, I've been working a job I got from the
       Black Market.
     MessageTH: 'พิมพ์มารัวไปมั้ย... อืม ไม่นานมานี้มีคน
 
@@ -675,7 +676,8 @@ content:
     MessageKR: 블랙마켓의 항쟁을 마무리하는 일이지.
     MessageJP: ブラックマーケットの抗争を終わらせるだけだ
     MessageCN: 只是要解决黑市内的斗争而已
-    MessageEN: It's a job for ending something the Black Market's been struggling
+    MessageEN:
+      It's a job for ending something the Black Market's been struggling
       with.
     MessageTH: งานเก็บกวาดพวกที่มีเรื่องกันในตลาดมืดน่ะ
     MessageTW: 只需要結束黑市的紛爭罷了

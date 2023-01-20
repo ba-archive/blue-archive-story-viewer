@@ -138,7 +138,7 @@ content:
     MessageKR: ……조금 습하긴 해도 나쁘지 않은 공간이네요.
     MessageJP: そ、それは……でも、ちょっと分かるかもです。悪くないですよね
     MessageCN: 那、那个……但是，我有点能理解。也挺好的呢
-    MessageEN: '...It''s a little humid in there, but I guess it''s not so bad.'
+    MessageEN: "...It's a little humid in there, but I guess it's not so bad."
     MessageTH: 'ถึงจะรู้สึกชื้นๆ ไปบ้าง แต่ก็ไม่แย่
 
       เท่าไหร่ค่ะ'
@@ -158,7 +158,8 @@ content:
     MessageKR: 저는…… 사람이 지나다니지 않는 어둡고 그늘진 장소가 좋아요.
     MessageJP: わたしは……人が通らなくて、日陰になっている、暗いところが好きです
     MessageCN: 我……我喜欢没人会经过的，太阳直射不到的、阴暗的地方
-    MessageEN: As for me...I like dark, shady areas where there aren't too many people
+    MessageEN:
+      As for me...I like dark, shady areas where there aren't too many people
       around.
     MessageTH: 'สำหรับฉัน... ฉันชอบที่มืดๆ ที่คนไม่
 
@@ -387,7 +388,8 @@ content:
     MessageKR: 다른 사람들과 협력해서 플레이해야 하는 온라인 게임만큼은 어쩐지 대화가 부담스러워서……
     MessageJP: ただ、他の人たちとプレイをしなくちゃいけない、オンラインゲームなどはちょっと……
     MessageCN: 但是，必须和其他人一起玩的那种在线游戏就不太……
-    MessageEN: but I don't really like online games where you have to work together
+    MessageEN:
+      but I don't really like online games where you have to work together
       with other people...
     MessageTH: 'แต่ฉันมักรู้สึกไม่ชอบการพูดคุย
 
@@ -486,7 +488,8 @@ content:
     MessageKR: 안 그래도 이번에 좋아하는 게임사에서 새로운 신작 대전 격투 게임이 나온다고 해서 기대하고 있답니다.
     MessageJP: 今度、わたしが好きなゲーム会社から新しい対戦格闘ゲームが出るそうで、楽しみです
     MessageCN: 听说我喜欢的游戏公司这次要推出新的对战格斗游戏了，我很期待
-    MessageEN: One of my favorite game developers is creating a new fighting game,
+    MessageEN:
+      One of my favorite game developers is creating a new fighting game,
       so I'm really looking forward to that.
     MessageTH: 'ที่จริงฉันกำลังตั้งตารอให้เกมต่อสู้
 
@@ -543,7 +546,8 @@ content:
     MessageKR: 게임을 개발하는 데 이렇게 많은 돈이 필요할 줄은 예전에는 미처 몰랐어요.
     MessageJP: ゲームを開発するのって、すごくお金が必要なんですよね……
     MessageCN: 开发游戏，需要很多钱呢……
-    MessageEN: When I was young, I had no idea it cost so much money to develop a
+    MessageEN:
+      When I was young, I had no idea it cost so much money to develop a
       game.
     MessageTH: 'ฉันไม่รู้มาก่อนเลยว่าในการพัฒนา
 
@@ -564,7 +568,8 @@ content:
     MessageKR: 저번 개발 때는 서버를 유지할 돈이 부족해서
     MessageJP: 前回の開発ではサーバーを維持するお金が足りなくて、
     MessageCN: 上次开发的作品，因为续租服务器的钱不够了，
-    MessageEN: The last time I made a game, I didn't have enough money to maintain
+    MessageEN:
+      The last time I made a game, I didn't have enough money to maintain
       the servers...
     MessageTH: 'ตอนที่พัฒนาเกมครั้งที่แล้ว เราไม่มี
 
@@ -705,7 +710,8 @@ content:
     MessageKR: 차기작을 개발할 때는 같은 실수를 반복하지 않도록
     MessageJP: 次回作の開発の時は、同じミスを繰り返さないように、
     MessageCN: 为了下次开发的时候不会重蹈覆辙
-    MessageEN: When we started work on our next game, we made sure to save up enough
+    MessageEN:
+      When we started work on our next game, we made sure to save up enough
       money
     MessageTH: 'และเพื่อให้ตอนที่พัฒนาเกมต่อไป
 
@@ -766,7 +772,8 @@ content:
     MessageKR: 손님 앞에만 서면 자꾸 몸이 얼어붙어서 실수만 연발하고…….
     MessageJP: お客様の前で何度も体が固まってしまって、ミスの連発でしたし……
     MessageCN: 在客人面前好几次僵住，还接连犯错……
-    MessageEN: Whenever I was standing in front of a customer, I would freeze up and
+    MessageEN:
+      Whenever I was standing in front of a customer, I would freeze up and
       make a million mistakes...
     MessageTH: 'พอฉันไปยืนต่อหน้าลูกค้าแล้ว ตัวมันก็
 
@@ -787,7 +794,8 @@ content:
     MessageKR: 점장님도 괜찮다고는 하셨지만, 분명 크게 실망하셨을 거예요.
     MessageJP: 店長さんからは大丈夫だと言っていただけましたが……
     MessageCN: 虽然店长和我说了没关系……
-    MessageEN: The manager told me it was okay, but I know they were disappointed
+    MessageEN:
+      The manager told me it was okay, but I know they were disappointed
       in me.
     MessageTH: 'ถึงคุณผู้จัดการจะบอกว่าไม่เป็นอะไร
 
@@ -942,7 +950,8 @@ content:
     MessageKR: 생각보다 높은 액수를 받아서 남는 돈으로 부원들에게 선물도 할 수 있었답니다.
     MessageJP: 思ったより金額があったので、余ったお金で部員のみんなへのプレゼントもできました
     MessageCN: 因为到手的钱比预想的多，所以剩下的钱可以给全体部员买礼物了
-    MessageEN: I got a lot more than I expected, so I bought presents for our team
+    MessageEN:
+      I got a lot more than I expected, so I bought presents for our team
       members with my leftover cash.
     MessageTH: 'พอดีได้ค่าจ้างมามากกว่าที่คิด เลยคิด
 
@@ -983,7 +992,8 @@ content:
     MessageKR: 저…… 괜찮으시다면 이번 주말에 제가 일하는 놀이공원으로 와 주시지 않으시겠어요?
     MessageJP: それで、えっと……もしよかったら今週末、あの遊園地に来てくれませんか？
     MessageCN: 所以说、那个……如果方便的话，老师这周末能来一趟我上次打工的游乐园吗？
-    MessageEN: Um... If you have time this weekend, do you wanna come see me at the
+    MessageEN:
+      Um... If you have time this weekend, do you wanna come see me at the
       theme park I work at?
     MessageTH: 'คือ... ถ้าคุณครูไม่ว่าอะไร อาทิตย์นี้
 
@@ -1212,7 +1222,8 @@ content:
     MessageKR: 뭐든지라고는 했지만 겨우 이런 일에 자유이용권을 쓰지 말아 주세요!
     MessageJP: 確かに何でもと言いましたが、そんなことにせっかくのフリーパスを使わないでください……！
     MessageCN: 虽然我确实说过什么事都可以，但是请不要在这种事情上用掉宝贵的使用券……
-    MessageEN: I know I said "anything," but please don't use the free pass on something
+    MessageEN:
+      I know I said "anything," but please don't use the free pass on something
       like that!
     MessageTH: 'ถึงฉันจะบอกว่าจะให้ทำอะไรก็ได้
 

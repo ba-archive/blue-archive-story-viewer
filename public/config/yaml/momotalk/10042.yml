@@ -367,7 +367,7 @@ content:
     MessageKR: '여기를 떠나기로 했어. '
     MessageJP: 今からここを離れることになったよ
     MessageCN: 我们马上要离开这里了哦
-    MessageEN: 'I''ve decided to leave. '
+    MessageEN: "I've decided to leave. "
     MessageTH: 'พวกเราจะไปจากที่นี่แล้ว '
     MessageTW: 我決定要離開這裡了。
   - MessageGroupId: 100420130
@@ -385,7 +385,7 @@ content:
     MessageKR: '그럼 다음에 봐. 위치가 바뀌면 또 연락할게. '
     MessageJP: じゃあ、また。場所が変わったら連絡する
     MessageCN: 那么，再见。等换了地址再和你联系
-    MessageEN: 'I''ll see you later. I''ll contact you if the location changes. '
+    MessageEN: "I'll see you later. I'll contact you if the location changes. "
     MessageTH: 'ไว้เจอกันใหม่นะถ้าเปลี่ยนพิกัดที่อยู่อีก
 
       จะติดต่อไปใหม่ '

@@ -109,7 +109,8 @@ content:
     MessageKR: 특히 푸딩의 개수가 장부상에 기록된 숫자에 비해 터무니없이 부족해.
     MessageJP: 特にプリンの個数が、帳簿に記録された数字と全く合わないんだ
     MessageCN: 特别布丁的数量，和账本上记录的数量完全对不上
-    MessageEN: Most notably, the pudding count is significantly less than what's recorded
+    MessageEN:
+      Most notably, the pudding count is significantly less than what's recorded
       on the ledger.
     MessageTH: 'โดยเฉพาะพุดดิ้ง จำนวนที่เหลือ
 
@@ -186,7 +187,8 @@ content:
     MessageKR: 다른 보안위원들과 함께 몇 번이나 다시 세어 보았으니까!
     MessageJP: なにせ他の保安委員たちと一緒に、何度も数え直したのだから！
     MessageCN: 毕竟我和其他保安委员一起，清点过好几次了！
-    MessageEN: I've done the math several times, along with other Security Council
+    MessageEN:
+      I've done the math several times, along with other Security Council
       members.
     MessageTH: 'ฉันกับสมาชิกคณะความมั่นคง
 
@@ -225,7 +227,8 @@ content:
     MessageKR: 급양부의 시설은 우리 보안위원들이 철통같이 지키고 있으니까!
     MessageJP: 給食部の施設は、我々保安委員が徹底的に監視しているのだから！
     MessageCN: 供给部的设施是由我们保安委员严格看管的！
-    MessageEN: The Security Council has been watching the School Lunch Club facility
+    MessageEN:
+      The Security Council has been watching the School Lunch Club facility
       like hawks!
     MessageTH: 'สมาชิกคณะความมั่นคงคอยดูแล
 
@@ -301,11 +304,13 @@ content:
     FeedbackTimeMillisec: 2000
     MessageType: Text
     ImagePath: ''
-    MessageKR: 음. 붉은겨울 학원은 워낙 넓은 데다가, 학생기록부의 전산화가 완전히 이루어지지 않아 사무국에서 파악하지 못한 학생들도
+    MessageKR:
+      음. 붉은겨울 학원은 워낙 넓은 데다가, 학생기록부의 전산화가 완전히 이루어지지 않아 사무국에서 파악하지 못한 학생들도
       제법 있으니까.
     MessageJP: ああ。レッドウィンター連邦学園は敷地が広大な上に、生徒の記録簿などもあまり電子化されていない。事務局で把握できていない生徒も結構いるくらいだ
     MessageCN: 是啊。红冬联邦学园的属地过于辽阔，学生的花名册之类的也没怎么信息化。因此，还有不少事务局无法掌控具体情况的学生
-    MessageEN: Red Winter Academy is very large. There are students we don't know
+    MessageEN:
+      Red Winter Academy is very large. There are students we don't know
       much about because our student records haven't been fully digitized.
     MessageTH: 'ใช่ เพราะนอกจากสหภาพเรดวินเทอร์
 
@@ -350,7 +355,8 @@ content:
     MessageKR: 분명 그 스파이는 이런 허점을 노려 붉은겨울 학원에 내분을 일으키려 했던 거겠지. 괘씸한 녀석 같으니라고.
     MessageJP: きっとこういった些細な事件で様子を見つつ、遠くないうちにレッドウィンター連邦学園に内紛を巻き起こそうとしていたのだろう……
     MessageCN: 间谍一定是想利用这种琐事来监视红冬的状况，不久之后就会在红冬联邦学园里掀起内讧吧……
-    MessageEN: The spy must be trying to cause internal conflict by going after our
+    MessageEN:
+      The spy must be trying to cause internal conflict by going after our
       weaknesses. How disgraceful.
     MessageTH: 'ฉันมั่นใจว่าสายลับจะต้องใช้ช่องโหว่นี้
 
@@ -705,7 +711,8 @@ content:
     MessageKR: 수치스럽고 고된 일이지만, 체리노 회장님의 명령이라면 어쩔 수 없지.
     MessageJP: しかし、これもある意味ではチェリノ会長の命令
     MessageCN: 但是，某种意义上这也是切里诺会长的命令
-    MessageEN: It's embarrassing and disgusting work, but it's President Cherino's
+    MessageEN:
+      It's embarrassing and disgusting work, but it's President Cherino's
       order.
     MessageTH: 'งานนี้ทั้งน่าอับอายและลำบาก
 
@@ -840,7 +847,8 @@ content:
     MessageKR: 수염의 권위를 지키는 것은 모두의 의무. 그러니 선생도 불경죄에 대해 함께 책임을 나누어야지.
     MessageJP: 髭の権威を守ることは全員の義務。よって先生も不敬罪、責任を共に負わねばならないのは当然のこと
     MessageCN: 守护胡子的权威是全员的义务。所以老师也要我共同承担不敬之罪，这是理所当然的事
-    MessageEN: It's everyone's duty to protect the mustache's authority. Therefore,
+    MessageEN:
+      It's everyone's duty to protect the mustache's authority. Therefore,
       you're also responsible for this light treason.
     MessageTH: 'การปกป้องหนวดแห่งอำนาจ
 
@@ -865,7 +873,8 @@ content:
     MessageKR: 자, 선생. 내일의 화장실 청소는 일찍 시작할 테니, 오전 7시 전까지 사무국 건물 앞에 집합하도록!
     MessageJP: さあ先生。明日の午前7時、事務局の前に集合だ！
     MessageCN: 好了老师。明天早上7点，在事务局前集合！
-    MessageEN: We'll start bright and early tomorrow. Meet me at 7AM in front of the
+    MessageEN:
+      We'll start bright and early tomorrow. Meet me at 7AM in front of the
       Secretariat building!
     MessageTH: 'เอาละ พรุ่งนี้ฉันจะเริ่มทำความสะอาด
 

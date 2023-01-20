@@ -127,7 +127,8 @@ content:
     MessageKR: 전에 쓰던 것이 다 떨어져서 하계 합숙을 앞두고 새로 구입하려 했는데, 선도부 일이 너무 바빠서 말이야.
     MessageJP: ずっと使ってたのが無くなっちゃったから、合宿前に買おうと思ってたんだけど
     MessageCN: ''
-    MessageEN: I ran out of sunscreen before summer camp, and Prefect Team work is
+    MessageEN:
+      I ran out of sunscreen before summer camp, and Prefect Team work is
       keeping me busy.
     MessageTH: 'อันที่ใช้อยู่มันจะหมดแล้ว และเราก็
 
@@ -187,7 +188,7 @@ content:
     FeedbackTimeMillisec: 0
     MessageType: Text
     ImagePath: ''
-    MessageKR: '''씨사이드''의 선 오일이면 되지?'
+    MessageKR: "'씨사이드'의 선 오일이면 되지?"
     MessageJP: 「シーサイド」の日焼け止めだよね？
     MessageCN: ''
     MessageEN: Would sun oil from Seaside do the trick?
@@ -556,7 +557,8 @@ content:
     MessageKR: 방금 들어온 신고에 따르면 바다의 집 앞에서 불량 학생들이 행패를 부리고 있나 봐.
     MessageJP: 連絡が入ったんだけど、どうやら海の家の近くでチンピラたちが暴れてるらしい
     MessageCN: ''
-    MessageEN: We just got a report that some delinquents are causing a scene in front
+    MessageEN:
+      We just got a report that some delinquents are causing a scene in front
       of the Beach Shack!
     MessageTH: 'ตามที่มีคนแจ้งเข้ามา มีพวกเด็กเกเร
 

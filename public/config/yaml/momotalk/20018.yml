@@ -185,9 +185,11 @@ content:
     MessageKR: 아, 특별한 의미는 없어. 뭔가 재미있는 사건의 예감이 들어서 말이지, 후후.
     MessageJP: あ、別に深い意味はないよ。なんか面白い事件の予感するだけ……くひひ
     MessageCN: 啊，我没有什么其他意思哦。就是有种会发生什么有趣的事的预感……咕嘻嘻
-    MessageEN: Oh, it's nothing. I just have a feeling that something interesting
+    MessageEN:
+      Oh, it's nothing. I just have a feeling that something interesting
       might happen.
-    MessageTH: อา แต่ก็ไม่ได้มีอะไรพิเศษหรอกนะ แค่รู้สึกว่าน่าจะมีเรื่องอะไรสนุกๆ
+    MessageTH:
+      อา แต่ก็ไม่ได้มีอะไรพิเศษหรอกนะ แค่รู้สึกว่าน่าจะมีเรื่องอะไรสนุกๆ
       ก็เท่านั้นเอง ฮิฮิ
     MessageTW: 啊，沒有什麼特別的意思。只是有預感會發生有趣的事……咯嘻嘻
   - MessageGroupId: 200180050
@@ -389,7 +391,8 @@ content:
 
       あれ、「モリーガード」って言うんだよ'
     MessageCN: 开关啊按钮之类的上面不是会安装一个安全罩嘛。那个东西其实学名叫做“molly guard”哦
-    MessageEN: A safety cover installed over a switch or button is often called a
+    MessageEN:
+      A safety cover installed over a switch or button is often called a
       "Molly-guard."
     MessageTH: ฝาครอบที่ใช้ครอบอยู่บนปุ่มหรือสวิชต์ไฟ เขาเรียกว่า <โมลลี่ การ์ด> ล่ะ
     MessageTW: '不是有安置在開關和按鈕上的安全蓋嗎
@@ -428,7 +431,8 @@ content:
     MessageKR: 몰리라는 아이가 비상 스위치를 자꾸 누르려 해서 발명된 덮개이기 때문이래.
     MessageJP: モリーという子が、何度も非常ボタンを押そうとしたから発明されたカバーだからなんだって
     MessageCN: 以前有个叫Molly的孩子经常按紧急按钮，为了不让Molly继续乱按，这个罩子就被发明出来了
-    MessageEN: It was invented because of a kid named Molly kept trying to press an
+    MessageEN:
+      It was invented because of a kid named Molly kept trying to press an
       emergency switch.
     MessageTH: 'ได้ยินว่าเขาประดิษฐ์ฝาครอบป้องกันขึ้น
 
@@ -525,7 +529,8 @@ content:
     MessageKR: 지금쯤 전 세계의 사람들은 안전 덮개를 <모에 가드>라고 불렀을 텐데……
     MessageJP: 今頃、安全カバーの名前は「モエガード」になっていたのかなって……
     MessageCN: 现在，安全护罩的名字说不定就叫“moe guard”了吧……
-    MessageEN: the safety cover would have been called a "Moe-guard" by the entire
+    MessageEN:
+      the safety cover would have been called a "Moe-guard" by the entire
       world.
     MessageTH: 'คนทั่วโลกก็คงเรียกฝาครอบป้องกัน
 
@@ -658,7 +663,8 @@ content:
     MessageKR: 그런데 마침 다른 소대원들이 작전 중이라 혼자 정리를 해야 하는데……
     MessageJP: でも、みんなちょうど作戦でいないから、一人で整理しなきゃいけなくて……
     MessageCN: 但是，大家都在外面作战，所以我得一个人整理……
-    MessageEN: Other squad members are in the middle of an operation, so I have to
+    MessageEN:
+      Other squad members are in the middle of an operation, so I have to
       organize them myself...
     MessageTH: 'แต่ว่าตอนนี้สมาชิกคนอื่นออกไปปฎิบัติ
 

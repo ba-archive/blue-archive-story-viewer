@@ -138,7 +138,8 @@ content:
     MessageKR: 원래부터 좋아했던 영화의 후속편이었는데, 내가 관심 있어 하는 해킹에 관련된 캐릭터가 나온다니…….
     MessageJP: 元々好きだった映画の続編に、ハッキング関連の登場人物が出るなんて……
     MessageCN: 我本就很喜欢的电影的续作里，竟然会有和黑客技术相关的角色登场……
-    MessageEN: I was already looking forward to this movie, and now I hear there's
+    MessageEN:
+      I was already looking forward to this movie, and now I hear there's
       a hacker in it! Isn't that exciting?
     MessageTH: 'นี่เป็นภาคต่อของหนังที่ฉันชอบเลย
 
@@ -217,7 +218,8 @@ content:
     MessageKR: 선생님, 오늘 동아리실에 올 때 시내에서 에너지 드링크 하나만 사다 줄 수 있어?
     MessageJP: 先生、今日部室に来る時に、エナジードリンクを一本買ってきてくれる？
     MessageCN: 老师，今天您来真理部活动室的时候，能顺路帮我买一瓶能量饮料吗？
-    MessageEN: When you come to the club room today, can you bring me an energy drink
+    MessageEN:
+      When you come to the club room today, can you bring me an energy drink
       from the city?
     MessageTH: 'คุณครู วันนี้ตอนมาที่ห้องชมรม ฉันฝาก
 
@@ -350,7 +352,8 @@ content:
     MessageKR: 업체에 문의해보니 재고가 한정되어 있어서 한 사람 앞에 한 개밖에 팔지 않는다지 뭐야.
     MessageJP: 業者の人に聞いたら、在庫が限られてるから一人一個しか売らないんだって
     MessageCN: 但是我问了问配件商，他们说库存有限，所以一人限购一张
-    MessageEN: I asked the company that sells it, and they said each person can only
+    MessageEN:
+      I asked the company that sells it, and they said each person can only
       buy one because supplies are limited.
     MessageTH: 'ที่ร้านบอกมาว่าสต๊อกสินค้ามีจำกัด
 
@@ -406,11 +409,13 @@ content:
     FeedbackTimeMillisec: 1500
     MessageType: Text
     ImagePath: ''
-    MessageKR: 두 개 이상의 그래픽 카드를 연결해서 그래픽 처리 성능을 높이지 않으면 새로운 시뮬레이터의 기능을 제대로 시험해 볼 수
+    MessageKR:
+      두 개 이상의 그래픽 카드를 연결해서 그래픽 처리 성능을 높이지 않으면 새로운 시뮬레이터의 기능을 제대로 시험해 볼 수
       없거든.
     MessageJP: 二個以上ないと、性能的に新しいシミュレーターをきちんと試せないから
     MessageCN: 如果没有两张或者更多的显卡的话，可能没有足够性能来测试新的模拟程序呢
-    MessageEN: I need at least two graphics cards to test the new simulator's functions
+    MessageEN:
+      I need at least two graphics cards to test the new simulator's functions
       properly.
     MessageTH: 'ถ้าเราไม่ต่อการ์ดจอ 2 อันเพื่อเพิ่ม
 
@@ -511,7 +516,8 @@ content:
     MessageKR: 그래서 말인데, 이번 주말에 부품 상점에 쇼핑하러 갈 때 같이 가줄 수 없을까?
     MessageJP: そこで今週末なんだけど、それを買うのに一緒に行ってくれないかな？
     MessageCN: 所以，这个周末老师能陪我一起去买显卡吗？
-    MessageEN: So I wanted to ask... Can you come with me to the parts store this
+    MessageEN:
+      So I wanted to ask... Can you come with me to the parts store this
       weekend?
     MessageTH: 'สุดสัปดาห์นี้ฉันจะไปร้านอุปกรณ์
 
@@ -666,7 +672,8 @@ content:
     MessageKR: 오늘 오후에 학원 옥상에서 드론의 새로운 기능을 시연할 예정이니 한 번 보러 와 줘.
     MessageJP: 今日の午後にミレニアムの屋上で試運転する予定だから、見に来てくれる？
     MessageCN: 我打算今天下午在千年的屋顶上做一次试运行，老师要来看看吗？
-    MessageEN: I'll demonstrate these new features on the roof of the academy, so
+    MessageEN:
+      I'll demonstrate these new features on the roof of the academy, so
       you should come check it out.
     MessageTH: 'เย็นนี้ฉันจะสาธิตการใช้ฟังก์ชั่นใหม่ของ
 

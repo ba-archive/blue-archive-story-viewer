@@ -605,7 +605,8 @@ content:
     MessageKR: 잡지나 소설에는 많이 있지만, 도무지 현실성이 없어서-
     MessageJP: 雑誌や小説にはたくさん書いてあるのですが、どうにも現実味がなくて
     MessageCN: 虽然在杂志和小说里有很多描写，但我总觉得根本不现实
-    MessageEN: I read all about it in magazines and novels, but it doesn't seem realistic
+    MessageEN:
+      I read all about it in magazines and novels, but it doesn't seem realistic
       at all.
     MessageTH: 'ฉันเคยอ่านเจอในนิตยสารกับในนิยายมา
 

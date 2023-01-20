@@ -371,7 +371,8 @@ content:
     MessageKR: 눈을 감으면…… 저도 선생님과 처음 만난 그날이 떠오른답니다.
     MessageJP: 目を閉じると、先生と初めてお会いした日のことが鮮明に脳裏に浮かびます
     MessageCN: 一闭上眼睛，和老师初次见面那天的情景就会清晰地浮现在我的脑海里
-    MessageEN: When I close my eyes...I can see your face in that moment when we first
+    MessageEN:
+      When I close my eyes...I can see your face in that moment when we first
       met.
     MessageTH: 'พอหลับตาลง... ฉันก็จะนึกถึงวันที่ได้
 
@@ -1316,7 +1317,7 @@ content:
     MessageKR: 처음 만나는 사람이 저였으면 좋겠다고……
     MessageJP: 最初に目に入る相手がいつも、私だったらいいのに……
     MessageCN: 如果第一个见到的人总是我，就好了……
-    MessageEN: 'I''m the first person you see when you open your eyes. '
+    MessageEN: "I'm the first person you see when you open your eyes. "
     MessageTH: 'ถ้าคนแรกที่คุณครูเห็นคือฉันก็คงจะดี
 
       ไม่น้อยเลย... '

@@ -71,7 +71,8 @@ content:
     MessageKR: 최근에 터진 보안 문제 때문에 샬레의 서버를 잠깐 살펴보고 싶어서.
     MessageJP: ちょっとセキュリティ関連の問題で、シャーレのサーバーを調べたくって
     MessageCN: 我想检查一下夏莱的服务器上是否存在安全相关的问题
-    MessageEN: There was a security breach at Schale, so I'd like to take a look at
+    MessageEN:
+      There was a security breach at Schale, so I'd like to take a look at
       the servers.
     MessageTH: 'เมื่อไม่นานนี้เกิดปัญหาเรื่องความปลอดภัย
 
@@ -188,7 +189,8 @@ content:
     MessageKR: 모니터 아래에 비밀번호를 적은 메모지를 붙여 놨으니까 그걸 써도 돼.
     MessageJP: モニターの下にパスワードを書いたメモがあるから、それを見ても大丈夫だよ
     MessageCN: 那，显示器下面用便利贴贴着密码，看那个也行哦
-    MessageEN: I put a sticky note with the password on it at the bottom of the monitor.
+    MessageEN:
+      I put a sticky note with the password on it at the bottom of the monitor.
       Use that.
     MessageTH: 'ครูเขียนรหัสแปะไว้ที่ใต้หน้าจอแล้ว
 
@@ -281,7 +283,8 @@ content:
     MessageKR: 오늘 오후에 밀레니엄에 장비를 납품하는 기업에 계약을 제안하러 갈 예정이었거든.
     MessageJP: 今日の午後、とある企業のところに行くんだけど
     MessageCN: 今天下午，我想去拜访一家企业
-    MessageEN: I'm going to present a proposal to the company delivering equipment
+    MessageEN:
+      I'm going to present a proposal to the company delivering equipment
       to Millennium this afternoon.
     MessageTH: 'บ่ายนี้ฉันจะไปคุยเรื่องสัญญากับบริษัท
 
@@ -302,7 +305,8 @@ content:
     MessageKR: 그런데 사장이 워낙 완고한 사람이라, 이야기를 꺼내기 전에 미리 준비를 해 두고 싶어.
     MessageJP: 社長が結構頑固でね、あらためて準備しておこうと思って
     MessageCN: 但是那边的社长相当固执，我想再做一下准备
-    MessageEN: But the president is very stubborn, so I want to be prepared before
+    MessageEN:
+      But the president is very stubborn, so I want to be prepared before
       I bring it up.
     MessageTH: 'แต่ประธานของที่นั่นเป็นคนที่ดื้อมากๆ
 
@@ -379,7 +383,8 @@ content:
     MessageKR: 응. 작업 전에 미리 노드에 백도어를 설치하고 싶은데, 선생님이 옆에서 도와줬으면 좋겠어.
     MessageJP: うん。ちょっとバックドアを設置しておこうと思うんだけど、手伝ってほしくて
     MessageCN: 嗯。我想植入一个后门，但是希望老师能帮忙
-    MessageEN: Yeah. I want to install a back door on the node before I work. I'd
+    MessageEN:
+      Yeah. I want to install a back door on the node before I work. I'd
       like you to help.
     MessageTH: 'อื้อ ฉันคิดว่าจะติดตั้งแบ็กดอร์ลงบนโหนด
 
@@ -746,7 +751,8 @@ content:
     MessageKR: 베리타스의 부원들이 자꾸 멋대로 흥미 위주의 해킹을 시도해서 고민이야.
     MessageJP: 知ってるかもしれないけどうちのヴェリタスの子たち、すぐ興味本位でハッキングとかしがちで……
     MessageCN: 虽然老师可能早就有所耳闻，真理部的孩子们一直是出于兴趣就干出入侵行为……
-    MessageEN: I'm concerned that the younger Veritas members will keep hacking just
+    MessageEN:
+      I'm concerned that the younger Veritas members will keep hacking just
       for fun.
     MessageTH: 'ฉันกังวลนิดหน่อยว่าสมาชิกของเวอริทัส
 
@@ -809,7 +815,8 @@ content:
     MessageKR: 해커는 그런 이미지가 있는데. ……역시 편견인가?
     MessageJP: 結構ハッカーってそういうイメージがあったけど、やっぱりそれって偏見？
     MessageCN: 我对黑客还真有那样的印象，果然是我有偏见吗？
-    MessageEN: I thought that's what hackers were supposed to do... Or is that just
+    MessageEN:
+      I thought that's what hackers were supposed to do... Or is that just
       a stereotype?
     MessageTH: 'แฮ็กเกอร์ก็มีภาพลักษณ์แบบนั้น
 
@@ -830,7 +837,8 @@ content:
     MessageKR: 물론 요즈음은 <해커>라 하면 다들 그런 블랙 해커를 떠올리지만…….
     MessageJP: もちろん特に最近は、「ハッカー」っていうとみんな「ブラックハッカー」を思い浮かべるみたいだけど……
     MessageCN: 当然，尤其是最近一提到黑客，大家脑海中就浮现出类似“黑帽黑客”的形象……
-    MessageEN: These days, people only think of black hat hackers when they hear the
+    MessageEN:
+      These days, people only think of black hat hackers when they hear the
       word "hacker".
     MessageTH: 'แน่นอนว่าถ้าพูดถึง <แฮ็กเกอร์> ละก็
 
@@ -851,7 +859,8 @@ content:
     MessageKR: 원래의 해커는 지금의 화이트 해커에 가까운, 보안 전문가를 의미하는 말이었다고.
     MessageJP: 本来の「ハッカー」はほとんど今の「ホワイトハッカー」に近い、「セキュリティの専門家」を意味する言葉だったの
     MessageCN: 其实本来黑客的意思基本上和现在的“白帽黑客”差不多，就是“安全专家”的意思
-    MessageEN: '"Hacker" used to mean something like a security expert. AKA, a white
+    MessageEN:
+      '"Hacker" used to mean something like a security expert. AKA, a white
       hat hacker.'
     MessageTH: 'แต่ที่จริงแล้วแฮ็กเกอร์น่ะหมายถึงผู้
 

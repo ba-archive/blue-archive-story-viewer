@@ -234,8 +234,9 @@ content:
     MessageKR: 하아……. 하여간 시급이 꽤 센 아르바이트라, 기왕이면 하고 싶긴 한데.
     MessageJP: はあ……とにかく、時給が結構良さそうな巫女さんのバイトがあったから、やってみようかなって思ってて
     MessageCN: 唉……总之，毕竟巫女兼职的时薪相当高，我就想着要不要去试试看
-    MessageEN: '*sigh* ...Anyway, the hourly wage is quite high, so I''d like to do
-      this part-time job if possible.'
+    MessageEN:
+      "*sigh* ...Anyway, the hourly wage is quite high, so I'd like to do
+      this part-time job if possible."
     MessageTH: 'เฮ้อ... แต่ว่ามันเป็นงานพาร์ทไทม์
 
       ที่ค่าจ้างต่อชั่วโมงสูงมาก ถ้าเป็น
@@ -371,7 +372,8 @@ content:
     MessageKR: 응. 아르바이트 시작하면 만나러 갈게. 감주도 마시고 싶고.
     MessageJP: ううん。バイト始まったら会いに行くね、久しぶりに甘酒とか飲みたいし
     MessageCN: 没事。等芹香开始打工了我过去看看吧，好久没喝甜酒了
-    MessageEN: I'll come visit when you start your part-time job. I want to drink
+    MessageEN:
+      I'll come visit when you start your part-time job. I want to drink
       gamju as well.
     MessageTH: 'ถ้าเริ่มงานพาร์ทไทม์เมื่อไหร่
 
@@ -486,7 +488,8 @@ content:
     MessageKR: 아직 조금 익숙지 않은 부분이 있어서 걱정은 되지만…….
     MessageJP: まだ慣れてないから、色々不安なところもあるけど……
     MessageCN: 但是我还没完全习惯，所以有很多事情我还不太放心……
-    MessageEN: I'm a bit worried because there are some things I'm not used to yet,
+    MessageEN:
+      I'm a bit worried because there are some things I'm not used to yet,
       but...
     MessageTH: ถึงจะกังวลเพราะมีเรื่องที่ไม่คุ้นอยู่นิดหน่อยก็เถอะ...
     MessageTW: 雖然還有些不習慣，也有很多不安的地方……
@@ -619,7 +622,8 @@ content:
     MessageKR: 아앗, 도중에 보내버렸다?! 방금 건 없던 걸로! 못 본 걸로 해!
     MessageJP: ああもう途中で送っちゃった！今のは無し！見なかったことにして！
     MessageCN: 啊真是的，打字打到一半就发出去了！刚才的不算！你什么都没看到！
-    MessageEN: Oops! When did I send that?! Forget about what I just sent! Pretend
+    MessageEN:
+      Oops! When did I send that?! Forget about what I just sent! Pretend
       you didn't see it!
     MessageTH: 'อ๊ะ จู่ๆ ก็เผลอส่งไปอีกแล้ว!
 
@@ -934,7 +938,8 @@ content:
     MessageKR: 다음번에 비슷한 일이 있다면, 그때는 미리 연락해 주면 더 좋고.
     MessageJP: もしできれば連絡くれると、膝に負担がかからなくて助かるかもってくらいで
     MessageCN: 不过要是下次芹香遇到这种事能早点跟我说的话，我也可以帮芹香分担一点腿上的负担的
-    MessageEN: If something similar happens again, it'd be nice if you could let me
+    MessageEN:
+      If something similar happens again, it'd be nice if you could let me
       know in advance.
     MessageTH: 'ถ้าคราวหน้ามีเรื่องแบบนี้อีก
 

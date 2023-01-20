@@ -374,7 +374,8 @@ content:
     MessageKR: 죄송합니다 절대로 저를 기억해야 한다는 뜻은 아닙니다
     MessageJP: すみません、私のことを覚えてないんですかと言いたかったわけではなく
     MessageCN: 对不起老师，我不是想问您记不记得我
-    MessageEN: Sorry, I didn't mean you had to remember me or anything, but I was
+    MessageEN:
+      Sorry, I didn't mean you had to remember me or anything, but I was
       just asking if you did...
     MessageTH: 'ขอโทษด้วยค่ะ ฉันไม่ได้หมายความว่า
 
@@ -415,7 +416,8 @@ content:
       선생님께드리고픈것이있습니다'
     MessageJP: 覚えてなくても全然大丈夫なのですが、先生にお渡ししたいものがあります
     MessageCN: 就算老师不记得我也完全没有关系，我有件东西想交给老师
-    MessageEN: It's okay if you don't remember. I just have something that I really
+    MessageEN:
+      It's okay if you don't remember. I just have something that I really
       want to give you, so...
     MessageTH: 'คุณครูไม่ต้องจำฉันได้ก็ได้แต่ฉันมีของที่
 
@@ -438,7 +440,8 @@ content:
       언제든시간이여유로우실때'
     MessageJP: つまらない物ですが、今度時間のある時にでもぜひ
     MessageCN: 虽然只是个无聊的小玩意，但如果老师有时间的话请务必收下
-    MessageEN: It's honestly nothing special, so if you happen to have time today
+    MessageEN:
+      It's honestly nothing special, so if you happen to have time today
       or tomorrow, or whenever...
     MessageTH: 'ไม่ใช่ของสำคัญอะไรค่ะ ถ้าคุณครูมีเวลา
 
@@ -549,7 +552,8 @@ content:
     MessageKR: 죄송합니다죄송합니다죄송합니다죄송합니다죄송합ㄴ
     MessageJP: すみませんすみませんすみませんすみませんすみませｎ
     MessageCN: 对不起对不起对不起对不起对不q
-    MessageEN: Sorry. I'm so sorry. Really sorry. I really am sorry. Really. Very
+    MessageEN:
+      Sorry. I'm so sorry. Really sorry. I really am sorry. Really. Very
       sorry.
     MessageTH: 'ขอโทษค่ะขอโทษค่ะขอโทษค่ะขอโทษ
 
@@ -662,7 +666,8 @@ content:
       염치도없고뻔뻔하지만저는하루카입ㄴ'
     MessageJP: こんにちは先生、何度もすみません私ハルカでｓ
     MessageCN: 老师您好，非常抱歉再次叨扰，我是遥xiang
-    MessageEN: Hello, Sensei. I know I'm probably out of line, and shouldn't be asking
+    MessageEN:
+      Hello, Sensei. I know I'm probably out of line, and shouldn't be asking
       you for something like this, but... My name is Haruka, by the way...
     MessageTH: 'สวัสดีค่ะคุณครูขอโทษที่รบกวนแต่เช้า
 

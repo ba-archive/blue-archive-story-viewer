@@ -164,7 +164,7 @@ content:
     MessageJP: ……なに
     MessageCN: ……什么
     MessageEN: Weird...
-    MessageTH: ''';;'' คืออะไรน่ะ'
+    MessageTH: "';;' คืออะไรน่ะ"
     MessageTW: ……什麼
   - MessageGroupId: 100490060
     Id: 100490080
@@ -901,7 +901,8 @@ content:
     MessageKR: 선생님은 뭐 특별히 좋아하는 디저트라던가 있어? 지난번의 연장인데…….
     MessageJP: この前の続きだけど……すごく好きなスイーツとかある？
     MessageCN: 就是上次说到一半的事情……老师有没有特别喜欢的甜品？
-    MessageEN: Sensei, do you have a favorite dessert? I think we kinda talked about
+    MessageEN:
+      Sensei, do you have a favorite dessert? I think we kinda talked about
       this before.
     MessageTH: คุณครูมีของหวานที่ชอบเป็นพิเศษรึเปล่า? คือเมื่อคราวที่แล้ว...
     MessageTW: 接續之前的話題……有非常喜歡的甜點嗎？
@@ -1246,11 +1247,12 @@ content:
     MessageKR: 노파심에 다시 한번 말하니까 진짜 ‘처리’ 같은 거 아냐
     MessageJP: 本当に「処理」なんかじゃないからね
     MessageCN: 我真的不是想让老师帮我“处理”掉之类的
-    MessageEN: Again, I just want you to know that I wasn't trying to "get it over
+    MessageEN:
+      Again, I just want you to know that I wasn't trying to "get it over
       with."
-    MessageTH: 'ที่ฉันพูดซ้ำๆ ไปก็เพราะว่าเป็นห่วง
+    MessageTH: "ที่ฉันพูดซ้ำๆ ไปก็เพราะว่าเป็นห่วง
 
-      มันไม่ใช่การ ''จัดการ'' จริงๆ สักหน่อย'
+      มันไม่ใช่การ 'จัดการ' จริงๆ สักหน่อย"
     MessageTW: 真的不是要你「處理」什麼的
   - MessageGroupId: 100490480
     Id: 100490670

@@ -953,7 +953,8 @@ content:
     MessageKR: 사실 잘 모르겠어요. 챙김을 받는다는 느낌은 처음이라……
     MessageJP: あそこまで、何もかもを自分のためにしてもらうなんて……なんだか、不思議な感じがしてしまって
     MessageCN: 老师竟然为了我，做到这种程度……我总有种，很不可思议的感觉
-    MessageEN: Actually, I don't really know. This is the first time I feel like I'm
+    MessageEN:
+      Actually, I don't really know. This is the first time I feel like I'm
       the one being taken care of...
     MessageTH: ที่จริงฉันก็ไม่ค่อยเข้าใจเท่าไหร่หรอกค่ะ เป็นครั้งแรกที่ได้รู้สึกว่ามีคนเอาใจใส่แบบนี้...
     MessageTW: 竟然為了我著想到那種程度……總覺得有點不可思議
@@ -1008,8 +1009,8 @@ content:
     MessageKR: 기뻐요! ♪(´▽｀)
     MessageJP: 私、とっても幸せです！(´▽｀)♪
     MessageCN: 我，非常幸福！(´▽｀)♪
-    MessageEN: 'I''m happy! ♪
+    MessageEN: "I'm happy! ♪
 
-      (´▽｀)'
+      (´▽｀)"
     MessageTH: ว่าฉันมีความสุขค่ะ! ♪(´▽｀)
     MessageTW: 我，非常幸福！（´▽｀）♪

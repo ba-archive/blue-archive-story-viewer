@@ -731,7 +731,7 @@ content:
     MessageKR: 미안하다니, 내가 사과해야 할 일인데.
     MessageJP: そんなことはない、私の方こそごめん……
     MessageCN: 老师不用说对不起，是我要向老师道歉才对……
-    MessageEN: 'You don''t have to apologize. I''m the one who should be saying sorry. '
+    MessageEN: "You don't have to apologize. I'm the one who should be saying sorry. "
     MessageTH: 'จะขอโทษทำไมล่ะ ฉันต่างหากที่ต้อง
 
       ขอโทษ '
@@ -895,7 +895,8 @@ content:
     MessageKR: 최근 다른 마을에 자전거 샵이 생겼다고 하는데, 같이 가보지 않을래?
     MessageJP: 最近新しい自転車のショップができたみたいで、一緒に行かない？
     MessageCN: 好像最近新开了一家自行车店，老师要和我一起去看看吗？
-    MessageEN: I heard that a new bicycle shop has opened in the next town over. Do
+    MessageEN:
+      I heard that a new bicycle shop has opened in the next town over. Do
       you wanna go check it out with me?
     MessageTH: 'มีร้านจักรยานมาเปิดใหม่ในเมือง
 
@@ -1254,7 +1255,8 @@ content:
     MessageKR: 자주 실수하네. 선생님을 메신저 최상단에 즐겨찾기 해둬서 그런가 봐.
     MessageJP: お気に入り登録で、先生のチャットが一番上にあるせいかも
     MessageCN: 可能因为我给老师设置了特别关心，所以和老师聊天框是置顶的
-    MessageEN: I've done it again. I think it's because I bookmarked you at the top
+    MessageEN:
+      I've done it again. I think it's because I bookmarked you at the top
       of the messenger.
     MessageTH: 'ส่งผิดอยู่เรื่อยเลย เพราะฉันปักหมุดแชต
 
@@ -1293,7 +1295,8 @@ content:
     MessageKR: 선생님, 집에 가서 생각해봤는데 다른 학원을 터는 건 어떨까?
     MessageJP: 先生、家であらためて考えてみたんだけど、他の学園を襲うのはどう？
     MessageCN: 老师，我在家里重新考虑过了，袭击其他的学院怎么样？
-    MessageEN: Sensei, I've been thinking since I got home. What if I robbed another
+    MessageEN:
+      Sensei, I've been thinking since I got home. What if I robbed another
       academy?
     MessageTH: 'ฉันกลับบ้านไปลองคิดดูแล้วล่ะ ฉันว่าจะ
 
@@ -1332,7 +1335,7 @@ content:
     MessageKR: ……미안. 이상한 소리였어.
     MessageJP: ……ごめん、やっぱり今の無しで
     MessageCN: 抱歉，还是当我什么都没说吧
-    MessageEN: '...Sorry. I know that''s nonsense.'
+    MessageEN: "...Sorry. I know that's nonsense."
     MessageTH: ฉันพูดอะไรบ้าบอใช่ไหมล่ะ ขอโทษนะ
     MessageTW: ……抱歉，請當作沒看到
   - MessageGroupId: 100100420
@@ -1660,7 +1663,7 @@ content:
     MessageKR: 뭐랄까.
     MessageJP: その、何ていうか……
     MessageCN: 那个，该怎么说呢……
-    MessageEN: 'That''s... '
+    MessageEN: "That's... "
     MessageTH: 'เวลาที่มีผู้ใหญ่ '
     MessageTW: 那個，該怎麼說呢……
   - MessageGroupId: 100100520

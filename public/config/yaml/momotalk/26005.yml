@@ -275,7 +275,8 @@ content:
     MessageKR: 아무튼 좋아. 그럼 지금 시간은 된다 이거지? 방금 놀린 거에 대한 책임을 져주셔야겠어.
     MessageJP: ……とにかく、時間あるのよね？からかった罰でちゃんと付き合いなさい
     MessageCN: ……总之，老师有时间对吧？那就作为捉弄我的惩罚好好陪我吧
-    MessageEN: Anyway, so you can help me, right? If you do, I'll ignore the fact
+    MessageEN:
+      Anyway, so you can help me, right? If you do, I'll ignore the fact
       that you made fun of me just now.
     MessageTH: 'แต่เอาเถอะ สรุปว่าตอนนี้ไม่ได้ยุ่งอยู่
 
@@ -390,7 +391,8 @@ content:
     MessageKR: 미리 말해두지만 사실 거부권은 없다고
     MessageJP: 先に言っとくけど、拒否権はないから。付き合ってくれるわよね？
     MessageCN: 话说在前头，老师可没有拒绝的权利啊。所以说你会陪我的吧？
-    MessageEN: Let me just inform you right now that you have no choice but to say
+    MessageEN:
+      Let me just inform you right now that you have no choice but to say
       yes.
     MessageTH: อ้อ! คุณครูไม่มีสิทธิ์ปฏิเสธฉันนะ
     MessageTW: 先告訴你，你可沒有拒絕的權利。你會來陪我吧？
@@ -925,7 +927,8 @@ content:
     MessageKR: 그냥 오늘이 카페 밀피유 이번 달 신상 공개 날인데……
     MessageJP: ただ、今日は「カフェ・ミルフィーユ」の新作が出る日で……
     MessageCN: 但是，今天是“千层咖啡”推出新品的日子……
-    MessageEN: It's just that Cafe Mille-Feuille is supposed to unveil their newest
+    MessageEN:
+      It's just that Cafe Mille-Feuille is supposed to unveil their newest
       item today...
     MessageTH: 'ก็แค่วันนี้เป็นวันเปิดตัวสินค้าใหม่ประจำ
 
@@ -946,7 +949,8 @@ content:
     MessageKR: 공개 시간이 수업 중이라서 그랬어. 별 거 아냐. 신경 쓰지 마.
     MessageJP: 授業中にオープンしちゃうから……理由はただそれだけ。大したことじゃないから、気にしないで
     MessageCN: 这样我还在上课的时候新品就已经开卖了……理由就是这样。没什么大事，别往心里去
-    MessageEN: The reveal happens during class, but it's not a big deal. Don't worry
+    MessageEN:
+      The reveal happens during class, but it's not a big deal. Don't worry
       about it.
     MessageTH: 'เวลาเปิดตัวมันเป็นเวลาเรียนพอดีน่ะ...
 
@@ -1039,7 +1043,8 @@ content:
     MessageKR: 또 영문 모를 소릴…… 아무튼 알겠어.
     MessageJP: 文脈理解してる……？まあいいや、仕方ない。ちゃんと授業には出るわよ
     MessageCN: 你理解我的意思了……？算了，那也没办法。我会好好上课的
-    MessageEN: Don't worry about it, it's just my typical nonsense... Anyway, I got
+    MessageEN:
+      Don't worry about it, it's just my typical nonsense... Anyway, I got
       it.
     MessageTH: 'พูดอะไรไม่รู้เรื่องเลย... เอาเป็นว่า
 
@@ -1118,7 +1123,8 @@ content:
     MessageKR: 선생님은 어땠어? 괜찮았던 거 같아? 선샤인무스.
     MessageJP: 先生もああいうの、好き？
     MessageCN: 老师也喜欢吗？
-    MessageEN: What did you think, Sensei? Did you like it? The Sunshine Mousse, I
+    MessageEN:
+      What did you think, Sensei? Did you like it? The Sunshine Mousse, I
       mean.
     MessageTH: 'คุณครูว่าเป็นไงมั่ง? โอเครึเปล่า?
 

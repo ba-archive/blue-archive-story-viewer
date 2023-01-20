@@ -71,7 +71,8 @@ content:
     MessageKR: 음, 선생. 휴일에 대책위원회 동아리실로 와줄 수 있겠어?
     MessageJP: 先生、もし時間あったら次の休日、対策委員会の教室まで来てくれない？
     MessageCN: 老师，要是下个休息日有时间的话，可以来一趟对策委员会的教室吗？
-    MessageEN: Um, Sensei, can you come to the Foreclosure Task Force Room when you
+    MessageEN:
+      Um, Sensei, can you come to the Foreclosure Task Force Room when you
       have time?
     MessageTH: 'อืม... คุณครู วันหยุดนี้ช่วยมาที่ห้อง
 
@@ -110,7 +111,8 @@ content:
     MessageKR: 아 그리고, 고래는 물 속에서 숨을 참고 있는 거래. 알고 있었어?
     MessageJP: あと全然関係ないけど、鯨は水中で呼吸を我慢してるんだって、知ってた？
     MessageCN: 还有，虽然和帮忙没什么关系，老师知道鲸鱼在水里的时候其实一直在憋气吗？
-    MessageEN: Oh, also, I heard that whales hold their breath underwater. Did you
+    MessageEN:
+      Oh, also, I heard that whales hold their breath underwater. Did you
       know that?
     MessageTH: 'อ้อ! ได้ยินว่าปลาวาฬกลั้นหายใจตอน
 
@@ -373,7 +375,8 @@ content:
     MessageKR: 심해에 사는 물고기 중에는 빛을 만들어서 자기를 보호하는 녀석들도 있대.
     MessageJP: 深海に住んでる魚には、身体から光を放って身を守るのもいるんだって
     MessageCN: 听说深海里的鱼，会通过在身上发光来保护自己呢
-    MessageEN: Some fish that live in the deepest oceans create their own light to
+    MessageEN:
+      Some fish that live in the deepest oceans create their own light to
       protect themselves.
     MessageTH: 'ปลาบางสายพันธุ์ที่อยู่ใต้ทะเลลึก
 
@@ -394,8 +397,9 @@ content:
     MessageKR: 아, 그리고 오늘도 보물찾기 할 건데 올래?
     MessageJP: それはそれとして、今日も宝探しやるけど来る？
     MessageCN: 先不聊这个，我今天也要去寻宝，老师一起来怎么样？
-    MessageEN: 'Oh, I''m gonna do another treasure hunt today. Do you want to join
-      me? '
+    MessageEN:
+      "Oh, I'm gonna do another treasure hunt today. Do you want to join
+      me? "
     MessageTH: 'อ้อ! วันนี้ฉันจะออกไปล่าสมบัติด้วย
 
       ไปด้วยกันไหม? '
@@ -657,7 +661,7 @@ content:
     MessageKR: 선생도 새벽에 돌아다니면 안 돼.
     MessageJP: 先生もあんまり夜中に出かけたりしちゃダメだよ
     MessageCN: 老师要是大半夜在外面闲逛的话也不太好哦
-    MessageEN: 'You shouldn''t be up at this hour either, Sensei. '
+    MessageEN: "You shouldn't be up at this hour either, Sensei. "
     MessageTH: 'ครูก็อย่าไปไหนมาไหนจนดึกดื่นล่ะ '
     MessageTW: 老師也不能半夜出門唷
   - MessageGroupId: 100050190
@@ -819,7 +823,8 @@ content:
     MessageKR: 선생, 오늘 일은 모두에겐 비밀이야? 선생이라면 입이 무거운 건 알고 있지만.
     MessageJP: 先生、今日のことはみんなには秘密だよ？先生の口が堅いのは知ってるけど
     MessageCN: 老师，今天的事要对大家保密哦？虽然知道老师口风很紧啦
-    MessageEN: Sensei, can you please not tell anyone about today? I know you can
+    MessageEN:
+      Sensei, can you please not tell anyone about today? I know you can
       keep a secret.
     MessageTH: 'เรื่องวันนี้ต้องเก็บเป็นความลับนะ
 
@@ -968,7 +973,7 @@ content:
     MessageKR: 오, 그래. 아비도스에서 좀 멀지만
     MessageJP: そうしよっか～、アビドスからはちょっと遠いけど
     MessageCN: 那就这样定吧～虽然那边离阿比多斯有点远
-    MessageEN: 'Oh, sure. It''s a bit far from Abydos, '
+    MessageEN: "Oh, sure. It's a bit far from Abydos, "
     MessageTH: 'ดีเลย! ถึงจะอยู่ไกลจากอะบิดอสก็เถอะ.. '
     MessageTW: 就那樣吧～，雖然離阿拜多斯有點遠
   - MessageGroupId: 100050300
@@ -1078,7 +1083,8 @@ content:
     MessageKR: 근성으로 운을 잡아채는 거 잘 봤어, 선생. 이것이 바로 어른의 힘인가. 나도 배워야겠어. 음음.
     MessageJP: 幸運を根性で掴み取ろうとするなんて、さすが先生。おじさん驚きだよ
     MessageCN: 不愧是老师，居然想靠毅力抓住幸运。大叔我被震惊到了哦
-    MessageEN: I like the way you're determined to win. Is that part of being an adult?
+    MessageEN:
+      I like the way you're determined to win. Is that part of being an adult?
       I'd like to learn that myself. Hmm.
     MessageTH: 'ไม่อยากจะเชื่อเลยว่าครูจะคว้าโชคมา
 
@@ -1211,7 +1217,8 @@ content:
     MessageKR: ……아쿠아리움, 다음에 같이 가지 않을래? 표도 2장이고 하니…….
     MessageJP: ……えっと、あのアクアリウム、一緒に行かない？チケットも2枚だし……
     MessageCN: ……那个，上回的水族馆，要一起去吗？票也刚好有两张……
-    MessageEN: 'Hey, so, do you wanna come with me to the aquarium next time? I have
+    MessageEN:
+      'Hey, so, do you wanna come with me to the aquarium next time? I have
       two tickets... '
     MessageTH: 'ไว้คราวหน้าไปอควาเรียมด้วยกันไหม?
 

@@ -328,11 +328,11 @@ content:
     FeedbackTimeMillisec: 1000
     MessageType: Text
     ImagePath: ''
-    MessageKR: 그럼 다음에 또 뵙겠습니다!! 꼭이에요!! 
+    MessageKR: 그럼 다음에 또 뵙겠습니다!! 꼭이에요!!
     MessageJP: それではまた会いましょう！！絶対に！！
     MessageCN: 那就下次再会！一定！
-    MessageEN: I'll see you again soon! 
-    MessageTH: ถ้างั้น... ซียูว์นะคะ~! ไว้เจอกันใหม่น้า~! 
+    MessageEN: I'll see you again soon!
+    MessageTH: ถ้างั้น... ซียูว์นะคะ~! ไว้เจอกันใหม่น้า~!
     MessageTW: 那就再會囉！絕對要唷！
   - MessageGroupId: 160040080
     Id: 2117

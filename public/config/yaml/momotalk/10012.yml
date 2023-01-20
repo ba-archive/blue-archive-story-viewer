@@ -163,7 +163,8 @@ content:
     MessageKR: 가능하다면 오늘 확인받고 싶은데, 헬스장으로 와주실 수 있을까요?
     MessageJP: よろしければ確認をしていただきたくて、ジムまで来ていただけませんか？
     MessageCN: 如果教练方便的话，能来健身房确认一下吗?
-    MessageEN: If possible, I'd like you to check it out today. Can you come to the
+    MessageEN:
+      If possible, I'd like you to check it out today. Can you come to the
       gym?
     MessageTH: 'ถ้าเป็นไปได้ วันนี้ก็อยากให้เทรนเนอร์
 

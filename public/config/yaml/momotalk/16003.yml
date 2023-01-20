@@ -73,7 +73,8 @@ content:
     MessageKR: 안부 차 연락드렸습니다. 바쁘셨다면 죄송합니다.
     MessageJP: まずは挨拶だけでもと、ご連絡しました。お忙しいところすみません
     MessageCN: 我想着先打个招呼比较好，就给老师发了消息。很抱歉百忙之中打扰到您
-    MessageEN: I just wanted to see how you were doing. Sorry if you're in the middle
+    MessageEN:
+      I just wanted to see how you were doing. Sorry if you're in the middle
       of something.
     MessageTH: 'ฉันแค่มาทักทายเท่านั้นค่ะ ถ้าคุณครูยุ่ง
 
@@ -775,11 +776,11 @@ content:
     FeedbackTimeMillisec: 1000
     MessageType: Text
     ImagePath: ''
-    MessageKR: 그럼 제가 선정한 장소를 알려드리겠습니다. 
+    MessageKR: 그럼 제가 선정한 장소를 알려드리겠습니다.
     MessageJP: それでは、今回の場所は私が選んでも良いですか？
     MessageCN: 这样的话，这次的见面地点可以让我来选吗？
-    MessageEN: Let me give you the address. 
-    MessageTH: ฉันจะส่งพิกัดสถานที่ไปให้นะคะ 
+    MessageEN: Let me give you the address.
+    MessageTH: ฉันจะส่งพิกัดสถานที่ไปให้นะคะ
     MessageTW: 那麼，這次的地點由我來選可以嗎？
   - MessageGroupId: 160030240
     Id: 1781
@@ -922,7 +923,8 @@ content:
     MessageKR: 중요한 일은 아니고 그저 개인적인 용무인지라, 바쁘시다면 괜찮습니다.
     MessageJP: 大した用事ではないものの、もし大丈夫でしたら少々お時間をいただきたく……
     MessageCN: 虽然没什么要紧事，但是如果老师愿意的话，我想借用老师一点时间……
-    MessageEN: It's not anything important, just a personal issue. I understand if
+    MessageEN:
+      It's not anything important, just a personal issue. I understand if
       you're busy.
     MessageTH: 'ไม่ใช่งานสำคัญหรอกค่ะ แค่ธุระส่วนตัว
 

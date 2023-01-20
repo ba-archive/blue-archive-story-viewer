@@ -402,7 +402,8 @@ content:
     MessageKR: 자세한 내용이 궁금하다면 오늘 저녁 시간에 맞춰 게헨나의 학원 식당으로 찾아와.
     MessageJP: 詳しいことが知りたかったら、今夜ゲヘナの学食に来て！
     MessageCN: 如果老师想知道详情的话，今晚就到格黑娜学生食堂来吧！
-    MessageEN: If you wanna know the details, come to the Gehenna Academy dining hall
+    MessageEN:
+      If you wanna know the details, come to the Gehenna Academy dining hall
       at dinner today.
     MessageTH: 'ถ้าอยากรู้วิธีนี้ล่ะก็ เย็นนี้มาที่โรงอาหาร
 
@@ -459,7 +460,8 @@ content:
     MessageKR: 가짜 음식을 실험하느라 푸딩을 구입하지만 않았어도 오늘 저녁은 호화롭게 먹을 수 있었을 텐데…….
     MessageJP: あんな実験のために材料を買わなければ、贅沢な食事ができたのに……
     MessageCN: 要是当初不给这种实验准备材料，现在就可以吃一顿豪华大餐了……
-    MessageEN: If I hadn't bought that pudding to experiment with the fake food, I
+    MessageEN:
+      If I hadn't bought that pudding to experiment with the fake food, I
       could have had a really nice dinner tonight...
     MessageTH: 'ถ้าวันนี้ไม่ซื้อพุดดิ้งเพื่อทดลองอาหาร
 
@@ -518,7 +520,8 @@ content:
     MessageKR: 방금 인터넷에서 봤는데 오이에 꿀을 바르면 멜론 맛이 난대.
     MessageJP: ネットで見たんだけど、キュウリに蜂蜜を塗るとメロンの味がするらしいよ
     MessageCN: 我看到网上说，在黄瓜上涂蜂蜜，吃起来会有哈密瓜的味道
-    MessageEN: I saw on the Internet that if you put honey on cucumber, it tastes
+    MessageEN:
+      I saw on the Internet that if you put honey on cucumber, it tastes
       like melon.
     MessageTH: 'ครูเจอมาในเน็ตว่าหากเอาน้ำผึ้งทา
 
@@ -539,7 +542,8 @@ content:
     MessageKR: 또 인터넷 사기냐! 게다가 꿀은 멜론보다 더 비싸잖아!
     MessageJP: またネットの情報じゃん！それに蜂蜜って十分高いよ！
     MessageCN: 这不还是网上传的吗！而且蜂蜜就够贵的了！
-    MessageEN: Another internet fraud! Besides, honey is more expensive than the melon
+    MessageEN:
+      Another internet fraud! Besides, honey is more expensive than the melon
       itself!
     MessageTH: 'เพ้อเจ้อน่า! อีกอย่าง น้ำผึ้งน่ะแพงกว่า
 
@@ -784,7 +788,8 @@ content:
     MessageKR: 오늘 점심에는 미식연구회 부원들과 함께 케이크 뷔페에 갈 거야!
     MessageJP: 今日のお昼は、美食研究会でケーキバイキングに行くの！
     MessageCN: 今天中午，美食研究会要去吃蛋糕自助！
-    MessageEN: For lunch today, I'm going to a cake buffet with the other members
+    MessageEN:
+      For lunch today, I'm going to a cake buffet with the other members
       of the Gourmet Research Society!
     MessageTH: 'อาหารกลางวันของฉันและสมาชิกชมรม
 
@@ -1045,7 +1050,7 @@ content:
     MessageKR: 아카리의 뱃속은 도대체 어떻게 된 거지…….
     MessageJP: アカリのお腹、いったいどうなってるの……
     MessageCN: 明里的肚子到底变成什么样了啊……
-    MessageEN: 'What''s so special about Akari''s stomach? '
+    MessageEN: "What's so special about Akari's stomach? "
     MessageTH: 'หรือว่าอาคาริจะกระเพาะเหล็ก... '
     MessageTW: 亞伽里的肚子到底是怎麼回事……
   - MessageGroupId: 130070400
@@ -1063,7 +1068,8 @@ content:
     MessageKR: 선생님, 산해경 학원 근처에 있는 중화가의 소문 들었어?
     MessageJP: 先生、山海経の近くにある中華街の噂って聞いたことある？
     MessageCN: 老师听说过山海经附近的中华街吗？
-    MessageEN: Sensei, did you hear about the Chinese quarter near the Shanhaijing
+    MessageEN:
+      Sensei, did you hear about the Chinese quarter near the Shanhaijing
       Academy?
     MessageTH: 'คุณครู ได้ยินข่าวลือเกี่ยวกับไชน่าทาวน์
 
@@ -1084,7 +1090,8 @@ content:
     MessageKR: 거리가 중화 요릿집으로 가득 들어차 있는데, 모두 하나같이 맛집이래!
     MessageJP: 中華料理のお店でいっぱいで、どのお店もすごく美味しいんだって！
     MessageCN: 那条街上有好多中华料理店，而且每家店都特别好吃！
-    MessageEN: The streets there are full of Chinese restaurants, and they say that
+    MessageEN:
+      The streets there are full of Chinese restaurants, and they say that
       all of them are awesome!
     MessageTH: 'เห็นว่าที่นั่นมีร้านอาหารจีนฟิวชั่นเยอะ
 
@@ -1181,7 +1188,8 @@ content:
     MessageKR: 어찌 되었든 미식을 추구하는 미식연구회의 일원으로서 이 소식을 그냥 넘길 수는 없지.
     MessageJP: とにかく、美食研究会の一員として、これは行くしかないでしょ
     MessageCN: 总之，作为美食研究会的部员，这种地方我不得不去吧
-    MessageEN: Anyway, as a member of the Gourmet Research Society and master of gastronomy,
+    MessageEN:
+      Anyway, as a member of the Gourmet Research Society and master of gastronomy,
       I can't ignore this news.
     MessageTH: 'ในฐานะสมาชิกชมรมชิมอาหาร ฉันไม่
 
@@ -1202,7 +1210,8 @@ content:
     MessageKR: 그래서 말인데…… 이번 주말에 시간 괜찮으면 산해경 학원에 같이 가지 않을래?
     MessageJP: だから、えっと……今度の週末、もしよかったら一緒に行かない？
     MessageCN: 所以，那个……这周末，如果老师方便的话能和我一起去吗？
-    MessageEN: So, I was wondering... If you have time this weekend, would you like
+    MessageEN:
+      So, I was wondering... If you have time this weekend, would you like
       to go to Shanhaijing Academy with me?
     MessageTH: 'ถ้าคุณครูว่าง สุดสัปดาห์นี้เราไปที่โรง
 

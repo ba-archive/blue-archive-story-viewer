@@ -129,7 +129,8 @@ content:
     MessageKR: 중학교 때부터 입던 수영복이 있기는 하지만 더 입기에는 작아진 것 같아서요.
     MessageJP: はい、ぜひ先生にお願いできればと。その、実は、中学校の時まで着ていた水着はあるのですが、少しきつくなってしまいまして……
     MessageCN: 没关系的，请老师务必来。那个，其实，我虽然有中学时穿的泳装，但是现在已经有点穿不下了……
-    MessageEN: I still have my swimsuit from middle school, but I think it's too small
+    MessageEN:
+      I still have my swimsuit from middle school, but I think it's too small
       for me now.
     MessageTH: 'ฉันมีชุดว่ายน้ำที่ใช้ตอนอยู่ชั้นประถม
 
@@ -152,7 +153,8 @@ content:
     MessageKR: 모처럼 정의실현부에 들어왔으니 다른 부원, 선배 여러분께 부끄럽지 않을 멋진 수영복을 새로 갖고 싶습니다.
     MessageJP: せっかくなので正義実現委員会として、もっと相応しい水着が欲しいなと思っているんです
     MessageCN: 再加上好不容易成为了正义实现委员会的一员，所以我想选一件和委员会的气质更相符的泳装
-    MessageEN: I think I should get a new one that lives up to being a member of the
+    MessageEN:
+      I think I should get a new one that lives up to being a member of the
       Justice Task Force.
     MessageTH: 'อีกอย่างฉันเองก็เป็นสมาชิกของชมรม
 
@@ -461,7 +463,8 @@ content:
     MessageKR: 이번 훈련은 물 위에서 하는 훈련이니 열사병으로 쓰러지는 일은 없을 겁니다.
     MessageJP: 今回はただの水泳ですし、そこまでご心配いただかなくても大丈夫ですよ……？
     MessageCN: 这次我只是游泳而已，不必要担心到那种程度哦……？
-    MessageEN: I shouldn't get heatstroke this time since this training will be in
+    MessageEN:
+      I shouldn't get heatstroke this time since this training will be in
       the water.
     MessageTH: 'การฝึกครั้งนี้เป็นการฝึกในน้ำ คราวนี้
 
@@ -482,7 +485,8 @@ content:
     MessageKR: 다만 수영을 하기 전에 백사장 위에서 가벼운 준비운동을 할까 하는데…… 이 정도는 괜찮겠지요?
     MessageJP: 泳ぐ前に、浜辺で簡単な準備運動をするくらいで……
     MessageCN: 游泳之前在海边做的准备活动强度也不会很高……
-    MessageEN: I plan to do some warm-up exercises on the beach beforehand. That would
+    MessageEN:
+      I plan to do some warm-up exercises on the beach beforehand. That would
       be okay, right?
     MessageTH: 'แต่ว่าก่อนที่จะลงไปฝึกว่ายน้ำ จะต้อง
 

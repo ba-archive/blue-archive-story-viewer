@@ -413,7 +413,8 @@ content:
     MessageKR: 기껏해야 학생들이 총격전을 벌이거나 가게가 폭파되는 게 고작이잖아.
     MessageJP: 何かあったところで生徒たちの銃撃戦か、お店が爆破させられるくらいなのに……
     MessageCN: 就算发生了什么事，也顶多是学生之间的枪战，或者店铺被爆破之类的嘛……
-    MessageEN: All we have are occasional firefights between students and some store
+    MessageEN:
+      All we have are occasional firefights between students and some store
       explosions. That's it.
     MessageTH: 'อย่างมากก็แค่พวกเด็กนักเรียน
 
@@ -568,7 +569,8 @@ content:
     MessageKR: 경비국에서 내려온 첩보에 의하면 불법 무기 거래를 일삼는 지명수배자가 오늘 블랙마켓에 나타날지도 모른대!
     MessageJP: 警備局からの情報によると、不法な武器の取引に明け暮れる指名手配犯が、今日ブラックマーケットに現れるかもしれないんだって！
     MessageCN: 据警察局的消息，从事非法武器交易的通缉犯今天有可能会在黑市现身！
-    MessageEN: According to intelligence from the Security Bureau, a wanted fugitive
+    MessageEN:
+      According to intelligence from the Security Bureau, a wanted fugitive
       for illegal arms trade could show up at the Black Market today!
     MessageTH: 'สายข่าวหน่วยข่าวกรองสำนักความมั่นคง
 
@@ -591,7 +593,8 @@ content:
     MessageKR: 범죄자가 언제 지나갈지는 알 수 없으니까, 아무래도 근처에서 잠복근무를 해야 할 것 같아.
     MessageJP: 犯罪者がいつ通るかは分からないから、周辺で張り込みした方が良さそう
     MessageCN: 因为不知道犯人什么时候经过，看来要在黑市周边预先埋伏为妙
-    MessageEN: We don't know when the criminal will show up, so we'll have to work
+    MessageEN:
+      We don't know when the criminal will show up, so we'll have to work
       undercover nearby.
     MessageTH: 'ไม่รู้ว่าพวกอาชญากรจะโผล่มาเมื่อไร
 
@@ -936,7 +939,8 @@ content:
     MessageKR: 키리노처럼 일부러 일을 만드는 경우가 아니면 대부분은 앉아서 대기하는 게 보통이야.
     MessageJP: キリノは自分から仕事を作りに行くけど、基本は座って待機だよ
     MessageCN: 虽然桐乃会自己去找事情做，但我们基本上就是坐在位子上待命
-    MessageEN: Unless you deliberately cause trouble like Kirino, most of the time
+    MessageEN:
+      Unless you deliberately cause trouble like Kirino, most of the time
       we're on standby.
     MessageTH: 'ส่วนใหญ่ก็จะเตรียมรอออกปฏิบัติการ
 

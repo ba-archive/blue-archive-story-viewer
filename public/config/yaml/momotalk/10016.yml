@@ -163,7 +163,8 @@ content:
     MessageKR: 괜히 게임으로 열이 오른 탓에 선생님에게 엄청난 민폐를……
     MessageJP: つい熱くなってしまい、先生にご迷惑を……
     MessageCN: 不知不觉就沉迷进去了，给老师添麻烦了……
-    MessageEN: I'm just so obsessed with this game... I didn't realize I was putting
+    MessageEN:
+      I'm just so obsessed with this game... I didn't realize I was putting
       you through so much, Sensei...
     MessageTH: 'ความหลงใหลในเกมของฉัน ทำให้
 
@@ -466,7 +467,7 @@ content:
     MessageKR: 후우후우, 네, 지, 진정했어요!
     MessageJP: ……はい、深呼吸して落ち着きました！
     MessageCN: ……好的，深呼吸之后冷静下来了！
-    MessageEN: '*deep breath* Okay, I''m calm now!'
+    MessageEN: "*deep breath* Okay, I'm calm now!"
     MessageTH: ฟู่ววว ฟู่ววว ใจเย็นๆ  ใจเย็นแล้วค่ะ!
     MessageTW: ……好，深呼吸後冷靜下來了！
   - MessageGroupId: 100160160
