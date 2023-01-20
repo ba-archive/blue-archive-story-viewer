@@ -1,10 +1,11 @@
 CharacterId: 10053
+translator: 今天早睡了吗
 title:
   - GroupId: 1005302
     FavorScheduleId: 100532
     CharacterId: 10053
     TextJp: 朝のジョギング
-    TextCn: '晨跑'
+    TextCn: 晨跑
     TextKr: ''
     TextEn: ''
     TextTh: ''
@@ -13,7 +14,7 @@ title:
     FavorScheduleId: 100533
     CharacterId: 10053
     TextJp: 科学的な料理の秘訣
-    TextCn: '科学的料理秘诀'
+    TextCn: 科学的料理秘诀
     TextKr: ''
     TextEn: ''
     TextTh: ''
@@ -22,7 +23,7 @@ title:
     FavorScheduleId: 100535
     CharacterId: 10053
     TextJp: 理性的な応援文化
-    TextCn: '理性的应援文化'
+    TextCn: 理性的应援文化
     TextKr: ''
     TextEn: ''
     TextTh: ''
@@ -31,7 +32,7 @@ title:
     FavorScheduleId: 100536
     CharacterId: 10053
     TextJp: スポーツカード
-    TextCn: '体育集换卡'
+    TextCn: 体育集换卡
     TextKr: ''
     TextEn: ''
     TextTh: ''
@@ -69,7 +70,7 @@ content:
     ImagePath: ''
     MessageKR: 제출 기한이 거의 다 되었는데 아직 받지 못한 것 같아서요.
     MessageJP: そろそろ提出期限ですが、まだ受け取っていないので
-    MessageCN: 提交的截止期限就要到了，但还是没有收到账单
+    MessageCN: 提交账单的截止期限就要到了，但我还是没有收到
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -87,7 +88,7 @@ content:
     ImagePath: ''
     MessageKR: 지난번에 제출한 보고서의 뒷장에 있어.
     MessageJP: この前ユウカに渡した報告書のファイルにない？
-    MessageCN: 之前交给优香的报告书的附件里面没有吗？
+    MessageCN: 之前交给优香的报告书附件里面没有吗？
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -123,7 +124,7 @@ content:
     ImagePath: ''
     MessageKR: 요새 정신이 없어서 놓친 모양이에요. 죄송합니다.
     MessageJP: 最近バタバタしていて……失礼しました
-    MessageCN: 最近忙的不可开交……抱歉打扰了
+    MessageCN: 最近忙得不可开交……抱歉打扰了
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -159,7 +160,7 @@ content:
     ImagePath: ''
     MessageKR: 바쁘긴 하지만…… 어쩔 수 없어요.
     MessageJP: たしかに忙しくはありますが……今は仕方ありません
-    MessageCN: 确实是很忙……但是现在也没办法
+    MessageCN: 确实忙……但现在也没办法
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -177,7 +178,7 @@ content:
     ImagePath: ''
     MessageKR: 밀레니엄에서 주관하는 황륜대제가 얼마 남지 않았거든요.
     MessageJP: もうすぐミレニアム主催の[ruby=こうりんたいさい]晄輪大祭[/ruby]がありますからね
-    MessageCN: 因为我们千禧主办的晄轮大祭就快开始了不是吗
+    MessageCN: 毕竟我们千年主办的晄轮大祭就要开始了不是吗
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -195,7 +196,7 @@ content:
     ImagePath: ''
     MessageKR: 평상시 세미나의 업무에 더해 대회 준비도 함께 진행하려면 조금 무리를 해야 해서…….
     MessageJP: 通常のセミナーの仕事以外にも、ミレニアムとして晄輪大祭の準備も進めるとなると、休む暇もなくて……
-    MessageCN: 平时做完研讨会的工作，还要同时准备千禧的晄轮大祭，基本没什么时间休息……
+    MessageCN: 平时做完研讨会的工作，还要继续准备千年的晄轮大祭，基本没什么时间休息……
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -249,7 +250,7 @@ content:
     ImagePath: ''
     MessageKR: ……그렇게 말씀해 주시니 감사합니다.
     MessageJP: 先生とお話してたら、少し元気が出ました
-    MessageCN: 和老师聊了一会，感觉有点精神了
+    MessageCN: 和老师聊了一会，感觉我也有点精神了
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -321,7 +322,7 @@ content:
     ImagePath: ''
     MessageKR: 회장 밖에 노점상이 있겠지만, 실행위원 업무 중에 다녀올 시간은 없을 것 같아서……
     MessageJP: 近くに屋台が出店されるはずですが、当日は実行委員の仕事に追われて立ち寄る時間もなさそうですし……
-    MessageCN: 虽然会场附近应该就有小吃摊，不过当天也要忙着执行委员的工作，大概也去不了……
+    MessageCN: 虽然会场附近应该就有小吃摊，不过我当天也要忙执行委员的事情，大概也去不了……
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -411,7 +412,7 @@ content:
     ImagePath: ''
     MessageKR: 제대로 된 요리를 만들어 본 경험은 없지만……
     MessageJP: 料理らしい料理をしたことはないんですが……
-    MessageCN: 还没有做出过能算得上是饭的东西……
+    MessageCN: 我还没有做出过能算得上是饭的东西……
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -429,7 +430,7 @@ content:
     ImagePath: ''
     MessageKR: 그래도 이참에 한 번 연습해보려고요.
     MessageJP: これもいい機会ですし、練習してみようかなと
-    MessageCN: 不过这次也是个好机会，我想借此练习一下
+    MessageCN: 不过这次倒也是个好机会，我想借此练习一下
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -465,7 +466,7 @@ content:
     ImagePath: ''
     MessageKR: 밀레니엄에서도 야구부가 출전한다고 들었는데…
     MessageJP: ミレニアムからも野球部が出場するみたいですが……
-    MessageCN: 我们千禧的队伍好像会出一个棒球部……
+    MessageCN: 我们千年的队伍好像会有一个棒球部出场……
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -518,10 +519,10 @@ content:
     MessageType: Text
     ImagePath: ''
     MessageKR: 뭐, 그렇게 열성적인 팬이라고 하긴 어렵지만……
-    MessageJP: |-
-      まあ、人並みには
-      そこまで熱心に応援しているわけではありませんが……
-    MessageCN: 嗯，虽然也不会像狂热球迷那样应援……
+    MessageJP: 'まあ、人並みには
+
+      そこまで熱心に応援しているわけではありませんが……'
+    MessageCN: 嗯，虽然我也不会像狂热球迷那样应援……
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -539,7 +540,7 @@ content:
     ImagePath: ''
     MessageKR: 밀레니엄의 팀이 출전할 때는 가볍게 응원 정도는 한답니다.
     MessageJP: ミレニアムのチームが出場する時は、応援くらいしています
-    MessageCN: 但是千禧的队伍出场的时候，我还是会为她们加油的
+    MessageCN: 但是千年的队伍出场的时候，我还是会为她们加油的
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -557,7 +558,7 @@ content:
     ImagePath: ''
     MessageKR: 정신없었던 황륜대제도 무사히 다 끝났네요……
     MessageJP: 慌ただしかった[ruby=こうりんたいさい]晄輪大祭[/ruby]も、やっと終わりましたね……
-    MessageCN: 晄轮大祭里都忙的晕头转向的，不过好在终于结束了……
+    MessageCN: 晄轮大祭里都忙得晕头转向的，不过好在终于结束了……
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -611,7 +612,7 @@ content:
     ImagePath: ''
     MessageKR: 아녜요. 세미나의 임원으로서 당연히 해야 할 일이었는 걸요.
     MessageJP: ありがとうございます。ですが、セミナーの役員として当然のことですから
-    MessageCN: 谢谢。不过这种事情作为研讨会的干部是应当的
+    MessageCN: 谢谢。不过作为研讨会的干部，这种事情是我应当做的
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -628,10 +629,10 @@ content:
     MessageType: Text
     ImagePath: ''
     MessageKR: 그러고 보니 샬레에 협력을 요청 드린 안건들에 대해서도 한 번 정리를 해야 했는데……
-    MessageJP: |-
-      先生、そうでした
-      晄輪大祭で立て込んでいたので、シャーレに協力を要請した件の事務処理ができていませんでしたね
-    MessageCN: 对了老师，因为晄轮大赛的时候实在是太忙了，所以Schale请求我们协助的事情还没有处理……
+    MessageJP: '先生、そうでした
+
+      晄輪大祭で立て込んでいたので、シャーレに協力を要請した件の事務処理ができていませんでしたね'
+    MessageCN: 对了老师，因为晄轮大祭的时候实在是太忙了，所以夏莱请求我们协助的事情还没有处理……
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -649,7 +650,7 @@ content:
     ImagePath: ''
     MessageKR: 학원의 업무가 정리되면 샬레에 한 번 방문하겠습니다.
     MessageJP: 手持ちの業務を片付けたら、シャーレに伺いますね
-    MessageCN: 等手头的事情处理完了我马上就去Schale拜访您
+    MessageCN: 等手头的事情处理完了我马上就去夏莱拜访您
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -721,7 +722,7 @@ content:
     ImagePath: ''
     MessageKR: …어떠신가요?
     MessageJP: ど、どうでしょう？
-    MessageCN: 老，老师觉得怎么样？
+    MessageCN: 老、老师觉得怎么样？
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -739,7 +740,7 @@ content:
     ImagePath: ''
     MessageKR: 조금 문장이 딱딱해…
     MessageJP: もう少し可愛らしくても……
-    MessageCN: 可以更可爱一点……
+    MessageCN: 还可以更可爱一点……
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
