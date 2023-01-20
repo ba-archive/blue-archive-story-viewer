@@ -16,7 +16,7 @@ title:
     TextJp: 少女はそれでも諦めない
     TextCn: 即便如此少女也不想放弃
     TextKr: '소녀는 그래도 포기하지 않는다 '
-    TextEn: 'The Girl Still Doesn''t Give Up '
+    TextEn: "The Girl Still Doesn't Give Up "
     TextTh: 'ถึงยังไงก็จะไม่ยอมแพ้ '
     TextTw: '少女依然不放棄 '
   - GroupId: 2001705
@@ -244,7 +244,7 @@ content:
     MessageKR: '선생님? 어째서 답을 해주지 않는 거죠? '
     MessageJP: あれ、どうして答えてくれないのですか？
     MessageCN: 啊咧，为什么没有回复呢？
-    MessageEN: 'Sensei? Why aren''t you answering? '
+    MessageEN: "Sensei? Why aren't you answering? "
     MessageTH: คุณครูคะ? ทำไมถึงไม่ตอบฉันเลยล่ะคะ?
     MessageTW: 老師？怎麼會沒有回覆呢？
   - MessageGroupId: 200170070
@@ -320,7 +320,7 @@ content:
     MessageKR: '무료 와이파이라서 메시지 수신에 시간이 걸리는 걸지도 모르니까. '
     MessageJP: 無料のWi-Fiだとメッセージの受信に時間がかかってるのかも
     MessageCN: 免费的wifi可能要花点时间才能收到消息
-    MessageEN: 'My messages take forever to send because I''m using public Wi-Fi! '
+    MessageEN: "My messages take forever to send because I'm using public Wi-Fi! "
     MessageTH: 'ข้อความอาจดีเลย์นิดหน่อย
 
       เพราะใช้ WI-FI ฟรีก็ได้'
@@ -430,7 +430,8 @@ content:
     MessageKR: 상한 편의점 도시락에 핀 버섯 같은 제 인생에도 이런 일이 벌어지나 보네요.
     MessageJP: 傷んだコンビニ弁当から咲いた、キノコのような私の人生にも……こんなことが起きるんですね
     MessageCN: 像是坏掉的便利店便当里面长出的蘑菇一样的我的人生也……会发生这种事呢
-    MessageEN: I never thought a day like this would come. My life always feels like
+    MessageEN:
+      I never thought a day like this would come. My life always feels like
       a stale convenience store box lunch...
     MessageTH: 'ชีวิตที่เหมือนกับเห็ดราที่งอกออกมาจาก
 
@@ -509,7 +510,7 @@ content:
     MessageKR: '사진을 보낼게요. '
     MessageJP: 写真を送りますね
     MessageCN: 我把照片发过来哦
-    MessageEN: 'I''ll send you a picture. '
+    MessageEN: "I'll send you a picture. "
     MessageTH: 'ฉันจะส่งรูปไปให้ค่ะ '
     MessageTW: 我把照片傳給你。
   - MessageGroupId: 200170170
@@ -545,7 +546,8 @@ content:
     MessageKR: 왜 또 이러죠? 선생님?? 전송되지 않았습니다? 라니 무슨 소리인가요?
     MessageJP: 画像が送られてない……？あれ、どうして？
     MessageCN: 图片发不过去……？啊咧，为什么？
-    MessageEN: What's going on this time? It says, "Failed to send." What does that
+    MessageEN:
+      What's going on this time? It says, "Failed to send." What does that
       mean?
     MessageTH: 'ทำไมเป็นแบบนี้อีกแล้วล่ะ คุณครู?? รูปส่ง
 
@@ -624,8 +626,9 @@ content:
     MessageKR: '전송도 안되고 버벅이는 제 고물 휴대폰 네? 오, 오신다고요? 여길요? 지금요? '
     MessageJP: 私の人生みたいな、画像の送信もろくにできないこのスマホ……って、ええ！？く、来るんですか？
     MessageCN: 就像我的人生一样，连图片也没办法好好发出去的这个手机……诶、诶诶！？您要过来吗？
-    MessageEN: 'My phone sucks so bad that it can''t even send a picture. Huh? You''re
-      gonna come here? Now? '
+    MessageEN:
+      "My phone sucks so bad that it can't even send a picture. Huh? You're
+      gonna come here? Now? "
     MessageTH: 'โทรศัพท์เก่าๆ ที่ส่งข้อความไม่ไป
 
       สัญญาณก็ติดๆ ดับๆ... คะ? คุณครูจะมาเหรอ
@@ -685,8 +688,8 @@ content:
     MessageKR: '또 선생님한테 신세를 진 걸 알게 되면 모두에게 혼나버리기 때문에……. '
     MessageJP: また先生のお世話になったことをみんなに知られたら、怒られちゃうので……
     MessageCN: 要是被大家知道又被老师照顾了的话，会被发火的所以……
-    MessageEN: 'If the others find out I inconvenienced you again, they''re gonna
-      yell at me... '
+    MessageEN: "If the others find out I inconvenienced you again, they're gonna
+      yell at me... "
     MessageTH: 'ถ้าทุกคนรู้ว่าฉันรบกวนคุณครูอีก ทุกคนคง
 
       จะโกรธแน่ๆ... '
@@ -800,7 +803,7 @@ content:
     MessageKR: '학교에서 알려주지 않는 비밀 지식이라니, '
     MessageJP: 学校では絶対教えてくれないマル秘知識だなんて……
     MessageCN: 学校里绝对不会教的秘密小知识什么的……
-    MessageEN: 'Secret knowledge that schools don''t teach you... '
+    MessageEN: "Secret knowledge that schools don't teach you... "
     MessageTH: 'เคล็ดลับพิเศษที่ไม่มีสอนในโรงเรียนเหรอ '
     MessageTW: 學校不會教的秘密知識！
   - MessageGroupId: 200170280

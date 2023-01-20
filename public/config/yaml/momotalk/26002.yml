@@ -762,7 +762,7 @@ content:
     MessageKR: 요즘 이 소스에 빵을 찍어 먹는 게 유행이에요!
     MessageJP: あのソースにパンを浸けて食べるのが流行りなんですよ！
     MessageCN: 一定会流行用面包蘸上这种酱料的吃法的！
-    MessageEN: 'Everyone''s been dipping their breadsticks in this sauce! '
+    MessageEN: "Everyone's been dipping their breadsticks in this sauce! "
     MessageTH: 'ช่วงนี้ทุกคนฮิตการกินขนมปังจิ้มซอส
 
       กันนี่คะ! '
@@ -1256,7 +1256,7 @@ content:
     MessageKR: 부끄럽게도……
     MessageJP: お恥ずかしながら……
     MessageCN: 虽然有点难以启齿……
-    MessageEN: 'I''m a little embarrassed... '
+    MessageEN: "I'm a little embarrassed... "
     MessageTH: 'น่าอายจัง... '
     MessageTW: 說起來很羞恥……
   - MessageGroupId: 260020410

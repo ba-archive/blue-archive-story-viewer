@@ -190,7 +190,8 @@ content:
     MessageKR: 후후, 반응을 보니 오랫동안 기대했던 물건인가 보네.
     MessageJP: その反応、相当探してたんだね。なら良かった
     MessageCN: 看老师这个反应，想必是找了很久呢。真是太好了
-    MessageEN: Heehee! Based on your reaction, you must have really been looking forward
+    MessageEN:
+      Heehee! Based on your reaction, you must have really been looking forward
       to this.
     MessageTH: ดีใจขนาดนี้ คงจะอยากได้มากเลยสินะ
     MessageTW: 看這反應，想必是找很久了。那太好了
@@ -209,7 +210,8 @@ content:
     MessageKR: 오후에 시간 되면 우리 흥신소에 들러서 찾아가.
     MessageJP: 今日の午後にでも、もし時間があったら便利屋に寄って受け取っていって
     MessageCN: 如果老师今天下午有时间的话，就来便利屋这边取一下吧
-    MessageEN: If you have time this afternoon, stop by the Problem Solver office
+    MessageEN:
+      If you have time this afternoon, stop by the Problem Solver office
       to pick it up.
     MessageTH: 'ถ้ามีเวลาก็ไปรับของที่หน่วยรับจ้าง
 
@@ -338,7 +340,8 @@ content:
     MessageKR: 나도, 뭐…… 평범한 걸 좋아해서. 선생이랑 음악 취향은 비슷할 것 같아.
     MessageJP: 私は……まあ、普通のやつ。先生と結構好み近いかも
     MessageCN: 我嘛……啊，就普普通通的那种。应该和老师的喜好挺接近的
-    MessageEN: Well... I like normal stuff, so I think our tastes are probably the
+    MessageEN:
+      Well... I like normal stuff, so I think our tastes are probably the
       same.
     MessageTH: 'ฉันเองก็... อืม... ชอบเพลงฟังง่ายๆ
 
@@ -378,9 +381,9 @@ content:
     MessageJP: ブラック・デス・ポイズン、最高じゃない？
     MessageCN: 那张《黑色毒药》，是不是超棒的？
     MessageEN: How was it? Isn't Black Death Poison the best?
-    MessageTH: 'เพลงของวง ''พิษสีดำแห่งความตาย''
+    MessageTH: "เพลงของวง 'พิษสีดำแห่งความตาย'
 
-      เพราะสุดๆ ไปเลยใช่ไหมล่ะ?'
+      เพราะสุดๆ ไปเลยใช่ไหมล่ะ?"
     MessageTW: 黑．死．毒藥，是不是很棒？
   - MessageGroupId: 130050150
     Id: 1057
@@ -471,7 +474,8 @@ content:
     MessageKR: 사운드가 거칠어서 진짜 헤비메탈 팬들은 이쪽을 더 좋아하는 편이지.
     MessageJP: サウンドはますます激しくなってるから、こっちの方が好きって人は多くて
     MessageCN: 而且因为旋律给人一种越来越激烈的感觉，所以大部分人比较喜欢第二张专辑
-    MessageEN: but the sound is really heavy, so metal fans tend to prefer the second
+    MessageEN:
+      but the sound is really heavy, so metal fans tend to prefer the second
       album.
     MessageTH: 'แต่แฟนๆ เฮฟวี่เมทัลชอบดนตรีบีทหนักๆ
 
@@ -492,8 +496,9 @@ content:
     MessageKR: 블랙 데스 포이즌의 2집이 마음에 들었다면 이번에는 3집을 빌려줄게.
     MessageJP: もし気に入ったなら、今度3rdアルバムを貸してあげる
     MessageCN: 要是老师喜欢的话，下次我把他们出的第三张专辑借给老师听吧
-    MessageEN: 'If you liked Black Death Poison''s second album, I can lend you their
-      third. '
+    MessageEN:
+      "If you liked Black Death Poison's second album, I can lend you their
+      third. "
     MessageTH: 'ถ้าชอบอัลบั้ม 2 ล่ะก็ เดี๋ยวฉันจะให้ยืม
 
       อัลบั้ม 3 ไปฟังด้วย '
@@ -571,7 +576,8 @@ content:
     MessageKR: 트리니티에는 세상의 모든 책을 모아 놓은 거대한 도서관이 있다고 하는데……
     MessageJP: トリニティに世界中の全ての本を集めた巨大な図書館があるらしいけど……
     MessageCN: 虽然圣三一那边好像有一个集齐了全世界所有的书的巨大图书馆……
-    MessageEN: I've heard there's a massive library in Trinity that has every book
+    MessageEN:
+      I've heard there's a massive library in Trinity that has every book
       in the world...
     MessageTH: 'ได้ยินมาว่าในทรีนิตี้มีห้องสมุดใหญ่ที่รวม
 
@@ -612,11 +618,12 @@ content:
     MessageKR: 키보토스 상점가에 있는 <레코드 빌딩>은 어때?
     MessageJP: 商店街の「ザ・レコードビル」とかは？
     MessageCN: 商店街的“The Record Bill”呢？
-    MessageEN: What about the Record Building in Kivotos? The one in the shopping
+    MessageEN:
+      What about the Record Building in Kivotos? The one in the shopping
       district?
-    MessageTH: 'ลองไปร้าน ''เรคคอร์ดบิลดิ้ง'' ในย่าน
+    MessageTH: "ลองไปร้าน 'เรคคอร์ดบิลดิ้ง' ในย่าน
 
-      การค้าคิโวทอสดูสิ'
+      การค้าคิโวทอสดูสิ"
     MessageTW: 商店街的「The．Record Building」如何？
   - MessageGroupId: 130050240
     Id: 1069
@@ -633,7 +640,8 @@ content:
     MessageKR: 세상의 모든 음반이 있는 건 아니지만…… 레코드 빌딩 정도면 나쁘지 않지.
     MessageJP: あそこも世界中ってわけじゃないけど……品揃えは確かに悪くない
     MessageCN: 虽然那里不是全世界的专辑都有……但种类确实很齐全
-    MessageEN: I don't know if it has every album in the world, but I'm sure they've
+    MessageEN:
+      I don't know if it has every album in the world, but I'm sure they've
       got a lot.
     MessageTH: 'นี่นั่นดูไม่เลวเลย... แม้จะไม่มีซีดีเพลง
 

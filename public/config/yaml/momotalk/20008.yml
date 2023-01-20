@@ -122,7 +122,8 @@ content:
     MessageKR: 나중에 날짜와 장소에 대한 자세한 내용을 보내드리겠으니, 바쁘시더라도 조금만 시간을 내주시면 감사하겠습니다.
     MessageJP: 後ほど日時と場所の詳細をお送りいたしますので、お忙しいところ恐縮ですが、少々お時間頂戴できますと幸いです。
     MessageCN: ''
-    MessageEN: I'll provide you with the exact details regarding location and time
+    MessageEN:
+      I'll provide you with the exact details regarding location and time
       at a later time. I would really appreciate it if you could take some time out
       of your busy schedule.
     MessageTH: 'ฉันจะส่งรายละเอียดเรื่องสถานที่
@@ -200,7 +201,8 @@ content:
     MessageKR: 오늘 이야기와는 별로 관계없습니다만, 확인해보니 어젯밤 배전 관련 공사로 일시적인 정전이 있었다고 하네요.
     MessageJP: 今日のお話とはあまり関係無いのですが、どうやら確認したところ、昨晩配電関係の工事で一時的な停電があったらしいですね
     MessageCN: ''
-    MessageEN: It doesn't have much to do with what we were talking about , but when
+    MessageEN:
+      It doesn't have much to do with what we were talking about , but when
       I checked on the case, it turned out the power was cut due to electrical repairs
       last night.
     MessageTH: 'ถึงไม่ได้เกี่ยวกับเรื่องที่คุยกันวันนี้

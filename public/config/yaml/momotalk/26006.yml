@@ -274,7 +274,8 @@ content:
     MessageKR: 으으…… 아까 못 먹고 남긴 고급 스위츠가 신경 쓰여서 잠이 오질 않아요.
     MessageJP: うう、食べきれず残してしまったあの高級スイーツが、今も頭に残って眠れません……
     MessageCN: 呜呜，吃不下只能剩着的高级甜点，现在还浮在脑海里……根本睡不着……
-    MessageEN: Ah... I can't sleep because I can't stop thinking about those fancy
+    MessageEN:
+      Ah... I can't sleep because I can't stop thinking about those fancy
       sweets I didn't finish earlier.
     MessageTH: 'ฉะ... ฉันนอนไม่หลับเพราะกังวลเรื่อง
 
@@ -525,7 +526,8 @@ content:
     MessageKR: 네, 신문에서 봤는데, 이번 보름에 사자자리 유성우가 찾아온대요!
     MessageJP: はい、ニュースで見たんですが、今度の満月の日にしし座流星群が見られるみたいです！
     MessageCN: 是的，我在新闻上看到，这次满月的时候好像能看到狮子座流星雨！
-    MessageEN: Yeah, I read the newspaper and they said the Leo meteor shower will
+    MessageEN:
+      Yeah, I read the newspaper and they said the Leo meteor shower will
       happen on the next full moon!
     MessageTH: 'ใช่ค่ะ ฉันอ่านหนังสือพิมพ์มา
 
@@ -548,7 +550,8 @@ content:
     MessageKR: 게다가 이번 보름에 오는 사자자리 유성우는 붉은겨울 학원 자치구에서도 볼 수 있다고 하네요.
     MessageJP: その上、今回のしし座流星群は、レッドウィンターの自治区でも見られるそうで！
     MessageCN: 而且我听说，这次的狮子座流星雨在红冬自治区也能看到！
-    MessageEN: The best part is that we'll be able to see it from the Red Winter Academy
+    MessageEN:
+      The best part is that we'll be able to see it from the Red Winter Academy
       district.
     MessageTH: 'แล้วก็เขียนว่าฝนดาวตกลีโอนิดส์ที่จะ
 
@@ -817,7 +820,8 @@ content:
     MessageKR: 드물긴 하지만 비 내리는 흐린 날도 인기가 많긴 하죠.
     MessageJP: 晴れの日ほど多くはない印象ですが、雨も人気ありますよね
     MessageCN: 不过，虽然喜欢雨天的人可能主观印象上没有喜欢晴天的人多，其实雨天派也不在少数呢
-    MessageEN: It's definitely not as common, but a lot of people seem to like rainy
+    MessageEN:
+      It's definitely not as common, but a lot of people seem to like rainy
       days.
     MessageTH: 'ถึงบรรยากาศจะดูครึ้มๆ ไปบ้าง
 

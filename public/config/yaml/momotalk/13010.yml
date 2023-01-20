@@ -71,7 +71,7 @@ content:
     MessageKR: 안녕하세요, 선생님. 유우카입니다.
     MessageJP: こんにちは、先生。ユウカです
     MessageCN: 老师，您好。我是优香
-    MessageEN: 'Hello, Sensei. It''s Yuuka. '
+    MessageEN: "Hello, Sensei. It's Yuuka. "
     MessageTH: 'สวัสดีค่ะ คุณครู ฉันยูกะนะคะ '
     MessageTW: 你好，老師。我是優香
   - MessageGroupId: 130100011
@@ -219,7 +219,8 @@ content:
     MessageKR: 지난번 샬레 탈환 당시 사용했던 탄환의 경비 처리가 늦어지고 있어서요.
     MessageJP: 以前のシャーレ奪還作戦時の弾丸の経費について、振込が確認できておらず
     MessageCN: 之前执行夏莱夺回作战时消耗的子弹的经费，我们这边还没有收到汇款
-    MessageEN: Schale still hasn't been reimbursed for the mission to reclaim the
+    MessageEN:
+      Schale still hasn't been reimbursed for the mission to reclaim the
       club room.
     MessageTH: 'การยื่นบัญชีค่าใช้จ่ายเรื่องค่ากระสุนที่
 
@@ -564,7 +565,8 @@ content:
     MessageKR: 설마…… 청구서를 작성하기 귀찮아서 일부러 엉망으로 쓴 건 아니시겠죠?
     MessageJP: ……まさか、書類仕事が面倒だからって、雑にやってたりしませんよね？
     MessageCN: ……老师该不会，是觉得文书工作很麻烦，所以才随便应付一下的吧？
-    MessageEN: Wait... You didn't mess it up on purpose to get out of doing it, did
+    MessageEN:
+      Wait... You didn't mess it up on purpose to get out of doing it, did
       you?
     MessageTH: 'หรือว่า... คุณครูไม่อยากเขียนรายละ
 
@@ -743,7 +745,8 @@ content:
     MessageKR: 정말이지…… 트리니티나 게헨나 학원의 학생들은 도대체 비품 관리를 어떻게 하고 있는 건가요?
     MessageJP: まったく……トリニティやゲヘナはどうやって備品管理してるんでしょう？
     MessageCN: 真是的……圣三一和格黑娜到底是怎么做备品管理的？
-    MessageEN: Seriously... Why can't the Trinity and Gehenna students take care of
+    MessageEN:
+      Seriously... Why can't the Trinity and Gehenna students take care of
       their equipment?
     MessageTH: 'จริงๆ เลยเชียว ทั้งพวกเด็กนักเรียนโรง
 
@@ -978,7 +981,8 @@ content:
     MessageKR: 뭐, 학생들이 멋대로 개조해서 팔아 치우는 사제품만 제외한다면 말이죠…….
     MessageJP: まあ、生徒達が勝手に改造して売りさばいている私物を除けば、ですが……
     MessageCN: 那个，不算学生擅自改造然后出售的私人物品的话……
-    MessageEN: Well, except the for the private products that the students modify
+    MessageEN:
+      Well, except the for the private products that the students modify
       and sell themselves...
     MessageTH: 'ก็...ยกเว้นแต่ของที่พวกนักเรียนดัด
 
@@ -1017,7 +1021,8 @@ content:
     MessageKR: 아무리 감시하는 사람이 없다고는 하지만, 너무 자주 지각하시는 게 아닌가요?
     MessageJP: いくら先生に先生はいないからって、遅刻が多すぎませんか？
     MessageCN: 就算老师自己没有老师监督，迟到的次数是不是也有点多了？
-    MessageEN: I know there's no one watching, but don't you think this is a poor
+    MessageEN:
+      I know there's no one watching, but don't you think this is a poor
       example to set?
     MessageTH: 'ถึงไม่มีใครจับตาดูอยู่ก็จริง แต่คุณครูมา
 
@@ -1078,7 +1083,7 @@ content:
     MessageKR: 그렇다 하더라도 지각해도 괜찮은 건 아니라고요!
     MessageJP: それでも遅刻はいけません！
     MessageCN: 就算这样也不能迟到！
-    MessageEN: 'It''s not okay to be late, even if you had a lot of work! '
+    MessageEN: "It's not okay to be late, even if you had a lot of work! "
     MessageTH: 'ถึงอย่างนั้น แต่มาสายมันก็ไม่โอเค
 
       เลยนะคะ!'
@@ -1140,7 +1145,8 @@ content:
     MessageKR: 벌이에요! 내일부터 지각하시면 제가 시키는 명령을 한 가지 들어주셔야겠어요!
     MessageJP: 罰則を設けましょう。明日から遅刻一回につき、私の命令を1つ聞くこと！
     MessageCN: 我们来设置惩罚机制吧。从明天开始老师每迟到一次，就要听从我的一个命令！
-    MessageEN: No more excuses! If you're late again tomorrow, you'll have to follow
+    MessageEN:
+      No more excuses! If you're late again tomorrow, you'll have to follow
       my orders!
     MessageTH: 'นี่เป็นการลงโทษค่ะ! ถ้าพรุ่งนี้คุณครู
 
@@ -1375,7 +1381,8 @@ content:
     MessageKR: 어려운 적을 상대로 여러가지 공략법을 연구하는 건 수학 문제를 푸는 것만큼 즐겁거든요.
     MessageJP: 敵の攻略法を考えるのは、数学の問題を解くのと同じくらい楽しいですから
     MessageCN: 因为思考战胜敌人的策略，就和解数学题一样有趣
-    MessageEN: Composing different strategies against difficult enemies is just as
+    MessageEN:
+      Composing different strategies against difficult enemies is just as
       fun as solving math problems.
     MessageTH: 'การศึกษากลยุทธ์การโจมตีต่างๆ ที่ใช้
 

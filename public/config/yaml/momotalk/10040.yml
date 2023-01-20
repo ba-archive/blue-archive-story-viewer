@@ -389,7 +389,8 @@ content:
     MessageKR: 아무래도 오전에 봤던 책은…! 쿠노이치를 흉내 냈을 뿐인…. 인법과 관련 없는, 단순한 패러디 서적이었던 모양이에요!
     MessageJP: どうやらあの本、いわゆる「パロディ書籍」のようなものだったらしく……！
     MessageCN: 那本书，似乎就是所谓的“戏仿书籍”……！
-    MessageEN: I think the book we saw this morning was...just a parody book that
+    MessageEN:
+      I think the book we saw this morning was...just a parody book that
       mimics kunoichi and has nothing to do with ninjutsu!
     MessageTH: 'คือว่าหนังสือที่ดูเมื่อเช้านี้...! ดะ...ดูเหมือน
 
@@ -540,7 +541,7 @@ content:
     MessageKR: '선생님! 오늘도 닌자가 되기 위한 수련! '
     MessageJP: 先生、今日も修行がしたいのですが……
     MessageCN: 老师，我今天也想修行……
-    MessageEN: 'Sensei! About today''s ninja training! '
+    MessageEN: "Sensei! About today's ninja training! "
     MessageTH: คุณครูคะ! เรื่องการฝึกวิชานินจาวันนี้!
     MessageTW: 老師！今天也是為了成為忍者的訓練！
   - MessageGroupId: 100400240

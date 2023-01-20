@@ -187,7 +187,8 @@ content:
     MessageKR: 생각해보니 맛술로 끓여도 비슷하지 않았을까 하는 생각이 드네요.
     MessageJP: よく考えてみたら、料理酒でも良かったかもしれませんわね
     MessageCN: 仔细想想的话，也许用料理酒也不错呢
-    MessageEN: Come to think of it, I was wondering if I could use cooking wine to
+    MessageEN:
+      Come to think of it, I was wondering if I could use cooking wine to
       create a similar taste.
     MessageTH: 'มาคิดดูแล้ว ฉันว่าเอาไวน์มาต้มก็น่าจะ
 
@@ -444,7 +445,7 @@ content:
     MessageKR: 장소는 준비해두었으니,
     MessageJP: そこで、場所をセッティングしましたので
     MessageCN: 于是，我定好了一个地方
-    MessageEN: 'I''ve got a place ready, '
+    MessageEN: "I've got a place ready, "
     MessageTH: 'ส่วนสถานที่ก็กำหนดเอาไว้แล้ว '
     MessageTW: 於是，我安排了一個場所
   - MessageGroupId: 100020130
@@ -570,7 +571,7 @@ content:
     MessageKR: 방에서 똑같은 재료로 다시 먹었을 때는
     MessageJP: 先ほど、もう一度食べたくて作ってみたのですが、
     MessageCN: 刚才，我还想再尝一次拉面的美味，就重新泡了一杯
-    MessageEN: 'when I ate it again in my room, it wasn''t as good as before '
+    MessageEN: "when I ate it again in my room, it wasn't as good as before "
     MessageTH: 'ฉันลองชิมชาที่ใช้วัตถุดิบเดิมดูอีกครั้ง '
     MessageTW: 剛才因為想再吃一次，所以試著做做看
   - MessageGroupId: 100020170
@@ -736,7 +737,8 @@ content:
     MessageKR: 이번엔 몇 달 동안 벼르던 최고급 레스토랑에 갈 예정입니다.
     MessageJP: 今日はここ数か月狙っていた、最高級のレストランに行く予定なのです
     MessageCN: 今天我打算去那个已经看了好几个月的最高级餐厅
-    MessageEN: This time, I'm gonna finally hit that fancy restaurant I've been eyeing
+    MessageEN:
+      This time, I'm gonna finally hit that fancy restaurant I've been eyeing
       for months.
     MessageTH: 'ครั้งนี้ฉันจะไปร้านอาหารหรูที่ตั้งใจว่าจะ
 
@@ -757,7 +759,8 @@ content:
     MessageKR: 비록 혼자가는 것이지만, 음식을 비평할 때는 혼자일 때가 나을 때도 있는 법이죠.
     MessageJP: 今回は一人で行こうかと。料理の評価においてはその方が良い時もあるので
     MessageCN: 这次我想一个人去。因为在评价食物的时候，有时一个人反而更好
-    MessageEN: Sometimes it's better to be alone when critiquing food, so that's what
+    MessageEN:
+      Sometimes it's better to be alone when critiquing food, so that's what
       I'm doing.
     MessageTH: 'ถึงจะไปคนเดียวก็เถอะ แต่บางครั้งเวลา
 

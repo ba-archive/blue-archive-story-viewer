@@ -774,7 +774,8 @@ content:
     MessageKR: 해변가 중앙 노점상에서 파는 딸기바나나맛 타코야키일까?!
     MessageJP: 中央通りの屋台で売ってるって聞いた、「イチゴバナナ味のたこ焼き」かな！
     MessageCN: 听说在中央大街的小摊上卖的那个，“草莓香蕉味章鱼烧”！
-    MessageEN: The strawberry-banana flavored takoyaki sold in that one shop on Central
+    MessageEN:
+      The strawberry-banana flavored takoyaki sold in that one shop on Central
       Street!
     MessageTH: 'ต้องเป็นทาโกยากิกล้วยสตรอว์เบอร์รี่
 

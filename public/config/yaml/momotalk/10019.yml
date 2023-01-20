@@ -1403,7 +1403,8 @@ content:
     MessageKR: 체크를 위해서 내게 쓰기를 했는데, 실수로 비둘기에게 보낸 거니까.
     MessageJP: メモ用として自分宛てに送るはずが、間違えてハト宛てに送っていた
     MessageCN: 本来打算发给自己备忘，但错发给鸽子了
-    MessageEN: I wrote it out to check something, but I sent it to you by accident,
+    MessageEN:
+      I wrote it out to check something, but I sent it to you by accident,
       Pigeon.
     MessageTH: 'ฉันจะส่งให้ตัวเอง แต่ดันไปกดส่งให้
 

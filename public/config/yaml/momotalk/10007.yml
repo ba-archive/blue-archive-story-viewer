@@ -134,7 +134,8 @@ content:
     MessageKR: 여기서 나가려면 신원보증인이 필요하다고 하는데, 학생회에 연락하기는 좀 그래서.
     MessageJP: 身元保証人が必要みたいなんだけど、生徒会には連絡しづらくって……
     MessageCN: 我需要一个担保人，但是现在不太方便联系学生会……
-    MessageEN: They said I need a guarantor to get out of here, but I don't want to
+    MessageEN:
+      They said I need a guarantor to get out of here, but I don't want to
       contact the Student Council.
     MessageTH: 'พอดีว่าถ้าจะออกไปจากที่นี่ต้องมีคนมา
 
@@ -399,7 +400,8 @@ content:
     MessageKR: 아니, 남구 쪽에 볼일이 있어서 먼저 가볼게!
     MessageJP: や、南区の方に用事があるから、先に帰るね～
     MessageCN: 不是，我放学后要去南区办事，就先回去啦～
-    MessageEN: No, I mean, I have something to do in the south district, so I gotta
+    MessageEN:
+      No, I mean, I have something to do in the south district, so I gotta
       go!
     MessageTH: ไม่สิ มีธุระในเขตมินามิต่างหาก ไปก่อนนะ!
     MessageTW: 呀，南區那邊有事要辦，先回去囉～
@@ -436,7 +438,8 @@ content:
     MessageKR: 우으, 아쉬워라……. 사람들에게 BOOM의 매력을 전파할 좋은 기회였는데.
     MessageJP: もったいない……大勢の人にBOOMの魅力を伝えるチャンスだったのに
     MessageCN: 太可惜了……明明是向更多人宣传BOOM的魅力的好机会
-    MessageEN: Ugh, that's too bad... This was a great opportunity to share the charm
+    MessageEN:
+      Ugh, that's too bad... This was a great opportunity to share the charm
       of BOOM with people.
     MessageTH: 'เฮ้อ น่าเสียดายจัง นั่นคือโอกาสที่
 
@@ -757,7 +760,8 @@ content:
     MessageKR: 선생님에 기대에 부응할 수 있도록 다음 시험에서는 꼭 만점을 받아올게!
     MessageJP: 先生の期待に応えられるように、次のテストでは満点取ってくるね！
     MessageCN: 我会好好回应老师的期望的，下次考试一定要拿满分！
-    MessageEN: I'll definitely get a perfect score on my next test! I'll live up to
+    MessageEN:
+      I'll definitely get a perfect score on my next test! I'll live up to
       your expectations!
     MessageTH: 'แล้วฉันจะทำคะแนนเต็มในการสอบครั้ง
 
@@ -814,7 +818,8 @@ content:
     MessageKR: 노트 뒷면에 있는 쿨링 오프 기간에 대한 설명은 어느 시험에 나오는 거야?
     MessageJP: ノートの最後にあるクーリングオフの説明って、全科目のテストに出るの？
     MessageCN: 笔记最后那个关于“退换货规定”的说明，所有科目的考试都会考吗？
-    MessageEN: The explanation for the cooling-off period on the back of the notes...
+    MessageEN:
+      The explanation for the cooling-off period on the back of the notes...
       Which test is that for?
     MessageTH: 'คำอธิบายของช่วงเวลาคลายความตึง
 
@@ -875,7 +880,7 @@ content:
     MessageKR: 후후, 선생님이 저번에 가르쳐 준 특별 수업 덕분이야.
     MessageJP: ふふっ、先生がこの前勉強見てくれたおかげ！
     MessageCN: 呼呼，多亏了老师之前给我补课！
-    MessageEN: 'Hehe, I couldn''t have done it without your special lesson. '
+    MessageEN: "Hehe, I couldn't have done it without your special lesson. "
     MessageTH: 'เพราะคุณครูช่วยสอนฉันไว้เมื่อคราวที่
 
       แล้วยังไงล่ะ '
@@ -933,7 +938,8 @@ content:
     MessageKR: 그럼 시험공부를 하느라 수고한 마키를 위해 시내에서 아이스크림을 사줄게.
     MessageJP: じゃあ頑張ったマキのために、市内でアイスクリームを買ってあげようかな
     MessageCN: 那为了努力的真纪，我请你到市区吃冰淇淋吧
-    MessageEN: I'll take you into the city for some ice cream, since you worked so
+    MessageEN:
+      I'll take you into the city for some ice cream, since you worked so
       hard for the test.
     MessageTH: 'งั้นครูจะซื้อไอศกรีมจากในเมืองให้
 
@@ -1234,7 +1240,8 @@ content:
     MessageKR: 내가 그림을 너무 못 그려서 벽 주인이 싫어하지 않을까?
     MessageJP: 私の絵が下手すぎて、壁の持ち主が気に入らなかったらどうしよう……
     MessageCN: 我的画技太差了，墙壁的主人要是不喜欢的话要怎么办……
-    MessageEN: Do you think the owner of the wall will hate my art? It's not too sloppy,
+    MessageEN:
+      Do you think the owner of the wall will hate my art? It's not too sloppy,
       is it?
     MessageTH: 'แต่ครูวาดรูปไม่ได้เรื่องเลย เจ้าของ
 

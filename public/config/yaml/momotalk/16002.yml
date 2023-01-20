@@ -108,7 +108,7 @@ content:
     FeedbackTimeMillisec: 0
     MessageType: Text
     ImagePath: ''
-    MessageKR: '''무엇이든''?'
+    MessageKR: "'무엇이든'?"
     MessageJP: 何でも……？
     MessageCN: 什么都能问……？
     MessageEN: Anything...?

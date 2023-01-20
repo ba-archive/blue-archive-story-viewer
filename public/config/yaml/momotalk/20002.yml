@@ -223,7 +223,8 @@ content:
     MessageKR: 거울을 마주하기 어려울 정도의 안광이라니, 그것참 멋진 일이네.
     MessageJP: 鏡に向き合えないほどの輝きだなんて、素敵なことなのだ
     MessageCN: 无法直视镜子的光芒，很棒的呢
-    MessageEN: Wow, if you can't even look in the mirror, the glow must be pretty
+    MessageEN:
+      Wow, if you can't even look in the mirror, the glow must be pretty
       amazing.
     MessageTH: 'เป็นประกายจนส่องกระจกไม่ได้เลยเหรอ?
 
@@ -436,7 +437,7 @@ content:
     MessageKR: 나님이 이런 실수를 하다니…… 미안, 선생.
     MessageJP: ぼく様があんなミスをするなんて……ごめん、先生
     MessageCN: 咱居然犯了那样的错误……对不起，老师
-    MessageEN: 'I can''t believe I made such a mistake... Sorry, Sensei. '
+    MessageEN: "I can't believe I made such a mistake... Sorry, Sensei. "
     MessageTH: 'ทำพลาดแบบนี้ได้ยังไง ไม่สมกับเป็น
 
       ท่านซายะเลย... '
@@ -574,7 +575,7 @@ content:
     MessageKR: 지난번 일은 정말로 미안했던 것이다, 선생.
     MessageJP: この前はごめんなのだ、先生
     MessageCN: 上次十分抱歉的呢，老师
-    MessageEN: 'I''m so sorry about last time, Sensei. '
+    MessageEN: "I'm so sorry about last time, Sensei. "
     MessageTH: 'ขอโทษสำหรับเรื่องวันก่อนด้วยนะครู '
     MessageTW: 上次很抱歉，老師
   - MessageGroupId: 200020200
@@ -592,7 +593,8 @@ content:
     MessageKR: 사과의 의미로 맛있는 국수를 대접할 테니까, 현무상회 앞에서 기다려 줘!
     MessageJP: お詫びに美味しいラーメンを奢るから、玄武商会の前で待ってて！
     MessageCN: 作为道歉，咱请老师吃美味的拉面，老师在玄武商会前面等咱！
-    MessageEN: I'll buy you some delicious noodles to show you how sorry I am. Meet
+    MessageEN:
+      I'll buy you some delicious noodles to show you how sorry I am. Meet
       me at the Black Tortoise Promenade!
     MessageTH: 'ท่านซายะจะเลี้ยงก๋วยเตี๋ยวอร่อยๆ เพื่อ
 
@@ -653,7 +655,8 @@ content:
     MessageKR: 검증된 맛집이니, 선생도 맛을 보면 분명 그 국수가 좋아지게 될 거다!
     MessageJP: すっごく美味しいお店だから、先生も味わったらきっと気に入るはず！
     MessageCN: 这家店的拉面非～常好吃，老师尝了之后一定会喜欢的！
-    MessageEN: You're going to experience a whole new world of noodles when you get
+    MessageEN:
+      You're going to experience a whole new world of noodles when you get
       there!
     MessageTH: 'ร้านนี้ฉันไปชิมมาแล้ว รับรองเลยว่าจะ
 
@@ -714,7 +717,8 @@ content:
     MessageKR: 그나저나 그때 다이어트약을 건네받은 헬멧단은 어떻게 된 거야?
     MessageJP: うん、ぜひ。そういえば、あの薬を渡したヘルメット団は、どうなったの？
     MessageCN: 嗯，一定。话说回来，那个拿了药的钢盔团怎么样了？
-    MessageEN: I wonder where the Helmet Gang is? The people you gave the diet pills
+    MessageEN:
+      I wonder where the Helmet Gang is? The people you gave the diet pills
       to...
     MessageTH: 'จะว่าไป.. แก๊งหมวกกันน็อกที่รับ
 
@@ -829,7 +833,8 @@ content:
     MessageKR: 마음 같아서는 빨리 플레이해보고 싶은데, 2인용이라 같이 할 사람을 찾기가 어려워서 말이야.
     MessageJP: 遊んでみたいんだけど、2人用だから相手を探さないといけなくって
     MessageCN: 虽然我也想玩，但这个桌游至少要2个玩家，所以我只能找个陪我一起玩的人
-    MessageEN: I wanted to play it right away, but it's hard to find someone to play
+    MessageEN:
+      I wanted to play it right away, but it's hard to find someone to play
       with...
     MessageTH: 'ใจจริงก็อยากจะเล่นตอนนี้เลย แต่เกมนี้
 
@@ -1076,7 +1081,8 @@ content:
     MessageKR: 정신을 차리고 보니 나님의 눈앞에 거대한 치즈 덩어리가 있는 게 아닌가.
     MessageJP: 気が付いたらぼく様の目の前に、巨大なチーズの塊があって……
     MessageCN: 回过神的时候，咱发现眼前有一块巨大的奶酪……
-    MessageEN: 'And when I woke up, there was a huge chunk of cheese right in front
+    MessageEN:
+      'And when I woke up, there was a huge chunk of cheese right in front
       of me. '
     MessageTH: 'เพราะในฝันท่านซายะได้เจอกับชีสก้อน
 
@@ -1097,7 +1103,8 @@ content:
     MessageKR: 그렇게 치즈를 원 없이 먹은 건 꿈에서도 처음인 것이다.
     MessageJP: チーズをあんなに好きなだけ食べたのは、夢の中でも初めてだったのだ！
     MessageCN: 吃奶酪吃到爽的感觉，即使在梦中咱也是第一次体验到的呢！
-    MessageEN: I don't think I've ever had that much cheese before in my life. Even
+    MessageEN:
+      I don't think I've ever had that much cheese before in my life. Even
       in a dream!
     MessageTH: 'ไม่คิดเลยว่าจะได้กินชีสจนพุงกางที่ใน
 
@@ -1306,7 +1313,8 @@ content:
     MessageKR: 오늘의 일을 교훈 삼아 이제 심한 장난은 치지 않을 테니까…… 앞으로도 잘 부탁하는 것이다!
     MessageJP: もうこれからひどい悪戯はしないから……これからもよろしくなのだ！
     MessageCN: 以后咱不会再做过分的恶作剧了……老师今后也请多多关照的呢！
-    MessageEN: I'll take this lesson to heart...I promise not to play harsh jokes
+    MessageEN:
+      I'll take this lesson to heart...I promise not to play harsh jokes
       on you guys!
     MessageTH: 'ฉันจะจำเรื่องวันนี้ไว้เป็นบทเรียน แล้วจะ
 

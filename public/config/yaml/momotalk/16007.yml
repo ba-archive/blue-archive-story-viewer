@@ -120,7 +120,8 @@ content:
     MessageKR: 다름이 아니라 붉은겨울 사무국의 업무에 필요한 물건을 구입하기 위해 샬레 근처의 상점가를 방문하려 했는데……
     MessageJP: 実は事務局の備品補充のため、シャーレ付近にある商店街へ向かう予定なのですが……
     MessageCN: 其实，为了补充事务局的备用品，我打算去夏莱附近的商店街……
-    MessageEN: I have to visit the shopping district near Schale to buy things for
+    MessageEN:
+      I have to visit the shopping district near Schale to buy things for
       the Red Winter Office's work, but...
     MessageTH: 'คือว่าฉันกำลังจะไปซื้อของใช้ที่จำเป็น
 
@@ -143,7 +144,8 @@ content:
     MessageKR: 붉은겨울의 자치구를 벗어나는 건 오랜만이라, 부끄럽게도 이 근처의 길에는 익숙지가 않아서요.
     MessageJP: お恥ずかしながら学園を離れるのは久しぶりということもあり、特にシャーレ周辺の地理には疎く……
     MessageCN: 但说来惭愧，我好久没离开学园了，特别对夏莱周边的地理环境比较陌生……
-    MessageEN: It's been a while since I left the Red Winter district, and so I'm
+    MessageEN:
+      It's been a while since I left the Red Winter district, and so I'm
       embarrassed to admit I'm not used to the roads around here.
     MessageTH: 'คือว่าฉันไม่ได้ออกมาจากเขตเรดวินเทอร์
 
@@ -356,9 +358,11 @@ content:
     MessageKR: 붉은겨울 학원과 관련된 일이라면 제가 '어떻게든' 미룰 수 있으니까요.
     MessageJP: レッドウィンターに関することでしたら、私が大抵「何とか」できますので
     MessageCN: 和红冬相关的事情，我通常都能“想办法”处理的
-    MessageEN: If it's something related to Red Winter Academy, I can somehow put
+    MessageEN:
+      If it's something related to Red Winter Academy, I can somehow put
       it off.
-    MessageTH: "ถ้าเป็นเรื่องที่เกี่ยวข้องกับสหภาพเรดวินเทอร์\nไม่ว่ายังไงฉันก็สามารถ\
+    MessageTH:
+      "ถ้าเป็นเรื่องที่เกี่ยวข้องกับสหภาพเรดวินเทอร์\nไม่ว่ายังไงฉันก็สามารถ\
       \ \"เลื่อน\"\n ออกไปได้ค่ะ"
     MessageTW: 和赤冬有關的事，我通常都「可能」有辦法處理
   - MessageGroupId: 160070130
@@ -394,7 +398,8 @@ content:
     MessageKR: 최근 붉은겨울 학원 곳곳에 체리노 회장을 비방하는 선전물이 자주 보이는 것 같네요.
     MessageJP: この頃レッドウィンターのあちこちで、チェリノ会長を貶めるような宣伝物が見られるようになりました
     MessageCN: 这段时间在红冬各处都能看到贬低切里诺会长的宣传物
-    MessageEN: Recently, there seems to be a lot of propaganda slandering President
+    MessageEN:
+      Recently, there seems to be a lot of propaganda slandering President
       Cherino all over Red Winter Academy.
     MessageTH: 'เมื่อไม่นานมานี้ เหมือนว่าจะมีพวกสื่อ
 
@@ -475,7 +480,8 @@ content:
     MessageKR: 붉은겨울 학원의 순회 연설이란, 자치구의 곳곳을 순회하며 연설을 통해 체리노 회장님의 위대함을 널리 알리는— 일종의 행사랍니다.
     MessageJP: レッドウィンター連邦学園におけるあちこちの自治区を巡回し、演説を通じてチェリノ会長の偉大さをあらためて伝えるというイベントなんです
     MessageCN: 巡回演讲，就是在红冬联邦学园各个自治区进行巡回，通过演讲来再次宣传切里诺会长伟大之处的活动
-    MessageEN: The Red Winter Academy's speech tour is an event where President Cherino
+    MessageEN:
+      The Red Winter Academy's speech tour is an event where President Cherino
       spreads her greatness by touring different parts of the district and giving
       speeches.
     MessageTH: 'การกล่าวปราศรัยของสหภาพ
@@ -499,7 +505,8 @@ content:
     MessageKR: 다만 자치구가 넓은 탓에 학원 전역을 순회하려면 꽤 오랜 시간이 걸리지만요.
     MessageJP: ご存じの通り自治区がかなり広いせいで、全域に行こうとするとかなり時間はかかるのですが……
     MessageCN: 但如您所知，自治区相当广阔，想要到所有自治区进行演讲的话相当耗时……
-    MessageEN: However, it does take a while to tour the entire academy since the
+    MessageEN:
+      However, it does take a while to tour the entire academy since the
       district is so large.
     MessageTH: 'แต่ว่าเขตปกครองของเรามีขนาดใหญ่
 
@@ -578,7 +585,8 @@ content:
     MessageKR: 선생님께도 들려드리고 싶은 체리노 회장님의 멋진 에피소드가 아직 잔뜩 남아 있거든요!
     MessageJP: 先生にお聞かせしたい会長のエピソードは、まだまだ山ほど残っていますので！
     MessageCN: 我想讲给老师听的会长的故事，依然堆积如山！
-    MessageEN: I still have many wonderful stories about President Cherino I would
+    MessageEN:
+      I still have many wonderful stories about President Cherino I would
       love to share with you!
     MessageTH: 'ยังมีเรื่องที่ยอดเยี่ยมของท่านประธาน
 
@@ -989,7 +997,8 @@ content:
     MessageKR: <위대한 수염의 행적>은 체리노 회장님의 취향과 일상을 다룬 기록 영화로서……
     MessageJP: 『偉大なる髭の日常』とはチェリノ会長の趣味嗜好や日頃の習慣を描いた……
     MessageCN: 《伟大胡子的日常》是一部描述了切里诺会长兴趣爱好和日常习惯的……
-    MessageEN: The Achievements of the Great Mustache is a documentary film about
+    MessageEN:
+      The Achievements of the Great Mustache is a documentary film about
       the preferences and daily life of President Cherino...
     MessageTH: 'หนังเรื่อง <ผลงานของหนวดผู้ยิ่งใหญ่>
 
@@ -1032,7 +1041,8 @@ content:
     MessageKR: 자, 선생님. 위대한 체리노 회장님의 행적을 기록하기 위해 저와 함께해주세요!
     MessageJP: ということで、先生。共に会長の日常を記録するとしましょう！
     MessageCN: 所以说，老师。一起来记录会长的日常吧！
-    MessageEN: So come on, Sensei. Join me in documenting the achievements of the
+    MessageEN:
+      So come on, Sensei. Join me in documenting the achievements of the
       great President Cherino!
     MessageTH: 'คุณครูคะ มาบันทึกผลงานที่ยิ่งใหญ่
 

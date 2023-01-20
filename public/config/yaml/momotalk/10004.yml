@@ -62,7 +62,8 @@ content:
     MessageKR: 선생님. 급작스럽겠지만 당신과 논의할 일이 있어.
     MessageJP: 先生。急だけど話したいことがあるの
     MessageCN: 老师。虽然这么说很突然，但我有事想和您商量
-    MessageEN: Sensei, I know this is sudden, but I have an urgent matter to discuss
+    MessageEN:
+      Sensei, I know this is sudden, but I have an urgent matter to discuss
       with you.
     MessageTH: คุณครู ฉันมีเรื่องอยากคุยด้วยหน่อยน่ะ
     MessageTW: 老師。雖然有點突然，但我想和你談談
@@ -137,7 +138,8 @@ content:
     MessageKR: 응. 늦은 시간에 미안하지만…… 약속 장소는 내가 알려줄게.
     MessageJP: 遅い時間にごめん、じゃあ場所は……
     MessageCN: 把时间定在这么晚实在抱歉，那么见面地点在……
-    MessageEN: Yes. I'm sorry to impose on you at such an hour... I'll let you know
+    MessageEN:
+      Yes. I'm sorry to impose on you at such an hour... I'll let you know
       where we can meet.
     MessageTH: 'ใช่ ขอโทษที่ให้มาตอนดึกนะ..แล้วฉัน
 
@@ -360,7 +362,8 @@ content:
     MessageKR: 생각해봤는데, 너무 주변 시선을 신경 쓰는 것도 좋지 않을 것 같아.
     MessageJP: あの後も少し考えてみたけど、周りの視線を気にしすぎるのも良くないかも
     MessageCN: 我后来也想了一下，太过在意周围人的目光似乎也不好
-    MessageEN: I've been thinking that maybe I shouldn't worry so much about other
+    MessageEN:
+      I've been thinking that maybe I shouldn't worry so much about other
       people seeing us.
     MessageTH: 'มาคิดดูแล้ว ฉันว่าเราไม่ควรใส่ใจ
 
@@ -1169,7 +1172,7 @@ content:
     MessageKR: 하아…… 그런 건 됐고.
     MessageJP: 別に、天気が良くても何も変わらない
     MessageCN: 就算是好天气，工作也还是得做
-    MessageEN: '*sigh* That''s not what I wanted to discuss.'
+    MessageEN: "*sigh* That's not what I wanted to discuss."
     MessageTH: เฮ้อ... ใครเค้าสนอากาศกันล่ะ
     MessageTW: 沒差，天氣好也不會有什麼變化
   - MessageGroupId: 100040340
@@ -1349,7 +1352,8 @@ content:
     MessageKR: 며칠 전부터 철야 근무 중이라서 정신이 없어.
     MessageJP: ここ数日、徹夜でバタバタしっぱなし……ほんと面倒
     MessageCN: 我最近这几天一直在通宵工作，还是忙得团团转……真麻烦
-    MessageEN: I've been pulling all-nighters for the past few days, so I'm really
+    MessageEN:
+      I've been pulling all-nighters for the past few days, so I'm really
       out of it.
     MessageTH: 'ฉันทำงานโต้รุ่งมาหลายวันแล้ว ตอนนี้
 
@@ -1370,7 +1374,8 @@ content:
     MessageKR: 거기에 파견 임무까지 겹치고, 처리해야 하는 서류는 쌓여가고…….
     MessageJP: 遠出が必要な件も多くて、処理できてない書類は溜まっていく一方だし……
     MessageCN: 需要出远门处理的事情也很多，没处理完的文件也堆成山了……
-    MessageEN: On top of that, the dispatch reports and documents I have to process
+    MessageEN:
+      On top of that, the dispatch reports and documents I have to process
       are piling up...
     MessageTH: 'เอกสารที่ต้องจัดการก็มีเยอะเป็นตั้งๆ
 

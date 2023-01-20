@@ -80,7 +80,8 @@ content:
     MessageKR: 트리니티의 성당에 들르실 일이 있으시면 뭐든 말씀만 주세요. 제가 도와드리겠습니다.
     MessageJP: トリニティの聖堂に立ち寄ることがありましたら、何でも手伝いますのでお申し付けください
     MessageCN: 如果老师要来圣三一教堂的话请告诉我，无论什么忙我都会帮老师的
-    MessageEN: Let me know whenever you have business at the Trinity Cathedral. I'll
+    MessageEN:
+      Let me know whenever you have business at the Trinity Cathedral. I'll
       help you with anything.
     MessageTH: 'หากมีเรื่องต้องเข้ามาที่วิหารทรีนิตี้
 
@@ -944,11 +945,11 @@ content:
     MessageJP: 「何を」と言われましても、何のことだか分からず……
     MessageCN: 虽然她们说是“什么事”，但我也不清楚她们具体在说什么事情……
     MessageEN: What could they mean by "weird things"? No one will tell me.
-    MessageTH: 'ว่าแต่ว่า ''ทำบางอย่าง'' ที่ทุกคนคิด
+    MessageTH: "ว่าแต่ว่า 'ทำบางอย่าง' ที่ทุกคนคิด
 
       มันหมายยถึงอะไรงั้นเหรอคะ?
 
-      ไม่มีใครยอมบอกฉันเลยค่ะ...'
+      ไม่มีใครยอมบอกฉันเลยค่ะ..."
     MessageTW: ……他們說的「某些事」是什麼呢？大家都不肯告訴我……
   - MessageGroupId: 100360320
     Id: 100360490

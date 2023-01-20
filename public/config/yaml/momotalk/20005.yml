@@ -73,7 +73,8 @@ content:
     MessageKR: 오늘 방과 후에 시바타운에 있는 대형 쇼핑몰에 수영복을 사러 가려했거든요.
     MessageJP: 放課後、芝タウンのショッピングモールで水着を買おうかなって思ってまして……
     MessageCN: 我放学之后想去芝镇的购物中心买泳装……
-    MessageEN: I'm headed to the shopping center in Shiba Town after school to buy
+    MessageEN:
+      I'm headed to the shopping center in Shiba Town after school to buy
       a swimsuit.
     MessageTH: 'วันนี้หลังเลิกเรียน ฉันจะไปซื้อชุด
 
@@ -228,7 +229,8 @@ content:
     MessageKR: 그곳에 평범한 수영복을 입고 가는 건 총알 없이 전장에 나가는 것과 다름없어요!
     MessageJP: なのに、そんなところにスクール水着で行くなんて、普通の子にとっては銃弾を持たずに戦場に出るのと同じです！
     MessageCN: 所以，如果穿着学生泳装去海边，对普通的孩子来说就像上战场不带子弹一样！
-    MessageEN: Wearing a school swimsuit to the beach is like bringing a knife to
+    MessageEN:
+      Wearing a school swimsuit to the beach is like bringing a knife to
       a gunfight!
     MessageTH: 'เพราะงั้นการใส่ชุดว่ายน้ำธรรมดาไปก็
 
@@ -271,7 +273,8 @@ content:
     MessageKR: 선생님, 무이가하마 시장 근처에 알려지지 않은 예쁜 해변이 있대요.
     MessageJP: 先生、無為ヶ浜から少し離れた市場の近くに、あまり知られていない綺麗な海辺があるそうです！
     MessageCN: 老师，听说离在无为滨不远的市场附近，有一个没什么人知道的美丽海滩！
-    MessageEN: Sensei, I heard there's a beautiful beach near Muigahama marketplace
+    MessageEN:
+      Sensei, I heard there's a beautiful beach near Muigahama marketplace
       that's a hidden gem.
     MessageTH: 'คุณครูคะ ได้ยินว่าใกล้ๆ กับตลาด
 
@@ -480,7 +483,8 @@ content:
     MessageKR: 찢어진 수영복은 어쩔 수 없지만…… 여분의 수영복이 있으니 괜찮아요.
     MessageJP: 恐らく、何とかなるかなと……
     MessageCN: 应该，应该有办法吧……
-    MessageEN: I can't do much about the torn swimsuit, but I have an extra. It should
+    MessageEN:
+      I can't do much about the torn swimsuit, but I have an extra. It should
       be okay.
     MessageTH: 'เรื่องที่ชุดว่ายน้ำขาดคงจะทำอะไร
 

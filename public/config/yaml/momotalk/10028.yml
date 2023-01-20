@@ -725,7 +725,8 @@ content:
     MessageKR: 지난번에 있었던 일을 모두에게 말했더니 다들 바니걸은 토끼가 아니라고 가르쳐줬어
     MessageJP: この前ね、みんなと話してたら「バニーガール姿とウサギは違うんじゃない？」って言われて
     MessageCN: 前阵子和大家聊天，他们说“兔女郎和兔子还是不一样的吧？“
-    MessageEN: When I told everyone what happened last time, they told me bunny girls
+    MessageEN:
+      When I told everyone what happened last time, they told me bunny girls
       aren't rabbits.
     MessageTH: 'ฉันเล่าเรื่องคราวก่อนให้ทุกคนฟังแล้ว
 

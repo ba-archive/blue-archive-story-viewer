@@ -16,7 +16,7 @@ title:
     TextJp: 2時間目「科目：包容」
     TextCn: 第二节“科目：包容”
     TextKr: '강의명: 포용'
-    TextEn: 'Today''s Lecture: Embracing'
+    TextEn: "Today's Lecture: Embracing"
     TextTh: 'ชื่อวิชา: ความใจกว้าง'
     TextTw: 課程名稱：包容
   - GroupId: 1002905
@@ -89,7 +89,8 @@ content:
     MessageKR: 얽매이지 않고, 제약을 모르고 뜻하는 바로 살아가리!
     MessageJP: 何にも縛られず、制約など知ったことなく、思いのままに生きていく！
     MessageCN: 不受任何束缚，不受任何制约，随心所欲地活着！
-    MessageEN: Be unconstrained, be unaware of limitations, and live how you want
+    MessageEN:
+      Be unconstrained, be unaware of limitations, and live how you want
       to live!
     MessageTH: ใช้ชีวิตแบบไม่ถูกผูกมัด และไม่ถูกขีดเส้นกำหนด!
     MessageTW: 不受任何拘縛，不拘泥於制約，隨心所欲地生活！
@@ -310,7 +311,8 @@ content:
     MessageKR: 사람들은 서로를 이해하지 못하고, 각자의 사상은 서로에게 받아들여지지 않지.
     MessageJP: 自分と異なる思想を受け入れることは難しく、お互いを受け入れることがなかなかできない……
     MessageCN: 人们很难接受与自己不同的思想，也很难相互包容……
-    MessageEN: People don't understand each other, and they aren't accepting of each
+    MessageEN:
+      People don't understand each other, and they aren't accepting of each
       other's ideas.
     MessageTH: ผู้คนต่างไม่เข้าใจกัน และแต่ละคนก็ไม่ยอมรับความคิดของกันและกัน
     MessageTW: 難以接受與自己不同的思想，更別提互相包容……
@@ -329,7 +331,8 @@ content:
     MessageKR: 그것을 넘는다면, 분명 새로운 경지에 도달할 수 있을 것인데.
     MessageJP: そこを乗り越えれば、新しい場所にたどり着けるはずなのに
     MessageCN: 明明只要跨越这点距离，就能到达全新的境界了
-    MessageEN: If people can look beyond that, they will definitely be able to break
+    MessageEN:
+      If people can look beyond that, they will definitely be able to break
       new ground.
     MessageTH: ถ้าก้าวข้ามผ่านมาได้ ก็จะได้พบเจอกับสิ่งใหม่ๆ อย่างแน่นอน
     MessageTW: 如果能跨越這點，明明就能到達新的境界
@@ -530,7 +533,8 @@ content:
     MessageKR: 저번에도 그렇고, 선생님과 대화하고 나면 마음이 꽤 개운해지는 것 같아.
     MessageJP: この前もそうだったけど、何だか先生と話すとスッキリする
     MessageCN: 之前也是，不知道为什么，和老师聊完之后心情就会畅快很多
-    MessageEN: Just like last time, my heart feels lighter after talking with you,
+    MessageEN:
+      Just like last time, my heart feels lighter after talking with you,
       Sensei.
     MessageTH: 'ครั้งที่แล้วก็เหมือนกัน พอได้คุยกับคุณครูแล้ว
 
@@ -605,7 +609,8 @@ content:
     MessageKR: 오늘은 중대한 이벤트가 있어. 나 혼자서는 할 수 없는, 아주 중요한 일이지.
     MessageJP: 今日は重大イベントがあるよ、私ひとりだけじゃできない大きなイベントが
     MessageCN: 今天有一个重大事件哦，是我一个人没法完成的重大事件
-    MessageEN: There's a very important event today. Something so important that I
+    MessageEN:
+      There's a very important event today. Something so important that I
       can't do it on my own.
     MessageTH: 'วันนี้มีงานที่สำคัญมากเลย งาน
 
@@ -970,7 +975,8 @@ content:
     MessageKR: 앞으로도 종종 잘 부탁해. 일이 있을 때도…….
     MessageJP: これからも、何かあったらよろしくー
     MessageCN: 今后如果有什么事也请多多关照——
-    MessageEN: I look forward to more times like this. If there's something going
+    MessageEN:
+      I look forward to more times like this. If there's something going
       on...
     MessageTH: ต่อไปก็ขอรบกวนด้วยนะ ทั้งตอนที่มีเรื่อง...
     MessageTW: 今後也請多關照，有什麼事的話就拜託了──

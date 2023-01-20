@@ -125,7 +125,8 @@ content:
     MessageKR: 그게 꼭 시바견왕왕 감독의 26번째 작품! <아지랑이 혈투> 같아서…
     MessageJP: まるであの、柴犬ワン蔵監督の26作目！『かげろうの血闘』のように！
     MessageCN: 简直就和那个柴犬汪藏导演的第26部作品！那个《阳炎的血斗》里面一模一样！
-    MessageEN: It looked like a scene from Bloody Battle of the Haze, the twenty-sixth
+    MessageEN:
+      It looked like a scene from Bloody Battle of the Haze, the twenty-sixth
       film directed by Shiba Dog Wang Wang...
     MessageTH: 'เหมือนในหนังเรื่อง <การต่อสู้ที่ดุเดือด>
 
@@ -166,7 +167,7 @@ content:
     MessageKR: 잘은 모르겠지만, 이즈나가 즐거워 보여서 다행이네.
     MessageJP: よく分からないけど、イズナが楽しそうでよかった
     MessageCN: 虽然不太懂，但是泉奈开心就好
-    MessageEN: 'I''m not sure what that means, but I''m glad you enjoyed it. '
+    MessageEN: "I'm not sure what that means, but I'm glad you enjoyed it. "
     MessageTH: 'ถึงไม่ค่อยเข้าใจเท่าไร แต่ครูดีใจ
 
       ที่อิซุนะสนุกนะ '
@@ -242,7 +243,8 @@ content:
     MessageKR: 여름에, 그리고 바다에 적응한 닌자가 되기 위해, 수련 개시예요!
     MessageJP: 夏、そして海に適応した忍びになるため、修行開始です！
     MessageCN: 为了成为能适应夏天和大海的忍者，泉奈要开始修行了！
-    MessageEN: I need to train to be a ninja who's well adjusted to summer and the
+    MessageEN:
+      I need to train to be a ninja who's well adjusted to summer and the
       beach.
     MessageTH: 'การฝึกฝนเพื่อเป็นนินจาที่ปรับตัวเข้า
 

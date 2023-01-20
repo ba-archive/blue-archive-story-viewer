@@ -299,7 +299,8 @@ content:
     MessageKR: 이 가방은 모모프렌즈 런칭 초기에 발매한 귀중한 한정품이에요.
     MessageJP: あれ、まだモモフレンズが始まったばかりの頃に発売された限定品なんです
     MessageCN: 那个是momofriends刚刚发售的时候出的限定周边
-    MessageEN: This bag is a precious limited-edition item that was released during
+    MessageEN:
+      This bag is a precious limited-edition item that was released during
       the initial Momo Friends launch.
     MessageTH: 'กระเป๋าใบนี้วางขายรุ่นแรกๆ ตอนที่ MO
 
@@ -480,9 +481,9 @@ content:
 
       (o^－^o)'
     MessageCN: 谢谢！那我到时候等着老师！(o^－^o)
-    MessageEN: 'Then I''ll get there first and wait for you, Sensei!
+    MessageEN: "Then I'll get there first and wait for you, Sensei!
 
-      (o^－^o)'
+      (o^－^o)"
     MessageTH: 'ถ้างั้นฉันจะไปรอคุณครูที่นั่นแล้วกัน
 
       นะคะ! (o^－^o)'
@@ -640,7 +641,8 @@ content:
     MessageKR: 저…… 선생님께서 괜찮으시다면, 다음에 고민이 생겼을 때 또 이야기를 하러 와도 괜찮을까요?
     MessageJP: あの……もしまた悩んでしまった時には、お話を聞いてくれますか？
     MessageCN: 那个……要是以后我还有烦恼的话，老师还能再听我倾诉吗？
-    MessageEN: Um... If it's okay with you, can I come again the next time I have
+    MessageEN:
+      Um... If it's okay with you, can I come again the next time I have
       a problem?
     MessageTH: 'คือ... ถ้าคุณครูไม่ว่าอะไร ถ้าเกิดฉันมีเรื่อง
 

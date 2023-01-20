@@ -344,7 +344,7 @@ content:
     MessageKR: 오늘은 대책위원회 동아리실 대청소를 하는 날이에요!
     MessageJP: 今日は対策委員会の教室を、大掃除しようかと思います！
     MessageCN: 我今天想给对策委员会的教室来一次大扫除！
-    MessageEN: 'Today, we''re cleaning the Foreclosure Task Force Room! '
+    MessageEN: "Today, we're cleaning the Foreclosure Task Force Room! "
     MessageTH: 'วันนี้เป็นวันทำความสะอาดใหญ่
 
       ห้องคณะกรรมการแผนงานค่ะ! '
@@ -364,7 +364,8 @@ content:
     MessageKR: 선생님이 오셨을 때, 전보다 더 깔끔한 동아리 실이 기다리고 있을 거예요☆
     MessageJP: 先生がお越しになる頃には、前よりずっと綺麗になってるはずです☆
     MessageCN: 老师下次莅临的时候，教室一定会比现在更干净☆
-    MessageEN: The next time you come by, there will be a cleaner club room waiting
+    MessageEN:
+      The next time you come by, there will be a cleaner club room waiting
       for you! ☆
     MessageTH: 'ถ้าคุณครูมาก็จะเจอห้องที่สะอาดสะอ้าน
 
@@ -723,7 +724,8 @@ content:
     MessageKR: 응……. 지난번에 사간 오셀로 게임, 다 같이 했는데 저만 한 번도 못 이겼어요.
     MessageJP: この前オセロをみんなでやったのですが……私、一度も勝てなかったんです
     MessageCN: 我和大家一起玩了之前买回来的黑白棋……结果，一次都没赢过
-    MessageEN: Hmm... We played the reversi game I bought last time, but I was the
+    MessageEN:
+      Hmm... We played the reversi game I bought last time, but I was the
       only one who couldn't win.
     MessageTH: 'เกมโอเทลโล่ที่ซื้อมาคราวก่อนน่ะค่ะ...
 

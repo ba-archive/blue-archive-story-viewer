@@ -73,7 +73,8 @@ content:
     MessageKR: 선생님만 괜찮으시다면 피곤하신 몸을 돌봐 드리고 싶은데, 어떠신지요?
     MessageJP: 先生さえよろしければ、ぜひお疲れの身体を労わって差し上げたいのですが、いかがでございましょう？
     MessageCN: 如果老师不介意的话，请务必让我来照顾您疲惫的身体，您觉得怎么样呢？
-    MessageEN: As long as it's okay with you, I would like to take care of your tired
+    MessageEN:
+      As long as it's okay with you, I would like to take care of your tired
       body.
     MessageTH: 'ถ้าคุณครูไม่ว่าอะไร ฉันอยากจะ
 
@@ -228,7 +229,8 @@ content:
     MessageKR: 탕을 깨끗하게 청소하는 법부터, 목욕용품의 재고 정리까지…….
     MessageJP: お風呂を綺麗に掃除する方法から、様々な物品の在庫整理まで……
     MessageCN: 从把浴室打扫干净的方法，到各种物品的库存管理……
-    MessageEN: From how to clean the hot baths to how to organize the inventory of
+    MessageEN:
+      From how to clean the hot baths to how to organize the inventory of
       bath products...
     MessageTH: 'ตั้งแต่วิธีทำความสะอาดบ่อออนเซ็นให้
 
@@ -251,7 +253,8 @@ content:
     MessageKR: 하지만 접객에는 부족함이 많았던 탓에, 온천장을 찾아 주신 손님들께 여러모로 실례를 저지른 것 같아요.
     MessageJP: しかし特に接客では色々と至らずに、先生を始めとしてお客様方に失礼なことをしてしまった気がします
     MessageCN: 但是我在待客方面还做得不够好，总感觉自己好像对老师还有其他客人们做了不合礼节的事情
-    MessageEN: However, I lacked in the area of hospitality, so I think I may have
+    MessageEN:
+      However, I lacked in the area of hospitality, so I think I may have
       inconvenienced the guests.
     MessageTH: 'แต่ฉันยังบกพร่องเรื่องการต้อนรับลูกค้า
 
@@ -352,7 +355,8 @@ content:
     MessageKR: 매일 배급 식품만 먹어왔던 저로서는 상상도 하지 못할 세계였어요.
     MessageJP: ほぼ毎日配給品だけを食べてきた私としては、あまりにも未知の世界で……
     MessageCN: 对于几乎每天都在吃配给品的我来说，那实在是太过陌生的世界了……
-    MessageEN: As someone who ate rationed food everyday, it was a whole new unimaginable
+    MessageEN:
+      As someone who ate rationed food everyday, it was a whole new unimaginable
       world.
     MessageTH: 'ในฐานะที่เป็นคนที่กินอาหารชุดที่จัดมา
 
@@ -431,7 +435,8 @@ content:
     MessageKR: 온천장은 말 그대로 온천을 즐기기 위한 시설.
     MessageJP: 温泉郷は文字通り、温泉を中心としたもの
     MessageCN: 温泉乡，顾名思义，就是以温泉为中心的地方
-    MessageEN: A hot springs resort is literally an establishment for enjoying hot
+    MessageEN:
+      A hot springs resort is literally an establishment for enjoying hot
       springs.
     MessageTH: 'อุปกรณ์ที่จะช่วยให้เพลิดเพลินกับ
 
@@ -526,7 +531,8 @@ content:
     MessageKR: 궁극의 접객은 훌륭한 요리나 시설을 제공하는 것보다 종업원의 태도에 있다는 것을……
     MessageJP: 接客の真髄というのは、料理や施設ではなく……従業員の態度そのものであるということに！
     MessageCN: 接待客人的精髓，并不在于料理和设施……而是员工的态度！
-    MessageEN: Hospitality ultimately lies in the attitude of the staff, rather than
+    MessageEN:
+      Hospitality ultimately lies in the attitude of the staff, rather than
       the provision of fine cuisine or facilities...
     MessageTH: 'การบริการที่ดีของพนักงานเป็นสิ่ง
 
@@ -621,7 +627,8 @@ content:
     MessageKR: 저희가 갖고 있는 돈만으로는 비싼 요리나 시설을 준비할 수는 없으니까요…….
     MessageJP: 私たちのお金では、なかなか高い料理や豪勢な施設は用意できないので……
     MessageCN: 因为光靠我们手上的资金，还很难提供昂贵的料理和豪华的设施……
-    MessageEN: We can't prepare expensive dishes or offer great facilities with the
+    MessageEN:
+      We can't prepare expensive dishes or offer great facilities with the
       funds we have...
     MessageTH: แต่จากเงินที่เรามีอยู่ เราเลยเตรียมอุปกรณ์ หรืออาหารราคาแพงๆ ไม่ได้น่ะค่ะ...
     MessageTW: 因為光憑我們的資金，很難提供昂貴的料理和豪華的設施……
@@ -640,7 +647,8 @@ content:
     MessageKR: 여하튼 이번 기회에 온천장의 여주인다운 기품 있는 몸가짐을 갖출 수 있도록, 특별한 훈련을 하고자 합니다.
     MessageJP: とにかくまずはできることから！今回は温泉の女将らしく、気品のある所作を習得したいと思います
     MessageCN: 但总之我想先从能做到的事开始！这次我想学习真正的温泉乡的老板娘一样的，有气质的行为举止！
-    MessageEN: Anyway, I would like to take this opportunity to undertake special
+    MessageEN:
+      Anyway, I would like to take this opportunity to undertake special
       training to learn the ways of a dignified hot springs resort owner.
     MessageTH: 'แต่คราวนี้ฉันตั้งใจว่าจะไปฝึกพิเศษ
 
@@ -753,7 +761,8 @@ content:
     MessageKR: 다른 발도 다쳤으면 더 좋은 일이 생기지 않았을까 싶어서…….
     MessageJP: もしかしてもう片方の足も怪我したら、もっと良いことをしていただけたり……？
     MessageCN: 如果我另一只脚也受伤了的话，老师会不会为我做出更好的事情呢……？
-    MessageEN: I was thinking maybe something better would have happened if the other
+    MessageEN:
+      I was thinking maybe something better would have happened if the other
       foot was injured as well...
     MessageTH: 'ถ้าเกิดขาอีกหนึ่งข้างเจ็บขึ้นมาล่ะก็
 
@@ -812,7 +821,8 @@ content:
     MessageKR: 일상을 보내는 데 큰 불편은 없지만 통증이 약간 남아 있어서…….
     MessageJP: 日常生活に支障はありませんが、いつも通り歩こうとするには少し痛くて……
     MessageCN: 虽然对日常生活没有什么大碍，但如果和平常一样走路的话脚还是会有点痛……
-    MessageEN: It doesn't really bother me during my daily routine, but it's still
+    MessageEN:
+      It doesn't really bother me during my daily routine, but it's still
       a bit painful...
     MessageTH: ถึงจะไม่ได้เดินลำบากอะไรแล้ว แต่ว่าก็ยังมีเจ็บอยู่บ้าง...
     MessageTW: 雖然日常生活沒有大礙，但正常走路的話會有點痛……

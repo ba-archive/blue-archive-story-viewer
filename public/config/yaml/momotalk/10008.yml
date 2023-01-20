@@ -626,8 +626,9 @@ content:
     MessageKR: 하아. 요새 지각이랑 결석을 너무 많이 해서 출결이 아슬아슬하네.
     MessageJP: 最近遅刻と欠席のしすぎで、出席日数がギリギリでよぉ……
     MessageCN: 我最近迟到还有旷课次数太多了，出勤天数有点危险啊……
-    MessageEN: '*sigh* I''ve missed so much class lately, my attendance is basically
-      nonexistent.'
+    MessageEN:
+      "*sigh* I've missed so much class lately, my attendance is basically
+      nonexistent."
     MessageTH: 'เฮ้อ ช่วงหลังนี้ฉันทั้งเข้าสายและขาด
 
       เรียนบ่อย พอออกไปไหนก็หวาดเสียว
@@ -703,7 +704,7 @@ content:
     MessageKR: 그, 그런 정론 말고!
     MessageJP: そういう正論は今求めてねえ！
     MessageCN: 我不是来找你听这种正确的废话的！
-    MessageEN: 'Th-That''s easier said than done! '
+    MessageEN: "Th-That's easier said than done! "
     MessageTH: 'พะ... พูดน่ะมันง่าย! '
     MessageTW: 現在不是講正確言論的時候！
   - MessageGroupId: 100080220
@@ -829,7 +830,7 @@ content:
     MessageKR: 성실하게 다니면 되니까!
     MessageJP: 真面目にやればいいんだろ！
     MessageCN: 我认真做就是了！
-    MessageEN: 'I''ll just try harder! '
+    MessageEN: "I'll just try harder! "
     MessageTH: 'รู้แล้วว่าต้องขยัน! '
     MessageTW: 認真做就行了吧！
   - MessageGroupId: 100080260

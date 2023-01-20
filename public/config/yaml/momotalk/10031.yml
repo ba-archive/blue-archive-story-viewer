@@ -53,7 +53,8 @@ content:
     MessageKR: 올 한 해 저희 흥신소 68에 보내주신 귀하의 관심과 사랑에 진심으로 감사드립니다.
     MessageJP: 今年一年、私たち便利屋68への温かいご支援とご愛顧を賜り、誠にありがとうございました
     MessageCN: 十分感谢您在这一年中对我们便利屋68的热情支持与惠顾。
-    MessageEN: We sincerely thank you for your interest and love for Problem Solver
+    MessageEN:
+      We sincerely thank you for your interest and love for Problem Solver
       68 this year.
     MessageTH: 'ขอบคุณคุณครูมากๆ ที่สนใจ
 
@@ -418,7 +419,8 @@ content:
     MessageKR: 오늘 이렇게 연락한 건 마침 그 옷의 쓰임새가 생긴 걸 알려주려고……!
     MessageJP: ただ今日は、その着物の使い道ができたってことを教えようと思って……！
     MessageCN: 我今天只是，想告诉老师那件和服能够派上用场了……！
-    MessageEN: I contacted you today to let you know I found a way to put the outfit
+    MessageEN:
+      I contacted you today to let you know I found a way to put the outfit
       to good use!
     MessageTH: ที่ติดต่อมาวันนี้ก็เพื่อจะบอกว่ามีโอกาสเหมาะๆ ที่จะใช้ชุดนั้นแล้วน่ะ...!
     MessageTW: 今天只是想告訴你，那件和服有用處了……！
@@ -457,7 +459,8 @@ content:
     MessageKR: 딱히 사무실에 장식하려고 선생님을 부르려던 게 아니거든?!
     MessageJP: そのためだけに先生を呼ぶわけがないでしょう！？っていうか普通に、分かってて言ってるわよね！？
     MessageCN: 我不可能就为这件事把老师叫来吧！？而且以普遍常识来讲，老师这是明知故问吧！？
-    MessageEN: I'm not asking for your help just because I want to display it in the
+    MessageEN:
+      I'm not asking for your help just because I want to display it in the
       office!
     MessageTH: 'ฉันไม่ได้จะเรียกคุณครูมา
 
@@ -478,7 +481,8 @@ content:
     MessageKR: 뭐냐고! 쓰임새가 생겼다고 당당하게 외친 직후에 그런 처량한 전개……!
     MessageJP: 着もしないで飾るなんて悲しすぎるでしょう！
     MessageCN: 和服不用来穿而只拿来做装饰也太悲哀了吧！
-    MessageEN: Come on! What's with this sad development right after I proudly shouted
+    MessageEN:
+      Come on! What's with this sad development right after I proudly shouted
       that I have a good use for it!
     MessageTH: 'ทั้งที่ฉันบอกว่ามีโอกาสเหมาะๆ
 
@@ -521,7 +525,8 @@ content:
     MessageKR: 고급스러운 기모노가 어울리는, 매우 중요한 자리거든.
     MessageJP: それも着物が相応しい、かなり上品な席……
     MessageCN: 而且，还是与这件和服相配的高级场合……
-    MessageEN: It's a very important meeting where an elegant kimono would fit right
+    MessageEN:
+      It's a very important meeting where an elegant kimono would fit right
       in.
     MessageTH: 'งานสำคัญมากเหมาะกับ
 
@@ -542,7 +547,8 @@ content:
     MessageKR: 그래서 말이지만…… 어때, 선생님. 에스코트를 부탁하고 싶은데……. 같이 가지 않을래?
     MessageJP: だからその、先生にエスコートをお願いしようと思ったのだけど……どうかしら？
     MessageCN: 所以,那个，我想请老师做我的保镖……老师觉得怎么样？
-    MessageEN: On that note... What do you say, Sensei? I want to ask you to be my
+    MessageEN:
+      On that note... What do you say, Sensei? I want to ask you to be my
       escort. Would you like to go with me?
     MessageTH: 'เพราะงั้นคุณครูจะว่ายังไง
 
@@ -565,8 +571,9 @@ content:
     MessageKR: ……무, 물론 나 혼자서도 완전 괜찮지만? 응, 아무런 문제도 없긴 하지만 그래도……!
     MessageJP: も、もちろん私ひとりでも問題無いのだけれど！？
     MessageCN: 当、当然，我一个人去也完全没问题！？
-    MessageEN: '...O-Of course, I''m perfectly fine on my own. Yeah, no problem at
-      all, but still!'
+    MessageEN:
+      "...O-Of course, I'm perfectly fine on my own. Yeah, no problem at
+      all, but still!"
     MessageTH: 'นะ...แน่นอนว่าฉันไปคนเดียวก็ได้
 
       ไปคนเดียวได้สบายๆ ไม่มีปัญหาเลย!'
@@ -694,7 +701,8 @@ content:
     MessageKR: 아직 새해인데도 모처럼 선생님하고 새해다운 행사에 참가하질 못했잖아?
     MessageJP: せっかくのお正月なのに、先生とお正月らしいイベントにも行けてないでしょう？
     MessageCN: 但是好不容易过年了，老师也和我去参加一些有年味的活动如何？
-    MessageEN: It's still New Year's, but I haven't been able to participate in any
+    MessageEN:
+      It's still New Year's, but I haven't been able to participate in any
       events with you.
     MessageTH: 'ปีใหม่ทั้งที แต่ฉันยังไม่ได้
 
@@ -843,7 +851,8 @@ content:
     MessageKR: 그럼 이런 시기에만 존재하는 이벤트를 경험해 보는 것도 사업가로서 당연히 갖춰야 할 태도가 아닐까?
     MessageJP: となると、この時期にしか無いイベントをやっておくのも、事業家として為すべきことの一つだと思わない？
     MessageCN: 那么，老师不觉得，进行这个时期的特有活动，也是我作为实业家应该做的事情的一环吗？
-    MessageEN: As a business owner, it's natural to want to take advantage of events
+    MessageEN:
+      As a business owner, it's natural to want to take advantage of events
       that only happen during this time of year.
     MessageTH: ในฐานะนักธุรกิจ การออกไปสำรวจงานเทศกาลพิเศษแบบนี้ก็เป็นเรื่องที่ควรทำไม่ใช่รึไง?
     MessageTW: 這樣的話，你不覺得先舉辦只有這個時期才有的活動，也是身為企業家該做的事情之一嗎？

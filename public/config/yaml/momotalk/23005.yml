@@ -172,7 +172,7 @@ content:
     MessageKR: 상담이랄까, 의논이랄까…….
     MessageJP: ご相談と言いますか、聞いていただきたいことがあると言いますか……
     MessageCN: 我不知道是该说有事想找老师商量，还是该说有问题想咨询老师……
-    MessageEN: '...there''s something I need to discuss.'
+    MessageEN: "...there's something I need to discuss."
     MessageTH: จะเรียกว่าปรึกษา หรือขอคำแนะนำดีนะ...
     MessageTW: 該說是商量，還是說想詢問一些事呢……
   - MessageGroupId: 230050060
@@ -712,7 +712,7 @@ content:
     MessageKR: 네. 괜찮아요.
     MessageJP: はい、大丈夫です
     MessageCN: 嗯，我没事的
-    MessageEN: 'Yes, I''m fine. '
+    MessageEN: "Yes, I'm fine. "
     MessageTH: 'ค่ะ ไม่เป็นไรค่ะ '
     MessageTW: 是，沒事
   - MessageGroupId: 230050250

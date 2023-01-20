@@ -903,7 +903,8 @@ content:
     MessageKR: 그, 사실 별건 아닌데……. 아니, 오히려 별게 아니라서 더 부탁드리기 죄송하지만…….
     MessageJP: 大したことではないのですが……いえ、「大したことない」と言って頼むのも申し訳ないのですが……
     MessageCN: 也不是什么大事……不，嘴上说着“不是什么大事”却来拜托老师也不好意思……
-    MessageEN: It's not a big deal. In fact, I almost feel guilty asking because it's
+    MessageEN:
+      It's not a big deal. In fact, I almost feel guilty asking because it's
       so minor.
     MessageTH: 'ที่จริงๆ มันไม่ใช่เรื่องใหญ่อะไรหรอก...
 
@@ -1020,7 +1021,8 @@ content:
     MessageKR: 오실 때 제대로 반기지도 못한 주제에 가실 때 배웅조차 못하고 자버리다니…….
     MessageJP: 不躾な呼び出しをしておいて
     MessageCN: 用不礼貌的方式把老师叫过来
-    MessageEN: I didn't even get to greet you when you got here. And I can't believe
+    MessageEN:
+      I didn't even get to greet you when you got here. And I can't believe
       I fell asleep before you left.
     MessageTH: 'ตอนคุณครูมาก็ไม่ได้ต้อนรับให้ดี
 

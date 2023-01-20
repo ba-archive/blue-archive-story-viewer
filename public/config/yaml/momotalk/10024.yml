@@ -1132,7 +1132,7 @@ content:
     FeedbackTimeMillisec: 0
     MessageType: Text
     ImagePath: ''
-    MessageKR: '''도착했다''니?'
+    MessageKR: "'도착했다'니?"
     MessageJP: えっと、どこに着いたの？
     MessageCN: 那个，白子现在在哪？
     MessageEN: What do you mean you're here?

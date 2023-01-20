@@ -279,7 +279,8 @@ content:
     MessageKR: <메리 씨의 전화>는 어느 소녀가 메리라는 이름의 인형을 버리자, 그 인형이 소녀에게 직접 전화를 걸어온다는 내용의 괴담입니다.
     MessageJP: ある少女の元に、昔捨てたはずのメリーという人形から電話が来るんです
     MessageCN: 从前有个少女接到了她的洋娃娃玛丽的电话，但她明明已经把玛丽扔掉了
-    MessageEN: Mary's Calling is a scary story about a little girl with a doll named
+    MessageEN:
+      Mary's Calling is a scary story about a little girl with a doll named
       Mary. When the girl throws the doll away, the doll starts calling for her.
     MessageTH: '"โทรศัพท์ของแมรี่" เป็นเรื่องราวสยอง
 
@@ -301,11 +302,13 @@ content:
     FeedbackTimeMillisec: 1500
     MessageType: Text
     ImagePath: ''
-    MessageKR: 이 괴담의 무서운 포인트는 전화를 걸 때마다 메리의 위치가 점점 소녀에게 가까워지다가 마지막에는 등 뒤에서 인형이 나타난다는
+    MessageKR:
+      이 괴담의 무서운 포인트는 전화를 걸 때마다 메리의 위치가 점점 소녀에게 가까워지다가 마지막에는 등 뒤에서 인형이 나타난다는
       점이지요.
     MessageJP: 怖いのは、電話が来るたびにメリーさんが徐々に近づいてくるという……
     MessageCN: 更可怕的是，每次来电话的时候，玛丽都会逐渐靠近……
-    MessageEN: The scary part is that each time Mary calls the little girl, she gets
+    MessageEN:
+      The scary part is that each time Mary calls the little girl, she gets
       closer and closer to her. At the end, the doll appears right behind the little
       girl.
     MessageTH: 'ความน่ากลัวของเรื่องนี้ก็คือ ทุกครั้งที่
@@ -369,7 +372,8 @@ content:
     MessageKR: 이 전화를 역추적한다면 메리 씨는 어디서 전화를 걸고 있는 것으로 표시될까요?
     MessageJP: ……その電話を逆探知したら、メリーさんの居場所が分かりますね
     MessageCN: ……如果对那个电话进行逆向追踪的话，就能找到玛丽小姐在的地方了呢
-    MessageEN: If you could trace back her calls, I wonder if you would see where
+    MessageEN:
+      If you could trace back her calls, I wonder if you would see where
       Mary is calling from?
     MessageTH: 'ถ้าเกิดว่าเราแกะรอยโทรศัพท์นี้ไป มันจะ
 

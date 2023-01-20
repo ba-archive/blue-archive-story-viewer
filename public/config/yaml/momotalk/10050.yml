@@ -619,7 +619,7 @@ content:
     MessageKR: 아뇨. 역시 아니에요.
     MessageJP: いいえ、やっぱりいいです
     MessageCN: 不，果然还是算了
-    MessageEN: 'No, I don''t think so. '
+    MessageEN: "No, I don't think so. "
     MessageTH: 'ไม่ค่ะ ยังไงก็ไม่ดีกว่าค่ะ '
     MessageTW: 不，果然還是算了
   - MessageGroupId: 100500220

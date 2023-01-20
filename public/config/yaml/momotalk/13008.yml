@@ -143,8 +143,9 @@ content:
     MessageKR: 어차피? 한가하잖아? 그럼 나랑 알바 같이 하자!
     MessageJP: どうせ暇でしょ？だったら私と一緒にバイトして！
     MessageCN: 反正你很闲吧？那就跟我一起打工吧！
-    MessageEN: 'You don''t have a lot going on, right? So do some part-time work with
-      me! '
+    MessageEN:
+      "You don't have a lot going on, right? So do some part-time work with
+      me! "
     MessageTH: 'ไหนๆ  ก็ไม่อะไรทำอยู่แล้ว ไปทำงาน
 
       พิเศษกับฉันดีกว่า! '
@@ -238,7 +239,7 @@ content:
     MessageKR: 선생님. 이번에도 알바가 들어왔어. 거기서 볼까?
     MessageJP: 先生、また別のバイトが入ったから、前のところで待ち合わせね！
     MessageCN: 老师，我又接到新的兼职了。我们还在上次的地方碰头！
-    MessageEN: 'Sensei, I''ve got another part-time job. See you there? '
+    MessageEN: "Sensei, I've got another part-time job. See you there? "
     MessageTH: 'คุณครู ฉันมีงานเข้ามาล่ะ ไปเจอกันที่นั่น
 
       ไหม? '
@@ -370,7 +371,7 @@ content:
     MessageKR: 선생님은 허리 안 아파?
     MessageJP: 先生は大丈夫なの？
     MessageCN: 老师还好吗？
-    MessageEN: 'How''s your back, Sensei? '
+    MessageEN: "How's your back, Sensei? "
     MessageTH: 'คุณครูไม่ปวดเอวเหรอ? '
     MessageTW: 老師還好嗎？
   - MessageGroupId: 130080110
@@ -700,7 +701,8 @@ content:
     MessageKR: 아야네 쨩이 그러는데 요즘 대책위원회 앞으로 익명 기부가 들어온대.
     MessageJP: アヤネちゃんから聞いたんだけど、対策委員会に匿名の寄付が来たんだって
     MessageCN: 小绫音说对策委员会收到了一笔匿名捐款来着
-    MessageEN: 'Ayane said the Foreclosure Task Force has been receiving anonymous
+    MessageEN:
+      'Ayane said the Foreclosure Task Force has been receiving anonymous
       donations lately. '
     MessageTH: 'อายาเนะจังบอกว่ามีคนนิรนามมาบริจาค
 
@@ -721,7 +723,8 @@ content:
     MessageKR: 금액이 많은 건 아닌데 하루 알바 일당 정도의 돈이 가끔씩 들어오나 봐.
     MessageJP: 金額はそんなに多くないけど、バイト一日分くらいはある金額らしくって
     MessageCN: 金额虽然不多，但大概也相当于打一天工的钱了
-    MessageEN: It's not a lot, but it's about the amount you'd expect from a day of
+    MessageEN:
+      It's not a lot, but it's about the amount you'd expect from a day of
       part-time work.
     MessageTH: 'จำนวนเงินเท่าๆ กับค่าทำงานพิเศษวัน
 
@@ -798,7 +801,7 @@ content:
     MessageKR: 선생님. 이번엔 밤늦게까지 이어지는 야시장 보조야!
     MessageJP: 先生、今度は夜の市場でアルバイトだよ！
     MessageCN: 老师，这次我们是去夜市打工！
-    MessageEN: 'This time, Sensei, it''s an assistant position for the night market! '
+    MessageEN: "This time, Sensei, it's an assistant position for the night market! "
     MessageTH: 'คุณครู ครั้งนี้เราต้องทำงานในตลาดโต้รุ่ง
 
       และต้องทำยาวถึงดึกเลยด้วย! '
@@ -930,8 +933,9 @@ content:
     MessageKR: 오늘 알바비 절반을 먹는데 써버렸지만……. 뭐, 가끔은 이런 것도 괜찮지 않겠어? 후후.
     MessageJP: 結局バイト代半分近く使っちゃったけど、たまにはこういうのも良いよね？
     MessageCN: 虽然最后花掉了将近一半的工资，但偶尔这样也挺好的对吧？
-    MessageEN: 'I spent half of my pay on food today... Well, I think it''s okay to
-      do that every once in a while. Heehee. '
+    MessageEN:
+      "I spent half of my pay on food today... Well, I think it's okay to
+      do that every once in a while. Heehee. "
     MessageTH: 'เงินค่าจ้างวันนี้ครึ่งหนึ่งหมดไปกับของกิน
 
       แล้ว... แต่นานๆ ทีได้สนุกแบบนี้ก็ไม่เป็น

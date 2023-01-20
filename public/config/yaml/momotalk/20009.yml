@@ -80,7 +80,8 @@ content:
     MessageKR: 초인적인 체력을 가진 이 몸조차도 계속되는 격무로 인해 피로가 쌓이는 게 느껴질 정도야.
     MessageJP: 体力にも優れたこのおいらでさえ、度重なる激務で疲労が溜まってるぐらいだ
     MessageCN: 即使是体力优异的咱，也因为处理源源不断的繁重工作积累了不少疲劳
-    MessageEN: Even I, someone with superhuman stamina, can feel fatigue building
+    MessageEN:
+      Even I, someone with superhuman stamina, can feel fatigue building
       up from the never-ending heavy workload.
     MessageTH: 'แม้แต่ตัวเราที่มีพละกำลังเป็นเลิศดี
 
@@ -103,7 +104,8 @@ content:
     MessageKR: 그래서 이번 주말에는 업무에서 벗어나 모처럼 겨울 휴가를 즐기기로 했다네!
     MessageJP: そこで今週末は、仕事を忘れて冬休みを楽しむことにした！
     MessageCN: 所以说这周末，咱要把工作抛到脑后，好好享受寒假！
-    MessageEN: That's why I decided to take a break from work this weekend and enjoy
+    MessageEN:
+      That's why I decided to take a break from work this weekend and enjoy
       my much-awaited winter vacation!
     MessageTH: เพราะงั้นวันหยุดสุดสัปดาห์นี้ เราเลยตัดสินใจจะพักจากภาระงาน และไปสนุกกับวันหยุดพักผ่อนฤดูหนาวของเรา!
     MessageTW: 因此這個週末，我決定忘記工作，享受寒假！
@@ -122,7 +124,8 @@ content:
     MessageKR: 호화로운 휴양지에서 푹 쉬고 나면 컨디션을 완전히 회복할 수 있겠지.
     MessageJP: リゾート地でゆっくり休めば、その後の仕事の効率も良くなるはず
     MessageCN: 在度假村好好休息之后，工作的效率应该也会提升
-    MessageEN: I should be fully recovered after a good rest at a luxurious vacation
+    MessageEN:
+      I should be fully recovered after a good rest at a luxurious vacation
       spot.
     MessageTH: หลังจากได้พักผ่อนอย่างเต็มที่ในรีสอร์ทสุดหรู ร่างกายก็คงจะฟื้นฟูกลับมามีเอเนอจี้เหมือนเดิม
     MessageTW: 在渡假勝地好好休息的話，之後的工作效率也會更好吧
@@ -197,7 +200,8 @@ content:
     MessageKR: 사무국에서 자는 짧은 낮잠으로는 피로를 완전히 씻어낼 수 없는 법!
     MessageJP: 普段の昼寝はあくまで応急措置のようなもので、それとは別に根本的な疲れは溜まっていくからな
     MessageCN: 平时的午睡充其量只能作为应急措施，根本性的疲劳依然会不断累积的啊
-    MessageEN: The short naps I take at the Secretariat do not completely alleviate
+    MessageEN:
+      The short naps I take at the Secretariat do not completely alleviate
       my fatigue!
     MessageTH: 'การพักงีบที่สำนักเลขาธิการไม่ได้ช่วยให้
 
@@ -218,7 +222,8 @@ content:
     MessageKR: 그런 의미에서 이번에는 휴가를 제대로 즐길 수 있도록, 호화로운 온천장을 통째로 대절했다네.
     MessageJP: というわけで休暇を堪能すべく、今回は何と温泉を貸し切ったんだ！
     MessageCN: 所以为了能好好享受休假，咱这次可是包下了整个温泉！
-    MessageEN: On that note, I rented out an entire luxurious hot springs resort this
+    MessageEN:
+      On that note, I rented out an entire luxurious hot springs resort this
       time, so I can enjoy my vacation to the fullest.
     MessageTH: 'ดังนั้นในครั้งนี้ เราเลยเช่าเหมาออนเซ็นสุดหรู
 
@@ -241,7 +246,8 @@ content:
     MessageKR: 콤라드도 피로가 쌓였다면 이 몸과 함께 겨울 휴가를 즐기는 게 어떻겠는가?
     MessageJP: カムラッドも疲れてるなら、おいらと一緒に冬休みを満喫しないか？
     MessageCN: 如果同志也累了的话，不如也来和咱一起享受寒假吧？
-    MessageEN: If you are tired as well, how about enjoying your winter vacation with
+    MessageEN:
+      If you are tired as well, how about enjoying your winter vacation with
       me, Comrade?
     MessageTH: 'ถ้าสหายรู้สึกเหนื่อยล่ะก็ ไปพักผ่อนใน
 
@@ -376,7 +382,8 @@ content:
     MessageKR: 아껴 둔 최고급 푸딩을 빼앗긴 것으로도 모자라, 없었던 근육통까지 생겨버리다니……
     MessageJP: 楽しかったは楽しかったが、最高級抹茶プリンが手に入らなかった上に筋肉痛とは……
     MessageCN: 开心倒确实挺开心的，但是不仅没能赢到最高级的抹茶布丁，全身肌肉都还在痛……
-    MessageEN: Not only did I get my finest pudding taken from me, but I'm also suffering
+    MessageEN:
+      Not only did I get my finest pudding taken from me, but I'm also suffering
       from sore muscles...
     MessageTH: 'นอกจากจะต้องถูกชิงสุดยอดพุดดิ้งที่
 
@@ -435,7 +442,8 @@ content:
     MessageKR: 평범한 계란과 온천수만으로 진미를 만든다니…….
     MessageJP: 普通の卵と温泉水だけで生み出される珍味と聞いたが……
     MessageCN: 听说那是只用普通的鸡蛋和温泉水就创造出的美味……
-    MessageEN: I can't believe such a delicacy is made with just plain eggs and hot
+    MessageEN:
+      I can't believe such a delicacy is made with just plain eggs and hot
       spring water...
     MessageTH: 'ไม่อยากเชื่อเลยว่าจะต้มไข่ธรรมดาให้
 
@@ -457,7 +465,8 @@ content:
     MessageJP: おいらは温泉に詳しくないとはいえ、安易には信じられない話だ
     MessageCN: 虽然咱对温泉不清楚，但这种事情是在是没法轻易相信啊
     MessageEN: Even if I'm ignorant about hot springs, it's still hard to believe.
-    MessageTH: ถึงเราจะไม่ค่อยรู้เรื่องออนเซ็นเท่าไหร่ แต่ก็เป็นเรื่องที่เหลือเชื่อจริงๆ
+    MessageTH:
+      ถึงเราจะไม่ค่อยรู้เรื่องออนเซ็นเท่าไหร่ แต่ก็เป็นเรื่องที่เหลือเชื่อจริงๆ
       นะ
     MessageTW: 雖說咱對溫泉蛋不太了解，但也不能輕易相信
   - MessageGroupId: 200090150
@@ -567,7 +576,8 @@ content:
     MessageKR: 온천수와 계란만 가지고 푸딩과 같은 디저트를 만들 수 있다니…….
     MessageJP: 温泉水と卵だけで、プリンのようなデザートが作れるだと……！？
     MessageCN: 但是只用温泉水和鸡蛋，却能做出布丁一样的甜点吗……！？
-    MessageEN: And yet, it's possible to make a dessert-like pudding with only hot
+    MessageEN:
+      And yet, it's possible to make a dessert-like pudding with only hot
       spring water and an egg?
     MessageTH: 'ทำขนมแสนอร่อยอย่างพุดดิ้งได้โดย
 
@@ -646,7 +656,8 @@ content:
     MessageKR: 고상한 모습으로 유유히 헤엄치는 백조도 수면 아래에서는 가라앉지 않기 위해 열심히 물장구를 치고 있다는 사실을.
     MessageJP: 優雅に泳ぐ白鳥も、水面下では沈まないように一生懸命バタ足をしている……
     MessageCN: 水面上优雅游动的天鹅，在水面下也有一双为了不让自己沉入水底而拼命拍打的双蹼……
-    MessageEN: A swan, swimming serenely around in its elegance, is actually working
+    MessageEN:
+      A swan, swimming serenely around in its elegance, is actually working
       very hard below the surface of the water in order to stay afloat.
     MessageTH: 'เรื่องที่แม้แต่หงส์ที่แหวกว่ายอยู่ในน้ำ
 
@@ -669,7 +680,8 @@ content:
     MessageKR: 이처럼 고고한 존재가 되기 위해서는 보이지 않는 곳에서도 열심히 노력해야 한다네.
     MessageJP: つまり孤高で美しい存在になるためには、密かに努力する必要があるということだ
     MessageCN: 也就是说，为了成为孤高而美丽的存在，私下的努力也是必要的
-    MessageEN: In order to become like that noble creature, you have to work hard
+    MessageEN:
+      In order to become like that noble creature, you have to work hard
       even when nobody is watching.
     MessageTH: 'ดังนั้นถึงแม้จะไม่มีใครเห็น
 
@@ -692,7 +704,8 @@ content:
     MessageKR: 붉은겨울의 학생들도 이런 백조의 모습을 본받아 쉬는 시간에도 열심히 일해주었으면 좋으련만…….
     MessageJP: 学園の生徒たちもそういった心構えで、休日にも働いてくれれば良いのだが
     MessageCN: 要是我们学园的学生们也能抱着这种心态，在休息日也加班工作就好了
-    MessageEN: I wish the students of Red Winter would take after swans and work hard
+    MessageEN:
+      I wish the students of Red Winter would take after swans and work hard
       even during breaks...
     MessageTH: 'ถ้าเหล่านักเรียนของสหภาพเรดวินเทอร์
 
@@ -861,7 +874,8 @@ content:
     MessageKR: 수염의 권위를 갖지 못한 이 몸은 위대한 서기장이자 학생회장인 체리노가 될 수 없어.
     MessageJP: 髭の権威が無いおいらは、偉大なる指導者であるチェリノとは言えない……
     MessageCN: 失去了胡子的权威的咱，已经不配再被称为伟大的领导者切里诺了……
-    MessageEN: Without the authority of the mustache, I cannot be Cherino, the great
+    MessageEN:
+      Without the authority of the mustache, I cannot be Cherino, the great
       Scriber of Minutes and Student Council President.
     MessageTH: 'หากไม่มีอำนาจของหนวด ตัวเราก็
 
@@ -922,9 +936,11 @@ content:
     MessageKR: 아니. 깨끗이 씻어보려 했지만, 토모에의 말로는 수염에 기름때가 깊이 스며들어 새것을 사는 게 좋을 정도라는군.
     MessageJP: それがトモエ曰く、油が染み込み過ぎていて新しい物を買った方が良いと
     MessageCN: 巴说，因为油都渗进胡子里去了，所以买个新的比较好
-    MessageEN: No, I tried to wash it clean, but according to Tomoe, the grease seeped
+    MessageEN:
+      No, I tried to wash it clean, but according to Tomoe, the grease seeped
       so deeply into the mustache it's better to just buy a new one.
-    MessageTH: ยังหรอก เราพยายามจะซักให้สะอาดแล้ว แต่โทโมเอะบอกว่าน้ำมันซึมเข้าไปในหนวดเยอะมาก
+    MessageTH:
+      ยังหรอก เราพยายามจะซักให้สะอาดแล้ว แต่โทโมเอะบอกว่าน้ำมันซึมเข้าไปในหนวดเยอะมาก
       เพราะงั้นให้เราซื้ออันใหม่แทนจะดีกว่าน่ะ
     MessageTW: 智惠說那個油滲得太深，最好是買新的
   - MessageGroupId: 200090330
@@ -942,7 +958,8 @@ content:
     MessageKR: 하지만 새 수염을 사도 언제 도착할지 알 수 없는 노릇이고…….
     MessageJP: しかし新しい髭を買ったとしても、それがいつ届くかも分からないし……
     MessageCN: 但是即便定了新的胡子，也不知道什么时候才能送到……
-    MessageEN: But even if I buy a new mustache, I don't know when it will arrive
+    MessageEN:
+      But even if I buy a new mustache, I don't know when it will arrive
       and...
     MessageTH: แต่ถึงเราจะซื้อหนวดอันใหม่ ก็ไม่รู้ว่าจะส่งมาถึงเมื่อไหร่...
     MessageTW: 但即使買了新鬍子，也不知道什麼時候會送到……
@@ -1015,7 +1032,8 @@ content:
     MessageKR: 나 참. 왜 그렇게 다들 뜨거운 물에 몸을 씻는 것을 좋아하는지…….
     MessageJP: 全く、どうしてみんな熱いお湯で身体を洗うのがそんなに好きなのか……
     MessageCN: 真是的，为什么大家都这么喜欢用热水洗身体呢……
-    MessageEN: Seriously, I don't understand why everyone loves to take a bath in
+    MessageEN:
+      Seriously, I don't understand why everyone loves to take a bath in
       hot water...
     MessageTH: จริงๆ เลย ทำไมใครๆ ถึงได้ชอบการเอาน้ำร้อนๆ มาราดตัวกันนะ...
     MessageTW: 真是的，為什麼大家那麼喜歡用熱水洗身體呢……

@@ -894,7 +894,8 @@ content:
     MessageKR: 즐겁게 지냈냐, 라고 물어보시면. 그랬다고 답변드릴 수 있다고 생각합니다.
     MessageJP: もし帰ってから楽しかったかと聞かれたら、迷わず答えられると思います
     MessageCN: 如果回去之后，别人问我开不开心的话，我想我一定能毫不犹豫地给出答案
-    MessageEN: If you asked me if I'm doing well, then I believe the answer would
+    MessageEN:
+      If you asked me if I'm doing well, then I believe the answer would
       be yes.
     MessageTH: 'แค่คุณครูถามว่าช่วงนี้สบายดีรึเปล่า
 
@@ -969,7 +970,8 @@ content:
     MessageKR: 다음에도 기회가 되면, 선생님께서만 괜찮으시다면 또 비슷한 것들을 부탁드리고 싶습니다.
     MessageJP: いえ。えっと、とにかくその……
     MessageCN: 不是。那个，总之就是……
-    MessageEN: If you ever have the time, I wouldn't mind doing something like that
+    MessageEN:
+      If you ever have the time, I wouldn't mind doing something like that
       again.
     MessageTH: 'ถ้าคราวหน้ามีโอกาสล่ะก็...
 

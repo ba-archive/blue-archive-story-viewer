@@ -457,7 +457,8 @@ content:
     MessageKR: 금일 샬레의 사격장에서 진행한 훈련을 종료했습니다. 바로 학교로 복귀하겠습니다.
     MessageJP: シャーレでの本日の訓練を終えました。この後、学園に戻ります
     MessageCN: 今天在夏莱的训练结束了。之后我就回学校了
-    MessageEN: I just finished some intense training at the Schale shooting range
+    MessageEN:
+      I just finished some intense training at the Schale shooting range
       before returning to school.
     MessageTH: 'การฝึกซ้อมที่ห้องซ้อมยิงเป้าของ
 
@@ -712,7 +713,8 @@ content:
     MessageKR: 참관은 괜찮습니다만…… 오늘 훈련은 조금 고될 테니, 각오하시는 게 좋을 겁니다.
     MessageJP: 問題は無いのですが……今日のは少々大変なので、覚悟された方が良いかと
     MessageCN: 这倒是没问题……不过今天的训练可能比较辛苦，老师最好做好心理准备
-    MessageEN: That's fine, but today's training is supposed to be a bit intense...
+    MessageEN:
+      That's fine, but today's training is supposed to be a bit intense...
       Please keep that in mind.
     MessageTH: 'ถ้าไปสังเกตการณ์ก็ได้อยู่ค่ะ...
 
@@ -1001,7 +1003,8 @@ content:
     MessageKR: 근처 건물의 옥상에서 기다렸다가 그 악인을 저격하도록 하죠!
     MessageJP: 建物の屋上で待ち構えて、その悪党を狙撃しましょう！
     MessageCN: 老师就和我就在建筑物的楼顶上等待时机，将那名恶党一举狙击吧！
-    MessageEN: I'm going to wait for them on the roof of a nearby building and take
+    MessageEN:
+      I'm going to wait for them on the roof of a nearby building and take
       them out!
     MessageTH: 'ถ้างั้นเราก็ไปซุ่มอยู่บนดาดฟ้าตึก
 

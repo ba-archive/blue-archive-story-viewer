@@ -62,7 +62,8 @@ content:
     MessageKR: 선생님, 전에 먹은 약의 부작용이 다시 생겨버린 것 같아요…….
     MessageJP: 先生、実は、また副作用が出てしまったみたいで……
     MessageCN: 老师，其实，好像那个药又出现了副作用……
-    MessageEN: Sensei, I think the side effect of that medicine I took is showing
+    MessageEN:
+      Sensei, I think the side effect of that medicine I took is showing
       again...
     MessageTH: 'คุณครู ดูเหมือนยาที่กินเข้าไปคราวก่อน
 
@@ -223,7 +224,8 @@ content:
     MessageKR: 이래서는 매화원의 아이들에게 올바른 식사 지도를 하기 어렵겠어요.
     MessageJP: このままの姿では、梅花園の子たちに「好き嫌いはダメ」とは言えませんね
     MessageCN: 现在这个样子，对梅花园的孩子们也实在说不出“挑食是不好的”这种话了呢
-    MessageEN: How am I supposed to lecture the Plum Blossom students about their
+    MessageEN:
+      How am I supposed to lecture the Plum Blossom students about their
       diets like this?
     MessageTH: 'ถ้าเป็นแบบนี้ฉันคงเตรียมอาหารที่ถูก
 
@@ -246,7 +248,8 @@ content:
     MessageKR: 원래의 몸으로 되돌아갈 때까지 어른의 음식을 부지런히 먹어 입맛을 길들여놔야겠네요.
     MessageJP: 少しずつ色んなものを食べて、私も苦手なものを克服しないとです
     MessageCN: 我也要一点点地尝试不同的食物，即使是不喜欢的东西也要克服才行
-    MessageEN: I suppose I should keep eating grownup food until I return to my normal
+    MessageEN:
+      I suppose I should keep eating grownup food until I return to my normal
       body.
     MessageTH: 'จนกว่าร่างกายจะกลับเป็นปกติ คงจะ
 
@@ -341,7 +344,8 @@ content:
     MessageKR: 그게, 매화원에서 물건 정리를 하다가 가벼운 사고가 나서…….
     MessageJP: その、梅花園で色々と整理整頓をしていたら、少々事故が起きてしまったと言いますか……
     MessageCN: 那个，我在梅花园整理杂物的时候，稍微发生了点事故……
-    MessageEN: I was organizing some stuff at Plum Blossom Garden and a small incident
+    MessageEN:
+      I was organizing some stuff at Plum Blossom Garden and a small incident
       happened...
     MessageTH: คือว่าฉันกำลังจัดของในสวนต้นบ๊วยอยู่ แล้วเกิดอุบัติเหตุนิดหน่อย...
     MessageTW: 那個，我在梅花園整理各種雜物的時候，算是出了點小意外……
@@ -436,7 +440,8 @@ content:
     MessageKR: 매화원의 원생들이 다음 견학은 그곳으로 가자고 졸라대서, 견학 전에 미리 안전 점검을 다녀오려고요.
     MessageJP: 梅花園の子たちがみんな行きたいと言っているので、実際に行く前に一度安全性などを確認しに行こうかと思ってまして
     MessageCN: 梅花园的孩子们都说想去，所以我想在实际带孩子们去玩之前先确认一次里面设施的安全性
-    MessageEN: The Plum Blossom students wanted the next field trip to be there, so
+    MessageEN:
+      The Plum Blossom students wanted the next field trip to be there, so
       I wanted to do some security scoping first.
     MessageTH: 'เด็กๆ ที่สวนต้นบ๊วยมาอ้อนขอให้พาไป
 
@@ -769,7 +774,8 @@ content:
     MessageKR: 선생님, 오후에 시간 나시면 매화원 근처의 놀이터에 들려주세요.
     MessageJP: 先生。お時間があれば、これから梅花園に来ていただけませんか？
     MessageCN: 老师。如果您有时间的话，现在可以来一趟梅花园吗？
-    MessageEN: Sensei, if you have time this afternoon, visit the playground near
+    MessageEN:
+      Sensei, if you have time this afternoon, visit the playground near
       Plum Blossom.
     MessageTH: 'คุณครูคะ ถ้าช่วงบ่ายมีเวลาว่าง ช่วยแวะ
 

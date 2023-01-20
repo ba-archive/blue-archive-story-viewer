@@ -127,7 +127,8 @@ content:
     MessageKR: 연필꽂이처럼 단순한 형태의 가구라면 부실에 있는 3D 프린터로 만드는 게 더 빠르지 않겠어?
     MessageJP: そういった単純な形状なら、うちで作った方が早いと思うよ。どうかな？
     MessageCN: 如果只是那种简单的形状的话，我们这边直接做一个会更快。老师觉得呢？
-    MessageEN: If it's something as simple as a pencil holder, isn't it faster just
+    MessageEN:
+      If it's something as simple as a pencil holder, isn't it faster just
       to make it through the 3D printer in the club room?
     MessageTH: 'ของง่ายๆ อย่างที่ใส่ดินสอนี้ใช้เครื่อง
 
@@ -168,7 +169,8 @@ content:
     MessageKR: 물론이야. 게다가 시중에 있는 제품보다 더 가볍고 튼튼하게 만들 수 있다고.
     MessageJP: もちろん。おまけに市販のものよりもっと軽くて丈夫なものをね
     MessageCN: 当然。而且我们做的还会比市面上卖的更轻更结实呢
-    MessageEN: Of course! And it should be lighter and stronger than most products
+    MessageEN:
+      Of course! And it should be lighter and stronger than most products
       on the market.
     MessageTH: 'ทำได้สิ แถมยังออกมาเบาและแข็งแรง
 
@@ -245,7 +247,8 @@ content:
     MessageKR: 선생님, 샬레 하우스의 화장실 불이 나간 것 같아.
     MessageJP: 先生、シャーレのトイレの電気が切れたみたいだ
     MessageCN: 老师，夏莱的卫生间电灯好像坏了
-    MessageEN: I think the light bulb went out in the bathroom at the Schale office,
+    MessageEN:
+      I think the light bulb went out in the bathroom at the Schale office,
       Sensei.
     MessageTH: 'คุณครู ฉันว่าไฟในห้องน้ำของชาเล่ต์
 
@@ -398,7 +401,8 @@ content:
     MessageKR: 선생님, 오늘 오후 당번 학생 활동도 잘 부탁해.
     MessageJP: 先生、予定通り今日の午後は当番でシャーレに伺うよ
     MessageCN: 老师，按照日程我下午会去夏莱值班
-    MessageEN: Sensei, I'm counting on you to schedule the student activities this
+    MessageEN:
+      Sensei, I'm counting on you to schedule the student activities this
       afternoon.
     MessageTH: 'คุณครู เย็นนี้ฝากกิจกรรมตัวแทนนักเรียน
 
@@ -553,7 +557,8 @@ content:
     MessageKR: ……혹시나 해서 말해두는 건데, 구조가 궁금하다고 먼저 뜯어보면 안 된다?
     MessageJP: ……念のためだけど、解剖しちゃダメだよ？
     MessageCN: ……虽然是为了以防万一，但是咏叶不能拆解哦？
-    MessageEN: Um... You probably wouldn't anyway, but please don't open the package,
+    MessageEN:
+      Um... You probably wouldn't anyway, but please don't open the package,
       okay?
     MessageTH: 'แต่ขอบอกไว้ก่อนนะ
 
@@ -612,7 +617,8 @@ content:
     MessageKR: 다음에 밀레니엄 학원에 올 때 엔지니어부 부실에 들러서 찾아가.
     MessageJP: 今度ミレニアムに来た時に、エンジニア部に寄って受け取ってくれるかい？
     MessageCN: 老师下次来千年的时候，能顺路来工程部取一下吗？
-    MessageEN: Drop by the Engineering Club office the next time you're at the Millennium
+    MessageEN:
+      Drop by the Engineering Club office the next time you're at the Millennium
       School.
     MessageTH: 'คราวหน้าถ้ามาโรงเรียนมิลเลเนียมก็แวะ
 
@@ -725,7 +731,8 @@ content:
     MessageKR: ……그건 곤란해. 엔지니어부의 작업실에는 위험한 물건이 많거든.
     MessageJP: それは、どうなんだろうな……作業室には、危険なものも多いからね
     MessageCN: 那个嘛，怎么说呢……工作间里面还是有很多危险的东西的
-    MessageEN: I can't let you do that. The Engineering Club workshop is filled with
+    MessageEN:
+      I can't let you do that. The Engineering Club workshop is filled with
       dangerous objects.
     MessageTH: 'ไม่ได้หรอก... เพราะในห้องชมรม
 
@@ -746,7 +753,8 @@ content:
     MessageKR: 게다가 수리라는 건 단순 작업의 반복이라, 옆에서 지켜봐도 별 재미도 없다고.
     MessageJP: それに、修理は単純作業の繰り返しだ。あまり面白いものでは無いと思うよ
     MessageCN: 还有，修理只是简单动作的重复。我觉得实在不是什么有意思的事情
-    MessageEN: And since a simple fix like this is just a bunch of repetition, it
+    MessageEN:
+      And since a simple fix like this is just a bunch of repetition, it
       won't be any fun to watch.
     MessageTH: อีกอย่างงานซ่อมก็ไม่ได้สนุกขนาดนั้นด้วย
     MessageTW: 而且，修理也不過是單純作業的反覆操作而已。我覺得不是什麼有趣的事喔
@@ -879,7 +887,8 @@ content:
     MessageKR: 지난번에 <마나슬루>에서 구입한 장갑은 너무 두꺼워서 새로운 것을 찾던 중이었는데…… 마침 잘 되었네.
     MessageJP: 以前買った「マナスル」のは少々厚すぎたから、良いタイミングだ
     MessageCN: 之前我买的Manaslu的手套有点太厚了，正好可以换新
-    MessageEN: The gloves I bought from Manaslu are too thick, so I was looking for
+    MessageEN:
+      The gloves I bought from Manaslu are too thick, so I was looking for
       something new. Perfect timing.
     MessageTH: 'ถุงมือที่ซื้อมาจาก <มานาซึรุ> คราวก่อน
 
@@ -958,7 +967,8 @@ content:
     MessageKR: 어릴 적부터 기름과 금속을 만지고 살았더니 끝이 갈라지고 기름때가 스며들어서 보기에 흉해.
     MessageJP: 昔からずっと油と金属を触ってきたせいで、決して綺麗とは言えない
     MessageCN: 因为以前就一直接触油和金属，所以绝对说不上是什么漂亮的手
-    MessageEN: Since I spent my childhood playing with grease and metal, my fingers
+    MessageEN:
+      Since I spent my childhood playing with grease and metal, my fingers
       are all cut up and calloused.
     MessageTH: 'มือฉันจับโลหะและน้ำมันมาตั้งแต่เด็กน่ะ
 

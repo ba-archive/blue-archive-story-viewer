@@ -252,7 +252,8 @@ content:
     MessageKR: 그러하신가요…. 무자비한 여름의 열기를 피할 수 있는 것은 다행이지만.
     MessageJP: そうでしたか……無慈悲な太陽の熱を避けられるのは良いことですが……
     MessageCN: 是这样吗……虽说能避开烈日的无情炙烤也是件好事……
-    MessageEN: I see... I'm glad you're out of the heat during this merciless summer,
+    MessageEN:
+      I see... I'm glad you're out of the heat during this merciless summer,
       but...
     MessageTH: 'อย่างนั้นเหรอคะ การได้หลบอากาศร้อนๆ
 
@@ -273,7 +274,7 @@ content:
     MessageKR: 그래서야 당신께 오늘은 전혀 여름답지 않은 하루가 되어버릴 터.
     MessageJP: つまりあなた様にとって今日は、全く夏らしくない一日になってしまうのですね……
     MessageCN: 但也就是说，您今天将度过完全没有夏日气息的一天是吗……
-    MessageEN: '...then you won''t get to see the beautiful day.'
+    MessageEN: "...then you won't get to see the beautiful day."
     MessageTH: 'แต่กลายเป็นว่าคุณท่านจะไม่ได้ใช้เวลา
 
       อย่างสนุกสนานในหน้าร้อน'

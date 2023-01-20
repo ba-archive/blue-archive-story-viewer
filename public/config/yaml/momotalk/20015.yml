@@ -145,7 +145,8 @@ content:
     MessageKR: 놀이터에서 결정 대사를 연습하고 있을 뿐이었는데 갑자기 그런 말을 하다니! 너무해!
     MessageJP: 公園で決め台詞を練習してただけなのに！
     MessageCN: 我明明只是在公园里练习了一下名台词而已！
-    MessageEN: I was just practicing my one-liners at the playground. Why would they
+    MessageEN:
+      I was just practicing my one-liners at the playground. Why would they
       say that? They're so mean!
     MessageTH: 'ฉันแค่ไปซ้อมบทพูดตัดสินที่สนามเด็ก
 
@@ -222,7 +223,8 @@ content:
     MessageKR: 우리 수행부가 나쁜 문제아들을 쓰러트릴 때 하는 대사야!
     MessageJP: あ、もちろん私たち修行部が、問題児たちを倒す時に言う台詞だよ！
     MessageCN: 啊，当然就是我们修行部在放倒问题儿童时说的台词！
-    MessageEN: They're one-liners the Inner Discipline Club say after we defeat bad
+    MessageEN:
+      They're one-liners the Inner Discipline Club say after we defeat bad
       students!
     MessageTH: 'บทพูดที่ชมรมฝึกฝนของเราจะพูดเวลา
 
@@ -263,7 +265,8 @@ content:
     MessageKR: 참고로 내 대사는 '알록달록한 단풍의 이름으로 널 용서하지 않겠다!' 인데 말이야~
     MessageJP: ちなみに私の台詞は「紅葉に代わって突撃だ」！
     MessageCN: 顺便，我的台词是“用突击代替红叶！”
-    MessageEN: My line goes, "In the name of the colorful autumn leaves, I shall never
+    MessageEN:
+      My line goes, "In the name of the colorful autumn leaves, I shall never
       forgive you!"
     MessageTH: 'อ๋อ บอกไว้ก่อนบทพูดของฉันคือ "ในนาม
 
@@ -516,7 +519,8 @@ content:
     MessageKR: 여름방학에 아침체조 카드를 전부 도장으로 채우는 것보다 더 어려울지도 몰라!
     MessageJP: 夏休みに「ラジオ体操カード」で、欠かさず毎日スタンプを貰うこと並みに難しい！
     MessageCN: 说不定比在暑假的时候集满“广播体操卡”上所有的印章还要困难！
-    MessageEN: It might be even harder than attending every morning exercise session
+    MessageEN:
+      It might be even harder than attending every morning exercise session
       during summer break!
     MessageTH: 'มันก็อาจจะยากกว่าตอนที่ต้องไปเก็บสะสม
 
@@ -557,7 +561,7 @@ content:
     MessageKR: '그치? 그래서 어쩌면 좋을까, 어어어엄청 고민하던 차에……! '
     MessageJP: そうなの、それでどうすれば良いかなって悩んでたんだけど……
     MessageCN: 对吧，我还在苦恼该怎么办呢……
-    MessageEN: 'Right? So I''ve been thinking really, really hard! '
+    MessageEN: "Right? So I've been thinking really, really hard! "
     MessageTH: 'ใช่มั้ยล่ะ? เพราะงั้นฉันเลยนั่งคิดมาตลอด
 
       ว่าจะทำยังไงดี...! '
@@ -595,8 +599,9 @@ content:
     MessageKR: '이거 세기의 대발견일지도 몰라! 이 엄청난 발견은 직접 만나서 말해줄게! '
     MessageJP: これはもう「世紀の大発見」と呼べるくらいだよ！
     MessageCN: 这个方法甚至可以称为“世纪大发现”了！
-    MessageEN: 'This could be the greatest discovery of the century! I''ll tell you
-      about it in person! '
+    MessageEN:
+      "This could be the greatest discovery of the century! I'll tell you
+      about it in person! "
     MessageTH: 'นี่อาจเป็นการค้นพบที่ยิ่งใหญ่สุดยอดใน
 
       ศตวรรษเลยก็ได้ ฉันจะไปเล่าเรื่องการค้น
@@ -806,7 +811,7 @@ content:
     MessageKR: '어른은 가끔 하기 싫은 일도 꾸역꾸역해야만 할 때가 있다고…. '
     MessageJP: 大人は時々、やりたくないこともやらないといけない……って
     MessageCN: 大人有时候不得不做一些不想做的事情……之类的话
-    MessageEN: 'Sometimes adults have to do things even if they don''t like it... '
+    MessageEN: "Sometimes adults have to do things even if they don't like it... "
     MessageTH: 'ว่าพวกผู้ใหญ่น่ะปากบ่นว่าเกลียด
 
       แต่ก็ไม่เลิกทำสิ่งที่บอกว่าเกลียดสักที...'
@@ -882,7 +887,7 @@ content:
     MessageKR: '으음, 잘은 모르겠지만. '
     MessageJP: まあとにかくー
     MessageCN: 总之呢——
-    MessageEN: 'I don''t know how I can help... '
+    MessageEN: "I don't know how I can help... "
     MessageTH: 'อืม... ไม่รู้เหมือนกันแฮะ '
     MessageTW: 呃嗯，雖然不是很清楚…
   - MessageGroupId: 200150330
@@ -1028,7 +1033,8 @@ content:
     MessageKR: 가면 드라이버의 필살기! 이머전시 드라이브 킥이야!
     MessageJP: 非常事態といえば仮面ドライバーの必殺技「エマージェンシードライブキック」だよ！
     MessageCN: 提到紧急情况的话，就不得不说到假面骑手的必杀技“emergency drive kick”哟！
-    MessageEN: It's the ultimate weapon of the Masked Driver! The Emergency Drive
+    MessageEN:
+      It's the ultimate weapon of the Masked Driver! The Emergency Drive
       Kick!
     MessageTH: 'ท่าไม้ตายของหน้ากากไดร์เวอร์!
 
@@ -1141,7 +1147,8 @@ content:
     MessageKR: 응? 나? 난 괜찮은데? 완전 쌩쌩한데? 아침밥도 1등으로 먹었다구?
     MessageJP: 私は全然元気！さっき朝ごはんもお代わりした！
     MessageCN: 我很健康！刚刚早饭的时候还加了饭！
-    MessageEN: Huh? I'm okay. Actually, I'm doing great! I even ate breakfast faster
+    MessageEN:
+      Huh? I'm okay. Actually, I'm doing great! I even ate breakfast faster
       than everyone else this morning!
     MessageTH: 'หืม? ฉันสบายดีนะ? สบายดีสุดๆ เลย
 

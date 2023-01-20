@@ -143,7 +143,8 @@ content:
     MessageKR: 키보토스의 해결사이자, 학생들이 믿고 의지한다는 선생님께 부탁이 있어요.
     MessageJP: 数多くの生徒たちの信頼を集め、頼れる存在として認識されている……そして、キヴォトス全体におけるフィクサーである先生に、お願いがあるんです
     MessageCN: 集众多学生的信赖于一身的、被认为值得依赖的……以及，以基沃托斯的调停者身份存在的老师，我想请您帮助我
-    MessageEN: I have a request for you, the problem solver of Kivotos, and the Sensei
+    MessageEN:
+      I have a request for you, the problem solver of Kivotos, and the Sensei
       the students trust and depend on.
     MessageTH: 'แต่ฉันมีเรื่องที่จะขอร้องนักแก้ปัญหาของคิโวทอส
 
@@ -258,7 +259,7 @@ content:
     MessageKR: ……목소리가 나오지 않는 것만 제외한다면요.
     MessageJP: まだ、声は出ませんが……
     MessageCN: 就是，我还是发不出声音……
-    MessageEN: '...Except that my voice isn''t coming out.'
+    MessageEN: "...Except that my voice isn't coming out."
     MessageTH: ยกเว้นแต่เรื่องที่ฉันเปล่งเสียงไม่ได้ค่ะ...
     MessageTW: 雖然還發不出聲音……
   - MessageGroupId: 200070090
@@ -498,7 +499,8 @@ content:
     MessageKR: 괜찮으시면 시내 뒤편의 골목에서 잠깐 뵐 수 있을까요?
     MessageJP: よろしければ今から、お会いできませんか？
     MessageCN: 要是老师方便的话，现在可以见个面吗？
-    MessageEN: If it's okay with you, can I see you for a moment in the alley behind
+    MessageEN:
+      If it's okay with you, can I see you for a moment in the alley behind
       the city?
     MessageTH: 'ถ้าคุณครูสะดวก มาพบฉันที่ตรอกเล็กๆ
 
@@ -649,7 +651,8 @@ content:
     MessageKR: 곡을 넣을 수 있는 라이브 하우스의 공연 시설이라면 엄중하게 관리되고 있을 텐데,
     MessageJP: 普通にお願いしても難しそうですし……
     MessageCN: 要是就这样申请曲目变动的话应该会很困难……
-    MessageEN: If it's the performance facility of the Live House where songs are
+    MessageEN:
+      If it's the performance facility of the Live House where songs are
       added, it's probably strictly managed,
     MessageTH: 'ถ้าเป็นอุปกรณ์การแสดงของไลฟ์เฮาส์
 
@@ -708,7 +711,8 @@ content:
     MessageKR: 샬레에는 해킹도 엔지니어링도 유능한 학생들이 잔뜩 있거든.
     MessageJP: シャーレには、ハッキングとかエンジニアリングが得意な生徒がたくさんいるから
     MessageCN: 毕竟夏莱也有很多对入侵和工程很擅长的学生呢
-    MessageEN: There are a lot of students at Schale who are great at hacking and
+    MessageEN:
+      There are a lot of students at Schale who are great at hacking and
       engineering.
     MessageTH: 'ชาเล่ต์น่ะมีนักเรียนที่เก่งเรื่องวิศวกรรม
 

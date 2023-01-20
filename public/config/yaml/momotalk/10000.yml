@@ -320,7 +320,8 @@ content:
     MessageKR: 직원 포상으로 파르페 도전 메뉴를 먹는다고 하면
     MessageJP: 「ご褒美としてチャレンジメニューのパフェを食べるわよ」って言ったら、
     MessageCN: 要是我说出“奖励就是去吃挑战菜单里的芭菲”这种话来
-    MessageEN: If I were to tell everyone we were eating the parfait challenge menu
+    MessageEN:
+      If I were to tell everyone we were eating the parfait challenge menu
       as an employee reward,
     MessageTH: ถ้าให้รางวัลเป็นเมนูพาร์เฟ่ต์ท้าทาย
     MessageTW: 「作為獎勵，大家一起吃挑戰菜單上的百匯冰淇淋」如果我這麼說

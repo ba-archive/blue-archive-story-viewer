@@ -303,7 +303,8 @@ content:
     MessageKR: 물에 살짝 데쳐서 먹어도 맛있고, 튀기면 밥 위에 얹어 덴푸라처럼 먹을 수도 있다고!
     MessageJP: 軽くゆがいただけでも美味しいし、天ぷらにも良い。ご飯にピッタリのおかずだ！
     MessageCN: 楤木芽只要简单焯一下就很好吃，还可以做天妇罗。总之就是种非常下饭的菜！
-    MessageEN: You can lightly blanch it in water or deep fry it and put it on top
+    MessageEN:
+      You can lightly blanch it in water or deep fry it and put it on top
       of rice and eat it like tempura!
     MessageTH: 'เอาไปลวกในน้ำร้อนกิน มันอร่อย
 
@@ -420,7 +421,8 @@ content:
     MessageKR: 선생님, 혹시 휴게실에 있는 TV의 예약 녹화 기능 쓰는 법 알아?
     MessageJP: 先生。シャーレにあるTVって、録画機能は付いてるのか？
     MessageCN: 老师。夏莱的电视机有录像功能吗？
-    MessageEN: Sensei, do you know how to schedule recordings on the TV in the break
+    MessageEN:
+      Sensei, do you know how to schedule recordings on the TV in the break
       room?
     MessageTH: 'คุณครู รู้วิธีอัดวิดีโอของทีวีในห้องพักผ่อน
 
@@ -441,7 +443,8 @@ content:
     MessageKR: 오늘 밤 크로노스 채널에서 흥미로운 심야 다큐멘터리가 나온다고 해서…….
     MessageJP: 今夜「クロノスチャンネル」で、気になるドキュメンタリーがあって……
     MessageCN: 今晚的克罗诺斯频道有一个我感兴趣的纪录片……
-    MessageEN: There's an interesting late-night documentary coming out tonight on
+    MessageEN:
+      There's an interesting late-night documentary coming out tonight on
       the Kronos Channel...
     MessageTH: 'คืนนี้จะมีสารคดีที่น่าสนใจฉายที่ช่อง
 
@@ -632,7 +635,8 @@ content:
     MessageKR: 선생님. 방금 발키리 경찰학교의 지인에게 들었는데.
     MessageJP: さっきヴァルキューレの知り合いから聞いたんだけど
     MessageCN: 刚刚我从瓦尔基里的熟人那里听说
-    MessageEN: Sensei, I heard something from my acquaintance at the Valkyrie Police
+    MessageEN:
+      Sensei, I heard something from my acquaintance at the Valkyrie Police
       School.
     MessageTH: 'คุณครู เมื่อกี้ฉันได้ข่าวมาจากคนรู้จัก
 
@@ -675,7 +679,8 @@ content:
     MessageKR: 그 근처에 초소가 있었을 때, 치장물자로 쌓아 둔 걸 버려두고 왔다나.
     MessageJP: 昔ちょっとした基地みたいなのがあったらしくて、そこが無くなる時に放置されたんだとか
     MessageCN: 那边过去好像有个基地之类的地方，后来被废弃之后，那些用品也就被遗弃在那边了
-    MessageEN: When they evacuated a guard post nearby, they left behind the their
+    MessageEN:
+      When they evacuated a guard post nearby, they left behind the their
       equipment.
     MessageTH: 'แถวๆ นั้นมีจุดตรวจอยู่และมีอุปกรณ์ต่างๆ
 
@@ -810,7 +815,8 @@ content:
     MessageKR: 다른 대원들도 바쁜 것 같고, 혼자서 왕복하는 것도 어려워서 곤란하던 참이었거든.
     MessageJP: 何かみんな忙しいらしくて、でもひとりで往復するのもアレだし……
     MessageCN: 虽然大家看起来都挺忙的，但是让我一个人来回搬东西还是有点那个……
-    MessageEN: Everyone else seemed busy, and I was worried I wouldn't be able to
+    MessageEN:
+      Everyone else seemed busy, and I was worried I wouldn't be able to
       carry everything myself.
     MessageTH: 'สมาชิกคนอื่นก็เหมือนจะยุ่งๆ กัน
 

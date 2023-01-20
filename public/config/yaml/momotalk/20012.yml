@@ -50,12 +50,15 @@ content:
     FeedbackTimeMillisec: 0
     MessageType: Text
     ImagePath: ''
-    MessageKR: <응급의학부 발신> <게헨나 자치구 122-6번가> 불량 학생들 간의 전면전으로 인한 피해 발생. 부상자 및 해당 지역
+    MessageKR:
+      <응급의학부 발신> <게헨나 자치구 122-6번가> 불량 학생들 간의 전면전으로 인한 피해 발생. 부상자 및 해당 지역
       방문 학생들은 응급의학부로 찾아오십시오. 해당 지역 방문 예정자들은 일정 변경을 부탁드립니다. PM.02:16
     MessageJP: 救急医学部よりゲヘナ全校生徒へ：ゲヘナ自治区122-6番街にて、不良生徒たちの全面抗争が発生。負傷者は救急医学部の方まで。当該地区へ訪問予定の方は、日時の変更をお勧めします　PM02:16
-    MessageCN: 急救医学部通知格黑娜全校学生：介于不良学生于格黑娜自治区122－6号街发起全面抗争，请负伤人员来急救医学部集中。如您正计划访问该地区，我们强烈建议您变更行程
+    MessageCN:
+      急救医学部通知格黑娜全校学生：介于不良学生于格黑娜自治区122－6号街发起全面抗争，请负伤人员来急救医学部集中。如您正计划访问该地区，我们强烈建议您变更行程
       PM02:16
-    MessageEN: 'Medical Emergency Club, Gehenna District 122-6: Damage occurred from
+    MessageEN:
+      'Medical Emergency Club, Gehenna District 122-6: Damage occurred from
       a firefight between miscreants. Injured and other students visiting the area
       should come to the Medical Emergency Club. Others are advised to stay away from
       the area. 02:16 PM'
@@ -182,7 +185,8 @@ content:
     MessageKR: 상황은 들었습니다. 중요한 일정이라 게헨나에 방문하신다고요.
     MessageJP: この後ゲヘナにいらっしゃるとお伺いしました
     MessageCN: 我听说您之后会到访格黑娜
-    MessageEN: I've been briefed on the situation. You're visiting Gehenna for an
+    MessageEN:
+      I've been briefed on the situation. You're visiting Gehenna for an
       important matter.
     MessageTH: 'ฉันได้ฟังมาคร่าวๆ แล้วค่ะ
 
@@ -298,11 +302,13 @@ content:
     FeedbackTimeMillisec: 2500
     MessageType: Text
     ImagePath: ''
-    MessageKR: 땀을 많이 흘리셨으니 충분히 수분을 섭취해 주시고, 책상 위에 상비약을 두었으니 드시기 바랍니다. 덮어드린 담요와 물수건은
+    MessageKR:
+      땀을 많이 흘리셨으니 충분히 수분을 섭취해 주시고, 책상 위에 상비약을 두었으니 드시기 바랍니다. 덮어드린 담요와 물수건은
       땀에 젖었으니 바로 세탁하십시오. 다음에 다시 회수하러 방문토록 하겠습니다. 그럼 이만.
     MessageJP: 汗をたくさんかかれてますので、起きられたら十分に水分を摂取して、机の上の薬をお飲みになってください。タオルの替えはすぐ横に置いてあります。すぐに諸々の回収と洗濯に参りますので。それでは失礼します
     MessageCN: 因为老师出了很多汗，所以醒来之后请摄入足量水分，服用桌子上的药物。更换用的毛巾就放在旁边。因为我马上要参与回收和盥洗工作，所以提前告辞了
-    MessageEN: You've sweat a lot, so stay hydrated. Please take the medicine I put
+    MessageEN:
+      You've sweat a lot, so stay hydrated. Please take the medicine I put
       on your desk. The blanket and towel I put on you are wet. Be sure to wash them
       immediately. I'll come pick them up later. Until next time.
     MessageTH: 'คุณครูเหงื่อออกเยอะ ต้องดื่มน้ำเยอะๆ
@@ -347,11 +353,13 @@ content:
     FeedbackTimeMillisec: 2000
     MessageType: Text
     ImagePath: ''
-    MessageKR: 일전에 말씀드렸던 담요와 물수건을 회수하고자 샬레에 방문할 예정이니, 가능하신 시간대가 있으시면 말씀해주시기 바랍니다.
+    MessageKR:
+      일전에 말씀드렸던 담요와 물수건을 회수하고자 샬레에 방문할 예정이니, 가능하신 시간대가 있으시면 말씀해주시기 바랍니다.
       감사합니다.
     MessageJP: 先日のタオルなどを回収するために、本日シャーレにお伺いする予定です。空いている時間帯などありましたらお知らせください。よろしくお願いします
     MessageCN: 为了回收前几天用的毛巾等物品，我打算今天拜访夏莱。如果老师有空闲的时间带请告知我。麻烦老师了
-    MessageEN: I'd like to visit Schale to pick up the blanket and towel. Please let
+    MessageEN:
+      I'd like to visit Schale to pick up the blanket and towel. Please let
       me know when you're available. Thank you.
     MessageTH: 'ฉันจะไปที่ชาเล่ต์เพื่อไปรับผ้าห่ม
 
@@ -479,11 +487,13 @@ content:
     FeedbackTimeMillisec: 0
     MessageType: Text
     ImagePath: ''
-    MessageKR: <응급의학부 발신> <게헨나 자치구 32-1번가> 일부 학생들의 소화기 장난으로 인한 사고 발생. 사건 주모자와 피해 학생들
+    MessageKR:
+      <응급의학부 발신> <게헨나 자치구 32-1번가> 일부 학생들의 소화기 장난으로 인한 사고 발생. 사건 주모자와 피해 학생들
       일부가 인근 양호실로 강제 이송되었습니다. PM.06:47
     MessageJP: 救急医学部よりゲヘナ全校生徒へ：ゲヘナ自治区32-1番街にて、悪戯により消火器の暴発事故が発生。事件の首謀者と被害者の生徒たちの一部は、近くの保健室に輸送されました　PM06:47
     MessageCN: 急救医学部通知格黑娜全校学生：格黑娜自治区32－1号街发生因恶作剧导致的灭火器爆炸事故。事件的主谋和部分受害学生已送至附近的医务室 PM06:47
-    MessageEN: 'From the Medical Emergency Club, Gehenna District 32-1: Students playing
+    MessageEN:
+      'From the Medical Emergency Club, Gehenna District 32-1: Students playing
       with a fire extinguisher have caused an accident. The perpetrators and some
       victims were forcibly transferred to a nearby infirmary. 06:47PM'
     MessageTH: '<จากหน่วยแพทย์ฉุกเฉิน> <เขตเกเฮน
@@ -510,12 +520,15 @@ content:
     FeedbackTimeMillisec: 2500
     MessageType: Text
     ImagePath: ''
-    MessageKR: <응급의학부 발신> 또한, 상황이 완전히 종료된 것이 아니므로 비상 인원이 대기 중입니다. 해당 지역 방문자는 우회로를
+    MessageKR:
+      <응급의학부 발신> 또한, 상황이 완전히 종료된 것이 아니므로 비상 인원이 대기 중입니다. 해당 지역 방문자는 우회로를
       통하거나 일정 변경을 요망. PM.06:47
     MessageJP: 救急医学部よりゲヘナ全校生徒へ：事態は未だ沈静化していませんので、付近にて人員待機中。当該地区へ訪問予定の方は日時の変更をお勧めします　PM06:47
-    MessageCN: 急救医学部通知格黑娜全校学生：介于目前事态依然没有完全得到控制，请附近的相关工作人员保持待命状态。如您正计划访问该地区，我们强烈建议您变更行程
+    MessageCN:
+      急救医学部通知格黑娜全校学生：介于目前事态依然没有完全得到控制，请附近的相关工作人员保持待命状态。如您正计划访问该地区，我们强烈建议您变更行程
       PM06:47
-    MessageEN: 'From the Medical Emergency Club: Emergency crew on standby, situation
+    MessageEN:
+      'From the Medical Emergency Club: Emergency crew on standby, situation
       unresolved. We request visitors take a detour or reschedule. 06:47PM'
     MessageTH: '<จากหน่วยแพทย์ฉุกเฉิน> นอกจากนี้
 

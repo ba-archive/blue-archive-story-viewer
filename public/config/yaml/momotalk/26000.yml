@@ -735,7 +735,8 @@ content:
     MessageKR: 피곤할 것 같은 일이 생기시면, 미리 연락주시길 바랍니다.
     MessageJP: これは疲れそうだなと思うようなことがありましたら、私を呼んでください
     MessageCN: 如果老师觉得接下去会发生让您感到费心的事情的时候，也请联系我
-    MessageEN: If you think something exhausting is coming up, just let me know in
+    MessageEN:
+      If you think something exhausting is coming up, just let me know in
       advance.
     MessageTH: 'ถ้ามีงานที่จะทำให้คุณครูเหนื่อยขึ้นล่ะก็
 
