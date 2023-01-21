@@ -8,6 +8,7 @@
     @keydown.space="toggleSwitch"
     @keydown.enter="toggleSwitch"
     v-calculate-width="'track'"
+    :aria-label="accessibilityLabel"
   >
     <div class="neu-switch__paddle">
       <div
@@ -42,11 +43,13 @@ const props = withDefaults(
     checked?: boolean;
     checkedValue?: boolean | string | number;
     uncheckedValue?: boolean | string | number;
+    accessibilityLabel?: string;
   }>(),
   {
     checked: false,
     checkedValue: true,
     uncheckedValue: false,
+    accessibilityLabel: 'Switch',
   }
 );
 

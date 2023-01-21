@@ -24,6 +24,7 @@ function toggleTheme(value: 'light' | 'dark') {
       :checked="'light' === currentTheme"
       checked-value="light"
       unchecked-value="dark"
+      :accessibility-label="'Toggle Dark Mode'"
       @update:value="toggleTheme"
     />
     <img
