@@ -12,21 +12,27 @@
         :src="studentAvatar"
         :alt="studentName"
       />
-      <div class="message-content-wrap rounded-small">
-        <div v-if="!showMessageContent" class="typing-indicator">
-          <span class="dot-1">·</span>
-          <span class="dot-2">·</span>
-          <span class="dot-3">·</span>
+
+      <div class="message-text flex-vertical">
+        <div class="student-name" v-if="message?.avatar">
+          {{ studentName }}
         </div>
-        <div v-show="showMessageContent" class="message-content">
-          <span v-if="'Image' !== messageType">{{
-            getMessageText(message)
-          }}</span>
-          <img
-            v-else
-            :src="getMessageImagePath(message?.ImagePath)"
-            alt="聊天图片"
-          />
+        <div class="message-content-wrap rounded-small">
+          <div v-if="!showMessageContent" class="typing-indicator">
+            <span class="dot-1">·</span>
+            <span class="dot-2">·</span>
+            <span class="dot-3">·</span>
+          </div>
+          <div v-show="showMessageContent" class="message-content">
+            <span v-if="'Image' !== messageType">{{
+              getMessageText(message)
+            }}</span>
+            <img
+              v-else
+              :src="getMessageImagePath(message?.ImagePath)"
+              alt="聊天图片"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -207,18 +213,27 @@ function getMessageText(
     height: 0;
   }
 }
-
-.message-content-wrap {
-  transition: color 0.375s ease-in-out;
+.message-text {
+  align-items: flex-start;
   margin-left: 0.5rem;
-  background-color: #505a6d;
-  padding: 0.5rem;
-  width: fit-content;
-  color: var(--color-text-contrast);
 
-  img {
-    width: 10rem;
-    height: auto;
+  .student-name {
+    transition: color 0.375s ease-in-out;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+  .message-content-wrap {
+    transition: color 0.375s ease-in-out;
+    background-color: #505a6d;
+    padding: 0.5rem;
+    width: fit-content;
+    color: var(--color-text-contrast);
+
+    img {
+      width: 10rem;
+      height: auto;
+    }
   }
 }
 
