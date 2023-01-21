@@ -73,7 +73,19 @@ const contributors = [
       </li>
       <li><mark>美术</mark>：整体视觉设计和 UI 交互；</li>
       <li><mark>LOGO</mark>：比现在的好看就行；以及</li>
-      <li><mark>正在查看内容的你</mark>：汇报 bug，提出意见或建议</li>
+      <li>
+        <!--eslint-disable max-len-->
+        <mark>正在查看内容的你</mark>：<a
+          href="https://github.com/ba-archive/blue-archive-story-viewer/issues/new?assignees=&labels=bug%2Cquestion&template=bug_report.yml&title=%5BBug%5D+"
+          target="_blank"
+          >汇报 bug</a
+        >，<a
+          href="https://github.com/ba-archive/blue-archive-story-viewer/issues/new?assignees=&labels=enhancement&template=feature_request.yml&title=%5BEnhancement%5D+"
+          target="_blank"
+          >提出意见或建议</a
+        >
+        <!--eslint-enable max-len-->
+      </li>
       <li>
         <a
           href="https://github.com/ba-archive/blue-archive-story-viewer/discussions/97"
