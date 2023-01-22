@@ -192,7 +192,7 @@ function getMessageText(
   width: 100%;
 
   &.condensed {
-    margin-top: 0.1rem;
+    margin-top: 0.3rem;
   }
 }
 .student-reply {
