@@ -33,7 +33,7 @@ title:
     CharacterId: 26001
     TextJp: まっしろで透き通るような
     TextCn: 纯白且透明的
-    TextKr: ''
+    TextKr: 한없이 투명에 가까운 백색
     TextEn: ''
     TextTh: ''
     TextTw: ''
@@ -559,7 +559,7 @@ content:
     FeedbackTimeMillisec: 2500
     MessageType: Text
     ImagePath: ''
-    MessageKR: 그게…… 컴퓨터와 연결된 이어폰을 착용하고 있다는 사실을 잊은 채 자리에서 일어나는 바람에 의자 위로 넘어질 뻔 했습니다.
+    MessageKR: 그게…… 컴퓨터와 연결된 이어폰을 착용하고 있다는 사실을 잊은 채 자리에서 일어나는 바람에 의자 위로 넘어질 뻔했습니다.
     MessageJP: パソコンにイヤホンを繋げたまま立ち上がって、危うく転びそうに
     MessageCN: 耳机还插在电脑上就站起来了，差点把电脑带到地上
     MessageEN: ''

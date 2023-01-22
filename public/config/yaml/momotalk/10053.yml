@@ -6,7 +6,7 @@ title:
     CharacterId: 10053
     TextJp: 朝のジョギング
     TextCn: 晨跑
-    TextKr: ''
+    TextKr: 아침 조깅
     TextEn: ''
     TextTh: ''
     TextTw: ''
@@ -15,7 +15,7 @@ title:
     CharacterId: 10053
     TextJp: 科学的な料理の秘訣
     TextCn: 科学的料理秘诀
-    TextKr: ''
+    TextKr: 과학적인 요리 비결
     TextEn: ''
     TextTh: ''
     TextTw: ''
@@ -24,7 +24,7 @@ title:
     CharacterId: 10053
     TextJp: 理性的な応援文化
     TextCn: 理性的应援文化
-    TextKr: ''
+    TextKr: 이성적인 응원 문화
     TextEn: ''
     TextTh: ''
     TextTw: ''
@@ -33,7 +33,7 @@ title:
     CharacterId: 10053
     TextJp: スポーツカード
     TextCn: 体育集换卡
-    TextKr: ''
+    TextKr: 스포츠 카드
     TextEn: ''
     TextTh: ''
     TextTw: ''
@@ -592,7 +592,7 @@ content:
     FeedbackTimeMillisec: 0
     MessageType: Text
     ImagePath: ''
-    MessageKR: 유우카도 수고 많았어
+    MessageKR: 유우카도 수고 많았어.
     MessageJP: ユウカもお疲れさま
     MessageCN: 优香也辛苦了
     MessageEN: ''
@@ -610,7 +610,7 @@ content:
     FeedbackTimeMillisec: 1000
     MessageType: Text
     ImagePath: ''
-    MessageKR: 아녜요. 세미나의 임원으로서 당연히 해야 할 일이었는 걸요.
+    MessageKR: 아녜요. 세미나의 임원으로서 당연히 해야 할 일이었는걸요.
     MessageJP: ありがとうございます。ですが、セミナーの役員として当然のことですから
     MessageCN: 谢谢。不过作为研讨会的干部，这种事情是我应当做的
     MessageEN: ''
@@ -628,7 +628,7 @@ content:
     FeedbackTimeMillisec: 1500
     MessageType: Text
     ImagePath: ''
-    MessageKR: 그러고 보니 샬레에 협력을 요청 드린 안건들에 대해서도 한 번 정리를 해야 했는데……
+    MessageKR: 그러고 보니 샬레에 협력을 요청 드린 안건들에 대해서도 한번 정리를 해야 했는데……
     MessageJP: '先生、そうでした
 
       晄輪大祭で立て込んでいたので、シャーレに協力を要請した件の事務処理ができていませんでしたね'
@@ -648,7 +648,7 @@ content:
     FeedbackTimeMillisec: 1000
     MessageType: Text
     ImagePath: ''
-    MessageKR: 학원의 업무가 정리되면 샬레에 한 번 방문하겠습니다.
+    MessageKR: 학원의 업무가 정리되면 샬레에 한번 방문하겠습니다.
     MessageJP: 手持ちの業務を片付けたら、シャーレに伺いますね
     MessageCN: 等手头的事情处理完了我马上就去夏莱拜访您
     MessageEN: ''

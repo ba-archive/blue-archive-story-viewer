@@ -6,7 +6,7 @@ title:
     CharacterId: 20019
     TextJp: Case1. ウサギですよ？
     TextCn: Case1. 是兔子哦？
-    TextKr: ''
+    TextKr: Case 1. 토끼랍니다?
     TextEn: ''
     TextTh: ''
     TextTw: ''
@@ -15,7 +15,7 @@ title:
     CharacterId: 20019
     TextJp: Case2. ゆっくり休んでください
     TextCn: Case2. 请好好休息
-    TextKr: ''
+    TextKr: Case 2. 편히 쉬세요.
     TextEn: ''
     TextTh: ''
     TextTw: ''
@@ -24,7 +24,7 @@ title:
     CharacterId: 20019
     TextJp: Case3. 勉強の時間ですね？
     TextCn: Case3. 是学习时间吧？
-    TextKr: ''
+    TextKr: Case 3. 공부할 시간이군요?
     TextEn: ''
     TextTh: ''
     TextTw: ''
@@ -33,7 +33,7 @@ title:
     CharacterId: 20019
     TextJp: Case4. 一日秘書、待機中です
     TextCn: Case4. 一日秘书，待命中
-    TextKr: ''
+    TextKr: Case 4. 일일 비서, 대령했습니다.
     TextEn: ''
     TextTh: ''
     TextTw: ''

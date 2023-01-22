@@ -6,7 +6,7 @@ title:
     CharacterId: 10055
     TextJp: さりげなく
     TextCn: 若无其事地
-    TextKr: ''
+    TextKr: 은근하게
     TextEn: ''
     TextTh: ''
     TextTw: ''
@@ -15,7 +15,7 @@ title:
     CharacterId: 10055
     TextJp: しれっと
     TextCn: 泰然自若地
-    TextKr: ''
+    TextKr: 능청맞게
     TextEn: ''
     TextTh: ''
     TextTw: ''
@@ -24,7 +24,7 @@ title:
     CharacterId: 10055
     TextJp: まったりと
     TextCn: 悠闲地
-    TextKr: ''
+    TextKr: 오붓하게
     TextEn: ''
     TextTh: ''
     TextTw: ''
@@ -33,7 +33,7 @@ title:
     CharacterId: 10055
     TextJp: 素直に
     TextCn: 直率地
-    TextKr: ''
+    TextKr: 솔직하게
     TextEn: ''
     TextTh: ''
     TextTw: ''
@@ -1150,7 +1150,7 @@ content:
     FeedbackTimeMillisec: 0
     MessageType: Text
     ImagePath: ''
-    MessageKR: 맛술이 필요하면 청주를 쓰도록 해……
+    MessageKR: 맛술이 필요하면 청주를 쓰도록 해…….
     MessageJP: 料理には清酒でね
     MessageCN: 做料理的话要用清酒哦
     MessageEN: ''
@@ -1168,7 +1168,7 @@ content:
     FeedbackTimeMillisec: 0
     MessageType: Text
     ImagePath: ''
-    MessageKR: 보드카는 요리에도 사용 금지야
+    MessageKR: 보드카는 요리에도 사용 금지야.
     MessageJP: ウォッカはダメだよ
     MessageCN: 伏特加是不能用的哦
     MessageEN: ''

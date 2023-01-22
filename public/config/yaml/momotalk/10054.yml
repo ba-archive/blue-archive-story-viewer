@@ -6,7 +6,7 @@ title:
     CharacterId: 10054
     TextJp: 慣れない装い
     TextCn: 不习惯的着装
-    TextKr: ''
+    TextKr: 익숙지 않은 복장
     TextEn: ''
     TextTh: ''
     TextTw: ''
@@ -15,7 +15,7 @@ title:
     CharacterId: 10054
     TextJp: ベンチの片隅の修道女
     TextCn: 长椅一隅的修女
-    TextKr: ''
+    TextKr: 벤치 위의 시스터
     TextEn: ''
     TextTh: ''
     TextTw: ''
@@ -24,7 +24,7 @@ title:
     CharacterId: 10054
     TextJp: マリーのお礼
     TextCn: 玛丽的谢礼
-    TextKr: ''
+    TextKr: 마리의 답례
     TextEn: ''
     TextTh: ''
     TextTw: ''
@@ -78,7 +78,7 @@ content:
     MessageType: Text
     ImagePath: ''
     MessageKR: 아무래도 혼자서는 해결되지 않는 고민이 있어서요……
-    MessageJP: その、私だけではどうにも難しく……
+    MessageJP: 私だけでは、どうにも難しく……
     MessageCN: 那个，光靠我自己想办法的话，这件事有点难办……
     MessageEN: ''
     MessageTH: ''
@@ -168,7 +168,7 @@ content:
     MessageType: Text
     ImagePath: ''
     MessageKR: 아니에요. 나쁜 일은 아니니 걱정해주지 않으셔도 돼요.
-    MessageJP: それに、危険な事に巻き込まれているとかでもないので大丈夫です
+    MessageJP: その……危険な事に巻き込まれているとかではないのですが……
     MessageCN: 而且我也没有被卷进什么危险的事里，所以请老师不必担心
     MessageEN: ''
     MessageTH: ''

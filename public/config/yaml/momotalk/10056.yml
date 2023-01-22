@@ -59,7 +59,7 @@ content:
     FeedbackTimeMillisec: 1000
     MessageType: Text
     ImagePath: ''
-    MessageKR: 메리 크리스마스, 에요!
+    MessageKR: 메리 크리스마스, 예요!
     MessageJP: メリークリスマスです！
     MessageCN: 圣诞快乐！
     MessageEN: ''
@@ -131,7 +131,7 @@ content:
     FeedbackTimeMillisec: 1500
     MessageType: Text
     ImagePath: ''
-    MessageKR: 선생님도 괜찮으시다면, 한 번 보러 오시겠어요?
+    MessageKR: 선생님도 괜찮으시다면, 한번 보러 오시겠어요?
     MessageJP: もしよろしければ、先生も見に来ませんか？
     MessageCN: 如果老师方便的话，可以来看看吗？
     MessageEN: ''

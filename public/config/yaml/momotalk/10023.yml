@@ -108,9 +108,9 @@ content:
     MessageJP: 今度ゲヘナに来るときに、日焼け止めを買ってきて欲しくて
     MessageCN: 下次老师来格黑娜的时候，麻烦老师买一瓶防晒霜带过来
     MessageEN: Could you bring me sunscreen next time you visit Gehenna Academy?
-    MessageTH: |-
-      คราวหน้าถ้าแวะมาที่เกเฮนน่า ช่วยซื้อ
-      แทนนิ่งออยล์มาให้หน่อยสิ
+    MessageTH: 'คราวหน้าถ้าแวะมาที่เกเฮนน่า ช่วยซื้อ
+
+      แทนนิ่งออยล์มาให้หน่อยสิ'
     MessageTW: 下次來格黑娜的時候，想請你幫忙買個防曬乳
   - MessageGroupId: 100230040
     Id: 100230050
@@ -127,14 +127,16 @@ content:
     MessageKR: 전에 쓰던 것이 다 떨어져서 하계 합숙을 앞두고 새로 구입하려 했는데, 선도부 일이 너무 바빠서 말이야.
     MessageJP: ずっと使ってたのが無くなっちゃったから、合宿前に買おうと思ってたんだけど
     MessageCN: 之前防晒霜已经用完了，本来想在集训前再买一瓶
-    MessageEN: >-
+    MessageEN:
       I ran out of sunscreen before summer camp, and Prefect Team work is
       keeping me busy.
-    MessageTH: |-
-      อันที่ใช้อยู่มันจะหมดแล้ว และเราก็
+    MessageTH: 'อันที่ใช้อยู่มันจะหมดแล้ว และเราก็
+
       ใกล้จะไปเข้าค่ายฤดูร้อนกันแล้วด้วย
+
       แต่งานของคณะกรรมการวินัยยุ่งซะ
-      จนฉันไม่มีเวลาออกไปซื้อเลย
+
+      จนฉันไม่มีเวลาออกไปซื้อเลย'
     MessageTW: 因為一直使用的用完了，所以想在合宿之前添購
   - MessageGroupId: 100230040
     Id: 100230060
@@ -152,9 +154,9 @@ content:
     MessageJP: 思ったよりも委員会の仕事が忙しくって……
     MessageCN: 但是委员会的工作比我想得要忙……
     MessageEN: I don't have time to go out to buy more.
-    MessageTH: |-
-      ยุ่งจนไม่มีเวลาปลีกตัวเข้าไปในเมือง
-      ได้เลย
+    MessageTH: 'ยุ่งจนไม่มีเวลาปลีกตัวเข้าไปในเมือง
+
+      ได้เลย'
     MessageTW: 但糾察部的工作比想像中還要忙……
   - MessageGroupId: 100230050
     Id: 100230070
@@ -244,7 +246,7 @@ content:
     MessageJP: ……準備はできたか？
     MessageCN: ……准备好了吗？
     MessageEN: You have what I asked for, right?
-    MessageTH: ...เตรียมของพร้อมแล้วใช่ไหม?
+    MessageTH: '...เตรียมของพร้อมแล้วใช่ไหม?'
     MessageTW: ……準備好了嗎？
   - MessageGroupId: 100230080
     Id: 100230120
@@ -262,9 +264,9 @@ content:
     MessageJP: 念押しになるけど、絶対に他の生徒には言うなよ！
     MessageCN: 再强调一遍，绝对不准和其他学生说啊！
     MessageEN: Again, you can't tell other students about it!
-    MessageTH: |-
-      ขอบอกอีกครั้งนะว่าห้ามบอกคนอื่น
-      เด็ดขาดเลย!
+    MessageTH: 'ขอบอกอีกครั้งนะว่าห้ามบอกคนอื่น
+
+      เด็ดขาดเลย!'
     MessageTW: 再提醒一次，絕對不准跟其他學生說！
   - MessageGroupId: 100230090
     Id: 100230130
@@ -282,7 +284,7 @@ content:
     MessageJP: ……イオリ？
     MessageCN: ……伊织？
     MessageEN: Iori?
-    MessageTH: ...อิโอริ?
+    MessageTH: '...อิโอริ?'
     MessageTW: ……伊織？
   - MessageGroupId: 100230090
     Id: 100230140
@@ -318,7 +320,7 @@ content:
     MessageJP: ……は？
     MessageCN: ……哈？
     MessageEN: Sensei?
-    MessageTH: ...คุณครู?
+    MessageTH: '...คุณครู?'
     MessageTW: ……哈？
   - MessageGroupId: 100230110
     Id: 100230160
@@ -426,10 +428,11 @@ content:
     MessageJP: おかげで、お世辞にも習得したとは言えないけど、何とか泳げるくらいにはなったし……
     MessageCN: 托老师的福，虽然不能说是学会了，但至少勉强算会游的程度了……
     MessageEN: I'm still not used to it, but I know how to swim now.
-    MessageTH: |-
-      คุณครูมาช่วยฝึกแบบนี้ ถึงจะว่ายน้ำ
+    MessageTH: 'คุณครูมาช่วยฝึกแบบนี้ ถึงจะว่ายน้ำ
+
       ไม่แข็งเท่าไหร่ แต่ก็คงไปเล่นน้ำได้
-      แล้วล่ะ
+
+      แล้วล่ะ'
     MessageTW: 託你的福，雖說還不是很熟練，但總算會游一點了……
   - MessageGroupId: 100230140
     Id: 100230220
@@ -554,13 +557,14 @@ content:
     MessageKR: 방금 들어온 신고에 따르면 바다의 집 앞에서 불량 학생들이 행패를 부리고 있나 봐.
     MessageJP: 連絡が入ったんだけど、どうやら海の家の近くでチンピラたちが暴れてるらしい
     MessageCN: 这边刚刚收到消息，海之家附近似乎有混混在闹事
-    MessageEN: >-
-      We just got a report that some delinquents are causing a scene in front of
-      the Beach Shack!
-    MessageTH: |-
-      ตามที่มีคนแจ้งเข้ามา มีพวกเด็กเกเร
+    MessageEN:
+      We just got a report that some delinquents are causing a scene in front
+      of the Beach Shack!
+    MessageTH: 'ตามที่มีคนแจ้งเข้ามา มีพวกเด็กเกเร
+
       กำลังก่อความวุ่นวายอยู่ที่ด้านหน้า
-      ร้านริมทะเล
+
+      ร้านริมทะเล'
     MessageTW: 我收到聯絡，海之家附近似乎有不良分子在滋事
   - MessageGroupId: 100230210
     Id: 100230290
@@ -578,10 +582,11 @@ content:
     MessageJP: ゲヘナの風紀委員会として、放っておくわけにはいかない
     MessageCN: 我们格黑娜的风纪委员会不能坐视不管
     MessageEN: I can't simply sit back as a Gehenna prefect!
-    MessageTH: |-
-      ในฐานะสมาชิกคณะกรรมการวินัย
+    MessageTH: 'ในฐานะสมาชิกคณะกรรมการวินัย
+
       เกเฮนน่า คงปล่อยให้เกิดเรื่องวุ่นวาย
-      แบบนี้ไม่ได้!
+
+      แบบนี้ไม่ได้!'
     MessageTW: 身為格黑娜的糾察部，可不能放任不管
   - MessageGroupId: 100230210
     Id: 100230300
@@ -617,9 +622,9 @@ content:
     MessageJP: あ、海に落ちるかもだし、水着の方が良いと思う！
     MessageCN: 啊，有落海的可能，所以最好穿泳装来！
     MessageEN: We may have to go into the water, so bring your swimsuit.
-    MessageTH: |-
-      อาจจะต้องลุยน้ำก็ได้ งั้นเตรียม
-      ชุดว่ายน้ำมาด้วยล่ะ!
+    MessageTH: 'อาจจะต้องลุยน้ำก็ได้ งั้นเตรียม
+
+      ชุดว่ายน้ำมาด้วยล่ะ!'
     MessageTW: 啊，可能會掉進海裡，我想最好穿泳衣過來！
   - MessageGroupId: 100230220
     Id: 100230320
@@ -637,7 +642,7 @@ content:
     MessageJP: え、待って待って！？
     MessageCN: 诶，等等！？
     MessageEN: Wait. Why would I have to go into the water?
-    MessageTH: ...เดี๋ยวสิ ครูต้องไปด้วยเหรอ?
+    MessageTH: '...เดี๋ยวสิ ครูต้องไปด้วยเหรอ?'
     MessageTW: 咦，等一下等一下！？
   - MessageGroupId: 100230230
     Id: 100230330
@@ -655,9 +660,9 @@ content:
     MessageJP: 先生。さっきフロントで、半日以上戻ってきてないって聞いたんだけど……
     MessageCN: 刚刚听前台说老师已经大半天没有回来了
     MessageEN: Sensei, the front desk told me you haven't been back in days.
-    MessageTH: |-
-      คุณครู เมื่อกี้ฉันถามพนักงานแล้ว
-      เขาบอกว่าพวกนั้นหายไปครึ่งวันแล้ว...
+    MessageTH: 'คุณครู เมื่อกี้ฉันถามพนักงานแล้ว
+
+      เขาบอกว่าพวกนั้นหายไปครึ่งวันแล้ว...'
     MessageTW: 老師。剛才聽櫃台說你已經半天沒有回來了……
   - MessageGroupId: 100230240
     Id: 100230340
@@ -747,7 +752,7 @@ content:
     MessageJP: は……？どうして？
     MessageCN: 哈……？为什么？
     MessageEN: Why?
-    MessageTH: ...ทำไมล่ะ?
+    MessageTH: '...ทำไมล่ะ?'
     MessageTW: 哈……？為什麼？
   - MessageGroupId: 100230280
     Id: 100230390
