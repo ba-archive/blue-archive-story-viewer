@@ -11,7 +11,7 @@ specifiers:
   '@vue/compiler-sfc': 3.x
   '@vue/eslint-config-typescript': 11.0.2
   axios: 1.2.3
-  axios-retry: 3.3.1
+  axios-retry: 3.4.0
   chalk: 5.2.0
   eslint: 8.32.0
   eslint-config-prettier: 8.6.0
@@ -43,7 +43,7 @@ specifiers:
 dependencies:
   '@vue/compiler-sfc': 3.2.45
   axios: 1.2.3
-  axios-retry: 3.3.1
+  axios-retry: 3.4.0
   fastest-levenshtein: 1.0.16
   pinia: 2.0.29_prq2uz4lho2pwp6irk4cfkrxwu
   pinia-plugin-persistedstate: 3.0.2_pinia@2.0.29
@@ -2353,8 +2353,8 @@ packages:
       postcss-value-parser: 4.2.0
     dev: true
 
-  /axios-retry/3.3.1:
-    resolution: {integrity: sha512-RohAUQTDxBSWLFEnoIG/6bvmy8l3TfpkclgStjl5MDCMBDgapAWCmr1r/9harQfWC8bzLC8job6UcL1A1Yc+/Q==}
+  /axios-retry/3.4.0:
+    resolution: {integrity: sha512-VdgaP+gHH4iQYCCNUWF2pcqeciVOdGrBBAYUfTY+wPcO5Ltvp/37MLFNCmJKo7Gj3SHvCSdL8ouI1qLYJN3liA==}
     dependencies:
       '@babel/runtime': 7.19.4
       is-retry-allowed: 2.2.0
