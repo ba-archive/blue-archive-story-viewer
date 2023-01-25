@@ -1016,13 +1016,13 @@
     en: Kosaka
     kr: 코사카
     tw: 狐坂
-    th: 狐坂
+    th: โคซากะ
   name:
     cn: 若藻(泳装)
     jp: ワカモ（水着）
     en: Wakamo (Swimsuit)
     kr: 와카모(수영복)
-    tw: 若藻(泳裝)
+    tw: 若藻（泳裝）
     th: วาคาโมะ (ชุดว่ายน้ำ)
   nickname:
     - 水藻
@@ -1039,13 +1039,13 @@
     en: Izayoi
     kr: 이자요이
     tw: 十六夜
-    th: 十六夜
+    th: อิซาโยอิ
   name:
     cn: 野宫(泳装)
     jp: ノノミ（水着）
     en: Nonomi (Swimsuit)
     kr: 노노미(수영복)
-    tw: 野乃美(泳裝)
+    tw: 野乃美（泳裝）
     th: โนโนมิ (ชุดว่ายน้ำ)
   nickname:
     - 水富婆
@@ -1063,13 +1063,13 @@
     en: Takanashi
     kr: 타카나시
     tw: 小鳥遊
-    th: 小鳥遊
+    th: ทาคานาชิ
   name:
     cn: 星野(泳装)
     jp: ホシノ（水着）
     en: Hoshino (Swimsuit)
     kr: 호시노(수영복)
-    tw: 星野(泳裝)
+    tw: 星野（泳裝）
     th: โฮชิโนะ (ชุดว่ายน้ำ)
   nickname:
     - 水大叔
@@ -1086,13 +1086,13 @@
     en: Kuda
     kr: 쿠다
     tw: 久田
-    th: 久田
+    th: คุดะ
   name:
     cn: 泉奈(泳装)
     jp: イズナ（水着）
     en: Izuna (Swimsuit)
     kr: 이즈나(수영복)
-    tw: 伊樹菜(泳裝)
+    tw: 伊樹菜（泳裝）
     th: อิซุนะ (ชุดว่ายน้ำ)
   nickname:
     - 小狐狸
@@ -1109,14 +1109,14 @@
     jp: 和楽
     en: Waraku
     kr: 와라쿠
-    tw: 和楽
-    th: 和楽
+    tw: 和樂
+    th: วาราคุ
   name:
     cn: 千世(泳装)
     jp: チセ（水着）
     en: Chise (Swimsuit)
     kr: 치세(수영복)
-    tw: 知世(泳裝)
+    tw: 知世（泳裝）
     th: ชิเซะ (ชุดว่ายน้ำ)
   nickname: []
   club: 阴阳部
@@ -1132,7 +1132,7 @@
     en: Joumae
     kr: 조마에
     tw: 錠前
-    th: 錠前
+    th: โจมาเอะ
   name:
     cn: 纱织
     jp: サオリ
@@ -1151,10 +1151,10 @@
   familyName:
     cn: 杏山
     jp: 杏山
-    en: Kyouyama
+    en: Kyoyama
     kr: 쿄야마
     tw: 杏山
-    th: 杏山
+    th: เคียวยามะ
   name:
     cn: 和纱
     jp: カズサ
@@ -1176,7 +1176,7 @@
     en: Sunohara
     kr: 스노하라
     tw: 春原
-    th: 春原
+    th: สึโนฮาระ
   name:
     cn: 心奈
     jp: ココナ
@@ -1375,6 +1375,50 @@
   type: Striker
   armorType: LightArmor
   weapon: SG
+- id: 10059
+  familyName:
+    cn: 圣园
+    jp: 聖園
+    en: Misono
+    kr: 미소노
+    tw: 聖園
+    th: 聖園
+  name:
+    cn: 未花
+    jp: ミカ
+    en: Mika
+    kr: 미카
+    tw: ミカ
+    th: ミカ
+  nickname: []
+  club: TeaParty
+  affiliation: 圣三一
+  rarity: 3
+  type: Striker
+  armorType: LightArmor
+  weapon: SMG
+- id: 10060
+  familyName:
+    cn: 下仓
+    jp: 下倉
+    en: Shimokura
+    kr: 시모쿠라
+    tw: 下倉
+    th: 下倉
+  name:
+    cn: 惠
+    jp: メグ
+    en: Megu
+    kr: 메구
+    tw: メグ
+    th: メグ
+  nickname: []
+  club: HotSpringsDepartment
+  affiliation: 格黑娜
+  rarity: 3
+  type: Striker
+  armorType: Unarmed
+  weapon: FT
 - id: 13000
   familyName:
     cn: 室笠
@@ -2418,7 +2462,7 @@
     en: Kazekura
     kr: 카제쿠라
     tw: 風倉
-    th: 風倉
+    th: คาเซะคุระ
   name:
     cn: 萌绘
     jp: モエ
@@ -2523,6 +2567,28 @@
   type: Special
   armorType: Unarmed
   weapon: SMG
+- id: 20023
+  familyName:
+    cn: 尾刃
+    jp: 尾刃
+    en: Ogata
+    kr: 오가타
+    tw: 尾刃
+    th: 尾刃
+  name:
+    cn: 康娜
+    jp: カンナ
+    en: Kanna
+    kr: 칸나
+    tw: カンナ
+    th: カンナ
+  nickname: []
+  club: PublicPeaceBureau
+  affiliation: 瓦尔基里
+  rarity: 3
+  type: Special
+  armorType: HeavyArmor
+  weapon: HG
 - id: 23000
   familyName:
     cn: 栗村
@@ -2892,13 +2958,13 @@
     en: Okusora
     kr: 오쿠소라
     tw: 奥空
-    th: 奥空
+    th: โอคุโซระ
   name:
     cn: 绫音(泳装)
     jp: アヤネ（水着）
     en: Ayane (Swimsuit)
     kr: 아야네(수영복)
-    tw: 綾音(泳裝)
+    tw: 綾音（泳裝）
     th: อายาเนะ (ชุดว่ายน้ำ)
   nickname:
     - 水绫音
@@ -2916,13 +2982,13 @@
     en: Kawawa
     kr: 카와와
     tw: 河和
-    th: 河和
+    th: คาวาวะ
   name:
     cn: 静子(泳装)
     jp: シズコ（水着）
     en: Shizuko (Swimsuit)
     kr: 시즈코(수영복)
-    tw: 靜子(泳裝)
+    tw: 靜子（泳裝）
     th: ชิซุโกะ (ชุดว่ายน้ำ)
   nickname:
     - 水静子
