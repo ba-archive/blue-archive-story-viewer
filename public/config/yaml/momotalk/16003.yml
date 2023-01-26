@@ -37,6 +37,15 @@ title:
     TextEn: Girl Chases Sparkles
     TextTh: เด็กสาวกับดาววิบวับ
     TextTw: 少女總是追逐著耀眼的事物
+  - GroupId: 1600320
+    FavorScheduleId: 1600320
+    CharacterId: 16003
+    TextJp: 大切なパートナー
+    TextCn: 重要的伙伴
+    TextKr: 특별한 동료들
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
 content:
   - MessageGroupId: 160030010
     Id: 1741
@@ -54,9 +63,9 @@ content:
     MessageJP: こんにちは、先生。スズミです。覚えていらっしゃいますでしょうか
     MessageCN: 您好，老师。我是铃美。老师还记得我吗
     MessageEN: Hello, Sensei. It's Suzumi. I'm not sure if you remember me.
-    MessageTH: 'สวัสดีค่ะคุณครู สึซึมินะคะ คุณครูจำฉัน
-
-      ได้รึเปล่าคะ?'
+    MessageTH: |-
+      สวัสดีค่ะคุณครู สึซึมินะคะ คุณครูจำฉัน
+      ได้รึเปล่าคะ?
     MessageTW: 你好，老師。我是鈴美。不知道你還記不記得我呢
   - MessageGroupId: 160030020
     Id: 1742
@@ -73,12 +82,12 @@ content:
     MessageKR: 안부 차 연락드렸습니다. 바쁘셨다면 죄송합니다.
     MessageJP: まずは挨拶だけでもと、ご連絡しました。お忙しいところすみません
     MessageCN: 我想着先打个招呼比较好，就给老师发了消息。很抱歉百忙之中打扰到您
-    MessageEN:
-      I just wanted to see how you were doing. Sorry if you're in the middle
-      of something.
-    MessageTH: 'ฉันแค่มาทักทายเท่านั้นค่ะ ถ้าคุณครูยุ่ง
-
-      อยู่ก็ขอโทษนะคะ'
+    MessageEN: >-
+      I just wanted to see how you were doing. Sorry if you're in the middle of
+      something.
+    MessageTH: |-
+      ฉันแค่มาทักทายเท่านั้นค่ะ ถ้าคุณครูยุ่ง
+      อยู่ก็ขอโทษนะคะ
     MessageTW: 想說先打個招呼，所以就連絡你了。百忙之中打擾你不好意思
   - MessageGroupId: 160030020
     Id: 1743
@@ -132,9 +141,9 @@ content:
     MessageJP: スズミです。先生、無事にお家に着きましたか？
     MessageCN: 我是铃美。老师安全到家了吗？
     MessageEN: It's Suzumi. Did you get back safely, Sensei?
-    MessageTH: 'สึซึมินะคะ
-
-      คุณครูกลับถึงบ้านแล้วรึยังคะ?'
+    MessageTH: |-
+      สึซึมินะคะ
+      คุณครูกลับถึงบ้านแล้วรึยังคะ?
     MessageTW: 我是鈴美。老師，你平安到家了嗎？
   - MessageGroupId: 160030050
     Id: 1746
@@ -242,9 +251,9 @@ content:
     MessageJP: 私が必要な時はいつでも言ってください。すぐにそばに行きます
     MessageCN: 如果老师需要我的话，请随时和我说。我会马上赶到的
     MessageEN: Just let me know if you ever need anything. I'll be right over.
-    MessageTH: 'ถ้าจำเป็นก็เรียกฉันได้ตลอดนะคะ
-
-      ฉันจะมาหาทันทีค่ะ'
+    MessageTH: |-
+      ถ้าจำเป็นก็เรียกฉันได้ตลอดนะคะ
+      ฉันจะมาหาทันทีค่ะ
     MessageTW: 需要我的時候請隨時跟我說。我會馬上趕到你身邊的
   - MessageGroupId: 160030070
     Id: 1752
@@ -261,8 +270,8 @@ content:
     MessageKR: ……
     MessageJP: ……えっと、
     MessageCN: ……那个
-    MessageEN: '...'
-    MessageTH: '...'
+    MessageEN: ...
+    MessageTH: ...
     MessageTW: ……那個
   - MessageGroupId: 160030080
     Id: 1753
@@ -316,9 +325,9 @@ content:
     MessageJP: 今日みたいに、エスコートが必要な時はいつでも言ってください
     MessageCN: 正如今天这样，如果老师还有护送需求的话，请随时联系
     MessageEN: As I mentioned before, just let me know if you need an escort.
-    MessageTH: 'อย่างที่ฉันเคยบอกไป ถ้าคุณครูต้องการ
-
-      คนไปคุ้มกันก็บอกฉันได้ตลอดเลยนะคะ'
+    MessageTH: |-
+      อย่างที่ฉันเคยบอกไป ถ้าคุณครูต้องการ
+      คนไปคุ้มกันก็บอกฉันได้ตลอดเลยนะคะ
     MessageTW: 就像今天這樣，如果需要護送的時候請隨時通知我
   - MessageGroupId: 160030100
     Id: 1756
@@ -336,9 +345,9 @@ content:
     MessageJP: 私が先生の目的地まで安全にお送りしますので
     MessageCN: 我会将老师安全地送到目的地的
     MessageEN: I'll take you safely to your destination.
-    MessageTH: 'ฉันจะคอยคุ้มกันคุณครูไปถึงที่หมายให้
-
-      อย่างปลอดภัยเองค่ะ'
+    MessageTH: |-
+      ฉันจะคอยคุ้มกันคุณครูไปถึงที่หมายให้
+      อย่างปลอดภัยเองค่ะ
     MessageTW: 我會將老師安全地送到目的地的
   - MessageGroupId: 160030110
     Id: 1757
@@ -374,9 +383,9 @@ content:
     MessageJP: 女子高生怖い！助けてスズミ！
     MessageCN: 女高中生好可怕！铃美救救我！
     MessageEN: High-schoolers are so scary! Please protect me!
-    MessageTH: 'พวกเด็กผู้หญิงนี่น่ากลัวจังเลย!
-
-      ช่วยดูแลครูด้วยนะ!'
+    MessageTH: |-
+      พวกเด็กผู้หญิงนี่น่ากลัวจังเลย!
+      ช่วยดูแลครูด้วยนะ!
     MessageTW: 女高中生好恐怖！鈴美幫幫我！
   - MessageGroupId: 160030120
     Id: 1759
@@ -411,8 +420,8 @@ content:
     MessageKR: ……
     MessageJP: ……えっと
     MessageCN: ……话说
-    MessageEN: '...'
-    MessageTH: '...'
+    MessageEN: ...
+    MessageTH: ...
     MessageTW: ……話說
   - MessageGroupId: 160030130
     Id: 1761
@@ -484,9 +493,9 @@ content:
     MessageJP: では、今日のお出かけの時間までにシャーレ前に行きますので
     MessageCN: 那么，今天我会在老师出发的时间到夏莱大楼前面的
     MessageEN: I'll be waiting for you out front.
-    MessageTH: 'ถ้างั้นฉันจะไปดักรอตอนที่คุณครูออกมา
-
-      ก็แล้วกันค่ะ'
+    MessageTH: |-
+      ถ้างั้นฉันจะไปดักรอตอนที่คุณครูออกมา
+      ก็แล้วกันค่ะ
     MessageTW: 那麼，我會在老師要出發的時候到夏萊那邊的
   - MessageGroupId: 160030140
     Id: 1765
@@ -576,9 +585,9 @@ content:
     MessageJP: よろしければいつでも呼んでくださいね
     MessageCN: 如果老师愿意的话，随时欢迎老师叫我
     MessageEN: As I mentioned before, just let me know if you need me.
-    MessageTH: 'ฉันเคยบอกไปแล้วว่าถ้ามีอะไรที่ต้องการ
-
-      ก็บอกได้เลยค่ะ'
+    MessageTH: |-
+      ฉันเคยบอกไปแล้วว่าถ้ามีอะไรที่ต้องการ
+      ก็บอกได้เลยค่ะ
     MessageTW: 如果可以的話歡迎隨時呼叫我
   - MessageGroupId: 160030170
     Id: 1770
@@ -596,9 +605,9 @@ content:
     MessageJP: 今回はエスコートではなく、普通に同行させていただきますので
     MessageCN: 这回不是护送，我只是单纯想和老师同行而已
     MessageEN: I'll come with you as a companion instead of an escort this time.
-    MessageTH: 'คราวนี้ฉันจะไม่ได้ไปคุ้มกัน แต่จะให้ไป
-
-      ด้วยกันแทนค่ะ'
+    MessageTH: |-
+      คราวนี้ฉันจะไม่ได้ไปคุ้มกัน แต่จะให้ไป
+      ด้วยกันแทนค่ะ
     MessageTW: 這次不是護送，只是普通的一起過去
   - MessageGroupId: 160030170
     Id: 1771
@@ -634,9 +643,9 @@ content:
     MessageJP: もちろん、お忙しいようでしたら無理に呼んでいただかなくても……
     MessageCN: 当然，如果老师很忙的话，不叫上我也可以……
     MessageEN: Oh, it's nothing. You must be busy.
-    MessageTH: 'ไม่เป็นไรค่ะ ถ้าคุณครูไม่สะดวกก็ไม่เป็น
-
-      ไรค่ะ'
+    MessageTH: |-
+      ไม่เป็นไรค่ะ ถ้าคุณครูไม่สะดวกก็ไม่เป็น
+      ไรค่ะ
     MessageTW: 當然，如果很忙的話不用勉強叫我也……
   - MessageGroupId: 160030190
     Id: 1773
@@ -707,8 +716,8 @@ content:
     MessageKR: ……
     MessageJP: ……
     MessageCN: ……
-    MessageEN: '...'
-    MessageTH: '...'
+    MessageEN: ...
+    MessageTH: ...
     MessageTW: ……
   - MessageGroupId: 160030220
     Id: 1777
@@ -923,12 +932,12 @@ content:
     MessageKR: 중요한 일은 아니고 그저 개인적인 용무인지라, 바쁘시다면 괜찮습니다.
     MessageJP: 大した用事ではないものの、もし大丈夫でしたら少々お時間をいただきたく……
     MessageCN: 虽然没什么要紧事，但是如果老师愿意的话，我想借用老师一点时间……
-    MessageEN:
-      It's not anything important, just a personal issue. I understand if
-      you're busy.
-    MessageTH: 'ไม่ใช่งานสำคัญหรอกค่ะ แค่ธุระส่วนตัว
-
-      ถ้าคุณครูไม่ว่างก็ไม่เป็นไรค่ะ'
+    MessageEN: >-
+      It's not anything important, just a personal issue. I understand if you're
+      busy.
+    MessageTH: |-
+      ไม่ใช่งานสำคัญหรอกค่ะ แค่ธุระส่วนตัว
+      ถ้าคุณครูไม่ว่างก็ไม่เป็นไรค่ะ
     MessageTW: 雖然不是什麼大不了的事，但如果沒事的話，請給我一點時間……
   - MessageGroupId: 160030290
     Id: 160030040
@@ -1036,9 +1045,9 @@ content:
     MessageJP: では、後ほど場所についてはお送りしますね
     MessageCN: 那么，待会我把见面地点发给老师吧
     MessageEN: I'll send you the location, okay?
-    MessageTH: 'แต่ถ้าคุณครูสะดวก ฉันจะบอกสถานที่
-
-      นัดพบให้ค่ะ'
+    MessageTH: |-
+      แต่ถ้าคุณครูสะดวก ฉันจะบอกสถานที่
+      นัดพบให้ค่ะ
     MessageTW: 那麼，稍後將地點發送給您
   - MessageGroupId: 160030330
     Id: 160030100
@@ -1092,9 +1101,9 @@ content:
     MessageJP: スズミです。無事に帰られましたでしょうか？
     MessageCN: 我是铃美。老师安全到家了吗？
     MessageEN: Did you arrive home safely, Sensei? It's Suzumi.
-    MessageTH: 'นี่สึซึมิเองค่ะ คุณครูกลับถึงที่พักอย่าง
-
-      ปลอดภัยใช่มั้ยคะ '
+    MessageTH: |-
+      นี่สึซึมิเองค่ะ คุณครูกลับถึงที่พักอย่าง
+      ปลอดภัยใช่มั้ยคะ
     MessageTW: 我是鈴美。您平安回家了嗎？
   - MessageGroupId: 160030360
     Id: 160030130
@@ -1112,9 +1121,9 @@ content:
     MessageJP: 遅い時間にも関わらず、わざわざありがとうございました
     MessageCN: 老师这么晚还特意来陪我，真的非常感谢
     MessageEN: Once again, thank you for coming out so late.
-    MessageTH: 'ขอบคุณอีกครั้งนะคะ ที่อุตส่าห์ออกมา
-
-      หาฉันกลางดึกแบบนี้'
+    MessageTH: |-
+      ขอบคุณอีกครั้งนะคะ ที่อุตส่าห์ออกมา
+      หาฉันกลางดึกแบบนี้
     MessageTW: 雖然時間晚了，但還是想特別說聲謝謝
   - MessageGroupId: 160030370
     Id: 160030140
@@ -1132,9 +1141,9 @@ content:
     MessageJP: もう深夜ですので、こういったメッセージを送って起こしてしまったら……とも思ったのですが
     MessageCN: 虽然已经是深夜了，不知道发消息会不会吵醒老师……
     MessageEN: I know this message might be inappropriate, but...
-    MessageTH: 'ฉันคิดว่าส่งข้อความหาคุณครูกลางดึก
-
-      แบบนี้ก็อาจเป็นการเสียมารยาทอีก...'
+    MessageTH: |-
+      ฉันคิดว่าส่งข้อความหาคุณครูกลางดึก
+      แบบนี้ก็อาจเป็นการเสียมารยาทอีก...
     MessageTW: 因為已經是深夜了，怕說發了訊息會將您吵醒……雖然我是這麼想的
   - MessageGroupId: 160030370
     Id: 160030150
@@ -1152,9 +1161,9 @@ content:
     MessageJP: やはり、感謝を伝えねばと
     MessageCN: 但是，我果然还是想感谢老师
     MessageEN: I thought I should at least say thank you.
-    MessageTH: 'แต่ว่าอย่างน้อยฉันก็อยากส่งข้อความ
-
-      มาขอบคุณคุณครูค่ะ'
+    MessageTH: |-
+      แต่ว่าอย่างน้อยฉันก็อยากส่งข้อความ
+      มาขอบคุณคุณครูค่ะ
     MessageTW: 但果然，還是得表達謝意
   - MessageGroupId: 160030380
     Id: 160030160
@@ -1171,8 +1180,8 @@ content:
     MessageKR: ……
     MessageJP: ……
     MessageCN: ……
-    MessageEN: '...'
-    MessageTH: '...'
+    MessageEN: ...
+    MessageTH: ...
     MessageTW: ……
   - MessageGroupId: 160030390
     Id: 160030170
@@ -1182,7 +1191,7 @@ content:
     PreConditionGroupId: 0
     PreConditionFavorScheduleId: 0
     FavorScheduleId: 0
-    NextGroupId: 0
+    NextGroupId: 160030400
     FeedbackTimeMillisec: 1000
     MessageType: Text
     ImagePath: ''
@@ -1200,7 +1209,7 @@ content:
     PreConditionGroupId: 0
     PreConditionFavorScheduleId: 0
     FavorScheduleId: 0
-    NextGroupId: 0
+    NextGroupId: 160030400
     FeedbackTimeMillisec: 1500
     MessageType: Text
     ImagePath: ''
@@ -1210,3 +1219,435 @@ content:
     MessageEN: I'll look forward to the next time we talk.
     MessageTH: ต่อไปก็ต้องขอรบกวนด้วยนะคะ
     MessageTW: 今後，也請多多關照
+  - MessageGroupId: 160030400
+    Id: 160030190
+    CharacterId: 16003
+    MessageCondition: FavorRankUp
+    ConditionValue: 20
+    PreConditionGroupId: 160030390
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160030410
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 안녕하십니까, 선생님. 스즈미입니다.
+    MessageJP: こんにちは、先生。スズミです
+    MessageCN: 老师，您好。我是铃美
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160030410
+    Id: 160030200
+    CharacterId: 16003
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160030420
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 조만간 트리니티에 방문하실 일이 있다고 들었습니다.
+    MessageJP: 近々、トリニティにいらっしゃるご予定があると伺いました
+    MessageCN: 听说老师最近有来圣三一的安排
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160030410
+    Id: 160030210
+    CharacterId: 16003
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160030420
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 필요하시다면 언제든지
+    MessageJP: その……
+    MessageCN: 那个……
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160030420
+    Id: 160030220
+    CharacterId: 16003
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160030430
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그
+    MessageJP: もし、よろしければ
+    MessageCN: 要是，老师愿意的话
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160030420
+    Id: 160030230
+    CharacterId: 16003
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160030430
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 에스코트나 동행
+    MessageJP: その際に、エスコートをさせていただけたらと思います
+    MessageCN: 老师来访的时候，请允许我护送老师
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160030420
+    Id: 160030240
+    CharacterId: 16003
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160030430
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 어느쪽이든 불러 주시면 함께 하겠습니다.
+    MessageJP: 私はいつでも大丈夫ですので
+    MessageCN: 我随时都能出发
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160030430
+    Id: 160030250
+    CharacterId: 16003
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160030440
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 연락드린 이유는 그것뿐입니다. 감사합니다.
+    MessageJP: ご連絡いただけると、とても嬉しいです
+    MessageCN: 所以如果老师到时候能联系我的话，我会很开心的
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160030440
+    Id: 160030260
+    CharacterId: 16003
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160030450
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 나야 늘 고맙지. 부탁할게, 스즈미.
+    MessageJP: いつもありがとう、スズミ。お願いしてもいい？
+    MessageCN: 谢谢铃美一直这么关心我。那我就拜托铃美护送啦？
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160030440
+    Id: 160030270
+    CharacterId: 16003
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160030450
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오, 그럼 오랜만에 같이 걸을까?
+    MessageJP: じゃあ、久しぶりに二人で歩こうか
+    MessageCN: 那，我们两个就久违地一起走走吧
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160030450
+    Id: 160030280
+    CharacterId: 16003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160030460
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아
+    MessageJP: は、はい
+    MessageCN: 好、好的
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160030460
+    Id: 160030290
+    CharacterId: 16003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160030470
+    FeedbackTimeMillisec: 2000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 넵
+    MessageJP: ありがとうございます。それでは、また
+    MessageCN: 谢谢老师。那就之后见了
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160030470
+    Id: 160030300
+    CharacterId: 16003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 1600320
+    NextGroupId: 160030480
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 감사합니다. 그럼 오셨을 때 찾아뵙겠습니다.
+    MessageJP: いらっしゃる際に伺いますね
+    MessageCN: 老师来的时候我会去接您的
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160030480
+    Id: 160030310
+    CharacterId: 16003
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 160030470
+    PreConditionFavorScheduleId: 1600320
+    FavorScheduleId: 0
+    NextGroupId: 160030490
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 오늘 일은 여러모로 감사합니다.
+    MessageJP: 今日は本当にありがとうございました
+    MessageCN: 今天真的十分感谢老师
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160030490
+    Id: 160030320
+    CharacterId: 16003
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160030500
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 덕분에 생각지도 않게, 많은 부분들이 즐거워졌습니다.
+    MessageJP: 先生のおかげで、とても楽しかったです
+    MessageCN: 有老师在，我很开心
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160030500
+    Id: 160030330
+    CharacterId: 16003
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160030510
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 에스코트 받은 건 접니다만?
+    MessageJP: ありがとう。私も楽しかったよ
+    MessageCN: 谢谢。我也很开心哦
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160030500
+    Id: 160030340
+    CharacterId: 16003
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160030510
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 나야말로 고맙지. 앞으로 잘 부탁해.
+    MessageJP: こちらこそ、これからもよろしくね
+    MessageCN: 我才是，今后也请铃美多多关照啦
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160030510
+    Id: 160030350
+    CharacterId: 16003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160030520
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그
+    MessageJP: いや
+    MessageCN: 不
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160030520
+    Id: 160030360
+    CharacterId: 16003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160030530
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아니
+    MessageJP: それは、その……
+    MessageCN: 那个，就是……
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160030530
+    Id: 160030370
+    CharacterId: 16003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160030540
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 네.
+    MessageJP: はい
+    MessageCN: 好的
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160030530
+    Id: 160030380
+    CharacterId: 16003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160030540
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 앞으로도 잘 부탁드립니다, 선생님.
+    MessageJP: これからもよろしくお願いします、先生
+    MessageCN: 老师，今后就请多多关照了
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160030540
+    Id: 160030390
+    CharacterId: 16003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 160030550
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 무슨 일 있으시면, 언제든지 편하게 연락 주시기 바랍니다.
+    MessageJP: 何かありましたら、お気軽にご連絡ください
+    MessageCN: 要是老师那边有什么事的话，请随时联系我
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160030550
+    Id: 160030400
+    CharacterId: 16003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 0
+    FeedbackTimeMillisec: 2000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그리고 저 또한,
+    MessageJP: いえ
+    MessageCN: 不
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160030550
+    Id: 160030410
+    CharacterId: 16003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 0
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 굳이
+    MessageJP: 理由なんてなくても大丈夫です
+    MessageCN: 哪怕没有什么理由也可以的
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 160030550
+    Id: 160030420
+    CharacterId: 16003
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 0
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 에스코트 쪽이 아니더라도, 언제든 괜찮습니다.
+    MessageJP: ……先生なら、いつでも
+    MessageCN: ……只要是老师，就随时都可以
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''

@@ -46,6 +46,15 @@ title:
     TextEn: Shining Night
     TextTh: ค่ำคืนที่ดาวระยิบระยับ
     TextTw: 閃耀的黑夜
+  - GroupId: 1000820
+    FavorScheduleId: 1000820
+    CharacterId: 10008
+    TextJp: スカジャンの理由
+    TextCn: 穿棒球夹克的理由
+    TextKr: 스카잔을 입는 이유
+    TextEn: ''
+    TextTh: ''
+    TextTw: ''
 content:
   - MessageGroupId: 100080010
     Id: 644
@@ -81,9 +90,9 @@ content:
     MessageJP: ミレニアムでも見かけねえし、タイミングが合ったら久々に来たらどうだ？
     MessageCN: 在千年也好久见不到人，老师有空的话来一趟如何？
     MessageEN: You should stop by the Millennium School sometime.
-    MessageTH: 'แวะมาเจอหน้ากันที่โรงเรียนมิลเลเนียม
-
-      บ้างสิ'
+    MessageTH: |-
+      แวะมาเจอหน้ากันที่โรงเรียนมิลเลเนียม
+      บ้างสิ
     MessageTW: 在千年也沒見到面，時機合適的話，要不久違地來一下呢？
   - MessageGroupId: 100080020
     Id: 646
@@ -101,9 +110,9 @@ content:
     MessageJP: あたしも忙しいけど、ちょっと会うくらいの時間は作れるからさ
     MessageCN: 我虽然也很忙吧，但是稍微见一面的时间还是能挤出来的
     MessageEN: I'm busy too, but I can make time to see you!
-    MessageTH: 'ถึงฉันจะยุ่งแค่ไหน แต่ก็มีเวลามาเจอหน้า
-
-      ครูนะ'
+    MessageTH: |-
+      ถึงฉันจะยุ่งแค่ไหน แต่ก็มีเวลามาเจอหน้า
+      ครูนะ
     MessageTW: 雖然我也很忙，但能抽出時間見面
   - MessageGroupId: 100080030
     Id: 647
@@ -337,9 +346,9 @@ content:
     MessageJP: 信じられねえけど……どうやら風邪引いたみたいだ
     MessageCN: 真不敢相信……我好像感冒了
     MessageEN: I can't believe this, but...I think I caught a cold.
-    MessageTH: 'ฉันเองก็ไม่อยากจะเชื่อเลย แต่ดูเหมือน
-
-      ว่าจะเป็นหวัดน่ะ'
+    MessageTH: |-
+      ฉันเองก็ไม่อยากจะเชื่อเลย แต่ดูเหมือน
+      ว่าจะเป็นหวัดน่ะ
     MessageTW: 真不敢相信……好像感冒了
   - MessageGroupId: 100080110
     Id: 660
@@ -626,14 +635,13 @@ content:
     MessageKR: 하아. 요새 지각이랑 결석을 너무 많이 해서 출결이 아슬아슬하네.
     MessageJP: 最近遅刻と欠席のしすぎで、出席日数がギリギリでよぉ……
     MessageCN: 我最近迟到还有旷课次数太多了，出勤天数有点危险啊……
-    MessageEN:
-      "*sigh* I've missed so much class lately, my attendance is basically
-      nonexistent."
-    MessageTH: 'เฮ้อ ช่วงหลังนี้ฉันทั้งเข้าสายและขาด
-
+    MessageEN: >-
+      *sigh* I've missed so much class lately, my attendance is basically
+      nonexistent.
+    MessageTH: |-
+      เฮ้อ ช่วงหลังนี้ฉันทั้งเข้าสายและขาด
       เรียนบ่อย พอออกไปไหนก็หวาดเสียว
-
-      ทุกที'
+      ทุกที
     MessageTW: 最近因為遲到和缺席太多，出席天數岌岌可危
   - MessageGroupId: 100080200
     Id: 676
@@ -776,8 +784,8 @@ content:
     MessageKR: …….
     MessageJP: ……
     MessageCN: ……
-    MessageEN: '...'
-    MessageTH: '......'
+    MessageEN: ...
+    MessageTH: ......
     MessageTW: ……
   - MessageGroupId: 100080250
     Id: 684
@@ -1029,9 +1037,9 @@ content:
     MessageJP: あの場所に行きたいときはあたしに言えよ！一緒に行くから！
     MessageCN: 老师要是还想去那个地方的话就和我说吧！到时候我们一起去！
     MessageEN: Let me know if you want to head over there! We'll go together!
-    MessageTH: 'ถ้าอยากไปที่นั่นก็บอกฉันได้เลย! แล้ว
-
-      ฉันจะไปเป็นเพื่อน'
+    MessageTH: |-
+      ถ้าอยากไปที่นั่นก็บอกฉันได้เลย! แล้ว
+      ฉันจะไปเป็นเพื่อน
     MessageTW: 想去那個地方就跟我說一聲！我們一起去！
   - MessageGroupId: 100080330
     Id: 698
@@ -1059,7 +1067,7 @@ content:
     PreConditionGroupId: 0
     PreConditionFavorScheduleId: 0
     FavorScheduleId: 0
-    NextGroupId: 0
+    NextGroupId: 100080350
     FeedbackTimeMillisec: 0
     MessageType: Text
     ImagePath: ''
@@ -1069,3 +1077,345 @@ content:
     MessageEN: All right, I promise.
     MessageTH: ได้เลย ครูสัญญา
     MessageTW: 嗯，知道了。約定。今天謝啦
+  - MessageGroupId: 100080350
+    Id: 100080010
+    CharacterId: 10008
+    MessageCondition: FavorRankUp
+    ConditionValue: 20
+    PreConditionGroupId: 100080340
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100080360
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아
+    MessageJP: よっ、先生
+    MessageCN: 哟，老师
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100080360
+    Id: 100080020
+    CharacterId: 10008
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100080370
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 심심하다
+    MessageJP: 暇なんだけどよ
+    MessageCN: 我现在闲得很啊
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100080360
+    Id: 100080030
+    CharacterId: 10008
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100080370
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 선생, 지금 뭐해?
+    MessageJP: 今なにしてんだ？
+    MessageCN: 老师现在在干嘛？
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100080370
+    Id: 100080040
+    CharacterId: 10008
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100080380
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아무것도 안하고 있는데
+    MessageJP: 何もしてないよ
+    MessageCN: 我没在做事情哦
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100080370
+    Id: 100080050
+    CharacterId: 10008
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100080380
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그러는 네루도 오늘 한가한가 보네
+    MessageJP: 私も暇してる
+    MessageCN: 我也挺闲的
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100080380
+    Id: 100080060
+    CharacterId: 10008
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100080390
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ㅋ
+    MessageJP: ははっ
+    MessageCN: 哈哈
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100080380
+    Id: 100080070
+    CharacterId: 10008
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100080390
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 뭐
+    MessageJP: そうか
+    MessageCN: 这样啊
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100080390
+    Id: 100080080
+    CharacterId: 10008
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100080400
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그럼 모처럼의 휴일이니까
+    MessageJP: ……おし、暇なんだな？
+    MessageCN: ……好，那就是说老师很闲吧？
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100080390
+    Id: 100080090
+    CharacterId: 10008
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100080400
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 시간 괜찮으면 지금 나올래?
+    MessageJP: せっかく休みなんだからよ
+    MessageCN: 好不容易才放次假
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100080400
+    Id: 100080100
+    CharacterId: 10008
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 1000820
+    NextGroupId: 100080410
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 피차 할 거 없으면, 얼굴이나 좀 보게
+    MessageJP: やることもないんだったら、ミレニアムまで来てくれ
+    MessageCN: 既然老师没事干，那不如来千年吧
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100080410
+    Id: 100080110
+    CharacterId: 10008
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 100080400
+    PreConditionFavorScheduleId: 1000820
+    FavorScheduleId: 0
+    NextGroupId: 100080420
+    FeedbackTimeMillisec: 1500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 아
+    MessageJP: そういえば
+    MessageCN: 话说回来
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100080420
+    Id: 100080120
+    CharacterId: 10008
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100080430
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 그러고 보니 선생, 아까 전에도 했던 말인데
+    MessageJP: さっきの続きだけどよ
+    MessageCN: 我们继续刚刚的话题吧
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100080420
+    Id: 100080130
+    CharacterId: 10008
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100080430
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 스카잔 말이야
+    MessageJP: あ、スカジャンのことな
+    MessageCN: 啊，刚刚说到棒球夹克来着吧
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100080430
+    Id: 100080140
+    CharacterId: 10008
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100080440
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 필요하면 언제든 말해. 구해줄 테니까
+    MessageJP: もし欲しくなったらいつでも言ってくれ
+    MessageCN: 要是老师想要的话随时跟我说
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100080440
+    Id: 100080150
+    CharacterId: 10008
+    MessageCondition: None
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100080450
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 알았지?
+    MessageJP: あたしが探してやるからよ
+    MessageCN: 我去给你找件来
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100080450
+    Id: 100080160
+    CharacterId: 10008
+    MessageCondition: Answer
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100080460
+    FeedbackTimeMillisec: 0
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 세트로 입는 거야?
+    MessageJP: お揃いとかどう？
+    MessageCN: 我们一起去怎么样？
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100080460
+    Id: 100080170
+    CharacterId: 10008
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100080470
+    FeedbackTimeMillisec: 2000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: ……
+    MessageJP: ……
+    MessageCN: ……
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100080470
+    Id: 100080180
+    CharacterId: 10008
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100080480
+    FeedbackTimeMillisec: 500
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 쓰
+    MessageJP: ばっ
+    MessageCN: 笨
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
+  - MessageGroupId: 100080480
+    Id: 100080190
+    CharacterId: 10008
+    MessageCondition: Feedback
+    ConditionValue: 0
+    PreConditionGroupId: 0
+    PreConditionFavorScheduleId: 0
+    FavorScheduleId: 0
+    NextGroupId: 100080490
+    FeedbackTimeMillisec: 1000
+    MessageType: Text
+    ImagePath: ''
+    MessageKR: 쓸 데 없는 소리 하지 마!!
+    MessageJP: 変なこと言うんじゃねぇ！！
+    MessageCN: 别在这说傻话！！
+    MessageEN: ''
+    MessageTH: ''
+    MessageTW: ''
