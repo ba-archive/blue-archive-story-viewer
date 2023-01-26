@@ -801,7 +801,7 @@ content:
     ConditionValue: 0
     PreConditionGroupId: 0
     PreConditionFavorScheduleId: 0
-    FavorScheduleId: 100605
+    FavorScheduleId: 0
     NextGroupId: 100600290
     FeedbackTimeMillisec: 0
     MessageType: Text
