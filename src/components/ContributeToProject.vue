@@ -1,37 +1,19 @@
 <script setup lang="ts">
 const contributors = [
-  {
-    name: 'Shinku_cc',
-    role: '前端',
-  },
-  {
-    name: 'ourandream',
-    role: '前端',
-  },
-  {
-    name: '海星',
-    role: '前端',
-  },
-  {
-    name: 'Z_DK',
-    role: '前端',
-  },
-  {
-    name: 'Notype',
-    role: '自动化',
-  },
-  {
-    name: '第一个mt',
-    role: '全栈',
-  },
-  {
-    name: '骑猪追月',
-    role: '后端',
-  },
-  {
-    name: 'EllisNewman',
-    role: '解包，美术',
-  },
+  { name: 'Shinku_cc', role: '前端' },
+  { name: 'ourandream', role: '前端' },
+  { name: '海星', role: '前端' },
+  { name: '灼光之心', role: '前端' },
+  { name: 'Z_DK', role: '前端' },
+  { name: 'Notype', role: '自动化' },
+  { name: '第一个mt', role: '全栈' },
+  { name: '骑猪追月', role: '后端' },
+  { name: 'EllisNewman', role: '解包，美术' },
+  { name: 'setsuna', role: '前端' },
+  { name: 'Coya', role: 'UI' },
+  { name: 'HeartunderBlade', role: '前端，自动化，架构，运维' },
+  { name: '柳', role: '翻译' },
+  { name: 'Misaka18655', role: '翻译' },
 ];
 </script>
 

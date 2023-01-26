@@ -31,6 +31,7 @@ const initProgress = ref(0);
  */
 const studentSelected = computed(() => !/\/archive\/?$/.test(route.path));
 
+// get 请求是否出错
 const fetchError = ref(false);
 const fetchErrorMessage = ref({});
 
@@ -58,9 +59,9 @@ axios
     ready.value = true;
   })
   .catch(error => {
-    console.log(error);
+    console.error(error);
     fetchError.value = true;
-    fetchErrorMessage.value = error.message;
+    fetchErrorMessage.value = error;
     ready.value = true;
   });
 
@@ -108,8 +109,7 @@ function getCohortAttribute(
 
 /**
  * @namespace armorTypes
- * @description 目前游戏内的三种装甲类型
- *              order 用于排序
+ * @description 目前游戏内的三种装甲类型，order 字段用于排序
  */
 const armorTypes = [
   {
@@ -165,6 +165,7 @@ const appliedFilters = computed<AppliedFilter>(() => {
   };
 });
 
+// 检测当前过滤器（不含搜索栏）是否为空
 const isEmptyFilter = computed(() => {
   return (
     appliedFilters.value.rarity.length === 0 &&

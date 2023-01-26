@@ -247,13 +247,6 @@ body {
   box-shadow: 0.2rem 0.2rem 1rem var(--color-shadow-farther);
 }
 
-// 使用幼圆字体，但是幼圆英文和假名丑的一批，需要之后改进
-.youyuan {
-  font-family: 'YouYuan', 'Microsoft YaHei', 'PingFang SC', -apple-system,
-    system-ui, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans',
-    BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans GB', Arial, sans-serif;
-}
-
 // consistent scrollbar style on all desktop browsers
 @media screen and (min-width: 768px) {
   html[data-scrollbar='customize'] {
