@@ -10,7 +10,7 @@ specifiers:
   '@vitejs/plugin-vue': 4.0.0
   '@vue/compiler-sfc': 3.x
   '@vue/eslint-config-typescript': 11.0.2
-  axios: 1.2.3
+  axios: 1.2.4
   axios-retry: 3.4.0
   chalk: 5.2.0
   eslint: 8.32.0
@@ -42,7 +42,7 @@ specifiers:
 
 dependencies:
   '@vue/compiler-sfc': 3.2.45
-  axios: 1.2.3
+  axios: 1.2.4
   axios-retry: 3.4.0
   fastest-levenshtein: 1.0.16
   pinia: 2.0.29_prq2uz4lho2pwp6irk4cfkrxwu
@@ -2360,8 +2360,8 @@ packages:
       is-retry-allowed: 2.2.0
     dev: false
 
-  /axios/1.2.3:
-    resolution: {integrity: sha512-pdDkMYJeuXLZ6Xj/Q5J3Phpe+jbGdsSzlQaFVkMQzRUL05+6+tetX8TV3p4HrU4kzuO9bt+io/yGQxuyxA/xcw==}
+  /axios/1.2.4:
+    resolution: {integrity: sha512-lIQuCfBJvZB/Bv7+RWUqEJqNShGOVpk9v7P0ZWx5Ip0qY6u7JBAU6dzQPMLasU9vHL2uD8av/1FDJXj7n6c39w==}
     dependencies:
       follow-redirects: 1.15.2
       form-data: 4.0.0
