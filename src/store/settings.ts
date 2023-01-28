@@ -60,6 +60,7 @@ export const useSettingsStore = defineStore({
       this.studentFilters.affiliation = [];
       this.studentFilters.type = [];
       this.studentFilters.armorType = [];
+      this.studentFilters.bulletType = [];
     },
     clearStudentFilter(property: keyof StudentAttributeFilters) {
       this.studentFilters[property] = [];
