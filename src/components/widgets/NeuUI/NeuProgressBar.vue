@@ -2,7 +2,10 @@
   <div class="progress-bar-container">
     <div class="percentage" v-if="showPercentage">{{ progress }}%</div>
     <div class="progress-bar-background">
-      <div class="progress" :style="{ width: (progress > 100 ? 0 : progress) + '%' }"></div>
+      <div
+        class="progress"
+        :style="{ width: (progress > 100 ? 0 : progress) + '%' }"
+      ></div>
     </div>
   </div>
 </template>
