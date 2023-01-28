@@ -115,10 +115,10 @@ content:
     ImagePath: ''
     MessageKR: ' '
     MessageJP: ' '
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: ' '
+    MessageEN: ' '
+    MessageTH: ' '
+    MessageTW: ' '
   - MessageGroupId: 200170050
     Id: 200170060
     CharacterId: 20017

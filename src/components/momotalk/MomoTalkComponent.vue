@@ -24,9 +24,10 @@
             <span class="dot-3">·</span>
           </div>
           <div v-show="showMessageContent" class="message-content">
-            <span v-if="'Image' !== messageType">{{
-              getMessageText(message)
-            }}</span>
+            <span
+              v-if="'Image' !== messageType"
+              v-html="getMessageText(message)"
+            ></span>
             <img
               v-else
               :src="getMessageImagePath(message?.ImagePath)"
@@ -138,7 +139,9 @@ function stripRubyContent(content: string | undefined): string {
   if (!content) {
     return '';
   }
-  return content.replaceAll(/\[\/?ruby=?.*?]/gi, '');
+  return content
+    .replaceAll(/\[\/?ruby=?.*?]/gi, '')
+    .replaceAll(/\s/g, '&nbsp;');
 }
 
 const languageMap = {
