@@ -70,7 +70,7 @@ axios
   .get(`/config/json/momotalk/${route.params.id}.json`, {
     onDownloadProgress: progressEvent => {
       initProgress.value = Math.floor(
-        ((progressEvent.loaded || 0) * 100) / (progressEvent.total || 1)
+        ((progressEvent.loaded || 0) * 100) / (progressEvent.total || 60000)
       );
     },
   })
