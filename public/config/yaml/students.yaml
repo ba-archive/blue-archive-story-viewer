@@ -23,6 +23,7 @@
   rarity: 3
   type: Striker
   armorType: LightArmor
+  bulletType: Explosion
   weapon: SR
 - id: 10001
   familyName:
@@ -46,6 +47,7 @@
   rarity: 3
   type: Striker
   armorType: LightArmor
+  bulletType: Explosion
   weapon: SG
 - id: 10002
   familyName:
@@ -71,6 +73,7 @@
   rarity: 3
   type: Striker
   armorType: HeavyArmor
+  bulletType: Mystic
   weapon: SR
 - id: 10003
   familyName:
@@ -98,6 +101,7 @@
   rarity: 3
   type: Striker
   armorType: LightArmor
+  bulletType: Pierce
   weapon: AR
 - id: 10004
   familyName:
@@ -123,6 +127,7 @@
   rarity: 3
   type: Striker
   armorType: HeavyArmor
+  bulletType: Explosion
   weapon: MG
 - id: 10005
   familyName:
@@ -146,6 +151,7 @@
   rarity: 3
   type: Striker
   armorType: HeavyArmor
+  bulletType: Pierce
   weapon: SG
 - id: 10006
   familyName:
@@ -170,6 +176,7 @@
   rarity: 3
   type: Striker
   armorType: HeavyArmor
+  bulletType: Pierce
   weapon: SR
 - id: 10007
   familyName:
@@ -195,6 +202,7 @@
   rarity: 3
   type: Striker
   armorType: LightArmor
+  bulletType: Pierce
   weapon: MG
 - id: 10008
   familyName:
@@ -217,6 +225,7 @@
   rarity: 3
   type: Striker
   armorType: LightArmor
+  bulletType: Pierce
   weapon: SMG
 - id: 10009
   familyName:
@@ -241,6 +250,7 @@
   rarity: 3
   type: Striker
   armorType: LightArmor
+  bulletType: Explosion
   weapon: MG
 - id: 10010
   familyName:
@@ -265,6 +275,7 @@
   rarity: 3
   type: Striker
   armorType: LightArmor
+  bulletType: Explosion
   weapon: AR
 - id: 10011
   familyName:
@@ -290,6 +301,7 @@
   rarity: 3
   type: Striker
   armorType: LightArmor
+  bulletType: Explosion
   weapon: SR
 - id: 10012
   familyName:
@@ -313,6 +325,7 @@
   rarity: 3
   type: Striker
   armorType: Unarmed
+  bulletType: Pierce
   weapon: SG
 - id: 10013
   familyName:
@@ -337,6 +350,7 @@
   rarity: 3
   type: Striker
   armorType: HeavyArmor
+  bulletType: Pierce
   weapon: SG
 - id: 10014
   familyName:
@@ -362,6 +376,7 @@
   rarity: 3
   type: Striker
   armorType: LightArmor
+  bulletType: Mystic
   weapon: SMG
 - id: 10015
   familyName:
@@ -384,6 +399,7 @@
   rarity: 3
   type: Striker
   armorType: Unarmed
+  bulletType: Mystic
   weapon: RG
 - id: 10016
   familyName:
@@ -407,6 +423,7 @@
   rarity: 3
   type: Striker
   armorType: LightArmor
+  bulletType: Pierce
   weapon: SR
 - id: 10017
   familyName:
@@ -431,6 +448,7 @@
   rarity: 3
   type: Striker
   armorType: LightArmor
+  bulletType: Pierce
   weapon: HG
 - id: 10018
   familyName:
@@ -453,6 +471,7 @@
   rarity: 3
   type: Striker
   armorType: Unarmed
+  bulletType: Pierce
   weapon: GL
 - id: 10019
   familyName:
@@ -475,6 +494,7 @@
   rarity: 3
   type: Striker
   armorType: HeavyArmor
+  bulletType: Explosion
   weapon: AR
 - id: 10020
   familyName:
@@ -497,6 +517,7 @@
   rarity: 3
   type: Striker
   armorType: HeavyArmor
+  bulletType: Explosion
   weapon: SR
 - id: 10021
   familyName:
@@ -519,6 +540,7 @@
   rarity: 3
   type: Striker
   armorType: LightArmor
+  bulletType: Mystic
   weapon: AR
 - id: 10022
   familyName:
@@ -544,6 +566,7 @@
   rarity: 3
   type: Striker
   armorType: HeavyArmor
+  bulletType: Explosion
   weapon: MG
 - id: 10023
   familyName:
@@ -567,6 +590,7 @@
   rarity: 3
   type: Striker
   armorType: Unarmed
+  bulletType: Explosion
   weapon: SR
 - id: 10024
   familyName:
@@ -591,6 +615,7 @@
   rarity: 3
   type: Striker
   armorType: HeavyArmor
+  bulletType: Mystic
   weapon: AR
 - id: 10025
   familyName:
@@ -615,6 +640,7 @@
   rarity: 3
   type: Striker
   armorType: LightArmor
+  bulletType: Explosion
   weapon: SR
 - id: 10026
   familyName:
@@ -639,6 +665,7 @@
   rarity: 3
   type: Striker
   armorType: HeavyArmor
+  bulletType: Explosion
   weapon: SMG
 - id: 10027
   familyName:
@@ -665,6 +692,7 @@
   rarity: 3
   type: Striker
   armorType: HeavyArmor
+  bulletType: Mystic
   weapon: SR
 - id: 10028
   familyName:
@@ -689,6 +717,7 @@
   rarity: 3
   type: Striker
   armorType: LightArmor
+  bulletType: Mystic
   weapon: AR
 - id: 10029
   familyName:
@@ -713,6 +742,7 @@
   rarity: 3
   type: Striker
   armorType: HeavyArmor
+  bulletType: Mystic
   weapon: SMG
 - id: 10030
   familyName:
@@ -737,6 +767,7 @@
   rarity: 3
   type: Striker
   armorType: LightArmor
+  bulletType: Mystic
   weapon: HG
 - id: 10031
   familyName:
@@ -760,6 +791,7 @@
   rarity: 3
   type: Striker
   armorType: Unarmed
+  bulletType: Pierce
   weapon: SR
 - id: 10032
   familyName:
@@ -784,6 +816,7 @@
   rarity: 3
   type: Striker
   armorType: HeavyArmor
+  bulletType: Mystic
   weapon: MG
 - id: 10033
   familyName:
@@ -807,6 +840,7 @@
   rarity: 3
   type: Striker
   armorType: LightArmor
+  bulletType: Mystic
   weapon: SR
 - id: 10034
   familyName:
@@ -829,6 +863,7 @@
   rarity: 3
   type: Striker
   armorType: LightArmor
+  bulletType: Mystic
   weapon: HG
 - id: 10035
   familyName:
@@ -851,6 +886,7 @@
   rarity: 3
   type: Striker
   armorType: LightArmor
+  bulletType: Explosion
   weapon: SR
 - id: 10036
   familyName:
@@ -873,6 +909,7 @@
   rarity: 3
   type: Striker
   armorType: HeavyArmor
+  bulletType: Mystic
   weapon: HG
 - id: 10037
   familyName:
@@ -896,6 +933,7 @@
   rarity: 3
   type: Striker
   armorType: LightArmor
+  bulletType: Pierce
   weapon: SMG
 - id: 10038
   familyName:
@@ -918,6 +956,7 @@
   rarity: 3
   type: Striker
   armorType: HeavyArmor
+  bulletType: Pierce
   weapon: SMG
 - id: 10039
   familyName:
@@ -940,6 +979,7 @@
   rarity: 3
   type: Striker
   armorType: LightArmor
+  bulletType: Pierce
   weapon: SR
 - id: 10040
   familyName:
@@ -963,6 +1003,7 @@
   rarity: 3
   type: Striker
   armorType: LightArmor
+  bulletType: Mystic
   weapon: SMG
 - id: 10041
   familyName:
@@ -985,6 +1026,7 @@
   rarity: 3
   type: Striker
   armorType: Unarmed
+  bulletType: Explosion
   weapon: RL
 - id: 10042
   familyName:
@@ -1008,6 +1050,7 @@
   rarity: 3
   type: Striker
   armorType: Unarmed
+  bulletType: Explosion
   weapon: SMG
 - id: 10043
   familyName:
@@ -1031,6 +1074,7 @@
   rarity: 3
   type: Striker
   armorType: HeavyArmor
+  bulletType: Pierce
   weapon: SR
 - id: 10044
   familyName:
@@ -1055,6 +1099,7 @@
   rarity: 3
   type: Striker
   armorType: Unarmed
+  bulletType: Explosion
   weapon: MG
 - id: 10045
   familyName:
@@ -1078,6 +1123,7 @@
   rarity: 3
   type: Striker
   armorType: Unarmed
+  bulletType: Explosion
   weapon: SG
 - id: 10046
   familyName:
@@ -1102,6 +1148,7 @@
   rarity: 3
   type: Striker
   armorType: Unarmed
+  bulletType: Mystic
   weapon: SMG
 - id: 10047
   familyName:
@@ -1124,6 +1171,7 @@
   rarity: 3
   type: Striker
   armorType: LightArmor
+  bulletType: Mystic
   weapon: GL
 - id: 10048
   familyName:
@@ -1146,6 +1194,7 @@
   rarity: 3
   type: Striker
   armorType: Unarmed
+  bulletType: Explosion
   weapon: AR
 - id: 10049
   familyName:
@@ -1168,6 +1217,7 @@
   rarity: 3
   type: Striker
   armorType: HeavyArmor
+  bulletType: Pierce
   weapon: MG
 - id: 10050
   familyName:
@@ -1190,6 +1240,7 @@
   rarity: 3
   type: Striker
   armorType: Unarmed
+  bulletType: Pierce
   weapon: AR
 - id: 10051
   familyName:
@@ -1212,6 +1263,7 @@
   rarity: 3
   type: Striker
   armorType: Unarmed
+  bulletType: Mystic
   weapon: SMG
 - id: 10052
   familyName:
@@ -1236,6 +1288,7 @@
   rarity: 3
   type: Striker
   armorType: Unarmed
+  bulletType: Mystic
   weapon: HG
 - id: 10053
   familyName:
@@ -1263,6 +1316,7 @@
   rarity: 3
   type: Striker
   armorType: Unarmed
+  bulletType: Mystic
   weapon: SMG
 - id: 10054
   familyName:
@@ -1286,6 +1340,7 @@
   rarity: 3
   type: Striker
   armorType: Unarmed
+  bulletType: Mystic
   weapon: HG
 - id: 10055
   familyName:
@@ -1308,6 +1363,7 @@
   rarity: 3
   type: Striker
   armorType: HeavyArmor
+  bulletType: Explosion
   weapon: GL
 - id: 10056
   familyName:
@@ -1330,6 +1386,7 @@
   rarity: 3
   type: Striker
   armorType: Unarmed
+  bulletType: Pierce
   weapon: AR
 - id: 10057
   familyName:
@@ -1352,6 +1409,7 @@
   rarity: 3
   type: Striker
   armorType: LightArmor
+  bulletType: Explosion
   weapon: SR
 - id: 10058
   familyName:
@@ -1374,6 +1432,7 @@
   rarity: 3
   type: Striker
   armorType: LightArmor
+  bulletType: Explosion
   weapon: SG
 - id: 10059
   familyName:
@@ -1389,13 +1448,14 @@
     en: Mika
     kr: 미카
     tw: ミカ
-    th: ミカ
+    th: มิกะ
   nickname: []
-  club: TeaParty
+  club: 茶会
   affiliation: 圣三一
   rarity: 3
   type: Striker
   armorType: LightArmor
+  bulletType: Pierce
   weapon: SMG
 - id: 10060
   familyName:
@@ -1411,13 +1471,14 @@
     en: Megu
     kr: 메구
     tw: メグ
-    th: メグ
+    th: เมกุ
   nickname: []
-  club: HotSpringsDepartment
+  club: 温泉开发部
   affiliation: 格黑娜
   rarity: 3
   type: Striker
   armorType: Unarmed
+  bulletType: Explosion
   weapon: FT
 - id: 13000
   familyName:
@@ -1442,6 +1503,7 @@
   rarity: 2
   type: Striker
   armorType: LightArmor
+  bulletType: Pierce
   weapon: HG
 - id: 13001
   familyName:
@@ -1464,6 +1526,7 @@
   rarity: 2
   type: Striker
   armorType: HeavyArmor
+  bulletType: Mystic
   weapon: GL
 - id: 13002
   familyName:
@@ -1488,6 +1551,7 @@
   rarity: 2
   type: Striker
   armorType: HeavyArmor
+  bulletType: Explosion
   weapon: AR
 - id: 13003
   familyName:
@@ -1510,6 +1574,7 @@
   rarity: 2
   type: Striker
   armorType: HeavyArmor
+  bulletType: Pierce
   weapon: SR
 - id: 13004
   familyName:
@@ -1534,6 +1599,7 @@
   rarity: 2
   type: Striker
   armorType: LightArmor
+  bulletType: Pierce
   weapon: MG
 - id: 13005
   familyName:
@@ -1557,6 +1623,7 @@
   rarity: 2
   type: Striker
   armorType: HeavyArmor
+  bulletType: Explosion
   weapon: HG
 - id: 13006
   familyName:
@@ -1581,6 +1648,7 @@
   rarity: 2
   type: Striker
   armorType: LightArmor
+  bulletType: Explosion
   weapon: MG
 - id: 13007
   familyName:
@@ -1606,6 +1674,7 @@
   rarity: 2
   type: Striker
   armorType: LightArmor
+  bulletType: Pierce
   weapon: AR
 - id: 13008
   familyName:
@@ -1630,6 +1699,7 @@
   rarity: 2
   type: Striker
   armorType: LightArmor
+  bulletType: Explosion
   weapon: AR
 - id: 13009
   familyName:
@@ -1654,6 +1724,7 @@
   rarity: 2
   type: Striker
   armorType: Unarmed
+  bulletType: Pierce
   weapon: SMG
 - id: 13010
   familyName:
@@ -1681,6 +1752,7 @@
   rarity: 2
   type: Striker
   armorType: HeavyArmor
+  bulletType: Explosion
   weapon: SMG
 - id: 13011
   familyName:
@@ -1705,6 +1777,7 @@
   rarity: 2
   type: Striker
   armorType: LightArmor
+  bulletType: Pierce
   weapon: AR
 - id: 13012
   familyName:
@@ -1727,6 +1800,7 @@
   rarity: 2
   type: Striker
   armorType: Unarmed
+  bulletType: Explosion
   weapon: HG
 - id: 16000
   familyName:
@@ -1751,6 +1825,7 @@
   rarity: 1
   type: Striker
   armorType: LightArmor
+  bulletType: Explosion
   weapon: SG
 - id: 16001
   familyName:
@@ -1774,6 +1849,7 @@
   rarity: 1
   type: Striker
   armorType: LightArmor
+  bulletType: Mystic
   weapon: AR
 - id: 16002
   familyName:
@@ -1799,6 +1875,7 @@
   rarity: 1
   type: Striker
   armorType: LightArmor
+  bulletType: Pierce
   weapon: MG
 - id: 16003
   familyName:
@@ -1821,6 +1898,7 @@
   rarity: 1
   type: Striker
   armorType: HeavyArmor
+  bulletType: Explosion
   weapon: AR
 - id: 16004
   familyName:
@@ -1844,6 +1922,7 @@
   rarity: 1
   type: Striker
   armorType: LightArmor
+  bulletType: Pierce
   weapon: MG
 - id: 16005
   familyName:
@@ -1868,6 +1947,7 @@
   rarity: 1
   type: Striker
   armorType: Unarmed
+  bulletType: Mystic
   weapon: SG
 - id: 16006
   familyName:
@@ -1896,6 +1976,7 @@
   rarity: 1
   type: Striker
   armorType: LightArmor
+  bulletType: Explosion
   weapon: MG
 - id: 16007
   familyName:
@@ -1919,6 +2000,7 @@
   rarity: 1
   type: Striker
   armorType: Unarmed
+  bulletType: Pierce
   weapon: SR
 - id: 16008
   familyName:
@@ -1942,6 +2024,7 @@
   rarity: 1
   type: Striker
   armorType: HeavyArmor
+  bulletType: Pierce
   weapon: SR
 - id: 16009
   familyName:
@@ -1964,6 +2047,7 @@
   rarity: 1
   type: Striker
   armorType: LightArmor
+  bulletType: Mystic
   weapon: SG
 - id: 16010
   familyName:
@@ -1989,6 +2073,7 @@
   rarity: 1
   type: Striker
   armorType: LightArmor
+  bulletType: Explosion
   weapon: MT
 - id: 16011
   familyName:
@@ -2011,6 +2096,7 @@
   rarity: 1
   type: Striker
   armorType: Unarmed
+  bulletType: Mystic
   weapon: SR
 - id: 16012
   familyName:
@@ -2033,6 +2119,7 @@
   rarity: 1
   type: Striker
   armorType: HeavyArmor
+  bulletType: Mystic
   weapon: AR
 - id: 20000
   familyName:
@@ -2056,6 +2143,7 @@
   rarity: 3
   type: Special
   armorType: HeavyArmor
+  bulletType: Explosion
   weapon: MT
 - id: 20001
   familyName:
@@ -2080,6 +2168,7 @@
   rarity: 3
   type: Special
   armorType: HeavyArmor
+  bulletType: Pierce
   weapon: SR
 - id: 20002
   familyName:
@@ -2105,6 +2194,7 @@
   rarity: 3
   type: Special
   armorType: LightArmor
+  bulletType: Explosion
   weapon: HG
 - id: 20003
   familyName:
@@ -2128,6 +2218,7 @@
   rarity: 3
   type: Special
   armorType: HeavyArmor
+  bulletType: Explosion
   weapon: SR
 - id: 20004
   familyName:
@@ -2151,6 +2242,7 @@
   rarity: 3
   type: Special
   armorType: LightArmor
+  bulletType: Mystic
   weapon: SR
 - id: 20005
   familyName:
@@ -2179,6 +2271,7 @@
   rarity: 3
   type: Special
   armorType: HeavyArmor
+  bulletType: Pierce
   weapon: AR
 - id: 20006
   familyName:
@@ -2203,6 +2296,7 @@
   rarity: 3
   type: Special
   armorType: Unarmed
+  bulletType: Pierce
   weapon: HG
 - id: 20007
   familyName:
@@ -2225,6 +2319,7 @@
   rarity: 3
   type: Special
   armorType: LightArmor
+  bulletType: Explosion
   weapon: GL
 - id: 20008
   familyName:
@@ -2247,6 +2342,7 @@
   rarity: 3
   type: Special
   armorType: HeavyArmor
+  bulletType: Mystic
   weapon: HG
 - id: 20009
   familyName:
@@ -2271,6 +2367,7 @@
   rarity: 3
   type: Special
   armorType: HeavyArmor
+  bulletType: Explosion
   weapon: HG
 - id: 20010
   familyName:
@@ -2295,6 +2392,7 @@
   rarity: 3
   type: Special
   armorType: Unarmed
+  bulletType: Explosion
   weapon: SMG
 - id: 20011
   familyName:
@@ -2319,6 +2417,7 @@
   rarity: 3
   type: Special
   armorType: Unarmed
+  bulletType: Pierce
   weapon: AR
 - id: 20012
   familyName:
@@ -2342,6 +2441,7 @@
   rarity: 3
   type: Special
   armorType: LightArmor
+  bulletType: Mystic
   weapon: GL
 - id: 20013
   familyName:
@@ -2364,6 +2464,7 @@
   rarity: 3
   type: Special
   armorType: HeavyArmor
+  bulletType: Pierce
   weapon: AR
 - id: 20014
   familyName:
@@ -2386,6 +2487,7 @@
   rarity: 3
   type: Special
   armorType: Unarmed
+  bulletType: Pierce
   weapon: MG
 - id: 20015
   familyName:
@@ -2408,6 +2510,7 @@
   rarity: 3
   type: Special
   armorType: Unarmed
+  bulletType: Explosion
   weapon: HG
 - id: 20016
   familyName:
@@ -2432,6 +2535,7 @@
   rarity: 3
   type: Special
   armorType: HeavyArmor
+  bulletType: Mystic
   weapon: HG
 - id: 20017
   familyName:
@@ -2454,6 +2558,7 @@
   rarity: 3
   type: Special
   armorType: LightArmor
+  bulletType: Explosion
   weapon: SR
 - id: 20018
   familyName:
@@ -2476,6 +2581,7 @@
   rarity: 3
   type: Special
   armorType: LightArmor
+  bulletType: Pierce
   weapon: HG
 - id: 20019
   familyName:
@@ -2500,6 +2606,7 @@
   rarity: 3
   type: Special
   armorType: HeavyArmor
+  bulletType: Mystic
   weapon: HG
 - id: 20020
   familyName:
@@ -2522,6 +2629,7 @@
   rarity: 3
   type: Special
   armorType: LightArmor
+  bulletType: Pierce
   weapon: HG
 - id: 20021
   familyName:
@@ -2544,6 +2652,7 @@
   rarity: 3
   type: Special
   armorType: Unarmed
+  bulletType: Mystic
   weapon: AR
 - id: 20022
   familyName:
@@ -2566,6 +2675,7 @@
   rarity: 3
   type: Special
   armorType: Unarmed
+  bulletType: Pierce
   weapon: SMG
 - id: 20023
   familyName:
@@ -2581,13 +2691,14 @@
     en: Kanna
     kr: 칸나
     tw: カンナ
-    th: カンナ
+    th: คันนะ
   nickname: []
-  club: PublicPeaceBureau
+  club: 公安局
   affiliation: 瓦尔基里
   rarity: 3
   type: Special
   armorType: HeavyArmor
+  bulletType: Pierce
   weapon: HG
 - id: 23000
   familyName:
@@ -2610,6 +2721,7 @@
   rarity: 2
   type: Special
   armorType: LightArmor
+  bulletType: Explosion
   weapon: SMG
 - id: 23001
   familyName:
@@ -2633,6 +2745,7 @@
   rarity: 2
   type: Special
   armorType: HeavyArmor
+  bulletType: Explosion
   weapon: SMG
 - id: 23002
   familyName:
@@ -2656,6 +2769,7 @@
   rarity: 2
   type: Special
   armorType: HeavyArmor
+  bulletType: Explosion
   weapon: AR
 - id: 23003
   familyName:
@@ -2679,6 +2793,7 @@
   rarity: 2
   type: Special
   armorType: LightArmor
+  bulletType: Explosion
   weapon: AR
 - id: 23004
   familyName:
@@ -2702,6 +2817,7 @@
   rarity: 2
   type: Special
   armorType: HeavyArmor
+  bulletType: Pierce
   weapon: SMG
 - id: 23005
   familyName:
@@ -2724,6 +2840,7 @@
   rarity: 2
   type: Special
   armorType: LightArmor
+  bulletType: Pierce
   weapon: HG
 - id: 23006
   familyName:
@@ -2746,6 +2863,7 @@
   rarity: 2
   type: Special
   armorType: Unarmed
+  bulletType: Mystic
   weapon: SG
 - id: 23007
   familyName:
@@ -2768,6 +2886,7 @@
   rarity: 2
   type: Special
   armorType: Unarmed
+  bulletType: Pierce
   weapon: AR
 - id: 23008
   familyName:
@@ -2791,6 +2910,7 @@
   rarity: 2
   type: Special
   armorType: Unarmed
+  bulletType: Mystic
   weapon: HG
 - id: 26000
   familyName:
@@ -2814,6 +2934,7 @@
   rarity: 1
   type: Special
   armorType: LightArmor
+  bulletType: Pierce
   weapon: HG
 - id: 26001
   familyName:
@@ -2836,6 +2957,7 @@
   rarity: 1
   type: Special
   armorType: LightArmor
+  bulletType: Explosion
   weapon: HG
 - id: 26002
   familyName:
@@ -2858,6 +2980,7 @@
   rarity: 1
   type: Special
   armorType: LightArmor
+  bulletType: Explosion
   weapon: SG
 - id: 26003
   familyName:
@@ -2881,6 +3004,7 @@
   rarity: 1
   type: Special
   armorType: LightArmor
+  bulletType: Mystic
   weapon: AR
 - id: 26004
   familyName:
@@ -2903,6 +3027,7 @@
   rarity: 1
   type: Special
   armorType: LightArmor
+  bulletType: Explosion
   weapon: AR
 - id: 26005
   familyName:
@@ -2926,6 +3051,7 @@
   rarity: 1
   type: Special
   armorType: HeavyArmor
+  bulletType: Pierce
   weapon: AR
 - id: 26006
   familyName:
@@ -2950,6 +3076,7 @@
   rarity: 1
   type: Special
   armorType: HeavyArmor
+  bulletType: Explosion
   weapon: SMG
 - id: 26007
   familyName:
@@ -2974,6 +3101,7 @@
   rarity: 1
   type: Special
   armorType: LightArmor
+  bulletType: Pierce
   weapon: HG
 - id: 26008
   familyName:
@@ -2997,4 +3125,5 @@
   rarity: 1
   type: Special
   armorType: HeavyArmor
+  bulletType: Mystic
   weapon: SG

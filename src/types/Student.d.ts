@@ -10,7 +10,19 @@ export interface Student {
   rarity: number;
   type: 'Striker' | 'Special';
   armorType: 'LightArmor' | 'HeavyArmor' | 'Unarmed';
-  weapon: 'SG' | 'SMG' | 'AR' | 'GL' | 'HG' | 'RL' | 'SR' | 'RG' | 'MG' | 'MT';
+  bulletType?: 'Pierce' | 'Explode' | 'Mystic';
+  weapon:
+    | 'SG'
+    | 'SMG'
+    | 'AR'
+    | 'GL'
+    | 'HG'
+    | 'RL'
+    | 'SR'
+    | 'RG'
+    | 'MG'
+    | 'MT'
+    | 'FT';
 }
 
 export interface StudentName {
@@ -25,15 +37,28 @@ export interface StudentAttributeFilters {
   affiliation: string[];
   type: string[];
   armorType: string[];
+  bulletType?: string[];
 }
 
 export interface StudentAttributes {
   club: string;
   affiliation: string;
   rarity: number;
-  type: string;
-  armorType: string;
-  weapon: string;
+  type: 'Striker' | 'Special';
+  armorType: 'LightArmor' | 'HeavyArmor' | 'Unarmed';
+  bulletType?: 'Pierce' | 'Explode' | 'Mystic';
+  weapon:
+    | 'SG'
+    | 'SMG'
+    | 'AR'
+    | 'GL'
+    | 'HG'
+    | 'RL'
+    | 'SR'
+    | 'RG'
+    | 'MG'
+    | 'MT'
+    | 'FT';
 }
 
 export interface StudentFilters {
@@ -41,8 +66,9 @@ export interface StudentFilters {
   rarity: number[];
   club: string[];
   affiliation: string[];
-  type: string[];
-  armorType: string[];
+  type: ('Striker' | 'Special')[];
+  armorType: ('LightArmor' | 'HeavyArmor' | 'Unarmed')[];
+  bulletType?: ('Pierce' | 'Explode' | 'Mystic')[];
 }
 
 export interface StudentNames {

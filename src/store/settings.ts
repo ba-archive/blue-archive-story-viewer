@@ -15,8 +15,9 @@ export const useSettingsStore = defineStore({
         rarity: [] as number[],
         club: [] as string[],
         affiliation: [] as string[],
-        type: [] as string[],
-        armorType: [] as string[],
+        type: [] as ('Striker' | 'Special')[],
+        armorType: [] as ('LightArmor' | 'HeavyArmor' | 'Unarmed')[],
+        bulletType: [] as ('Pierce' | 'Explode' | 'Mystic')[],
       },
     };
   },
@@ -31,6 +32,7 @@ export const useSettingsStore = defineStore({
     getAffiliationFilter: state => state.studentFilters.affiliation,
     getTypeFilter: state => state.studentFilters.type,
     getArmorTypeFilter: state => state.studentFilters.armorType,
+    getBulletTypeFilter: state => state.studentFilters.bulletType || [],
   },
   actions: {
     setLang(lang: string) {
@@ -49,6 +51,7 @@ export const useSettingsStore = defineStore({
       this.studentFilters.affiliation = filters.affiliation;
       this.studentFilters.type = filters.type;
       this.studentFilters.armorType = filters.armorType;
+      this.studentFilters.bulletType = filters.bulletType || [];
     },
     clearStudentFilters() {
       this.studentFilters.searchString = '';

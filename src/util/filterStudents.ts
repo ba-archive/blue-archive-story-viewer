@@ -46,7 +46,9 @@ function filterStudentsByProperty(
   initialList: Student[]
 ): Student[] {
   return initialList.filter((student: Student) =>
-    criteria.includes(student[property as keyof StudentAttributes])
+    criteria.includes(
+      student[property as keyof StudentAttributes] as string | number
+    )
   );
 }
 
@@ -61,7 +63,9 @@ function filterStudents(
     0 === appliedFilters.club.length &&
     0 === appliedFilters.affiliation.length &&
     0 === appliedFilters.type.length &&
-    0 === appliedFilters.armorType.length
+    0 === appliedFilters.armorType.length &&
+    appliedFilters.bulletType &&
+    0 === appliedFilters.bulletType.length
   ) {
     return studentsList.map(student => student.id);
   }
@@ -100,6 +104,13 @@ function filterStudents(
     result = filterStudentsByProperty(
       'armorType',
       appliedFilters.armorType,
+      result
+    );
+  }
+  if (appliedFilters.bulletType && 0 !== appliedFilters.bulletType.length) {
+    result = filterStudentsByProperty(
+      'bulletType',
+      appliedFilters.bulletType,
       result
     );
   }

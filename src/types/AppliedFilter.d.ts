@@ -3,6 +3,7 @@ export interface AppliedFilter {
   rarity: number[];
   club: string[];
   affiliation: string[];
-  type: string[];
-  armorType: string[];
+  type: ('Striker' | 'Special')[];
+  armorType: ('LightArmor' | 'HeavyArmor' | 'Unarmed')[];
+  bulletType?: ('Pierce' | 'Explode' | 'Mystic')[];
 }

@@ -89,8 +89,12 @@ function getCohortAttribute(
 ): (string | number)[] {
   const filtered: (string | number)[] = [];
   students.value.forEach((student: Student) => {
-    if (!filtered.includes(student[attribute])) {
-      filtered.push(student[attribute]);
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
+    if (![undefined, null].includes(student[attribute])) {
+      if (!filtered.includes(student[attribute] as string | number)) {
+        filtered.push(student[attribute] as string | number);
+      }
     }
   });
   if (needSort) {
@@ -112,25 +116,26 @@ function getCohortAttribute(
  * @description 目前游戏内的三种装甲类型，order 字段用于排序
  */
 const armorTypes = [
-  {
-    string: 'LightArmor',
-    name: '轻装甲',
-    order: 1,
-  },
-  {
-    string: 'HeavyArmor',
-    name: '重装甲',
-    order: 2,
-  },
-  {
-    string: 'Unarmed',
-    name: '神秘装甲',
-    order: 3,
-  },
+  { string: 'LightArmor', name: '轻装甲', order: 1 },
+  { string: 'HeavyArmor', name: '重装甲', order: 2 },
+  { string: 'Unarmed', name: '神秘装甲', order: 3 },
+];
+
+/**
+ * @namespace bulletTypes
+ * @description 目前游戏内的三种子弹类型，order 字段用于排序
+ */
+const bulletTypes = [
+  { string: 'Explosion', name: '爆发', order: 1 },
+  { string: 'Pierce', name: '贯通', order: 2 },
+  { string: 'Mystic', name: '神秘', order: 3 },
 ];
 
 // 因为约定俗成的装甲属性排列是 轻装甲-重装甲-神秘装甲，所以根据这个顺序进行排序
-function sortArmorType(a: string | number, b: string | number): number {
+function sortArmorType(
+  a: string | number | undefined,
+  b: string | number | undefined
+): number {
   const armorTypeA = armorTypes.find(type => type.string === a) || {
     name: '0',
   };
@@ -138,6 +143,22 @@ function sortArmorType(a: string | number, b: string | number): number {
     name: '1',
   };
   return armorTypeA.name.localeCompare(armorTypeB.name, 'zh-Hans-CN', {
+    sensitivity: 'accent',
+  });
+}
+
+// 按照 爆发-贯通-神秘子弹 进行排序
+function sortBulletType(
+  a: string | number | undefined,
+  b: string | number | undefined
+): number {
+  const bulletTypeA = bulletTypes.find(type => type.string === a) || {
+    name: '0',
+  };
+  const bulletTypeB = bulletTypes.find(type => type.string === b) || {
+    name: '1',
+  };
+  return bulletTypeA.name.localeCompare(bulletTypeB.name, 'zh-Hans-CN', {
     sensitivity: 'accent',
   });
 }
@@ -151,6 +172,9 @@ const studentTypes = computed(() => getCohortAttribute('type', false));
 const studentArmorTypes = computed(() =>
   getCohortAttribute('armorType', false).sort((a, b) => sortArmorType(a, b))
 );
+const studentBulletTypes = computed(() =>
+  getCohortAttribute('bulletType', false).sort((a, b) => sortBulletType(a, b))
+);
 
 const studentNameFilter = ref('');
 // 学生属性过滤器
@@ -162,6 +186,7 @@ const appliedFilters = computed<AppliedFilter>(() => {
     affiliation: settingsStore.getAffiliationFilter,
     type: settingsStore.getTypeFilter,
     armorType: settingsStore.getArmorTypeFilter,
+    bulletType: settingsStore.getBulletTypeFilter,
   };
 });
 
@@ -172,12 +197,15 @@ const isEmptyFilter = computed(() => {
     appliedFilters.value.club.length === 0 &&
     appliedFilters.value.affiliation.length === 0 &&
     appliedFilters.value.type.length === 0 &&
-    appliedFilters.value.armorType.length === 0
+    appliedFilters.value.armorType.length === 0 &&
+    appliedFilters.value.bulletType &&
+    appliedFilters.value.bulletType?.length === 0
   );
 });
 
 // 查询一个 tag 是否被选中
-function isActivate(property: string, value: string | number) {
+function isActivate(property: string, value: string | number | undefined) {
+  if (undefined === value) return '';
   return (
     appliedFilters.value[property as keyof AppliedFilter] as (string | number)[]
   ).includes(value)
@@ -212,6 +240,7 @@ function handleFocus(event: Event) {
 const showFilter = ref(true);
 
 // 处理视口尺寸变化（响应式布局）
+// FIXME: 当视口宽度多次变化时会失效
 let currentWidth = window.innerWidth;
 let ticking = false;
 function updateShowFilter() {
@@ -359,6 +388,38 @@ onUnmounted(() => {
           </div>
         </div>
       </div>
+
+      <div class="filter-group" v-if="studentBulletTypes?.length > 0">
+        <h2 class="filter-label">
+          <span>攻击类型</span>
+          <span
+            class="clear-filter-button"
+            role="button"
+            tabindex="0"
+            v-show="0 !== appliedFilters.bulletType?.length"
+            @click="handleClearFilterAttribute('bulletType')"
+          ></span>
+        </h2>
+        <div class="filter-options">
+          <div
+            v-for="bulletType in studentBulletTypes"
+            class="filter-tag bullet-type rounded-small"
+            :class="`${bulletType.toString().toLowerCase()} ${isActivate(
+              'bulletType',
+              bulletType
+            )}`"
+            role="checkbox"
+            :key="bulletType"
+            @click="handleFilter('bulletType', bulletType)"
+          >
+            {{
+              bulletTypes.find(el => bulletType === el.string)?.name ||
+              bulletType
+            }}
+          </div>
+        </div>
+      </div>
+
       <div class="filter-group">
         <h2 class="filter-label">
           <span>装甲类型</span>
@@ -372,13 +433,13 @@ onUnmounted(() => {
         </h2>
         <div class="filter-options">
           <div
+            v-for="armorType in studentArmorTypes"
             class="filter-tag armor-type rounded-small"
             :class="`${armorType.toString().toLowerCase()} ${isActivate(
               'armorType',
               armorType
             )}`"
             role="checkbox"
-            v-for="armorType in studentArmorTypes"
             :key="armorType"
             @click="handleFilter('armorType', armorType)"
           >
@@ -388,6 +449,7 @@ onUnmounted(() => {
           </div>
         </div>
       </div>
+
       <div class="filter-group">
         <h2 class="filter-label">
           <span>社团</span>
@@ -595,8 +657,10 @@ onUnmounted(() => {
   }
 }
 
-.armor-type {
-  &.lightarmor {
+.armor-type,
+.bullet-type {
+  &.lightarmor,
+  &.explosion {
     color: var(--color-text-light-armor);
 
     &.active {
@@ -604,7 +668,8 @@ onUnmounted(() => {
       color: var(--color-text-contrast);
     }
   }
-  &.heavyarmor {
+  &.heavyarmor,
+  &.pierce {
     color: var(--color-text-heavy-armor);
 
     &.active {
@@ -612,7 +677,8 @@ onUnmounted(() => {
       color: var(--color-text-contrast);
     }
   }
-  &.unarmed {
+  &.unarmed,
+  &.mystic {
     color: var(--color-text-unarmed);
 
     &.active {
