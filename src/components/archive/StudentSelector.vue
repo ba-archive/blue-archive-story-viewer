@@ -38,9 +38,15 @@ const fetchErrorMessage = ref({});
 axios
   .get('/config/json/students.json', {
     onDownloadProgress: progressEvent => {
-      initProgress.value = Math.floor(
-        ((progressEvent.loaded || 0) * 100) / (progressEvent.total || 60000)
-      );
+      if (progressEvent.total) {
+        initProgress.value = Math.floor(
+          ((progressEvent.loaded || 0) * 100) / (progressEvent.total || 1)
+        );
+      } else {
+        initProgress.value = Math.floor(
+          ((progressEvent.loaded || 0) * 100) / ((progressEvent.loaded || 0) + 100)
+        );
+      }
     },
   })
   .then(response => {

@@ -4,7 +4,7 @@
     <div class="progress-bar-background">
       <div
         class="progress"
-        :style="{ width: (progress > 100 ? 0 : progress) + '%' }"
+        :style="{ width: (progress > 100 ? 99 : progress) + '%' }"
       ></div>
     </div>
   </div>
