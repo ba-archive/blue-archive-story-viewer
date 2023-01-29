@@ -23,7 +23,7 @@ title:
     FavorScheduleId: 100425
     CharacterId: 10042
     TextJp: 街の花園
-    TextCn: 街上的花园
+    TextCn: 街边的花园
     TextKr: 거리의 화원
     TextEn: Street Garden
     TextTh: สวนดอกไม้ริมทาง
@@ -32,7 +32,7 @@ title:
     FavorScheduleId: 100426
     CharacterId: 10042
     TextJp: 今よりもっとたくさん
-    TextCn: 比今天更多
+    TextCn: 从今往后更多的
     TextKr: 지금보다 더 많이
     TextEn: Much More than Now
     TextTh: มากกว่าในตอนนี้
@@ -70,7 +70,7 @@ content:
     ImagePath: ''
     MessageKR: 선생님 있어?
     MessageJP: 今大丈夫？このトーク届いてる？
-    MessageCN: 现在有空吗？能收到消息吗？
+    MessageCN: 现在有空吗？能看到消息吗？
     MessageEN: Sensei, are you there?
     MessageTH: อยู่รึเปล่า...?
     MessageTW: 老師在嗎？
@@ -106,7 +106,7 @@ content:
     ImagePath: ''
     MessageKR: 응. 맞아. 좋은 아침.
     MessageJP: うん、そうだよ。おはよう
-    MessageCN: 嗯，是我哦。早上好
+    MessageCN: 嗯，是我。早上好
     MessageEN: Yes. Good morning.
     MessageTH: อื้อ ฉันเอง อรุณสวัสดิ์
     MessageTW: 嗯。沒錯。早安。
@@ -142,11 +142,11 @@ content:
     ImagePath: ''
     MessageKR: 지금은 아침은 아니지만.
     MessageJP: もうそろそろ夜だけど、おはよう
-    MessageCN: 虽然差不多快晚上了，早上好
+    MessageCN: 虽然差不多晚上了，早上好
     MessageEN: It's not morning anymore though.
-    MessageTH: 'ถึงไม่เช้าแล้ว
-
-      แต่ก็อรุณสวัสดิ์นะ'
+    MessageTH: |-
+      ถึงไม่เช้าแล้ว
+      แต่ก็อรุณสวัสดิ์นะ
     MessageTW: 雖然現在不是早上。
   - MessageGroupId: 100420060
     Id: 100420070
@@ -162,11 +162,11 @@ content:
     ImagePath: ''
     MessageKR: 선생님도 알겠지만 우리는 지금 여기저기를 떠돌아다니고 있어.
     MessageJP: 私たち、今あっちこっちを転々としてて
-    MessageCN: 我们，现在这里那里四处奔走
+    MessageCN: 我们，现在在四处奔波
     MessageEN: As you know, we're wandering around all over the place now.
-    MessageTH: 'คุณครูเองก็คงรู้แล้วว่าตอนนี้พวกเรา
-
-      ตระเวนไปที่ต่างๆ อยู่'
+    MessageTH: |-
+      คุณครูเองก็คงรู้แล้วว่าตอนนี้พวกเรา
+      ตระเวนไปที่ต่างๆ อยู่
     MessageTW: 雖然老師也知道，不過我們現在正在這裡遊蕩。
   - MessageGroupId: 100420060
     Id: 100420080
@@ -200,11 +200,11 @@ content:
     ImagePath: ''
     MessageKR: 게다가 다들 제각각 흩어져 있는 시간도 많아서
     MessageJP: それと、みんなバラバラでいる事が多くて
-    MessageCN: 所以就，经常有和大家分开的情况
+    MessageCN: 所以大家，经常分开
     MessageEN: Not only that, but we spend a lot of time away from each other.
-    MessageTH: 'อีกอย่างตอนนี้ทุกคนก็กระจายตัว
-
-      แยกกันไปหมด'
+    MessageTH: |-
+      อีกอย่างตอนนี้ทุกคนก็กระจายตัว
+      แยกกันไปหมด
     MessageTW: 而且大家各自分開的時間很長，
   - MessageGroupId: 100420070
     Id: 100420100
@@ -238,7 +238,7 @@ content:
     ImagePath: ''
     MessageKR: '그러니까 선생님을 만나려면 '
     MessageJP: だから先生に会うには
-    MessageCN: 所以老师不到这里来的话
+    MessageCN: 所以我如果想见到老师但是老师不过来的话
     MessageEN: 'So, for us to meet, '
     MessageTH: 'เพราะงั้นถ้าจะเจอคุณครูละก็... '
     MessageTW: '所以如果想要見到老師， '
@@ -256,7 +256,7 @@ content:
     ImagePath: ''
     MessageKR: 선생님이 여기로 와야 해.
     MessageJP: 先生がこっちに来てくれないと難しい
-    MessageCN: 就很难见到老师
+    MessageCN: 我会不高兴的
     MessageEN: you have to come here.
     MessageTH: คงต้องให้คุณครูเป็นฝ่ายมาที่นี่
     MessageTW: 老師必須來到這裡。
@@ -274,11 +274,11 @@ content:
     ImagePath: ''
     MessageKR: 요컨대, 심심하니까 만나자는 거지……?
     MessageJP: 要するに、退屈だから会おうって捉え方で良い……？
-    MessageCN: 总之，我可以理解成因为无聊所以想见面吗……?
+    MessageCN: 总之，我可以理解成亚津子现在很无聊所以想和我见面吗……？
     MessageEN: You want me to come see you because you're bored...?
-    MessageTH: 'สรุปคือชวนครูไปหาเพราะเบื่อ
-
-      ที่อยู่คนเดียวสินะ...?'
+    MessageTH: |-
+      สรุปคือชวนครูไปหาเพราะเบื่อ
+      ที่อยู่คนเดียวสินะ...?
     MessageTW: 總之，你是因為無聊，才要跟我見面的吧……？
   - MessageGroupId: 100420100
     Id: 100420140
@@ -384,11 +384,11 @@ content:
     ImagePath: ''
     MessageKR: '그럼 다음에 봐. 위치가 바뀌면 또 연락할게. '
     MessageJP: じゃあ、また。場所が変わったら連絡する
-    MessageCN: 那么，再见。等换了地址再和你联系
+    MessageCN: 那么，再见。等换了地方我再和老师联系
     MessageEN: "I'll see you later. I'll contact you if the location changes. "
-    MessageTH: 'ไว้เจอกันใหม่นะถ้าเปลี่ยนพิกัดที่อยู่อีก
-
-      จะติดต่อไปใหม่ '
+    MessageTH: |-
+      ไว้เจอกันใหม่นะถ้าเปลี่ยนพิกัดที่อยู่อีก
+      จะติดต่อไปใหม่
     MessageTW: 那就下次見囉。如果地點改變，我會再跟你聯絡。
   - MessageGroupId: 100420140
     Id: 100420200
@@ -440,7 +440,7 @@ content:
     ImagePath: ''
     MessageKR: 시간이 되면 놀러 올래?
     MessageJP: 時間があったら、遊びに来ない？
-    MessageCN: 有时间的话，要来玩吗？
+    MessageCN: 老师有时间的话，要来玩吗？
     MessageEN: Stop by if you have time?
     MessageTH: ถ้ามีเวลาอยากแวะมาเที่ยวหน่อยมั้ย?
     MessageTW: 如果有空，要不要過來玩？
@@ -494,7 +494,7 @@ content:
     ImagePath: ''
     MessageKR: 재미있을 거 같아. 분명.
     MessageJP: きっと、楽しいと思う
-    MessageCN: 我想，一定会很开心
+    MessageCN: 我猜，一定会很好玩
     MessageEN: I think it'll be fun. I guarantee it.
     MessageTH: ดูน่าสนุกมากเลยนะ
     MessageTW: 好像會很有趣。肯定！
@@ -512,7 +512,7 @@ content:
     ImagePath: ''
     MessageKR: 아아. 알겠어.
     MessageJP: うん、分かった。楽しみにしてるね
-    MessageCN: 嗯，我知道了。我很期待哦
+    MessageCN: 嗯，我知道了。那我就期待一下啦
     MessageEN: Oh. Okay.
     MessageTH: อื้อ เข้าใจแล้ว
     MessageTW: 啊啊。我知道了，
@@ -586,9 +586,9 @@ content:
     MessageJP: 花……花を育てること？
     MessageCN: 花……是说养花吗？
     MessageEN: You mean like...growing flowers?
-    MessageTH: 'ดอกไม้เหรอ…
-
-      หมายถึงปลูกต้นไม้งั้นเหรอ?'
+    MessageTH: |-
+      ดอกไม้เหรอ…
+      หมายถึงปลูกต้นไม้งั้นเหรอ?
     MessageTW: 花啊……要種花嗎？
   - MessageGroupId: 100420220
     Id: 100420310
@@ -604,11 +604,11 @@ content:
     ImagePath: ''
     MessageKR: 응. 나중에 화훼 동아리라도 만들어볼까?
     MessageJP: うん。今度、園芸部でも作ってみようかな
-    MessageCN: 嗯。下次，想试着组建园艺部呢
+    MessageCN: 嗯。这次，我想试着组建园艺部呢
     MessageEN: Perhaps I can make a flower club one day.
-    MessageTH: 'อื้อ ไว้ตั้งชมรมจัดดอกไม้
-
-      ขึ้นมาดีมั้ย?'
+    MessageTH: |-
+      อื้อ ไว้ตั้งชมรมจัดดอกไม้
+      ขึ้นมาดีมั้ย?
     MessageTW: 嗯。以後要不要成立個花卉社團？
   - MessageGroupId: 100420220
     Id: 100420320
@@ -698,9 +698,9 @@ content:
     MessageJP: お花を、趣味にしようと思う
     MessageCN: 我想，把花当作我的兴趣
     MessageEN: I'm gonna get a hobby related to flowers.
-    MessageTH: 'ฉันจะลองหางานอดิเรกที่เกี่ยวกับ
-
-      ดอกไม้ดู'
+    MessageTH: |-
+      ฉันจะลองหางานอดิเรกที่เกี่ยวกับ
+      ดอกไม้ดู
     MessageTW: 我想要培養和花有關的興趣。
   - MessageGroupId: 100420260
     Id: 100420370
@@ -806,7 +806,7 @@ content:
     ImagePath: ''
     MessageKR: 좋아하는 꽃?
     MessageJP: うーん……
-    MessageCN: 唔ー嗯……
+    MessageCN: 嗯——……
     MessageEN: My favorite flower?
     MessageTH: ดอกไม้ที่ชอบเหรอ?
     MessageTW: 我喜歡的花？
@@ -824,7 +824,7 @@ content:
     ImagePath: ''
     MessageKR: 응. 나 꽃이라면 뭐든 좋아하지만
     MessageJP: 私、花なら何でも好き
-    MessageCN: 我，什么花都喜欢哦
+    MessageCN: 我，只要是花就都喜欢
     MessageEN: Well, I like all kinds, but...
     MessageTH: อืม ถ้าเป็นดอกไม้ก็ชอบทั้งหมดนั่นแหละ
     MessageTW: 嗯。雖然只要是花我都很喜歡，
@@ -914,7 +914,7 @@ content:
     ImagePath: ''
     MessageKR: 선생님.
     MessageJP: 先生、今日はお疲れ様
-    MessageCN: 老师，今天辛苦你了
+    MessageCN: 老师，今天辛苦了
     MessageEN: Sensei.
     MessageTH: คุณครู
     MessageTW: 老師，
@@ -932,7 +932,7 @@ content:
     ImagePath: ''
     MessageKR: 오늘 수고했어.
     MessageJP: おかげで、たくさん植え替えることができた
-    MessageCN: 多亏了老师，移栽了很多盆花
+    MessageCN: 多亏老师帮忙，我才能移植这么多花
     MessageEN: Great work.
     MessageTH: วันนี้ขอบคุณมากนะ
     MessageTW: 今天辛苦你了。
@@ -950,11 +950,11 @@ content:
     ImagePath: ''
     MessageKR: 잘 자랐으면 좋겠네.
     MessageJP: 元気に育つといいね
-    MessageCN: 希望它们能健康长大
+    MessageCN: 希望它们能健康长大呢
     MessageEN: I hope it grows okay.
-    MessageTH: 'ถ้าดอกไม้พวกนั้นโตขึ้นมา
-
-      อย่างปลอดภัยก็คงดี'
+    MessageTH: |-
+      ถ้าดอกไม้พวกนั้นโตขึ้นมา
+      อย่างปลอดภัยก็คงดี
     MessageTW: 希望可以好好成長。
   - MessageGroupId: 100420360
     Id: 100420510
@@ -1024,7 +1024,7 @@ content:
     ImagePath: ''
     MessageKR: 선생님
     MessageJP: こんにちは、先生
-    MessageCN: 你好，老师
+    MessageCN: 您好，老师
     MessageEN: Sensei.
     MessageTH: คุณครู
     MessageTW: 老師
@@ -1060,7 +1060,7 @@ content:
     ImagePath: ''
     MessageKR: 화단이 괜찮을까?
     MessageJP: 花壇は大丈夫かな……
-    MessageCN: 花坛没问题吧……
+    MessageCN: 花坛应该没事吧……
     MessageEN: Do you think the flower garden is okay?
     MessageTH: แปลงดอกไม้จะเป็นอะไรรึเปล่านะ?
     MessageTW: 花圃沒事嗎？
@@ -1078,7 +1078,7 @@ content:
     ImagePath: ''
     MessageKR: 확인하러 가고 싶은데 혼자서 가고 싶지가 않아.
     MessageJP: 確認しに行きたいけど、一人じゃ不安
-    MessageCN: 虽然想去确认一下，但是一个人有点不安
+    MessageCN: 我想去确认一下，但是一个人去有点不安
     MessageEN: I need to check, but I don't wanna go alone.
     MessageTH: ฉันอยากออกไปดูแต่ก็ไม่อยากไปคนเดียว...
     MessageTW: 我想要去確認一下，但是不想自己一個人去

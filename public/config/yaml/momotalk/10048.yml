@@ -23,7 +23,7 @@ title:
     FavorScheduleId: 100485
     CharacterId: 10048
     TextJp: 自責の念
-    TextCn: 引咎自责
+    TextCn: 自责之念
     TextKr: 자책
     TextEn: Blaming Yourself
     TextTh: การตำหนิตัวเอง
@@ -98,7 +98,7 @@ content:
     MessageKR: …아니, 그렇게 호들갑 떨 것까진….
     MessageJP: そこまで驚くことか……
     MessageCN: 至于这么震惊吗……
-    MessageEN: "...You don't have to make a fuss."
+    MessageEN: ...You don't have to make a fuss.
     MessageTH: เดี๋ยวสิ ไม่เห็นต้องเวอร์ขนาดนั้นเลย
     MessageTW: 有這麼吃驚嗎……
   - MessageGroupId: 100480040
@@ -187,7 +187,7 @@ content:
     ImagePath: ''
     MessageKR: 염치가 없다는 건 알고 있어. 하지만….
     MessageJP: 図々しいとは百も承知だ。しかし
-    MessageCN: 我深知做这样的事实在恬不知耻。但是
+    MessageCN: 虽然我知道自己现在很无耻。但是
     MessageEN: I know I'm being shameless, but...
     MessageTH: ฉันรู้ว่าแบบนี้มันดูน่าขายหน้า แต่ว่า...
     MessageTW: 我知道這樣很厚臉皮。但是
@@ -205,7 +205,7 @@ content:
     ImagePath: ''
     MessageKR: 알았어. 지금 바로 갈게!
     MessageJP: 分かった、すぐ行く！
-    MessageCN: 知道了，我马上去！
+    MessageCN: 明白了，我马上过去！
     MessageEN: Okay. I'll be right there.
     MessageTH: เข้าใจแล้ว ครูจะเหาะไปหาเดี๋ยวนี้เลย!
     MessageTW: 我知道了，馬上過去！
@@ -223,7 +223,7 @@ content:
     ImagePath: ''
     MessageKR: 아… 응.
     MessageJP: ……そうか
-    MessageCN: ……这样啊
+    MessageCN: ……是吗
     MessageEN: Oh...okay.
     MessageTH: อะ...อื้อ
     MessageTW: ……是嗎
@@ -241,7 +241,7 @@ content:
     ImagePath: ''
     MessageKR: …그럼, 기다리고 있겠다.
     MessageJP: では、待っている
-    MessageCN: 那么，我等你
+    MessageCN: 那么，我等老师
     MessageEN: Then I'll be waiting.
     MessageTH: ถ้างั้น ฉันจะรอแล้วกัน
     MessageTW: 那麼，我等著
@@ -313,11 +313,11 @@ content:
     ImagePath: ''
     MessageKR: 아니, 사오리한테서 날씨 이야기라니.
     MessageJP: サオリが、天気の話を……
-    MessageCN: 纱织居然在说天气的话题……
+    MessageCN: 纱织居然会聊天气……
     MessageEN: I can't believe you just talked about the weather.
-    MessageTH: 'เปล่าหรอก ไม่คิดว่าซาโอริจะคุย
-
-      เรื่องดินฟ้าอากาศน่ะ'
+    MessageTH: |-
+      เปล่าหรอก ไม่คิดว่าซาโอริจะคุย
+      เรื่องดินฟ้าอากาศน่ะ
     MessageTW: 沙織居然聊天氣……
   - MessageGroupId: 100480150
     Id: 100480170
@@ -351,11 +351,11 @@ content:
     ImagePath: ''
     MessageKR: 아니, 나라도 이 정도 안부 인사는…….
     MessageJP: ……私だって、世間話をしようと思うことはある
-    MessageCN: ……就算是我，偶尔也会有想闲聊的时候
+    MessageCN: ……哪怕是我也偶尔会想和人聊聊天的
     MessageEN: I mean, it's not a big deal...
-    MessageTH: 'เดี๋ยวสิ ถึงจะเป็นฉันก็เถอะ แต่ให้พูดคุย
-
-      กันแบบนี้ฉันก็ทำได้...'
+    MessageTH: |-
+      เดี๋ยวสิ ถึงจะเป็นฉันก็เถอะ แต่ให้พูดคุย
+      กันแบบนี้ฉันก็ทำได้...
     MessageTW: ……就算是我，也有想閒聊的時候
   - MessageGroupId: 100480170
     Id: 100480190
@@ -371,11 +371,11 @@ content:
     ImagePath: ''
     MessageKR: 지난번엔 선생 도움 덕에 통장도 개설했고.
     MessageJP: 先日は、おかげで口座も作ることができた
-    MessageCN: 前几天，多亏了老师才能开户成功
+    MessageCN: 前几天，多亏了老师我才能开户
     MessageEN: I opened an account thanks to your help earlier.
-    MessageTH: 'คราวก่อนได้คุณครูช่วยไว้ ฉันเลยเปิด
-
-      บัญชีธนาคารได้'
+    MessageTH: |-
+      คราวก่อนได้คุณครูช่วยไว้ ฉันเลยเปิด
+      บัญชีธนาคารได้
     MessageTW: 前幾天，多虧了你，我才能順利開設帳戶
   - MessageGroupId: 100480170
     Id: 100480200
@@ -391,11 +391,11 @@ content:
     ImagePath: ''
     MessageKR: 덕분에 일도 시작해서, 조금은 근황을 전해둘까. 했을 뿐이다.
     MessageJP: 色々と依頼も受けるようになり、近況くらいは伝えようかと思っただけだ
-    MessageCN: 也接到了各种各样的委托，想着至少和你传达一下近况
+    MessageCN: 也接到了各种各样的委托，就想和老师传达一下我的近况
     MessageEN: I started working too, so I just wanted to give you a little update.
-    MessageTH: 'ตอนนี้ก็ทำงานได้แล้วละ แค่แวะมา
-
-      บอกสถานการณ์เฉยๆ น่ะ'
+    MessageTH: |-
+      ตอนนี้ก็ทำงานได้แล้วละ แค่แวะมา
+      บอกสถานการณ์เฉยๆ น่ะ
     MessageTW: 也開始收到了各種委託，所以只是想轉達一下近況
   - MessageGroupId: 100480180
     Id: 100480210
@@ -411,7 +411,7 @@ content:
     ImagePath: ''
     MessageKR: 뭐, 괜한 짓이었다면 그만두겠지만.
     MessageJP: 気に障ることだったら、今後は控えよう
-    MessageCN: 如果你反感的话，我就不再发了
+    MessageCN: 如果老师反感的话，我之后就不发了
     MessageEN: I'll stop if you don't care.
     MessageTH: แต่ก็นะ ถ้ามันวุ่นวายเกินไปฉันหยุดก็ได้
     MessageTW: 如果冒犯了你，之後會避免這樣做
@@ -429,13 +429,12 @@ content:
     ImagePath: ''
     MessageKR: 아니아니, 전달해줘! 사오리의 근황! 최근엔 무슨 일이 있었어?!
     MessageJP: そんなこと無いよ、サオリの近況知りたい！最近はどんなことがあったの！？
-    MessageCN: 没那回事哦，我想知道纱织的近况！最近发生了什么事呢！？
+    MessageCN: 没那回事，我想知道纱织的近况！纱织最近遇到了什么事呢！？
     MessageEN: No, yes! I want to hear the update! What's new?!
-    MessageTH: 'ไม่ต้องๆ พิมพ์มาบอกได้เลย!
-
+    MessageTH: |-
+      ไม่ต้องๆ พิมพ์มาบอกได้เลย!
       สถานการณ์ของซาโอริช่วงนี้
-
-      เป็นยังไงบ้างล่ะ?!'
+      เป็นยังไงบ้างล่ะ?!
     MessageTW: 沒有那樣的事，我想知道沙織的近況！最近有發生什麼事嗎！？
   - MessageGroupId: 100480200
     Id: 100480230
@@ -451,13 +450,13 @@ content:
     ImagePath: ''
     MessageKR: 호들갑은……. 아, 음. 최근엔 블랙마켓을 통해 소개받은 일을 하고 있다.
     MessageJP: 大げさだな……近頃は、ブラックマーケットで紹介された依頼をこなしている
-    MessageCN: 反应太夸张了……最近，在着手黑市上介绍的委托
-    MessageEN:
-      You're way too eager... Uh, I've been working a job I got from the
-      Black Market.
-    MessageTH: 'พิมพ์มารัวไปมั้ย... อืม ไม่นานมานี้มีคน
-
-      แนะนำงานจากตลาดมืดมาให้น่ะ'
+    MessageCN: 这反应太夸张了……最近，我在做黑市介绍的委托
+    MessageEN: >-
+      You're way too eager... Uh, I've been working a job I got from the Black
+      Market.
+    MessageTH: |-
+      พิมพ์มารัวไปมั้ย... อืม ไม่นานมานี้มีคน
+      แนะนำงานจากตลาดมืดมาให้น่ะ
     MessageTW: 太浮誇了……最近，在處理黑市介紹的委託。
   - MessageGroupId: 100480210
     Id: 100480240
@@ -491,11 +490,11 @@ content:
     ImagePath: ''
     MessageKR: ……잘됐다, 라기엔 다소 문제가……
     MessageJP: 良い、かどうかは分からないが……
-    MessageCN: 虽然不知道好还是不好……
+    MessageCN: 虽然不知道这算不算好……
     MessageEN: I don't know if it's good...
-    MessageTH: 'ที่บอกว่า "ก็ดีแล้ว" นี่มัน... ดูเหมือนจะ
-
-      มีปัญหาอะไรเลยนะ'
+    MessageTH: |-
+      ที่บอกว่า "ก็ดีแล้ว" นี่มัน... ดูเหมือนจะ
+      มีปัญหาอะไรเลยนะ
     MessageTW: 算不算好我也不太清楚……
   - MessageGroupId: 100480230
     Id: 100480260
@@ -511,7 +510,7 @@ content:
     ImagePath: ''
     MessageKR: 아니, 아니다. 그래. 잘된 거겠지.
     MessageJP: まあ、そうだな。良いことなのかもしれない
-    MessageCN: 嘛，是啊。可能确实是件好事
+    MessageCN: 唉，是啊。可能确实是件好事
     MessageEN: Well, I guess it's good.
     MessageTH: ไม่ๆ เปล่าๆ ครูว่าเป็นเรื่องดีนะ
     MessageTW: 嘛，也是呢。算是好事吧
@@ -529,7 +528,7 @@ content:
     ImagePath: ''
     MessageKR: 그럼 다음에 또 기회가 되면 연락하겠어. 이만.
     MessageJP: また何かあったら連絡する
-    MessageCN: 再有什么事的话我再联系您
+    MessageCN: 有什么事的话我再联系您
     MessageEN: Maybe I'll talk to you again later, Sensei.
     MessageTH: เอาไว้ถ้ามีโอกาสจะติดต่อมาใหม่ ไปละ
     MessageTW: 有事的話會再聯絡
@@ -565,7 +564,7 @@ content:
     ImagePath: ''
     MessageKR: 선생, 저번의 실수를 말미암아.
     MessageJP: この間のことを反省した
-    MessageCN: 我反省了一下前几天的事情
+    MessageCN: 我反省了一下之前的事情
     MessageEN: Sensei, I learned from my previous mistake.
     MessageTH: ครู... เพราะคราวที่แล้วทำพลาดไป
     MessageTW: 反省了前幾天的事情
@@ -583,11 +582,11 @@ content:
     ImagePath: ''
     MessageKR: 이번에 블랙마켓 은행으로부터 소개받은 일에선
     MessageJP: 今回の依頼については
-    MessageCN: 关于这次的委托
+    MessageCN: 这次的委托
     MessageEN: For the job I got from the Black Market,
-    MessageTH: 'ตอนได้รับแนะนำงานจากธนาคาร
-
-      ตลาดมืดคราวนี้'
+    MessageTH: |-
+      ตอนได้รับแนะนำงานจากธนาคาร
+      ตลาดมืดคราวนี้
     MessageTW: 關於這次的委託
   - MessageGroupId: 100480260
     Id: 100480310
@@ -603,7 +602,7 @@ content:
     ImagePath: ''
     MessageKR: 확실히 계약서도 제대로 썼어.
     MessageJP: すでにきちんと契約書を書いている
-    MessageCN: 已经正式的签署过了合同
+    MessageCN: 我已经签署了正式合同
     MessageEN: I made sure to sign a contract.
     MessageTH: ฉันไม่ลืมให้เขียนหนังสือสัญญาแล้วนะ
     MessageTW: 有寫好合約了
@@ -639,7 +638,7 @@ content:
     ImagePath: ''
     MessageKR: 그래서 어떤 일을 구했는데?
     MessageJP: それで、今回はどんな依頼？
-    MessageCN: 然后呢，这次是什么样的委托？
+    MessageCN: 然后呢，纱织这次接的是什么委托？
     MessageEN: So, what kind of a job is it?
     MessageTH: แล้วคราวนี้ได้งานอะไรเหรอ?
     MessageTW: 那麼，這次是什麼委託？
@@ -675,10 +674,8 @@ content:
     ImagePath: ''
     MessageKR: 블랙마켓의 항쟁을 마무리하는 일이지.
     MessageJP: ブラックマーケットの抗争を終わらせるだけだ
-    MessageCN: 只是要解决黑市内的斗争而已
-    MessageEN:
-      It's a job for ending something the Black Market's been struggling
-      with.
+    MessageCN: 只要终结黑市的斗争就行了
+    MessageEN: It's a job for ending something the Black Market's been struggling with.
     MessageTH: งานเก็บกวาดพวกที่มีเรื่องกันในตลาดมืดน่ะ
     MessageTW: 只需要結束黑市的紛爭罷了
   - MessageGroupId: 100480310
