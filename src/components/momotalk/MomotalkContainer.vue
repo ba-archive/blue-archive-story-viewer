@@ -75,7 +75,8 @@ axios
         );
       } else {
         initProgress.value = Math.floor(
-          ((progressEvent.loaded || 0) * 100) / ((progressEvent.loaded || 0) + 100)
+          ((progressEvent.loaded || 0) * 100) /
+            ((progressEvent.loaded || 0) + 100)
         );
       }
     },
