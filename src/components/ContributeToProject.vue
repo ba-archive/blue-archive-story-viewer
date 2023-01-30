@@ -12,6 +12,8 @@ const contributors = [
   { name: 'setsuna', role: '前端' },
   { name: 'Coya', role: 'UI' },
   { name: 'HeartunderBlade', role: '前端，自动化，架构，运维' },
+  { name: '逝徊', role: '运维' },
+  { name: '小陈菌', role: '自动化' },
   { name: '柳', role: '翻译' },
   { name: 'Misaka18655', role: '翻译' },
 ];
