@@ -83,12 +83,14 @@ onBeforeUnmount(() => {
 }
 
 @media screen and (max-width: 768px) {
+  //noinspection CssOverwrittenProperties
   #main-view {
     border-radius: 0;
     -webkit-border-radius: 0;
     padding: 3.5rem 1rem 0 1rem;
     width: 100vw;
     min-height: 100vh;
+    min-height: 100dvh;
     overflow-x: hidden;
     overflow-y: scroll;
   }
