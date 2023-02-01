@@ -170,9 +170,11 @@ function closeMenu() {
   }
 }
 
+//noinspection CssOverwrittenProperties
 .mobile-submenu-container {
   z-index: -1;
   height: 100vh;
+  height: 100dvh;
   color: var(--color-text-main);
 
   .mobile-submenu {

@@ -136,6 +136,7 @@ html[data-theme='dark'] {
   --style-background-image: url('/image/homescreen/background-dark.webp');
 }
 
+//noinspection CssOverwrittenProperties
 body {
   display: flex;
   justify-content: center;
@@ -147,6 +148,7 @@ body {
   padding: 1rem;
   width: 100vw;
   height: 100vh;
+  height: 100dvh;
   font-family: 'Microsoft YaHei', 'PingFang SC', -apple-system, system-ui,
     'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', BlinkMacSystemFont,
     'Helvetica Neue', 'Hiragino Sans GB', Arial, sans-serif;
@@ -277,7 +279,7 @@ body {
 }
 
 // control pwa install prompt
-//noinspection CssUnusedSymbol
+//noinspection CssUnusedSymbol,CssOverwrittenProperties
 .sw-update-toast {
   display: flex;
   position: fixed;
@@ -289,6 +291,7 @@ body {
   background: rgba(0, 0, 0, 0.1);
   width: 100vw;
   height: 100vh;
+  height: 100dvh;
 
   .sw-update-card {
     display: flex;
