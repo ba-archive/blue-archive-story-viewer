@@ -76,7 +76,7 @@
 </template>
 
 <script setup lang="ts">
-import { PropType, computed, ref } from 'vue';
+import { PropType, computed, ref, watch } from 'vue';
 import { useSettingsStore } from '../../store/settings';
 import { useStudentStore } from '../../store/students';
 import { CurrentMessageItem, MessageText } from '../../types/Chats';
@@ -84,6 +84,7 @@ import { StudentName } from '../../types/Student';
 
 const props = defineProps({
   message: Object as PropType<CurrentMessageItem>,
+  shouldComponentUpdate: Boolean,
 });
 
 const settingsStore = useSettingsStore();
@@ -109,12 +110,30 @@ const showMessageContent = ref(false);
 const showFavorMessageContent = ref(false);
 // 这里是故意用 || 而不是 ?? 的，不然第一条消息需要等待太久，用户体验不好
 const feedbackTime = props.message?.FeedbackTimeMillisec || 1000;
-setTimeout(() => {
-  showMessageContent.value = true;
-}, feedbackTime);
-setTimeout(() => {
-  showFavorMessageContent.value = true;
-}, feedbackTime + 500);
+
+function animateMessage() {
+  setTimeout(() => {
+    showMessageContent.value = true;
+  }, feedbackTime);
+  setTimeout(() => {
+    showFavorMessageContent.value = true;
+  }, feedbackTime + 500);
+}
+
+animateMessage();
+
+watch(
+  () => props.shouldComponentUpdate,
+  newValue => {
+    if (!newValue) {
+      return;
+    }
+    showMessageContent.value = false;
+    showFavorMessageContent.value = false;
+    currentSelection.value = -1;
+    animateMessage();
+  }
+);
 
 function getMessageImagePath(originPath: string | undefined): string {
   if (originPath) {

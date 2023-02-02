@@ -158,6 +158,13 @@ function handleUserSelect(Id: number, nextGroupId: number) {
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 next(props.content[0].MessageGroupId, 0);
+
+function shouldComponentUpdate(id: number) {
+  return (
+    messageList.value.length > 0 &&
+    id === messageList.value[messageList.value.length - 1].Id
+  );
+}
 </script>
 
 <template>
@@ -198,6 +205,7 @@ next(props.content[0].MessageGroupId, 0);
         :key="index"
         :message="message"
         @userSelect="handleUserSelect"
+        :should-component-update="shouldComponentUpdate(message.Id)"
       />
     </div>
   </div>
