@@ -1,4 +1,6 @@
 /* eslint-disable no-unused-vars,@typescript-eslint/no-unused-vars */
+import px2rem from 'postcss-plugin-px2rem';
+import postcssPresetEnv from 'postcss-preset-env';
 import { visualizer } from 'rollup-plugin-visualizer';
 import { defineConfig } from 'vite';
 import viteCompression from 'vite-plugin-compression';
@@ -6,13 +8,18 @@ import { VitePWA } from 'vite-plugin-pwa';
 import legacy from '@vitejs/plugin-legacy';
 import vue from '@vitejs/plugin-vue';
 
-import postcssPresetEnv from 'postcss-preset-env';
-
 // https://vitejs.dev/config/
 export default defineConfig({
   css: {
     postcss: {
-      plugins: [postcssPresetEnv()],
+      plugins: [
+        postcssPresetEnv(),
+        px2rem({
+          rootValue: 16,
+          propBlackList: ['font-size', 'border', 'border-width'],
+          exclude: /(node_module)/,
+        }),
+      ],
     },
   },
   plugins: [
