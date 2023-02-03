@@ -158,6 +158,9 @@ function handleSelection(
   Id: number | undefined,
   nextGroupId: number
 ) {
+  if (selected === currentSelection.value) {
+    return;
+  }
   currentSelection.value = selected;
   emit('userSelect', Id || 0, nextGroupId);
 }
