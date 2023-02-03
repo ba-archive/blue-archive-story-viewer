@@ -3,8 +3,7 @@ import axios from 'axios';
 import { Ref, computed, ref } from 'vue';
 import { useRoute } from 'vue-router';
 import { useSettingsStore } from '../../store/settings';
-import { Momotalk, SplitMomotalk } from '../../types/Chats';
-import { Momotalks } from '../../types/Chats';
+import { Momotalk, Momotalks, SplitMomotalk } from '../../types/Chats';
 import ErrorScreen from '../widgets/ErrorScreen.vue';
 import ProgressBar from '../widgets/NeuUI/NeuProgressBar.vue';
 import StudentArchiveTitle from '../widgets/StudentArchiveTitle.vue';
@@ -101,9 +100,9 @@ axios
 // 处理点击展开的逻辑
 function handleOpenTalks(index: number) {
   if (opentalks.value.includes(index)) {
-    opentalks.value = opentalks.value.filter(i => i !== index);
+    opentalks.value = [];
   } else {
-    opentalks.value.push(index);
+    opentalks.value = [index];
   }
 }
 

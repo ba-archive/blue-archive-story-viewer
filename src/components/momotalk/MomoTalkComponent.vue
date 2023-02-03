@@ -4,6 +4,7 @@
     :class="
       !message?.avatar && 'Answer' !== messageCondition ? 'condensed' : ''
     "
+    v-scroll-into-view
   >
     <div class="student-reply" v-if="'Answer' !== messageCondition">
       <img
@@ -60,6 +61,7 @@
   <div
     class="momotalk-unit"
     v-if="0 !== message?.FavorScheduleId && showFavorMessageContent"
+    v-scroll-into-view
   >
     <div class="favor-schedule-unit rounded-small">
       <div class="favor-schedule-banner">
@@ -86,6 +88,12 @@ const props = defineProps({
   message: Object as PropType<CurrentMessageItem>,
   shouldComponentUpdate: Boolean,
 });
+
+const vScrollIntoView = {
+  mounted(el: HTMLElement) {
+    el.scrollIntoView();
+  },
+};
 
 const settingsStore = useSettingsStore();
 const studentStore = useStudentStore();
