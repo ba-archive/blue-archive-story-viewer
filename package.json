@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host",
-    "format": "prettier --config .prettierrc.cjs -uw ./src/ ./CICD/ ./public/config/yaml/ *.md",
+    "format": "prettier --config .prettierrc.json -uw ./src/ ./CICD/ ./public/config/yaml/ *.md",
     "build:json": "eslint --config ./.eslintrc.json ./public/config/yaml/ && node ./CICD/build_json.js",
     "build": "pnpm format; pnpm build:json && vue-tsc && vite build",
     "build:github": "pnpm build; cp ./dist/index.html ./dist/404.html",

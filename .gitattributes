@@ -19,3 +19,4 @@
 *.woff2 binary
 *.json binary
 package.json !binary
+.prettierrc.json !binary
