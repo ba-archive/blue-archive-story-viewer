@@ -170,7 +170,7 @@ function stripRubyContent(content: string | undefined): string {
   }
   return content
     .replaceAll(/\[\/?ruby=?.*?]/gi, '')
-    .replaceAll(/\s/g, '&nbsp;');
+    .replaceAll(/\s/g, '&ensp;');
 }
 
 const languageMap = {
