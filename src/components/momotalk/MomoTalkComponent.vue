@@ -51,8 +51,8 @@
           :key="index"
           :class="index === currentSelection ? 'selected' : ''"
           @click="handleSelection(index, message?.Id, option.NextGroupId)"
+          v-html="getMessageText(option)"
         >
-          {{ getMessageText(option) }}
         </div>
       </div>
     </div>
