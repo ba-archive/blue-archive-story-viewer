@@ -367,7 +367,7 @@ content:
     ImagePath: ''
     MessageKR: 그럼~ 뾰로롱~☆
     MessageJP: それじゃ、またね☆
-    MessageCN: 那么、再会啦☆
+    MessageCN: 那么，再会啦☆
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
@@ -421,9 +421,7 @@ content:
     ImagePath: ''
     MessageKR: …….
     MessageJP: ……
-    MessageCN: |-
-
-      ……
+    MessageCN: ……
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
