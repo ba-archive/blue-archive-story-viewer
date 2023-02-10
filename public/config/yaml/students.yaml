@@ -3127,3 +3127,28 @@
   armorType: HeavyArmor
   bulletType: Mystic
   weapon: SG
+- id: 10061
+  familyName:
+    cn: 歌住
+    jp: 歌住
+    en: Utazumi
+    kr: 우타즈미
+    tw: 歌住
+    th: อูตะซุมิ
+  name:
+    cn: 樱子
+    jp: サクラコ
+    en: Sakurako
+    kr: 사쿠라코
+    tw: 櫻子
+    th: ซาคุราโกะ
+  nickname:
+    - 修女
+    - 觉悟
+  club: 修女会
+  affiliation: 圣三一
+  rarity: 3
+  type: Striker
+  armorType: Unarmed
+  bulletType: Mystic
+  weapon: AR
