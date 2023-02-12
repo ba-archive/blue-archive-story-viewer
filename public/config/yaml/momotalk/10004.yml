@@ -62,9 +62,9 @@ content:
     MessageKR: 선생님. 급작스럽겠지만 당신과 논의할 일이 있어.
     MessageJP: 先生。急だけど話したいことがあるの
     MessageCN: 老师。虽然这么说很突然，但我有事想和您商量
-    MessageEN:
-      Sensei, I know this is sudden, but I have an urgent matter to discuss
-      with you.
+    MessageEN: >-
+      Sensei, I know this is sudden, but I have an urgent matter to discuss with
+      you.
     MessageTH: คุณครู ฉันมีเรื่องอยากคุยด้วยหน่อยน่ะ
     MessageTW: 老師。雖然有點突然，但我想和你談談
   - MessageGroupId: 100040011
@@ -81,11 +81,11 @@ content:
     ImagePath: ''
     MessageKR: 내 업무가 끝나는 심야에 잠깐 만날 수 있을까?
     MessageJP: 私の仕事が終わった後、深夜だけど少し会える？
-    MessageCN: 等今天深夜我结束工作以后，老师可以和我见个面吗？
+    MessageCN: 等今天深夜我结束工作以后，您可以和我见一面吗？
     MessageEN: Can I meet you tonight after my work is done?
-    MessageTH: 'ฉันทำงานเสร็จตอนกลางคืน เรามาเจอ
-
-      กันตอนนั้นได้ไหม?'
+    MessageTH: |-
+      ฉันทำงานเสร็จตอนกลางคืน เรามาเจอ
+      กันตอนนั้นได้ไหม?
     MessageTW: 我工作結束後雖然是深夜，但能稍微見個面嗎？
   - MessageGroupId: 100040020
     Id: 3
@@ -119,7 +119,7 @@ content:
     ImagePath: ''
     MessageKR: 업무가 심야에 끝나는구나…….
     MessageJP: 深夜まで仕事があるんだね……お疲れ様……
-    MessageCN: 日奈得工作到深夜啊……辛苦了……
+    MessageCN: 你得工作到深夜啊……辛苦了……
     MessageEN: So, you work late too...
     MessageTH: เลิกงานดึกเหรอ... อืม...
     MessageTW: 工作到深夜啊……辛苦了……
@@ -137,13 +137,13 @@ content:
     ImagePath: ''
     MessageKR: 응. 늦은 시간에 미안하지만…… 약속 장소는 내가 알려줄게.
     MessageJP: 遅い時間にごめん、じゃあ場所は……
-    MessageCN: 把时间定在这么晚实在抱歉，那么见面地点在……
-    MessageEN:
-      Yes. I'm sorry to impose on you at such an hour... I'll let you know
-      where we can meet.
-    MessageTH: 'ใช่ ขอโทษที่ให้มาตอนดึกนะ..แล้วฉัน
-
-      จะบอกว่าให้มาเจอที่ไหน'
+    MessageCN: 实在抱歉把时间定到这么晚，那见面地点在……
+    MessageEN: >-
+      Yes. I'm sorry to impose on you at such an hour... I'll let you know where
+      we can meet.
+    MessageTH: |-
+      ใช่ ขอโทษที่ให้มาตอนดึกนะ..แล้วฉัน
+      จะบอกว่าให้มาเจอที่ไหน
     MessageTW: 這麼晚真是抱歉，那麼地點是……
   - MessageGroupId: 100040040
     Id: 6
@@ -159,7 +159,7 @@ content:
     ImagePath: ''
     MessageKR: 내가 선생님의 수면 시간을 방해한 게 아니었을까.
     MessageJP: 私のせいで、睡眠時間が短くなってたりしない？
-    MessageCN: 等一下，我的事情会不会打扰老师休息？
+    MessageCN: 会不会因为我的事情打扰到您休息了？
     MessageEN: I hope I'm not cutting into your rest.
     MessageTH: ฉันไปรบกวนเวลานอนของครูรึเปล่า...
     MessageTW: 是不是因為我的關係，睡眠時間變少了？
@@ -177,7 +177,7 @@ content:
     ImagePath: ''
     MessageKR: 만약 그런 거였다면 말해 줘.
     MessageJP: もしそうだったら言って
-    MessageCN: 如果会的话烦请老师说一声
+    MessageCN: 如果会的话还请告诉我
     MessageEN: 'If so, please tell me. '
     MessageTH: 'ถ้าเป็นแบบนั้นก็บอกกันได้นะ '
     MessageTW: 如果那樣的話，告訴我
@@ -213,11 +213,11 @@ content:
     ImagePath: ''
     MessageKR: 히나 쨩이라면 잔뜩 폐를 끼쳐 줘도 괜찮아.
     MessageJP: ヒナのためならいくらでも
-    MessageCN: 为了日奈，就算多晚也没关系
+    MessageCN: 为了日奈，多晚都行
     MessageEN: Feel free to inconvenience me anytime, Hina.
-    MessageTH: 'ถ้าเป็นฮินะจังล่ะก็
-
-      รบกวนได้ตามต้องการเลย'
+    MessageTH: |-
+      ถ้าเป็นฮินะจังล่ะก็
+      รบกวนได้ตามต้องการเลย
     MessageTW: 我願意為陽奈做任何事
   - MessageGroupId: 100040060
     Id: 10
@@ -233,7 +233,7 @@ content:
     ImagePath: ''
     MessageKR: 괜찮으니 잠을 좀 자도록 해.
     MessageJP: 私は大丈夫。ヒナも、ちゃんと寝てね
-    MessageCN: 我不要紧的。日奈也要好好睡觉噢
+    MessageCN: 我不要紧的。小日奈也要好好睡觉噢
     MessageEN: I'll be okay. You should get some sleep.
     MessageTH: ไม่เป็นไรหรอก ไปพักผ่อนเถอะ
     MessageTW: 我沒事。陽奈也要好好睡覺唷
@@ -252,7 +252,7 @@ content:
     MessageKR: ……응. 고마워.
     MessageJP: ……ん、ありがとう
     MessageCN: ……嗯，谢谢
-    MessageEN: '...Okay. Thanks.'
+    MessageEN: ...Okay. Thanks.
     MessageTH: อืม... ขอบคุณนะ
     MessageTW: ……嗯，謝謝
   - MessageGroupId: 100040080
@@ -289,9 +289,9 @@ content:
     MessageJP: 先生。今度の休みの日の深夜、時間ある？
     MessageCN: 老师。您这次休息日的深夜有空吗？
     MessageEN: Sensei, will you be free in the evening this weekend?
-    MessageTH: 'คุณครู วันหยุดนี้คุณครูมีเวลาว่างช่วง
-
-      ดึกบ้างไหม?'
+    MessageTH: |-
+      คุณครู วันหยุดนี้คุณครูมีเวลาว่างช่วง
+      ดึกบ้างไหม?
     MessageTW: 老師。這次休息日的深夜，有空嗎？
   - MessageGroupId: 100040100
     Id: 14
@@ -307,7 +307,7 @@ content:
     ImagePath: ''
     MessageKR: 아아. 나는 그때 일이 끝나거든.
     MessageJP: こっちは前と同じくらいの時間に仕事が終わる予定
-    MessageCN: 我结束工作的时间应该还是跟上次差不多
+    MessageCN: 我工作结束的时间应该还是跟上次差不多
     MessageEN: I'll be done with my work by then.
     MessageTH: คือว่า.. งานของฉันจะเสร็จตอนนั้นน่ะ
     MessageTW: 我預計和以前一樣在同個時間結束工作
@@ -361,13 +361,13 @@ content:
     ImagePath: ''
     MessageKR: 생각해봤는데, 너무 주변 시선을 신경 쓰는 것도 좋지 않을 것 같아.
     MessageJP: あの後も少し考えてみたけど、周りの視線を気にしすぎるのも良くないかも
-    MessageCN: 我后来也想了一下，太过在意周围人的目光似乎也不好
-    MessageEN:
-      I've been thinking that maybe I shouldn't worry so much about other
-      people seeing us.
-    MessageTH: 'มาคิดดูแล้ว ฉันว่าเราไม่ควรใส่ใจ
-
-      สายตาคนรอบข้างให้มากเกินไป'
+    MessageCN: 我后来也想了一下，确实没必要太在意周围人的目光
+    MessageEN: >-
+      I've been thinking that maybe I shouldn't worry so much about other people
+      seeing us.
+    MessageTH: |-
+      มาคิดดูแล้ว ฉันว่าเราไม่ควรใส่ใจ
+      สายตาคนรอบข้างให้มากเกินไป
     MessageTW: 在那之後我也稍微思考了一下，太過在意周圍的視線似乎也不太好
   - MessageGroupId: 100040130
     Id: 18
@@ -383,7 +383,7 @@ content:
     ImagePath: ''
     MessageKR: 어디까지나 업무상의 미팅이니까.
     MessageJP: あくまでも業務上のミーティングだから
-    MessageCN: 毕竟这只是业务上的碰面
+    MessageCN: 毕竟这只是工作上的会议
     MessageEN: After all, our meetings are strictly work-related.
     MessageTH: ก็เรานัดมาเจอกันด้วยเรื่องงานนี่นา
     MessageTW: 畢竟只是業務上的碰面
@@ -401,13 +401,12 @@ content:
     ImagePath: ''
     MessageKR: 다음엔 시간을 내서 좀 더 밝은 날에 볼 수 있었으면 좋을지도…….
     MessageJP: 今度からは、もっと明るい昼間に時間を作って会うとか……
-    MessageCN: 从下次开始，我在白天抽时间与您见面吧，这样环境也会更明亮些……
+    MessageCN: 下次我在白天抽时间和您见面吧，环境会更明亮些……
     MessageEN: Maybe next time we should meet during the day...
-    MessageTH: 'แต่ไว้คราวหน้าเราหาเวลามาเจอกัน
-
+    MessageTH: |-
+      แต่ไว้คราวหน้าเราหาเวลามาเจอกัน
       ตอนกลางวันได้บ้างก็น่าจะดีเหมือน
-
-      กัน...'
+      กัน...
     MessageTW: 從下次開始，在更明亮的白天抽空見面之類的……
   - MessageGroupId: 100040140
     Id: 20
@@ -425,9 +424,9 @@ content:
     MessageJP: 明るい時間帯からヒナに会えるなんて……
     MessageCN: 居然从白天开始就能见到日奈……
     MessageEN: Going out in broad daylight with Hina. Lucky me.
-    MessageTH: 'ไปเจอฮินะจังตอนกลางวันเหรอ...
-
-      ครูจะตั้งตารอเลย'
+    MessageTH: |-
+      ไปเจอฮินะจังตอนกลางวันเหรอ...
+      ครูจะตั้งตารอเลย
     MessageTW: 在明亮的時間就能見到陽奈……
   - MessageGroupId: 100040140
     Id: 21
@@ -443,7 +442,7 @@ content:
     ImagePath: ''
     MessageKR: 즐거울 거 같아.
     MessageJP: すっごい楽しみ
-    MessageCN: 我很期待
+    MessageCN: 我很期待哦
     MessageEN: I think it'll be fun.
     MessageTH: ก็ดูน่าสนุกเหมือนกันนะ
     MessageTW: 我很期待
@@ -461,7 +460,7 @@ content:
     ImagePath: ''
     MessageKR: 무, 무슨 생각하는 거야!
     MessageJP: 何を言ってるの……
-    MessageCN: 老师在说什么呢……
+    MessageCN: 您在说什么呢……
     MessageEN: Wh-What are you thinking?!
     MessageTH: คะ.. คิดอะไรอยู่น่ะ!
     MessageTW: 你在說什麼……
@@ -479,7 +478,7 @@ content:
     ImagePath: ''
     MessageKR: 데이트 같은 게 아니야! 알고 있지?
     MessageJP: デートとかじゃないから、分かってる？
-    MessageCN: 这不是什么约会，您明白吗？
+    MessageCN: 这不是什么约会，知道了吗？
     MessageEN: It's not a date! You know that, right?
     MessageTH: ฉันไม่ได้นัดเดตนะ! คุณครูก็รู้ใช่ไหม?
     MessageTW: 這不是約會，知道嗎？
@@ -517,9 +516,9 @@ content:
     MessageJP: 明るい時間帯から始めるヒナとのお仕事……楽しみだなあ
     MessageCN: 居然从白天开始就能和日奈一起工作……真是期待啊
     MessageEN: Working with Hina in the middle of the day. Looking forward to it.
-    MessageTH: 'ไปทำงานกับฮินะจังตอนกลางวัน
-
-      เหรอ... ครูจะตั้งตารอเลย'
+    MessageTH: |-
+      ไปทำงานกับฮินะจังตอนกลางวัน
+      เหรอ... ครูจะตั้งตารอเลย
     MessageTW: 在明亮的時間和陽奈一起工作……真期待吶
   - MessageGroupId: 100040170
     Id: 26
@@ -536,8 +535,8 @@ content:
     MessageKR: …….
     MessageJP: ……
     MessageCN: ……
-    MessageEN: '...'
-    MessageTH: '......'
+    MessageEN: ...
+    MessageTH: ......
     MessageTW: ……
   - MessageGroupId: 100040180
     Id: 27
@@ -571,7 +570,7 @@ content:
     ImagePath: ''
     MessageKR: 뭐, 맞아. 나도 조, 조금은…….
     MessageJP: もういい。私も、まあ……
-    MessageCN: 算了。我也，那个……
+    MessageCN: 算了。我也，怎么说呢……
     MessageEN: Well, sure. I'm also sort of...
     MessageTH: แต่ก็... จริงอยู่หรอก เพราะฉันเองก็...
     MessageTW: 算了。我也，嘛……
@@ -589,8 +588,8 @@ content:
     ImagePath: ''
     MessageKR: 기대하고 있으니까.
     MessageJP: 少しは、楽しみにしてる
-    MessageCN: 有点，期待
-    MessageEN: '...looking forward to it.'
+    MessageCN: 有点期待吧
+    MessageEN: ...looking forward to it.
     MessageTH: ตั้งตารออยู่เหมือนกัน
     MessageTW: 有點，期待
   - MessageGroupId: 100040200
@@ -607,7 +606,7 @@ content:
     ImagePath: ''
     MessageKR: 잘 자, 선생.
     MessageJP: はい、話はこれで終わり。おやすみ、先生
-    MessageCN: 好了，谈话到此结束。晚安，老师
+    MessageCN: 好了，话就聊到这。晚安，老师
     MessageEN: Goodnight, Sensei.
     MessageTH: ฝันดีนะคุณครู
     MessageTW: 好，談話到此結束。晚安，老師
@@ -661,11 +660,11 @@ content:
     ImagePath: ''
     MessageKR: 그런 것보다, 히나 쨩.
     MessageJP: そんなことより、ヒナちゃん
-    MessageCN: 先不管那些，日奈酱
+    MessageCN: 先不管那些，小日奈
     MessageEN: Before that, Hina.
-    MessageTH: 'รายงานนั่นไม่สำคัญเท่าสิ่งที่ครูจะ
-
-      บอกหรอก'
+    MessageTH: |-
+      รายงานนั่นไม่สำคัญเท่าสิ่งที่ครูจะ
+      บอกหรอก
     MessageTW: 比起這個，陽奈
   - MessageGroupId: 100040220
     Id: 34
@@ -755,9 +754,9 @@ content:
     MessageJP: 一緒にショッピングにでも行こう
     MessageCN: 一起去购物吧
     MessageEN: I need you to go to the mall with me.
-    MessageTH: 'ต้องไปห้างสรรพสินค้ากับครู
-
-      แล้วละ'
+    MessageTH: |-
+      ต้องไปห้างสรรพสินค้ากับครู
+      แล้วละ
     MessageTW: 一起去購物吧
   - MessageGroupId: 100040260
     Id: 39
@@ -774,8 +773,8 @@ content:
     MessageKR: …….
     MessageJP: ……
     MessageCN: ……
-    MessageEN: '...'
-    MessageTH: '......'
+    MessageEN: ...
+    MessageTH: ......
     MessageTW: ……
   - MessageGroupId: 100040260
     Id: 40
@@ -792,7 +791,7 @@ content:
     MessageKR: ……응?
     MessageJP: ……は？
     MessageCN: ……哈？
-    MessageEN: '...Huh?'
+    MessageEN: ...Huh?
     MessageTH: หา...?
     MessageTW: ……哈？
   - MessageGroupId: 100040260
@@ -899,11 +898,11 @@ content:
     ImagePath: ''
     MessageKR: 그치만 쇼핑몰이라면 밤에는 문을 닫잖아…….
     MessageJP: でも、ショッピングモールとか夜は閉まってるし……
-    MessageCN: 但是，购物中心之类的地方晚上都已经关门了吧……
+    MessageCN: 但是，购物中心之类的地方晚上都关门了吧……
     MessageEN: But a mall would be closed at night...
-    MessageTH: 'แต่ตอนกลางคืนห้างปิดหมดไม่ใช่เหรอ
-
-      ...?'
+    MessageTH: |-
+      แต่ตอนกลางคืนห้างปิดหมดไม่ใช่เหรอ
+      ...?
     MessageTW: 但是，購物中心和其他地方晚上都關門了……
   - MessageGroupId: 100040280
     Id: 47
@@ -919,7 +918,7 @@ content:
     ImagePath: ''
     MessageKR: 24시간 하는 곳이라면…….
     MessageJP: 24時間営業のところか、
-    MessageCN: 老师是想去24小时营业的地方，
+    MessageCN: 是要去24小时营业的地方么，
     MessageEN: Unless it's one of those twenty-four-hour places...
     MessageTH: ไม่งั้นก็ต้องเป็นห้างที่เปิด 24 ชั่วโมง...
     MessageTW: 24小時營業的地方
@@ -938,8 +937,8 @@ content:
     MessageKR: …….
     MessageJP: 普通にお昼に
     MessageCN: 还是说就在平常白天
-    MessageEN: '...'
-    MessageTH: '......'
+    MessageEN: ...
+    MessageTH: ......
     MessageTW: 或是一般中午
   - MessageGroupId: 100040290
     Id: 49
@@ -973,7 +972,7 @@ content:
     ImagePath: ''
     MessageKR: 무, 무슨 말인지 이해했어.
     MessageJP: ……ごめん、今理解した
-    MessageCN: ……抱歉，我突然理解了
+    MessageCN: ……抱歉，我明白了
     MessageEN: I-I get what you're saying.
     MessageTH: ฉันเข้าใจที่คุณครูบอกแล้วล่ะ
     MessageTW: ……抱歉，現在理解了
@@ -1009,7 +1008,7 @@ content:
     ImagePath: ''
     MessageKR: 그래……. 약속했으니까.
     MessageJP: ……うん、約束したんだった
-    MessageCN: ……嗯，确实我们约好过呢
+    MessageCN: ……嗯，是有约好呢
     MessageEN: Okay... I did promise, after all.
     MessageTH: ก็ได้... ไหนๆ ก็สัญญาไว้แล้วนี่นา
     MessageTW: ……嗯，約好了呢
@@ -1081,7 +1080,7 @@ content:
     ImagePath: ''
     MessageKR: 오늘 말인데…….
     MessageJP: 今日は、この間の仕事の
-    MessageCN: 今天是关于最近工作的
+    MessageCN: 今天我想给最近的工作做个……
     MessageEN: About today...
     MessageTH: คือว่าวันนี้....
     MessageTW: 今天，關於前陣子的工作
@@ -1135,7 +1134,7 @@ content:
     ImagePath: ''
     MessageKR: 응?
     MessageJP: え？
-    MessageCN: 诶？
+    MessageCN: 欸？
     MessageEN: Huh?
     MessageTH: หือ?
     MessageTW: 耶？
@@ -1261,7 +1260,7 @@ content:
     ImagePath: ''
     MessageKR: 지금?
     MessageJP: 今から？
-    MessageCN: 现在？
+    MessageCN: 现在吗？
     MessageEN: Now?
     MessageTH: ตอนนี้เหรอ?
     MessageTW: 現在？
@@ -1315,7 +1314,7 @@ content:
     ImagePath: ''
     MessageKR: 진짜…….
     MessageJP: 先生は本当に……
-    MessageCN: 老师你实在是……
+    MessageCN: 老师真的是……
     MessageEN: I really...
     MessageTH: จริงๆ เล้ย...
     MessageTW: 老師真的是……
@@ -1333,7 +1332,7 @@ content:
     ImagePath: ''
     MessageKR: ……하아.
     MessageJP: ……全くもう
-    MessageCN: ……真受不了
+    MessageCN: ……受不了你
     MessageEN: '*sigh*'
     MessageTH: เฮ้อ...
     MessageTW: ……真受不了
@@ -1351,13 +1350,13 @@ content:
     ImagePath: ''
     MessageKR: 며칠 전부터 철야 근무 중이라서 정신이 없어.
     MessageJP: ここ数日、徹夜でバタバタしっぱなし……ほんと面倒
-    MessageCN: 我最近这几天一直在通宵工作，还是忙得团团转……真麻烦
-    MessageEN:
-      I've been pulling all-nighters for the past few days, so I'm really
-      out of it.
-    MessageTH: 'ฉันทำงานโต้รุ่งมาหลายวันแล้ว ตอนนี้
-
-      ยุ่งมากเลย'
+    MessageCN: 最近这几天一直整夜整夜地工作，忙得团团转……真麻烦
+    MessageEN: >-
+      I've been pulling all-nighters for the past few days, so I'm really out of
+      it.
+    MessageTH: |-
+      ฉันทำงานโต้รุ่งมาหลายวันแล้ว ตอนนี้
+      ยุ่งมากเลย
     MessageTW: 這幾天，都徹夜忙得不可開交…真是麻煩
   - MessageGroupId: 100040371
     Id: 72
@@ -1373,13 +1372,13 @@ content:
     ImagePath: ''
     MessageKR: 거기에 파견 임무까지 겹치고, 처리해야 하는 서류는 쌓여가고…….
     MessageJP: 遠出が必要な件も多くて、処理できてない書類は溜まっていく一方だし……
-    MessageCN: 需要出远门处理的事情也很多，没处理完的文件也堆成山了……
-    MessageEN:
-      On top of that, the dispatch reports and documents I have to process
-      are piling up...
-    MessageTH: 'เอกสารที่ต้องจัดการก็มีเยอะเป็นตั้งๆ
-
-      แถมยังถูกส่งตัวไปทำภารกิจอีก'
+    MessageCN: 需要出远门处理的事情也很多，没处理完的文件都堆成山了……
+    MessageEN: >-
+      On top of that, the dispatch reports and documents I have to process are
+      piling up...
+    MessageTH: |-
+      เอกสารที่ต้องจัดการก็มีเยอะเป็นตั้งๆ
+      แถมยังถูกส่งตัวไปทำภารกิจอีก
     MessageTW: 許多案件需要長途跋涉，未處理的檔案堆積如山……
   - MessageGroupId: 100040371
     Id: 73
@@ -1395,11 +1394,11 @@ content:
     ImagePath: ''
     MessageKR: 무슨 일만 생기면 다들 내 얼굴만 쳐다보고…….
     MessageJP: 何か起こるとみんな私の方ばっかり見るし……
-    MessageCN: 不管发生什么事，大家也都只想着找我解决……
+    MessageCN: 不管发生什么事，大家都指望着我来解决……
     MessageEN: Whenever something happens, everyone turns to me...
-    MessageTH: 'เวลาที่ทำอะไรพลาดก็มักจะโดนคนอื่น
-
-      จ้องหน้า'
+    MessageTH: |-
+      เวลาที่ทำอะไรพลาดก็มักจะโดนคนอื่น
+      จ้องหน้า
     MessageTW: 發生事情時大家都看向我……
   - MessageGroupId: 100040371
     Id: 74
@@ -1416,8 +1415,8 @@ content:
     MessageKR: …….
     MessageJP: ……ふう
     MessageCN: ……呼
-    MessageEN: '...'
-    MessageTH: '......'
+    MessageEN: ...
+    MessageTH: ......
     MessageTW: ……呼
   - MessageGroupId: 100040380
     Id: 75
@@ -1433,11 +1432,11 @@ content:
     ImagePath: ''
     MessageKR: 심지어 모두 다 쉬는 날에도 이렇게 혼자 나와서 일하고 있다니…….
     MessageJP: そのせいで、みんなが休んでる日にもこうして一人で仕事……
-    MessageCN: 这样一来，即使在其他人都休息的日子里，我也得这样一个人工作……
+    MessageCN: 这样一来，即使在其他人都休息的日子里，我也得这么一个人工作……
     MessageEN: Everyone else has the day off, and I'm the only person working today...
-    MessageTH: 'แถมยังต้องออกมาทำงานคนเดียว
-
-      ในวันที่คนอื่นได้พักผ่อนอีก...'
+    MessageTH: |-
+      แถมยังต้องออกมาทำงานคนเดียว
+      ในวันที่คนอื่นได้พักผ่อนอีก...
     MessageTW: 甚至，在大家休息的日子也這樣一個人工作……
   - MessageGroupId: 100040380
     Id: 76
@@ -1453,7 +1452,7 @@ content:
     ImagePath: ''
     MessageKR: 귀찮고 짜증 나.
     MessageJP: めんどくさい、ムカつく
-    MessageCN: 好麻烦，有点火大
+    MessageCN: 好麻烦，好气人
     MessageEN: It's annoying and frustrating.
     MessageTH: น่าหงุดหงิดชะมัด
     MessageTW: 好煩，煩死了
@@ -1489,7 +1488,7 @@ content:
     ImagePath: ''
     MessageKR: 히나는 모두에게 기대받으니까.
     MessageJP: みんなから頼りにされてるんだね
-    MessageCN: 大家都很依赖日奈呢
+    MessageCN: 大家都非常依赖你啊
     MessageEN: Everyone leans on you, Hina.
     MessageTH: เพราะทุกคนคาดหวังในตัวฮินะไงล่ะ
     MessageTW: 大家都很依賴你呢
@@ -1507,7 +1506,7 @@ content:
     ImagePath: ''
     MessageKR: 히나는 선도부장이니까.
     MessageJP: 委員長は大変だね、お疲れ様
-    MessageCN: 当委员长实在很不容易呢，日奈辛苦了
+    MessageCN: 当委员长实在很不容易，辛苦了
     MessageEN: It's because they rely on the head prefect.
     MessageTH: เพราะฮินะคือประธานกรรมการไงล่ะ
     MessageTW: 當部長不容易呢，辛苦了
@@ -1526,8 +1525,8 @@ content:
     MessageKR: …….
     MessageJP: ……
     MessageCN: ……
-    MessageEN: '...'
-    MessageTH: '......'
+    MessageEN: ...
+    MessageTH: ......
     MessageTW: ……
   - MessageGroupId: 100040400
     Id: 81
@@ -1545,9 +1544,9 @@ content:
     MessageJP: ごめん、つい愚痴になった
     MessageCN: 抱歉……忍不住发牢骚了
     MessageEN: I'm sorry, I didn't mean to vent to you.
-    MessageTH: 'ขอโทษนะ ฉันไม่ได้ตั้งใจจะมาบ่น
-
-      ให้คุณครูฟังหรอก'
+    MessageTH: |-
+      ขอโทษนะ ฉันไม่ได้ตั้งใจจะมาบ่น
+      ให้คุณครูฟังหรอก
     MessageTW: 對不起，不知不覺發起了牢騷
   - MessageGroupId: 100040400
     Id: 82
@@ -1563,7 +1562,7 @@ content:
     ImagePath: ''
     MessageKR: 잊어줘.
     MessageJP: 忘れて
-    MessageCN: 还请老师忘了吧
+    MessageCN: 还请您忘了吧
     MessageEN: Please, forget what I said.
     MessageTH: ช่วยลืมมันไปเถอะ
     MessageTW: 忘了吧
@@ -1601,9 +1600,9 @@ content:
     MessageJP: 昨日の夜、私、何か変なこと言ったり……してない？
     MessageCN: 昨天晚上，我，没有说什么奇怪的话……吧？
     MessageEN: Did I say anything...weird yesterday?
-    MessageTH: 'เมื่อคืนฉันไม่ได้... พูดอะไรแปลกๆ
-
-      ...ออกไปใช่ไหม?'
+    MessageTH: |-
+      เมื่อคืนฉันไม่ได้... พูดอะไรแปลกๆ
+      ...ออกไปใช่ไหม?
     MessageTW: 昨天晚上，我有沒有……說了什麼奇怪的話？
   - MessageGroupId: 100040410
     Id: 85
@@ -1619,11 +1618,11 @@ content:
     ImagePath: ''
     MessageKR: 꿈인지 아닌지 잘 기억나진 않는데……. 뭔가……
     MessageJP: 夢だったのかはっきりしなくて、あまり思い出せないけど……なんだか……
-    MessageCN: 不知道是不是在做梦，想不起来了……总觉得……
+    MessageCN: 不知道是不是梦，想不起来了……总觉得……
     MessageEN: I don't remember if it was a dream or not...but I think...
-    MessageTH: 'ฉันจำไม่ได้ว่ามันคือความฝันหรือเปล่า
-
-      ... คือว่ามัน...'
+    MessageTH: |-
+      ฉันจำไม่ได้ว่ามันคือความฝันหรือเปล่า
+      ... คือว่ามัน...
     MessageTW: 不知道是不是夢，想不太起來了……總覺得……
   - MessageGroupId: 100040410
     Id: 86
@@ -1639,7 +1638,7 @@ content:
     ImagePath: ''
     MessageKR: 엄청 부끄러운 얘기를…….
     MessageJP: ものすごく恥ずかしいことを……
-    MessageCN: 好像自己做了什么很难为情的事……
+    MessageCN: 好像做了什么很难为情的事……
     MessageEN: I might have said something really embarrassing.
     MessageTH: เป็นเรื่องน่าอายมากๆ เลย...
     MessageTW: 非常羞恥的事……
@@ -1657,7 +1656,7 @@ content:
     ImagePath: ''
     MessageKR: 설마……
     MessageJP: いや……
-    MessageCN: 不对……
+    MessageCN: 不……
     MessageEN: So...
     MessageTH: อย่าบอกนะว่า...
     MessageTW: 不……
@@ -1675,7 +1674,7 @@ content:
     ImagePath: ''
     MessageKR: 아니지?
     MessageJP: そんなことない、よね？
-    MessageCN: 实际上应该没发生那种事，吧？
+    MessageCN: 实际上没有那种事，对吧？
     MessageEN: did I?
     MessageTH: ไม่จริงใช่ไหม?
     MessageTW: 沒有那樣的事，對吧？
@@ -1693,7 +1692,7 @@ content:
     ImagePath: ''
     MessageKR: 글쎄? 무슨 얘긴지 잘…….
     MessageJP: 何の話？
-    MessageCN: 日奈说的是？
+    MessageCN: 你说的是？
     MessageEN: Huh? I'm not sure what you're talking about.
     MessageTH: หืม? หมายถึงอะไรเหรอ...?
     MessageTW: 什麼話？
@@ -1711,7 +1710,7 @@ content:
     ImagePath: ''
     MessageKR: 꿈을 꾼 게 아닐까?
     MessageJP: 夢を見てたんじゃないかな？
-    MessageCN: 应该不是在做梦吧？
+    MessageCN: 是做梦了吧？
     MessageEN: Maybe it was a dream.
     MessageTH: อาจเป็นความฝันก็ได้นะ?
     MessageTW: 不是做夢嗎？
@@ -1730,8 +1729,8 @@ content:
     MessageKR: …….
     MessageJP: ……
     MessageCN: ……
-    MessageEN: '...'
-    MessageTH: '......'
+    MessageEN: ...
+    MessageTH: ......
     MessageTW: ……
   - MessageGroupId: 100040440
     Id: 92
@@ -1747,7 +1746,7 @@ content:
     ImagePath: ''
     MessageKR: ……음. 그래. 역시 그렇겠지?
     MessageJP: うん、そういうことにしておく
-    MessageCN: 没什么，就当是那样吧
+    MessageCN: 没什么，就当是吧
     MessageEN: Yeah. That must have been it.
     MessageTH: อืม... ต้องใช่แหละ... ฉันคงฝันไป
     MessageTW: ……嗯，就當作是那樣
@@ -1766,6 +1765,6 @@ content:
     MessageKR: ……고마워.
     MessageJP: ……ありがとう
     MessageCN: ……谢谢您
-    MessageEN: '...Thanks.'
+    MessageEN: ...Thanks.
     MessageTH: ขอบคุณนะ
     MessageTW: ……謝謝
