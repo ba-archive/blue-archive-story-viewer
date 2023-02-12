@@ -127,8 +127,10 @@ const studentName = computed(() => {
       | undefined) || ''
   );
 });
-const messageCondition = props.message?.MessageCondition || 'None';
-const messageType = props.message?.MessageType || 'Text';
+const messageCondition = computed(
+  () => props.message?.MessageCondition || 'None'
+);
+const messageType = computed(() => props.message?.MessageType || 'Text');
 const studentAvatar = `/image/avatar_students/${characterId}.webp`;
 
 const currentSelection = ref(-1);
