@@ -138,15 +138,17 @@ const currentSelection = ref(-1);
 const showMessageContent = ref(false);
 const showFavorMessageContent = ref(false);
 // 这里是故意用 || 而不是 ?? 的，不然第一条消息需要等待太久，用户体验不好
-const feedbackTime = props.message?.FeedbackTimeMillisec || 1000;
+const feedbackTime = computed(
+  () => props.message?.FeedbackTimeMillisec || 1000
+);
 
 function animateMessage() {
   setTimeout(() => {
     showMessageContent.value = true;
-  }, feedbackTime);
+  }, feedbackTime.value);
   setTimeout(() => {
     showFavorMessageContent.value = true;
-  }, feedbackTime + 500);
+  }, feedbackTime.value + 500);
 }
 
 animateMessage();
