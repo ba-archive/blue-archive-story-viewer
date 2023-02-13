@@ -1480,6 +1480,31 @@
   armorType: Unarmed
   bulletType: Explosion
   weapon: FT
+- id: 10061
+  familyName:
+    cn: 歌住
+    jp: 歌住
+    en: Utazumi
+    kr: 우타즈미
+    tw: 歌住
+    th: 歌住
+  name:
+    cn: 樱子
+    jp: サクラコ
+    en: Sakurako
+    kr: 사쿠라코
+    tw: サクラコ
+    th: ซากุราโกะ
+  nickname:
+    - 修女
+    - 觉悟
+  club: 修女会
+  affiliation: 圣三一
+  rarity: 3
+  type: Striker
+  armorType: Unarmed
+  bulletType: Mystic
+  weapon: AR
 - id: 13000
   familyName:
     cn: 室笠
@@ -2058,7 +2083,7 @@
     tw: 猫塚
     th: 猫塚
   name:
-    cn: 响（应援团）
+    cn: 响(应援团)
     jp: ヒビキ（応援団）
     en: Hibiki (Cheerleader)
     kr: 히비키(응원단)
@@ -2123,7 +2148,7 @@
   weapon: AR
 - id: 20000
   familyName:
-    cn: 猫冢
+    cn: 猫塚
     jp: 猫塚
     en: Nekozuka
     kr: 네코즈카
@@ -2633,7 +2658,7 @@
   weapon: HG
 - id: 20021
   familyName:
-    cn: 朝顔
+    cn: 朝颜
     jp: 朝顔
     en: Asagao
     kr: 아사가오
@@ -3127,28 +3152,3 @@
   armorType: HeavyArmor
   bulletType: Mystic
   weapon: SG
-- id: 10061
-  familyName:
-    cn: 歌住
-    jp: 歌住
-    en: Utazumi
-    kr: 우타즈미
-    tw: 歌住
-    th: อูตะซุมิ
-  name:
-    cn: 樱子
-    jp: サクラコ
-    en: Sakurako
-    kr: 사쿠라코
-    tw: 櫻子
-    th: ซาคุราโกะ
-  nickname:
-    - 修女
-    - 觉悟
-  club: 修女会
-  affiliation: 圣三一
-  rarity: 3
-  type: Striker
-  armorType: Unarmed
-  bulletType: Mystic
-  weapon: AR
