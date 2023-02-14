@@ -18,7 +18,7 @@ title:
     TextKr: 소악마의 형언할 수 없는 비밀
     TextEn: The Imp's Unspeakable Secret
     TextTh: ความลับที่พูดออกมาไม่ได้ของปีศาจน้อย
-    TextTw: 小惡魔難以言喻的秘密
+    TextTw: 小惡魔不可告人的秘密
   - GroupId: 1300605
     FavorScheduleId: 130065
     CharacterId: 13006
@@ -27,7 +27,7 @@ title:
     TextKr: 소악마의 취미생활
     TextEn: The Imp's Hobby
     TextTh: งานอดิเรกของปีศาจน้อย
-    TextTw: 小惡魔的興趣生活
+    TextTw: 小惡魔的興趣
   - GroupId: 1300606
     FavorScheduleId: 130066
     CharacterId: 13006
@@ -36,7 +36,7 @@ title:
     TextKr: 누군가의 특별한 의뢰
     TextEn: Someone's Special Request
     TextTh: คำขอพิเศษของใครบางคน
-    TextTw: 某人的特別委託
+    TextTw: 來自某人的特別委託
 content:
   - MessageGroupId: 130060010
     Id: 1072
@@ -163,7 +163,7 @@ content:
     MessageCN: 那么，老师加油哦～！
     MessageEN: All right! Work hard, Sensei!
     MessageTH: ตั้งใจทำงานนะคุณครู!
-    MessageTW: 那麼，加油唷──老師！
+    MessageTW: 那麼，加油哦～老師！
   - MessageGroupId: 130060050
     Id: 1079
     CharacterId: 13006
@@ -237,7 +237,7 @@ content:
     MessageCN: 那么老师，请加油哦——！
     MessageEN: Fight on!
     MessageTH: สู้ๆ ล่ะ!
-    MessageTW: 那麼，加油唷──！
+    MessageTW: 那麼，加油哦～！
   - MessageGroupId: 130060070
     Id: 1083
     CharacterId: 13006
@@ -363,7 +363,7 @@ content:
     MessageCN: 诶～？很忙吗～？
     MessageEN: Huh? You're busy?
     MessageTH: หืม? ไม่ว่างเหรอ?
-    MessageTW: 耶～？很忙嗎～？
+    MessageTW: 咦～？很忙嗎～？
   - MessageGroupId: 130060100
     Id: 1090
     CharacterId: 13006
@@ -557,7 +557,7 @@ content:
     MessageTH: 'ถ้าได้จดจ่อกับอะไร เวลาจะผ่านไปเร็ว
 
       เลยล่ะ'
-    MessageTW: 沉迷其中的話，時間就會過得很快──
+    MessageTW: 畢竟沉迷其中的話，時間就會過得很快～
   - MessageGroupId: 130060150
     Id: 1100
     CharacterId: 13006

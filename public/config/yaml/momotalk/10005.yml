@@ -27,7 +27,7 @@ title:
     TextKr: 희미하지만 빛나는
     TextEn: Faint Light
     TextTh: แม้จะดูเลือนรางแต่ก็เปล่งประกาย
-    TextTw: 隱隱發亮
+    TextTw: 雖然隱約，但是耀眼
   - GroupId: 1000506
     FavorScheduleId: 100056
     CharacterId: 10005
@@ -36,7 +36,7 @@ title:
     TextKr: 한밤중의 순찰자
     TextEn: Midnight Ranger
     TextTh: กองลาดตระเวนยามราตรี
-    TextTw: 深夜巡邏者
+    TextTw: 深夜的巡邏
   - GroupId: 1000508
     FavorScheduleId: 100058
     CharacterId: 10005
@@ -54,7 +54,7 @@ title:
     TextKr: 아쿠아리움!
     TextEn: A Day at the Aquarium!
     TextTh: อควาเรียม!
-    TextTw: 水族館！
+    TextTw: 海生館！
 content:
   - MessageGroupId: 100050010
     Id: 162
@@ -77,7 +77,7 @@ content:
     MessageTH: 'อืม... คุณครู วันหยุดนี้ช่วยมาที่ห้อง
 
       ชมรมคณะกรรมการแผนงานหน่อยได้มั้ย?'
-    MessageTW: 老師，下個休息日如果有空，能來趟對策委員會的教室嗎？
+    MessageTW: 老師，下次休假如果有空，能來趟對策委員會的教室嗎？
   - MessageGroupId: 100050011
     Id: 163
     CharacterId: 10005
@@ -175,7 +175,7 @@ content:
     MessageTH: 'โอ๊ย... นอนผิดท่าแน่ๆ ทำไมตื่นมาแล้ว
 
       เอวเป็นแบบนี้นะ ปวดไปหมดเลย...'
-    MessageTW: 老師，起床後腰痛得像是要斷了……還發出悲鳴……
+    MessageTW: 老師，我起床後腰痛到快斷了……還發出哀號……
   - MessageGroupId: 100050030
     Id: 168
     CharacterId: 10005
@@ -193,7 +193,7 @@ content:
     MessageCN: 羽毛原来是这样的东西吗？
     MessageEN: Is this what duck down is supposed to feel like?
     MessageTH: ที่นอนขนเป็ดนอนแล้วเป็นแบบนี้เหรอ?
-    MessageTW: 羽毛是這樣子的嗎？
+    MessageTW: 羽毛都是這樣子的嗎？
   - MessageGroupId: 100050040
     Id: 169
     CharacterId: 10005
@@ -213,7 +213,7 @@ content:
     MessageTH: 'หรือว่าอายุแบบเราต้องนอนบนพื้น
 
       แข็งๆ เท่านั้น...'
-    MessageTW: 果然到了這個年紀，不能太軟嗎……
+    MessageTW: 果然這年紀不能睡太軟嗎……
   - MessageGroupId: 100050050
     Id: 170
     CharacterId: 10005
@@ -249,7 +249,7 @@ content:
     MessageCN: 嗯……那个垫子只能再放回仓库去吗……
     MessageEN: Well, in any event, I'll stop using the mat for now.
     MessageTH: อืม... ฉันคงต้องเลิกนอนบนฟูกแล้วล่ะ
-    MessageTW: 唔嗯……那張墊子又得回倉庫了吧……
+    MessageTW: 唔嗯……看來得請那張墊子回倉庫了……
   - MessageGroupId: 100050070
     Id: 172
     CharacterId: 10005
@@ -285,7 +285,7 @@ content:
     MessageCN: 眼皮沉得要掉到地上了……老师，帮帮我……
     MessageEN: My eyelids are so heavy. Help me, Sensei...
     MessageTH: ตาฉันจะปิดแล้ว ช่วยหน่อยสิครู....
-    MessageTW: 眼皮重到要掉地上了……老師，幫幫我……
+    MessageTW: 眼皮重到要掉地上了……老師，救命……
   - MessageGroupId: 100050080
     Id: 174
     CharacterId: 10005
@@ -381,7 +381,7 @@ content:
     MessageTH: 'ปลาบางสายพันธุ์ที่อยู่ใต้ทะเลลึก
 
       จะสร้างแสงออกมาคุ้มกันตัวเองด้วยล่ะ'
-    MessageTW: 據說住在深海的魚會透過身體發光來保護自己
+    MessageTW: 據說深海魚會讓身體發光來保護自己
   - MessageGroupId: 100050101
     Id: 179
     CharacterId: 10005
@@ -439,7 +439,7 @@ content:
     MessageCN: 我不知道，原来海里的世界有这么深的奥秘啊
     MessageEN: I didn't know that. The sea is such a mysterious place.
     MessageTH: ไม่รู้เลย ทะเลก็เป็นอะไรที่ลึกซึ้งนะเนี่ย
-    MessageTW: 不知道耶，海的世界真是深奧
+    MessageTW: 不知道耶，海洋世界真是深奧
   - MessageGroupId: 100050120
     Id: 182
     CharacterId: 10005
@@ -627,7 +627,7 @@ content:
     MessageTH: 'ฮ้าวว พอโต้รุ่งทีไรก็เหนื่อยไปถึงอีกวัน
 
       ทุกทีเลย'
-    MessageTW: 唔嘿～果然半夜還醒著的話，第二天就難受了……
+    MessageTW: 唔嘿～半夜不睡覺，第二天果然會很難受……
   - MessageGroupId: 100050181
     Id: 192
     CharacterId: 10005
@@ -789,7 +789,7 @@ content:
     MessageCN: 这是对操行不好的学生的提醒哦
     MessageEN: I'm just nagging you.
     MessageTH: ครูก็แค่บ่นไปตามประสาผู้ใหญ่น่ะ
-    MessageTW: 只是在注意素行不良的學生
+    MessageTW: 只是在叮嚀品行不良的學生
   - MessageGroupId: 100050240
     Id: 201
     CharacterId: 10005
@@ -847,7 +847,7 @@ content:
     MessageCN: 就是……感觉很难为情
     MessageEN: Um... I just feel so embarrassed.
     MessageTH: อืม... ฉันเขินน่ะ >_<
-    MessageTW: 那個……各方面都很羞恥
+    MessageTW: 但還是……會各種害臊
   - MessageGroupId: 100050260
     Id: 204
     CharacterId: 10005
@@ -1129,7 +1129,7 @@ content:
     MessageCN: ……不过细想一下，直接拿那些钱去买票就可以了呢
     MessageEN: '...We could have just used that money to buy a ticket, though.'
     MessageTH: แต่ว่าเราเอาเงินนั้นไปซื้อตั๋วเลยก็ได้นี่...
-    MessageTW: ……但仔細想想，也許用那筆錢就能買普通的票了
+    MessageTW: ……但仔細想想，也許用那筆錢就能正常買票了
   - MessageGroupId: 100050360
     Id: 219
     CharacterId: 10005
@@ -1243,7 +1243,7 @@ content:
     MessageTH: 'อควาเรียมงั้นเหรอ?
 
       ถ้าอยากไปกับครูก็ได้'
-    MessageTW: 嗯，如果我可以的話
+    MessageTW: 嗯，不嫌棄我的話
   - MessageGroupId: 100050400
     Id: 225
     CharacterId: 10005
@@ -1297,7 +1297,7 @@ content:
     MessageCN: ……说出来了呢，老师？
     MessageEN: '...Heehee!'
     MessageTH: อ่า... แหะๆๆ
-    MessageTW: ……你說囉，老師？
+    MessageTW: ……這是你說的唷，老師？
   - MessageGroupId: 100050420
     Id: 228
     CharacterId: 10005
@@ -1351,7 +1351,7 @@ content:
     MessageCN: 老师，关于之前说的水族馆的事
     MessageEN: Sensei, about the aquarium tickets you got a while ago...
     MessageTH: ครู ตั๋วอควาเรียมที่ได้มาคราวก่อนน่ะ
-    MessageTW: 老師，關於之前討論的海生館
+    MessageTW: 老師，關於上次說的海生館
   - MessageGroupId: 100050440
     Id: 231
     CharacterId: 10005

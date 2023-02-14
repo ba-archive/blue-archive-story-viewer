@@ -9,7 +9,7 @@ title:
     TextKr: 작다는 건 편리해!
     TextEn: It's Convenient Being Small!
     TextTh: ตัวเล็กน่ะสบายสุดๆ!
-    TextTw: 小小的很方便！
+    TextTw: 小小的也不錯呢！
   - GroupId: 1002503
     FavorScheduleId: 100253
     CharacterId: 10025
@@ -18,7 +18,7 @@ title:
     TextKr: 작다는 건 불편해!
     TextEn: It's Inconvenient Being Small!
     TextTh: ตัวเล็กแล้วไม่สะดวกสุดๆ เลย!
-    TextTw: 小小的不方便！
+    TextTw: 小小的果然不行！
   - GroupId: 1002505
     FavorScheduleId: 100255
     CharacterId: 10025
@@ -27,7 +27,7 @@ title:
     TextKr: 놀이터 안전 점검
     TextEn: Playground Safety Check
     TextTh: การตรวจสอบความปลอดภัยสนามเด็กเล่น
-    TextTw: 遊樂園安全檢查
+    TextTw: 因為是安全確認！
   - GroupId: 1002506
     FavorScheduleId: 100256
     CharacterId: 10025
@@ -36,16 +36,16 @@ title:
     TextKr: 비밀 기지
     TextEn: Secret Base
     TextTh: ฐานลับ
-    TextTw: 秘密基地
+    TextTw: 那是秘密的
   - GroupId: 1002520
     FavorScheduleId: 1002520
     CharacterId: 10025
     TextJp: 変わること、変わらないもの
     TextCn: 即使成长，也依旧未变
     TextKr: 변하는 것, 변하지 않는 것
-    TextEn: ''
-    TextTh: ''
-    TextTw: ''
+    TextEn: Changing and Unchanging
+    TextTh: สิ่งที่เปลี่ยนและสิ่งที่คงเดิม
+    TextTw: 改變與未改變
 content:
   - MessageGroupId: 100250010
     Id: 100250010
@@ -88,7 +88,7 @@ content:
     MessageTH: 'พอตัวเล็กลงอีกครั้งแบบนี้ การมองเห็น
 
       ก็แคบลง'
-    MessageTW: 變成這模樣不但視線很低
+    MessageTW: 這副模樣果然視線也很低，
   - MessageGroupId: 100250020
     Id: 100250030
     CharacterId: 10025
@@ -166,7 +166,7 @@ content:
     MessageTH: 'พอกลับมาเป็นเด็กแบบนี้ ก็มีขนมหวาน
 
       ที่ฉันอยากลองชิมให้ได้อยู่ค่ะ!'
-    MessageTW: 有個變成小孩後非常想吃的東西！
+    MessageTW: 變成小孩的話，我有個務必想吃吃看的東西！
   - MessageGroupId: 100250050
     Id: 100250070
     CharacterId: 10025
@@ -524,7 +524,7 @@ content:
     MessageCN: 嗯，没问题的！
     MessageEN: I should be fine.
     MessageTH: ไม่เป็นไรหรอกค่ะ
-    MessageTW: 是，沒問題的！
+    MessageTW: 是的，沒問題！
   - MessageGroupId: 100250180
     Id: 100250250
     CharacterId: 10025
@@ -641,7 +641,7 @@ content:
     MessageEN: It sounds like some of the younger students made a secret base again.
     MessageTH: 'ฮ่าฮ่า... สงสัยพวกเด็กๆ จะสร้างฐานลับ
 
-      กันอีกแล้วล่ะค่ะ'
+      กันอีกแล้วละค่ะ'
     MessageTW: 啊啊，一定是秘密基地吧
   - MessageGroupId: 100250240
     Id: 100250310
@@ -680,7 +680,7 @@ content:
     MessageTH: 'ค่ะ พวกเด็กๆ เองก็คงอยากมีพื้นที่
 
       เฉพาะของตัวเองใช่ไหมล่ะคะ?'
-    MessageTW: 是的。小孩子不都想要屬於自己的空間嗎？
+    MessageTW: 是的。小孩子不是都會想要有屬於自己的空間嗎？
   - MessageGroupId: 100250250
     Id: 100250330
     CharacterId: 10025
@@ -818,9 +818,11 @@ content:
     MessageKR: 어릴 때와 자랐을 때 큰 차이점 중 하나는
     MessageJP: 幼い時と今の自分の大きな違いの一つは
     MessageCN: 我小时候和现在最大的区别之一
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: The biggest difference between when I was younger and now
+    MessageTH: 'ข้อแตกต่างใหญ่ๆ ของการเป็นเด็กกับ
+
+      ตอนโตแล้ว'
+    MessageTW: 小時候的自己和現在最大的不同之一
   - MessageGroupId: 100250300
     Id: 100250400
     CharacterId: 10025
@@ -836,9 +838,9 @@ content:
     MessageKR: 머리 모양인 것 같아요.
     MessageJP: 髪型だと思います
     MessageCN: 应该就是发型了吧
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: seems to be my hairstyle.
+    MessageTH: ฉันคิดว่าเป็นทรงผมค่ะ
+    MessageTW: 我覺得是髮型
   - MessageGroupId: 100250310
     Id: 100250410
     CharacterId: 10025
@@ -854,9 +856,9 @@ content:
     MessageKR: 왜 그렇게 생각했어?
     MessageJP: どうしてそう思ったの？
     MessageCN: 瞬为什么会这么觉得呢？
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: What makes you think that?
+    MessageTH: ทำไมคิดแบบนั้นล่ะ?
+    MessageTW: 為什麼會這麼想？
   - MessageGroupId: 100250320
     Id: 100250420
     CharacterId: 10025
@@ -872,9 +874,9 @@ content:
     MessageKR: 어릴 때에는 마음대로 머리 모양을 잡아도 문제가 없지만.
     MessageJP: 幼い頃はどんな髪型もできますが
     MessageCN: 小时候可以把头发扎成各种样子
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: I feel like I could wear any hairstyle I wanted as a child.
+    MessageTH: ตอนเด็กๆ จะทำผมทรงไหนก็ได้
+    MessageTW: 小時候沒有拘束，什麼樣的髮型都可以
   - MessageGroupId: 100250320
     Id: 100250430
     CharacterId: 10025
@@ -890,9 +892,11 @@ content:
     MessageKR: 자랐을 때는…… 어울리지 않는 머리 모양이 많아지거든요.
     MessageJP: 大きくなったら……似合わないものが多くなってしまうのです
     MessageCN: 但是长大了之后……很多发型就不太合适了
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: But as I got older, my options became more limited.
+    MessageTH: 'แต่พอโตขึ้นมา... ก็มีทรงผมหลายๆ
+
+      ทรงที่ไม่เหมาะค่ะ'
+    MessageTW: 長大後……就會有很多不適合的東西
   - MessageGroupId: 100250330
     Id: 100250440
     CharacterId: 10025
@@ -908,9 +912,11 @@ content:
     MessageKR: 슌은 무슨 머리 모양을 해도 어울린다고 생각해.
     MessageJP: シュンはどんな髪型でも似合うと思うよ
     MessageCN: 我觉得瞬不管什么发型都很合适哦
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: I think you look good with any hairstyle, Shun.
+    MessageTH: 'ครูคิดว่าชุนทำผมทรงไหนก็น่ารัก
+
+      หมดแหละ'
+    MessageTW: 我覺得什麼髮型都很適合旬
   - MessageGroupId: 100250340
     Id: 100250450
     CharacterId: 10025
@@ -926,6 +932,6 @@ content:
     MessageKR: 에헤헤. 말씀만이라도 감사해요. 선생님.
     MessageJP: えへへ。お言葉だけでも嬉しいです。ありがとうございます、先生
     MessageCN: 诶嘿嘿。只要听到这句话我就很高兴了。谢谢您的夸奖，老师
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: Heeheehee. That's nice of you to say, Sensei.
+    MessageTH: แหะๆ ขอบคุณที่ให้กำลังใจค่ะ คุณครู
+    MessageTW: 嘿嘿。聽您這麼說我就很高興了。非常感謝，老師

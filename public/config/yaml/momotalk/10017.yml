@@ -27,7 +27,7 @@ title:
     TextKr: 체리노는 아홉 살?
     TextEn: Cherino's Nine Years Old?
     TextTh: เชริโน่อายุเก้าขวบ?
-    TextTw: 潔莉諾九歲？
+    TextTw: 潔莉諾是九歲？
   - GroupId: 1001706
     FavorScheduleId: 100176
     CharacterId: 10017
@@ -118,7 +118,7 @@ content:
     MessageCN: 授予我园的新勋章“特別友好章”！
     MessageEN: the Special Student Friendship Medal!
     MessageTH: เพื่อชมเชยในความสามารถของสหายล่ะ!
-    MessageTW: 決定授予「特別友好章」！
+    MessageTW: 「特別友好章」！
   - MessageGroupId: 100170030
     Id: 100170050
     CharacterId: 10017
@@ -184,7 +184,7 @@ content:
     MessageTH: 'นี่สหายสับสนกับประเภทของเหรียญ
 
       แล้วเหรอ?'
-    MessageTW: 勳章的種類弄錯了可不行呢
+    MessageTW: 勳章的種類可不能弄錯
   - MessageGroupId: 100170050
     Id: 100170080
     CharacterId: 10017
@@ -262,7 +262,7 @@ content:
     MessageCN: 好厉害的数量啊。切里诺有多少勋章呢？
     MessageEN: How many medals have you gotten, Cherino?
     MessageTH: แล้วเชริโน่ได้เหรียญอะไรมาแล้วบ้าง?
-    MessageTW: 好厲害的數量啊。潔莉諾有多少勳章？
+    MessageTW: 數量好驚人。潔莉諾有多少勳章？
   - MessageGroupId: 100170080
     Id: 100170120
     CharacterId: 10017
@@ -354,7 +354,7 @@ content:
     MessageCN: 哼哼，光从设计上就能看出闪闪发光的感觉了吧？
     MessageEN: Heehee! Isn't this the most incredible design you've ever seen?
     MessageTH: หุหุ แค่ดีไซน์ก็กินขาดแล้วใช่ไหมล่ะ?
-    MessageTW: 呵呵，光看設計就已經閃閃發光了吧？
+    MessageTW: 呵呵，光看設計就覺得閃閃發光對吧？
   - MessageGroupId: 100170120
     Id: 100170170
     CharacterId: 10017
@@ -522,7 +522,7 @@ content:
     MessageTH: 'แหวะ... รสชาติแย่แบบนั้น ฉันว่ามัน
 
       คือพืชผลแห่งความตายเลยล่ะ'
-    MessageTW: 唔……那種難吃的味道，甚至可以稱之為惡魔的食物
+    MessageTW: 唔……難吃到這地步，甚至可以稱為惡魔的食物
   - MessageGroupId: 100170180
     Id: 100170260
     CharacterId: 10017
@@ -560,7 +560,7 @@ content:
     MessageTH: 'ไม่ได้เลือกกินซะหน่อย! คนที่ไม่ชอบ
 
       พริกหยวกก็ต้องคิดแบบนี้ทั้งนั้นแหละ!'
-    MessageTW: 不是挑食！作為一個人，吃不了青椒是理所當然的！
+    MessageTW: 不是挑食！生而為人，吃不了青椒是正常的！
   - MessageGroupId: 100170190
     Id: 100170280
     CharacterId: 10017
@@ -618,7 +618,7 @@ content:
     MessageTH: 'ยังไม่ลืมสัญญาที่บอกว่าจะซื้อพุดดิ้ง
 
       ให้ใช่ไหม?'
-    MessageTW: 沒有忘了之前說要買布丁給我的約定吧？
+    MessageTW: 沒忘記之前說好要買布丁給我吧？
   - MessageGroupId: 100170220
     Id: 100170310
     CharacterId: 10017
@@ -636,7 +636,7 @@ content:
     MessageCN: 当然记得啦
     MessageEN: Of course not.
     MessageTH: ไม่ลืมอยู่แล้ว
-    MessageTW: 當然，記得唷
+    MessageTW: 當然記得
   - MessageGroupId: 100170230
     Id: 100170320
     CharacterId: 10017
@@ -694,7 +694,7 @@ content:
     MessageTH: 'เพื่อจะไปกินพุดดิ้งที่สหายจะซื้อให้
 
       จนพุงกางเลย'
-    MessageTW: 今天連中午的零食都沒吃！呵呵，好期待啊……！
+    MessageTW: 咱今天中午甚至沒吃零食呢！呵呵，好期待啊……！
   - MessageGroupId: 100170231
     Id: 100170350
     CharacterId: 10017
@@ -716,7 +716,7 @@ content:
     MessageTH: 'หลังเลิกเรียนวันนี้เราจะไปรออยู่หน้า
 
       ร้านนะ ห้ามมาสายล่ะ!'
-    MessageTW: 今天放學後，我在店的前面等著，別遲到！
+    MessageTW: 今天放學後，咱在店門口等著，別遲到！
   - MessageGroupId: 100170240
     Id: 100170360
     CharacterId: 10017
@@ -1108,4 +1108,4 @@ content:
       และหัวหน้าฝ่ายทำความสะอาด
 
       เราไม่กลัวอะไรหรอก!'
-    MessageTW: 身為赤冬學聯邦學園的學生會長、兼書記長，兼環境美化部長，兼清掃部長的咱，無所畏懼！
+    MessageTW: 咱身為赤冬學聯邦學園的學生會長、兼書記長、兼環境美化部長、兼清掃部長，無所畏懼！

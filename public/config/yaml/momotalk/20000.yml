@@ -9,7 +9,7 @@ title:
     TextKr: 마이스터라 불러줘.
     TextEn: Call Me Meister
     TextTh: เรียกฉันว่า "ไมสเตอร์"
-    TextTw: 叫我高手。
+    TextTw: 叫我巨匠
   - GroupId: 2000003
     FavorScheduleId: 200003
     CharacterId: 20000
@@ -18,7 +18,7 @@ title:
     TextKr: 마음으로 타오르는 불꽃
     TextEn: The Burning in My Heart
     TextTh: เปลวไฟที่ลุกโชนอยู่ในหัวใจ
-    TextTw: 用心燃燒的火焰
+    TextTw: 心中燃起的火焰
   - GroupId: 2000005
     FavorScheduleId: 200005
     CharacterId: 20000
@@ -27,7 +27,7 @@ title:
     TextKr: 당신의 마음에 스트라이크
     TextEn: Strike Your Heart
     TextTh: พุ่งเข้าไปในหัวใจของคุณ!
-    TextTw: 你心中的好球
+    TextTw: 直擊你的心
   - GroupId: 2000006
     FavorScheduleId: 200006
     CharacterId: 20000
@@ -45,7 +45,7 @@ title:
     TextKr: 비가 내리면 센티멘탈
     TextEn: Rain Makes Me Emotional
     TextTh: อารมณ์ที่อ่อนไหวเมื่อยามเม็ดฝนโปรยปราย
-    TextTw: 下雨就會感傷
+    TextTw: 雨天的感傷
   - GroupId: 2000009
     FavorScheduleId: 200009
     CharacterId: 20000
@@ -54,7 +54,7 @@ title:
     TextKr: 이 밤을 당신에게!
     TextEn: The Night Is Yours!
     TextTh: ค่ำคืนนี้สำหรับคุณ...!
-    TextTw: 把今晚送給你！
+    TextTw: 把這晚贈與你！
 content:
   - MessageGroupId: 200000010
     Id: 1298
@@ -465,7 +465,7 @@ content:
     MessageCN: 老师……今天怎么样？
     MessageEN: How was your day, Sensei?
     MessageTH: วันนี้...คุณครูเป็นไงบ้าง?
-    MessageTW: 老師…今天怎麼樣？
+    MessageTW: 老師……今天怎麼樣？
   - MessageGroupId: 200000160
     Id: 1320
     CharacterId: 20000

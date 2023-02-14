@@ -9,7 +9,7 @@ title:
     TextKr: 아침, 메이드, 청소!
     TextEn: Morning Maid Cleaning!
     TextTh: 'สาวใช้กับการทำความสะอาดในตอนเช้า '
-    TextTw: 早晨、女僕、清掃！
+    TextTw: 早晨、女僕、打掃！
   - GroupId: 1000803
     FavorScheduleId: 100083
     CharacterId: 10008
@@ -18,7 +18,7 @@ title:
     TextKr: 네루에게 병문안
     TextEn: Visiting Sick Neru
     TextTh: ไปเยี่ยมไข้เนรุ
-    TextTw: 拜訪寧瑠的
+    TextTw: 探望寧瑠
   - GroupId: 1000805
     FavorScheduleId: 100085
     CharacterId: 10008
@@ -90,9 +90,9 @@ content:
     MessageJP: ミレニアムでも見かけねえし、タイミングが合ったら久々に来たらどうだ？
     MessageCN: 在千年也好久见不到人，老师有空的话来一趟如何？
     MessageEN: You should stop by the Millennium School sometime.
-    MessageTH: |-
-      แวะมาเจอหน้ากันที่โรงเรียนมิลเลเนียม
-      บ้างสิ
+    MessageTH: 'แวะมาเจอหน้ากันที่โรงเรียนมิลเลเนียม
+
+      บ้างสิ'
     MessageTW: 在千年也沒見到面，時機合適的話，要不久違地來一下呢？
   - MessageGroupId: 100080020
     Id: 646
@@ -110,9 +110,9 @@ content:
     MessageJP: あたしも忙しいけど、ちょっと会うくらいの時間は作れるからさ
     MessageCN: 我虽然也很忙吧，但是稍微见一面的时间还是能挤出来的
     MessageEN: I'm busy too, but I can make time to see you!
-    MessageTH: |-
-      ถึงฉันจะยุ่งแค่ไหน แต่ก็มีเวลามาเจอหน้า
-      ครูนะ
+    MessageTH: 'ถึงฉันจะยุ่งแค่ไหน แต่ก็มีเวลามาเจอหน้า
+
+      ครูนะ'
     MessageTW: 雖然我也很忙，但能抽出時間見面
   - MessageGroupId: 100080030
     Id: 647
@@ -311,7 +311,7 @@ content:
     MessageCN: 早上见面时吓死我了……啊，你可要遵守约定哦！？
     MessageEN: Anyway, I had a fun morning.
     MessageTH: แต่วันนี้ก็สนุกตั้งแต่เช้าเลยล่ะ
-    MessageTW: 早上見面時嚇了一跳……啊，要遵守約定唷！？
+    MessageTW: 一大早碰面害我嚇一跳……啊，要遵守約定唷！？
   - MessageGroupId: 100080090
     Id: 658
     CharacterId: 10008
@@ -346,10 +346,10 @@ content:
     MessageJP: 信じられねえけど……どうやら風邪引いたみたいだ
     MessageCN: 真不敢相信……我好像感冒了
     MessageEN: I can't believe this, but...I think I caught a cold.
-    MessageTH: |-
-      ฉันเองก็ไม่อยากจะเชื่อเลย แต่ดูเหมือน
-      ว่าจะเป็นหวัดน่ะ
-    MessageTW: 真不敢相信……好像感冒了
+    MessageTH: 'ฉันเองก็ไม่อยากจะเชื่อเลย แต่ดูเหมือน
+
+      ว่าจะเป็นหวัดน่ะ'
+    MessageTW: 雖然難以置信……但我好像感冒了
   - MessageGroupId: 100080110
     Id: 660
     CharacterId: 10008
@@ -635,13 +635,14 @@ content:
     MessageKR: 하아. 요새 지각이랑 결석을 너무 많이 해서 출결이 아슬아슬하네.
     MessageJP: 最近遅刻と欠席のしすぎで、出席日数がギリギリでよぉ……
     MessageCN: 我最近迟到还有旷课次数太多了，出勤天数有点危险啊……
-    MessageEN: >-
-      *sigh* I've missed so much class lately, my attendance is basically
-      nonexistent.
-    MessageTH: |-
-      เฮ้อ ช่วงหลังนี้ฉันทั้งเข้าสายและขาด
+    MessageEN:
+      "*sigh* I've missed so much class lately, my attendance is basically
+      nonexistent."
+    MessageTH: 'เฮ้อ ช่วงหลังนี้ฉันทั้งเข้าสายและขาด
+
       เรียนบ่อย พอออกไปไหนก็หวาดเสียว
-      ทุกที
+
+      ทุกที'
     MessageTW: 最近因為遲到和缺席太多，出席天數岌岌可危
   - MessageGroupId: 100080200
     Id: 676
@@ -714,7 +715,7 @@ content:
     MessageCN: 我不是来找你听这种正确的废话的！
     MessageEN: "Th-That's easier said than done! "
     MessageTH: 'พะ... พูดน่ะมันง่าย! '
-    MessageTW: 現在不是講正確言論的時候！
+    MessageTW: 我不要這種正經的意見！
   - MessageGroupId: 100080220
     Id: 680
     CharacterId: 10008
@@ -732,7 +733,7 @@ content:
     MessageCN: 难道就没有什么小妙招吗！？
     MessageEN: I want a simple solution...
     MessageTH: ขอเคล็ดลับอะไรที่ทำได้จริงหน่อยสิ
-    MessageTW: 難道就沒有什麼偷吃步的法子嗎！？
+    MessageTW: 難道就沒辦法偷吃步嗎！？
   - MessageGroupId: 100080230
     Id: 681
     CharacterId: 10008
@@ -784,8 +785,8 @@ content:
     MessageKR: …….
     MessageJP: ……
     MessageCN: ……
-    MessageEN: ...
-    MessageTH: ......
+    MessageEN: '...'
+    MessageTH: '......'
     MessageTW: ……
   - MessageGroupId: 100080250
     Id: 684
@@ -1037,9 +1038,9 @@ content:
     MessageJP: あの場所に行きたいときはあたしに言えよ！一緒に行くから！
     MessageCN: 老师要是还想去那个地方的话就和我说吧！到时候我们一起去！
     MessageEN: Let me know if you want to head over there! We'll go together!
-    MessageTH: |-
-      ถ้าอยากไปที่นั่นก็บอกฉันได้เลย! แล้ว
-      ฉันจะไปเป็นเพื่อน
+    MessageTH: 'ถ้าอยากไปที่นั่นก็บอกฉันได้เลย! แล้ว
+
+      ฉันจะไปเป็นเพื่อน'
     MessageTW: 想去那個地方就跟我說一聲！我們一起去！
   - MessageGroupId: 100080330
     Id: 698
@@ -1058,7 +1059,7 @@ content:
     MessageCN: 敢一个人去就宰了你哦！？
     MessageEN: If you go alone, I'll kill you!
     MessageTH: ถ้าแอบไปคนเดียวล่ะก็ สู่ขิตแน่!!
-    MessageTW: 自己一個人去的話就殺了你哦！？
+    MessageTW: 敢一個人去我就宰了你哦！？
   - MessageGroupId: 100080340
     Id: 699
     CharacterId: 10008
@@ -1076,7 +1077,7 @@ content:
     MessageCN: 嗯，我知道了。那就这么定。今天谢谢尼禄啦
     MessageEN: All right, I promise.
     MessageTH: ได้เลย ครูสัญญา
-    MessageTW: 嗯，知道了。約定。今天謝啦
+    MessageTW: 嗯，知道了。約好了。今天謝啦
   - MessageGroupId: 100080350
     Id: 100080010
     CharacterId: 10008

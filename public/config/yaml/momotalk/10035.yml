@@ -27,7 +27,7 @@ title:
     TextKr: 갑작스러운 제안
     TextEn: A Sudden Proposal
     TextTh: ข้อเสนอที่กะทันหัน
-    TextTw: 突然的提議
+    TextTw: 突然的提案
   - GroupId: 1003506
     FavorScheduleId: 100356
     CharacterId: 10035
@@ -36,7 +36,7 @@ title:
     TextKr: 이름 없는 번역가
     TextEn: Nameless Translator
     TextTh: นักแปลนิรนาม
-    TextTw: 無名的譯者
+    TextTw: 依然無名
 content:
   - MessageGroupId: 100350010
     Id: 100350010
@@ -55,7 +55,7 @@ content:
     MessageCN: 哈啊
     MessageEN: Honestly...
     MessageTH: เฮ้อ...
-    MessageTW: 真的……
+    MessageTW: 唉
   - MessageGroupId: 100350020
     Id: 100350020
     CharacterId: 10035
@@ -73,7 +73,7 @@ content:
     MessageCN: 真是服了……
     MessageEN: I can't bring myself to do it.
     MessageTH: เหนื่อยใจจังเลยค่ะ
-    MessageTW: 真的好累，
+    MessageTW: 真是受不了……
   - MessageGroupId: 100350030
     Id: 100350030
     CharacterId: 10035
@@ -91,7 +91,7 @@ content:
     MessageCN: 所以我才对外面的人……
     MessageEN: Dealing with outsiders, I mean.
     MessageTH: คนนอกทั้งหลายช่าง...
-    MessageTW: 外面的人……
+    MessageTW: 所以才說外面那些人……
   - MessageGroupId: 100350040
     Id: 100350040
     CharacterId: 10035
@@ -109,7 +109,7 @@ content:
     MessageCN: 忧怎么了？
     MessageEN: What's wrong?
     MessageTH: มีเรื่องอะไรเหรอ?
-    MessageTW: 發生什麼事了嗎？
+    MessageTW: 怎麼了嗎？
   - MessageGroupId: 100350040
     Id: 100350050
     CharacterId: 10035
@@ -127,7 +127,7 @@ content:
     MessageCN: 忧？
     MessageEN: Are you okay, Ui?
     MessageTH: อุย...?
-    MessageTW: 憂……？
+    MessageTW: 憂？
   - MessageGroupId: 100350050
     Id: 100350060
     CharacterId: 10035
@@ -145,7 +145,7 @@ content:
     MessageCN: 那个
     MessageEN: Well.
     MessageTH: เอ่อ...
-    MessageTW: 那
+    MessageTW: 那個
   - MessageGroupId: 100350050
     Id: 100350070
     CharacterId: 10035
@@ -167,7 +167,7 @@ content:
       แค่เมื่อวานฉันต้องไปข้องเกี่ยว
 
       กับคนนอก...'
-    MessageTW: 也沒什麼……只是昨天又跟外面的人扯上一些事……
+    MessageTW: 其實也沒什麼……只是昨天和外面那些人遇到的時候稍微……
   - MessageGroupId: 100350060
     Id: 100350080
     CharacterId: 10035
@@ -189,7 +189,7 @@ content:
       ไม่มีเรื่องดีๆ หรอกค่ะ
 
       พอแค่นี้ดีกว่า...'
-    MessageTW: 唔，果然不會一直都是好話，這就到此為止。
+    MessageTW: 不，果然還是當作沒聽過吧……
   - MessageGroupId: 100350070
     Id: 100350090
     CharacterId: 10035
@@ -207,7 +207,7 @@ content:
     MessageCN: 啊，我说的当然不是老师
     MessageEN: It doesn't concern you, though. You don't have to worry.
     MessageTH: อ้อ คนนั้นไม่ใช่คุณครูหรอกนะคะ
-    MessageTW: 啊，我指的不是老師。
+    MessageTW: 啊，我指的當然不是老師
   - MessageGroupId: 100350070
     Id: 100350100
     CharacterId: 10035
@@ -227,7 +227,7 @@ content:
     MessageTH: 'ฉันบอกไว้ก่อนน่ะค่ะ
 
       เผื่อว่าจะเข้าใจผิด...'
-    MessageTW: 怕你誤會先說清楚……
+    MessageTW: 保險起見……
   - MessageGroupId: 100350080
     Id: 100350110
     CharacterId: 10035
@@ -247,7 +247,7 @@ content:
     MessageTH: 'ขอบคุณนะคะคุณครู
 
       วันนี้สนุกมากเลยค่ะ'
-    MessageTW: 謝謝你，老師。多虧老師今天很開心。
+    MessageTW: 非常感謝你，老師。托你的福，今天很開心
   - MessageGroupId: 100350090
     Id: 100350120
     CharacterId: 10035
@@ -265,7 +265,7 @@ content:
     MessageCN: 老师下次要来的话，也请随时联系我。我等着您。
     MessageEN: Please let me know the next time you're coming.
     MessageTH: ต่อไปถ้าแวะมาอีกก็บอกฉันนะคะ
-    MessageTW: 下次來的時候也請隨時聯絡我。
+    MessageTW: 之後歡迎隨時聯絡。我會等你來的
   - MessageGroupId: 100350100
     Id: 100350130
     CharacterId: 10035
@@ -283,7 +283,7 @@ content:
     MessageCN: 嗯，下次我要来的话，会在出门前联系忧的
     MessageEN: Okay. I'll come find you when I'm here again.
     MessageTH: อื้ม ต่อไปครูจะติดต่อไปล่วงหน้า
-    MessageTW: 嗯。下次我會在出發前聯絡妳。
+    MessageTW: 嗯，很快就會連絡你的
   - MessageGroupId: 100350100
     Id: 100350140
     CharacterId: 10035
@@ -301,7 +301,7 @@ content:
     MessageCN: 能看到忧的那个样子好像也不错
     MessageEN: I kind of enjoyed the element of surprise.
     MessageTH: จริงๆ การถูกห้ามไม่ให้เข้าก็สนุกดี
-    MessageTW: 被拒絕也是挺有趣的。
+    MessageTW: 能看到憂的那種樣子好像也不錯
   - MessageGroupId: 100350110
     Id: 100350150
     CharacterId: 10035
@@ -337,7 +337,7 @@ content:
     MessageCN: 嗯，啊，那个……
     MessageEN: Huh.
     MessageTH: อืม...
-    MessageTW: 唔唔，
+    MessageTW: 咦，啊，那個……
   - MessageGroupId: 100350120
     Id: 100350170
     CharacterId: 10035
@@ -373,7 +373,7 @@ content:
     MessageCN: ……是、是的
     MessageEN: Right.
     MessageTH: ค่ะ...
-    MessageTW: ……是。
+    MessageTW: ……好，好的
   - MessageGroupId: 100350140
     Id: 100350190
     CharacterId: 10035
@@ -409,7 +409,7 @@ content:
     MessageCN: 老师现在方便吗？
     MessageEN: Are you available right now?
     MessageTH: อยู่ไหมคะ?
-    MessageTW: 請問你在嗎？
+    MessageTW: 現在有空嗎？
   - MessageGroupId: 100350160
     Id: 100350210
     CharacterId: 10035
@@ -427,7 +427,7 @@ content:
     MessageCN: 嗯，怎么了？
     MessageEN: Is something wrong?
     MessageTH: มีอะไรเหรอ?
-    MessageTW: 發生什麼事了？
+    MessageTW: 嗯，怎麼了嗎？
   - MessageGroupId: 100350170
     Id: 100350220
     CharacterId: 10035
@@ -445,7 +445,7 @@ content:
     MessageCN: 其实
     MessageEN: Well.
     MessageTH: คือว่า...
-    MessageTW: 那
+    MessageTW: 其實
   - MessageGroupId: 100350170
     Id: 100350230
     CharacterId: 10035
@@ -463,7 +463,7 @@ content:
     MessageCN: 我想请老师，帮个小忙……
     MessageEN: Actually, I could use your help.
     MessageTH: ที่จริงแล้วฉันอยากได้ความช่วยเหลือนิดหน่อยค่ะ...
-    MessageTW: 我有件事情想請你幫忙……
+    MessageTW: 可以的話，想請你幫個忙……
   - MessageGroupId: 100350180
     Id: 100350240
     CharacterId: 10035
@@ -483,7 +483,7 @@ content:
     MessageTH: 'อืม... แต่ฉันไม่รู้ว่าเรื่องแบบนี้
 
       จะให้คุณครูช่วยได้ไหม...'
-    MessageTW: 不對，我不知道這種事是不是能請老師幫忙，
+    MessageTW: 那個，雖然不知道
   - MessageGroupId: 100350190
     Id: 100350250
     CharacterId: 10035
@@ -501,7 +501,7 @@ content:
     MessageCN: 虽然，我也不清楚怎么回事
     MessageEN: I don't mean to alarm you.
     MessageTH: ไม่ใช่เรื่องใหญ่อะไรหรอกค่ะ...
-    MessageTW: 其實也沒什麼，
+    MessageTW: 能不能拜託老師這種事
   - MessageGroupId: 100350190
     Id: 100350260
     CharacterId: 10035
@@ -519,7 +519,7 @@ content:
     MessageCN: 但是跟我很要好的一个孩子，失踪了
     MessageEN: But one of my precious children has gone missing.
     MessageTH: ก็แค่เด็กคนสำคัญของฉันหายตัวไป...
-    MessageTW: 就是有個跟我很要好的孩子失蹤了……
+    MessageTW: 有個和我很要好的孩子，失蹤了
   - MessageGroupId: 100350200
     Id: 100350270
     CharacterId: 10035
@@ -537,7 +537,7 @@ content:
     MessageCN: 我马上去古书馆
     MessageEN: What?!
     MessageTH: ว่าไงนะ...!?
-    MessageTW: ……什麼！？
+    MessageTW: 我立刻趕去古書館
   - MessageGroupId: 100350200
     Id: 100350280
     CharacterId: 10035
@@ -573,7 +573,7 @@ content:
     MessageCN: 不
     MessageEN: Hold on.
     MessageTH: เดี๋ยวค่ะ
-    MessageTW: 不要
+    MessageTW: 啊
   - MessageGroupId: 100350210
     Id: 100350300
     CharacterId: 10035
@@ -591,7 +591,7 @@ content:
     MessageCN: 老师，那个
     MessageEN: Sensei?
     MessageTH: คุณครูคะ คือว่า...
-    MessageTW: 老師，那個…
+    MessageTW: 老師，那個
   - MessageGroupId: 100350210
     Id: 100350310
     CharacterId: 10035
@@ -609,7 +609,7 @@ content:
     MessageCN: 请听我说完
     MessageEN: I should explain.
     MessageTH: ฟังให้จบก่อนสิคะ
-    MessageTW: 請聽我說完……
+    MessageTW: 請聽我
   - MessageGroupId: 100350220
     Id: 100350320
     CharacterId: 10035
@@ -627,7 +627,7 @@ content:
     MessageCN: 今天真的，非常感谢。老师
     MessageEN: Thank you so much for today, Sensei.
     MessageTH: ขอบคุณสำหรับวันนี้มากนะคะคุณครู
-    MessageTW: 今天的事真的很謝謝你。老師，
+    MessageTW: 今天真的很謝謝你，老師
   - MessageGroupId: 100350230
     Id: 100350330
     CharacterId: 10035
@@ -645,7 +645,7 @@ content:
     MessageCN: 老师因为我，忙到这么晚……
     MessageEN: I know it's very late. I appreciate it.
     MessageTH: ขอบคุณที่อยู่ด้วยถึงดึกเลย
-    MessageTW: 謝謝你忙到這麼晚的時間。
+    MessageTW: 害你忙到這麼晚……
   - MessageGroupId: 100350240
     Id: 100350340
     CharacterId: 10035
@@ -663,7 +663,7 @@ content:
     MessageCN: 那个
     MessageEN: Not only that.
     MessageTH: แล้วก็
-    MessageTW: 除此之外，
+    MessageTW: 那個
   - MessageGroupId: 100350240
     Id: 100350350
     CharacterId: 10035
@@ -683,7 +683,7 @@ content:
     MessageTH: 'ขอบคุณที่เอาใจใส่หลายๆ
 
       อย่างเลยนะคะ'
-    MessageTW: 各方面都得到你的照顧，真的很感謝。
+    MessageTW: 該說是不只那件事嗎……非常謝謝你
   - MessageGroupId: 100350250
     Id: 100350360
     CharacterId: 10035
@@ -701,7 +701,7 @@ content:
     MessageCN: 老师，您现在有时间吗？
     MessageEN: Sensei.
     MessageTH: คุณครูคะ
-    MessageTW: 老師，
+    MessageTW: 老師，你現在有空嗎
   - MessageGroupId: 100350260
     Id: 100350370
     CharacterId: 10035
@@ -721,7 +721,7 @@ content:
     MessageTH: 'ฉันอยากเสนออะไรบางอย่าง
 
       ให้คุณครู... ได้มั้ยคะ?'
-    MessageTW: 有個想要提議的事……可以嗎？
+    MessageTW: 該說我有個提案嗎……
   - MessageGroupId: 100350270
     Id: 100350380
     CharacterId: 10035
@@ -739,7 +739,7 @@ content:
     MessageCN: “提案”？
     MessageEN: A suggestion? Sure.
     MessageTH: จู่ๆ มี 'ข้อเสนอ' งั้นเหรอ?
-    MessageTW: 突然要「提案」嗎？
+    MessageTW: 「提案」？
   - MessageGroupId: 100350270
     Id: 100350390
     CharacterId: 10035
@@ -757,7 +757,7 @@ content:
     MessageCN: 没问题，是什么事呢？
     MessageEN: Go ahead.
     MessageTH: ได้อยู่แล้ว มีเรื่องอะไรเหรอ?
-    MessageTW: 我當然可以，什麼事？
+    MessageTW: 沒問題，怎麼了嗎？
   - MessageGroupId: 100350280
     Id: 100350400
     CharacterId: 10035
@@ -775,7 +775,7 @@ content:
     MessageCN: 谢谢
     MessageEN: Thank you, Sensei.
     MessageTH: ขอบคุณนะคะคุณครู
-    MessageTW: 謝謝。老師，
+    MessageTW: 非常感謝
   - MessageGroupId: 100350290
     Id: 100350410
     CharacterId: 10035
@@ -793,7 +793,7 @@ content:
     MessageCN: 那，我会先准备一下的
     MessageEN: I'll start my preparations now.
     MessageTH: งั้นฉันจะเตรียมตัวไว้อย่างดี
-    MessageTW: 那麼我會準備好的，
+    MessageTW: 那麼我會做好準備的
   - MessageGroupId: 100350290
     Id: 100350420
     CharacterId: 10035
@@ -811,7 +811,7 @@ content:
     MessageCN: 老师随时都可以来
     MessageEN: Please stop by and I'll tell you more.
     MessageTH: แวะมาหาฉันได้ตลอดนะคะ
-    MessageTW: 請隨時來訪。
+    MessageTW: 歡迎隨時過來
   - MessageGroupId: 100350300
     Id: 100350430
     CharacterId: 10035
@@ -829,7 +829,7 @@ content:
     MessageCN: 老师，不好意思，但是事情紧急
     MessageEN: Sensei.
     MessageTH: คุณครูคะ
-    MessageTW: 老師
+    MessageTW: 老師，不好意思這麼突然
   - MessageGroupId: 100350310
     Id: 100350440
     CharacterId: 10035
@@ -851,7 +851,7 @@ content:
       แต่ว่าฉันขอรบกวนอะไร
 
       สักหน่อยได้ไหมคะ...?'
-    MessageTW: 真的非常抱歉……方便的話，我可以拜託一件事嗎……？
+    MessageTW: 不知道能不能拜託你一件事？
   - MessageGroupId: 100350320
     Id: 100350450
     CharacterId: 10035
@@ -869,7 +869,7 @@ content:
     MessageCN: 当然，怎么了？
     MessageEN: Of course. What's going on?
     MessageTH: ได้สิ เรื่องอะไรเหรอ?
-    MessageTW: 當然囉。什麼事？
+    MessageTW: 當然可以，怎麼了？
   - MessageGroupId: 100350320
     Id: 100350460
     CharacterId: 10035
@@ -887,7 +887,7 @@ content:
     MessageCN: 嗯，发生什么事了吗？
     MessageEN: Is there something wrong?
     MessageTH: ขอรบกวนเหรอ? มีอะไรล่ะ?
-    MessageTW: 拜託？有什麼事嗎？
+    MessageTW: 嗯，發生什麼了？
   - MessageGroupId: 100350330
     Id: 100350470
     CharacterId: 10035
@@ -911,7 +911,7 @@ content:
       ไม่สิ บางทีไม่ใช่เรื่องใหญ่อะไรแบบนี้
 
       แต่ก็คิดจะมารบกวน... ขอโทษนะคะ'
-    MessageTW: 其、其實不是什麼大事……不，就因為不是大事才更感到抱歉……
+    MessageTW: 不是什麼大事……不，如果說「不是什麼大事」卻還拜託你反而更抱歉……
   - MessageGroupId: 100350340
     Id: 100350480
     CharacterId: 10035
@@ -929,7 +929,7 @@ content:
     MessageCN: 那个，就是……
     MessageEN: I'll leave the door open for you if you want to come by.
     MessageTH: คือว่า... ฉันจะเปิดประตูรอไว้...
-    MessageTW: 那個……我會在你來的時候開著門……
+    MessageTW: 就是，那個……
   - MessageGroupId: 100350340
     Id: 100350490
     CharacterId: 10035
@@ -947,7 +947,7 @@ content:
     MessageCN: 我会，先把门打开
     MessageEN: Also.
     MessageTH: เอ่อ...
-    MessageTW: 這……
+    MessageTW: 大門我已經打開了
   - MessageGroupId: 100350350
     Id: 100350500
     CharacterId: 10035
@@ -969,7 +969,7 @@ content:
       กับหมากฝรั่งแก้ง่วง...
 
       มาให้ฉันหน่อยได้ไหมคะ...?'
-    MessageTW: 可以請你幫我……買能量飲料和醒腦口香糖嗎……拜託你了……
+    MessageTW: 如果能幫我買點能量飲料，或是能讓人清醒的口香糖之類的東西的話，我會很感謝的……
   - MessageGroupId: 100350360
     Id: 100350510
     CharacterId: 10035
@@ -987,7 +987,7 @@ content:
     MessageCN: 对不起
     MessageEN: Oh.
     MessageTH: เอ๋?
-    MessageTW: 哎呀，
+    MessageTW: 對不起
   - MessageGroupId: 100350370
     Id: 100350520
     CharacterId: 10035
@@ -1005,7 +1005,7 @@ content:
     MessageCN: 我不知不觉就睡着了
     MessageEN: I fell asleep.
     MessageTH: ฉันเผลอหลับไปเหรอคะเนี่ย?
-    MessageTW: 我睡著了。
+    MessageTW: 不知不覺就睡著了
   - MessageGroupId: 100350370
     Id: 100350530
     CharacterId: 10035
@@ -1027,7 +1027,7 @@ content:
     MessageTH: 'ตอนคุณครูมาก็ไม่ได้ต้อนรับให้ดี
 
       ตอนกลับก็เผลอหลับจนไม่ได้ไปส่งอีก...'
-    MessageTW: 來的時候我都沒好好迎接你，走的時候也沒好好道別，就這樣睡著了……
+    MessageTW: 請老師過來的時候這麼沒禮貌
   - MessageGroupId: 100350370
     Id: 100350540
     CharacterId: 10035
@@ -1045,7 +1045,7 @@ content:
     MessageCN: 又没能好好送老师离开古书馆……
     MessageEN: Sorry.
     MessageTH: ขอโทษนะคะ
-    MessageTW: 對不起……
+    MessageTW: 又沒有好好和老師道別……
   - MessageGroupId: 100350380
     Id: 100350550
     CharacterId: 10035
@@ -1063,7 +1063,7 @@ content:
     MessageCN: 不用往心里去，忧也辛苦了
     MessageEN: Don't worry about it.
     MessageTH: ไม่เป็นไรหรอก
-    MessageTW: 你別在意，
+    MessageTW: 別在意，辛苦了
   - MessageGroupId: 100350380
     Id: 100350560
     CharacterId: 10035
@@ -1083,7 +1083,7 @@ content:
     MessageTH: 'เรื่องแบบนี้ขอให้บอกเลย
 
       ครูยินดีเสมอ'
-    MessageTW: 以後這種事歡迎妳隨時找我。
+    MessageTW: 歡迎隨時找我哦
   - MessageGroupId: 100350390
     Id: 100350570
     CharacterId: 10035
@@ -1121,7 +1121,7 @@ content:
     MessageTH: 'คุณครูทำให้ฉันสนุกกับงาน
 
       ได้มากกว่าเคยค่ะ'
-    MessageTW: 多虧了你，我也能更快樂的進行作業了。
+    MessageTW: 多虧老師，似乎能更快樂地進行作業了
   - MessageGroupId: 100350400
     Id: 100350590
     CharacterId: 10035
@@ -1139,7 +1139,7 @@ content:
     MessageCN: 那个
     MessageEN: So.
     MessageTH: ถ้าหากว่า...
-    MessageTW: 如果那個……
+    MessageTW: 那個
   - MessageGroupId: 100350400
     Id: 100350600
     CharacterId: 10035
@@ -1157,7 +1157,7 @@ content:
     MessageCN: 只要老师愿意的话
     MessageEN: If you're okay with it.
     MessageTH: คุณครูไม่ว่าอะไร...
-    MessageTW: 老師方便的話，
+    MessageTW: 如果老師願意的話
   - MessageGroupId: 100350410
     Id: 100350610
     CharacterId: 10035
@@ -1177,7 +1177,7 @@ content:
     MessageTH: 'ฉันอยากเจอคุณครูบ่อยๆ
 
       แบบนี้อีกค่ะ'
-    MessageTW: 希望可以用這種方式，能經常見到老師。
+    MessageTW: 歡迎隨時再來
   - MessageGroupId: 100350420
     Id: 100350620
     CharacterId: 10035
@@ -1195,4 +1195,4 @@ content:
     MessageCN: 那么，希望老师明天也能度过美好的一天
     MessageEN: Good day.
     MessageTH: ขอให้วันนี้เป็นวันที่ดีนะคะ
-    MessageTW: 祝你有美好的一天。
+    MessageTW: 那麼，祝你有美好的一天

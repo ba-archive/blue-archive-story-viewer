@@ -9,7 +9,7 @@ title:
     TextKr: 심야에 할 일
     TextEn: What We Do Late at Night
     TextTh: สิ่งที่ต้องทำในตอนกลางดึก
-    TextTw: 深夜的任務
+    TextTw: 明日奈的生態
   - GroupId: 1002803
     FavorScheduleId: 100283
     CharacterId: 10028
@@ -34,9 +34,9 @@ title:
     TextJp: しっぽ大騒動
     TextCn: 尾巴大骚动
     TextKr: 토끼 꼬리 소동
-    TextEn: ''
-    TextTh: ''
-    TextTw: ''
+    TextEn: Rabbit Tail Ruckus
+    TextTh: ความวุ่นวายของหางกระต่าย
+    TextTw: 兔子尾巴騷動
 content:
   - MessageGroupId: 100280010
     Id: 100280010
@@ -1041,9 +1041,9 @@ content:
     MessageKR: 주인님, 주인님!
     MessageJP: ご主人様ーー！！
     MessageCN: 主人——！！
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: Master! Master!
+    MessageTH: นายท่านๆ!
+    MessageTW: 主人──！
   - MessageGroupId: 100280390
     Id: 100280560
     CharacterId: 10028
@@ -1059,9 +1059,11 @@ content:
     MessageKR: 혹시 오늘 바빠? 놀 수 있는 시간 있을까?
     MessageJP: 今日は忙しい感じ？
     MessageCN: 主人现在忙吗？
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: Are you busy today? Can we play?
+    MessageTH: 'วันนี้นายท่านยุ่งมั้ย? มีเวลาออกมาเล่น
+
+      ด้วยกันมั้ย?'
+    MessageTW: 今天忙嗎？
   - MessageGroupId: 100280400
     Id: 100280570
     CharacterId: 10028
@@ -1077,9 +1079,9 @@ content:
     MessageKR: 딱히 바쁘진 않지만…….
     MessageJP: 全然大丈夫だよ
     MessageCN: 完全不忙哦
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: I'm not too busy, but...
+    MessageTH: ที่จริงครูก็ไม่ได้ยุ่งมากมายอะไร...
+    MessageTW: 完全沒問題唷
   - MessageGroupId: 100280400
     Id: 100280580
     CharacterId: 10028
@@ -1095,9 +1097,9 @@ content:
     MessageKR: 음? 무슨 일이야?
     MessageJP: 何かあったの？
     MessageCN: 发生什么了？
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: Hmm? What's up?
+    MessageTH: อืม... มีเรื่องอะไรเหรอ?
+    MessageTW: 有什麼事嗎？
   - MessageGroupId: 100280410
     Id: 100280590
     CharacterId: 10028
@@ -1113,9 +1115,9 @@ content:
     MessageKR: 응응, 좋아!
     MessageJP: やった！！
     MessageCN: 太好啦！！
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: Yeah! Great!
+    MessageTH: อื้อๆ ดีเลย!
+    MessageTW: 太好了！！
   - MessageGroupId: 100280410
     Id: 100280600
     CharacterId: 10028
@@ -1131,9 +1133,9 @@ content:
     MessageKR: 그럼 결정!
     MessageJP: じゃあ決まり！
     MessageCN: 那就这么决定了！
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: Then it's decided!
+    MessageTH: ฉันตัดสินใจแล้ว!
+    MessageTW: 那就決定了！
   - MessageGroupId: 100280420
     Id: 100280610
     CharacterId: 10028
@@ -1149,9 +1151,9 @@ content:
     MessageKR: 그건 조금 있다가 말해 줄게!
     MessageJP: 細かいことは後でね
     MessageCN: 详细情况过一会告诉主人哦
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: I'll tell you about it later!
+    MessageTH: ถ้างั้นเดี๋ยวเจอกันแล้วฉันจะเล่าให้ฟังนะ!
+    MessageTW: 細節之後再說
   - MessageGroupId: 100280420
     Id: 100280620
     CharacterId: 10028
@@ -1167,9 +1169,9 @@ content:
     MessageKR: 응! 만나서!!
     MessageJP: 待ってるから！
     MessageCN: 我等主人来！
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: Yeah! In person!
+    MessageTH: อื้อ! ให้เจอกันก่อน!!
+    MessageTW: 我等著唷！
   - MessageGroupId: 100280430
     Id: 100280630
     CharacterId: 10028
@@ -1185,9 +1187,9 @@ content:
     MessageKR: ?????
     MessageJP: ？？？
     MessageCN: ？？？
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: ?????
+    MessageTH: ???
+    MessageTW: ？？？
   - MessageGroupId: 100280440
     Id: 100280640
     CharacterId: 10028
@@ -1203,9 +1205,9 @@ content:
     MessageKR: 아스나??
     MessageJP: アスナ？
     MessageCN: 明日奈？
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: Asuna?
+    MessageTH: อาสึนะ??
+    MessageTW: 明日奈？
   - MessageGroupId: 100280450
     Id: 100280650
     CharacterId: 10028

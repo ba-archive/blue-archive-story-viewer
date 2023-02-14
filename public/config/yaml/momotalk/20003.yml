@@ -18,7 +18,7 @@ title:
     TextKr: 정의란 무엇인가
     TextEn: What Is Justice?
     TextTh: ความยุติธรรมคืออะไรกันแน่
-    TextTw: 何謂正義
+    TextTw: 所謂的正義
   - GroupId: 2000305
     FavorScheduleId: 200035
     CharacterId: 20003
@@ -27,7 +27,7 @@ title:
     TextKr: 저격수의 시련 1
     TextEn: The Sniper's Ordeal Part 1
     TextTh: ความยากลำบากของสไนเปอร์ 1
-    TextTw: 狙擊手的試煉 1
+    TextTw: 狙擊手的試煉（１）
   - GroupId: 2000306
     FavorScheduleId: 200036
     CharacterId: 20003
@@ -36,7 +36,7 @@ title:
     TextKr: 저격수의 시련 2
     TextEn: The Sniper's Ordeal Part 2
     TextTh: ความยากลำบากของสไนเปอร์ 2
-    TextTw: 狙擊手的試煉 2
+    TextTw: 狙擊手的試煉（２）
   - GroupId: 2000308
     FavorScheduleId: 200038
     CharacterId: 20003
@@ -45,7 +45,7 @@ title:
     TextKr: 정의의 실현
     TextEn: A Duty to Justice
     TextTh: ความเข้าใจจริงเรื่องความยุติธรรม
-    TextTw: 實現正義
+    TextTw: 正義的實現
   - GroupId: 2000309
     FavorScheduleId: 200039
     CharacterId: 20003
@@ -54,7 +54,7 @@ title:
     TextKr: 연기와 바보는 높은 곳을 좋아한다.
     TextEn: Friends in High Places
     TextTh: คนทะเยอทะยานมักพยายามไขว่คว้าอำนาจ
-    TextTw: 煙氣和笨蛋都喜歡高處。
+    TextTw: 煙霧與笨蛋皆喜歡高處
 content:
   - MessageGroupId: 200030010
     Id: 2136
@@ -247,7 +247,7 @@ content:
     MessageTH: 'เมื่อไม่นานนี้ฉันได้อ่านหนังสือที่น่าสนใจ
 
       เกี่ยวกับความยุติธรรมด้วยค่ะ'
-    MessageTW: 最近，我讀了一本與關於正義的有趣的書
+    MessageTW: 最近，我讀了一本關於正義的有趣的書
   - MessageGroupId: 200030070
     Id: 2146
     CharacterId: 20003
@@ -641,7 +641,7 @@ content:
     MessageCN: 请多指教
     MessageEN: Please keep that in mind.
     MessageTH: ฉันเลยมาแจ้งให้คุณครูทราบค่ะ
-    MessageTW: 再麻煩了
+    MessageTW: 再麻煩老師了
   - MessageGroupId: 200030200
     Id: 2166
     CharacterId: 20003
@@ -871,7 +871,7 @@ content:
     MessageTH: 'คุณครูคะ ถึงเวลาแห่งความยุติธรรม
 
       แล้วค่ะ!'
-    MessageTW: 現在是實現正義的時刻！
+    MessageTW: 現在正是實現正義的時刻！
   - MessageGroupId: 200030310
     Id: 2178
     CharacterId: 20003

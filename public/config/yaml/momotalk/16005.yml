@@ -9,7 +9,7 @@ title:
     TextKr: 여름 바다의 귀신
     TextEn: Summer Siren
     TextTh: พรายสาวแห่งทะเลฤดูร้อน
-    TextTw: 夏天海邊的鬼
+    TextTw: 說到夏天的海邊……
   - GroupId: 1600503
     FavorScheduleId: 160053
     CharacterId: 16005
@@ -18,7 +18,7 @@ title:
     TextKr: 여름 바다의 놀이
     TextEn: Summer Ocean Playtime
     TextTh: การเล่นสนุกในฤดูร้อน
-    TextTw: 夏天海邊的遊戲
+    TextTw: 於夏天海邊的遊玩方式
   - GroupId: 1600505
     FavorScheduleId: 160055
     CharacterId: 16005
@@ -27,7 +27,7 @@ title:
     TextKr: 여름 바다의 계단
     TextEn: Summer Ocean Stairs
     TextTh: ภาพฝันของทะเลฤดูร้อน
-    TextTw: 夏天海邊的階梯
+    TextTw: 夏季的大海 憧憬 感慨
 content:
   - MessageGroupId: 16005010
     Id: 16005010
@@ -214,7 +214,7 @@ content:
     MessageTH: 'ฉันเป็นฝ่ายขอร้องคุณครู แต่ดันทำ
 
       เรื่องน่าไม่อายแบบนั้น...'
-    MessageTW: 明明是我請你來的，結果卻變成這樣……
+    MessageTW: 明明是我請您來的，結果卻變成這樣……
   - MessageGroupId: 16005070
     Id: 16005110
     CharacterId: 16005
@@ -360,7 +360,7 @@ content:
     MessageTH: 'คราวที่แล้วฉันเสียมารยาทกับคุณครู
 
       ขอโทษด้วยนะคะ'
-    MessageTW: 之前那件事實在太對不起了。我感到萬分抱歉。
+    MessageTW: 之前那件事實在太失禮了。萬分抱歉。
   - MessageGroupId: 16005130
     Id: 16005190
     CharacterId: 16005
@@ -840,7 +840,7 @@ content:
     MessageCN: 鹤城 敬上
     MessageEN: Sincerely, Tsurugi.
     MessageTH: ซึรุกิ เคารพ!
-    MessageTW: 弦生 謹上
+    MessageTW: 弦生　謹上
   - MessageGroupId: 16005280
     Id: 16005450
     CharacterId: 16005
@@ -1012,4 +1012,4 @@ content:
     MessageCN: 鹤城 敬上
     MessageEN: Sincerely, Tsurugi.
     MessageTH: ซึรุกิ เคารพ!
-    MessageTW: 弦生 謹上
+    MessageTW: 弦生　謹上

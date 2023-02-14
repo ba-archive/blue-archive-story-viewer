@@ -18,7 +18,7 @@ title:
     TextKr: 어린 아이가 아니예요. 숙녀라구요!
     TextEn: Not a Girl, but a Lady!
     TextTh: ไม่ใช่เด็กเล็กนะคะ หญิงสาวต่างหากค่ะ!
-    TextTw: 我不是小孩子。是淑女了！
+    TextTw: 我不是小孩子，我是淑女！
   - GroupId: 1005005
     FavorScheduleId: 100505
     CharacterId: 10050
@@ -27,7 +27,7 @@ title:
     TextKr: 아무리 그래도 싫은 건 싫은 거예요!
     TextEn: I Said I Hate It!
     TextTh: ไม่ชอบก็คือไม่ชอบสิคะ!
-    TextTw: 討厭的東西還是討厭呢！
+    TextTw: 不管怎麼說，討厭的東西就是討厭！
   - GroupId: 1005006
     FavorScheduleId: 100506
     CharacterId: 10050
@@ -36,7 +36,7 @@ title:
     TextKr: ……이번만이에요. 정말이라구요?
     TextEn: '...Just This Once, Really!'
     TextTh: แค่ครั้งนี้ครั้งเดียวนะคะ... จริงๆ นะคะ
-    TextTw: ……就這麼一次而已。是真的嗎？
+    TextTw: ……只有這次而已喔。真的喔。
 content:
   - MessageGroupId: 100500010
     Id: 100500010
@@ -619,8 +619,8 @@ content:
     MessageKR: 아뇨. 역시 아니에요.
     MessageJP: いいえ、やっぱりいいです
     MessageCN: 不，果然还是算了
-    MessageEN: "No, I don't think so. "
-    MessageTH: 'ไม่ค่ะ ยังไงก็ไม่ดีกว่าค่ะ '
+    MessageEN: No, I don't think so.
+    MessageTH: ไม่ค่ะ ยังไงก็ไม่ดีกว่าค่ะ
     MessageTW: 不，果然還是算了
   - MessageGroupId: 100500220
     Id: 100500320

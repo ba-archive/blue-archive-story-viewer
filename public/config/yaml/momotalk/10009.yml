@@ -9,7 +9,7 @@ title:
     TextKr: 음식을 더욱 맛있게 먹는 법
     TextEn: Peak Enjoyment
     TextTh: วิธีกินอาหารให้อร่อยขึ้นกว่าเดิม
-    TextTw: 讓料理更美味的方法
+    TextTw: 變得很美味的方法
   - GroupId: 1000903
     FavorScheduleId: 100093
     CharacterId: 10009
@@ -18,7 +18,7 @@ title:
     TextKr: 맛있는 푸딩 이야기
     TextEn: A Tale of Delicious Pudding
     TextTh: เรื่องราวของพุดดิ้งแสนอร่อย
-    TextTw: 美味布丁的故事
+    TextTw: 美味的布丁
   - GroupId: 1000905
     FavorScheduleId: 100095
     CharacterId: 10009
@@ -27,7 +27,7 @@ title:
     TextKr: 나도 모르게 한 입!
     TextEn: Mouthwatering Treats
     TextTh: ดันเผลอชิมโดยไม่รู้ตัว!
-    TextTw: 我也不自覺地吃了一口！
+    TextTw: 不知不覺
 content:
   - MessageGroupId: 100090010
     Id: 700

@@ -8,7 +8,7 @@ title:
     TextCn: 和泉奈一起打西瓜！
     TextKr: 이즈나와 함께 수박 깨기!
     TextEn: Crushing Watermelons with Izuna!
-    TextTh: ทุบแตงโมกับอิซุนะ!
+    TextTh: ตีแตงโมกับอิซุนะ!
     TextTw: 和伊樹菜一起劈西瓜！
   - GroupId: 1004603
     FavorScheduleId: 100463
@@ -27,7 +27,7 @@ title:
     TextKr: 이즈나와 함께 위기탈출!
     TextEn: Escaping Crisis with Izuna!
     TextTh: หนีวิกฤตกับอิซุนะ!
-    TextTw: 和伊樹菜一起逃離危機！
+    TextTw: 和伊樹菜一起千鈞一髮！
   - GroupId: 1004606
     FavorScheduleId: 100466
     CharacterId: 10046
@@ -72,7 +72,7 @@ content:
     MessageJP: 夏ですよ、夏！
     MessageCN: 夏天到了哦，夏天！
     MessageEN: It's summer. Summertime!
-    MessageTH: ถึงฤดูร้อนแล้วค่ะ! ฤดูร้อน!
+    MessageTH: ฤดูร้อน! ถึงฤดูร้อนแล้วค่ะ!
     MessageTW: 夏天到了，夏天！
   - MessageGroupId: 100460030
     Id: 100460030
@@ -108,7 +108,7 @@ content:
     MessageJP: 夏なので、陽炎があちこちに見られます！
     MessageCN: 夏天到了，到处都是热浪！
     MessageEN: The haze was everywhere today!
-    MessageTH: ไอแดดวันนี้ร้อนระอุไปทุกที่เลยละค่ะ
+    MessageTH: ไอแดดร้อนระอุพัดไปทุกที่เลยค่ะ
     MessageTW: 因為是夏天，到處都熱氣沖天！
   - MessageGroupId: 100460040
     Id: 100460050
@@ -130,9 +130,9 @@ content:
       film directed by Shiba Dog Wang Wang...
     MessageTH: 'เหมือนในหนังเรื่อง <การต่อสู้ที่ดุเดือด>
 
-      ผลงานชิ้นที่ 26 ของผู้กำกับปรมาจารย์
+      ผลงานชิ้นที่ 26 ของปรมาจารย์ผู้กำกับ
 
-      ผู้กำกับชิบะชื่อดัง...'
+      ชิบะชื่อดัง...'
     MessageTW: 簡直就像柴犬汪藏導演的第26部作品！《陽炎之血鬥》一樣！
   - MessageGroupId: 100460050
     Id: 100460060
@@ -168,9 +168,9 @@ content:
     MessageJP: よく分からないけど、イズナが楽しそうでよかった
     MessageCN: 虽然不太懂，但是泉奈开心就好
     MessageEN: "I'm not sure what that means, but I'm glad you enjoyed it. "
-    MessageTH: 'ถึงไม่ค่อยเข้าใจเท่าไร แต่ครูดีใจ
+    MessageTH: 'ถึงไม่ค่อยเข้าใจก็เถอะ
 
-      ที่อิซุนะสนุกนะ '
+      แต่ครูดีใจที่อิซุนะสนุกนะ '
     MessageTW: 雖然不是很懂，但伊樹菜看起來很開心，真是太好了
   - MessageGroupId: 100460060
     Id: 100460080
@@ -188,7 +188,7 @@ content:
     MessageJP: なんだかイズナ、いつも以上に元気だね
     MessageCN: 总觉得泉奈比平时更有精神呢
     MessageEN: You seem more energetic than usual.
-    MessageTH: ดูอิซุนะมีพลังเหลือเฟือกว่าทุกๆ วันเลยนะ
+    MessageTH: ดูอิซุนะมีพลังล้นเหลือกว่าทุกๆ วันเลย
     MessageTW: 總覺得伊樹菜比平常更有精神呢
   - MessageGroupId: 100460070
     Id: 100460090
@@ -226,7 +226,9 @@ content:
     MessageJP: あ、こうしている場合ではありませんね。主殿、一緒に海に行きましょう！
     MessageCN: 啊，现在不是说这些的时候呢。主公，我们一起去海边吧！
     MessageEN: Oh, no time to dilly-dally! My lord, let's go to the beach together!
-    MessageTH: อ๊ะ จะมามัวโอ้เอ้แบบนี้ไม่ได้แล้ว นายท่าน! ไปทะเลกันเถอะค่ะ!
+    MessageTH: 'อ๊ะ จะมามัวโอ้เอ้แบบนี้ไม่ได้แล้ว
+
+      นายท่าน! ไปทะเลกันเถอะค่ะ!'
     MessageTW: 啊，現在不是說這個的時候。主公！一起去海邊吧！
   - MessageGroupId: 100460080
     Id: 100460110
@@ -266,7 +268,7 @@ content:
     MessageJP: うん、行こっか
     MessageCN: 嗯，一起去吧
     MessageEN: If you say so!
-    MessageTH: หา ว่ายังไงนะ?
+    MessageTH: ไปกันโลด!
     MessageTW: 嗯，走吧
   - MessageGroupId: 100460100
     Id: 100460130
@@ -302,7 +304,7 @@ content:
     MessageJP: 主殿！
     MessageCN: 主公！
     MessageEN: 'My lord! '
-    MessageTH: 'นายท่าน! '
+    MessageTH: 'นายท่านคะ! '
     MessageTW: 主公！
   - MessageGroupId: 100460120
     Id: 100460150
@@ -338,7 +340,9 @@ content:
     MessageJP: イズナのためならどこへでも！
     MessageCN: 只要是为了泉奈，我去哪都可以！
     MessageEN: Sure! I'll go anywhere with you, Izuna!
-    MessageTH: แน่นอน ถ้าอิซุนะเรียก ครูจะไปแน่นอน!
+    MessageTH: 'แน่นอน ถ้าอิซุนะเรียก
+
+      ครูจะไปแน่นอน!'
     MessageTW: 只要是為了伊樹菜，去哪裡都行！
   - MessageGroupId: 100460140
     Id: 100460170
@@ -410,7 +414,9 @@ content:
     MessageJP: ありがとうございます！それでは海辺でお待ちしてますね、主殿！
     MessageCN: 非常谢谢！那泉奈就在海边恭候啦，主公！
     MessageEN: Okay, see you at the beach, my lord!
-    MessageTH: ค่ะ ถ้างั้นเจอกันที่ชายหาดนะคะ นายท่าน!
+    MessageTH: 'ค่ะ ถ้างั้นเจอกัน
+
+      ที่ชายหาดนะคะ นายท่าน!'
     MessageTW: 非常感謝！那我在海邊等著，主公！
   - MessageGroupId: 100460170
     Id: 100460210
@@ -428,9 +434,9 @@ content:
     MessageJP: 今日も朝から暑いですね、主殿！
     MessageCN: 今天也是从早上开始就很热呢，主公！
     MessageEN: My lord! It's been so hot since this morning!
-    MessageTH: 'นายท่าน~! วันนี้ก็ร้อนสุดๆ ตั้งแต่เช้า
+    MessageTH: 'นายท่าน~! วันนี้ก็ร้อนสุดๆ
 
-      เลยค่ะ~!'
+      ตั้งแต่เช้าเลยค่ะ~!'
     MessageTW: 今天從早上開始就非常熱呢，主公！
   - MessageGroupId: 100460180
     Id: 100460220
@@ -466,9 +472,9 @@ content:
     MessageJP: 特に尻尾が……
     MessageCN: 特别是尾巴那里……
     MessageEN: when I woke up, my tail was soaking wet!
-    MessageTH: 'ร้อนขนาดตอนตื่นมาตอนเช้า หางของ
+    MessageTH: 'ร้อนขนาดตอนตื่นมาตอนเช้า
 
-      อิซุนะก็ชุ่มไปด้วยเหงื่อเลยค่ะ~'
+      หางของอิซุนะก็ชุ่มเหงื่อเลยค่ะ~'
     MessageTW: 特別是尾巴的部份……
   - MessageGroupId: 100460190
     Id: 100460240
@@ -486,7 +492,7 @@ content:
     MessageJP: この季節は大変そうだね……
     MessageCN: 看来这个季节对泉奈来说很不好过啊……
     MessageEN: Whoa, that's not pleasant.
-    MessageTH: ว้าว~ แบบนั้นก็เรื่องใหญ่เลยนะ
+    MessageTH: โว้ว~ แบบนั้นก็เรื่องใหญ่เลยนะ
     MessageTW: 這個季節真是辛苦你了……
   - MessageGroupId: 100460200
     Id: 100460250
@@ -503,8 +509,8 @@ content:
     MessageKR: 하지만! 이런 더위가 방해할지라도!
     MessageJP: しかし、たとえどんなに暑かろうとも！
     MessageCN: 但是，不管有多热！
-    MessageEN: But even in this heat!
-    MessageTH: ถึงจะมีอากาศร้อนเป็นอุปสรรค!
+    MessageEN: But even in this heat...
+    MessageTH: แต่ว่าถึงจะร้อนแค่ไหนก็ตาม
     MessageTW: 但是，不管有多熱！
   - MessageGroupId: 100460200
     Id: 100460260
@@ -521,10 +527,10 @@ content:
     MessageKR: 이즈나! 오늘도 주군과 함께! 힘차게 수련하고 싶어요!
     MessageJP: イズナは今日も主殿と一緒に、修行に臨みたい所存です！
     MessageCN: 泉奈今天也想和主公一起修行！
-    MessageEN: want to train hard with you, my lord!
-    MessageTH: 'แต่ว่าวันนี้อิซุนะ ก็จะออกไปฝึกฝน
+    MessageEN: I want to train hard with you, my lord!
+    MessageTH: 'วันนี้อิซุนะก็อยากออกไปฝึกฝน
 
-      กับนายท่านค่ะ!'
+      กับนายท่านอีกค่ะ!'
     MessageTW: 伊樹菜今天也想和主公一起修行！
   - MessageGroupId: 100460210
     Id: 100460270
@@ -560,7 +566,7 @@ content:
     MessageJP: うん、じゃあ準備するね
     MessageCN: 嗯，那我就准备一下啦
     MessageEN: Yeah, Izuna. See you there, then?
-    MessageTH: อื้อ งั้นไปเจอกันที่นั่นเลยดีมั้ย
+    MessageTH: อื้อ งั้นไปเจอกันที่ชายหาดนะ
     MessageTW: 嗯，我準備好了
   - MessageGroupId: 100460230
     Id: 100460290
@@ -596,7 +602,7 @@ content:
     MessageJP: イズナも、すぐに準備していきます！
     MessageCN: 泉奈也马上开始准备！
     MessageEN: I'll get ready and leave right away!
-    MessageTH: อิซุนะจะรีบเตรียมตัวแล้วออกไปเลยค่ะ!
+    MessageTH: อิซุนะจะรีบเตรียมตัวออกไปเลยค่ะ!
     MessageTW: 伊樹菜也馬上準備！
   - MessageGroupId: 100460240
     Id: 100460310
@@ -650,7 +656,9 @@ content:
     MessageJP: イズナから修行したいと言っておいて、途中で寝てしまうなんて……！
     MessageCN: 明明是泉奈提出想要修行，泉奈却中途就睡着了……！
     MessageEN: I was the one who suggested training...but I fell asleep...
-    MessageTH: อิซุนะเป็นฝ่ายชวนมาฝึกก่อนแท้ๆ... แต่ระหว่างฝึกดันหลับไปซะได้!
+    MessageTH: 'อิซุนะเป็นฝ่ายชวนมาฝึกก่อนแท้ๆ...
+
+      แต่ดันเผลอหลับไประหว่างฝึกซะได้'
     MessageTW: 明明是伊樹菜說要修行的，居然在中途就睡著了……！
   - MessageGroupId: 100460260
     Id: 100460340
@@ -706,9 +714,9 @@ content:
     MessageJP: まだまだ時間はあるから、大丈夫
     MessageCN: 还有很多时间，没关系的
     MessageEN: We have time. We can train sometime later.
-    MessageTH: 'ยังพอมีเวลาเหลืออยู่ เอาไว้ค่อยมา
+    MessageTH: 'ยังพอมีเวลาอยู่
 
-      ทำใหม่นะ การฝึกน่ะ'
+      เอาไว้ค่อยมาฝึกกันใหม่นะ'
     MessageTW: 還有時間，不要緊的
   - MessageGroupId: 100460290
     Id: 100460370
@@ -780,7 +788,7 @@ content:
     MessageJP: 主殿！今日は何をしましょうか？
     MessageCN: 主公！今天要和泉奈一起做什么呢？
     MessageEN: My lord! What should we do today?
-    MessageTH: นายท่าน! วันนี้จะลองทำอะไรกันดีคะ?
+    MessageTH: นายท่าน! วันนี้จะทำอะไรกันดีคะ?
     MessageTW: 主公！今天要做什麼好呢？
   - MessageGroupId: 100460320
     Id: 100460410
@@ -798,9 +806,9 @@ content:
     MessageJP: イズナは主殿とやりたいことが、まだまだ山ほどあります！
     MessageCN: 泉奈想和主公一起做的事情，还有很多很多！
     MessageEN: I have so many things I wanna try with you!
-    MessageTH: 'อิซุนะ! มีอะไรที่อยากทำกับนายท่าน
+    MessageTH: 'อิซุนะ! มีอะไรที่อยากทำ
 
-      เยอะแยะเลยละค่ะ!'
+      กับนายท่านเยอะเลยค่ะ!'
     MessageTW: 伊樹菜還有很多想跟主公一起做的事！
   - MessageGroupId: 100460330
     Id: 100460420
@@ -818,7 +826,9 @@ content:
     MessageJP: 今日も暑いね……何しよっか？
     MessageCN: 今天也很热呢……要做什么好呢？
     MessageEN: Today is so hot... What should we do today?
-    MessageTH: วันนี้อากาศก็ร้อนจังเลย ทำอะไรดีนะ?
+    MessageTH: 'วันนี้อากาศก็ร้อนจังเลย
+
+      ทำอะไรดีนะ?'
     MessageTW: 今天也很熱呢……做什麼好呢？
   - MessageGroupId: 100460340
     Id: 100460430
@@ -926,7 +936,9 @@ content:
     MessageJP: あ、その、嫌いと言いますか……
     MessageCN: 啊，那个，泉奈不知道算不算得上讨厌……
     MessageEN: Oh, um, I mean...it's not that I don't like it...but...
-    MessageTH: ปะ...เปล่าค่ะ จะเรียกว่าไม่ชอบได้มั้ยนะ...
+    MessageTH: 'ปะ...เปล่าค่ะ จะเรียกว่า
+
+      ไม่ชอบได้มั้ยนะ...'
     MessageTW: 啊，那個，該說是討厭嗎……
   - MessageGroupId: 100460390
     Id: 100460490
@@ -980,9 +992,9 @@ content:
     MessageJP: と、とりあえず海でお待ちしてますね、主殿！
     MessageCN: 总、总之，泉奈就先在海边等着哦，主公！
     MessageEN: I-I'll be waiting at the beach, my lord!
-    MessageTH: 'อะ...เอาเป็นว่า! ฉันจะรออยู่ที่ชายหาด
+    MessageTH: 'อะ...เอาเป็นว่า! ฉันจะรออยู่ที่
 
-      นะคะ นายท่าน!'
+      ชายหาดนะคะ นายท่าน!'
     MessageTW: 總，總之，先去海邊等你了，主公！
   - MessageGroupId: 100460410
     Id: 100460520

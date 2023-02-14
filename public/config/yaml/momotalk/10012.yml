@@ -9,7 +9,7 @@ title:
     TextKr: 트레이너 등장!
     TextEn: The Trainer Appears!
     TextTh: เทรนเนอร์ปรากฎตัว!
-    TextTw: 教練登場！
+    TextTw: 指導員參上！
   - GroupId: 1001203
     FavorScheduleId: 100123
     CharacterId: 10012
@@ -18,7 +18,7 @@ title:
     TextKr: 트레이너와 함께
     TextEn: My Trainer and Me
     TextTh: ไปด้วยกันกับเทรนเนอร์
-    TextTw: 和教練一起
+    TextTw: 和指導員一起
   - GroupId: 1001205
     FavorScheduleId: 100125
     CharacterId: 10012
@@ -27,7 +27,7 @@ title:
     TextKr: 트레이너도 함께
     TextEn: Quality Time with Trainer
     TextTh: ไปด้วยกันกับเทรนเนอร์
-    TextTw: 教練也一起
+    TextTw: 指導員也一起
   - GroupId: 1001206
     FavorScheduleId: 100126
     CharacterId: 10012
@@ -36,7 +36,7 @@ title:
     TextKr: 트레이너와 데이트
     TextEn: A Date with Trainer
     TextTh: เดตแสนหวานกับเทรนเนอร์
-    TextTw: 和教練約會
+    TextTw: 約會
 content:
   - MessageGroupId: 100120010
     Id: 872
@@ -55,7 +55,7 @@ content:
     MessageCN: 早上好，教练
     MessageEN: Hello, Trainer.
     MessageTH: สวัสดีค่ะ เทรนเนอร์
-    MessageTW: 早上好，指導員
+    MessageTW: 早安，指導員
   - MessageGroupId: 100120020
     Id: 873
     CharacterId: 10012
@@ -189,7 +189,7 @@ content:
     MessageCN: 我在健身房等您！
     MessageEN: I'll be waiting for you.
     MessageTH: แล้วฉันจะรอนะคะ
-    MessageTW: 我等著！
+    MessageTW: 期待你的到來！
   - MessageGroupId: 100120060
     Id: 880
     CharacterId: 10012
@@ -245,7 +245,7 @@ content:
     MessageCN: 一定一定
     MessageEN: Not at all.
     MessageTH: เอาสิ
-    MessageTW: 務必讓我去
+    MessageTW: 當然好呀
   - MessageGroupId: 100120080
     Id: 883
     CharacterId: 10012
@@ -319,7 +319,7 @@ content:
     MessageCN: 那么，我在购物中心等您
     MessageEN: Well, then, I'll be waiting for you at the mall.
     MessageTH: ถ้างั้นฉันจะรอที่ห้างสรรพสินค้านะคะ
-    MessageTW: 那麼，我在購物中心等著唷
+    MessageTW: 那麼，我在購物中心等著
   - MessageGroupId: 100120110
     Id: 887
     CharacterId: 10012
@@ -429,7 +429,7 @@ content:
     MessageCN: 肌肉，在悲鸣……
     MessageEN: Ugh, my muscles...
     MessageTH: อะ...อึ่ก!  กะ...กล้ามเนื้อมัน...
-    MessageTW: 肌肉發出了悲鳴……
+    MessageTW: 肌肉在哀號……
   - MessageGroupId: 100120150
     Id: 893
     CharacterId: 10012
@@ -465,7 +465,7 @@ content:
     MessageCN: 可能强度有点太高了……
     MessageEN: I guess the workout was a bit too much.
     MessageTH: คงจะออกกำลังกายหนักแน่ๆ เลยสินะคะ
-    MessageTW: 強度可能有點高……
+    MessageTW: 看來強度有點太高了……
   - MessageGroupId: 100120160
     Id: 895
     CharacterId: 10012
@@ -689,7 +689,7 @@ content:
     MessageCN: 那不管什么都可以！
     MessageEN: In that case, okay!
     MessageTH: ถ้างั้นก็โอเคเลย!
-    MessageTW: 那就什麼都沒問題！
+    MessageTW: 那你儘管說吧！
   - MessageGroupId: 100120250
     Id: 907
     CharacterId: 10012

@@ -9,7 +9,7 @@ title:
     TextKr: 주사를 아프지 않게 놓는 방법
     TextEn: Painless Injection Process
     TextTh: วิธีการฉีดยาโดยไม่ให้เจ็บ
-    TextTw: 讓打針不痛的方法
+    TextTw: 不會痛的注射？
   - GroupId: 2300203
     FavorScheduleId: 230023
     CharacterId: 23002
@@ -36,7 +36,7 @@ title:
     TextKr: 트리니티식 외과 수술법
     TextEn: Trinity Surgical Procedures
     TextTh: การผ่าตัดแบบฉบับของทรีนิตี้
-    TextTw: 三一流外科手術法
+    TextTw: 三一流外科手術
   - GroupId: 2300208
     FavorScheduleId: 230028
     CharacterId: 23002

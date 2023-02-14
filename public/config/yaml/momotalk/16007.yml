@@ -9,7 +9,7 @@ title:
     TextKr: 오해와 거짓말
     TextEn: Misunderstandings and Lies
     TextTh: เรื่องเข้าใจผิดกับคำโกหก
-    TextTw: 誤會和謊言
+    TextTw: 謊言和誤解
   - GroupId: 1600703
     FavorScheduleId: 160073
     CharacterId: 16007
@@ -18,7 +18,7 @@ title:
     TextKr: 노동은 휴식을 즐긴다
     TextEn: Work Begets Enjoyable Rest
     TextTh: วันพักผ่อนหรรษาของคนทำงาน
-    TextTw: 先苦後甘
+    TextTw: 斷斷續續的休息
   - GroupId: 1600705
     FavorScheduleId: 160075
     CharacterId: 16007
@@ -27,7 +27,7 @@ title:
     TextKr: 눈 속의 연설
     TextEn: A Speech in the Snow
     TextTh: คำปราศรัยท่ามกลางหิมะ
-    TextTw: 雪中演講
+    TextTw: 於雪中
   - GroupId: 1600706
     FavorScheduleId: 160076
     CharacterId: 16007
@@ -36,7 +36,7 @@ title:
     TextKr: 실패한 기록은 말살해야 한다
     TextEn: Failure Must Be Eradicated
     TextTh: บันทึกความล้มเหลวต้องถูกลบหายไป
-    TextTw: 失敗的紀錄必須被抹除
+    TextTw: 並沒有失敗，也沒有記錄
   - GroupId: 1600708
     FavorScheduleId: 160078
     CharacterId: 16007
@@ -45,7 +45,7 @@ title:
     TextKr: 미묘한 거짓말은 실수에 가깝다
     TextEn: Fibs Are More like Mistakes Than Lies
     TextTh: คำพูดหลอกลวงเล็กๆ คือความผิดพลาด
-    TextTw: 牽強的謊言不如別說
+    TextTw: 錯誤和謊言並無太大差異
 content:
   - MessageGroupId: 160070010
     Id: 160070010
@@ -150,7 +150,7 @@ content:
     MessageTH: 'คือว่าฉันไม่ได้ออกมาจากเขตเรดวินเทอร์
 
       นานแล้ว ฉันเลยไม่ชินกับเส้นทางแถวนี้ค่ะ'
-    MessageTW: 說來有點羞恥，一方面是我很久沒有離開學園了，特別又是對夏萊附近的地理環境很陌生……
+    MessageTW: 說來慚愧，我實在很久沒有離開學園了，對夏萊附近的地理環境又特別很陌生……
   - MessageGroupId: 160070050
     Id: 160070060
     CharacterId: 16007
@@ -226,7 +226,7 @@ content:
     MessageTH: 'ถ้างั้นตอนบ่ายพบกันที่ด้านหน้าย่านการค้า
 
       นะคะ'
-    MessageTW: 那麼，我在商店街的前面等您唷
+    MessageTW: 那麼，我在商店街前面等您
   - MessageGroupId: 160070080
     Id: 160070100
     CharacterId: 16007
@@ -268,7 +268,7 @@ content:
       ของชาเล่ต์ที่เกี่ยวข้องกับทางสหภาพ
 
       เรดวินเทอร์ล่าช้าไปมากน่ะค่ะ'
-    MessageTW: 其實是因為我還沒有收到關於本學園的，夏萊的值班報告書……
+    MessageTW: 其實是因為我還沒有收到本學園學生，在夏萊值日的相關報告書……
   - MessageGroupId: 160070090
     Id: 160070120
     CharacterId: 16007
@@ -364,7 +364,7 @@ content:
     MessageTH:
       "ถ้าเป็นเรื่องที่เกี่ยวข้องกับสหภาพเรดวินเทอร์\nไม่ว่ายังไงฉันก็สามารถ\
       \ \"เลื่อน\"\n ออกไปได้ค่ะ"
-    MessageTW: 和赤冬有關的事，我通常都「可能」有辦法處理
+    MessageTW: 和赤冬有關的事，我基本上都能「有辦法」處理
   - MessageGroupId: 160070130
     Id: 160070170
     CharacterId: 16007
@@ -382,7 +382,7 @@ content:
     MessageCN: 虽然很感谢，但感觉好可怕……
     MessageEN: That's scarier!
     MessageTH: นะ...น่ากลัวสุดๆ!
-    MessageTW: 雖然很感謝，但總覺得好可怕……！
+    MessageTW: 雖然很感謝，但感覺有些可怕……！
   - MessageGroupId: 160070140
     Id: 160070180
     CharacterId: 16007
@@ -489,7 +489,7 @@ content:
       เป็นกิจกรรมที่ช่วยเผยแพร่ความ
 
       ยิ่งใหญ่ของท่านประธานค่ะ'
-    MessageTW: 在赤冬聯邦學園的各個自治區巡迴，通過演講重申潔利諾會長的偉大
+    MessageTW: 在赤冬聯邦學園的各個自治區巡迴，透過演講重申潔利諾會長的偉大
   - MessageGroupId: 160070180
     Id: 160070230
     CharacterId: 16007
@@ -513,7 +513,7 @@ content:
       ดังนั้นถ้าจะไปให้ทั่วสหภาพล่ะก็
 
       คงต้องใช้เวลาสัญจรนานมากค่ะ'
-    MessageTW: 但如您所知，由於自治區過於龐大，想要所有區域都去的話，得花相當長的時間……
+    MessageTW: 但如您所知，由於自治區過於龐大，要巡過所有區域會花相當長的時間……
   - MessageGroupId: 160070190
     Id: 160070240
     CharacterId: 16007
@@ -551,7 +551,7 @@ content:
     MessageCN: 那怎么办呢……
     MessageEN: I'm fine...
     MessageTH: ครูสะดวกอยู่แล้วล่ะแต่ว่า...
-    MessageTW: 怎麼辦才好……
+    MessageTW: 怎麼辦呢……
   - MessageGroupId: 160070210
     Id: 160070260
     CharacterId: 16007
@@ -647,7 +647,7 @@ content:
     MessageCN: 很抱歉突然向老师提出请求，但我有件事想请您帮忙……
     MessageEN: There's something urgent I need your help with.
     MessageTH: คือว่าฉันมีเรื่องที่อยากให้คุณครูช่วยค่ะ
-    MessageTW: 突然提出請求很不好意思，但有件事想請您幫……
+    MessageTW: 很抱歉突然提出請求，但有件事想請您幫忙……
   - MessageGroupId: 160070250
     Id: 160070310
     CharacterId: 16007
@@ -703,7 +703,7 @@ content:
     MessageTH: 'คือว่าภารกิจใหม่ที่ท่านประธาน
 
       มอบหมายให้คราวนี้มันยากเกินไป...'
-    MessageTW: 其實，是在煩惱和潔莉諾會長有關的事……
+    MessageTW: 其實，我在煩惱一件和潔莉諾會長有關的事……
   - MessageGroupId: 160070260
     Id: 160070340
     CharacterId: 16007
@@ -817,7 +817,7 @@ content:
     MessageCN: 虽然这么问很突然，但是老师喜欢看什么样的电影？
     MessageEN: What kind of movies do you like, Sensei?
     MessageTH: คุณครูชอบดูหนังประเภทไหนเหรอคะ?
-    MessageTW: 雖然很突然，但老師喜歡什麼樣的電影？
+    MessageTW: 冒昧問一下，老師喜歡什麼樣的電影呢？
   - MessageGroupId: 160070310
     Id: 160070400
     CharacterId: 16007

@@ -9,7 +9,7 @@ title:
     TextKr: 체온 조절
     TextEn: Temperature Control
     TextTh: การปรับอุณหภูมิร่างกาย
-    TextTw: 調解體溫
+    TextTw: 體溫調節
   - GroupId: 1000103
     FavorScheduleId: 100013
     CharacterId: 10001
@@ -18,7 +18,7 @@ title:
     TextKr: 최신 유행 연구 1
     TextEn: Trend Research 1
     TextTh: การศึกษาแฟชั่น 1
-    TextTw: 最新流行研究 1
+    TextTw: 最新流行研究（１）
   - GroupId: 1000105
     FavorScheduleId: 100015
     CharacterId: 10001
@@ -27,7 +27,7 @@ title:
     TextKr: 최신 유행 연구 2
     TextEn: Trend Research 2
     TextTh: การศึกษาแฟชั่น 2
-    TextTw: 最新流行研究 2
+    TextTw: 最新流行研究（２）
   - GroupId: 1000106
     FavorScheduleId: 100016
     CharacterId: 10001
@@ -36,7 +36,7 @@ title:
     TextKr: 패션의 완성
     TextEn: Peak Fashion
     TextTh: ความสมบูรณ์แบบของแฟชั่น
-    TextTw: 時尚的關鍵
+    TextTw: 時尚的完成
   - GroupId: 1000108
     FavorScheduleId: 100018
     CharacterId: 10001
@@ -178,7 +178,7 @@ content:
     MessageCN: 刚刚在冰淇淋店前面，
     MessageEN: I saw some girls from Trinity
     MessageTH: เมื่อกี๊ที่ร้านไอศกรีม...
-    MessageTW: 剛才在冰淇淋店前面，
+    MessageTW: 我剛才在冰淇淋店前面，
   - MessageGroupId: 100010050
     Id: 380
     CharacterId: 10001
@@ -444,7 +444,7 @@ content:
     MessageCN: ……谢谢，老师
     MessageEN: Thank you, Sensei.
     MessageTH: ขอบคุณนะคุณครู
-    MessageTW: ……謝謝，老師
+    MessageTW: ……謝謝你，老師
   - MessageGroupId: 100010150
     Id: 394
     CharacterId: 10001

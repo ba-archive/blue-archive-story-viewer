@@ -9,7 +9,7 @@ title:
     TextKr: 게으른 경찰의 발명품
     TextEn: A Lazy Cop's Invention
     TextTh: สิ่งประดิษฐ์ของตำรวจจอมขี้เกียจ
-    TextTw: 懶惰警察的發明
+    TextTw: 怠惰警官的發想
   - GroupId: 1600803
     FavorScheduleId: 160083
     CharacterId: 16008
@@ -18,7 +18,7 @@ title:
     TextKr: 게으른 경찰의 순찰
     TextEn: A Lazy Cop's Patrol
     TextTh: การลาดตระเวนของตำรวจจอมขี้เกียจ
-    TextTw: 懶惰警察的巡邏
+    TextTw: 怠惰警官的巡邏
   - GroupId: 1600805
     FavorScheduleId: 160085
     CharacterId: 16008
@@ -27,7 +27,7 @@ title:
     TextKr: 게으른 경찰의 잠복근무
     TextEn: A Lazy Cop's Undercover Duties
     TextTh: ภากิจดักซุ่มของตำรวจจอมขี้เกียจ
-    TextTw: 懶惰警察的潛伏
+    TextTw: 怠惰警官的潛伏
   - GroupId: 1600806
     FavorScheduleId: 160086
     CharacterId: 16008
@@ -36,7 +36,7 @@ title:
     TextKr: 게으른 경찰의 친절
     TextEn: A Lazy Cop's Kindness
     TextTh: ความใจดีของตำรวจจอมขี้เกียจ
-    TextTw: 懶惰警察的親切
+    TextTw: 怠惰警官的親切
 content:
   - MessageGroupId: 160080010
     Id: 160080010
@@ -57,7 +57,7 @@ content:
     MessageTH: 'ประกาศแจ้ง นี่คือฟุบุกิ นักเรียน
 
       ชั้นปีที่ 1 จากสำนักรักษาความปลอดภัย'
-    MessageTW: 整點報告通知。我是生活安全局1年級，吹雪。
+    MessageTW: 這裡是生活安全局1年級的吹雪，進行定期聯絡
   - MessageGroupId: 160080020
     Id: 160080020
     CharacterId: 16008
@@ -77,7 +77,7 @@ content:
     MessageTH: 'วันนี้ไม่พบปัญหาอะไรเป็นพิเศษ
 
       จะปฏิบัติงานต่อทันที'
-    MessageTW: 今天也沒有特別的問題。繼續上班了。
+    MessageTW: 今天也沒有發現異常，將繼續執行任務
   - MessageGroupId: 160080030
     Id: 160080030
     CharacterId: 16008
@@ -95,7 +95,7 @@ content:
     MessageCN: 吹雪，发错人了吧？
     MessageEN: Did you mean to send this to me?
     MessageTH: ฟุบุกิ ส่งข้อความผิดรึเปล่า
-    MessageTW: 吹雪，妳傳錯訊息了。
+    MessageTW: 吹雪，你是不是傳錯人了？
   - MessageGroupId: 160080040
     Id: 160080040
     CharacterId: 16008
@@ -113,7 +113,7 @@ content:
     MessageCN: 嗯，这个我还是知道的，不用担心
     MessageEN: Yeah, yeah. Don't worry about it.
     MessageTH: อื้อ ฉันรู้แล้ว ไม่ต้องห่วงหรอกน่า
-    MessageTW: 嗯，我知道，不用擔心。
+    MessageTW: 嗯，我知道的，別擔心
   - MessageGroupId: 160080040
     Id: 160080050
     CharacterId: 16008
@@ -133,7 +133,7 @@ content:
     MessageTH: 'อย่างที่ฉันเคยบอกไง
 
       ไม่ว่าตอนไหนฉันก็ตั้งใจทำงานมาก'
-    MessageTW: 我總是很努力的在工作。
+    MessageTW: 那麼，努力工作吧
   - MessageGroupId: 160080050
     Id: 160080060
     CharacterId: 16008
@@ -151,7 +151,7 @@ content:
     MessageCN: ……吹雪？让我别担心是在说什么啊……？
     MessageEN: Did you read what I said?
     MessageTH: ได้อ่านข้อความที่ครูส่งไปมั้ยเนี่ย?
-    MessageTW: ……真的有正確理解嗎？
+    MessageTW: ……吹雪？你說別擔心是指……？
   - MessageGroupId: 160080060
     Id: 160080070
     CharacterId: 16008
@@ -169,7 +169,7 @@ content:
     MessageCN: 这个我也不太清楚……
     MessageEN: I'm not sure what you mean...
     MessageTH: เรื่องนั้นฉันก็ไม่รู้เหมือนกัน...
-    MessageTW: 這我也不知道……
+    MessageTW: 這個我也不太清楚……
   - MessageGroupId: 160080060
     Id: 160080080
     CharacterId: 16008
@@ -189,7 +189,7 @@ content:
     MessageTH: 'ลองติดต่อไปที่สำนักความมั่นคง
 
       ดีกว่ามั้ย?'
-    MessageTW: 要不要去詢問警備局？
+    MessageTW: 總之先去警備局問問看怎麼樣？
   - MessageGroupId: 160080070
     Id: 160080090
     CharacterId: 16008
@@ -207,7 +207,7 @@ content:
     MessageCN: 警备局……？
     MessageEN: What does the Security Bureau have to do with anything?
     MessageTH: ทำไมจู่ๆ พูดถึงสำนักความมั่นคงล่ะ?
-    MessageTW: 突然提警備局？
+    MessageTW: 警備局……？
   - MessageGroupId: 160080080
     Id: 160080100
     CharacterId: 16008
@@ -225,7 +225,7 @@ content:
     MessageCN: 吹雪，你没事吧？
     MessageEN: Fubuki, is something wrong?
     MessageTH: ฟุบุกิ มีเรื่องอะไรรึเปล่า?
-    MessageTW: 吹雪，是發生什麼事了嗎？
+    MessageTW: 吹雪，你沒事吧？
   - MessageGroupId: 160080090
     Id: 160080110
     CharacterId: 16008
@@ -243,7 +243,7 @@ content:
     MessageCN: 嗯，我也这么觉得
     MessageEN: Yeah, I think so too.
     MessageTH: อื้อ ฉันก็คิดแบบนั้นล่ะ
-    MessageTW: 嗯，我也這麼認為。
+    MessageTW: 嗯，我也這麼覺得
   - MessageGroupId: 160080100
     Id: 160080120
     CharacterId: 16008
@@ -261,7 +261,7 @@ content:
     MessageCN: ……？
     MessageEN: '...?'
     MessageTH: '...?'
-    MessageTW: ………？
+    MessageTW: ……？
   - MessageGroupId: 160080110
     Id: 160080130
     CharacterId: 16008
@@ -279,7 +279,7 @@ content:
     MessageCN: ……
     MessageEN: '*sigh*...'
     MessageTH: เฮ้อ...
-    MessageTW: 呃呃，呃呃呃……
+    MessageTW: ……
   - MessageGroupId: 160080120
     Id: 160080140
     CharacterId: 16008
@@ -299,7 +299,7 @@ content:
     MessageTH: 'เพราะคราวที่แล้วฉันมัวแต่
 
       เอ้อระเหยตอนปฏิบัติหน้าที่'
-    MessageTW: 上次在上班時間摸魚被抓到了，
+    MessageTW: 因為之前在值勤時間摸魚被抓到的關係……
   - MessageGroupId: 160080120
     Id: 160080150
     CharacterId: 16008
@@ -319,7 +319,7 @@ content:
     MessageTH: 'เลยถูกลงโทษให้มา
 
       ลาดตระเวนในวันหยุดน่ะ...'
-    MessageTW: 得到的懲罰就是週末的巡邏工作……
+    MessageTW: 被處罰要在假日巡邏……
   - MessageGroupId: 160080120
     Id: 160080160
     CharacterId: 16008
@@ -339,7 +339,7 @@ content:
     MessageTH: 'ต้องทำงานในวันหยุดแบบนี้
 
       ไม่ยุติธรรมเลย...'
-    MessageTW: 竟然連假日也要工作……太不合理了……
+    MessageTW: 就連假日都得要工作，多不合理啊……
   - MessageGroupId: 160080130
     Id: 160080170
     CharacterId: 16008
@@ -357,7 +357,7 @@ content:
     MessageCN: 自作自受啊……
     MessageEN: You reap what you sow.
     MessageTH: กรรมตามสนองไงล่ะ
-    MessageTW: 自作自受啊。
+    MessageTW: 這不是你自作自受嗎……
   - MessageGroupId: 160080140
     Id: 160080180
     CharacterId: 16008
@@ -377,7 +377,7 @@ content:
     MessageTH: 'ในวันหยุดก็อาจเกิด
 
       เหตุอาชญากรรมได้นะ'
-    MessageTW: 而且假日也可能發生犯罪嘛。
+    MessageTW: 不過，假日也是有可能發生犯罪的嘛。加油吧
   - MessageGroupId: 160080150
     Id: 160080190
     CharacterId: 16008
@@ -397,7 +397,7 @@ content:
     MessageTH: 'ไม่มีทางหรอก ไม่มีเมืองไหน
 
       สงบสุขเท่ากับคิโวทอสอีกแล้ว'
-    MessageTW: 太扯了。哪裡還有比奇普托斯和平的都市？
+    MessageTW: 奇普托斯基本上是個和平的地方啊……
   - MessageGroupId: 160080150
     Id: 160080200
     CharacterId: 16008
@@ -421,7 +421,7 @@ content:
       ถือปืนไปยิงกันในร้านหรือไม่ก็
 
       ระเบิดร้านทิ้งก็แค่นั้นเอง'
-    MessageTW: 頂多偶爾有學生會來個槍擊戰，或是爆破店鋪而已嘛。
+    MessageTW: 頂多就是會發生學生們的槍擊戰或是炸毀店鋪之類的而已嘛……
   - MessageGroupId: 160080160
     Id: 160080210
     CharacterId: 16008
@@ -439,7 +439,7 @@ content:
     MessageCN: “顶多”……？
     MessageEN: That's it?
     MessageTH: '"แค่นั้น" งั้นเหรอ?'
-    MessageTW: ……頂多？
+    MessageTW: 「而已」……？
   - MessageGroupId: 160080160
     Id: 160080220
     CharacterId: 16008
@@ -459,7 +459,7 @@ content:
     MessageTH: 'เจ้าหน้าที่ตำรวจ
 
       ไม่ควรพูดแบบนั้นนะ'
-    MessageTW: 警察說那種話不太好吧……
+    MessageTW: 雖然確實有很多原因，不過警察不該說這種話吧……
   - MessageGroupId: 160080170
     Id: 160080230
     CharacterId: 16008
@@ -477,7 +477,7 @@ content:
     MessageCN: 真麻烦……
     MessageEN: Ugh. This is so annoying!
     MessageTH: เชอะ น่าหงุดหงิดจริงๆ!
-    MessageTW: 呃呃，麻煩死了……
+    MessageTW: 麻煩死了……
   - MessageGroupId: 160080180
     Id: 160080240
     CharacterId: 16008
@@ -497,7 +497,7 @@ content:
     MessageTH: 'คุณครู ถ้ามีเวลาว่างวันหยุดแบบนี้
 
       ไปลาดตระเวนกับฉันมั้ย?'
-    MessageTW: 老師，方便的話，這週末可以跟我一起巡邏市區嗎？
+    MessageTW: 不然……老師，這個周末要不要一起巡邏啊？
   - MessageGroupId: 160080180
     Id: 160080250
     CharacterId: 16008
@@ -517,7 +517,7 @@ content:
     MessageTH: 'ถ้าแบ่งเขตกันลาดตระเวน
 
       ก็น่าจะทำงานได้เสร็จเร็วขึ้นนะ!'
-    MessageTW: 兩人平分區域巡邏，就能更快結束工作了！
+    MessageTW: 兩個人分別做的話，說不定一下就搞定了！？
   - MessageGroupId: 160080190
     Id: 160080260
     CharacterId: 16008
@@ -535,7 +535,7 @@ content:
     MessageCN: 我倒是没问题，但是你把惩罚强加在别人身上是怎么回事……？
     MessageEN: Don't try to dump your work on me.
     MessageTH: อย่าพยายามโยนงานให้ครูสิ
-    MessageTW: 不要把懲罰丟給老師……
+    MessageTW: 是沒關係啦，不過把處罰丟給別人……
   - MessageGroupId: 160080200
     Id: 160080270
     CharacterId: 16008
@@ -553,7 +553,7 @@ content:
     MessageCN: 老师，出事了！
     MessageEN: Big news, Sensei!
     MessageTH: คุณครู เกิดเหตุแล้ว!
-    MessageTW: 老師，發生事件！
+    MessageTW: 老師，有事件！
   - MessageGroupId: 160080210
     Id: 160080280
     CharacterId: 16008
@@ -577,7 +577,7 @@ content:
       แจ้งว่าจะมีอาชญากรที่มาตกลงซื้อขาย
 
       อาวุธผิดกฎหมายที่ตลาดมืดในวันนี้!'
-    MessageTW: 根據警備局的情報，犯下非法武器交易的通緝犯今晚可能會出現在黑市！
+    MessageTW: 根據警備局的情報，一直以來都因為交易非法武器而被通緝的犯人，今天據說會出現在黑市！
   - MessageGroupId: 160080210
     Id: 160080290
     CharacterId: 16008
@@ -599,7 +599,7 @@ content:
     MessageTH: 'ไม่รู้ว่าพวกอาชญากรจะโผล่มาเมื่อไร
 
       ยังไงก็คงจะต้องไปเฝ้าสังเกตการณ์แล้วล่ะ'
-    MessageTW: 罪犯不知何時會經過，看來要在附近潛伏了。
+    MessageTW: 因為不知道犯人什麼時候會通過，看來先在附近埋伏比較好
   - MessageGroupId: 160080210
     Id: 160080300
     CharacterId: 16008
@@ -617,7 +617,7 @@ content:
     MessageCN: 现在立刻出发吧！
     MessageEN: Let's leave now!
     MessageTH: รีบไปกันเถอะ!
-    MessageTW: 現在馬上出動吧！
+    MessageTW: 我們立刻出動吧！
   - MessageGroupId: 160080220
     Id: 160080310
     CharacterId: 16008
@@ -655,7 +655,7 @@ content:
     MessageTH: 'เป็นอะไรรึเปล่า
 
       หัวไปกระแทกอะไรมารึเปล่า?'
-    MessageTW: 妳怎麼了？哪裡不舒服嗎？
+    MessageTW: 是不是哪裡不舒服？
   - MessageGroupId: 160080230
     Id: 160080330
     CharacterId: 16008
@@ -673,7 +673,7 @@ content:
     MessageCN: 老师这是什么反应
     MessageEN: What kind of reply is that, Sensei?
     MessageTH: ทำไมพูดอะไรแบบนั้นเล่า คุณครู
-    MessageTW: 那是什麼反應，老師。
+    MessageTW: 那是什麼反應
   - MessageGroupId: 160080230
     Id: 160080340
     CharacterId: 16008
@@ -693,7 +693,7 @@ content:
     MessageTH: 'เจ้าหน้าที่ตำรวจกระตือรือร้น
 
       จะทำคดีมันแปลกตรงไหนกัน?'
-    MessageTW: 警察對事件做出有幹勁的反應很奇怪嗎？
+    MessageTW: 警察對事件很積極是什麼奇怪的事嗎？
   - MessageGroupId: 160080240
     Id: 160080350
     CharacterId: 16008
@@ -711,7 +711,7 @@ content:
     MessageCN: 但是吹雪你……
     MessageEN: But, you're Fubuki...
     MessageTH: แต่ว่าฟุบุกิ...
-    MessageTW: 可是，吹雪妳……
+    MessageTW: 可是吹雪……
   - MessageGroupId: 160080240
     Id: 160080360
     CharacterId: 16008
@@ -731,7 +731,7 @@ content:
     MessageTH: 'ครูคิดว่าเธอไม่ชอบ
 
       งานพวกนี้ซะอีก'
-    MessageTW: 不是非常討厭出外勤嗎？
+    MessageTW: 不是很討厭出外勤嗎？
   - MessageGroupId: 160080250
     Id: 160080370
     CharacterId: 16008
@@ -749,7 +749,7 @@ content:
     MessageCN: 现在不是说这些的时候！
     MessageEN: There's no time to explain!
     MessageTH: ไม่มีเวลาจะมานั่งอธิบายแล้ว!
-    MessageTW: 沒時間短話長說了！
+    MessageTW: 現在不是說這些的時候了！
   - MessageGroupId: 160080250
     Id: 160080380
     CharacterId: 16008
@@ -769,7 +769,7 @@ content:
     MessageTH: 'คุณครู งั้นฉันจะไปรอ
 
       อยู่ที่เกิดเหตุก่อนแล้วกัน!'
-    MessageTW: 老師，我先出動到現場等你！
+    MessageTW: 老師，我先到現場去等你！
   - MessageGroupId: 160080260
     Id: 160080390
     CharacterId: 16008
@@ -787,7 +787,7 @@ content:
     MessageCN: 好闲啊……
     MessageEN: I'm bored...
     MessageTH: น่าเบื่อจัง...
-    MessageTW: 好悶啊……
+    MessageTW: 好閒啊……
   - MessageGroupId: 160080270
     Id: 160080400
     CharacterId: 16008
@@ -807,7 +807,7 @@ content:
     MessageTH: 'ไม่มีอะไรน่าสนใจ
 
       เลยเบื่อๆ น่ะ'
-    MessageTW: 能玩的都玩完了，好無聊喔……
+    MessageTW: 手邊的遊戲都玩完了，好無聊……
   - MessageGroupId: 160080280
     Id: 160080410
     CharacterId: 16008
@@ -825,7 +825,7 @@ content:
     MessageCN: 那重新开始工作怎么样？
     MessageEN: Work could entertain you.
     MessageTH: ทำงานสิจะได้ไม่เบื่อ
-    MessageTW: 那就工作啊。
+    MessageTW: 那試著好好工作怎麼樣呢？
   - MessageGroupId: 160080290
     Id: 160080420
     CharacterId: 16008
@@ -845,7 +845,7 @@ content:
     MessageTH: 'ฉันยอมอยู่เบื่อๆ แบบนี้
 
       ดีกว่าต้องทำงานนะ'
-    MessageTW: 還不如什麼都不做，我不想工作啦。
+    MessageTW: 絕對不要。不如開始「什麼都不做」吧……
   - MessageGroupId: 160080290
     Id: 160080430
     CharacterId: 16008
@@ -865,7 +865,7 @@ content:
     MessageTH: 'ถึงมันจะไม่มีอะไร
 
       ให้ทำอยู่แล้วก็เถอะ'
-    MessageTW: 雖然當初連現在進來的工作都沒有。
+    MessageTW: 再說現在也沒有任何工作要做
   - MessageGroupId: 160080300
     Id: 160080440
     CharacterId: 16008
@@ -885,7 +885,7 @@ content:
     MessageTH: 'ปกติแล้วที่สำนักรักษาความปลอดภัย
 
       ทำงานอะไรเหรอ?'
-    MessageTW: 通常在生活安全局處理的工作有哪些？
+    MessageTW: 生活安全局平常都在做什麼呢？
   - MessageGroupId: 160080310
     Id: 160080450
     CharacterId: 16008
@@ -903,7 +903,7 @@ content:
     MessageCN: 平时的话……
     MessageEN: Usually?
     MessageTH: ปกติน่ะเหรอ?
-    MessageTW: ……通常？
+    MessageTW: 平常啊……
   - MessageGroupId: 160080310
     Id: 160080460
     CharacterId: 16008
@@ -923,7 +923,7 @@ content:
     MessageTH: 'ช่วงปกติ สำนักรักษาความ
 
       ปลอดภัยก็ไม่ค่อยมีงานอะไรหรอก'
-    MessageTW: 說通常也幾乎不會有什麼工作發到生活安全局。
+    MessageTW: 其實生活安全局本來就沒什麼工作
   - MessageGroupId: 160080320
     Id: 160080470
     CharacterId: 16008
@@ -945,7 +945,7 @@ content:
     MessageTH: 'ส่วนใหญ่ก็จะเตรียมรอออกปฏิบัติการ
 
       เว้นแต่ตั้งใจออกไปแบบคิริโนะน่ะ'
-    MessageTW: 除非是桐乃故意生一些事情做，不然大部分都只是在待命。
+    MessageTW: 雖然桐乃會自己找事做，不過基本上都是坐著待命哦
   - MessageGroupId: 160080320
     Id: 160080480
     CharacterId: 16008
@@ -965,7 +965,7 @@ content:
     MessageTH: 'นอกจากนั้นแล้ว
 
       ก็คงนอนกลางวันมั้ง?'
-    MessageTW: 再不然就是……睡午覺？
+    MessageTW: 硬要說的話就是睡午覺吧
   - MessageGroupId: 160080330
     Id: 160080490
     CharacterId: 16008
@@ -983,4 +983,4 @@ content:
     MessageCN: 那不算工作内容吧
     MessageEN: That's not work.
     MessageTH: นั่นไม่ใช่งานซะหน่อย
-    MessageTW: 那不算工作吧。
+    MessageTW: 那不算是工作吧

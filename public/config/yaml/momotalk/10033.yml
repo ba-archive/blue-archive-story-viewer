@@ -9,7 +9,7 @@ title:
     TextKr: 부드러운 재회
     TextEn: A Gentle Reunion
     TextTh: การพบกันอีกครั้ง
-    TextTw: 溫暖的重逢
+    TextTw: 溫柔的重逢
   - GroupId: 1003303
     FavorScheduleId: 100333
     CharacterId: 10033
@@ -18,7 +18,7 @@ title:
     TextKr: 함께 하는 나 홀로 데이트
     TextEn: A Solo Date Together
     TextTh: เดตตามลำพังของสองเรา
-    TextTw: 單人約會的陪同者
+    TextTw: 一起單人約會
   - GroupId: 1003305
     FavorScheduleId: 100335
     CharacterId: 10033
@@ -36,7 +36,7 @@ title:
     TextKr: 절대로 변치 않는 믿음
     TextEn: Unchanging Faith
     TextTh: ความเชื่อที่ไม่มีวันเสื่อมคลาย
-    TextTw: 堅定的信任
+    TextTw: 不變的心
 content:
   - MessageGroupId: 100330010
     Id: 100330010
@@ -55,7 +55,7 @@ content:
     MessageCN: 哦呵呵……
     MessageEN: Hello, Sensei.
     MessageTH: สวัสดีค่ะ คุณครู
-    MessageTW: 你好呀？老師，
+    MessageTW: 唔哼哼……
   - MessageGroupId: 100330020
     Id: 100330020
     CharacterId: 10033
@@ -75,7 +75,7 @@ content:
     MessageTH: 'ฮุฮุฮุ วาคาโมะส่งข้อความ
 
       มาทักทายคุณครูค่ะ'
-    MessageTW: 呵呵呵，若藻向你問安。
+    MessageTW: 早安，老師。真是不錯的早晨呢。
   - MessageGroupId: 100330030
     Id: 100330030
     CharacterId: 10033
@@ -93,7 +93,7 @@ content:
     MessageCN: 早上好啊，若藻
     MessageEN: Oh. Hi, Wakamo.
     MessageTH: อ๊ะ ว่ายังไง วาคาโมะ
-    MessageTW: 啊，你好，若藻，
+    MessageTW: 早啊，若藻。
   - MessageGroupId: 100330040
     Id: 100330040
     CharacterId: 10033
@@ -111,7 +111,7 @@ content:
     MessageCN: 啊……这一如既往的温柔答复……
     MessageEN: Ah... Your responses are always so kind...
     MessageTH: อา... คำตอบเหมือนเดิมไม่มีเปลี่ยน...
-    MessageTW: 啊啊啊…一如往常親切的回應…
+    MessageTW: 啊啊……無論何時都一如往常的這個溫柔回應……
   - MessageGroupId: 100330040
     Id: 100330050
     CharacterId: 10033
@@ -131,7 +131,7 @@ content:
     MessageTH: 'เพียงแค่ได้เห็นอักษรชื่อ
 
       ของฉันที่คุณท่านเขียน...'
-    MessageTW: 撫摸著你寫給我的名字，就能讓若藻—
+    MessageTW: 僅是撫摸這個由閣下贈予，我的名字之文字……
   - MessageGroupId: 100330040
     Id: 100330060
     CharacterId: 10033
@@ -151,7 +151,7 @@ content:
     MessageTH: 'หัวใจของวาคาโมะผู้นี้
 
       ก็รู้สึกอบอุ่นขึ้นมากเลยค่ะ...'
-    MessageTW: 內心感到無比的溫暖…
+    MessageTW: 內心就感到無比溫暖熾熱
   - MessageGroupId: 100330050
     Id: 100330070
     CharacterId: 10033
@@ -171,7 +171,7 @@ content:
     MessageTH: 'งะ...งั้นเหรอ?
 
       ถือเป็นเรื่องดีนะ...'
-    MessageTW: 是、是嗎？那真是，唔，太好了…
+    MessageTW: 那，那真是太好了……
   - MessageGroupId: 100330060
     Id: 100330080
     CharacterId: 10033
@@ -193,7 +193,7 @@ content:
     MessageTH: 'วันนี้ดูเป็นวันสบายๆ เหมาะกับ
 
       แสงแดดอบอุ่นเลยนะคะ'
-    MessageTW: 刺眼的陽光灑落，表示天氣已經變溫暖了。
+    MessageTW: 今日陽光也很暖和，是個好天氣呢
   - MessageGroupId: 100330060
     Id: 100330090
     CharacterId: 10033
@@ -213,7 +213,7 @@ content:
     MessageTH: 'แต่ว่าในวันอากาศอบอุ่นแบบนี้
 
       ยิ่งต้องระวังนะคะ'
-    MessageTW: 但是在這樣的天必須更加小心才行。
+    MessageTW: 不過，不可輕易疏忽
   - MessageGroupId: 100330060
     Id: 100330100
     CharacterId: 10033
@@ -237,7 +237,7 @@ content:
       กะทันหันได้ตามฤดูกาลหรือ
 
       อาจเกิดเหตุที่ไม่คาดคิดได้ค่ะ'
-    MessageTW: 由於季節的突然變化，突然生病的意外也是經常發生。
+    MessageTW: 氣溫突然驟變時，身體狀況也常常會出問題
   - MessageGroupId: 100330070
     Id: 100330110
     CharacterId: 10033
@@ -255,7 +255,7 @@ content:
     MessageCN: 现在正值换季呢
     MessageEN: Right, it's important to stay hydrated.
     MessageTH: อื้อ ช่วงเปลี่ยนฤดูต้องระวังหน่อยล่ะ
-    MessageTW: 嗯。換季的時候要特別小心，
+    MessageTW: 畢竟是季節變化的時候呢
   - MessageGroupId: 100330070
     Id: 100330120
     CharacterId: 10033
@@ -273,7 +273,7 @@ content:
     MessageCN: 若藻也要注意身体哦
     MessageEN: Take care of yourself, Wakamo.
     MessageTH: วาคาโมะก็ดูแลตัวเองด้วยนะ
-    MessageTW: 若藻也要注意健康喔。
+    MessageTW: 若藻也要注意身體狀況哦
   - MessageGroupId: 100330080
     Id: 100330130
     CharacterId: 10033
@@ -293,7 +293,7 @@ content:
     MessageTH: 'คุณครูอุตส่าห์เป็นห่วงสุขภาพ
 
       ของวาคาโมะแบบนี้...'
-    MessageTW: 老師…竟然親自擔心我的健康。我…我…若藻…
+    MessageTW: 沒想到，竟然能讓老師像這樣關心我的身體……
   - MessageGroupId: 100330080
     Id: 100330140
     CharacterId: 10033
@@ -311,7 +311,7 @@ content:
     MessageCN: 呵呵……我决定了
     MessageEN: Okay! My mind is made up!
     MessageTH: ค่ะ ฮุฮุฮุ ฉันตัดสินใจแล้วค่ะ!
-    MessageTW: 好的，呵呵呵，我決定了。
+    MessageTW: 哼哼，我決定了
   - MessageGroupId: 100330080
     Id: 100330150
     CharacterId: 10033
@@ -333,7 +333,7 @@ content:
       ตราตรึงใจเช่นนี้จะจบลงแค่เพียง
 
       การพูดคุยใน MOMOTALK'
-    MessageTW: 這種值得紀念的瞬間，只是靠MomoTalk結束就太可惜了。
+    MessageTW: 在這值得紀念之時，只透過MomoTalk什麼的我無法忍受
   - MessageGroupId: 100330090
     Id: 100330160
     CharacterId: 10033
@@ -351,7 +351,7 @@ content:
     MessageCN: 能请您稍等一下吗？
     MessageEN: Please wait for me.
     MessageTH: ได้โปรดรอฉันก่อนนะคะ
-    MessageTW: 請等我，
+    MessageTW: 可以稍等我一下嗎？
   - MessageGroupId: 100330090
     Id: 100330170
     CharacterId: 10033
@@ -369,7 +369,7 @@ content:
     MessageCN: 我・亲・爱・的♡
     MessageEN: Darling!
     MessageTH: คุณ.ท่าน.♡
-    MessageTW: 親・愛・的♡
+    MessageTW: 閣．下♡
   - MessageGroupId: 100330100
     Id: 100330180
     CharacterId: 10033
@@ -387,7 +387,7 @@ content:
     MessageCN: ……诶？
     MessageEN: Huh?
     MessageTH: หืม...?
-    MessageTW: …嗯？
+    MessageTW: ……咦？
   - MessageGroupId: 100330110
     Id: 100330190
     CharacterId: 10033
@@ -425,7 +425,7 @@ content:
     MessageTH: 'การได้พบกันวันนี้ วาคาโมะผู้นี้
 
       มีความสุขเหลือเกินค่ะ'
-    MessageTW: 今日一見，若藻我非常的開心。
+    MessageTW: 又見到面，我非常的開心
   - MessageGroupId: 100330120
     Id: 100330210
     CharacterId: 10033
@@ -445,7 +445,7 @@ content:
     MessageTH: 'ฉันจะเฝ้ารอวันที่ได้พบ
 
       กับคุณท่านเช่นนี้อีกค่ะ'
-    MessageTW: 希望下一次也能像這樣見到你。
+    MessageTW: 我衷心期待，下次見面的時候哦
   - MessageGroupId: 100330130
     Id: 100330220
     CharacterId: 10033
@@ -465,7 +465,7 @@ content:
     MessageTH: 'คราวหน้ามาเจอกันแบบเงียบๆ กว่านี้
 
       หน่อยก็แล้วกันนะ'
-    MessageTW: 那時希望要比今天…那個…再更隱密的約會。
+    MessageTW: 到時候以安穩的感覺見面吧……
   - MessageGroupId: 100330140
     Id: 100330230
     CharacterId: 10033
@@ -483,7 +483,7 @@ content:
     MessageCN: 好、好的！
     MessageEN: Yes!
     MessageTH: ค่ะ!
-    MessageTW: 是！
+    MessageTW: 好，好的！
   - MessageGroupId: 100330140
     Id: 100330240
     CharacterId: 10033
@@ -503,7 +503,7 @@ content:
     MessageTH: 'ถ้าคุณท่านต้องการเช่นนั้น
 
       วาคาโมะก็จะทำเพื่อคุณท่านค่ะ!'
-    MessageTW: 只要是你的願望，若藻我隨時願意！
+    MessageTW: 閣下是那麼希望的話，悉聽尊便……！
   - MessageGroupId: 100330150
     Id: 100330250
     CharacterId: 10033
@@ -523,7 +523,7 @@ content:
     MessageTH: 'คุณครูคะ วันนี้เป็นวันหยุด
 
       ของทางชาเล่ต์ใช่มั้ยคะ?'
-    MessageTW: 老師，今天夏萊也是休息的日子吧？
+    MessageTW: 老師。今日夏萊的工作，休息對吧？
   - MessageGroupId: 100330160
     Id: 100330260
     CharacterId: 10033
@@ -541,7 +541,7 @@ content:
     MessageCN: 是的。诶，我之前有跟若藻说过吗？
     MessageEN: Uh, yeah. You knew that?
     MessageTH: อื้อ รู้ได้ยังไงกันนะ...
-    MessageTW: 嗯，原來妳知道啊？
+    MessageTW: 嗯。啊咧，之前有告訴妳嗎？
   - MessageGroupId: 100330170
     Id: 100330270
     CharacterId: 10033
@@ -559,7 +559,7 @@ content:
     MessageCN: 呵呵呵……
     MessageEN: Heehee.
     MessageTH: ฮุฮุฮุ วาคาโมะผู้นี้
-    MessageTW: 呵呵呵，若藻我，
+    MessageTW: 哼哼哼……
   - MessageGroupId: 100330170
     Id: 100330280
     CharacterId: 10033
@@ -579,7 +579,7 @@ content:
     MessageTH: 'เรื่องราวที่เกี่ยวกับคุณครู ฉันเก็บไว้
 
       ในหัวใจเพื่อติดตามรอยของคุณครูค่ะ'
-    MessageTW: 只要是老師的足跡，不管是哪裡都會烙印在心裡跟隨著。
+    MessageTW: 若藻我，假如是老師的行程已經毫無一寸偏差刻在心裡了
   - MessageGroupId: 100330180
     Id: 100330290
     CharacterId: 10033
@@ -597,7 +597,7 @@ content:
     MessageCN: 这、这样啊……
     MessageEN: Okay...
     MessageTH: งะ...งั้นเหรอ...
-    MessageTW: 好、好……
+    MessageTW: 是，是嗎……
   - MessageGroupId: 100330190
     Id: 100330300
     CharacterId: 10033
@@ -617,7 +617,7 @@ content:
     MessageTH: 'วันนี้เป็นวันหยุดสำหรับคุณครู
 
       ที่ทำงานหนักมาตลอด'
-    MessageTW: 今天為了平常總是忙碌而無法休息的你，好不容易享受的假日，
+    MessageTW: 平時總是忙碌沒辦法休息之中，好不容易設置的假日……
   - MessageGroupId: 100330190
     Id: 100330310
     CharacterId: 10033
@@ -637,7 +637,7 @@ content:
     MessageTH: 'ขอให้เป็นวันที่แสนสนุกและ
 
       ปลอดภัยนะคะ'
-    MessageTW: 祝你今天無恙的度過愉快的一天。
+    MessageTW: 祈望，會是安全快樂的一天
   - MessageGroupId: 100330190
     Id: 100330320
     CharacterId: 10033
@@ -657,7 +657,7 @@ content:
     MessageTH: 'วาคาโมะผู้นี้จะคอยติดตามไป
 
       และอวยพรให้คุณท่านเองค่ะ'
-    MessageTW: 若藻我，願意跟隨著你為你祈願。
+    MessageTW: 我，會跟隨在老師後方同時祈求哦
   - MessageGroupId: 100330200
     Id: 100330330
     CharacterId: 10033
@@ -675,7 +675,7 @@ content:
     MessageCN: 嗯，谢谢……？
     MessageEN: Uh, thanks. I think.
     MessageTH: เอ่อ ขอบคุณนะ
-    MessageTW: 嗯，這…唔……謝謝。
+    MessageTW: 那個，謝謝……？
   - MessageGroupId: 100330210
     Id: 100330340
     CharacterId: 10033
@@ -693,7 +693,7 @@ content:
     MessageCN: 老师，近来如何？
     MessageEN: Hello, Sensei.
     MessageTH: สวัสดีค่ะ คุณครู
-    MessageTW: 你好呀？老師，
+    MessageTW: 老師，請問可好？
   - MessageGroupId: 100330220
     Id: 100330350
     CharacterId: 10033
@@ -711,7 +711,7 @@ content:
     MessageCN: 您该不会忘了吧？
     MessageEN: I hope you didn't forget!
     MessageTH: ไม่ได้ลืมใช่ไหมคะ?
-    MessageTW: 你應該沒有忘記吧？
+    MessageTW: 應該，沒有忘記吧？
   - MessageGroupId: 100330220
     Id: 100330360
     CharacterId: 10033
@@ -729,7 +729,7 @@ content:
     MessageCN: 今天是，您和我约定好的日子……
     MessageEN: Today's finally the day! You promised to spend an entire day with me!
     MessageTH: ที่สัญญาว่าจะให้เวลากับฉันหนึ่งวัน
-    MessageTW: 今天就是你答應要給我一天時間的日子。
+    MessageTW: 今日是，收到閣下約定的日子……
   - MessageGroupId: 100330220
     Id: 100330370
     CharacterId: 10033
@@ -749,7 +749,7 @@ content:
     MessageTH: 'แม้กี่วันคืนที่พ้นผ่าน
 
       ฉันเฝ้ารอวันนี้มาโดยตลอด...'
-    MessageTW: 我每晚都在一直期盼著這天的到來……
+    MessageTW: 我期待著這一天，不知迎來了多少夜未眠的清晨呢……
   - MessageGroupId: 100330230
     Id: 100330380
     CharacterId: 10033
@@ -769,7 +769,7 @@ content:
     MessageTH: 'ฉันต้องสะกดกลั้นความตื่นเต้นเอาไว้
 
       และทำแผนการเดตได้สมบูรณ์แล้วค่ะ!'
-    MessageTW: 我帶著悸動的心，把今天的約會計畫都完美的想好了！
+    MessageTW: 即使想辦法壓抑著那份怦然心動，我依然制定了完美的約會計劃！
   - MessageGroupId: 100330240
     Id: 100330390
     CharacterId: 10033
@@ -787,7 +787,7 @@ content:
     MessageCN: 这、这样啊
     MessageEN: Sure...
     MessageTH: งะ...งั้นเหรอ?
-    MessageTW: 是、是嗎？
+    MessageTW: 是，是嗎
   - MessageGroupId: 100330250
     Id: 100330400
     CharacterId: 10033
@@ -809,7 +809,7 @@ content:
       สถานที่นัดพบนะคะ
 
       ฮุฮุฮุ'
-    MessageTW: 那麼我會在約定場所等著你的。呵呵呵。
+    MessageTW: 那麼，我在約定的場所恭候您哦。哼哼哼……
   - MessageGroupId: 100330260
     Id: 100330410
     CharacterId: 10033
@@ -827,7 +827,7 @@ content:
     MessageCN: 嗯。我也马上过去
     MessageEN: Okay, I'll be right there.
     MessageTH: อื้อ ครูจะไปเดี๋ยวนี้ล่ะ
-    MessageTW: 嗯，我馬上過去。
+    MessageTW: 嗯，我也會馬上過去哦
   - MessageGroupId: 100330270
     Id: 100330420
     CharacterId: 10033
@@ -845,7 +845,7 @@ content:
     MessageCN: 老师，如果您不介意的话
     MessageEN: Sensei, if you have the time...
     MessageTH: หากคุณครูไม่ว่าอะไร...
-    MessageTW: 老師，可以的話，今天…
+    MessageTW: 老師，假如您不介意
   - MessageGroupId: 100330280
     Id: 100330430
     CharacterId: 10033
@@ -865,7 +865,7 @@ content:
     MessageTH: 'ฉันจะขอรบกวนวันที่มีค่า
 
       ของคุณครูสักวันได้ไหมคะ?'
-    MessageTW: 能把你寶貴的時間交給我嗎？
+    MessageTW: 請問，可以收下閣下今天一天貴重的時間嗎？
   - MessageGroupId: 100330290
     Id: 100330440
     CharacterId: 10033
@@ -885,7 +885,7 @@ content:
     MessageTH: 'อ๊ะ ขอโทษนะ
 
       วันนี้พอดีครูมีธุระนิดหน่อย'
-    MessageTW: 啊，抱歉，我今天有些事情要做。
+    MessageTW: 啊，抱歉……現在有點離不開手的工作……
   - MessageGroupId: 100330300
     Id: 100330450
     CharacterId: 10033
@@ -905,7 +905,7 @@ content:
     MessageTH: 'อา... อย่างนั้นเหรอคะ
 
       น่าเสียดายจัง...'
-    MessageTW: 啊啊啊…這樣啊，真可惜……
+    MessageTW: 這樣啊……
   - MessageGroupId: 100330310
     Id: 100330460
     CharacterId: 10033
@@ -923,7 +923,7 @@ content:
     MessageCN: 虽然很遗憾，不过也没办法呢
     MessageEN: Okay, then.
     MessageTH: ช่วยไม่ได้นะคะ
-    MessageTW: 好吧，那也沒辦法。
+    MessageTW: 雖然很遺憾，不過也沒辦法
   - MessageGroupId: 100330310
     Id: 100330470
     CharacterId: 10033
@@ -945,7 +945,7 @@ content:
     MessageTH: 'ถึงฉันจะต้องการมากแค่ไหน
 
       แต่ก็คงจะไปขัดขวางคุณครูไม่ได้'
-    MessageTW: 再怎麼期盼，也不能為了我的固執而妨礙老師。
+    MessageTW: 就算再怎麼奢望，也不能因我的任性而打擾老師……
   - MessageGroupId: 100330310
     Id: 100330480
     CharacterId: 10033
@@ -965,7 +965,7 @@ content:
     MessageTH: 'น่าเสียดาย วันนี้ฉันคงจะต้อง
 
       ไปช้อปปิ้งคนเดียวแล้วค่ะ'
-    MessageTW: 雖然很可惜，但我就自己去逛街吧。
+    MessageTW: 雖然很遺憾，今日就由我隻身前往
   - MessageGroupId: 100330320
     Id: 100330490
     CharacterId: 10033
@@ -985,7 +985,7 @@ content:
     MessageTH: 'หืม? ช็อปปิ้ง?
 
       จะไปซื้ออะไรเหรอ?'
-    MessageTW: 嗯？逛街？妳要買什麼？
+    MessageTW: 要買什麼東西嗎？
   - MessageGroupId: 100330330
     Id: 100330500
     CharacterId: 10033
@@ -1007,7 +1007,7 @@ content:
       นิดหน่อยเลยจะแวะไปที่
 
       ตลาดมืดค่ะ...'
-    MessageTW: 咦？有些需要的東西，所以打算去一趟黑市……
+    MessageTW: 是的，稍微有些需要的東西……因此打算去一趟黑市
   - MessageGroupId: 100330340
     Id: 100330510
     CharacterId: 10033
@@ -1027,7 +1027,7 @@ content:
     MessageTH: 'ตลาดมืด?!
 
       วาคาโมะจะไปคนเดียวเนี่ยนะ?!'
-    MessageTW: 黑市？！若藻一個人？！
+    MessageTW: 一個人去黑市啊……
   - MessageGroupId: 100330350
     Id: 100330520
     CharacterId: 10033
@@ -1047,7 +1047,7 @@ content:
     MessageTH: 'งั้นครูไปด้วย
 
       เดี๋ยวเสร็จงานแล้วครูไปหา!'
-    MessageTW: 如果是逛街，我可以陪妳！事情結束後會立刻過去！
+    MessageTW: ……馬上就結束了一起去吧。可以等我一下嗎？
   - MessageGroupId: 100330360
     Id: 100330530
     CharacterId: 10033
@@ -1065,7 +1065,7 @@ content:
     MessageCN: 啊，这是何等的温柔……
     MessageEN: Oh, you're so sweet.
     MessageTH: อา... คุณท่านใจดีมากเลยค่ะ
-    MessageTW: 啊啊，你怎麼會這麼暖。
+    MessageTW: 啊啊，何等溫柔……
   - MessageGroupId: 100330360
     Id: 100330540
     CharacterId: 10033
@@ -1083,7 +1083,7 @@ content:
     MessageCN: 呵呵……那么，我等着您哟
     MessageEN: Heehee. Okay, I'll be waiting for you.
     MessageTH: ฮุฮุฮุฮุ ค่ะ... ถ้างั้นฉันจะรอนะคะ
-    MessageTW: 呵呵呵呵，好的，那我等你來。
+    MessageTW: 哼哼……那麼，恭候著您哦
   - MessageGroupId: 100330370
     Id: 100330550
     CharacterId: 10033
@@ -1101,7 +1101,7 @@ content:
     MessageCN: 今天承蒙您的相伴，真的非常感谢
     MessageEN: Thank you for coming to shopping with me today.
     MessageTH: วันนี้ขอบคุณที่ไปซื้อของด้วยกันนะคะ
-    MessageTW: 今天，非常謝謝你陪我一起逛街。
+    MessageTW: 今日前來陪同，真的非常感謝
   - MessageGroupId: 100330380
     Id: 100330560
     CharacterId: 10033
@@ -1119,7 +1119,7 @@ content:
     MessageCN: 小女若藻
     MessageEN: I was...
     MessageTH: วาคาโมะผู้นี้...
-    MessageTW: 若藻我，
+    MessageTW: 若藻我
   - MessageGroupId: 100330380
     Id: 100330570
     CharacterId: 10033
@@ -1137,7 +1137,7 @@ content:
     MessageCN: 真的，
     MessageEN: Very...
     MessageTH: มีความสุข
-    MessageTW: 真的。
+    MessageTW: 真的是，
   - MessageGroupId: 100330390
     Id: 100330580
     CharacterId: 10033
@@ -1157,7 +1157,7 @@ content:
     MessageTH: 'มากมากมากมากมากมาก
 
       มากมากมากมากมากมาก'
-    MessageTW: 真的真的真的真的真的真的真的真的真的真的—
+    MessageTW: 真的是真的是真的是真的是真的是真的是真的是真的是真的是真的是真的是真的是真的是真的是真的是真的是
   - MessageGroupId: 100330400
     Id: 100330590
     CharacterId: 10033
@@ -1177,7 +1177,7 @@ content:
     MessageTH: 'มากมากมากมากมากมาก
 
       มากมากมากมากมากมาก'
-    MessageTW: 真的真的真的真的真的真的真的真的真的真的—
+    MessageTW: 真的是真的是真的是真的是真的是真的是真的是真的是真的是真的是真的是真的是真的是真的是真的是真的是
   - MessageGroupId: 100330410
     Id: 100330600
     CharacterId: 10033
@@ -1195,7 +1195,7 @@ content:
     MessageCN: 因为能和亲爱的您共度时光，而感到非常高兴♡
     MessageEN: Happy to spend time with you today.
     MessageTH: ที่ได้ใช้เวลาร่วมกับคุณท่านค่ะ
-    MessageTW: 跟你在一起一整天真的好開心。
+    MessageTW: 能與閣下在一起，非常的開心♡
   - MessageGroupId: 100330410
     Id: 100330610
     CharacterId: 10033
@@ -1213,7 +1213,7 @@ content:
     MessageCN: 呵呵呵……
     MessageEN: Heeheehee.
     MessageTH: ฮุฮุฮุฮุ
-    MessageTW: 呵呵呵呵，
+    MessageTW: 唔哼哼哼……
   - MessageGroupId: 100330420
     Id: 100330620
     CharacterId: 10033
@@ -1231,7 +1231,7 @@ content:
     MessageCN: 那就太好了
     MessageEN: Yeah, same...
     MessageTH: อะ...อื้อ รู้แล้วล่ะ
-    MessageTW: 呃、嗯。好。
+    MessageTW: 那真是太好了
   - MessageGroupId: 100330430
     Id: 100330630
     CharacterId: 10033
@@ -1251,7 +1251,7 @@ content:
     MessageTH: 'ถ้าอย่างนั้น ไว้พบกัน
 
       ในโอกาสหน้านะคะ'
-    MessageTW: 那麼，下次有機會再見。
+    MessageTW: 那麼再見
   - MessageGroupId: 100330430
     Id: 100330640
     CharacterId: 10033
@@ -1271,7 +1271,7 @@ content:
     MessageTH: 'ฉันจะเฝ้ารอวันที่เรา
 
       จะได้พบกันใหม่ค่ะ'
-    MessageTW: 我會一直等待著那天。
+    MessageTW: 我很期待下次見面的日子哦
   - MessageGroupId: 100330430
     Id: 100330650
     CharacterId: 10033
@@ -1289,4 +1289,4 @@ content:
     MessageCN: 纸短情长，书不尽言
     MessageEN: Bye-bye.
     MessageTH: ขอบคุณค่ะ
-    MessageTW: 期待。
+    MessageTW: 不悉

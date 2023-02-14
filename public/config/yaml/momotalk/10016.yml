@@ -18,7 +18,7 @@ title:
     TextKr: 현장실습이에요. 선생님.
     TextEn: It's Field Training, Sensei
     TextTh: นี่คือการฝึกภาคสนามค่ะ คุณครู
-    TextTw: 是展覽唷，老師。
+    TextTw: 是展覽會唷，老師
   - GroupId: 1001605
     FavorScheduleId: 100165
     CharacterId: 10016
@@ -36,7 +36,7 @@ title:
     TextKr: 반짝이는 추억이에요. 선생님.
     TextEn: It's a Sparkling Memory, Sensei
     TextTh: ความทรงจำที่เปล่งประกายงดงามค่ะ คุณครู
-    TextTw: 是重要的回憶唷，老師。
+    TextTw: 是重要的回憶，老師
 content:
   - MessageGroupId: 100160010
     Id: 100160010
@@ -55,7 +55,7 @@ content:
     MessageCN: 老师，您今天有时间吗？
     MessageEN: Do you have a moment, Sensei?
     MessageTH: คุณครูพอมีเวลาสักครู่ไหมคะ?
-    MessageTW: 老師，您今天有時間嗎？
+    MessageTW: 老師，你今天有時間嗎？
   - MessageGroupId: 100160020
     Id: 100160020
     CharacterId: 10016
@@ -129,7 +129,7 @@ content:
     MessageCN: 是的。我今天一整天都在社团活动室，如果老师方便的话就拜托了！
     MessageEN: Yeah! I'll be waiting for you in our club room!
     MessageTH: คะ...ค่ะ! ฉันจะรออยู่ที่ห้องชมรมนะคะ!
-    MessageTW: 是的。我今天都會在社團教室，如果可以的話再麻煩了！
+    MessageTW: 是的。我今天都會在社團教室，如果可以的話就麻煩老師了！
   - MessageGroupId: 100160050
     Id: 100160060
     CharacterId: 10016
@@ -245,7 +245,7 @@ content:
     MessageTH: 'ถ้าอย่างนั้นคราวหน้า... คุณครูช่วย
 
       มองด้านอื่นที่ไม่ใช่... เกมด้วยนะคะ'
-    MessageTW: 下次會是對戰類型之外的遊戲，再拜託了……
+    MessageTW: 下次會是對戰類型之外的遊戲，再拜託老師了……
   - MessageGroupId: 100160080
     Id: 100160120
     CharacterId: 10016
@@ -265,7 +265,7 @@ content:
     MessageTH: 'คุณครูคะ ได้ยินว่าจะมีงานนิทรรศการ
 
       แสดงอาร์ตเวิร์กเกมของมิลเลเนียมค่ะ'
-    MessageTW: 老師。聽說這次在千年將舉辦遊戲藝術展示會
+    MessageTW: 老師。聽說這次在千年將舉辦遊戲藝術展覽會
   - MessageGroupId: 100160090
     Id: 100160130
     CharacterId: 10016
@@ -433,7 +433,7 @@ content:
     MessageCN: 绿，冷静点。深呼吸
     MessageEN: Calm down, Midori.
     MessageTH: มิโดริ ใจเย็นก่อน วัยรุ่น~
-    MessageTW: 綠，冷靜點。先冷卻一下
+    MessageTW: 綠，冷靜點。先冷靜一下
   - MessageGroupId: 100160140
     Id: 100160220
     CharacterId: 10016
@@ -599,7 +599,7 @@ content:
     MessageCN: 今天真是非常感谢
     MessageEN: Thanks for today.
     MessageTH: วันนี้ขอบคุณมากเลยนะคะ
-    MessageTW: 今天非常感謝
+    MessageTW: 今天非常謝謝老師
   - MessageGroupId: 100160200
     Id: 100160310
     CharacterId: 10016
@@ -771,7 +771,7 @@ content:
     MessageCN: 今天老师能和我一起，真的非常感谢
     MessageEN: Thanks for hanging out with me today.
     MessageTH: วันนี้ขอบคุณที่ไปด้วยกันนะคะ
-    MessageTW: 謝謝非常感謝您陪我
+    MessageTW: 非常謝謝老師今天來陪我
   - MessageGroupId: 100160280
     Id: 100160400
     CharacterId: 10016

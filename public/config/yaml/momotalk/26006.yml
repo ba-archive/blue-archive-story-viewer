@@ -240,7 +240,7 @@ content:
     MessageCN: 希望能有好事发生呢
     MessageEN: I hope something good happens.
     MessageTH: ถ้ามีเรื่องดีๆ เกิดขึ้นก็คงดีนะ
-    MessageTW: 希望有好事發生
+    MessageTW: 有發生好事，就好了呢
   - MessageGroupId: 260060080
     Id: 260060110
     CharacterId: 26006
@@ -258,7 +258,7 @@ content:
     MessageCN: 没错！
     MessageEN: I know, right?
     MessageTH: ใช่แล้วล่ะค่ะ!
-    MessageTW: 是啊！
+    MessageTW: 是的！
   - MessageGroupId: 260060090
     Id: 260060120
     CharacterId: 26006
@@ -382,7 +382,7 @@ content:
     MessageTH: 'คุณครูคะ วันนี้จะอยู่ที่ชาเล่ต์ทั้งวัน
 
       เลยเหรอคะ?'
-    MessageTW: 老師，您今天會一直在夏萊嗎？
+    MessageTW: 老師，你今天會一直在夏萊嗎？
   - MessageGroupId: 260060130
     Id: 260060180
     CharacterId: 26006
@@ -438,7 +438,7 @@ content:
     MessageCN: 就是想问问看而已，诶嘿嘿
     MessageEN: I just felt like asking. Heehee.
     MessageTH: ฉันก็แค่ถามดูเฉยๆ ค่ะ ฮิฮิ
-    MessageTW: 只是問問而已，嘿嘿
+    MessageTW: 只是問問而已，欸嘿嘿
   - MessageGroupId: 260060150
     Id: 260060210
     CharacterId: 26006
@@ -534,7 +534,7 @@ content:
       เขาบอกว่าวันพระจันทร์เต็มดวงนี้
 
       จะมีฝนดาวตกลีโอนิดส์ค่ะ'
-    MessageTW: 對，在新聞上看到，這次滿月當天能看到獅子座流星雨！
+    MessageTW: 是的，我在新聞上看到的，這次的滿月之日似乎能看到獅子座流星雨！
   - MessageGroupId: 260060190
     Id: 260060260
     CharacterId: 26006
@@ -578,7 +578,7 @@ content:
     MessageTH: 'คราวที่แล้วแถวนี้มองไม่เห็นฝนดาว
 
       ตกเลย ฉันเลยรู้สึกเศร้ามากๆ'
-    MessageTW: 之前的流星雨，很遺憾地都沒能在這附近觀測到，這次一定……！
+    MessageTW: 之前的流星雨，雖然很遺憾地都沒能在這附近觀測到，不過這次一定……！
   - MessageGroupId: 260060200
     Id: 260060280
     CharacterId: 26006
@@ -616,7 +616,7 @@ content:
     MessageCN: 我已经开始期待起来了！
     MessageEN: I'm excited already!
     MessageTH: ฉันตื่นเต้นจนแทบรอไม่ไหวแล้วค่ะ!
-    MessageTW: 已經在期待了！
+    MessageTW: 我已經在期待了！
   - MessageGroupId: 260060220
     Id: 260060300
     CharacterId: 26006
@@ -748,7 +748,7 @@ content:
     MessageTH: 'คุณครูชอบอากาศแบบไหนที่สุด
 
       เหรอคะ?'
-    MessageTW: 老師最喜歡什麼天氣？
+    MessageTW: 老師喜歡什麼樣的天氣呢？
   - MessageGroupId: 260060290
     Id: 260060370
     CharacterId: 26006
@@ -848,7 +848,7 @@ content:
       หรือวันที่ฝนตกหนักจนชุ่มฉ่ำ
 
       ฉันก็ชอบทั้งหมดค่ะ'
-    MessageTW: 我喜歡萬里無雲的晴朗天空，也喜歡雨下得滴滴答答……
+    MessageTW: 我喜歡萬里無雲的晴朗天空，也喜歡下得滴滴答答的雨……
   - MessageGroupId: 260060320
     Id: 260060420
     CharacterId: 26006
@@ -924,7 +924,7 @@ content:
     MessageTH: 'ฉันถ่ายรูปวิวสวยๆ มาให้คุณครูด้วยค่ะ
 
       เป็นยังไงบ้างคะ'
-    MessageTW: 約定好要拍的照片。怎麼樣？
+    MessageTW: 約定好要拍的照片。怎麼樣呢？
   - MessageGroupId: 260060350
     Id: 260060460
     CharacterId: 26006
@@ -942,7 +942,7 @@ content:
     MessageCN: 非常漂亮呢
     MessageEN: What a beautiful sky.
     MessageTH: ท้องฟ้าสวยจังเลยนะ
-    MessageTW: 真漂亮啊
+    MessageTW: 真漂亮呢
   - MessageGroupId: 260060360
     Id: 260060470
     CharacterId: 26006
@@ -962,7 +962,7 @@ content:
     MessageTH: 'ใช่ไหมล่ะคะ? เพราะแบบนี้ฉันถึงชอบ
 
       วันที่มีเมฆเยอะค่ะ'
-    MessageTW: 是吧！我之所以喜歡多雲的日子，就是因為喜歡這樣的景色
+    MessageTW: 沒錯吧！我之所以喜歡多雲的日子，就是因為喜歡這樣的景色
   - MessageGroupId: 260060360
     Id: 260060480
     CharacterId: 26006
@@ -980,7 +980,7 @@ content:
     MessageCN: 要是老师也能和我一起来就更好了……
     MessageEN: It would have been nice if you were there with me...
     MessageTH: ถ้าได้มากับคุณครูก็คงดีมากเลยนะคะ
-    MessageTW: 如果能和老師一起來就更好了……
+    MessageTW: 如果能和老師一起去就更好了……
   - MessageGroupId: 260060370
     Id: 260060490
     CharacterId: 26006

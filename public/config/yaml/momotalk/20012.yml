@@ -9,7 +9,7 @@ title:
     TextKr: 부상자는 데려갑니다.
     TextEn: Transporting the Wounded
     TextTh: ส่งตัวคนบาดเจ็บ
-    TextTw: 傷患由我帶走
+    TextTw: 因為是傷患
   - GroupId: 2001203
     FavorScheduleId: 200123
     CharacterId: 20012
@@ -36,7 +36,7 @@ title:
     TextKr: 비상대기인원
     TextEn: On Call
     TextTh: สมาชิกหน่วยกู้ภัยฉุกเฉิน
-    TextTw: 緊急應變小組
+    TextTw: 待命中
 content:
   - MessageGroupId: 200120010
     Id: 200120010
@@ -73,7 +73,7 @@ content:
       สำหรับผู้ที่จะเดินทางไปยังพื้นที่นั้น
 
       ขอให้เปลี่ยนกำหนดการค่ะ 02:16 PM'
-    MessageTW: ＜急救醫學部訊息＞＜格黑娜自治區122-6號＞因不良學生之間的全面戰導致發生傷害。傷者及去過該地區的學生們，請至急救醫學部。預定要去該地區的人，請變更行程。PM.02:16
+    MessageTW: 急救醫學部通知格黑娜全校學生：格黑娜自治區122-6號街，目前與多名不良學生發生全面抗戰。傷者請前往急救醫學部接受治療。預定前往該地區的人員，建議擇日再前往　PM.02:16
   - MessageGroupId: 200120020
     Id: 200120020
     CharacterId: 20012
@@ -91,7 +91,7 @@ content:
     MessageCN: ……？
     MessageEN: '...?'
     MessageTH: '...?'
-    MessageTW: ……
+    MessageTW: ……？
   - MessageGroupId: 200120020
     Id: 200120030
     CharacterId: 20012
@@ -109,7 +109,7 @@ content:
     MessageCN: 濑名？
     MessageEN: Huh? Sena?
     MessageTH: หืม เซนะ?
-    MessageTW: 嗯？瀬奈？
+    MessageTW: 瀬奈？
   - MessageGroupId: 200120030
     Id: 200120040
     CharacterId: 20012
@@ -127,7 +127,7 @@ content:
     MessageCN: 啊
     MessageEN: Oh.
     MessageTH: อ๊ะ
-    MessageTW: 啊。
+    MessageTW: 啊
   - MessageGroupId: 200120030
     Id: 200120050
     CharacterId: 20012
@@ -149,7 +149,7 @@ content:
       ที่ส่งออกไปให้ทุกคนค่ะ
 
       ไม่ต้องกังวลนะคะ'
-    MessageTW: 對不起。只是發給所有人的訊息，只要參考就好，不必擔心。
+    MessageTW: 對不起。只是發給所有人的訊息，請別在意
   - MessageGroupId: 200120040
     Id: 200120060
     CharacterId: 20012
@@ -169,7 +169,7 @@ content:
     MessageTH: 'คุณครูคะ ฉันฮิมูโระ เซนะ
 
       หัวหน้าหน่วยแพทย์ฉุกเฉินค่ะ'
-    MessageTW: 老師，我是急救醫學部的冰室瀬奈。
+    MessageTW: 老師，我是急救醫學部的冰室瀬奈
   - MessageGroupId: 200120050
     Id: 200120070
     CharacterId: 20012
@@ -193,7 +193,7 @@ content:
       คุณครูมาที่เขตเกเฮนน่าเพราะ
 
       มีธุระสำคัญสินะคะ'
-    MessageTW: 我已經聽說狀況了，因為是重要的行程，所以要拜訪格黑娜是嗎？
+    MessageTW: 我聽說老師稍後要來拜訪格黑娜
   - MessageGroupId: 200120060
     Id: 200120080
     CharacterId: 20012
@@ -211,7 +211,7 @@ content:
     MessageCN: 嗯，不过我身体稍微有点不太舒服……
     MessageEN: Yes, but I'm not feeling well...
     MessageTH: อื้อ แต่ว่าครูไม่ค่อยสบายเท่าไร...
-    MessageTW: 嗯。不過身體的狀態不太好……
+    MessageTW: 嗯，不過身體的狀態不太好……
   - MessageGroupId: 200120060
     Id: 200120090
     CharacterId: 20012
@@ -231,7 +231,7 @@ content:
     MessageTH: 'ครูแค่บอกเผื่อไว้ก่อน
 
       จะได้เตรียมตัวได้ทันน่ะ'
-    MessageTW: 為了以防萬一，所以想先說一聲我會提早去。
+    MessageTW: 說不定在原訂行程之前，會先去你那邊打擾一下……
   - MessageGroupId: 200120070
     Id: 200120100
     CharacterId: 20012
@@ -249,7 +249,7 @@ content:
     MessageCN: 我明白了
     MessageEN: I understand.
     MessageTH: ฉันเข้าใจแล้วค่ะ
-    MessageTW: 我知道了，
+    MessageTW: 我知道了
   - MessageGroupId: 200120080
     Id: 200120110
     CharacterId: 20012
@@ -267,7 +267,7 @@ content:
     MessageCN: 那么我就在这里等候
     MessageEN: I'll keep that in mind.
     MessageTH: ฉันจะเตรียมพร้อมไว้ค่ะ
-    MessageTW: 那我就先這樣知曉了。
+    MessageTW: 那我靜待老師的到來
   - MessageGroupId: 200120090
     Id: 200120120
     CharacterId: 20012
@@ -289,7 +289,7 @@ content:
       พักผ่อนอยู่ ฉันขอฝากข้อความไว้แล้ว
 
       ขอตัวกลับก่อนนะคะ'
-    MessageTW: 老師，我是瀬奈。看來你正在休息，所以我簡單的留訊息回去了。
+    MessageTW: 老師，我是急救醫學部的冰室瀬奈。我簡單留下訊息，先回去了
   - MessageGroupId: 200120100
     Id: 200120130
     CharacterId: 20012
@@ -320,7 +320,7 @@ content:
       รบกวนนำไปซักให้ด้วยนะคะ คราวหน้าฉัน
 
       จะแวะไปรับคืนค่ะ'
-    MessageTW: 你流了很多汗，請一定要補充足夠的水分，桌上放了常備藥，記得要吃。蓋著的毛毯和毛巾被汗水浸濕了，記得要馬上拿去洗。下次我會再來收走的。就這樣。
+    MessageTW: 你流了很多汗，醒來後請一定要補充足夠的水分，並記得吃下桌上的藥。旁邊也有放了替換用的毛巾。我馬上會去回收各個物品並送洗。失陪了
   - MessageGroupId: 200120110
     Id: 200120140
     CharacterId: 20012
@@ -340,7 +340,7 @@ content:
     MessageTH: 'คุณครูคะ ฉันฮิมูโระ เซนะ
 
       หัวหน้าหน่วยแพทย์ฉุกเฉินค่ะ'
-    MessageTW: 老師，我是急救醫學部的冰室瀬奈。
+    MessageTW: 老師，我是急救醫學部的冰室瀬奈
   - MessageGroupId: 200120120
     Id: 200120150
     CharacterId: 20012
@@ -366,7 +366,7 @@ content:
       กับผ้าขนหนูคืนค่ะ ช่วยบอกเวลาที่
 
       คุณครูสะดวกมานะคะ ขอบคุณค่ะ'
-    MessageTW: 上次跟你說過要前去夏萊回收毛毯和毛巾，可以的話請你告訴我方便的時間。謝謝。
+    MessageTW: 為了回收日前的毛巾等物品，我預定今天前往夏萊。請告訴我老師方便的時間。麻煩老師了
   - MessageGroupId: 200120130
     Id: 200120160
     CharacterId: 20012
@@ -384,7 +384,7 @@ content:
     MessageCN: 上次的事情真是谢谢濑名了呢
     MessageEN: I want to do something to repay you.
     MessageTH: ครูอยากตอบแทนเซนะบ้างเลย
-    MessageTW: 這次我也想要回報一下，
+    MessageTW: 上次謝謝你囉
   - MessageGroupId: 200120130
     Id: 200120170
     CharacterId: 20012
@@ -402,7 +402,7 @@ content:
     MessageCN: 难得见一面，我想给濑名准备点谢礼，所以我们在外面见面怎么样
     MessageEN: Why don't we meet somewhere outside?
     MessageTH: เราไปเจอกันข้างนอกดีมั้ย?
-    MessageTW: 要不要在外面見面？
+    MessageTW: 我想順便回個禮，要不要在外面見面？
   - MessageGroupId: 200120140
     Id: 200120180
     CharacterId: 20012
@@ -420,7 +420,7 @@ content:
     MessageCN: 啊
     MessageEN: '...?'
     MessageTH: '?'
-    MessageTW: ？
+    MessageTW: 啊
   - MessageGroupId: 200120150
     Id: 200120190
     CharacterId: 20012
@@ -438,7 +438,7 @@ content:
     MessageCN: 好的
     MessageEN: Hmm.
     MessageTH: อืม...
-    MessageTW: 嗯
+    MessageTW: 是
   - MessageGroupId: 200120150
     Id: 200120200
     CharacterId: 20012
@@ -456,7 +456,7 @@ content:
     MessageCN: 我明白了
     MessageEN: Got it.
     MessageTH: เข้าใจแล้วค่ะ
-    MessageTW: 我明白了，
+    MessageTW: 我明白了
   - MessageGroupId: 200120150
     Id: 200120210
     CharacterId: 20012
@@ -474,7 +474,7 @@ content:
     MessageCN: 那么就照老师的意思
     MessageEN: Will do.
     MessageTH: แบบนั้นก็ได้ค่ะ
-    MessageTW: 那我就這樣知曉了。
+    MessageTW: 那就照老師說的做吧
   - MessageGroupId: 200120160
     Id: 200120220
     CharacterId: 20012
@@ -507,7 +507,7 @@ content:
       ตัวส่งไปที่ห้องพยาบาลในบริเวณใกล้เคียง
 
       แล้วค่ะ 06:47 PM'
-    MessageTW: ＜急救醫學部訊息＞＜格黑娜自治區32-1號＞因某些學生使用滅火器玩耍而發生事故。事件的主謀和部分的受害學生已被強制移動到鄰近的保健室。PM.06:47
+    MessageTW: 急救醫學部通知格黑娜全校學生：格黑娜自治區32-1號街，目前因學生的惡作劇發生滅火器爆炸意外。事件的主謀和部分受害學生，已送往鄰近的保健室──PM.06:47
   - MessageGroupId: 200120170
     Id: 200120230
     CharacterId: 20012
@@ -539,7 +539,7 @@ content:
       สำหรับผู้ที่มีแผนจะเดินทางไปยังพื้นที่นั้น
 
       ขอให้เปลี่ยนกำหนดการด้วยค่ะ 06:47 PM'
-    MessageTW: ＜急救醫學部訊息＞另外，該狀況並未完全結束，緊急人員正在待命。要去該地區的人請繞路而行或變更行程。PM.06:47
+    MessageTW: 急救醫學部通知格黑娜全校學生：補充，由於現場狀況尚未安定，附近尚有人員正在待命。預定前往該地區的人員，建議擇日再前往──PM.06:47
   - MessageGroupId: 200120180
     Id: 200120240
     CharacterId: 20012
@@ -557,7 +557,7 @@ content:
     MessageCN: 濑名真是忙啊
     MessageEN: You're working hard.
     MessageTH: ทำงานหนักน่าดูเลยนะ
-    MessageTW: 真的辛苦你了。
+    MessageTW: 辛苦你了
   - MessageGroupId: 200120180
     Id: 200120250
     CharacterId: 20012
@@ -575,7 +575,7 @@ content:
     MessageCN: 今天也辛苦濑名了
     MessageEN: You're always busy.
     MessageTH: งานยุ่งตลอดเลยนะ
-    MessageTW: 總是這麼忙啊。
+    MessageTW: 今天也很忙啊
   - MessageGroupId: 200120190
     Id: 200120260
     CharacterId: 20012
@@ -613,7 +613,7 @@ content:
     MessageTH: 'เรื่องปกติค่ะ คุณครู
 
       ไม่ต้องห่วงเรื่องนั้นหรอกค่ะ'
-    MessageTW: 我沒事。老師，不是老師需要擔心的事。
+    MessageTW: 我沒事，不是什麼嚴重的狀況
   - MessageGroupId: 200120200
     Id: 200120280
     CharacterId: 20012
@@ -631,4 +631,4 @@ content:
     MessageCN: 那么回见
     MessageEN: Well, then. Until we meet again.
     MessageTH: ไว้พบกันนะคะ
-    MessageTW: 就這樣。
+    MessageTW: 再見

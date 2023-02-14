@@ -18,7 +18,7 @@ title:
     TextKr: 비밀이 생겼어요
     TextEn: I've Got a Secret
     TextTh: มีความลับแล้วล่ะค่ะ
-    TextTw: 有秘密了
+    TextTw: 兩人的祕密
   - GroupId: 2600405
     FavorScheduleId: 260045
     CharacterId: 26004
@@ -27,7 +27,7 @@ title:
     TextKr: 미지의 보물찾기
     TextEn: The Mysterious Scavenger Hunt
     TextTh: ล่าขุมทรัพย์ปริศนา
-    TextTw: 尋找未知的寶物
+    TextTw: 尋求寶物
   - GroupId: 2600406
     FavorScheduleId: 260046
     CharacterId: 26004
@@ -867,7 +867,7 @@ content:
     MessageTH: 'ถ้ามีหนังสือที่ต้องการละก็
 
       บอกฉันได้ตลอดเลยนะคะ คุณครู'
-    MessageTW: 老師，有需要的書的話，請隨時告訴我。
+    MessageTW: 老師最近有看書嗎？有什麼事的話隨時歡迎和我討論！
   - MessageGroupId: 260040240
     Id: 260040020
     CharacterId: 26004
@@ -885,7 +885,7 @@ content:
     MessageCN: 啊，志美子来得正好
     MessageEN: Speaking of books...
     MessageTH: พอดีเลย
-    MessageTW: 真是太好了。
+    MessageTW: 啊，時機正好
   - MessageGroupId: 260040240
     Id: 260040030
     CharacterId: 26004
@@ -903,7 +903,7 @@ content:
     MessageCN: 谢谢，我正好想找一本书
     MessageEN: I've been looking for something.
     MessageTH: กำลังหาบางเล่มอยู่พอดีเลย
-    MessageTW: 我剛好有想找的書。
+    MessageTW: 謝謝，正好有想找的東西
   - MessageGroupId: 260040250
     Id: 260040040
     CharacterId: 26004
@@ -939,7 +939,7 @@ content:
     MessageCN: 诶
     MessageEN: Mm
     MessageTH: เอ๋?
-    MessageTW: 咦?
+    MessageTW: 咦
   - MessageGroupId: 260040260
     Id: 260040060
     CharacterId: 26004
@@ -975,7 +975,7 @@ content:
     MessageCN: 嗯，真的
     MessageEN: Yup.
     MessageTH: อื้อ
-    MessageTW: 嗯。
+    MessageTW: 嗯，真的
   - MessageGroupId: 260040270
     Id: 260040080
     CharacterId: 26004
@@ -993,7 +993,7 @@ content:
     MessageCN: 我现在能去图书馆吗？
     MessageEN: I'll be going now.
     MessageTH: เดี๋ยวไปหานะ ฝากด้วยล่ะ
-    MessageTW: 可以現在過去圖書館嗎?
+    MessageTW: 可以現在過去圖書館嗎？
   - MessageGroupId: 260040280
     Id: 260040090
     CharacterId: 26004
@@ -1047,7 +1047,7 @@ content:
     MessageCN: 没问题！我会在图书馆恭候老师的！！:D
     MessageEN: Yes!! I'll be waiting!!!
     MessageTH: ค่ะ!! ฉันจะรอนะคะ! :D !!
-    MessageTW: 好！！我在這裡等你！:D
+    MessageTW: 沒問題！！我在這裡等你！:D
   - MessageGroupId: 260040300
     Id: 260040120
     CharacterId: 26004
@@ -1065,7 +1065,7 @@ content:
     MessageCN: 老师和书都平安回家了吗？
     MessageEN: Did you get home safely, Sensei?
     MessageTH: กลับถึงแล้วใช่มั้ยคะ คุณครู?
-    MessageTW: 跟書本一起安全到家了嗎，老師？
+    MessageTW: 老師和書都安全回到家了嗎？
   - MessageGroupId: 260040310
     Id: 260040130
     CharacterId: 26004
@@ -1085,7 +1085,7 @@ content:
     MessageTH: 'วันนี้คุณครูมาที่ห้องสมุด เลยรู้สึกว่า
 
       เป็นวันที่สนุกกว่าปกติมากเลยค่ะ'
-    MessageTW: 因為老師的關係，我今天在圖書館度過了比平時還要快樂的時光。
+    MessageTW: 托老師過來的福，我非常開心
   - MessageGroupId: 260040320
     Id: 260040140
     CharacterId: 26004
@@ -1105,7 +1105,7 @@ content:
     MessageTH: 'หนังสือที่ยืมไปวันนี้
 
       อย่าลืมมาคืนภายในกำหนดนะคะ'
-    MessageTW: 借走的書請務必要在期限內歸還唷。
+    MessageTW: 啊，書請在時限內歸還哦
   - MessageGroupId: 260040320
     Id: 260040150
     CharacterId: 26004
@@ -1123,7 +1123,7 @@ content:
     MessageCN: 然后
     MessageEN: And...
     MessageTH: แล้วก็...
-    MessageTW: 還有
+    MessageTW: 另外
   - MessageGroupId: 260040330
     Id: 260040160
     CharacterId: 26004
@@ -1141,7 +1141,7 @@ content:
     MessageCN: 可以的话，到时候
     MessageEN: If it's okay...
     MessageTH: ถ้าคุณครูไม่ว่าอะไรละก็...
-    MessageTW: 如果可以的話
+    MessageTW: 如果可以的話，那個時候
   - MessageGroupId: 260040330
     Id: 260040170
     CharacterId: 26004
@@ -1159,7 +1159,7 @@ content:
     MessageCN: 老师也一定，要再来借书哦。我也有想推荐给老师的书
     MessageEN: I hope you borrow a new book when you do.
     MessageTH: ไว้แวะมายืมหนังสือเล่มใหม่ๆ ได้นะคะ
-    MessageTW: 到時候也希望老師可以再借其他書。
+    MessageTW: 請務必再借新的書。我也會推薦書給你的
   - MessageGroupId: 260040340
     Id: 260040180
     CharacterId: 26004
@@ -1195,7 +1195,7 @@ content:
     MessageCN: 那个
     MessageEN: Um...
     MessageTH: อืม...
-    MessageTW: 嗯…
+    MessageTW: 那個
   - MessageGroupId: 260040350
     Id: 260040200
     CharacterId: 26004
@@ -1213,7 +1213,7 @@ content:
     MessageCN: ……
     MessageEN: You'll...
     MessageTH: คุณครู...
-    MessageTW: 再次
+    MessageTW: ……
   - MessageGroupId: 260040360
     Id: 260040210
     CharacterId: 26004
@@ -1233,4 +1233,4 @@ content:
     MessageTH: 'จะได้มาที่ห้องสมุดอีก
 
       เพื่อมาคืนหนังสือไงล่ะคะ'
-    MessageTW: 為了還書再來一趟。
+    MessageTW: ……你還會，過來的對吧？

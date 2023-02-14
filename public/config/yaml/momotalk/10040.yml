@@ -9,7 +9,7 @@ title:
     TextKr: 어, 어엿한 닌자가 되고 싶어요!
     TextEn: I-I Want to Be an Official Ninja!
     TextTh: ยะ... อยากเป็นนินจาที่องอาจค่ะ!
-    TextTw: 我、我想成為獨當一面的忍者！
+    TextTw: 獨當一面的，忍者……！
   - GroupId: 1004003
     FavorScheduleId: 100403
     CharacterId: 10040
@@ -18,7 +18,7 @@ title:
     TextKr: 커, 커다란 게 나쁜 것만은 아니네요.
     TextEn: Being Tall Isn't So Bad
     TextTh: ระ... รูปร่างสูงใหญ่ก็ใช่ว่าจะไม่ดีนะคะ
-    TextTw: 塊、塊頭大不是只有壞處呢。
+    TextTw: 也許，還不錯
   - GroupId: 1004005
     FavorScheduleId: 100405
     CharacterId: 10040
@@ -27,7 +27,7 @@ title:
     TextKr: 저, 훌륭한 쿠노이치가 될 수 있을까요?!
     TextEn: Do You Think I Can Be a Great Kunoichi?
     TextTh: ฉะ... ฉันจะเป็นคุโนะอิจิที่ยิ่งใหญ่ได้หรือเปล่าคะ?!
-    TextTw: 我能成為出色的女忍者嗎？！
+    TextTw: 出色的，女忍者……！
   - GroupId: 1004006
     FavorScheduleId: 100406
     CharacterId: 10040
@@ -36,7 +36,7 @@ title:
     TextKr: 니, 닌자로서 활약할 기회예요!
     TextEn: My Chance to Show My Ninja Skills!
     TextTh: ฉะ... ฉันจะเฉิดฉายในฐานะนินจาค่ะ!
-    TextTw: 這是以忍者的身分大放異彩的機會！
+    TextTw: 作為忍者，活躍的機會……！
 content:
   - MessageGroupId: 100400010
     Id: 100400010
@@ -50,12 +50,12 @@ content:
     FeedbackTimeMillisec: 0
     MessageType: Text
     ImagePath: ''
-    MessageKR: '저어…. 서, 선생님…. '
+    MessageKR: 저어…. 서, 선생님….
     MessageJP: あの、先生……
     MessageCN: 那个，老师……
     MessageEN: 'Um, S-Sensei... '
     MessageTH: 'คะ... คุณครูคะ... '
-    MessageTW: 那個……老、老師…
+    MessageTW: 那個，老師……
   - MessageGroupId: 100400020
     Id: 100400020
     CharacterId: 10040
@@ -73,7 +73,7 @@ content:
     MessageCN: 如果老师方、方便的话
     MessageEN: I-If you don't mind...
     MessageTH: คือว่า ถะ...ถ้าคุณครูไม่ว่าอะไร...
-    MessageTW: 如、如果可以……
+    MessageTW: 如果可以的話
   - MessageGroupId: 100400030
     Id: 100400030
     CharacterId: 10040
@@ -91,7 +91,7 @@ content:
     MessageCN: 月咏有什么事吗？
     MessageEN: Huh? What's up, Tsukuyo?
     MessageTH: ว่าไง สึคุโยะ? มีอะไรเหรอ?
-    MessageTW: 嗯？月夜。發生什麼事了？
+    MessageTW: 怎麼了嗎？
   - MessageGroupId: 100400040
     Id: 100400040
     CharacterId: 10040
@@ -111,7 +111,7 @@ content:
     MessageTH: 'ฉะ...ฉันมีเรื่องที่อยากปรึกษากับ
 
       คุณครู...'
-    MessageTW: 我、我有事想跟您討論…
+    MessageTW: 有件事，想和您商量……
   - MessageGroupId: 100400040
     Id: 100400050
     CharacterId: 10040
@@ -129,7 +129,7 @@ content:
     MessageCN: 老师，有时间吗？
     MessageEN: Do you have time...?
     MessageTH: คุณครูพอจะมีเวลาหรือเปล่าคะ...?
-    MessageTW: 請問你有時間嗎？
+    MessageTW: 請問，有時間嗎……？
   - MessageGroupId: 100400050
     Id: 100400060
     CharacterId: 10040
@@ -147,7 +147,7 @@ content:
     MessageCN: 嗯，月咏找我的话我随时有空！
     MessageEN: I can always make time for you, Tsukuyo!
     MessageTH: อื้อ ได้อยู่แล้ว สำหรับสึคุโยะได้ตลอดเลยนะ!
-    MessageTW: 嗯、當然有。如果是月夜找我，我隨時有空！
+    MessageTW: 嗯，如果是月夜的請託的話隨時都行！
   - MessageGroupId: 100400060
     Id: 100400070
     CharacterId: 10040
@@ -167,7 +167,7 @@ content:
     MessageTH: 'คะ...ค่ะ! ขอบคุณค่ะ...! ถ้างั้นเดี๋ยวฉันส่ง
 
       โลเคชั่นไปให้นะคะ...!'
-    MessageTW: 是、是～！謝謝…！那麼，場所改天再通知你…！
+    MessageTW: 謝謝老師……！那麼，地點之後再傳給您哦……！
   - MessageGroupId: 100400070
     Id: 100400080
     CharacterId: 10040
@@ -185,7 +185,7 @@ content:
     MessageCN: 老师，如果您方便的话……
     MessageEN: S-Sensei, if you have time...
     MessageTH: คะ... คุณครูคะ... ถ้าคุณครูสะดวก...
-    MessageTW: 老、老師…可以的話……
+    MessageTW: 老師，如果可以的話……
   - MessageGroupId: 100400080
     Id: 100400090
     CharacterId: 10040
@@ -205,7 +205,7 @@ content:
     MessageTH: 'วันนี้รบกวนมาช่วยฉันฝึกการเป็นนินจาได้
 
       หรือเปล่าคะ?'
-    MessageTW: 今天也來幫助我進行為了成為忍者的訓練，可以嗎？
+    MessageTW: 可以，再幫忙我訓練嗎？
   - MessageGroupId: 100400090
     Id: 100400100
     CharacterId: 10040
@@ -225,7 +225,7 @@ content:
     MessageTH: 'คะ... คงไม่ได้ใช่มั้ยคะ? ก็คุณครูมีงานยุ่ง
 
       ตลอด... ถ้าอย่างนั้น...'
-    MessageTW: 啊…啊，應該不行吧…？因為老師一、一直都很忙…那個，就是說……
+    MessageTW: 對不起，雖然我知道老師很忙……不好意思……
   - MessageGroupId: 100400100
     Id: 100400110
     CharacterId: 10040
@@ -243,7 +243,7 @@ content:
     MessageCN: 没关系哦，我要到哪去和月咏碰头？
     MessageEN: It's okay. Where do you wanna meet?
     MessageTH: ไม่เป็นไรหรอก ให้ครูไปที่ไหนล่ะ?
-    MessageTW: 沒關係，要去哪裡？
+    MessageTW: 沒關係唷，要去哪裡才好呢？
   - MessageGroupId: 100400110
     Id: 100400120
     CharacterId: 10040
@@ -263,7 +263,7 @@ content:
     MessageTH: 'อ๊ะ ขอบคุณค่ะ ถ้างั้น... ช่วยมาที่สถานที่
 
       คราวก่อนด้วยนะคะ'
-    MessageTW: 啊，謝謝！那麼……那個，我在之前的場所等你！
+    MessageTW: 謝謝老師……！那麼那個，在以前的地方！
   - MessageGroupId: 100400120
     Id: 100400130
     CharacterId: 10040
@@ -281,7 +281,7 @@ content:
     MessageCN: 老师！
     MessageEN: Sensei! Sensei!
     MessageTH: คุณครู! คุณครูคะ!
-    MessageTW: 老師！老師！
+    MessageTW: 老師！
   - MessageGroupId: 100400130
     Id: 100400140
     CharacterId: 10040
@@ -301,7 +301,7 @@ content:
     MessageTH: 'คือว่า... ดูเหมือนฉันจะค้นพบบางอย่างที่
 
       ยิ่งใหญ่แล้วค่ะ...!'
-    MessageTW: 那個…說不定會有很重大的發現哦…！
+    MessageTW: 我，也許有了重大的發現也說不定……！
   - MessageGroupId: 100400130
     Id: 100400150
     CharacterId: 10040
@@ -319,7 +319,7 @@ content:
     MessageCN: 老师现在，有时间吗！？
     MessageEN: C-C-Can I come over right now?!
     MessageTH: ตะ...ตะ...ตอนนี้ฉันขอไปหาคุณครูได้มั้ยคะ?
-    MessageTW: 可、可、可以現在就去找你嗎？！
+    MessageTW: 請問，現在有時間嗎……！？
   - MessageGroupId: 100400140
     Id: 100400160
     CharacterId: 10040
@@ -337,7 +337,7 @@ content:
     MessageCN: 时间倒是没问题……月咏发现什么了？
     MessageEN: Oh, okay. I guess why not...
     MessageTH: อะ...อื้อ! มาได้ไม่มีปัญหา...
-    MessageTW: 啊、嗯。是沒關係……
+    MessageTW: 雖然沒問題……怎麼了嗎？
   - MessageGroupId: 100400150
     Id: 100400170
     CharacterId: 10040
@@ -355,7 +355,7 @@ content:
     MessageCN: 那么，我马上去夏莱拜访老师……！
     MessageEN: Then I'll be at Schale soon!
     MessageTH: ถ้างั้นเดี๋ยวฉันไปหาที่ชาเล่ต์นะคะ!
-    MessageTW: 那麼，我馬上去夏萊找你！
+    MessageTW: 那麼，我馬上前往夏萊……！
   - MessageGroupId: 100400160
     Id: 100400180
     CharacterId: 10040
@@ -368,12 +368,12 @@ content:
     FeedbackTimeMillisec: 1000
     MessageType: Text
     ImagePath: ''
-    MessageKR: '서, 서서서, 선생님! '
+    MessageKR: 서, 서서서, 선생님!
     MessageJP: 先生！
     MessageCN: 老师！
     MessageEN: 'S-S-Sensei! '
     MessageTH: 'คะ...คุณครูคะ...! '
-    MessageTW: 老、老老老、老師！
+    MessageTW: 老師！
   - MessageGroupId: 100400170
     Id: 100400190
     CharacterId: 10040
@@ -397,7 +397,7 @@ content:
       จะเป็นแค่หนังสือล้อเลียนคุโนะอิจิเท่านั้น...
 
       ไม่เกี่ยวกับวิชานินจาเลยค่ะ'
-    MessageTW: 不管怎麼說，上午看到的書…！只是模仿女忍者……與忍術無關，似乎單純是模仿的書籍！
+    MessageTW: 看來那本書，似乎是所謂的「戲仿書籍」的東西……！
   - MessageGroupId: 100400180
     Id: 100400200
     CharacterId: 10040
@@ -415,7 +415,7 @@ content:
     MessageCN: 啊啊，原来如此……
     MessageEN: Oh. I see...
     MessageTH: อ๋อ... แบบนี้เอง
-    MessageTW: 啊，果真……
+    MessageTW: 啊啊，原來如此……
   - MessageGroupId: 100400180
     Id: 100400210
     CharacterId: 10040
@@ -433,7 +433,7 @@ content:
     MessageCN: 怪不得封面很奇怪呢
     MessageEN: That's why the cover was strange.
     MessageTH: เพราะงั้นหน้าปกเลยดูแปลกๆ สินะ
-    MessageTW: 所以封面才會那麼奇怪。
+    MessageTW: 所以才是可疑的封面呀
   - MessageGroupId: 100400190
     Id: 100400220
     CharacterId: 10040
@@ -451,7 +451,7 @@ content:
     MessageCN: 虽然我这次被骗了……！
     MessageEN: Right! I got fooled this time.
     MessageTH: ถึงคราวนี้จะโดนหลอกก็เถอะค่ะ...
-    MessageTW: 這次雖然被騙了。但是！
+    MessageTW: 雖然這次被騙了……！
   - MessageGroupId: 100400190
     Id: 100400230
     CharacterId: 10040
@@ -471,7 +471,7 @@ content:
     MessageTH: 'แต่คราวหน้า...จะต้องหาหนังสือฝึกฝนวิชา
 
       ของคุโนะอิจิมาให้ได้เลยค่ะ'
-    MessageTW: 下次一定會好好…帶來記載女忍者修練的書！
+    MessageTW: 下次一定，會找來確實的「女刃心」的書！
   - MessageGroupId: 100400200
     Id: 100400240
     CharacterId: 10040
@@ -489,7 +489,7 @@ content:
     MessageCN: 到时候，也还请老师多多关照！
     MessageEN: Please help me again then!
     MessageTH: ถ้าถึงตอนนั้นก็ขอรบกวนอีกครั้งนะคะ!
-    MessageTW: 屆時再拜託你了！
+    MessageTW: 到時候，再重新拜託您了……！
   - MessageGroupId: 100400210
     Id: 100400250
     CharacterId: 10040
@@ -507,7 +507,7 @@ content:
     MessageCN: 那个……嗯，加油啊
     MessageEN: Okay... Good luck...
     MessageTH: อะ...อื้อ สู้ๆ นะ...
-    MessageTW: 唔嗯…加、加油……
+    MessageTW: 那個……嗯，加油哦
   - MessageGroupId: 100400220
     Id: 100400260
     CharacterId: 10040
@@ -525,7 +525,7 @@ content:
     MessageCN: 好的，今天也谢谢老师了!
     MessageEN: Heeheehee. Okay!
     MessageTH: ฮิฮิฮิ ค่ะ!
-    MessageTW: 嘻嘻嘻，是！
+    MessageTW: 好的，今天也謝謝老師！
   - MessageGroupId: 100400230
     Id: 100400270
     CharacterId: 10040
@@ -538,12 +538,12 @@ content:
     FeedbackTimeMillisec: 0
     MessageType: Text
     ImagePath: ''
-    MessageKR: '선생님! 오늘도 닌자가 되기 위한 수련! '
+    MessageKR: 선생님! 오늘도 닌자가 되기 위한 수련!
     MessageJP: 先生、今日も修行がしたいのですが……
     MessageCN: 老师，我今天也想修行……
     MessageEN: "Sensei! About today's ninja training! "
     MessageTH: คุณครูคะ! เรื่องการฝึกวิชานินจาวันนี้!
-    MessageTW: 老師！今天也是為了成為忍者的訓練！
+    MessageTW: 老師，我今天也想修行……
   - MessageGroupId: 100400240
     Id: 100400280
     CharacterId: 10040
@@ -561,7 +561,7 @@ content:
     MessageCN: 所以能，再拜托老师吗……？
     MessageEN: C-C-Could you help me?
     MessageTH: ขะ...ขอรบกวนด้วยนะคะ!
-    MessageTW: 萬、萬事拜、拜託了！
+    MessageTW: 請問可以，拜託您嗎……？
   - MessageGroupId: 100400250
     Id: 100400290
     CharacterId: 10040
@@ -579,7 +579,7 @@ content:
     MessageCN: 嗯，那老地方见？
     MessageEN: Yeah, I'll meet you at the usual place.
     MessageTH: อื้อ ถ้างั้นไปเจอที่ที่เราเคยนัดกันนะ
-    MessageTW: 嗯，那麼隨時在老地方見。
+    MessageTW: 嗯，那就平常的地點可以嗎？
   - MessageGroupId: 100400260
     Id: 100400300
     CharacterId: 10040
@@ -597,7 +597,7 @@ content:
     MessageCN: 好的！
     MessageEN: Heeheehee!
     MessageTH: ฮิฮิฮิ!
-    MessageTW: 耶嘿嘿！
+    MessageTW: 是的！
   - MessageGroupId: 100400260
     Id: 100400310
     CharacterId: 10040
@@ -615,4 +615,4 @@ content:
     MessageCN: 十分感谢！
     MessageEN: Yes!
     MessageTH: ค่ะ!
-    MessageTW: 是！
+    MessageTW: 謝謝老師！

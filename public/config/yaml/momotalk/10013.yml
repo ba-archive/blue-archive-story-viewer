@@ -34,9 +34,9 @@ title:
     TextJp: 特別な箱
     TextCn: 特别的箱子
     TextKr: 특별한 상자
-    TextEn: ''
-    TextTh: ''
-    TextTw: ''
+    TextEn: A Special Chest
+    TextTh: กล่องแสนพิเศษ
+    TextTw: 特別的箱子
 content:
   - MessageGroupId: 100130010
     Id: 288
@@ -306,7 +306,7 @@ content:
     MessageJP: お願いできますか
     MessageCN: 能拜托老师吗
     MessageEN: I hope you can help.
-    MessageTH: ขอร้องล่ะค่ะ
+    MessageTH: ขอร้องละค่ะ
     MessageTW: 可以拜託您嗎
   - MessageGroupId: 100130070
     Id: 303
@@ -707,7 +707,7 @@ content:
     MessageCN: 那个，就是……
     MessageEN: Oh, um...
     MessageTH: คือนั่นมัน....
-    MessageTW: 這個，那個……。
+    MessageTW: 這個，那個……
   - MessageGroupId: 100130180
     Id: 324
     CharacterId: 10013
@@ -725,7 +725,7 @@ content:
     MessageCN: 那个……
     MessageEN: So...
     MessageTH: คือว่า....
-    MessageTW: 那個……。
+    MessageTW: 那個……
   - MessageGroupId: 100130190
     Id: 325
     CharacterId: 10013
@@ -761,7 +761,7 @@ content:
     MessageCN: 没、没什么……
     MessageEN: I-It's nothing...
     MessageTH: มะ...ไม่มีอะไรหรอกค่ะ!
-    MessageTW: 什，什麼都沒有……。
+    MessageTW: 什，什麼都沒有……
   - MessageGroupId: 100130210
     Id: 100130010
     CharacterId: 10013
@@ -777,9 +777,9 @@ content:
     MessageKR: 선생님. 혹시
     MessageJP: 先生
     MessageCN: 老师
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: Sensei, do you think...
+    MessageTH: 'คุณครูคะ คือว่า... '
+    MessageTW: 老師
   - MessageGroupId: 100130220
     Id: 100130020
     CharacterId: 10013
@@ -795,9 +795,9 @@ content:
     MessageKR: 아닙니다. 실례하였습니다.
     MessageJP: いえ、やはり大丈夫です。失礼しました
     MessageCN: 没，果然还是算了。打扰了
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: No, it's nothing.
+    MessageTH: ไม่มีอะไรค่ะ ขอโทษที่เสียมารยาทค่ะ
+    MessageTW: 不，果然沒什麼事。失禮了
   - MessageGroupId: 100130230
     Id: 100130030
     CharacterId: 10013
@@ -813,9 +813,9 @@ content:
     MessageKR: 츠루기?
     MessageJP: ツルギ？
     MessageCN: 鹤城？
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: Tsurugi?
+    MessageTH: ซึรุกิ?
+    MessageTW: 弦生？
   - MessageGroupId: 100130230
     Id: 100130040
     CharacterId: 10013
@@ -831,9 +831,9 @@ content:
     MessageKR: 괜찮아. 무슨 일이야?
     MessageJP: どうかした？
     MessageCN: 怎么了？
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: Sure. What's going on?
+    MessageTH: ไม่เป็นไรหรอก มีอะไรเหรอ?
+    MessageTW: 怎麼了嗎？
   - MessageGroupId: 100130240
     Id: 100130050
     CharacterId: 10013
@@ -849,9 +849,11 @@ content:
     MessageKR: 죄송합니다. 경황이 없어서…….
     MessageJP: すみません、今はその
     MessageCN: 非常抱歉。现在，那个
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: I-I'm all flustered right now...
+    MessageTH: 'ขอโทษค่ะ ฉันไม่ได้มีธุระอะไร
+
+      เป็นพิเศษ...'
+    MessageTW: 不好意思，現在那個
   - MessageGroupId: 100130240
     Id: 100130060
     CharacterId: 10013
@@ -867,9 +869,11 @@ content:
     MessageKR: 조금 더 정리되면 다시 말씀드리도록 하겠습니다.
     MessageJP: もう少し整理ができたら、もう一度お声がけします
     MessageCN: 我捋一捋思路再给老师发消息
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: I'll tell you later!
+    MessageTH: 'ถ้าฉันเรียบเรียงคำพูดได้แล้วจะมาบอก
+
+      คุณครูอีกครั้งค่ะ'
+    MessageTW: 待我整理一下後，會再聯絡您
   - MessageGroupId: 100130250
     Id: 100130070
     CharacterId: 10013
@@ -885,9 +889,9 @@ content:
     MessageKR: 츠루기 배상.
     MessageJP: ツルギ　拝具
     MessageCN: 鹤城 敬上
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: Sincerely, Tsurugi.
+    MessageTH: ซึรุกิ เคารพ!
+    MessageTW: 弦生　謹上
   - MessageGroupId: 100130260
     Id: 100130080
     CharacterId: 10013
@@ -903,9 +907,13 @@ content:
     MessageKR: 선생님. 다시 생각해 보니 제가 또 실례를 저질렀던 것 같습니다.
     MessageJP: 先生、その
     MessageCN: 老师，那个
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: Sensei! I-I messed up again.
+    MessageTH: 'คุณครูคะ ฉันลองทบทวนดูแล้ว
+
+      ดูเหมือนว่าฉันจะเสียมารยาท
+
+      กับคุณครูไปซะแล้วค่ะ'
+    MessageTW: 老師，那個
   - MessageGroupId: 100130270
     Id: 100130090
     CharacterId: 10013
@@ -921,9 +929,9 @@ content:
     MessageKR: 죄송합니다.
     MessageJP: お呼び立てしておいて、大変失礼しました
     MessageCN: 把老师叫来真是太不好意思了
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: Sorry.
+    MessageTH: ขอโทษค่ะ
+    MessageTW: 明明是特地請您來，真是失禮了
   - MessageGroupId: 100130280
     Id: 100130100
     CharacterId: 10013
@@ -939,9 +947,9 @@ content:
     MessageKR: 전혀 그렇지 않아.
     MessageJP: ううん、そんなことないよ
     MessageCN: 没有的事哦
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: Not at all.
+    MessageTH: ไม่หรอก
+    MessageTW: 不會，沒有那回事
   - MessageGroupId: 100130280
     Id: 100130110
     CharacterId: 10013
@@ -957,9 +965,9 @@ content:
     MessageKR: 즐거워 보여서 좋았어.
     MessageJP: むしろ楽しかったよ
     MessageCN: 不如说，我很高兴
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: I'm glad you had fun.
+    MessageTH: แค่เห็นซึรุกิสนุก ครูก็พอใจแล้ว
+    MessageTW: 倒不如說很開心唷
   - MessageGroupId: 100130290
     Id: 100130120
     CharacterId: 10013
@@ -975,9 +983,9 @@ content:
     MessageKR: 그, 그렇습니까. 그렇게 말씀해 주신다면 감사하지만…….
     MessageJP: そ、そう仰っていただけるとありがたいです
     MessageCN: 老、老师能这么说真是太感谢了
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: R-Really? Okay... Thanks, but...
+    MessageTH: งะ...งั้นเหรอคะ ขะ....ขอบคุณค่ะ
+    MessageTW: 您，您能這麼說，真是不勝感激
   - MessageGroupId: 100130290
     Id: 100130130
     CharacterId: 10013
@@ -993,9 +1001,11 @@ content:
     MessageKR: 그러고 보니 막상 선생님께 같이 볼 걸 제안해 드리기로 했지만
     MessageJP: その、今度一緒に見るものについて……
     MessageCN: 那个，关于下次一起看的东西……
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: I-I wanted to watch something with you...
+    MessageTH: 'พอมานึกดูแล้ว... ฉันแค่อยากชวน
+
+      คุณครูดูหนังด้วยกัน'
+    MessageTW: 那個，關於下次一起看的東西……
   - MessageGroupId: 100130300
     Id: 100130140
     CharacterId: 10013
@@ -1011,9 +1021,13 @@ content:
     MessageKR: 그……. 그런 걸 별로 해 본 적이 없는지라, 제대로 할 수 있을지 모르겠습니다.
     MessageJP: こういうのは初めてなので、不手際が多いかもしれませんが
     MessageCN: 因为我是第一次做这样的事情，可能会有很多不熟练的地方
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN:
+      But I've...never picked something for someone to watch... What if you
+      don't like it?
+    MessageTH: 'ตะ... แต่ฉันไม่เคยทำแบบนั้นมาก่อน
+
+      เลยไม่รู้ว่าต้องทำยังไงค่ะ'
+    MessageTW: 因為這種事是第一次，所以可能有很多不周到的地方
   - MessageGroupId: 100130300
     Id: 100130150
     CharacterId: 10013
@@ -1029,9 +1043,9 @@ content:
     MessageKR: 모쪼록 양해를 부탁드립니다.
     MessageJP: 何卒ご了承いただけますと
     MessageCN: 还请您多多谅解
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: D-Do you get it?
+    MessageTH: ขอโทษด้วยนะคะ
+    MessageTW: 還望您見諒
   - MessageGroupId: 100130310
     Id: 100130160
     CharacterId: 10013
@@ -1047,9 +1061,9 @@ content:
     MessageKR: 평소처럼 말해도 돼.
     MessageJP: 気にしないで、普段通りで大丈夫だから
     MessageCN: 别在意，和平时一样就行了
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: You can relax.
+    MessageTH: พูดเหมือนตอนปกติก็ได้
+    MessageTW: 不用在意，和平時一樣就行了
   - MessageGroupId: 100130310
     Id: 100130170
     CharacterId: 10013
@@ -1065,9 +1079,11 @@ content:
     MessageKR: 어떻게 말해도 알 수 있으니 걱정하지 않아도 돼.
     MessageJP: ツルギが選んでくれたものなら、何でも嬉しいよ
     MessageCN: 不管是什么，只要是鹤城选择的东西我都会高兴哦
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: I'll always understand you, no matter what.
+    MessageTH: 'ไม่ว่าซึรุกิจะพูดยังไง ครูก็เข้าใจนะ
+
+      ไม่ต้องคิดมากหรอก'
+    MessageTW: 只是要弦生選的，不管是什麼都很開心唷
   - MessageGroupId: 100130320
     Id: 100130180
     CharacterId: 10013
@@ -1083,9 +1099,9 @@ content:
     MessageKR: …….
     MessageJP: ……
     MessageCN: ……
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: '.......'
+    MessageTH: '...'
+    MessageTW: ……
   - MessageGroupId: 100130330
     Id: 100130190
     CharacterId: 10013
@@ -1101,9 +1117,9 @@ content:
     MessageKR: 크헤…….
     MessageJP: きひ
     MessageCN: 桀嘻
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: Kehee...
+    MessageTH: คิ...
+    MessageTW: 嘰嘻
   - MessageGroupId: 100130330
     Id: 100130200
     CharacterId: 10013
@@ -1119,9 +1135,9 @@ content:
     MessageKR: 키히히히히!!!
     MessageJP: きひひひひ！！！
     MessageCN: 桀嘻嘻嘻嘻！！
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: Kehehehe!
+    MessageTH: คิกๆๆๆ...!!!
+    MessageTW: 嘰嘻嘻嘻嘻！！！
   - MessageGroupId: 100130340
     Id: 100130210
     CharacterId: 10013
@@ -1137,9 +1153,9 @@ content:
     MessageKR: …….
     MessageJP: ……
     MessageCN: ……
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: '.......'
+    MessageTH: '...'
+    MessageTW: ……
   - MessageGroupId: 100130340
     Id: 100130220
     CharacterId: 10013
@@ -1155,6 +1171,6 @@ content:
     MessageKR: ……히히.
     MessageJP: ひひっ
     MessageCN: 嘻嘻
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: Heehee.
+    MessageTH: ฮี่ๆๆ...
+    MessageTW: 嘻嘻

@@ -9,7 +9,7 @@ title:
     TextKr: 엇나간 커뮤니케이션
     TextEn: Major Miscommunication
     TextTh: การสื่อสารที่ผิดพลาด
-    TextTw: 錯位溝通
+    TextTw: 溝通錯位
   - GroupId: 1300303
     FavorScheduleId: 130033
     CharacterId: 13003
@@ -18,7 +18,7 @@ title:
     TextKr: 깨닫지 못한 사실
     TextEn: Unrealized Truth
     TextTh: ข้อเท็จจริงที่คิดไม่ถึง
-    TextTw: 無法明白的事實
+    TextTw: 毫無察覺的事實
   - GroupId: 1300305
     FavorScheduleId: 130035
     CharacterId: 13003
@@ -45,7 +45,7 @@ title:
     TextKr: 짧지만 사치스러운
     TextEn: Short but Splendid
     TextTh: ช่วงสั้นๆ ที่งดงาม
-    TextTw: 短暫的奢侈
+    TextTw: 雖短暫但奢侈的
 content:
   - MessageGroupId: 130030010
     Id: 938
@@ -84,7 +84,7 @@ content:
     MessageTH: 'ฉันมีเรื่องส่วนตัวที่อยากจะถามคุณครู
 
       อยู่ค่ะ'
-    MessageTW: 有點私事想要問你……
+    MessageTW: 我有點私事想要詢問您……
   - MessageGroupId: 130030020
     Id: 940
     CharacterId: 13003
@@ -140,7 +140,7 @@ content:
     MessageCN: 随时都可以叫我哦
     MessageEN: You can call me anytime.
     MessageTH: บอกครูได้ตลอดเลยนะ
-    MessageTW: 隨時都能呼喚我
+    MessageTW: 隨時都能找我
   - MessageGroupId: 130030040
     Id: 943
     CharacterId: 13003
@@ -214,7 +214,7 @@ content:
     MessageCN: 老师能答应下来，我也算松了一口气
     MessageEN: I'm kind of impressed.
     MessageTH: น่าประทับใจมากเลยค่ะ
-    MessageTW: 鬆了一口氣
+    MessageTW: 所以鬆了口氣
   - MessageGroupId: 130030050
     Id: 947
     CharacterId: 13003
@@ -344,7 +344,7 @@ content:
     MessageTH: 'แต่ฉันจะขอปรึกษาเรื่องที่เคยบอกคุณครู
 
       ไว้ได้ไหมคะ'
-    MessageTW: 前幾天沒能好好商量的事，能再拜託你嗎……？
+    MessageTW: 前幾天沒能好好商量的事，能再拜託您嗎……？
   - MessageGroupId: 130030100
     Id: 954
     CharacterId: 13003
@@ -400,7 +400,7 @@ content:
     MessageCN: 很抱歉在百忙之中打扰老师，还请您多多关照
     MessageEN: Okay. Thank you.
     MessageTH: ค่ะ! ขอบคุณมากนะคะ!
-    MessageTW: 百忙之中打擾你，萬事拜託了
+    MessageTW: 不好意思在百忙之中打擾您，萬事拜託了
   - MessageGroupId: 130030110
     Id: 957
     CharacterId: 13003
@@ -471,8 +471,8 @@ content:
     MessageJP: お願いします……
     MessageCN: 拜托了……
     MessageEN: I hope you understand...
-    MessageTH: ฉันขอร้องล่ะค่ะ
-    MessageTW: 拜託你了……
+    MessageTH: ขอร้องละค่ะ...
+    MessageTW: 拜託您了……
   - MessageGroupId: 130030140
     Id: 961
     CharacterId: 13003
@@ -566,7 +566,7 @@ content:
     MessageCN: 诶，啊，那个……
     MessageEN: H-Huh?!
     MessageTH: คะ...? คะ?!
-    MessageTW: 耶，啊，那個……
+    MessageTW: 咦，啊，那個……
   - MessageGroupId: 130030170
     Id: 966
     CharacterId: 13003
@@ -584,7 +584,7 @@ content:
     MessageCN: 不好意思，不知道为什么有点害羞……
     MessageEN: D-Do you think so?
     MessageTH: ยะ...อย่างนั้นเหรอคะ?
-    MessageTW: 不好意思，不知怎地覺得很羞恥……
+    MessageTW: 不好意思，總覺得開始感到有點羞恥……
   - MessageGroupId: 130030180
     Id: 967
     CharacterId: 13003
@@ -692,7 +692,7 @@ content:
     MessageCN: 头疼也很严重，原因也不太清楚……
     MessageEN: I have a headache too... I wonder why.
     MessageTH: รู้สึกปวดหัวนิดๆ... เพราะอะไรกันนะ
-    MessageTW: 頭疼得厲害，也不知道是什麼原因……
+    MessageTW: 頭痛得很厲害，也不知道原因呢……
   - MessageGroupId: 130030230
     Id: 973
     CharacterId: 13003
@@ -768,7 +768,7 @@ content:
     MessageCN: 让老师担心了，非常抱歉
     MessageEN: It's nothing serious, Sensei.
     MessageTH: ไม่ใช่เรื่องใหญ่หรอกค่ะ คุณครู
-    MessageTW: 對不起，讓你擔心了
+    MessageTW: 不好意思，讓您擔心了
   - MessageGroupId: 130030250
     Id: 977
     CharacterId: 13003
@@ -786,7 +786,7 @@ content:
     MessageCN: 谢谢老师
     MessageEN: I made you worry again.
     MessageTH: ฉันทำให้คุณครูเป็นห่วงอีกแล้วสินะคะ
-    MessageTW: 非常感謝，老師
+    MessageTW: 謝謝您，老師
   - MessageGroupId: 130030260
     Id: 978
     CharacterId: 13003
@@ -804,7 +804,7 @@ content:
     MessageCN: 今天真的非常感谢老师
     MessageEN: But I'm not going to stop my diet.
     MessageTH: แต่ฉันจะไม่เลิกไดเอ็ตหรอกนะคะ
-    MessageTW: 今天非常感謝，老師
+    MessageTW: 今天非常謝謝您，老師
   - MessageGroupId: 130030260
     Id: 979
     CharacterId: 13003
@@ -916,7 +916,7 @@ content:
     MessageCN: 但是，老师加班也很辛苦对吧
     MessageEN: You've also been working late, right?
     MessageTH: คุณครูเองก็อยู่ดึกด้วยใช่ไหมคะ?
-    MessageTW: 不過，老師也很辛苦地加班吧？
+    MessageTW: 不過，老師也很辛苦地在加班吧？
   - MessageGroupId: 130030290
     Id: 985
     CharacterId: 13003
@@ -1006,7 +1006,7 @@ content:
     MessageCN: 可千万不能感冒了，请老师泡个澡，
     MessageEN: Take a hot bath and get plenty of rest
     MessageTH: อาบน้ำอุ่นๆ แล้วพักผ่อนเถอะค่ะ
-    MessageTW: 避免感冒，洗個熱水澡
+    MessageTW: 為了避免感冒，請洗個熱水澡
   - MessageGroupId: 130030310
     Id: 990
     CharacterId: 13003
@@ -1024,7 +1024,7 @@ content:
     MessageCN: 好好休息一下吧
     MessageEN: so you don't catch a cold.
     MessageTH: จะได้ไม่เป็นหวัดนะคะ
-    MessageTW: 好好休息吧
+    MessageTW: 好好休息哦
   - MessageGroupId: 130030320
     Id: 991
     CharacterId: 13003
@@ -1042,4 +1042,4 @@ content:
     MessageCN: 那么，我们下次见
     MessageEN: See you later.
     MessageTH: ถ้างั้น... ไว้เจอกันนะคะ
-    MessageTW: 那麼，回頭見
+    MessageTW: 那麼，下次見

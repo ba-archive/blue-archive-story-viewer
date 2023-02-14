@@ -9,7 +9,7 @@ title:
     TextKr: '강의명: 로망'
     TextEn: 'Lecture Title: Romance'
     TextTh: 'ชื่อวิชา: ความโรแมนติก'
-    TextTw: 課程名稱：浪漫
+    TextTw: 第一堂課「科目：浪漫」
   - GroupId: 1002903
     FavorScheduleId: 100293
     CharacterId: 10029
@@ -18,7 +18,7 @@ title:
     TextKr: '강의명: 포용'
     TextEn: "Today's Lecture: Embracing"
     TextTh: 'ชื่อวิชา: ความใจกว้าง'
-    TextTw: 課程名稱：包容
+    TextTw: 第二堂課「科目：包容」
   - GroupId: 1002905
     FavorScheduleId: 100295
     CharacterId: 10029
@@ -27,7 +27,7 @@ title:
     TextKr: '실습명: 발굴'
     TextEn: Excavation and Discovery
     TextTh: 'วิชาการปฏิบัติ: การปฏิบัติ'
-    TextTw: 實習內容：挖掘
+    TextTw: 第三堂課「實習：挖掘」
   - GroupId: 1002906
     FavorScheduleId: 100296
     CharacterId: 10029

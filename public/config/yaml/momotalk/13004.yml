@@ -9,7 +9,7 @@ title:
     TextKr: 우연한 만남이에요
     TextEn: A Coincidental Meeting
     TextTh: การพบกันโดยบังเอิญ
-    TextTw: 偶然的邂逅
+    TextTw: 偶然的相遇呢
   - GroupId: 1300403
     FavorScheduleId: 130043
     CharacterId: 13004
@@ -18,7 +18,7 @@ title:
     TextKr: 청소할 시간이에요
     TextEn: Cleaning Time
     TextTh: ถึงเวลาทำความสะอาดแล้วค่ะ
-    TextTw: 打掃時間到
+    TextTw: 清掃的時間
   - GroupId: 1300405
     FavorScheduleId: 130045
     CharacterId: 13004
@@ -27,7 +27,7 @@ title:
     TextKr: 보답할 시간이에요
     TextEn: Time to Repay
     TextTh: ถึงเวลาตอบแทน
-    TextTw: 報答時間到
+    TextTw: 報恩的時間
   - GroupId: 1300406
     FavorScheduleId: 130046
     CharacterId: 13004
@@ -36,7 +36,7 @@ title:
     TextKr: 게임은 즐거워요
     TextEn: Games Are Fun
     TextTh: การเล่นเกมสนุกสุดๆ
-    TextTw: 歡樂的遊戲
+    TextTw: 遊戲很有趣
   - GroupId: 1300408
     FavorScheduleId: 130048
     CharacterId: 13004
@@ -45,7 +45,7 @@ title:
     TextKr: 건강해지는 거예요
     TextEn: In Pursuit of Health
     TextTh: เราต้องแข็งแรงขึ้น
-    TextTw: 會變健康的
+    TextTw: 變得健康吧
 content:
   - MessageGroupId: 130040010
     Id: 992
@@ -124,7 +124,7 @@ content:
     MessageCN: 谢谢你，野宫
     MessageEN: Thank you, Nonomi.
     MessageTH: 'ขอบใจนะโนโนมิจัง~ '
-    MessageTW: 謝謝你，野乃美
+    MessageTW: 謝謝妳，野乃美
   - MessageGroupId: 130040030
     Id: 996
     CharacterId: 13004
@@ -310,7 +310,7 @@ content:
     MessageCN: 下次一定要换我请老师吃东西哦？
     MessageEN: So please let me do it next time!
     MessageTH: งั้นคราวหน้า ฉันจะตอบแทนคุณครูเองค่ะ!
-    MessageTW: 下次去什麼地方的時候，要讓我請客哦？
+    MessageTW: 下次去其他地方的時候，要讓我請客哦？
   - MessageGroupId: 130040070
     Id: 1006
     CharacterId: 13004
@@ -370,7 +370,7 @@ content:
     MessageTH: 'ถ้าคุณครูมาก็จะเจอห้องที่สะอาดสะอ้าน
 
       กว่าคราวก่อนแน่นอนค่ะ☆'
-    MessageTW: 老師來的時候，應該比以前漂亮許多☆
+    MessageTW: 老師來的時候，應該會比以前漂亮許多☆
   - MessageGroupId: 130040090
     Id: 1009
     CharacterId: 13004

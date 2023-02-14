@@ -15,10 +15,10 @@ title:
     CharacterId: 10042
     TextJp: 真夜中の学校
     TextCn: 深夜的学校
-    TextKr: 한밤 중의 학원
+    TextKr: 한밤중의 학원
     TextEn: Late Night at the Academy
     TextTh: กลางดึกคืนหนึ่งที่โรงเรียน
-    TextTw: 深夜裡的學校
+    TextTw: 大半夜的學園
   - GroupId: 1004205
     FavorScheduleId: 100425
     CharacterId: 10042
@@ -144,9 +144,9 @@ content:
     MessageJP: もうそろそろ夜だけど、おはよう
     MessageCN: 虽然差不多晚上了，早上好
     MessageEN: It's not morning anymore though.
-    MessageTH: |-
-      ถึงไม่เช้าแล้ว
-      แต่ก็อรุณสวัสดิ์นะ
+    MessageTH: 'ถึงไม่เช้าแล้ว
+
+      แต่ก็อรุณสวัสดิ์นะ'
     MessageTW: 雖然現在不是早上。
   - MessageGroupId: 100420060
     Id: 100420070
@@ -164,9 +164,9 @@ content:
     MessageJP: 私たち、今あっちこっちを転々としてて
     MessageCN: 我们，现在在四处奔波
     MessageEN: As you know, we're wandering around all over the place now.
-    MessageTH: |-
-      คุณครูเองก็คงรู้แล้วว่าตอนนี้พวกเรา
-      ตระเวนไปที่ต่างๆ อยู่
+    MessageTH: 'คุณครูเองก็คงรู้แล้วว่าตอนนี้พวกเรา
+
+      ตระเวนไปที่ต่างๆ อยู่'
     MessageTW: 雖然老師也知道，不過我們現在正在這裡遊蕩。
   - MessageGroupId: 100420060
     Id: 100420080
@@ -202,9 +202,9 @@ content:
     MessageJP: それと、みんなバラバラでいる事が多くて
     MessageCN: 所以大家，经常分开
     MessageEN: Not only that, but we spend a lot of time away from each other.
-    MessageTH: |-
-      อีกอย่างตอนนี้ทุกคนก็กระจายตัว
-      แยกกันไปหมด
+    MessageTH: 'อีกอย่างตอนนี้ทุกคนก็กระจายตัว
+
+      แยกกันไปหมด'
     MessageTW: 而且大家各自分開的時間很長，
   - MessageGroupId: 100420070
     Id: 100420100
@@ -236,7 +236,7 @@ content:
     FeedbackTimeMillisec: 1000
     MessageType: Text
     ImagePath: ''
-    MessageKR: '그러니까 선생님을 만나려면 '
+    MessageKR: 그러니까 선생님을 만나려면
     MessageJP: だから先生に会うには
     MessageCN: 所以我如果想见到老师但是老师不过来的话
     MessageEN: 'So, for us to meet, '
@@ -276,9 +276,9 @@ content:
     MessageJP: 要するに、退屈だから会おうって捉え方で良い……？
     MessageCN: 总之，我可以理解成亚津子现在很无聊所以想和我见面吗……？
     MessageEN: You want me to come see you because you're bored...?
-    MessageTH: |-
-      สรุปคือชวนครูไปหาเพราะเบื่อ
-      ที่อยู่คนเดียวสินะ...?
+    MessageTH: 'สรุปคือชวนครูไปหาเพราะเบื่อ
+
+      ที่อยู่คนเดียวสินะ...?'
     MessageTW: 總之，你是因為無聊，才要跟我見面的吧……？
   - MessageGroupId: 100420100
     Id: 100420140
@@ -346,7 +346,7 @@ content:
     FeedbackTimeMillisec: 1000
     MessageType: Text
     ImagePath: ''
-    MessageKR: '선생님. '
+    MessageKR: 선생님.
     MessageJP: 先生、こんばんは
     MessageCN: 老师，晚上好
     MessageEN: 'Sensei. '
@@ -364,7 +364,7 @@ content:
     FeedbackTimeMillisec: 1000
     MessageType: Text
     ImagePath: ''
-    MessageKR: '여기를 떠나기로 했어. '
+    MessageKR: 여기를 떠나기로 했어.
     MessageJP: 今からここを離れることになったよ
     MessageCN: 我们马上要离开这里了哦
     MessageEN: "I've decided to leave. "
@@ -382,13 +382,13 @@ content:
     FeedbackTimeMillisec: 1000
     MessageType: Text
     ImagePath: ''
-    MessageKR: '그럼 다음에 봐. 위치가 바뀌면 또 연락할게. '
+    MessageKR: 그럼 다음에 봐. 위치가 바뀌면 또 연락할게.
     MessageJP: じゃあ、また。場所が変わったら連絡する
     MessageCN: 那么，再见。等换了地方我再和老师联系
     MessageEN: "I'll see you later. I'll contact you if the location changes. "
-    MessageTH: |-
-      ไว้เจอกันใหม่นะถ้าเปลี่ยนพิกัดที่อยู่อีก
-      จะติดต่อไปใหม่
+    MessageTH: 'ไว้เจอกันใหม่นะถ้าเปลี่ยนพิกัดที่อยู่อีก
+
+      จะติดต่อไปใหม่ '
     MessageTW: 那就下次見囉。如果地點改變，我會再跟你聯絡。
   - MessageGroupId: 100420140
     Id: 100420200
@@ -586,9 +586,9 @@ content:
     MessageJP: 花……花を育てること？
     MessageCN: 花……是说养花吗？
     MessageEN: You mean like...growing flowers?
-    MessageTH: |-
-      ดอกไม้เหรอ…
-      หมายถึงปลูกต้นไม้งั้นเหรอ?
+    MessageTH: 'ดอกไม้เหรอ…
+
+      หมายถึงปลูกต้นไม้งั้นเหรอ?'
     MessageTW: 花啊……要種花嗎？
   - MessageGroupId: 100420220
     Id: 100420310
@@ -606,9 +606,9 @@ content:
     MessageJP: うん。今度、園芸部でも作ってみようかな
     MessageCN: 嗯。这次，我想试着组建园艺部呢
     MessageEN: Perhaps I can make a flower club one day.
-    MessageTH: |-
-      อื้อ ไว้ตั้งชมรมจัดดอกไม้
-      ขึ้นมาดีมั้ย?
+    MessageTH: 'อื้อ ไว้ตั้งชมรมจัดดอกไม้
+
+      ขึ้นมาดีมั้ย?'
     MessageTW: 嗯。以後要不要成立個花卉社團？
   - MessageGroupId: 100420220
     Id: 100420320
@@ -698,9 +698,9 @@ content:
     MessageJP: お花を、趣味にしようと思う
     MessageCN: 我想，把花当作我的兴趣
     MessageEN: I'm gonna get a hobby related to flowers.
-    MessageTH: |-
-      ฉันจะลองหางานอดิเรกที่เกี่ยวกับ
-      ดอกไม้ดู
+    MessageTH: 'ฉันจะลองหางานอดิเรกที่เกี่ยวกับ
+
+      ดอกไม้ดู'
     MessageTW: 我想要培養和花有關的興趣。
   - MessageGroupId: 100420260
     Id: 100420370
@@ -952,9 +952,9 @@ content:
     MessageJP: 元気に育つといいね
     MessageCN: 希望它们能健康长大呢
     MessageEN: I hope it grows okay.
-    MessageTH: |-
-      ถ้าดอกไม้พวกนั้นโตขึ้นมา
-      อย่างปลอดภัยก็คงดี
+    MessageTH: 'ถ้าดอกไม้พวกนั้นโตขึ้นมา
+
+      อย่างปลอดภัยก็คงดี'
     MessageTW: 希望可以好好成長。
   - MessageGroupId: 100420360
     Id: 100420510

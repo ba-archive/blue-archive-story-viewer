@@ -9,7 +9,7 @@ title:
     TextKr: 스케이트 보드를 타는 요령
     TextEn: Skateboarding Tips
     TextTh: เคล็ดลับการเล่นสเก็ตบอร์ด
-    TextTw: 滑滑板的秘訣
+    TextTw: 天才的訣竅
   - GroupId: 2000603
     FavorScheduleId: 200063
     CharacterId: 20006
@@ -18,7 +18,7 @@ title:
     TextKr: 천재의 휴일
     TextEn: A Genius' Day Off
     TextTh: วันหยุดพักผ่อนของอัจฉริยะ
-    TextTw: 天才的休假
+    TextTw: 天才的假日
   - GroupId: 2000605
     FavorScheduleId: 200065
     CharacterId: 20006
@@ -36,7 +36,7 @@ title:
     TextKr: 유행의 법칙
     TextEn: Laws of Trendiness
     TextTh: 'กฎของกระแสอินเทรนด์ '
-    TextTw: 流行的法則
+    TextTw: 流行事物
 content:
   - MessageGroupId: 200060010
     Id: 200060010

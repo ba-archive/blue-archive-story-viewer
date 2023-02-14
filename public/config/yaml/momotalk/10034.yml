@@ -9,7 +9,7 @@ title:
     TextKr: 아침이에요. 일어나세요.
     TextEn: Time to Rise and Shine
     TextTh: ได้เวลาตื่นแล้วนะคะ
-    TextTw: 天亮了，該起床了。
+    TextTw: 早上了唷，請起床？
   - GroupId: 1003403
     FavorScheduleId: 100343
     CharacterId: 10034
@@ -18,7 +18,7 @@ title:
     TextKr: '신부수행 Ⅰ : 가정요리 편'
     TextEn: 'Etiquette I: The Home Cooking Episode'
     TextTh: 'การฝึกของเลดี้ I: โฮมคุกกิ้ง'
-    TextTw: 新娘修行Ⅰ：家庭料理篇
+    TextTw: 新娘修行其１：家庭料理篇
   - GroupId: 1003405
     FavorScheduleId: 100345
     CharacterId: 10034
@@ -27,7 +27,7 @@ title:
     TextKr: '신부수행 Ⅱ : 청소 편'
     TextEn: 'Etiquette II: The Cleaning Episode'
     TextTh: 'การฝึกของเลดี้ II: ทำความสะอาด'
-    TextTw: 新娘修行Ⅱ：打掃篇
+    TextTw: 新娘修行其２：打掃篇
   - GroupId: 1003406
     FavorScheduleId: 100346
     CharacterId: 10034
@@ -36,7 +36,7 @@ title:
     TextKr: 마음을 담아 수놓는 자수
     TextEn: Heartfelt Embroidery
     TextTh: 'การเย็บปักถักร้อยจากหัวใจ '
-    TextTw: '充滿心意的刺繡 '
+    TextTw: 一針一線，一心一意
 content:
   - MessageGroupId: 100340010
     Id: 100340010
@@ -55,7 +55,7 @@ content:
     MessageCN: 老师，我听说了哦。
     MessageEN: I heard a rumor, Sensei.
     MessageTH: คุณครูคะ ฉันได้ยินข่าวลือมาค่ะ
-    MessageTW: 老師，我聽說了。
+    MessageTW: 老師，我聽說了唷
   - MessageGroupId: 100340020
     Id: 100340020
     CharacterId: 10034
@@ -73,7 +73,7 @@ content:
     MessageCN: 您最近工作很忙吧
     MessageEN: You're really busy with work lately.
     MessageTH: ช่วงนี้งานยุ่งงานมากเลยใช่ไหมคะ...?
-    MessageTW: 最近因為工作關係很忙碌吧……？
+    MessageTW: 老師最近工作非常的忙碌
   - MessageGroupId: 100340030
     Id: 100340030
     CharacterId: 10034
@@ -93,7 +93,7 @@ content:
     MessageTH: 'เห็นว่านอนไม่พอ เมื่อวาน
 
       เลยไปทำงานที่ชาเล่ต์สาย'
-    MessageTW: 都沒有好好的睡覺，所以昨天也在夏萊遲到了吧？
+    MessageTW: 沒有確實取得睡眠，聽說到了昨天去夏萊的也遲到的程度
   - MessageGroupId: 100340030
     Id: 100340040
     CharacterId: 10034
@@ -111,7 +111,7 @@ content:
     MessageCN: 您原来忙到这种程度吗……?
     MessageEN: Is that true?
     MessageTH: จริงหรือเปล่าคะ?
-    MessageTW: 是真的嗎？
+    MessageTW: 請問有那麼忙碌嗎……？
   - MessageGroupId: 100340040
     Id: 100340050
     CharacterId: 10034
@@ -129,7 +129,7 @@ content:
     MessageCN: 唉，偶尔是会有这种事啦……
     MessageEN: Well, it happens.
     MessageTH: อืม... แค่บางครั้งน่ะ
-    MessageTW: 偶爾而已，偶爾。
+    MessageTW: 嘛，偶爾也會有那種……
   - MessageGroupId: 100340040
     Id: 100340060
     CharacterId: 10034
@@ -147,7 +147,7 @@ content:
     MessageCN: 某种程度上还是能睡着的，大概……
     MessageEN: It's not the end of the world.
     MessageTH: ไม่ขนาดนั้นหรอก
-    MessageTW: 還不到那種程度……
+    MessageTW: 某種程度上有睡，才對……
   - MessageGroupId: 100340050
     Id: 100340070
     CharacterId: 10034
@@ -167,7 +167,7 @@ content:
     MessageTH: 'งั้นเหรอคะ...
 
       เข้าใจแล้วค่ะ'
-    MessageTW: 原來如此……我知道了。
+    MessageTW: 是這樣嗎……我知道了
   - MessageGroupId: 100340050
     Id: 100340080
     CharacterId: 10034
@@ -185,7 +185,7 @@ content:
     MessageCN: 这是很严重的事态呢……。
     MessageEN: This is a serious problem.
     MessageTH: แต่นี่เป็นปัญหาใหญ่เลยนะคะ
-    MessageTW: 這是重大的問題……
+    MessageTW: 這是刻不容緩的事態……
   - MessageGroupId: 100340050
     Id: 100340090
     CharacterId: 10034
@@ -205,7 +205,7 @@ content:
     MessageTH: 'เห็นทีสมาชิกชมรมฝึกฝน
 
       อย่างฉัน ต้องออกโรงแล้วค่ะ'
-    MessageTW: 身為修行部成員的我只好出手了。
+    MessageTW: 身為修行部部員的我，必須想點辦法才行呢
   - MessageGroupId: 100340060
     Id: 100340100
     CharacterId: 10034
@@ -241,7 +241,7 @@ content:
     MessageCN: 那个，三森同学？
     MessageEN: Uhhh...Mimori?
     MessageTH: เอ๋...? มิโมริ?
-    MessageTW: 那個，三森？
+    MessageTW: 那個，三森同學？
   - MessageGroupId: 100340080
     Id: 100340120
     CharacterId: 10034
@@ -259,7 +259,7 @@ content:
     MessageCN: 出门之后，老师顺利地按时到岗了吗？
     MessageEN: Did you make it to work on time this morning?
     MessageTH: เช้าวันนี้มาทำงานตรงเวลาใช่ไหมคะ?
-    MessageTW: 今天有好好上班沒遲到嗎？
+    MessageTW: 那之後，有確實趕上嗎？
   - MessageGroupId: 100340090
     Id: 100340130
     CharacterId: 10034
@@ -279,7 +279,7 @@ content:
     MessageTH: 'ขอบใจนะ มิโมริ
 
       วันนี้มีอะไรเหรอ...?'
-    MessageTW: 今天謝謝妳了，三森。但是三森今天為何要來找我……？
+    MessageTW: 今天謝謝妳。不過，為什麼三森會……？
   - MessageGroupId: 100340100
     Id: 100340140
     CharacterId: 10034
@@ -297,7 +297,7 @@ content:
     MessageCN: 那是因为呢……
     MessageEN: Huh?
     MessageTH: คะ?
-    MessageTW: 是。
+    MessageTW: 那是因為呢……
   - MessageGroupId: 100340100
     Id: 100340150
     CharacterId: 10034
@@ -321,7 +321,7 @@ content:
       ของชมรมฝึกฝนที่ฝันอยาก
 
       จะเป็นกุลสตรีที่เพียบพร้อมค่ะ'
-    MessageTW: 那是因為我！修行部成員三森！為了成為窈窕淑女而精進的。
+    MessageTW: 我是，以大和撫子為目標持續精進的，修行部的部員
   - MessageGroupId: 100340100
     Id: 100340160
     CharacterId: 10034
@@ -341,7 +341,7 @@ content:
     MessageTH: 'เพราะงั้นวันนี้ฉันเลย
 
       มาเพื่อช่วยคุณครูยังไงคะ'
-    MessageTW: 當然是為了幫助老師而來的。
+    MessageTW: 然後作為那個一環，今天前去幫助老師了
   - MessageGroupId: 100340110
     Id: 100340170
     CharacterId: 10034
@@ -361,7 +361,7 @@ content:
     MessageTH: 'ต่อไปถ้ามีปัญหาอะไร
 
       ก็บอกฉันได้ตลอดนะคะ!'
-    MessageTW: 以後只要有困擾，請隨時告訴我！
+    MessageTW: 今後也有困擾的時候的話，請隨時告知我！
   - MessageGroupId: 100340110
     Id: 100340180
     CharacterId: 10034
@@ -379,7 +379,7 @@ content:
     MessageCN: 无论何时，无论何事。只要您一叫我，我马上就会来到老师身边的。
     MessageEN: I'll always be there.
     MessageTH: ฉันพร้อมช่วยคุณครูตลอดค่ะ
-    MessageTW: 我會隨時幫助你的。
+    MessageTW: 無論何時，不管什麼事。只要呼叫我的話，便會立刻前往
   - MessageGroupId: 100340110
     Id: 100340190
     CharacterId: 10034
@@ -399,7 +399,7 @@ content:
     MessageTH: 'เพราะนี่เป็นส่วนหนึ่ง
 
       ของการฝึกฝนค่ะ!'
-    MessageTW: 這是修行的一環！
+    MessageTW: 我會成為理想的大和撫子的……！
   - MessageGroupId: 100340120
     Id: 100340200
     CharacterId: 10034
@@ -417,7 +417,7 @@ content:
     MessageCN: 这、这样啊。谢谢三森
     MessageEN: Okay, thanks.
     MessageTH: อะ... อื้ม ขอบใจนะ
-    MessageTW: 呃、嗯。謝謝。
+    MessageTW: 是，是嗎。謝謝
   - MessageGroupId: 100340130
     Id: 100340210
     CharacterId: 10034
@@ -437,7 +437,7 @@ content:
     MessageTH: 'ถ้าเกิดนอนไม่หลับตอนกลางคืน
 
       ให้ฉันไปช่วงกล่อมได้นะคะ'
-    MessageTW: 啊，是不是晚上睡不著，需要我哄你入睡？
+    MessageTW: 啊，如果睡不著的話，要我前去陪睡讓老師入睡嗎？
   - MessageGroupId: 100340140
     Id: 100340220
     CharacterId: 10034
@@ -455,7 +455,7 @@ content:
     MessageCN: 不、不做到那种地步也可以的！
     MessageEN: No! It's completely fine!
     MessageTH: ไม่ต้องๆ ไม่เป็นไร!
-    MessageTW: 不，不用了！
+    MessageTW: 不，不用到那種地步！
   - MessageGroupId: 100340140
     Id: 100340230
     CharacterId: 10034
@@ -473,7 +473,7 @@ content:
     MessageCN: 咕……！还、还是容我谢绝……！
     MessageEN: No, no, no that won't be necessary!
     MessageTH: ไม่ต้องช่วยกันถึงขนาดนั้นก็ได้...!
-    MessageTW: 不需要做到那種地步……！
+    MessageTW: 咕……！好，好意，我心領了……！
   - MessageGroupId: 100340150
     Id: 100340240
     CharacterId: 10034
@@ -491,7 +491,7 @@ content:
     MessageCN: 老师不必感到害羞的哦？呵呵♪
     MessageEN: Really, it's no problem at all!
     MessageTH: ฮุฮุ~♪ ไม่เป็นไรค่ะ
-    MessageTW: 呵呵～♪你不必感到害羞的。
+    MessageTW: 不需要害羞唷？呵呵♪
   - MessageGroupId: 100340160
     Id: 100340250
     CharacterId: 10034
@@ -513,7 +513,7 @@ content:
     MessageTH: 'คุณครูคะ ครั้งนี้ฉันว่าจะฝึก
 
       ทำอาหารโฮมคุกกิ้งดูค่ะ'
-    MessageTW: 老師，這次要不要一起來做家庭料理呢？
+    MessageTW: 老師，作為繼上次修行的一環，這次我想試著做家庭料理
   - MessageGroupId: 100340170
     Id: 100340260
     CharacterId: 10034
@@ -531,7 +531,7 @@ content:
     MessageCN: 所以，如果老师方便的话……
     MessageEN: If that's okay with you that is.
     MessageTH: ถ้าคุณครูไม่ว่าอะไร...
-    MessageTW: 如果方便的話啦。
+    MessageTW: 所以，如果可以的話……
   - MessageGroupId: 100340180
     Id: 100340270
     CharacterId: 10034
@@ -587,7 +587,7 @@ content:
     MessageCN: 诶……？啊，是的。是，这样没错……？
     MessageEN: Yes, is that okay?
     MessageTH: คะ? มีอะไรเหรอคะ?
-    MessageTW: 咦？是……沒錯？
+    MessageTW: 咦……？啊，是的。是，沒錯……？
   - MessageGroupId: 100340190
     Id: 100340300
     CharacterId: 10034
@@ -607,7 +607,7 @@ content:
     MessageTH: 'ฉันอยากขอให้คุณครูมาช่วย
 
       ในการฝึกครั้งนี้หน่อยค่ะ'
-    MessageTW: 所以希望你能幫忙我進行修行。
+    MessageTW: 所以，如果可以的話想請老師幫忙那個修行……
   - MessageGroupId: 100340200
     Id: 100340310
     CharacterId: 10034
@@ -625,7 +625,7 @@ content:
     MessageCN: 除了帮三森的忙，我好像没得选呢
     MessageEN: Uh, sure. I can try.
     MessageTH: ได้เลย เดี๋ยวครูช่วยเอง
-    MessageTW: 唔，沒辦法了。我來幫忙。
+    MessageTW: 沒有除了幫忙以外的選擇
   - MessageGroupId: 100340200
     Id: 100340320
     CharacterId: 10034
@@ -643,7 +643,7 @@ content:
     MessageCN: 我会尽全力帮忙的！！
     MessageEN: I'll do what I can.
     MessageTH: ครูยินดีช่วยทุกอย่างเลย
-    MessageTW: 會全力以赴！幫助妳的！
+    MessageTW: 全力的！幫忙！
   - MessageGroupId: 100340210
     Id: 100340330
     CharacterId: 10034
@@ -663,7 +663,7 @@ content:
     MessageTH: 'จริงเหรอคะ!
 
       ถ้างั้นก็รบกวนด้วยนะคะ...'
-    MessageTW: 啊，是！那、那就請多多指教……
+    MessageTW: 啊，好的！那，那麼請多多指教……！
   - MessageGroupId: 100340220
     Id: 100340340
     CharacterId: 10034
@@ -683,7 +683,7 @@ content:
     MessageTH: 'งานของชมรมฝึกฝนในครั้งนี้
 
       คืองานอาสาทำความสะอาดค่ะ'
-    MessageTW: 這次修行部活動就是執行清潔義工活動。
+    MessageTW: 修行部這次的活動，決定去進行打掃的義工活動了
   - MessageGroupId: 100340230
     Id: 100340350
     CharacterId: 10034
@@ -701,7 +701,7 @@ content:
     MessageCN: 三森总是在各种事情上都全力以赴呢
     MessageEN: You're always putting your best foot forward, huh?
     MessageTH: มิโมริขยันฝึกฝนจังเลยนะ
-    MessageTW: 三森總是很努力的修行呢。
+    MessageTW: 三森總是在各種事情上盡全力呢
   - MessageGroupId: 100340240
     Id: 100340360
     CharacterId: 10034
@@ -721,7 +721,7 @@ content:
     MessageTH: 'ค่ะ ฉันฝึกทำอาหารไปแล้ว
 
       คราวนี้ก็ต้องฝึกทำความสะอาดค่ะ'
-    MessageTW: 對，料理之後是清潔。
+    MessageTW: 呵呵，謝謝老師。料理的下一個是，打掃
   - MessageGroupId: 100340240
     Id: 100340370
     CharacterId: 10034
@@ -741,7 +741,7 @@ content:
     MessageTH: 'นี่เป็นส่วนหนึ่งของเส้นทาง
 
       ในการฝึกเป็นเลดี้ที่เพียบพร้อมค่ะ'
-    MessageTW: 用這種方式每天都在為了成為更好的窈窕淑女而精進著。
+    MessageTW: 這些也都是為了成為出色的大和撫子，還有優秀的新娘的修行
   - MessageGroupId: 100340250
     Id: 100340380
     CharacterId: 10034
@@ -759,7 +759,7 @@ content:
     MessageCN: 所以说……。
     MessageEN: Speaking of which...
     MessageTH: เพราะงั้นก็เลย...
-    MessageTW: 所以說…老師，
+    MessageTW: 所以說……
   - MessageGroupId: 100340250
     Id: 100340390
     CharacterId: 10034
@@ -781,7 +781,7 @@ content:
     MessageTH: 'อยากรู้ว่าคุณครูจะมาช่วย
 
       งานอาสาครั้งนี้หน่อยได้ไหมคะ?'
-    MessageTW: 可以的話，要不要來幫忙一起執行這次的義工活動呢？
+    MessageTW: 如果可以的話，能請老師幫忙嗎？
   - MessageGroupId: 100340260
     Id: 100340400
     CharacterId: 10034
@@ -799,7 +799,7 @@ content:
     MessageCN: 嗯，当然啦
     MessageEN: I don't mind.
     MessageTH: งานแบบนี้ครูยินดีช่วยอยู่แล้ว
-    MessageTW: 那種事我當然要幫。
+    MessageTW: 嗯，當然
   - MessageGroupId: 100340270
     Id: 100340410
     CharacterId: 10034
@@ -817,7 +817,7 @@ content:
     MessageCN: 非常感谢，那就请多多指教了
     MessageEN: Great, that'd be really helpful!
     MessageTH: ค่ะ ถ้างั้นก็ขอรบกวนหน่อยนะคะ♪
-    MessageTW: 好，那就，謝謝你的幫助♪
+    MessageTW: 謝謝老師，那就拜託你了哦♪
   - MessageGroupId: 100340280
     Id: 100340420
     CharacterId: 10034
@@ -837,7 +837,7 @@ content:
     MessageTH: 'คุณครูคะ
 
       วันนี้มีเวลาว่างไหมคะ?'
-    MessageTW: 老師，請問今天你有空嗎？
+    MessageTW: 老師，請問今天有時間嗎？
   - MessageGroupId: 100340290
     Id: 100340430
     CharacterId: 10034
@@ -855,7 +855,7 @@ content:
     MessageCN: 如果为了三森的话，我任何时候都有时间哦
     MessageEN: I'm always free for you, Mimori.
     MessageTH: ครูมีเวลาให้มิโมริเสมอนะ
-    MessageTW: 三森找我當然有空。
+    MessageTW: 如果是為了三森的話隨時都沒問題唷
   - MessageGroupId: 100340290
     Id: 100340440
     CharacterId: 10034
@@ -873,7 +873,7 @@ content:
     MessageCN: 怎么了？
     MessageEN: Yeah, what's up?
     MessageTH: แน่นอน มีอะไรเหรอ?
-    MessageTW: 有什麼事嗎？
+    MessageTW: 怎麼了嗎？
   - MessageGroupId: 100340300
     Id: 100340450
     CharacterId: 10034
@@ -891,7 +891,7 @@ content:
     MessageCN: 啊，是、是这样吗……？
     MessageEN: You are...?
     MessageTH: อ๊ะ... จริงเหรอคะ?
-    MessageTW: 啊，這、這樣啊……？
+    MessageTW: 啊，是，是那樣嗎……？
   - MessageGroupId: 100340300
     Id: 100340460
     CharacterId: 10034
@@ -909,7 +909,7 @@ content:
     MessageCN: 您能这么说，那个……我很开心。
     MessageEN: Good to know... That makes me happy.
     MessageTH: ดีใจจังที่คุณครูพูดแบบนี้...
-    MessageTW: 聽到你這樣說，我真的……好開心。
+    MessageTW: 聽到老師那麼說，那個……我非常開心
   - MessageGroupId: 100340310
     Id: 100340470
     CharacterId: 10034
@@ -927,7 +927,7 @@ content:
     MessageCN: 那个，其实……
     MessageEN: Oh, it's nothing too serious.
     MessageTH: งั้นขอเข้าเรื่องเลยนะคะ
-    MessageTW: 啊，其實也沒什麼。
+    MessageTW: 那個，其實……
   - MessageGroupId: 100340320
     Id: 100340480
     CharacterId: 10034
@@ -947,7 +947,7 @@ content:
     MessageTH: 'ฮิฮิ พอดีฉันมีของบางอย่าง
 
       ที่อยากไปซื้อที่ห้างสรรพสินค้า'
-    MessageTW: 呵呵，我想去百貨公司買個想要的東西。
+    MessageTW: 稍微，在百貨店有想買的東西
   - MessageGroupId: 100340320
     Id: 100340490
     CharacterId: 10034
@@ -967,7 +967,7 @@ content:
     MessageTH: 'เลยอยากให้คุณครู
 
       ไปด้วยกันค่ะ'
-    MessageTW: 所以希望老師可以陪我去。
+    MessageTW: 想務必請老師和我一起去所以聯絡了老師……
   - MessageGroupId: 100340320
     Id: 100340500
     CharacterId: 10034
@@ -987,7 +987,7 @@ content:
     MessageTH: 'หากไม่เป็นการรบกวนเกินไป
 
       ก็อยากจะชวนคุณครูไปด้วย...'
-    MessageTW: 會不會……讓你困擾呢？
+    MessageTW: 那個，請問有造成困擾嗎……？
   - MessageGroupId: 100340330
     Id: 100340510
     CharacterId: 10034
@@ -1005,7 +1005,7 @@ content:
     MessageCN: 完——全没问题
     MessageEN: Yeah, sure.
     MessageTH: ไม่เลยๆ
-    MessageTW: 絕對沒有。
+    MessageTW: 完──全沒問題
   - MessageGroupId: 100340330
     Id: 100340520
     CharacterId: 10034
@@ -1023,7 +1023,7 @@ content:
     MessageCN: 三森想的话随时都可以找我
     MessageEN: I'll be there.
     MessageTH: ครูไปด้วย
-    MessageTW: 儘管找我吧。
+    MessageTW: 隨時都能找我
   - MessageGroupId: 100340340
     Id: 100340530
     CharacterId: 10034
@@ -1041,7 +1041,7 @@ content:
     MessageCN: 好的，非常感谢！
     MessageEN: Really? Okay!
     MessageTH: จริงเหรอคะ ขอบคุณค่ะ!
-    MessageTW: 是。我明白了，
+    MessageTW: 好的，謝謝老師！
   - MessageGroupId: 100340340
     Id: 100340540
     CharacterId: 10034
@@ -1059,4 +1059,4 @@ content:
     MessageCN: 那么，我在百货店门口等您哦。
     MessageEN: I'll meet you at the department store!
     MessageTH: งั้นฉันจะรออยู่ด้านหน้าห้างนะคะ
-    MessageTW: 那我在百貨公司前面等你。
+    MessageTW: 那麼，我在百貨店前等你哦

@@ -9,7 +9,7 @@ title:
     TextKr: 마이 페이스의 그녀
     TextEn: At Her Own Pace
     TextTh: เด็กสาวสายติสท์
-    TextTw: 我行我素
+    TextTw: 我行我素的她
   - GroupId: 1600103
     FavorScheduleId: 160013
     CharacterId: 16001
@@ -27,7 +27,7 @@ title:
     TextKr: 메이드의 깜짝 선물
     TextEn: The Maid's Surprise
     TextTh: ของขวัญเซอร์ไพรส์ของเมด
-    TextTw: 女僕的驚喜禮物
+    TextTw: Maid in Surprise
   - GroupId: 1600106
     FavorScheduleId: 160016
     CharacterId: 16001

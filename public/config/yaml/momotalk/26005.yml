@@ -18,7 +18,7 @@ title:
     TextKr: 마카롱 데스 챌린지
     TextEn: Death by Macaron Challenge
     TextTh: ศึกดวลกินมาการอง
-    TextTw: 馬卡龍死亡挑戰
+    TextTw: 馬卡龍挑戰
   - GroupId: 2600505
     FavorScheduleId: 260055
     CharacterId: 26005
@@ -27,7 +27,7 @@ title:
     TextKr: 스터디 인 카페
     TextEn: Cafe Studying
     TextTh: นั่งเรียนในคาเฟ่
-    TextTw: 在咖啡廳讀書
+    TextTw: Study in Coffee
   - GroupId: 2600506
     FavorScheduleId: 260056
     CharacterId: 26005
@@ -36,7 +36,7 @@ title:
     TextKr: You are my sunshine
     TextEn: You Are My Sunshine
     TextTh: You are my sunshine
-    TextTw: You are my sunshine
+    TextTw: 近在咫尺的陽光
 content:
   - MessageGroupId: 260050010
     Id: 1699
@@ -973,7 +973,7 @@ content:
     MessageCN: 喜美的心情我能理解，不过还是上课优先吧
     MessageEN: Let's just focus on class for now.
     MessageTH: ถ้างั้นก็เรียนก่อนก็ได้
-    MessageTW: 我懂你的心情，但還是上課優先吧
+    MessageTW: 我懂你的心情，但還是以上課為優先吧
   - MessageGroupId: 260050310
     Id: 260050090
     CharacterId: 26005
@@ -1203,7 +1203,7 @@ content:
     MessageTH: 'เดี๋ยวพูดอะไรไม่เป็นเรื่องแล้วจะทำให้
 
       เรื่องมันยุ่งยากขึ้นกว่าเดิม...'
-    MessageTW: 這樣不行，不行這樣
+    MessageTW: 這樣不行，不是那樣
   - MessageGroupId: 260050380
     Id: 260050210
     CharacterId: 26005

@@ -9,7 +9,7 @@ title:
     TextKr: 보셨죠? 저 성공했어요!
     TextEn: Did You See? I Succeeded!
     TextTh: เห็นใช่ไหมคะ? ฉันทำสำเร็จแล้วค่ะ!
-    TextTw: 老師你看到了嗎？我成功了！
+    TextTw: 我，成功了！
   - GroupId: 2600803
     FavorScheduleId: 260083
     CharacterId: 26008
@@ -18,7 +18,7 @@ title:
     TextKr: 그런데…… 무엇을 위해서였죠?
     TextEn: But...What Was It For?
     TextTh: ว่าแต่... เพื่ออะไรเหรอคะ?
-    TextTw: 不過……這到底是為了什麼呢？
+    TextTw: 到頭來，是為了什麼呢？
   - GroupId: 2600805
     FavorScheduleId: 260085
     CharacterId: 26008
@@ -27,7 +27,7 @@ title:
     TextKr: 저는 엄~청난 욕심꾸러기니까요!
     TextEn: I'm So Ambitious!
     TextTh: ก็ฉันเป็นคนโลภมาก~ นี่คะ!
-    TextTw: 我可是有很～大的抱負啊！
+    TextTw: 我，可是很貪心的！
 content:
   - MessageGroupId: 260080010
     Id: 260080010
@@ -156,7 +156,7 @@ content:
     MessageCN: 所以，小静子突然找我是为了什么事呢？
     MessageEN: So, what are you up to this summer, little Shizuko?
     MessageTH: หน้าร้อนแบบนี้มีอะไรเหรอ ชิซุโกจจี้?
-    MessageTW: 所以，這麼突然有什麼事嗎，靜子醬？
+    MessageTW: 所以，這麼突然有什麼事嗎，靜子親？
   - MessageGroupId: 260080060
     Id: 260080080
     CharacterId: 26008
@@ -173,8 +173,8 @@ content:
     MessageJP: っち……？
     MessageCN: 小……？
     MessageEN: Little...?
-    MessageTH: ชิ...?
-    MessageTW: 醬……？
+    MessageTH: ชิซุโกจจี้...?
+    MessageTW: 親……？
   - MessageGroupId: 260080070
     Id: 260080090
     CharacterId: 26008
@@ -191,10 +191,10 @@ content:
     MessageJP: まあ、良いでしょう！なにせ今日は、百夜堂が始まって以来最高の日ですからね！
     MessageCN: 算了，我不在意！不管怎么说，今天是百夜堂开业以来最棒的一天！
     MessageEN: Well, today is the best day for Momoyodou!
-    MessageTH: 'ดีละ วันนี้เป็นวันที่ยอดเยี่ยมที่สุดของ
+    MessageTH: 'เอาเถอะ วันนี้เป็นวันที่ยอดเยี่ยมที่สุด
 
-      ร้านเฮียกคิยาโค!'
-    MessageTW: 好吧！今天是百夜堂自開始以來最棒的一天！
+      ของร้านเฮียกคิยาโค!'
+    MessageTW: 嘛，好吧！今天是百夜堂自開張以來最棒的一天！
   - MessageGroupId: 260080070
     Id: 260080100
     CharacterId: 26008
@@ -286,7 +286,7 @@ content:
     MessageTH: 'ร้านเฮียกคิยาโคจะถือกำเนิดขึ้นใหม่
 
       ในรูปแบบของ "ร้านริมทะเล"'
-    MessageTW: 百夜堂將以這次地「海之家」為起點……
+    MessageTW: 百夜堂這次將以「海之家」為起點……
   - MessageGroupId: 260080100
     Id: 260080150
     CharacterId: 26008
@@ -304,7 +304,7 @@ content:
     MessageCN: 脱胎换骨，成为基沃托斯首屈一指的连锁店！
     MessageEN: Momoyodou will be reborn as a franchise well-known all over Kivotos!
     MessageTH: ที่เปิดแฟรนไชส์ไปทั่วคิโวทอสเลยค่ะ!
-    MessageTW: 將重生為奇普托斯第一的特許加盟店！
+    MessageTW: 重生為奇普托斯第一的特許加盟店！
   - MessageGroupId: 260080110
     Id: 260080160
     CharacterId: 26008
@@ -430,7 +430,7 @@ content:
     MessageCN: 果然还是算了
     MessageEN: It's nothing. Yeah.
     MessageTH: ไม่มีอะไรหรอกค่ะ อื้อ... เปล่าค่ะ
-    MessageTW: 沒有事都沒有
+    MessageTW: 什麼事都沒有
   - MessageGroupId: 260080160
     Id: 260080230
     CharacterId: 26008
@@ -519,7 +519,7 @@ content:
     MessageJP: たまには百夜堂のオーナーと
     MessageCN: 我偶尔也会想和百夜堂的老板娘
     MessageEN: Hmm... I wanna chitchat with the owner
-    MessageTH: อืม... ฉันอยากคุยกับโอนเนอร์
+    MessageTH: อืม... ครูอยากคุยกับเจ้าของร้าน
     MessageTW: 偶爾想跟百夜堂的老闆
   - MessageGroupId: 260080200
     Id: 260080280
@@ -537,7 +537,7 @@ content:
     MessageJP: 雑談とかしたいな
     MessageCN: 聊聊天之类的呢
     MessageEN: of the Momoyodou Beach Shack.
-    MessageTH: ของร้านเฮียกคิยาโคสาขาริมทะเล
+    MessageTH: ของร้านเฮียกคิยาโคสาขาริมทะเลน่ะ
     MessageTW: 一起聊聊天呢
   - MessageGroupId: 260080210
     Id: 260080290
@@ -555,7 +555,7 @@ content:
     MessageJP: ……そ、そういう事でしたら！
     MessageCN: ……如、如果是这样的话！
     MessageEN: I-In that case...
-    MessageTH: ถ้าเรื่องนั้นก็ไม่เท่าไรหรอก
+    MessageTH: ถะ... ถ้าอย่างนั้นก็ได้ค่ะ!
     MessageTW: ……如，如果是那樣的話！
   - MessageGroupId: 260080220
     Id: 260080300

@@ -9,7 +9,7 @@ title:
     TextKr: 귀여움은 정의!
     TextEn: Cuteness is Justice!
     TextTh: ความน่ารักคือความยุติธรรม!
-    TextTw: 可愛就是正義！
+    TextTw: 可愛即是正義！
   - GroupId: 2000403
     FavorScheduleId: 200043
     CharacterId: 20004
@@ -27,7 +27,7 @@ title:
     TextKr: 열사병 방지 대책
     TextEn: Preventing Heatstroke
     TextTh: วิธีป้องกันโรคลมแดด
-    TextTw: 防止中暑的對策
+    TextTw: 防止中暑對策
   - GroupId: 2000406
     FavorScheduleId: 200046
     CharacterId: 20004
@@ -36,7 +36,7 @@ title:
     TextKr: 연기와 저격수는 높은 곳을 좋아한다
     TextEn: Enjoying High Places
     TextTh: เล่นของสูง
-    TextTw: 煙霧與狙擊手喜歡高處
+    TextTw: 狙擊手與煙霧皆喜歡高處
 content:
   - MessageGroupId: 20004010
     Id: 20004010
@@ -113,7 +113,7 @@ content:
     MessageCN: 但是真白不跟朋友去而是来找我，没关系吗？
     MessageEN: Wouldn't you rather go with friends?
     MessageTH: ชวนครูไปแทนเพื่อนๆ จะดีเหรอ?
-    MessageTW: 不是跟朋友去而是跟我，沒關係嗎？
+    MessageTW: 不過不是跟朋友去而是跟我，沒關係嗎？
   - MessageGroupId: 20004050
     Id: 20004050
     CharacterId: 20004
@@ -137,7 +137,7 @@ content:
       ก็จริง แต่ดูเหมือนว่ามันจะเล็กเกินไป
 
       แล้วน่ะค่ะ'
-    MessageTW: 是，希望能拜託老師。那個，其實，我有件從中學開始穿的泳裝，但變得有點緊……
+    MessageTW: 是的，希望能拜託老師。那個，其實，我有件從中學開始穿的泳裝，但變得有點緊……
   - MessageGroupId: 20004050
     Id: 20004060
     CharacterId: 20004
@@ -409,7 +409,7 @@ content:
     MessageTH: 'คุณครู วันนี้ตอนช่วงบ่ายเราจะไปฝึก
 
       ว่ายน้ำกันตามที่ฉันเคยบอกไปนะคะ'
-    MessageTW: 老師。我身體已經恢復了，我想照之前說的那樣，先去游一下泳
+    MessageTW: 老師。我身體已經恢復了，我想照之前說的那樣，先去稍微游泳一下
   - MessageGroupId: 20004170
     Id: 20004200
     CharacterId: 20004

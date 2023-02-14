@@ -9,7 +9,7 @@ title:
     TextKr: 그저 당신을 위한 마음에
     TextEn: Because It's for You
     TextTh: ด้วยใจที่อยากมอบให้คุณ
-    TextTw: 對你的心意
+    TextTw: 只為閣下
   - GroupId: 1004303
     FavorScheduleId: 100433
     CharacterId: 10043
@@ -27,7 +27,7 @@ title:
     TextKr: 모닥불 곁에서 어른거리는 마음에
     TextEn: A Fluttering Heart Near a Bonfire
     TextTh: ด้วยใจที่เลือนรางข้างกองไฟ
-    TextTw: 在營火旁搖曳的心意
+    TextTw: 於營火旁閃爍的心意
 content:
   - MessageGroupId: 100430010
     Id: 100430010
@@ -370,7 +370,7 @@ content:
     MessageCN: 敬请期待♥
     MessageEN: Please stay tuned.
     MessageTH: ได้โปรดรอวาคาโมะก่อนนะคะ
-    MessageTW: 請敬請期待♥
+    MessageTW: 敬請期待♥
   - MessageGroupId: 100430150
     Id: 100430190
     CharacterId: 10043

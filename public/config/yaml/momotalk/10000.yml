@@ -27,7 +27,7 @@ title:
     TextKr: 진정한 리더
     TextEn: The True Leader
     TextTh: ผู้นำที่แท้จริง
-    TextTw: 真正的隊長
+    TextTw: 真正的領袖
   - GroupId: 1000006
     FavorScheduleId: 100006
     CharacterId: 10000
@@ -35,17 +35,17 @@ title:
     TextCn: 作为外部经营顾问的入社提案
     TextKr: 외부 경영 고문직 입사 제안
     TextEn: Management Consultant Job Offer
-    TextTh: ข้อเสนอให้เข้าร่วมตำแหน่งที่ปรึกษา
-    TextTw: 外部經營顧問入社提議
+    TextTh: ข้อเสนอตำแหน่งที่ปรึกษา
+    TextTw: 外部經營顧問的入社提議
   - GroupId: 1000020
     FavorScheduleId: 1000020
     CharacterId: 10000
     TextJp: 大切な
     TextCn: 重要的东西
     TextKr: 엄청나게 귀중하고 중요한 것
-    TextEn: ''
-    TextTh: ''
-    TextTw: ''
+    TextEn: Something Very Precious and Important
+    TextTh: สิ่งที่สำคัญและล้ำค่าที่สุด
+    TextTw: 珍貴的
 content:
   - MessageGroupId: 100000010
     Id: 327
@@ -63,9 +63,9 @@ content:
     MessageJP: 先生。前に手伝ってくれた依頼、あらためて決着がついたわよ
     MessageCN: 老师。上次您帮过我们忙的委托，有新结果了哦
     MessageEN: 'Sensei, we got some feedback from that last request. '
-    MessageTH: 'คุณครู ผลการทำงานวันก่อนของเรา
+    MessageTH: 'คุณครู ผลการทำงานวันก่อน
 
-      ออกมาแล้วล่ะ '
+      ของเราออกมาแล้วล่ะ '
     MessageTW: 老師。你之前幫忙的委託，又再次解決了唷
   - MessageGroupId: 100000011
     Id: 328
@@ -209,9 +209,9 @@ content:
     MessageJP: な、なんて自然な処世術、これが大人……！
     MessageCN: 如、如此自然的处世之道，不愧是大人……!
     MessageEN: You're pretty smooth. I-I guess that comes easy to adults!
-    MessageTH: 'วางตัวซะเป็นธรรมชาติเลย รู้ไหมว่าเวลา
+    MessageTH: 'พูดหน้าตาเฉยเลยนะ
 
-      แบบนี้ผู้ใหญ่ต้อง...'
+      คงเพราะเป็นผู้ใหญ่สินะ'
     MessageTW: 多，多麼自然的處世之道，這就是大人……！
   - MessageGroupId: 100000040
     Id: 336
@@ -265,7 +265,9 @@ content:
     MessageJP: そういうのも、社長のやるべきことだと思うのよ
     MessageCN: 我觉得，这也是社长应该做的事情哦
     MessageEN: who achieve excellent results.
-    MessageTH: คนที่เป็นหัวหน้าก็ต้องให้รางวัลตอบแทน
+    MessageTH: 'คนที่เป็นหัวหน้า
+
+      ก็ต้องให้รางวัลตอบแทน'
     MessageTW: 我認為這是社長該做的事
   - MessageGroupId: 100000050
     Id: 339
@@ -323,7 +325,9 @@ content:
     MessageEN:
       If I were to tell everyone we were eating the parfait challenge menu
       as an employee reward,
-    MessageTH: ถ้าให้รางวัลเป็นเมนูพาร์เฟ่ต์ท้าทาย
+    MessageTH: 'ถ้าฉันบอกทุกคนว่าเราจะให้รางวัล
+
+      ด้วยการกินพาเฟต่์ท้าทายละก็...'
     MessageTW: 「作為獎勵，大家一起吃挑戰菜單上的百匯冰淇淋」如果我這麼說
   - MessageGroupId: 100000070
     Id: 342
@@ -341,7 +345,7 @@ content:
     MessageJP: みんな怒るかもしれないわね
     MessageCN: 大家说不定会生气的吧
     MessageEN: I think they would just get mad.
-    MessageTH: พวกลูกน้องต้องโมโหเอาแน่ๆ
+    MessageTH: พวกคนอื่นๆ ต้องโมโหเอาแน่ๆ
     MessageTW: 大家可能會生氣吧
   - MessageGroupId: 100000070
     Id: 343
@@ -359,9 +363,9 @@ content:
     MessageJP: ……効率性の裏に、こんな盲点があっただなんて
     MessageCN: ……明明是如此有效率的做法，其背后竟然隐藏着如此盲点
     MessageEN: '...I was too busy thinking about efficiency to consider that.'
-    MessageTH: 'ทำไมคนที่สมบูรณ์แบบอย่างฉันถึงคิด
+    MessageTH: 'ทำไมคนที่สมบูรณ์แบบอย่างฉัน
 
-      อะไรแบบนี้ไม่ออกนะ'
+      ถึงคิดอะไรแบบนี้ไม่ออกนะ'
     MessageTW: ……效率的背後，竟然有這樣的盲點
   - MessageGroupId: 100000080
     Id: 344
@@ -397,7 +401,7 @@ content:
     MessageJP: 先生、次もまた、付き合ってくれるかしら？
     MessageCN: 老师，下次也能和我一起吗？
     MessageEN: I hope you can join us again, Sensei.
-    MessageTH: 'ไว้มาทำงานด้วยกันใหม่นะคุณครู '
+    MessageTH: ไว้ไปด้วยกันใหม่นะ คุณครู...
     MessageTW: 老師，下次還會陪我嗎？
   - MessageGroupId: 100000090
     Id: 346
@@ -415,9 +419,9 @@ content:
     MessageJP: 先生、社長になるために必要な能力はリーダーシップだけではないのよ
     MessageCN: 老师，要想成为社长，必须具备的才能可不仅仅是领导能力哦
     MessageEN: Sensei, bosses need more than just leadership skills.
-    MessageTH: 'คุณครู การจะเป็นหัวหน้าที่ดีต้องไม่ได้มี
+    MessageTH: 'คุณครู การจะเป็นหัวหน้าที่ดี
 
-      แค่ทักษะผู้นำหรอกนะ'
+      ต้องมีมากกว่าแค่ทักษะผู้นำนะ'
     MessageTW: 老師，成為社長所需的能力不僅僅是領導能力
   - MessageGroupId: 100000100
     Id: 347
@@ -455,9 +459,9 @@ content:
     MessageJP: 業務においては他にも色んな能力が必要ってこと
     MessageCN: 但为了完成业务，我还需要其他各种各样的能力
     MessageEN: but there are many more skills that I require.
-    MessageTH: 'แต่เราก็ต้องการสกิลในการทำงานที่
+    MessageTH: 'แต่เราก็ต้องการทักษะในการทำงาน
 
-      หลากหลายด้วย'
+      ที่หลากหลายด้วย'
     MessageTW: 但業務上還需要其他各式各樣的能力
   - MessageGroupId: 100000110
     Id: 349
@@ -529,7 +533,7 @@ content:
     MessageJP: だったら今日、図書館に来るといいわ。待ってるわよ、先生
     MessageCN: 那么今天就请老师来图书馆吧。我会等着哦，老师
     MessageEN: Then come to the library today, Sensei.
-    MessageTH: งั้นวันนี้มาเจอกันที่ห้องสมุด โอเคนะ?
+    MessageTH: งั้นวันนี้มาเจอกันที่ห้องสมุดนะ คุณครู?
     MessageTW: 那麼今天就來圖書館吧。我等著唷，老師
   - MessageGroupId: 100000130
     Id: 353
@@ -547,7 +551,7 @@ content:
     MessageJP: 先生、見直したわ
     MessageCN: 老师，我对您刮目相看了
     MessageEN: Sensei, I didn't expect this to happen.
-    MessageTH: ฉันทบทวนดูแล้วล่ะ
+    MessageTH: ฉันไม่คิดว่าจะเป็นแบบนี้เลยนะคุณครู
     MessageTW: 老師，對你改觀了
   - MessageGroupId: 100000130
     Id: 354
@@ -565,7 +569,7 @@ content:
     MessageJP: でも覚えておいて
     MessageCN: 但是请务必记住
     MessageEN: 'But remember: '
-    MessageTH: 'แต่จำไว้ให้มั่นเลยนะ '
+    MessageTH: แต่จำเอาไว้เลยนะ
     MessageTW: 但是記住了
   - MessageGroupId: 100000140
     Id: 355
@@ -583,7 +587,7 @@ content:
     MessageJP: 次は、こんなにまんまとはやられないから！
     MessageCN: 下次我不会再这么轻易地被老师说服了！
     MessageEN: Next time, I won't go so easy on you!
-    MessageTH: ครั้งหน้าฉันจะไม่ยอมง่ายๆ แบบนี้อีก!
+    MessageTH: ครั้งหน้าฉันจะไม่ยอมง่ายๆ แน่!
     MessageTW: 下次不會再這麼容易中計了！
   - MessageGroupId: 100000140
     Id: 356
@@ -601,7 +605,7 @@ content:
     MessageJP: ……それはそれとして。また今度、一緒に勉強するわよ♪
     MessageCN: ……先不说这个了。下次我们再一起学习吧♪
     MessageEN: Let's study together again sometime! ♪
-    MessageTH: ไปเรียนด้วยกันเถอะ♪
+    MessageTH: เอาไว้คราวหน้ามาเรียนรู้ด้วยกันใหม่นะ♪
     MessageTW: ……就是這樣。下次再一起學習吧♪
   - MessageGroupId: 100000150
     Id: 357
@@ -637,9 +641,9 @@ content:
     MessageJP: 伝説的なあの名作映画が、今度再上映するらしいわね
     MessageCN: 传说中的那部电影名作，这次好像要重映了
     MessageEN: There's a movie showing that people already say is a legendary masterpiece.
-    MessageTH: 'เห็นว่าหนังระดับตำนานเรื่องนั้นจะเอามา
+    MessageTH: 'เห็นว่าหนังระดับตำนานเรื่องนั้น
 
-      ฉายอีกครั้งล่ะ'
+      จะเอามาฉายอีกครั้งด้วยละ'
     MessageTW: 傳說中的那部電影名作，這次要重新上映了
   - MessageGroupId: 100000160
     Id: 359
@@ -657,7 +661,7 @@ content:
     MessageJP: 都合がつくようだったら、一緒に見に行かない？
     MessageCN: 要是老师方便的话，要不要我们一起去看呢？
     MessageEN: If you have time, why don't we go see it together?
-    MessageTH: ถ้ามีเวลาเราไปดูหนังด้วยกันไหม?
+    MessageTH: ถ้าครูมีเวลา ไปดูหนังกับฉันมั้ย?
     MessageTW: 方便的話，要不要一起去看？
   - MessageGroupId: 100000170
     Id: 360
@@ -694,7 +698,7 @@ content:
     MessageCN: 你、你在说什么啊老师！？
     MessageEN: Wh-What are you talking about, Sensei?!
     MessageTH: พะ.. พะ.. พูดอะไรของคุณครูน่ะ?!!
-    MessageTW: 說，說，說什麼啊，老師？！
+    MessageTW: 在，在，在說什麼啊，老師！？
   - MessageGroupId: 100000180
     Id: 362
     CharacterId: 10000
@@ -711,10 +715,10 @@ content:
     MessageJP: く、くだらないことを言ってないで、いいから映画館の前で待ち合わせよ！
     MessageCN: 少、少废话，就在电影院前面碰头吧！就这么定了！
     MessageEN: S-Stop kidding around. I'll meet you in front of the movie theater!
-    MessageTH: 'เลิกพูดอะไรไม่เข้าท่า แล้วไปเจอกันหน้า
+    MessageTH: 'เลิกพูดอะไรไม่เข้าท่า
 
-      โรงหนังดีกว่า!'
-    MessageTW: 少，少廢話了，好啦，那在電影院門口碰面唷！
+      ไปเจอกันหน้าโรงหนังเลยแล้วกัน!'
+    MessageTW: 別，別說那些無聊的話了，總之在電影院門口碰面唷！
   - MessageGroupId: 100000190
     Id: 363
     CharacterId: 10000
@@ -767,7 +771,7 @@ content:
     MessageJP: アルちゃんが私のことを呼んでいるのなら、行かざるを得ない
     MessageCN: 如果阿露叫我的话，就算我没时间也得抽出时间来
     MessageEN: Even if I was busy, I'd make time for you, Aru.
-    MessageTH: 'ถ้าอารุจังเรียกล่ะก็
+    MessageTH: 'ถ้าอารุจังเรียกละก็
 
       ต่อให้ยุ่งแค่ไหนก็จะไป'
     MessageTW: 如果是亞瑠的呼喚，不行也得行
@@ -823,9 +827,9 @@ content:
     MessageJP: 後で、便利屋の事務所に来てくれる？
     MessageCN: 老师过会儿能来便利屋的事务所一趟吗？
     MessageEN: Come to the Problem Solver office today.
-    MessageTH: 'งั้นไว้มาหาฉันที่สำนักงานหน่วยรับจ้าง
+    MessageTH: 'งั้นไว้มาหาฉันที่สำนักงาน
 
-      หน่อยนะ'
+      ของหน่วยรับจ้างหน่อยนะ'
     MessageTW: 晚點能來徵信社的辦公室嗎？
   - MessageGroupId: 100000220
     Id: 369
@@ -879,7 +883,7 @@ content:
     MessageJP: これからもよろしくお願いするわね、先生！
     MessageCN: 今后也请多多关照啦，老师！
     MessageEN: I'm looking forward to working with you, Sensei!
-    MessageTH: 'ต่อไปก็ฝากตัวด้วยนะคุณครู! '
+    MessageTH: หวังว่าจะได้ร่วมงานกันนะ คุณครู!
     MessageTW: 今後也請多多關照唷，老師！
   - MessageGroupId: 100000240
     Id: 372
@@ -916,9 +920,9 @@ content:
     MessageKR: 선생님.
     MessageJP: '先生 '
     MessageCN: 老师
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: 'Sensei. '
+    MessageTH: 'คุณครู '
+    MessageTW: 老師
   - MessageGroupId: 100000260
     Id: 100000020
     CharacterId: 10000
@@ -934,9 +938,11 @@ content:
     MessageKR: 나 개인은 물론, 우리 흥신소는 늘 선생님에게 감사하다고 생각하고 있어.
     MessageJP: あらためてだけど……私たち便利屋一同、先生に心から感謝しているわ
     MessageCN: 虽然之前我也说过类似的话……但是我，还有我们便利屋的所有人，都由衷地感谢着老师哦
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: We at Problem Solver 68 are grateful to you.
+    MessageTH: 'ทั้งฉันและสมาชิกหน่วยรับจ้างสารพัด
+
+      ของเรารู้สึกขอบคุณคุณครูมาตลอด'
+    MessageTW: 雖然先前說過了……我們徵信社全體，衷心的感謝老師
   - MessageGroupId: 100000270
     Id: 100000030
     CharacterId: 10000
@@ -952,9 +958,9 @@ content:
     MessageKR: 아루가 그렇게까지 말해주니, 어쩐지 부끄러운걸.
     MessageJP: そこまで言われると照れちゃうな
     MessageCN: 给阿露这么一说还真是真不太好意思啊
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: I'm a little embarrassed to hear that from you, Aru.
+    MessageTH: อารุพูดขนาดนี้ ครูเขินนะ
+    MessageTW: 說成這樣真讓人害羞啊
   - MessageGroupId: 100000280
     Id: 100000040
     CharacterId: 10000
@@ -970,9 +976,9 @@ content:
     MessageKR: 후후훗, 뭐야. 겨우 이 정도로 부끄러워하다니.
     MessageJP: ふふふっ、先生らしくないわね
     MessageCN: 呵呵呵，真不像老师的样子呢
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: Heehee. Come on, don't be embarrassed.
+    MessageTH: ฮุฮุฮุ อะไรกัน แค่นี้ก็เขินซะแล้วเหรอ
+    MessageTW: 呵呵呵，真不像老師呢
   - MessageGroupId: 100000280
     Id: 100000050
     CharacterId: 10000
@@ -988,9 +994,9 @@ content:
     MessageKR: 어쩐지 선생님답지 않은걸.
     MessageJP: この程度で恥ずかしがっていたら、この先やっていけないわよ
     MessageCN: 如果这点程度就要不好意思的话，以后可就没法工作了哦
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: That's unlike you.
+    MessageTH: ดูไม่สมกับเป็นคุณครูเลยนะ
+    MessageTW: 這種程度就害羞的話，未來就很難做下去了唷
   - MessageGroupId: 100000290
     Id: 100000060
     CharacterId: 10000
@@ -1006,9 +1012,13 @@ content:
     MessageKR: 이쪽만 부끄러운 건 왠지 분하니까. 아루도 부끄럽게 만들자!
     MessageJP: じゃあ攻守交替、アルにも恥ずかしがってもらおう
     MessageCN: 那就攻防交换，我也来让阿露觉得不好意思吧
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN:
+      I don't want to be embarrassed alone, so I'll have to make you feel
+      the same way!
+    MessageTH: 'ไม่ยุติธรรมเลยที่ครูเขินอยู่ฝ่ายเดียว
+
+      เพราะงั้นมาทำให้อารุเขินบ้างแล้วกัน!'
+    MessageTW: 那就攻守交換，讓亞瑠也感到害羞吧
   - MessageGroupId: 100000300
     Id: 100000070
     CharacterId: 10000
@@ -1024,9 +1034,9 @@ content:
     MessageKR: 지, 지금 당사자 앞에서 무슨 소리를 하는 거야?!
     MessageJP: どういうこと！？！？
     MessageCN: 什么情况！？！？
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: Wh-What are you talking about?!
+    MessageTH: พูดต่อหน้ากันโต้งๆ แบบนี้เลยงั้นเหรอ?!
+    MessageTW: 什麼意思！？！？
   - MessageGroupId: 100000310
     Id: 100000080
     CharacterId: 10000
@@ -1042,9 +1052,9 @@ content:
     MessageKR: 뭐, 농담이지만.
     MessageJP: ごめん、言ってみたかっただけ
     MessageCN: 抱歉，我就说着玩而已
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: Well, I'm just kidding.
+    MessageTH: ครูแค่ล้อเล่นเอง...
+    MessageTW: 抱歉，只是說說而已
   - MessageGroupId: 100000320
     Id: 100000090
     CharacterId: 10000
@@ -1060,9 +1070,11 @@ content:
     MessageKR: …하아. 진짜 선생님이랑 대화하다 보면 종종 깜짝 놀란다니깐.
     MessageJP: そ、そう……
     MessageCN: 这、这样啊……
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: '*sigh* You really surprise me sometimes when I talk to you.'
+    MessageTH: 'เฮ้อ เวลาคุยกับคุณครูทีไร
+
+      จะต้องมีเรื่องให้ตกใจทุกทีเลย'
+    MessageTW: 是，是嗎……
   - MessageGroupId: 100000330
     Id: 100000100
     CharacterId: 10000
@@ -1078,9 +1090,11 @@ content:
     MessageKR: 하, 하여간! 평소 도와주고 있는 선생님에게 보답이라도 할 겸……
     MessageJP: とにかく本題なのだけど、普段お世話になってるお礼として
     MessageCN: 总之言归正传，作为平时老师对我们的关照的谢礼
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: A-Anyway! I've been wanting to repay you for all the help...
+    MessageTH: 'ยะ...ยังไงก็เถอะ! เพื่อเป็นการตอบแทน
+
+      คุณครู ที่คอยช่วยฉันมาตลอด...'
+    MessageTW: 總之進入正題，作為平常受到關照的回禮
   - MessageGroupId: 100000330
     Id: 100000110
     CharacterId: 10000
@@ -1096,9 +1110,9 @@ content:
     MessageKR: 한턱 내려고 하는데. 어때?
     MessageJP: 食事でも一緒に、どうかしら？
     MessageCN: 一起吃个饭怎么样？
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: I want to invite you out. What do you think?
+    MessageTH: ฉันจะพาไปเลี้ยงข้าวเอง ว่ายังไง?
+    MessageTW: 一起吃頓飯，如何呢？
   - MessageGroupId: 100000340
     Id: 100000120
     CharacterId: 10000
@@ -1114,9 +1128,9 @@ content:
     MessageKR: 그런 일이라면 당연히 가야지!
     MessageJP: ぜひ！
     MessageCN: 请务必让我去！
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: I accept, of course.
+    MessageTH: อารุเลี้ยงมีเหรอจะปฏิเสธ!
+    MessageTW: 務必！
   - MessageGroupId: 100000350
     Id: 100000130
     CharacterId: 10000
@@ -1132,9 +1146,9 @@ content:
     MessageKR: 후후후. 그래…?
     MessageJP: それは良かったわ
     MessageCN: 那真是太好了
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: Heeheehee, really?
+    MessageTH: ฮุฮุฮุ งั้นเหรอ...?
+    MessageTW: 那太好了
   - MessageGroupId: 100000350
     Id: 100000140
     CharacterId: 10000
@@ -1150,6 +1164,6 @@ content:
     MessageKR: 그럼 기다리고 있을게. 선생님.
     MessageJP: じゃあ待ってるわよ、先生
     MessageCN: 那我就等着老师哦
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: Then, I'll be waiting, Sensei.
+    MessageTH: ถ้างั้นฉันจะรอแล้วกันนะ คุณครู
+    MessageTW: 那我等著唷，老師

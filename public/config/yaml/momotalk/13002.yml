@@ -18,7 +18,7 @@ title:
     TextKr: 마늘은 포기할 수 없어
     TextEn: Garlic-A-Holic
     TextTh: ยอมแพ้เจ้ากระเทียมไม่ได้!
-    TextTw: 不能放棄大蒜
+    TextTw: 竟然沒加大蒜
   - GroupId: 1300205
     FavorScheduleId: 130025
     CharacterId: 13002
@@ -27,7 +27,7 @@ title:
     TextKr: 대식가 출입 금지
     TextEn: The Right to Refuse Gluttons
     TextTh: นักกินจุห้ามเข้า
-    TextTw: 大胃王禁止出入
+    TextTw: 謝絕入場
   - GroupId: 1300206
     FavorScheduleId: 130026
     CharacterId: 13002
@@ -36,7 +36,7 @@ title:
     TextKr: 미식가의 긍지
     TextEn: Gourmand's Pride
     TextTh: ศักดิ์ศรีของนักชิม
-    TextTw: 美食家的驕傲
+    TextTw: 美食家的矜持
 content:
   - MessageGroupId: 130020010
     Id: 1223

@@ -18,7 +18,7 @@ title:
     TextKr: 불로불사의 영약
     TextEn: Immortality Elixir
     TextTh: ยาอายุวัฒนะ
-    TextTw: 長生不老的靈藥
+    TextTw: 不老不死的靈藥
   - GroupId: 2000205
     FavorScheduleId: 200025
     CharacterId: 20002
@@ -36,7 +36,7 @@ title:
     TextKr: 치즈 인 더 트랩
     TextEn: Cheese in the Trap
     TextTh: กับดักแสนหวาน
-    TextTw: 陷阱裡的奶酪
+    TextTw: Cheese．In．The．Trap
   - GroupId: 2000208
     FavorScheduleId: 200028
     CharacterId: 20002
@@ -54,7 +54,7 @@ title:
     TextKr: 네즈스케의 행방불명
     TextEn: Nezusuke Is Missing!
     TextTh: การหายตัวไปของเนสึซึเกะ
-    TextTw: 根津助下落不明
+    TextTw: 下落不明的根津助
 content:
   - MessageGroupId: 200020010
     Id: 1383
@@ -305,7 +305,7 @@ content:
     MessageCN: 我拒绝
     MessageEN: No.
     MessageTH: ไม่ให้หรอก
-    MessageTW: 拒絕
+    MessageTW: 我拒絕
   - MessageGroupId: 200020110
     Id: 1396
     CharacterId: 20002
@@ -463,7 +463,7 @@ content:
       ทำให้เกิดการเปลี่ยนแปลงที่ยิ่งใหญ่
 
       ขนาดนี้'
-    MessageTW: 變成這樣，我也很吃驚
+    MessageTW: 變成這樣我也很吃驚
   - MessageGroupId: 200020160
     Id: 1404
     CharacterId: 20002
@@ -481,7 +481,7 @@ content:
     MessageCN: 虽然也不是说要补偿老师什么的
     MessageEN: I know it's not much, but...
     MessageTH: จะไถ่โทษยังไงดีนะ?
-    MessageTW: 雖然不是補償
+    MessageTW: 雖然可能算不上補償
   - MessageGroupId: 200020160
     Id: 1405
     CharacterId: 20002
@@ -539,7 +539,7 @@ content:
     MessageCN: 我拒绝
     MessageEN: No.
     MessageTH: ไม่ให้หรอก
-    MessageTW: 拒絕
+    MessageTW: 我拒絕
   - MessageGroupId: 200020180
     Id: 1408
     CharacterId: 20002
@@ -661,7 +661,7 @@ content:
     MessageTH: 'ร้านนี้ฉันไปชิมมาแล้ว รับรองเลยว่าจะ
 
       ถูกปากครูเหมือนกัน!'
-    MessageTW: 是非常美味的店，老師嘗過之後一定也會喜歡！
+    MessageTW: 是非常好吃的店，老師嘗過之後一定會喜歡！
   - MessageGroupId: 200020230
     Id: 1414
     CharacterId: 20002
@@ -723,7 +723,7 @@ content:
     MessageTH: 'จะว่าไป.. แก๊งหมวกกันน็อกที่รับ
 
       ยาลดน้ำหนักไปจะเป็นยังไงนะ?'
-    MessageTW: 嗯，一定。話說回來，那個獲得藥的頭盔團怎麼樣了？
+    MessageTW: 嗯，一定。話說拿到藥的頭盔團怎麼樣了？
   - MessageGroupId: 200020250
     Id: 1417
     CharacterId: 20002
@@ -741,7 +741,7 @@ content:
     MessageCN: 嗯……？这么说来对那个人有点印象……
     MessageEN: Huh? Oh, you mean those guys...
     MessageTH: หืม? หมายถึงพวกนั้นเหรอ?
-    MessageTW: 嗯……？這麼說來，確實有那樣的傢伙……
+    MessageTW: 嗯……？對喔，差點忘記他們了……
   - MessageGroupId: 200020250
     Id: 1418
     CharacterId: 20002
@@ -817,7 +817,7 @@ content:
     MessageTH: 'ไม่เอาน่า อย่ามาทำตัวยุ่งเลย
 
       ฉันได้บอร์ดเกมที่ดูน่าสนุกมาด้วยล่ะ'
-    MessageTW: 耶～別說那麼死板的話嘛。我入手了一個有趣的桌遊
+    MessageTW: 耶～別那麼死板嘛。我弄到一個有趣的桌遊
   - MessageGroupId: 200020280
     Id: 1422
     CharacterId: 20002
@@ -935,7 +935,7 @@ content:
     MessageTH: 'ก่อนจะเล่นเกม เธอเลิกหมกมุ่นเกี่ยว
 
       กับชีสก่อนดีกว่าไหม...?'
-    MessageTW: 跟遊戲什麼的無關，得先斬斷對起司的執著才有可能吧……？
+    MessageTW: 先不管遊戲，你得先斬斷對起司的執著吧……？
   - MessageGroupId: 200020320
     Id: 1428
     CharacterId: 20002
@@ -953,7 +953,7 @@ content:
     MessageCN: 老师……今天我有重要的话要对老师说的呢
     MessageEN: I have something important to say, Sensei.
     MessageTH: วันนี้ท่านซายะมีเรื่องสำคัญจะบอกครูล่ะ
-    MessageTW: 老師……今天有重要的話要跟老師說
+    MessageTW: 老師……今天有件重要的事要跟老師商量
   - MessageGroupId: 200020330
     Id: 1429
     CharacterId: 20002
@@ -971,7 +971,7 @@ content:
     MessageCN: 重要的话？是什么？
     MessageEN: Something important? What is it?
     MessageTH: เรื่องสำคัญเหรอ? เรื่องอะไรกัน?
-    MessageTW: 重要的話？什麼事？
+    MessageTW: 重要的事？什麼事？
   - MessageGroupId: 200020340
     Id: 1430
     CharacterId: 20002
@@ -1007,7 +1007,7 @@ content:
     MessageCN: 那个，因为是很重要的话……
     MessageEN: It's something very important...
     MessageTH: เพราะเป็นเรื่องสำคัญมากๆ...
-    MessageTW: 那個，因為是非常重要的話……
+    MessageTW: 那個，因為是非常重要的事……
   - MessageGroupId: 200020350
     Id: 1432
     CharacterId: 20002
@@ -1045,7 +1045,7 @@ content:
     MessageCN: 我会等老师的呢
     MessageEN: I'll be waiting.
     MessageTH: แล้วฉันจะรอ
-    MessageTW: 我等著老師
+    MessageTW: 我等你
   - MessageGroupId: 200020360
     Id: 1434
     CharacterId: 20002
@@ -1109,7 +1109,7 @@ content:
     MessageTH: 'ไม่คิดเลยว่าจะได้กินชีสจนพุงกางที่ใน
 
       ความฝันด้วย'
-    MessageTW: 想吃多少起司就吃多少，即使是在夢中也是第一次！
+    MessageTW: 想吃多少就吃多少，即使是在夢中也是第一次！
   - MessageGroupId: 200020380
     Id: 1437
     CharacterId: 20002

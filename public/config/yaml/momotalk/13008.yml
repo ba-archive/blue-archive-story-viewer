@@ -9,7 +9,7 @@ title:
     TextKr: 아르바이트 보조
     TextEn: Part-Time Job Assistant
     TextTh: ผู้ช่วยพาร์ทไทม์
-    TextTw: 打工輔助
+    TextTw: 打工的支援
   - GroupId: 1300803
     FavorScheduleId: 130083
     CharacterId: 13008
@@ -18,7 +18,7 @@ title:
     TextKr: 하드한 밤샘 알바
     TextEn: Hardcore All-Night Part-Time Job
     TextTh: งานพาร์ทไทม์แสนยากตลอดทั้งคืน
-    TextTw: 很硬的通宵打工
+    TextTw: 硬核的通宵打工
   - GroupId: 1300805
     FavorScheduleId: 130085
     CharacterId: 13008
@@ -45,7 +45,7 @@ title:
     TextKr: 뜻밖의 횡재
     TextEn: Unexpected Luck
     TextTh: มีโชคอย่างคาดไม่ถึง
-    TextTw: 意外之財
+    TextTw: 意想不到的幸運
   - GroupId: 1300809
     FavorScheduleId: 130089
     CharacterId: 13008
@@ -127,7 +127,7 @@ content:
     MessageCN: 诶、诶？
     MessageEN: Um... Huh?
     MessageTH: อืม... เอ๊ะ?
-    MessageTW: 耶，耶？
+    MessageTW: 咦，咦？
   - MessageGroupId: 130080030
     Id: 238
     CharacterId: 13008
@@ -205,7 +205,7 @@ content:
     MessageCN: 那个……诶诶……？
     MessageEN: Huh? Excuse me?
     MessageTH: '...หือ? ว่ายังไงนะ?'
-    MessageTW: 那個……耶……？
+    MessageTW: 那個……咦咦……？
   - MessageGroupId: 130080050
     Id: 242
     CharacterId: 13008
@@ -337,7 +337,7 @@ content:
     MessageCN: 明白——
     MessageEN: Ugh. All right.
     MessageTH: กะ.. ก็ได้
-    MessageTW: 了解──
+    MessageTW: 了解～
   - MessageGroupId: 130080100
     Id: 249
     CharacterId: 13008
@@ -941,7 +941,7 @@ content:
       แล้ว... แต่นานๆ ทีได้สนุกแบบนี้ก็ไม่เป็น
 
       ไรหรอกเนอะ? ฮุฮุ'
-    MessageTW: 結果花了幾乎一半的打工費，但偶爾這樣也不錯吧？
+    MessageTW: 結果花了幾乎一半的打工薪水，但偶爾這樣也不錯吧？
   - MessageGroupId: 130080250
     Id: 281
     CharacterId: 13008

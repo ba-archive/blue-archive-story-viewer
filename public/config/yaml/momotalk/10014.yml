@@ -9,7 +9,7 @@ title:
     TextKr: 그래서 이즈나는 미행한다.
     TextEn: Izuna's Tailing Technique
     TextTh: อิซุนะสะกดรอยตาม
-    TextTw: 所以伊樹菜跟蹤。
+    TextTw: 於是伊樹菜開始跟蹤
   - GroupId: 1001403
     FavorScheduleId: 100143
     CharacterId: 10014
@@ -18,7 +18,7 @@ title:
     TextKr: 그래서 이즈나는 호위한다.
     TextEn: Izuna's Protection Technique
     TextTh: อิซุนะเดินไปเป็นเพื่อน
-    TextTw: 所以伊樹菜護衛。
+    TextTw: 於是伊樹菜開始護衛
   - GroupId: 1001405
     FavorScheduleId: 100145
     CharacterId: 10014
@@ -27,7 +27,7 @@ title:
     TextKr: 그래서 이즈나는 좋아한다.
     TextEn: What Izuna Likes
     TextTh: เพราะแบบนั้นอิซุนะจึงรู้สึกดี
-    TextTw: 所以伊樹菜喜歡
+    TextTw: 於是伊樹菜開始喜歡
   - GroupId: 1001406
     FavorScheduleId: 100146
     CharacterId: 10014
@@ -36,7 +36,7 @@ title:
     TextKr: 주군과 함께 있는 지금을.
     TextEn: Together with My Lord
     TextTh: ช่วงเวลานี้ที่ได้อยู่กับนายท่าน
-    TextTw: 和主公在一起的現在。
+    TextTw: 能共處時光的這個瞬間
 content:
   - MessageGroupId: 100140010
     Id: 2506
@@ -207,7 +207,7 @@ content:
     MessageCN: 是的！
     MessageEN: Yes!
     MessageTH: ค่ะ!
-    MessageTW: 是！
+    MessageTW: 是的！
   - MessageGroupId: 100140060
     Id: 2515
     CharacterId: 10014
@@ -321,7 +321,7 @@ content:
     MessageCN: 诶嘿嘿，好的！
     MessageEN: Heeheehee. Okay!
     MessageTH: แหะๆ ค่า~!
-    MessageTW: 嘿嘿，是！
+    MessageTW: 欸嘿嘿，是的！
   - MessageGroupId: 100140100
     Id: 2521
     CharacterId: 10014
@@ -585,7 +585,7 @@ content:
     MessageTH: 'ข่าวด่วน! ข่าวล่ามาแรง!
 
       เกิดเรื่องใหญ่แล้วละค่ะ!'
-    MessageTW: 速報！特報！是件大事！
+    MessageTW: 速報！特報！是大事件！
   - MessageGroupId: 100140200
     Id: 2535
     CharacterId: 10014
@@ -663,7 +663,7 @@ content:
     MessageCN: 是的！
     MessageEN: Yes!
     MessageTH: ค่ะ!
-    MessageTW: 是！
+    MessageTW: 是的！
   - MessageGroupId: 100140230
     Id: 2539
     CharacterId: 10014
@@ -773,7 +773,7 @@ content:
     MessageCN: 诶嘿嘿！那泉奈就等候主公光临啦！
     MessageEN: Heehee! I'll be waiting!
     MessageTH: ฮิฮิ! ถ้างั้นอิซุนะจะรอนะคะ!
-    MessageTW: 嘿嘿！那我等你唷！
+    MessageTW: 欸嘿嘿！那我等著主公哦！
   - MessageGroupId: 100140270
     Id: 2545
     CharacterId: 10014
@@ -793,7 +793,7 @@ content:
     MessageTH: 'อิซุนะดีใจที่ได้รู้เรื่องนินจามากขึ้น
 
       ไปพร้อมๆ กับนายท่าน!'
-    MessageTW: 能更進一步了解主公和忍者，我很開心！
+    MessageTW: 能更進一步了解主公和忍者，伊樹菜很開心！
   - MessageGroupId: 100140270
     Id: 2546
     CharacterId: 10014
@@ -813,7 +813,7 @@ content:
     MessageTH: 'อิซุนะจะเป็นนินจาที่เพรียบพร้อม
 
       ก่อนจะไปหานายท่านให้ได้ค่ะ!'
-    MessageTW: 伊樹菜之後也會以更完美的忍者姿態見面的，主公！
+    MessageTW: 下次，伊樹菜就能以更完美的忍者的姿態和您見面了呢，主公！
   - MessageGroupId: 100140280
     Id: 2547
     CharacterId: 10014
@@ -831,7 +831,7 @@ content:
     MessageCN: 这、这样啊……？
     MessageEN: O-Okay...
     MessageTH: ตะ...ตกลง
-    MessageTW: 好，好唷……？
+    MessageTW: 就，就是說呢……？
   - MessageGroupId: 100140290
     Id: 2548
     CharacterId: 10014
@@ -887,7 +887,7 @@ content:
     MessageCN: 确实，锻炼是很重要的呢。
     MessageEN: Yes, training is very important.
     MessageTH: ใช่แล้ว วินัยเป็นเรื่องสำคัญนะ
-    MessageTW: 確實，鍛鍊很重要的
+    MessageTW: 確實，鍛鍊是很重要的呢
   - MessageGroupId: 100140310
     Id: 2551
     CharacterId: 10014
@@ -907,7 +907,7 @@ content:
     MessageTH: 'เพราะจิตใจที่แจ่มใสอยู่ในร่างกาย
 
       ที่สมบูรณ์ยังไงล่ะ'
-    MessageTW: 有句話說「健康的身體寄宿著健全的精神」嘛
+    MessageTW: 畢竟健康的身體，可以說是寄宿著健全的精神呢
   - MessageGroupId: 100140320
     Id: 2552
     CharacterId: 10014
@@ -925,7 +925,7 @@ content:
     MessageCN: 没错，就是这样！
     MessageEN: Yes, just as you told me!
     MessageTH: ค่ะ ฉันจะทำตามที่นายท่านบอกค่ะ!
-    MessageTW: 是，就是這樣！
+    MessageTW: 是的，我想就是那樣！
   - MessageGroupId: 100140330
     Id: 2553
     CharacterId: 10014
@@ -985,7 +985,7 @@ content:
     MessageTH: 'ตอนที่นอนหลับกรนคร่อกๆ เองก็ต้อง
 
       ช่างสังเกตอยู่ตลอดเวลา!'
-    MessageTW: 甚至是熟睡的時候，也不能壞了鍛鍊的姿勢和氣魄！
+    MessageTW: 甚至是熟睡的時候，都不能少了鍛鍊的姿勢和氣魄！
   - MessageGroupId: 100140340
     Id: 2556
     CharacterId: 10014
@@ -1021,7 +1021,7 @@ content:
     MessageCN: 是的！就是那样！因为一整天的时间里，也包括了睡觉！
     MessageEN: But that's what it takes!
     MessageTH: ค่ะ! ต้องแบบนั้นแหละค่ะ!
-    MessageTW: 是！沒錯！因為是一整天！
+    MessageTW: 是的！沒錯！因為是一整天！
   - MessageGroupId: 100140350
     Id: 2558
     CharacterId: 10014
@@ -1077,7 +1077,7 @@ content:
     MessageCN: 嗯。虽然我不是很懂，但是可以哦
     MessageEN: But, sure.
     MessageTH: ก็...ได้นะ
-    MessageTW: 嗯。雖然還不太明白，好唷
+    MessageTW: 嗯。雖然還不太明白，不過可以唷
   - MessageGroupId: 100140370
     Id: 2561
     CharacterId: 10014
@@ -1115,7 +1115,7 @@ content:
     MessageTH: 'ขอบคุณที่มาฝึกให้อิซุนะวันนี้นะคะ
 
       นายท่าน!'
-    MessageTW: 謝謝你今天陪我修行！主公！
+    MessageTW: 謝謝您今天陪我修行！主公！
   - MessageGroupId: 100140390
     Id: 2563
     CharacterId: 10014

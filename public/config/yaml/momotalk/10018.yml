@@ -9,7 +9,7 @@ title:
     TextKr: 캐비닛 속의 안식처
     TextEn: Sanctuary of the Cabinet
     TextTh: ที่พักผ่อนในตู้เก็บของ
-    TextTw: 置物櫃中的避風港
+    TextTw: 療癒空間位於置物櫃中
   - GroupId: 1001803
     FavorScheduleId: 100183
     CharacterId: 10018
@@ -18,7 +18,7 @@ title:
     TextKr: 상냥한 파이터
     TextEn: A Friendly Fighter
     TextTh: นักสู้ผู้อ่อนโยน
-    TextTw: 善良的戰士
+    TextTw: 溫柔的鬥士
   - GroupId: 1001805
     FavorScheduleId: 100185
     CharacterId: 10018
@@ -27,7 +27,7 @@ title:
     TextKr: 부끄럼쟁이의 아르바이트 1
     TextEn: A Shy Girl's Part-Time Job 1
     TextTh: งานพาร์ทไทม์ของเด็กขี้อาย 1
-    TextTw: 害羞鬼的打工 1
+    TextTw: 害羞鬼的打工（１）
   - GroupId: 1001806
     FavorScheduleId: 100186
     CharacterId: 10018
@@ -36,7 +36,7 @@ title:
     TextKr: 부끄럼쟁이의 아르바이트 2
     TextEn: A Shy Girl's Part-Time Job 2
     TextTh: งานพาร์ทไทม์ของเด็กขี้อาย 2
-    TextTw: 害羞鬼的打工 2
+    TextTw: 害羞鬼的打工（２）
   - GroupId: 1001808
     FavorScheduleId: 100188
     CharacterId: 10018
@@ -45,7 +45,7 @@ title:
     TextKr: 유원지에서의 약속
     TextEn: A Promise at the Theme Park
     TextTh: คำมั่นสัญญา ณ สวนสนุก
-    TextTw: 遊樂園中的約定
+    TextTw: 於遊樂園的約定
 content:
   - MessageGroupId: 100180010
     Id: 100180010
@@ -224,7 +224,7 @@ content:
     MessageTH: 'คุณครูคะ คราวหน้ารบกวนหาตู้อัน
 
       ใหม่แทนนะคะ'
-    MessageTW: 老師，下次希望你找別的儲物櫃……
+    MessageTW: 老師，下次希望你找別的置物櫃……
   - MessageGroupId: 100180070
     Id: 100180100
     CharacterId: 10018
@@ -244,7 +244,7 @@ content:
     MessageTH: 'ตู้เก็บของที่ชมรมพัฒนาเกมน่ะ เป็นตู้
 
       ที่ฉันใช้คนเดียวค่ะ'
-    MessageTW: 遊戲開發部的是我專用的儲物櫃……
+    MessageTW: 遊戲開發部的是我專用的置物櫃……
   - MessageGroupId: 100180080
     Id: 100180110
     CharacterId: 10018
@@ -432,7 +432,7 @@ content:
     MessageCN: 啊，但是，我经常玩对战型的格斗游戏
     MessageEN: But I still like fighting games.
     MessageTH: แต่ถ้าเป็นเกมต่อสู้ล่ะก็พอไหวอยู่ค่ะ
-    MessageTW: 啊，不過，對戰型的格鬥遊戲倒是常玩
+    MessageTW: 啊，不過，對戰格鬥遊戲倒是常玩
   - MessageGroupId: 100180140
     Id: 100180210
     CharacterId: 10018
@@ -676,7 +676,7 @@ content:
     MessageTH: 'โลกแห่งการพัฒนาเกมนี่มัน
 
       โหดร้ายจริงๆ เลยนะ'
-    MessageTW: 開發遊戲是個艱難的世界呢……
+    MessageTW: 遊戲開發是的世界真艱難呢……
   - MessageGroupId: 100180230
     Id: 100180330
     CharacterId: 10018
@@ -756,7 +756,7 @@ content:
     MessageTH: 'งานพิเศษคราวที่แล้วเลวร้ายสุดๆ
 
       เลยค่ะ'
-    MessageTW: 上次的打工，我搞砸了很多的事……
+    MessageTW: 上次的打工，我搞砸了很多事……
   - MessageGroupId: 100180250
     Id: 100180370
     CharacterId: 10018
@@ -878,7 +878,7 @@ content:
     MessageTH: 'ไม่เป็นไรหรอก รอบนี้เป็นงานที่ไม่ต้องไป
 
       เจอหน้าคนอื่นด้วยนะ'
-    MessageTW: 沒事的。這次的打工是不用直接看別人的臉也能做的
+    MessageTW: 沒事的。這次的打工不用直接面對人也能做
   - MessageGroupId: 100180290
     Id: 100180430
     CharacterId: 10018
@@ -896,7 +896,7 @@ content:
     MessageCN: 诶，还有这样的打工吗……
     MessageEN: A job where I don't need to see people...?
     MessageTH: งานพิเศษที่ไม่ต้องเจอหน้าคนอื่น...
-    MessageTW: 咦，那樣的打工嗎……
+    MessageTW: 咦，有那種打工……
   - MessageGroupId: 100180290
     Id: 100180440
     CharacterId: 10018
@@ -1072,7 +1072,7 @@ content:
     MessageCN: 不是，那个，和老师一起……
     MessageEN: No, I really want to be with you...
     MessageTH: ไม่ค่ะ คราวนี้ฉันกับคุณครูจะต้อง...
-    MessageTW: 不，那個，和老師一起……
+    MessageTW: 不，那個，我想和老師一起……
   - MessageGroupId: 100180370
     Id: 100180530
     CharacterId: 10018
@@ -1090,7 +1090,7 @@ content:
     MessageCN: 不对，虽然，但是……
     MessageEN: 'I mean... '
     MessageTH: 'ไม่สิ '
-    MessageTW: 不
+    MessageTW: 不對！雖然那也是目的之一，那個……
   - MessageGroupId: 100180370
     Id: 100180540
     CharacterId: 10018
@@ -1108,7 +1108,7 @@ content:
     MessageCN: 我无论如何都想送老师礼物！
     MessageEN: I want to give you a gift!
     MessageTH: ฉันจะต้องให้ของขวัญคุณครูให้ได้ค่ะ
-    MessageTW: 無論如何都想把禮物送給老師！
+    MessageTW: 我無論如何都想送老師禮物！
   - MessageGroupId: 100180380
     Id: 100180550
     CharacterId: 10018
@@ -1246,4 +1246,4 @@ content:
     MessageCN: 帮老师买东西之类的事情，老师直接和我说我也会帮忙买的！
     MessageEN: I can do that for you without the pass I gave you!
     MessageTH: เรื่องแบบนี้น่ะ แค่ไหว้วานกันก็พอค่ะ!
-    MessageTW: 像這種的話，只要正常地跟我說就會買來的！
+    MessageTW: 這點小事，只要你說了我就會幫忙買！

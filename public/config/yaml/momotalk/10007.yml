@@ -36,7 +36,7 @@ title:
     TextKr: 미화 정비
     TextEn: Aesthetic Maintenance
     TextTh: รักษาสุนทรียศาสตร์
-    TextTw: 美化裝備
+    TextTw: 美化活動
   - GroupId: 1000708
     FavorScheduleId: 100078
     CharacterId: 10007
@@ -64,7 +64,7 @@ content:
     MessageCN: 老师，对不起……你现在有空吗？
     MessageEN: Sensei, I'm sorry...but do you have a minute?
     MessageTH: ขอโทษนะคุณครู... แต่พอมีเวลาไหม?
-    MessageTW: 老師，抱歉……現在有一點時間嗎？
+    MessageTW: 老師，抱歉……可以耽誤一點時間嗎？
   - MessageGroupId: 100070020
     Id: 578
     CharacterId: 10007
@@ -384,7 +384,7 @@ content:
     MessageCN: 我放学后要去黑——
     MessageEN: I was gonna go to the Black Market after school...
     MessageTH: หลังเลิกเรียนวันนี้ฉันมีธุระที่ตลาดมืด...
-    MessageTW: 我要去黑ㄕ
+    MessageTW: 我要去黑
   - MessageGroupId: 100070140
     Id: 595
     CharacterId: 10007
@@ -744,7 +744,7 @@ content:
     MessageCN: 老师，谢谢你给我补课。
     MessageEN: 'Thanks for helping me study, Sensei. '
     MessageTH: 'ขอบคุณที่ช่วยสอนนะคุณครู '
-    MessageTW: 謝謝你教我學習，老師
+    MessageTW: 謝謝你教我念書，老師
   - MessageGroupId: 100070280
     Id: 614
     CharacterId: 10007
@@ -884,7 +884,7 @@ content:
     MessageTH: 'เพราะคุณครูช่วยสอนฉันไว้เมื่อคราวที่
 
       แล้วยังไงล่ะ '
-    MessageTW: 呵呵，多虧了老師上次幫我學習
+    MessageTW: 呵呵，多虧了老師上次教我念書！
   - MessageGroupId: 100070340
     Id: 621
     CharacterId: 10007
@@ -902,7 +902,7 @@ content:
     MessageCN: 恭喜啊，真纪也很努力的在学习了呢
     MessageEN: Congratulations. You worked really hard.
     MessageTH: ดีใจด้วยนะ มากิเองก็พยายามได้ดีมาก
-    MessageTW: 恭喜，真紀也努力學習了呢
+    MessageTW: 恭喜，真紀也努力念書了呢
   - MessageGroupId: 100070350
     Id: 622
     CharacterId: 10007
@@ -962,7 +962,7 @@ content:
     MessageCN: 真的吗！？说好了哦，老师！
     MessageEN: Really? You promise, Sensei?
     MessageTH: จริงเหรอ? สัญญานะ!?
-    MessageTW: 真的嗎！？約定唷，老師！
+    MessageTW: 真的嗎！？約好了唷，老師！
   - MessageGroupId: 100070370
     Id: 625
     CharacterId: 10007

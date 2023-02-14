@@ -9,7 +9,7 @@ title:
     TextKr: 올해가 가기 전에
     TextEn: Before the Year Is Out
     TextTh: ก่อนปีนี้จะผ่านพ้นไป
-    TextTw: 在今年結束之前
+    TextTw: 於今年結束之前
   - GroupId: 1003103
     FavorScheduleId: 100313
     CharacterId: 10031
@@ -18,7 +18,7 @@ title:
     TextKr: 조금쯤은, 보여주고픈 모습
     TextEn: The Side You'd Like to Show
     TextTh: ภาพลักษณ์ที่อยากให้เห็น
-    TextTw: 想展現的那一面
+    TextTw: 想展現的背影
   - GroupId: 1003105
     FavorScheduleId: 100315
     CharacterId: 10031
@@ -27,7 +27,7 @@ title:
     TextKr: 당신과 함께 첫걸음을
     TextEn: The First Step With You
     TextTh: ก้าวแรกของเรา
-    TextTw: 並肩踏出第一步
+    TextTw: 最初的一步與你一同
   - GroupId: 1003106
     FavorScheduleId: 100316
     CharacterId: 10031
@@ -36,7 +36,7 @@ title:
     TextKr: 새해 운세 확인
     TextEn: Reading New Year Fortunes
     TextTh: เสี่ยงทายดวงปีใหม่
-    TextTw: 今年的運勢
+    TextTw: 新年試手氣
 content:
   - MessageGroupId: 100310010
     Id: 100310010
@@ -233,7 +233,7 @@ content:
     MessageTH: 'ขอบอกเอาไว้ก่อน หุ้นส่วนธุรกิจ
 
       อย่างคุณครูไม่มีสิทธิ์ปฏิเสธเด็ดขาด!'
-    MessageTW: 順帶一提，身為合夥人的老師沒有否決的權力！
+    MessageTW: 順帶一提，身為合夥人的老師沒有拒絕的權利！
   - MessageGroupId: 100310080
     Id: 100310110
     CharacterId: 10031

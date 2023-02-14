@@ -9,7 +9,7 @@ title:
     TextKr: 보충수업과 디저트
     TextEn: Make-Up Work and Dessert
     TextTh: คาบเรียนเสริมกับของหวาน
-    TextTw: 補課和甜點
+    TextTw: 補課與甜點
   - GroupId: 1004903
     FavorScheduleId: 100493
     CharacterId: 10049
@@ -18,7 +18,7 @@ title:
     TextKr: 이래 뵈도 방과후 디저트부의 일원
     TextEn: After-School Sweets Club Member
     TextTh: เห็นอย่างนี้ก็สมาชิกชมรมของหวานฯ นะ
-    TextTw: 我可是放學後的甜點部的一員
+    TextTw: 我好歹也是放學後的甜點部成員
   - GroupId: 1004905
     FavorScheduleId: 100495
     CharacterId: 10049
@@ -27,7 +27,7 @@ title:
     TextKr: 나쁜 타이밍
     TextEn: Bad Timing
     TextTh: จังหวะนรก
-    TextTw: 錯誤的時機
+    TextTw: 不湊巧
   - GroupId: 1004906
     FavorScheduleId: 100496
     CharacterId: 10049
@@ -898,13 +898,13 @@ content:
     FeedbackTimeMillisec: 1500
     MessageType: Text
     ImagePath: ''
-    MessageKR: 선생님은 뭐 특별히 좋아하는 디저트라던가 있어? 지난번의 연장인데…….
+    MessageKR: 선생님은 뭐 특별히 좋아하는 디저트라든가 있어? 지난번의 연장인데…….
     MessageJP: この前の続きだけど……すごく好きなスイーツとかある？
     MessageCN: 就是上次说到一半的事情……老师有没有特别喜欢的甜品？
     MessageEN:
       Sensei, do you have a favorite dessert? I think we kinda talked about
       this before.
-    MessageTH: คุณครูมีของหวานที่ชอบเป็นพิเศษรึเปล่า? คือเมื่อคราวที่แล้ว...
+    MessageTH: คุณครูมีของหวานที่ชอบเป็นพิเศษรึเปล่า? ฉันอยากคุยต่อจากคราวที่แล้ว...
     MessageTW: 接續之前的話題……有非常喜歡的甜點嗎？
   - MessageGroupId: 100490340
     Id: 100490480
@@ -1008,13 +1008,13 @@ content:
     FeedbackTimeMillisec: 1000
     MessageType: Text
     ImagePath: ''
-    MessageKR: 그냥 나중에라도……. 준비했을 때 안 좋아하는 거면 아쉽잖아
+    MessageKR: 그냥 나중에라도……. 기껏 줬는데 좋아하지 않는 거면 아쉽잖아
     MessageJP: ほら……せっかく買っても、好みから外れたら困るじゃん
     MessageCN: 就……买都买了，要是老师不喜欢的话不就麻烦了嘛
-    MessageEN: I just wanna make sure you'll like the things I prepare.
-    MessageTH: 'แค่เผื่อไว้มีโอกาสน่ะ... แต่ถ้าเตรียมไว้
+    MessageEN: If I'm gonna make it, I wanna make sure you'll actually like it.
+    MessageTH: 'แค่เผื่อไว้มีโอกาสน่ะ... แต่ว่าถ้าเตรียมไว้แล้ว
 
-      แล้วคุณครูไม่ชอบก็น่าเสียดายใช่มั้ยล่ะ'
+      คุณครูไม่ชอบก็น่าเสียดายใช่มั้ยล่ะ?'
     MessageTW: 你想啊……好不容易買了，如果不喜歡的話就麻煩了
   - MessageGroupId: 100490380
     Id: 100490540
@@ -1244,15 +1244,11 @@ content:
     FeedbackTimeMillisec: 1000
     MessageType: Text
     ImagePath: ''
-    MessageKR: 노파심에 다시 한번 말하니까 진짜 ‘처리’ 같은 거 아냐
+    MessageKR: 노파심에 다시 한번 말하니까 진짜 '처리' 같은 거 아냐
     MessageJP: 本当に「処理」なんかじゃないからね
     MessageCN: 我真的不是想让老师帮我“处理”掉之类的
-    MessageEN:
-      Again, I just want you to know that I wasn't trying to "get it over
-      with."
-    MessageTH: "ที่ฉันพูดซ้ำๆ ไปก็เพราะว่าเป็นห่วง
-
-      มันไม่ใช่การ 'จัดการ' จริงๆ สักหน่อย"
+    MessageEN: I don't want you to think I was just getting it over with or anything.
+    MessageTH: ที่ฉันพูดซ้ำๆ ไปก็เพราะว่าเป็นห่วง มันไม่ใช่การ "จัดการ" จริงๆ สักหน่อย
     MessageTW: 真的不是要你「處理」什麼的
   - MessageGroupId: 100490480
     Id: 100490670
@@ -1343,9 +1339,9 @@ content:
     MessageKR: 으음…….
     MessageJP: うーん……
     MessageCN: 嗯——……
-    MessageEN: 'Hmm... '
-    MessageTH: 'อืม... '
-    MessageTW: '唔──嗯…… '
+    MessageEN: Hmm...
+    MessageTH: อืม...
+    MessageTW: 唔──嗯……
   - MessageGroupId: 100490520
     Id: 100490720
     CharacterId: 10049
@@ -1466,9 +1462,9 @@ content:
     FeedbackTimeMillisec: 1000
     MessageType: Text
     ImagePath: ''
-    MessageKR: 최악이야
+    MessageKR: 어이
     MessageJP: サイテー……
     MessageCN: 太差劲了……
-    MessageEN: You're the worst!
-    MessageTH: แย่ที่สุดเลย
+    MessageEN: Hey
+    MessageTH: นี่!
     MessageTW: 超低級──……

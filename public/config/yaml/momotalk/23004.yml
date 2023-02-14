@@ -9,7 +9,7 @@ title:
     TextKr: 장인 정신
     TextEn: Craftmanship
     TextTh: จิตวิญญาณของช่างฝีมือ
-    TextTw: 匠人精神
+    TextTw: 職人之魂
   - GroupId: 2300403
     FavorScheduleId: 230043
     CharacterId: 23004
@@ -18,7 +18,7 @@ title:
     TextKr: 장인은 도구를 가리지 않는다
     TextEn: An Indiscriminate Craftsman
     TextTh: ช่างฝีมือจะไม่เลือกอุปกรณ์
-    TextTw: 匠人不分工具
+    TextTw: 善書不擇筆？
   - GroupId: 2300405
     FavorScheduleId: 230045
     CharacterId: 23004
@@ -36,7 +36,7 @@ title:
     TextKr: 보이고 싶지 않은 모습
     TextEn: Don't Watch Me
     TextTh: ภาพที่ไม่อยากให้เห็น
-    TextTw: 不想被看到的模樣
+    TextTw: 不想被看到的事物
   - GroupId: 2300408
     FavorScheduleId: 230048
     CharacterId: 23004
@@ -45,7 +45,7 @@ title:
     TextKr: 마이스터의 훈장
     TextEn: The Meister's Medal
     TextTh: เหรียญตราไมสเตอร์
-    TextTw: 高手的勳章
+    TextTw: 巨匠的勳章
   - GroupId: 2300420
     FavorScheduleId: 2300420
     CharacterId: 23004

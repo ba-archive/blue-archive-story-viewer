@@ -9,7 +9,7 @@ title:
     TextKr: 아야네의 취미 생활
     TextEn: Ayane's Hobby
     TextTh: งานอดิเรกของอายาเนะ
-    TextTw: 綾音的興趣生活
+    TextTw: 綾音的興趣
   - GroupId: 2300503
     FavorScheduleId: 230053
     CharacterId: 23005
@@ -18,7 +18,7 @@ title:
     TextKr: 달려라 아야네
     TextEn: Run, Ayane, Run!
     TextTh: อายาเนะ สู้เขา!
-    TextTw: 奔跑吧，綾音
+    TextTw: 奔跑吧綾音
   - GroupId: 2300505
     FavorScheduleId: 230055
     CharacterId: 23005
@@ -27,7 +27,7 @@ title:
     TextKr: 학교 수리 잔혹극
     TextEn: Fixing the School of Hard Knocks
     TextTh: ความโหดร้ายของการซ่อมแซมโรงเรียน
-    TextTw: 學校修理慘劇
+    TextTw: 綾音悲慘的修理劇
 content:
   - MessageGroupId: 230050010
     Id: 2194

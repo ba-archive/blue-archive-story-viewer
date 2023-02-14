@@ -18,7 +18,7 @@ title:
     TextKr: 약선 요법
     TextEn: Yakuzen Therapy
     TextTh: ยากุเซ็นบำบัด
-    TextTw: 藥膳療法
+    TextTw: 藥膳療法？
   - GroupId: 1003005
     FavorScheduleId: 100305
     CharacterId: 10030
@@ -36,7 +36,7 @@ title:
     TextKr: 둘 만을 위한 노천탕
     TextEn: An Open-Air Bath for Two
     TextTh: บ่อออนเซ็นส่วนตัวของสองเรา
-    TextTw: 專屬兩人的露天溫泉
+    TextTw: 專屬於兩人的
 content:
   - MessageGroupId: 100300010
     Id: 100300010
@@ -133,7 +133,7 @@ content:
     MessageCN: 最近工作有点多……
     MessageEN: I have too much work, so there's nothing I can do.
     MessageTH: ช่วยไม่ได้ ครูมีงานต้องทำเยอะนี่นา
-    MessageTW: 最近沒有怎麼……
+    MessageTW: 最近沒什麼……
   - MessageGroupId: 100300050
     Id: 100300060
     CharacterId: 10030
@@ -151,7 +151,7 @@ content:
     MessageCN: 这可不行哦，休息也是任务的一部分
     MessageEN: That won't do. Resting is also a part of work.
     MessageTH: "ไม่ได้นะคะ การพักผ่อนก็เป็น\n ส่วนหนึ่งของงานเหมือนกันค่ะ"
-    MessageTW: 這可不好唷，休息也是正式的任務的一部份
+    MessageTW: 這可不好唷，休息也是正式任務的一部份
   - MessageGroupId: 100300050
     Id: 100300070
     CharacterId: 10030
@@ -353,7 +353,7 @@ content:
     MessageCN: 好的，请老师一定要来
     MessageEN: Yes.
     MessageTH: ได้ค่ะ
-    MessageTW: 好，務必前來
+    MessageTW: 好的，請務必前來
   - MessageGroupId: 100300100
     Id: 100300170
     CharacterId: 10030
@@ -429,7 +429,7 @@ content:
     MessageTH: 'ในระหว่างที่พักผ่อนที่ออนเซ็น
 
       มีเรื่องอะไรที่ไม่สะดวกบ้างรึเปล่าคะ'
-    MessageTW: 泡溫泉有任何不適嗎？
+    MessageTW: 泡了溫泉，有感到什麼不適的地方嗎？
   - MessageGroupId: 100300140
     Id: 100300210
     CharacterId: 10030
@@ -733,7 +733,7 @@ content:
     MessageCN: 只要是千夏的请求，不管来多少个都可以！
     MessageEN: Anything for you, Chinatsu!
     MessageTH: ถ้าเป็นคำขอของชินัตสึล่ะก็ได้เสมอเลย!
-    MessageTW: 只要是千夏的請求，多少都可以！
+    MessageTW: 如果是千夏的請求就儘管來吧！
   - MessageGroupId: 100300240
     Id: 100300370
     CharacterId: 10030

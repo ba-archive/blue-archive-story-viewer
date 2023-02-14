@@ -9,7 +9,7 @@ title:
     TextKr: 점심 대신 디저트
     TextEn: Dessert Over Lunch
     TextTh: ขอของหวานแทนข้าวกลางวันนะ
-    TextTw: 吃甜點代替午餐
+    TextTw: 代替午餐的甜點
   - GroupId: 2300003
     FavorScheduleId: 230003
     CharacterId: 23000
@@ -18,7 +18,7 @@ title:
     TextKr: 당분이 필요해요
     TextEn: Sugar Fix
     TextTh: ชีวิตต้องการของหวาน
-    TextTw: 需要糖分
+    TextTw: 攝取糖分
   - GroupId: 2300005
     FavorScheduleId: 230005
     CharacterId: 23000
@@ -683,7 +683,7 @@ content:
     MessageCN: 嗯，那我到时候联系爱莉
     MessageEN: Sure, I'll see you soon.
     MessageTH: ได้สิ ถ้างั้นเดี๋ยวเจอกันนะ
-    MessageTW: 嗯，那我再聯絡你
+    MessageTW: 嗯，那之後再聯絡
   - MessageGroupId: 230000230
     Id: 1864
     CharacterId: 23000

@@ -9,7 +9,7 @@ title:
     TextKr: 습격해오는 프로일라인
     TextEn: Ambushing Fraulein
     TextTh: เด็กสาวที่บุกจู่โจมกะทันหัน
-    TextTw: 來襲的千金小姐
+    TextTw: 來襲的黃花閨女
   - GroupId: 2001603
     FavorScheduleId: 200163
     CharacterId: 20016
@@ -18,7 +18,7 @@ title:
     TextKr: 유혹하는 프로일라인
     TextEn: Enticing Fraulein
     TextTh: เด็กสาวที่น่าดึงดูด
-    TextTw: 誘惑的千金小姐
+    TextTw: 誘惑的黃花閨女
   - GroupId: 2001605
     FavorScheduleId: 200165
     CharacterId: 20016
@@ -27,7 +27,7 @@ title:
     TextKr: 때로는 영악한 프로일라인
     TextEn: Clever Fraulein
     TextTh: เด็กสาวที่ฉลาดเป็นกรด
-    TextTw: 偶爾機靈的千金小姐
+    TextTw: 狡猾的黃花閨女
   - GroupId: 2001606
     FavorScheduleId: 200166
     CharacterId: 20016
@@ -36,7 +36,7 @@ title:
     TextKr: 가끔은 미소 짓는 프로일라인
     TextEn: Smiling Fraulein
     TextTh: เด็กสาวใบหน้าเปื้อนยิ้ม
-    TextTw: 偶爾微笑的千金小姐
+    TextTw: 微笑的黃花閨女
 content:
   - MessageGroupId: 200160010
     Id: 200160010
@@ -55,7 +55,7 @@ content:
     MessageCN: 老师，您现在在夏莱吗？
     MessageEN: Sensei, are you at Schale?
     MessageTH: คุณครู อยู่ที่ชาเล่ต์รึเปล่าคะ?
-    MessageTW: 老師，你在夏萊嗎？
+    MessageTW: 老師，你現在在夏萊嗎？
   - MessageGroupId: 200160020
     Id: 200160020
     CharacterId: 20016
@@ -75,7 +75,7 @@ content:
     MessageTH: 'อ๊ะ อิโรฮะ
 
       ใช่แล้วล่ะ มีอะไรเหรอ '
-    MessageTW: 啊，伊呂波。目前是這樣沒錯。怎麼了？
+    MessageTW: 嗯，是呀。怎麼了？
   - MessageGroupId: 200160030
     Id: 200160030
     CharacterId: 20016
@@ -93,7 +93,7 @@ content:
     MessageCN: 这样啊
     MessageEN: Okay, then.
     MessageTH: โอเคค่ะ
-    MessageTW: 那就好。
+    MessageTW: 這樣啊。
   - MessageGroupId: 200160040
     Id: 200160040
     CharacterId: 20016
@@ -111,7 +111,7 @@ content:
     MessageCN: ……伊吕波？
     MessageEN: '...Iroha? What is it?'
     MessageTH: หืม...? อิโรฮะ?
-    MessageTW: …伊呂波？嗯？
+    MessageTW: ……伊呂波？
   - MessageGroupId: 200160050
     Id: 200160050
     CharacterId: 20016
@@ -129,7 +129,7 @@ content:
     MessageCN: 那我今天也去夏莱偷懒
     MessageEN: I'm gonna play hooky...
     MessageTH: ถ้างั้นวันนี้ฉันก็จะขอโดด...
-    MessageTW: 那麼我今天也翹班……
+    MessageTW: 那我今天也要偷懶……
   - MessageGroupId: 200160060
     Id: 200160060
     CharacterId: 20016
@@ -147,7 +147,7 @@ content:
     MessageCN: 啊不是，去夏莱和老师商量工作事宜哦
     MessageEN: No, I mean, I'll be there for work.
     MessageTH: เปล่าค่ะ หมายถึงจะไปพบคุณครูเรื่องงานค่ะ
-    MessageTW: 不是，是為了工作去找你。
+    MessageTW: 不是，今天也要去夏萊工作
   - MessageGroupId: 200160070
     Id: 200160070
     CharacterId: 20016
@@ -165,7 +165,7 @@ content:
     MessageCN: ……伊吕波同学，你根本就没有打算掩饰吧？
     MessageEN: '...Play hooky? Huh?'
     MessageTH: 'โดดงั้นเหรอ...? '
-    MessageTW: …翹班？嗯？
+    MessageTW: ……伊呂波同學，你完全沒在藏耶？
   - MessageGroupId: 200160080
     Id: 200160080
     CharacterId: 20016
@@ -183,7 +183,7 @@ content:
     MessageCN: 老师今天也要工作吗？
     MessageEN: Sensei, what's your schedule like today?
     MessageTH: คุณครูคะ วันนี้ตารางงานเป็นยังไงบ้างคะ?
-    MessageTW: 老師，今天有什麼行程嗎？
+    MessageTW: 老師，你今天也要工作對吧？
   - MessageGroupId: 200160090
     Id: 200160090
     CharacterId: 20016
@@ -201,7 +201,7 @@ content:
     MessageCN: 有非常非常多的工作……
     MessageEN: I'm totally swamped today...
     MessageTH: วันนี้ยุ่งตาเหลือกเลย...
-    MessageTW: 今天也忙到說不出話……
+    MessageTW: 今天也有爆大量的工作……
   - MessageGroupId: 200160100
     Id: 200160100
     CharacterId: 20016
@@ -214,12 +214,12 @@ content:
     FeedbackTimeMillisec: 1000
     MessageType: Text
     ImagePath: ''
-    MessageKR: '아, 그 마음, 절절히 이해해요. '
+    MessageKR: 아, 그 마음, 절절히 이해해요.
     MessageJP: まあ、お気持ちは理解できます
     MessageCN: 啊，我理解老师的感受
     MessageEN: 'Oh, I understand how you feel. '
     MessageTH: อา... ฉันเข้าใจความรู้สึกนั้นดีเลยค่ะ
-    MessageTW: 啊，那種心情，我深切地理解。
+    MessageTW: 嗯，我能理解這種感受
   - MessageGroupId: 200160100
     Id: 200160110
     CharacterId: 20016
@@ -241,7 +241,7 @@ content:
       คลานกลับขึ้นไปบนเตียงกลับนึกขึ้น
 
       ได้ว่ามีงานที่ยังเหลืออยู่อีก...'
-    MessageTW: 覺得已經除掉了，又會重新爬出來。如果覺得別人會去處理的瞬間…
+    MessageTW: 正覺得處理好了結果又湧出來，正想說會有其他人處理結果完全沒人去動
   - MessageGroupId: 200160110
     Id: 200160120
     CharacterId: 20016
@@ -265,7 +265,7 @@ content:
       ก็หนีไม่พ้นเลยค่ะ ชีวิตของคนประสาน
 
       งานคงเป็นแบบนี้กันหมดเลยสินะคะ'
-    MessageTW: 又會像迴力鏢回到我手上。中間管理者做的事總是這樣嘛！嗯……
+    MessageTW: 中層管理人員就是這麼辛苦
   - MessageGroupId: 200160120
     Id: 200160130
     CharacterId: 20016
@@ -283,7 +283,7 @@ content:
     MessageCN: 这么说来……
     MessageEN: However...
     MessageTH: แต่ว่า...
-    MessageTW: 不過…
+    MessageTW: 話說
   - MessageGroupId: 200160130
     Id: 200160140
     CharacterId: 20016
@@ -303,7 +303,7 @@ content:
     MessageTH: 'กาแฟวันนี้รบกวนขอเป็นอเมริกาโน่เข้มๆ
 
       เลยนะคะ'
-    MessageTW: 嗯，那麼今天的咖啡就來一杯濃的美式咖啡吧！
+    MessageTW: 我今天想喝些苦苦的東西
   - MessageGroupId: 200160130
     Id: 200160150
     CharacterId: 20016
@@ -323,7 +323,7 @@ content:
     MessageTH: 'ไม่รู้ทำไมวันนี้ถึงอยากกินอะไรขมๆ ขึ้น
 
       มาค่ะ'
-    MessageTW: 今天莫名想要喝一些苦到不行的東西。
+    MessageTW: 麻煩來一杯濃郁的美式咖啡
   - MessageGroupId: 200160140
     Id: 200160160
     CharacterId: 20016
@@ -343,7 +343,7 @@ content:
     MessageTH: 'อิโรฮะ ได้อ่านข้อความ
 
       ที่ครูบอกว่ายุ่งมั้ย...'
-    MessageTW: 伊呂波，你在上面看了我的訊息，對吧？
+    MessageTW: 伊呂波，你有看到上面的訊息嗎？
   - MessageGroupId: 200160150
     Id: 200160170
     CharacterId: 20016
@@ -361,7 +361,7 @@ content:
     MessageCN: 啊，当然看到了
     MessageEN: Huh? Of course I did.
     MessageTH: คะ? ฉันอ่านแล้วค่ะ
-    MessageTW: 咦？當然呀！
+    MessageTW: 是，當然
   - MessageGroupId: 200160150
     Id: 200160180
     CharacterId: 20016
@@ -379,7 +379,7 @@ content:
     MessageCN: 那么等会见
     MessageEN: I'll see you later.
     MessageTH: แต่เดี๋ยวฉันจะไปพบคุณครูนะคะ
-    MessageTW: 那麼，待會見囉！
+    MessageTW: 那麼待會見
   - MessageGroupId: 200160160
     Id: 200160190
     CharacterId: 20016
@@ -397,7 +397,7 @@ content:
     MessageCN: 读不懂氛围的难道是我自己吗……
     MessageEN: I don't even know what to say anymore...
     MessageTH: พูดไม่ออกเลยแฮะ...
-    MessageTW: 回答得很爽快，讓我現在都不想找碴了……。
+    MessageTW: 難道看不懂文章脈絡的其實是我……
   - MessageGroupId: 200160170
     Id: 200160200
     CharacterId: 20016
@@ -415,7 +415,7 @@ content:
     MessageCN: 真是干不下去了
     MessageEN: '*sigh* What a bother...'
     MessageTH: เฮ้อ... น่ารำคาญจริงๆ
-    MessageTW: 唉…真麻煩。
+    MessageTW: 我不想幹了
   - MessageGroupId: 200160180
     Id: 200160210
     CharacterId: 20016
@@ -433,7 +433,7 @@ content:
     MessageCN: 伊吕波怎么了？
     MessageEN: Iroha, is there something wrong?
     MessageTH: เกิดอะไรขึ้นเหรอ อิโรฮะ?
-    MessageTW: 怎麼了，伊呂波？有什麼事嗎？
+    MessageTW: 伊呂波，怎麼了？
   - MessageGroupId: 200160190
     Id: 200160220
     CharacterId: 20016
@@ -451,7 +451,7 @@ content:
     MessageCN: 没，虽然不是什么大事……
     MessageEN: No, it's not a big deal. It's just...
     MessageTH: เปล่าค่ะ ไม่มีอะไรหรอกค่ะ ก็แค่...
-    MessageTW: 不，什麼事都沒有……只是……
+    MessageTW: 不，沒什麼大事……
   - MessageGroupId: 200160190
     Id: 200160230
     CharacterId: 20016
@@ -471,7 +471,7 @@ content:
     MessageTH: 'จู่ๆ ฉันก็คิดขึ้นมาว่า "ทำไมคนเราจะต้อง
 
       ทำงานเพื่อให้มีชีวิตรอดกันด้วย?" น่ะค่ะ'
-    MessageTW: 人為什麼必須工作才能生活呢？我只是暫時在想這件事。
+    MessageTW: 只是突然覺得，為什麼人一定要如此忙碌活動呢……
   - MessageGroupId: 200160200
     Id: 200160240
     CharacterId: 20016
@@ -491,7 +491,7 @@ content:
     MessageTH: 'คุณครู เราทำงานหนักแทบตายแบบนี้
 
       ไปเพื่ออะไรงั้นเหรอคะ?'
-    MessageTW: 老師。我們做到這個地步生活真的有意義嗎？
+    MessageTW: 老師，我們活的這麼努力究竟有什麼意義呢？
   - MessageGroupId: 200160210
     Id: 200160250
     CharacterId: 20016
@@ -511,7 +511,7 @@ content:
     MessageTH: 'จู่ๆ เรื่องคุยก็น่ากลัวขึ้นซะงั้น!
 
       แต่ว่าครูคิดว่ามันมีความหมายนะ'
-    MessageTW: 對話的主題突然變得沉重了！當然，我認為這很有意義！
+    MessageTW: 話題突然變好沉重啊！不過我覺得是有意義的！
   - MessageGroupId: 200160220
     Id: 200160260
     CharacterId: 20016
@@ -531,7 +531,7 @@ content:
     MessageTH: 'ถึงเราจะไม่อยากทำมันอะไรเลย
 
       แต่ก็คงไม่มีทางเลือกสินะคะ'
-    MessageTW: 雖然真的真的很不想做，不過還是得去做。
+    MessageTW: 雖然麻煩，但也只能努力呀……
   - MessageGroupId: 200160220
     Id: 200160270
     CharacterId: 20016
@@ -549,7 +549,7 @@ content:
     MessageCN: 我已经连打字都嫌麻烦了
     MessageEN: It's annoying though.
     MessageTH: เข้าใจแล้วค่ะ... ถึงจะน่ารำคาญสุดๆ ก็เถอะ
-    MessageTW: 對，雖然真的真的很麻煩，
+    MessageTW: 就連打字都感覺好麻煩
   - MessageGroupId: 200160230
     Id: 200160280
     CharacterId: 20016
@@ -567,4 +567,4 @@ content:
     MessageCN: 加、加油……
     MessageEN: Oh, um. Cheer up...
     MessageTH: อะ...อื้อ สู้ๆ นะ
-    MessageTW: 哦，嗯，加油……
+    MessageTW: 不過，我加油……

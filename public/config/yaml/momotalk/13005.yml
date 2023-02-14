@@ -9,7 +9,7 @@ title:
     TextKr: 불심검문
     TextEn: Police Interrogation
     TextTh: สอบสวนผู้ต้องสงสัย
-    TextTw: 臨時檢查
+    TextTw: 突擊檢查
   - GroupId: 1300503
     FavorScheduleId: 130053
     CharacterId: 13005
@@ -18,7 +18,7 @@ title:
     TextKr: 사무실 청소
     TextEn: Office Cleaning
     TextTh: ทำความสะอาดสำนักงาน
-    TextTw: 打掃辦公室
+    TextTw: 辦公室的清掃
   - GroupId: 1300505
     FavorScheduleId: 130055
     CharacterId: 13005
@@ -27,7 +27,7 @@ title:
     TextKr: 락 스피릿
     TextEn: Heavy Metal Spirit
     TextTh: จิตวิญญาณชาวร็อค
-    TextTw: 搖滾精神
+    TextTw: Rock．Spirits
   - GroupId: 1300506
     FavorScheduleId: 130056
     CharacterId: 13005
@@ -45,7 +45,7 @@ title:
     TextKr: 음반 매장
     TextEn: Record Store
     TextTh: ร้านขายซีดี
-    TextTw: 唱片賣場
+    TextTw: 唱片行
 content:
   - MessageGroupId: 130050010
     Id: 1039
@@ -346,7 +346,7 @@ content:
     MessageTH: 'ฉันเองก็... อืม... ชอบเพลงฟังง่ายๆ
 
       ชอบเหมือนที่ครูชอบเลยล่ะ'
-    MessageTW: 我……嘛，普通的。可能跟老師的很接近
+    MessageTW: 我……普普通通吧。可能跟老師的很接近
   - MessageGroupId: 130050140
     Id: 1055
     CharacterId: 13005
@@ -402,7 +402,7 @@ content:
     MessageCN: ……感觉大脑受到了剧烈的冲击！
     MessageEN: It was quite impressive.
     MessageTH: อืม... เพลงน่าประทับใจดี
-    MessageTW: ……腦袋被狠狠重擊！像這樣的感覺
+    MessageTW: ……腦袋被狠狠重擊一樣的感覺
   - MessageGroupId: 130050150
     Id: 1058
     CharacterId: 13005
@@ -602,7 +602,7 @@ content:
     MessageTH: 'จะมีร้านซีดีที่มีอัลบั้มเพลงทั่วโลกบ้าง
 
       มั้ยนะ?'
-    MessageTW: 是否也有收集了全世界唱片的唱片店之類的地方呢？
+    MessageTW: 會不會也有唱片店收集了全世界的唱片呢？
   - MessageGroupId: 130050230
     Id: 1068
     CharacterId: 13005
@@ -646,7 +646,7 @@ content:
     MessageTH: 'นี่นั่นดูไม่เลวเลย... แม้จะไม่มีซีดีเพลง
 
       จากทั่วโลกก็เถอะ'
-    MessageTW: 那裡說不上是全世界…但品項種類確實也不錯
+    MessageTW: 那裡雖說不到全世界……但品項確實挺齊全
   - MessageGroupId: 130050240
     Id: 1070
     CharacterId: 13005
@@ -684,4 +684,4 @@ content:
     MessageCN: 我休息日的时候也经常去那边
     MessageEN: I often go there on weekends to listen to their music.
     MessageTH: ฉันก็แวะไปฟังเพลงที่นั่นบ่อยๆ
-    MessageTW: 休息日時經常去
+    MessageTW: 我假日常去

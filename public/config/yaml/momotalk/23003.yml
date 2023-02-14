@@ -18,7 +18,7 @@ title:
     TextKr: 에너지 드링크 중독
     TextEn: Energy Drink Addiction
     TextTh: ติดเครื่องดื่มชูกำลัง
-    TextTw: 能量飲料中毒
+    TextTw: 能量飲中毒
   - GroupId: 2300305
     FavorScheduleId: 230035
     CharacterId: 23003
@@ -27,7 +27,7 @@ title:
     TextKr: 넷카페에 어서 오세요
     TextEn: Welcome to the Internet Cafe
     TextTh: ยินดีต้อนรับสู่อินเทอร์เน็ตคาเฟ่ค่ะ
-    TextTw: 歡迎蒞臨網路咖啡廳
+    TextTw: 歡迎來到網咖
   - GroupId: 2300306
     FavorScheduleId: 230036
     CharacterId: 23003
@@ -36,16 +36,16 @@ title:
     TextKr: 기계의 배신
     TextEn: Rise of the Machines
     TextTh: การทรยศของเครื่องจักรกล
-    TextTw: 機器的背叛
+    TextTw: 背叛的機械
   - GroupId: 2300320
     FavorScheduleId: 2300320
     CharacterId: 23003
     TextJp: 裏切りの機械（２）
     TextCn: 背叛的机器（２）
     TextKr: 기계의 배신 2
-    TextEn: ''
-    TextTh: ''
-    TextTw: ''
+    TextEn: The Rise of the Machines Part 2
+    TextTh: การทรยศของเครื่องจักรกล 2
+    TextTw: 機器的背叛（２）
 content:
   - MessageGroupId: 230030010
     Id: 1630
@@ -730,9 +730,9 @@ content:
     MessageKR: 갑자기 무슨 일이야?
     MessageJP: ハレ、どうしたの？
     MessageCN: 晴，怎么了？
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: What's this for?
+    MessageTH: มีเรื่องอะไรเหรอ?
+    MessageTW: 晴，怎麼了？
   - MessageGroupId: 230030270
     Id: 230030030
     CharacterId: 23003
@@ -748,9 +748,11 @@ content:
     MessageKR: 귀엽게 나왔네. 그런데 갑자기 왜……
     MessageJP: この自撮り可愛いね！でも急に何故……？
     MessageCN: 晴这张自拍很可爱呢！但是为什么突然给我发这个……？
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: That looks cute. But why...?
+    MessageTH: 'ถ่ายรูปออกมาน่ารักดีนะ แต่ทำไมจู่ๆ
+
+      ถึงได้ส่งมาล่ะ...'
+    MessageTW: 這張自拍真可愛呢！但怎麼會突然……？
   - MessageGroupId: 230030280
     Id: 230030040
     CharacterId: 23003
@@ -766,9 +768,9 @@ content:
     MessageKR: ……하레 양?
     MessageJP: あの、ハレさん……？
     MessageCN: 那个，晴同学……？
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: '...Hare?'
+    MessageTH: ฮาเระจัง...?
+    MessageTW: 那個，晴同學……？
   - MessageGroupId: 230030290
     Id: 230030050
     CharacterId: 23003
@@ -784,9 +786,9 @@ content:
     MessageKR: 선생님
     MessageJP: 先生
     MessageCN: 老师
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: Sensei.
+    MessageTH: คุณครู
+    MessageTW: 老師
   - MessageGroupId: 230030300
     Id: 230030060
     CharacterId: 23003
@@ -802,9 +804,9 @@ content:
     MessageKR: 그, 아까 사진 말인데……
     MessageJP: その、あの写真のことだけど……
     MessageCN: 那个，就是那张照片……
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: Um, about the photo from before...
+    MessageTH: คือว่ารูปที่ส่งไปเมื่อกี้น่ะ...
+    MessageTW: 那個，關於那張照片……
   - MessageGroupId: 230030300
     Id: 230030070
     CharacterId: 23003
@@ -820,9 +822,9 @@ content:
     MessageKR: 가능하다면 지워줬으면 해서……
     MessageJP: できれば、消してもらいたくて……
     MessageCN: 如果可以的话，希望老师能删掉……
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: Can you delete it?
+    MessageTH: ถ้าเป็นไปได้ก็อยากให้ลบออก...
+    MessageTW: 可以的話，希望你能刪掉……
   - MessageGroupId: 230030310
     Id: 230030080
     CharacterId: 23003
@@ -838,9 +840,9 @@ content:
     MessageKR: 귀엽게 잘 나왔는데?
     MessageJP: 可愛く写ってると思うよ？
     MessageCN: 我觉得拍得很可爱哦？
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: But you look cute in it!
+    MessageTH: ถ่ายออกมาดูน่ารักตั้งขนาดนั้นเลยนะ?
+    MessageTW: 我覺得拍得很可愛耶？
   - MessageGroupId: 230030320
     Id: 230030090
     CharacterId: 23003
@@ -856,9 +858,9 @@ content:
     MessageKR: 그렇게 말해도
     MessageJP: でも
     MessageCN: 但是
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: You say that, but...
+    MessageTH: ถึงคุณครูจะพูดแบบนั้นก็เถอะ
+    MessageTW: 但是
   - MessageGroupId: 230030320
     Id: 230030100
     CharacterId: 23003
@@ -874,9 +876,9 @@ content:
     MessageKR: 귀여운 사진이라면 새로 찍어서 보내줄 수도 있는데
     MessageJP: 何て言うかその、写真なら改めて可愛く撮って送るから……
     MessageCN: 怎么说呢，照片的话我会重新拍张可爱的发给老师的……
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: I'll take a different one and send it to you.
+    MessageTH: ถ้าเป็นรูปน่ารักๆ ละก็ ถ่ายส่งมาใหม่ก็ได้นะ
+    MessageTW: 該怎麼說呢，如果是可愛的照片的話，我能再拍一張發送給你……
   - MessageGroupId: 230030330
     Id: 230030110
     CharacterId: 23003
@@ -892,9 +894,9 @@ content:
     MessageKR: 아
     MessageJP: あ
     MessageCN: 啊
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: Oh.
+    MessageTH: อา...
+    MessageTW: 啊
   - MessageGroupId: 230030330
     Id: 230030120
     CharacterId: 23003
@@ -910,9 +912,9 @@ content:
     MessageKR: ㄱ
     MessageJP: えｔ
     MessageCN: 那ge
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: Okay.
+    MessageTH: คือ...
+    MessageTW: 這
   - MessageGroupId: 230030330
     Id: 230030130
     CharacterId: 23003
@@ -928,9 +930,9 @@ content:
     MessageKR: 그게 그러니까ㅏ 방금 그건
     MessageJP: そｎ
     MessageCN: 不sh
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: Um... That was...
+    MessageTH: คือว่าข้อความเมื่อกี้
+    MessageTW: 那
   - MessageGroupId: 230030340
     Id: 230030140
     CharacterId: 23003
@@ -946,9 +948,9 @@ content:
     MessageKR: 아테나 3호가 다시 장난을 친 거니까……
     MessageJP: 今のはその、アテナ3号がまた悪戯して……
     MessageCN: 刚刚那个，雅典娜３号又在恶作剧了……
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: Athena-3 misbehaving again...
+    MessageTH: อาเธน่า 3 แกล้งเล่นอีกแล้วน่ะ...
+    MessageTW: 剛才那是雅典娜3號又在惡作劇……
   - MessageGroupId: 230030350
     Id: 230030150
     CharacterId: 23003
@@ -964,6 +966,6 @@ content:
     MessageKR: 신경 쓰지 말아줘……
     MessageJP: だから、気にしないでもらえると……
     MessageCN: 所以，老师不要在意……
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageEN: Please just forget it.
+    MessageTH: ไม่ต้องสนใจหรอกนะ
+    MessageTW: 所以，請不要放在心上……

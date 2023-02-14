@@ -9,7 +9,7 @@ title:
     TextKr: 여름 데뷔!
     TextEn: Summer Debut!
     TextTh: การเปิดตัวในฤดูร้อน!
-    TextTw: 夏季處女秀！
+    TextTw: 夏季出道！
   - GroupId: 2000503
     FavorScheduleId: 200053
     CharacterId: 20005
@@ -18,7 +18,7 @@ title:
     TextKr: 안전 주행 주의
     TextEn: Please Drive Safely
     TextTh: ขับขี่อย่างระมัดระวัง
-    TextTw: 禍不單行連三來
+    TextTw: 又踩又踢又毀損
   - GroupId: 2000505
     FavorScheduleId: 200055
     CharacterId: 20005
@@ -27,7 +27,7 @@ title:
     TextKr: 비품은 사용 후 깨끗이 제자리에
     TextEn: Return Where You Found It
     TextTh: ทำความสะอาดอุปกรณ์และเก็บเข้าที่หลังใช้งาน
-    TextTw: 使用完設備後，請清理乾淨放回原位
+    TextTw: 備品使用後，要清潔乾淨歸還原位
   - GroupId: 2000506
     FavorScheduleId: 200056
     CharacterId: 20005
@@ -36,7 +36,7 @@ title:
     TextKr: 여름 한정 페로로 굿즈!
     TextEn: Exclusive Summer Peroro Merch!
     TextTh: ของสะสมเพโรโร่ลิมิเต็ดเอดิชั่นประจำฤดูร้อน!
-    TextTw: 夏季限定佩洛洛周邊商品！
+    TextTw: 夏季限定的佩洛洛大人周邊
 content:
   - MessageGroupId: 20005010
     Id: 20005010

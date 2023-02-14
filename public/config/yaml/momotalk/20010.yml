@@ -9,7 +9,7 @@ title:
     TextKr: 온천 수행 - 가이세키 요리 편
     TextEn: 'Hot Springs Training: Kaiseki'
     TextTh: การฝึกดูแลออนเซ็น - ภาคอาหารไคเซกิ
-    TextTw: 溫泉培訓 - 懷石料理篇
+    TextTw: 修行．會席料理篇
   - GroupId: 2001003
     FavorScheduleId: 200103
     CharacterId: 20010
@@ -18,7 +18,7 @@ title:
     TextKr: 온천 수행 - 욕탕 정비 편
     TextEn: 'Hot Springs Training: Bathtub Repairs'
     TextTh: การฝึกดูแลออนเซ็น - ภาคซ่อมบำรุงบ่อออนเซ็น
-    TextTw: 溫泉培訓 - 清掃浴池篇
+    TextTw: 修行．清掃篇
   - GroupId: 2001005
     FavorScheduleId: 200105
     CharacterId: 20010
@@ -27,7 +27,7 @@ title:
     TextKr: 온천 수행 - 예절 수행 편
     TextEn: 'Hot Springs Training: Etiquette'
     TextTh: การฝึกดูแลออนเซ็น - ภาคการฝึกมารยาท
-    TextTw: 溫泉培訓 - 禮儀教育篇
+    TextTw: 修行．禮儀篇
   - GroupId: 2001006
     FavorScheduleId: 200106
     CharacterId: 20010
@@ -36,7 +36,7 @@ title:
     TextKr: 온천 수행 - 휴식 편
     TextEn: 'Hot Springs Training: Rest and Relaxation'
     TextTh: การฝึกดูแลออนเซ็น - ภาคการหยุดพักผ่อน
-    TextTw: 溫泉培訓 - 休息篇
+    TextTw: 修行．休息篇
 content:
   - MessageGroupId: 200100010
     Id: 200100010
@@ -339,7 +339,7 @@ content:
     MessageTH: 'ไม่นึกเลยว่าอาหารสไตล์ไคเซกิ
 
       จะสวยงามน่ากินแบบนั้น...'
-    MessageTW: 沒想到宴席料理竟然是那種程度的東西……
+    MessageTW: 沒想到會席料理這種東西，竟然是那麼厲害的東西……
   - MessageGroupId: 200100110
     Id: 200100160
     CharacterId: 20010
@@ -381,7 +381,7 @@ content:
     MessageCN: 但是我不会气馁的，因为我还有很多事要去做
     MessageEN: But thanks to that, I learned something new.
     MessageTH: แต่ว่าเพราะคุณครูเลยนะคะ ทำให้ฉันได้เปิดโลกใหม่ๆ ที่ไม่เคยรู้จักค่ะ
-    MessageTW: 但是我不會氣餒，因為還有很多事是必須做的
+    MessageTW: 但是我不會氣餒，因為還有很多必須做的事
   - MessageGroupId: 200100120
     Id: 200100180
     CharacterId: 20010
@@ -655,7 +655,7 @@ content:
       เพื่อให้เหมาะสมกับการเป็นนายหญิง
 
       แห่งออนเซ็นค่ะ'
-    MessageTW: 總之先從能做到的事開始！這次我想學習，像溫泉旅館的女主人一樣有氣質的行為舉止
+    MessageTW: 總之先從能做到的事開始！這次我想學習，像溫泉女將一樣有氣質的行為舉止
   - MessageGroupId: 200100220
     Id: 200100320
     CharacterId: 20010
@@ -939,7 +939,7 @@ content:
     MessageCN: d
     MessageEN: H—
     MessageTH: คะ...
-    MessageTW: ㄉ
+    MessageTW: 等
   - MessageGroupId: 200100330
     Id: 200100470
     CharacterId: 20010

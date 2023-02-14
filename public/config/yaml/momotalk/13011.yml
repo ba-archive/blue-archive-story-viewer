@@ -36,7 +36,7 @@ title:
     TextKr: 복숭아빛 스탬프 랠리
     TextEn: Peachy Stamp Rally
     TextTh: แสตมป์แรลลี่สีพีช
-    TextTw: 桃色印章拉力賽
+    TextTw: 桃色集章活動
 content:
   - MessageGroupId: 130110010
     Id: 130110010
@@ -131,7 +131,7 @@ content:
     MessageCN: 立刻就接受了委托！
     MessageEN: 'You have to accept the quest quickly, without even a moment of hesitation! '
     MessageTH: 'รับเควสอย่างรวดเร็วโดยไม่ลังเลเลยนะ! '
-    MessageTW: 果然是毫不猶豫地快速接受任務！
+    MessageTW: 竟然毫不猶豫地接受任務！
   - MessageGroupId: 130110040
     Id: 130110060
     CharacterId: 13011
@@ -169,7 +169,7 @@ content:
     MessageTH: 'อะไรกัน ทำไมทำหน้าแบบนั้น?!
 
       ไม่คิดเลยว่าจะเป็นแบบนี้!'
-    MessageTW: 唔，在這裡選了這個選項！？這是我沒預料到的……！
+    MessageTW: 唔，竟然選這個選項！？這是我沒預料到的……！
   - MessageGroupId: 130110050
     Id: 130110080
     CharacterId: 13011
@@ -209,7 +209,7 @@ content:
     MessageCN: ……才不是！
     MessageEN: '...Or maybe not.'
     MessageTH: ใช่ซะที่ไหนล่ะ!
-    MessageTW: ……才怪！
+    MessageTW: ……不對啦！
   - MessageGroupId: 130110060
     Id: 130110100
     CharacterId: 13011
@@ -229,7 +229,7 @@ content:
     MessageTH: 'เราสัญญากันไว้แล้วนี่นา! ไหนว่า
 
       จะมาเจอกันที่ห้องไง!'
-    MessageTW: 約定好了吧！今天要來社團教室！
+    MessageTW: 不是約好今天要來社團教室嗎！
   - MessageGroupId: 130110070
     Id: 130110110
     CharacterId: 13011
@@ -283,7 +283,7 @@ content:
     MessageCN: 老师快点来！
     MessageEN: So hurry up!
     MessageTH: รีบๆ มาล่ะ!
-    MessageTW: 快來吧！
+    MessageTW: 快點來！
   - MessageGroupId: 130110090
     Id: 130110140
     CharacterId: 13011
@@ -393,7 +393,7 @@ content:
     MessageCN: 啊——，一想起来就烦！
     MessageEN: 'Those dummies! '
     MessageTH: เจ้าพวกนั้นน่ะ!
-    MessageTW: 那些傢伙！
+    MessageTW: 啊啊！光回想起來就覺得好生氣！
   - MessageGroupId: 130110120
     Id: 130110200
     CharacterId: 13011
@@ -411,7 +411,7 @@ content:
     MessageCN: 那群家伙只会在那里乱指点！
     MessageEN: They're just blabbing away!
     MessageTH: พวกนั้นมักชอบพูดพล่ามไปเรื่อย!
-    MessageTW: 那些傢伙胡說八道！
+    MessageTW: 那些傢伙竟敢在那邊亂講話！
   - MessageGroupId: 130110130
     Id: 130110210
     CharacterId: 13011
@@ -431,7 +431,7 @@ content:
       The story is boring, the game mechanics aren't tight... Yada, yada,
       yada...
     MessageTH: "บ่นว่าเนื้อเรื่องน่าเบื่อ\n หรือการเดินเรื่องหละหลวมบ้างล่ะ... บลาๆ"
-    MessageTW: 想法過時，進程緩慢等等
+    MessageTW: 說什麼想法過時，什麼劇情節奏崩壞
   - MessageGroupId: 130110130
     Id: 130110220
     CharacterId: 13011
@@ -509,7 +509,7 @@ content:
     MessageTH: 'ไอเดียที่ผุดมาในหัวของฉันมันไม่
 
       สมเหตุสมผลเอาซะเลย'
-    MessageTW: 好不容易浮現出的想法出現矛盾
+    MessageTW: 好不容易浮現的靈感整個大矛盾
   - MessageGroupId: 130110141
     Id: 130110233
     CharacterId: 13011
@@ -529,7 +529,7 @@ content:
     MessageTH: 'แล้วก็คิดไอเดียที่จะมาต่อกันไม่ได้
 
       เลยด้วย! ช่วยหน่อยสิ!!!'
-    MessageTW: 完全想不出下一個想法來打破它！救救我──！
+    MessageTW: 完全想不出下一個靈感來解困！救救我──！
   - MessageGroupId: 130110142
     Id: 130110234
     CharacterId: 13011
@@ -767,7 +767,7 @@ content:
     MessageTH: 'แต่เรื่องที่เกิดในวันนี้ต้องเก็บเป็น
 
       ความลับนะ!'
-    MessageTW: 但是，今天的事對其他人來說是祕密唷！
+    MessageTW: 但是，今天的事要和別人保密唷！
   - MessageGroupId: 130110220
     Id: 130110360
     CharacterId: 13011
@@ -915,7 +915,7 @@ content:
     MessageTH: 'แสตมป์แรลลี่ครบรอบ 40 ปี อัลตร้า
 
       มารีนซิสเตอร์!'
-    MessageTW: 竟然有究極瑪琳姊妹40週年紀念章拉力賽！
+    MessageTW: 竟然有究極瑪琳姊妹40週年集章活動！
   - MessageGroupId: 130110280
     Id: 130110440
     CharacterId: 13011
@@ -933,7 +933,7 @@ content:
     MessageCN: 集章拉力？
     MessageEN: '...A stamp rally?'
     MessageTH: แสตมป์แรลลี่เหรอ?
-    MessageTW: 紀念章拉力賽？
+    MessageTW: 集章活動？
   - MessageGroupId: 130110290
     Id: 130110450
     CharacterId: 13011

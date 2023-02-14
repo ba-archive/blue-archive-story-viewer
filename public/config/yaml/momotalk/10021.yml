@@ -9,7 +9,7 @@ title:
     TextKr: 보호 대상
     TextEn: Priority Subject
     TextTh: คนที่ต้องคุ้มครอง
-    TextTw: 保護對象
+    TextTw: 護衛對象
   - GroupId: 1002103
     FavorScheduleId: 100213
     CharacterId: 10021
@@ -18,7 +18,7 @@ title:
     TextKr: 환경은 중요한 조미료
     TextEn: Ambiance Matters
     TextTh: สภาพแวดล้อมคือเครื่องปรุงรสที่สำคัญ
-    TextTw: 環境是重要的調味料
+    TextTw: 因為有你在身邊
   - GroupId: 1002105
     FavorScheduleId: 100215
     CharacterId: 10021
@@ -36,7 +36,7 @@ title:
     TextKr: 해변의 사치
     TextEn: Luxuries of the Beach
     TextTh: ชายหาดสุดหรู
-    TextTw: 海邊的奢侈
+    TextTw: 短暫的奢侈
 content:
   - MessageGroupId: 10021010
     Id: 10021010
@@ -239,7 +239,7 @@ content:
     MessageCN: ……呼
     MessageEN: '...'
     MessageTH: '...'
-    MessageTW: ……哼
+    MessageTW: ……呼
   - MessageGroupId: 10021080
     Id: 10021120
     CharacterId: 10021
@@ -771,7 +771,7 @@ content:
     MessageTH: 'ลางสังหรณ์ด้านกลยุทธ์ของฉันบอก
 
       ว่าอย่างนั้นน่ะ'
-    MessageTW: 我戰術直覺如此告訴我
+    MessageTW: 我的戰術直覺如此告訴我
   - MessageGroupId: 10021460
     Id: 10021410
     CharacterId: 10021
@@ -879,7 +879,7 @@ content:
     MessageCN: “战术”和“战略”有点复杂啊……
     MessageEN: Didn't you just say 'tactical'?
     MessageTH: เมื่อกี้พูดว่า "กลยุทธ์" ใช่ไหมนะ...
-    MessageTW: 「戰術」和「戰略」希望能統一一下……
+    MessageTW: 「戰術」和「戰略」很複雜呢……
   - MessageGroupId: 10021500
     Id: 10021470
     CharacterId: 10021

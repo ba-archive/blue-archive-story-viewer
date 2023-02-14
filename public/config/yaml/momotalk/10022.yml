@@ -9,7 +9,7 @@ title:
     TextKr: 선도부장과 함께 해변 산책
     TextEn: Walking on the Beach with the Head Prefect
     TextTh: เดินเล่นริมหาดกับประธานคณะกรรมการวินัย
-    TextTw: 與糾察部長一起在海邊散步
+    TextTw: 與部長的海邊散步
   - GroupId: 1002203
     FavorScheduleId: 100223
     CharacterId: 10022
@@ -18,7 +18,7 @@ title:
     TextKr: 선도부장과 함께 서류 작업
     TextEn: Doing Paperwork with the Head Prefect
     TextTh: ทำงานเอกสารกับประธานกรรมการวินัย
-    TextTw: 與糾察部長一起進行文件作業
+    TextTw: 與部長一起工作
   - GroupId: 1002205
     FavorScheduleId: 100225
     CharacterId: 10022
@@ -27,7 +27,7 @@ title:
     TextKr: 히나와 함께 여름의 풍경을
     TextEn: A Summer View with Hina
     TextTh: ดื่มด่ำความงดงามของฤดูร้อนกับฮินะ
-    TextTw: 和糾察部長共度夏天夜晚
+    TextTw: 與部長於仲夏夜
 content:
   - MessageGroupId: 100220010
     Id: 100220010
@@ -64,7 +64,7 @@ content:
     MessageCN: 夏天到啦！
     MessageEN: Yeah, summertime!
     MessageTH: ใช่แล้ว~ ฤดูร้อนแล้วล่ะ
-    MessageTW: 是夏天啊！
+    MessageTW: 是夏天呢！
   - MessageGroupId: 100220030
     Id: 100220030
     CharacterId: 10022
@@ -82,7 +82,7 @@ content:
     MessageCN: 而且一说到夏天，就让人想到大海对吧！
     MessageEN: And when you think of the summer, you think of beaches!
     MessageTH: พอพูดถึงฤดูร้อนก็ต้องทะเลสิ~!
-    MessageTW: 說到夏天，就是大海啊！
+    MessageTW: 說到夏天，就是大海呢！
   - MessageGroupId: 100220040
     Id: 100220040
     CharacterId: 10022
@@ -100,7 +100,7 @@ content:
     MessageCN: 嗯，还有大海呢
     MessageEN: Yup. Summer. Beaches.
     MessageTH: อื้อ ทะเล
-    MessageTW: 嗯，大海
+    MessageTW: 嗯，大海呢
   - MessageGroupId: 100220040
     Id: 100220050
     CharacterId: 10022
@@ -190,7 +190,7 @@ content:
     MessageCN: 呼……
     MessageEN: '*sigh*'
     MessageTH: เฮ้อ...
-    MessageTW: 哼……
+    MessageTW: 呼……
   - MessageGroupId: 100220070
     Id: 100220100
     CharacterId: 10022
@@ -210,7 +210,7 @@ content:
     MessageTH: 'ฉันเข้าใจนะว่าตอนนี้เป็นฤดูร้อนเลย
 
       เอ้อระเหยกัน...'
-    MessageTW: 我可以理解夏天會讓人心情興奮……
+    MessageTW: 因為是夏天，所以我可以理解會讓人興奮……
   - MessageGroupId: 100220080
     Id: 100220110
     CharacterId: 10022
@@ -250,7 +250,7 @@ content:
     MessageTH: 'งานที่ต้องทำน่ะมันงอกได้ดีกว่าเห็ด
 
       อีกนะรู้ไหม'
-    MessageTW: 工作總是不地斷增加
+    MessageTW: 所謂的工作，就是會不斷的增加
   - MessageGroupId: 100220090
     Id: 100220130
     CharacterId: 10022
@@ -422,7 +422,7 @@ content:
     MessageTH: 'มาเจอกันที่จุดนัดพบที่ฉันบอกไปล่ะ
 
       ฉันจะรออยู่ที่นั่น'
-    MessageTW: 那麼，地點之後發送給你。我等著
+    MessageTW: 那麼，地點之後會發送給你。我等著
   - MessageGroupId: 100220150
     Id: 100220220
     CharacterId: 10022
@@ -764,7 +764,7 @@ content:
     MessageCN: 只是我得做好安排，把各种日程计划给错开罢了……
     MessageEN: It just means I have to move my schedule around.
     MessageTH: ก็แค่ต้องโยกย้ายตารางงานนิดหน่อยเท่านั้น...
-    MessageTW: 只不過會需要排開各種代辦事項……
+    MessageTW: 只不過會需要排開各種待辦事項……
   - MessageGroupId: 100220270
     Id: 100220410
     CharacterId: 10022
@@ -840,7 +840,7 @@ content:
     MessageTH: 'ไม่รู้ทำไมพอได้คุยกับคุณครู
 
       ฉันก็รู้สึกดีขึ้นมา'
-    MessageTW: 總之，光是能和老師這樣交流，就舒坦多了
+    MessageTW: 總之，光是能和老師這樣交流，就放鬆多了
   - MessageGroupId: 100220300
     Id: 100220450
     CharacterId: 10022
@@ -1100,7 +1100,7 @@ content:
     MessageCN: 我愿意！
     MessageEN: Yes! I'm in!
     MessageTH: อื้อออ! ได้แน่นอน!
-    MessageTW: 很樂意！
+    MessageTW: 我很樂意！
   - MessageGroupId: 100220390
     Id: 100220590
     CharacterId: 10022
@@ -1156,7 +1156,7 @@ content:
     MessageTH: 'อุตส่าห์ได้มาเที่ยวทั้งที ถ้าไม่ใช้เวลา
 
       ให้คุ้มก็น่าเสียดาย'
-    MessageTW: 之前說過吧，來渡假勝地不享受的話太可惜了
+    MessageTW: 之前說過吧，來渡假勝地不享受的話就太可惜了
   - MessageGroupId: 100220410
     Id: 100220620
     CharacterId: 10022
@@ -1192,7 +1192,7 @@ content:
     MessageCN: ……虽然我心里还在犹豫这样到底好不好
     MessageEN: I don't understand, personally.
     MessageTH: ถึงฉันไม่ค่อยเข้าใจก็เถอะนะ
-    MessageTW: ……雖然我還是會多少覺得這種態度到底好不好
+    MessageTW: ……雖然我還是多少會覺得這種態度到底好不好
   - MessageGroupId: 100220420
     Id: 100220640
     CharacterId: 10022

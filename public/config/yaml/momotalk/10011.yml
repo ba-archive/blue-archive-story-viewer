@@ -9,7 +9,7 @@ title:
     TextKr: 간식 시간
     TextEn: Snack Time
     TextTh: เวลาของว่าง
-    TextTw: 零食時間
+    TextTw: 點心時間
   - GroupId: 1001103
     FavorScheduleId: 100113
     CharacterId: 10011
@@ -18,7 +18,7 @@ title:
     TextKr: 식사 후에는 깨끗이 양치를
     TextEn: Brush After Every Meal
     TextTh: ต้องแปรงฟันให้สะอาดหลังจากกินอาหารเสร็จ
-    TextTw: 餐後把口漱乾淨
+    TextTw: 用餐之後，要把牙齒刷乾淨
   - GroupId: 1001105
     FavorScheduleId: 100115
     CharacterId: 10011
@@ -27,7 +27,7 @@ title:
     TextKr: 나이 들지 않았는걸!
     TextEn: I'm Not Old!
     TextTh: ยังไม่แก่สักหน่อย!
-    TextTw: 還沒老！
+    TextTw: 還沒到那把年紀！
   - GroupId: 1001106
     FavorScheduleId: 100116
     CharacterId: 10011
@@ -36,7 +36,7 @@ title:
     TextKr: 높게 높게
     TextEn: Higher and Higher
     TextTh: สูงอีก สูงอีก!
-    TextTw: 舉高高
+    TextTw: 飛高高
   - GroupId: 1001108
     FavorScheduleId: 100118
     CharacterId: 10011
@@ -54,7 +54,7 @@ title:
     TextKr: 달콤한 오후의 낮잠
     TextEn: Sweet Afternoon Nap
     TextTh: เวลาพักงีบยามบ่าย
-    TextTw: 甜美的午後小睡
+    TextTw: 正午過後的甜美午睡
 content:
   - MessageGroupId: 100110010
     Id: 808
@@ -77,7 +77,7 @@ content:
     MessageTH: 'ทุกคนคะ ของว่างยามบ่ายวันนี้ของสวน
 
       ต้นบ๊วยเป็นขนมหวานจากงานชุมนุมนะคะ'
-    MessageTW: 今天梅花園的點心是來自商會的甜果子唷
+    MessageTW: 今天梅花園的點心是來自商會的很甜～的水果唷
   - MessageGroupId: 100110020
     Id: 809
     CharacterId: 10011
@@ -231,7 +231,7 @@ content:
     MessageTH: 'จะมีการแสดงละครหุ่นเพื่อให้เด็กๆ ใน
 
       สวนต้นบ๊วยแปรงฟันให้สะอาดด้วยนะคะ'
-    MessageTW: 為了讓梅花園的孩子們主動刷牙，預計上演一場木偶戲
+    MessageTW: 為了讓梅花園的孩子們主動刷牙，預計上演一場人偶劇
   - MessageGroupId: 100110080
     Id: 817
     CharacterId: 10011
@@ -249,7 +249,7 @@ content:
     MessageCN: 人偶剧啊，听上去很有趣的样子
     MessageEN: A puppet show sounds...fun.
     MessageTH: ละครหุ่นงั้นเหรอ ฟังดูน่าสนุกดีนะ
-    MessageTW: 木偶劇啊，聽起來很有趣
+    MessageTW: 人偶劇啊，聽起來很有趣
   - MessageGroupId: 100110090
     Id: 818
     CharacterId: 10011
@@ -291,7 +291,7 @@ content:
       กับจอมวายร้ายแมงกินฟัน พวกเด็กๆ เลย
 
       ตื่นเต้นกันมากเลยค่ะ'
-    MessageTW: 是關於打倒壞牙菌斑的戰隊風格木偶劇，每次的反應都非常好
+    MessageTW: 是關於打倒壞牙菌斑的戰隊風格人偶劇，每次的反應都非常好
   - MessageGroupId: 100110090
     Id: 820
     CharacterId: 10011
@@ -389,7 +389,7 @@ content:
     MessageTH: 'การแสดงจบลงไปได้ด้วยดี เพราะได้คุณ
 
       ครูมาช่วยแสดงเลยนะคะ หุหุ'
-    MessageTW: 託老師的福，木偶劇順利結束了！
+    MessageTW: 託老師的福，人偶劇順利結束了！
   - MessageGroupId: 100110130
     Id: 825
     CharacterId: 10011
@@ -527,7 +527,7 @@ content:
     MessageTH: 'วันนี้ฉันรู้สึกไม่ค่อยดีเท่าไหร่... คงไม่เข้า
 
       ไปที่สวนต้นบ๊วยแต่จะขอกลับก่อนเลยนะคะ'
-    MessageTW: 對不起，身體不太舒服……去不了梅花園了，還請原諒
+    MessageTW: 不好意思，我身體不太舒服……去不了梅花園，就這樣先失禮了
   - MessageGroupId: 100110190
     Id: 832
     CharacterId: 10011
@@ -645,7 +645,7 @@ content:
       Sensei, I saw you doing something fun with the Plum Blossom Garden
       students earlier...
     MessageTH: คุณครูคะ เมื่อกี้ฉันเห็นคุณครูเล่นอะไรสนุกๆ ให้นักเรียนของสวนต้นบ๊วยดูด้วยนี่คะ....
-    MessageTW: 剛剛看到你和梅花園的孩子在做有趣的事
+    MessageTW: 剛剛看到老師和梅花園的孩子在做有趣的事
   - MessageGroupId: 100110230
     Id: 838
     CharacterId: 10011
@@ -1077,7 +1077,7 @@ content:
     MessageCN: 下次也请务必拜托了！
     MessageEN: Yes, I'll be counting on you next time too!
     MessageTH: ค่ะ คราวหน้าก็ขอรบกวนอีกนะคะ!
-    MessageTW: 下次務必也拜託你了！
+    MessageTW: 下次也務必拜託老師了！
   - MessageGroupId: 100110380
     Id: 860
     CharacterId: 10011
@@ -1113,7 +1113,7 @@ content:
     MessageCN: 您看起来一脸疲惫的样子……
     MessageEN: You look so tired...
     MessageTH: สีหน้าของคุณครูดูอิดโรยมากเลยค่ะ
-    MessageTW: 樣子看上去很疲倦呢……
+    MessageTW: 看起來很疲憊……
   - MessageGroupId: 100110400
     Id: 862
     CharacterId: 10011
@@ -1311,4 +1311,4 @@ content:
     MessageTH: 'ฉันจะปูที่นอนไว้ให้คุณครู โดยไม่ให้
 
       นักเรียนคนอื่นเห็นเองค่ะ หุหุ'
-    MessageTW: 為了不讓大家發現，我會偷偷蓋上被子。呵呵……
+    MessageTW: 為了不讓大家發現，我會偷偷蓋上棉被的。呵呵……

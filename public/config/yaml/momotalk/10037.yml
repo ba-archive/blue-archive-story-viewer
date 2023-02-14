@@ -27,7 +27,7 @@ title:
     TextKr: 보안위원장의 청소
     TextEn: Security Committee Chair's Cleaning
     TextTh: การทำความสะอาดของหัวหน้าคณะฯ
-    TextTw: 保安委員長的清潔
+    TextTw: 保安委員長的打掃
   - GroupId: 1003706
     FavorScheduleId: 100376
     CharacterId: 10037
@@ -55,7 +55,7 @@ content:
     MessageCN: 总觉得很奇怪
     MessageEN: Suspicious...
     MessageTH: แปลกจัง... ต้องมีอะไรแน่ๆ
-    MessageTW: 可疑，真的很可疑……
+    MessageTW: 有點奇怪
   - MessageGroupId: 100370020
     Id: 100370020
     CharacterId: 10037
@@ -73,7 +73,7 @@ content:
     MessageCN: ？？？
     MessageEN: What is?
     MessageTH: มีอะไรเหรอ?
-    MessageTW: 發生什麼事了？
+    MessageTW: ？？？
   - MessageGroupId: 100370030
     Id: 100370030
     CharacterId: 10037
@@ -93,7 +93,7 @@ content:
     MessageTH: 'หมู่นี้อาหารว่างของชมรม
 
       โภชนาการหายไปเรื่อยๆ เลย'
-    MessageTW: 最近放在供給部的零食一直在消失。
+    MessageTW: 最近，保管在供給部的零食接連不斷地消失
   - MessageGroupId: 100370030
     Id: 100370040
     CharacterId: 10037
@@ -117,7 +117,7 @@ content:
       ไม่ตรงกับในบันทึกอย่างน่าสงสัย
 
       มันหายไปไหนนะ'
-    MessageTW: 尤其是布丁的數量比帳簿的紀錄還要少很多。
+    MessageTW: 特別是布丁的個數，和帳簿的紀錄完全對不上
   - MessageGroupId: 100370040
     Id: 100370050
     CharacterId: 10037
@@ -135,7 +135,7 @@ content:
     MessageCN: 没有数错吧……？
     MessageEN: Maybe you miscounted?
     MessageTH: ไม่ได้นับผิดหรอกเหรอ?
-    MessageTW: 是不是數錯了？
+    MessageTW: 不是數錯之類的……？
   - MessageGroupId: 100370040
     Id: 100370060
     CharacterId: 10037
@@ -153,7 +153,7 @@ content:
     MessageCN: 可能有人偷吃了？
     MessageEN: Maybe someone ate them?
     MessageTH: มีใครแอบกินหรือเปล่า?
-    MessageTW: 是不是有人偷吃的？
+    MessageTW: 有誰偷吃之類的？
   - MessageGroupId: 100370050
     Id: 100370070
     CharacterId: 10037
@@ -171,7 +171,7 @@ content:
     MessageCN: 不，绝无可能！
     MessageEN: That's impossible.
     MessageTH: ไม่มีทาง
-    MessageTW: 不，不可能。
+    MessageTW: 不，不可能有那種事！
   - MessageGroupId: 100370050
     Id: 100370080
     CharacterId: 10037
@@ -193,7 +193,7 @@ content:
     MessageTH: 'ฉันกับสมาชิกคณะความมั่นคง
 
       คนอื่นช่วยกันนับตั้งหลายรอบ!'
-    MessageTW: 我跟其他保安委員們一起數過很多次！
+    MessageTW: 畢竟我和其他保安委員一起重數了好幾次！
   - MessageGroupId: 100370060
     Id: 100370090
     CharacterId: 10037
@@ -211,7 +211,7 @@ content:
     MessageCN: 不，绝无可能！
     MessageEN: That's impossible.
     MessageTH: ไม่มีทาง
-    MessageTW: 不，不可能。
+    MessageTW: 不，不可能有那種事！
   - MessageGroupId: 100370060
     Id: 100370100
     CharacterId: 10037
@@ -233,7 +233,7 @@ content:
     MessageTH: 'สมาชิกคณะความมั่นคงคอยดูแล
 
       อาหารของชมรมโภชนาการอยู่ตลอดเวลา!'
-    MessageTW: 供給部的設施是由我們保安委員們緊密的守著！
+    MessageTW: 供給部的設施，有我們保安委員徹底地監視著！
   - MessageGroupId: 100370070
     Id: 100370110
     CharacterId: 10037
@@ -253,7 +253,7 @@ content:
     MessageTH: 'ถ้าหากไม่ได้นับผิด
 
       แล้วก็ไม่มีใครแอบกิน ก็แสดงว่า...'
-    MessageTW: 既不是數錯，也不是有人吃掉，表示這是……
+    MessageTW: 並不是數錯，也不是誰吃掉了，既然如此……
   - MessageGroupId: 100370080
     Id: 100370120
     CharacterId: 10037
@@ -273,7 +273,7 @@ content:
     MessageTH: 'นี่เป็นฝีมือของสายลับที่จ้อง
 
       จะทำลายสหภาพเรดวินเทอร์!'
-    MessageTW: 想要危害赤冬學園的間諜在搞破壞的行為！
+    MessageTW: 這一定是來自間諜的攻擊，企圖攻擊赤冬聯邦學園！
   - MessageGroupId: 100370090
     Id: 100370130
     CharacterId: 10037
@@ -291,7 +291,7 @@ content:
     MessageCN: ……间谍？
     MessageEN: A spy?
     MessageTH: สายลับ?
-    MessageTW: 間諜？
+    MessageTW: ……間諜？
   - MessageGroupId: 100370100
     Id: 100370140
     CharacterId: 10037
@@ -314,12 +314,12 @@ content:
       much about because our student records haven't been fully digitized.
     MessageTH: 'ใช่ เพราะนอกจากสหภาพเรดวินเทอร์
 
-      จะกว้างขวางมากแล้ว การระบุตัวนักนักเรียน
+      จะกว้างขวางมากแล้ว การระบุตัวนักเรียน
 
       ก็ยังไม่สมบูรณ์นัก จึงยังมีนักเรียนบางคน
 
       ที่สำนักเลขาธิการไม่สามารถระบุตัวได้'
-    MessageTW: 嗯，赤冬學園腹地寬廣，再加上學生記錄表的電子化尚未完成，所以有滿多事務局無法掌握到的學生。
+    MessageTW: 啊啊。赤冬聯邦學園不僅腹地廣闊，學生的記錄簿等也沒什麼電子化。甚至有不少學生未被事務局所掌控
   - MessageGroupId: 100370110
     Id: 100370150
     CharacterId: 10037
@@ -339,7 +339,7 @@ content:
     MessageTH: 'จึงไม่แปลกหรอกค่ะถ้าหนึ่งในนั้น
 
       จะเป็นสายลับที่โรงเรียนอื่นส่งมา'
-    MessageTW: 如果裏面有外面的學園派來的間諜，也是不足為奇的事。
+    MessageTW: 在其中，就算有從外部學園送進來的「間諜」混入也不奇怪
   - MessageGroupId: 100370120
     Id: 100370160
     CharacterId: 10037
@@ -363,7 +363,7 @@ content:
       ในการก่อความขัดแย้งภายใน
 
       สหภาพเรดวินเทอร์ เจ้าคนน่ารังเกียจ!'
-    MessageTW: 一定是那個間諜想利用這個弱點，分化赤冬學園。可惡的傢伙，
+    MessageTW: 肯定想以這種瑣碎事件觀察情況，在不遠的將來於赤冬聯邦學園內捲起糾紛吧……
   - MessageGroupId: 100370120
     Id: 100370170
     CharacterId: 10037
@@ -383,7 +383,7 @@ content:
     MessageTH: 'ถ้างั้นตั้งแต่วันนี้เป็นต้นไปจะเริ่ม
 
       ปฏิบัติการพิเศษสืบหาสายลับละนะ!'
-    MessageTW: 因此，從今天開始……我要展開特殊間諜搜查作戰！
+    MessageTW: 這樣的話就沒辦法了……即刻起，間諜搜索作戰開始！
   - MessageGroupId: 100370130
     Id: 100370180
     CharacterId: 10037
@@ -401,7 +401,7 @@ content:
     MessageCN: 老师，上次的间谍事件有了后续发展
     MessageEN: Sensei, we've had another spy incident.
     MessageTH: มีเรื่องอีกแล้วละครู เรื่องสายลับน่ะ
-    MessageTW: 老師，又有事件！是上次的間諜問題。
+    MessageTW: 老師，這是關於上次間諜的續報
   - MessageGroupId: 100370140
     Id: 100370190
     CharacterId: 10037
@@ -421,7 +421,7 @@ content:
     MessageTH: 'คราวนี้เหมือนสายลับที่น่ารังเกียจนั่น
 
       จะขโมยพุดดิ้งของประธานเชริโน่ไป'
-    MessageTW: 那可惡的間諜，這次竟然偷走了潔莉諾會長的布丁。
+    MessageTW: 不知在何處的卑劣間諜，這次似乎偷了潔莉諾會長的布丁
   - MessageGroupId: 100370150
     Id: 100370200
     CharacterId: 10037
@@ -439,7 +439,7 @@ content:
     MessageCN: 那个，确定是间谍干的吗？
     MessageEN: How do you know it was a spy?
     MessageTH: ทำไมถึงรีบด่วนสรุปว่าเป็นฝีมือสายลับล่ะ?
-    MessageTW: 為什麼能這麼斷定是間諜做的？
+    MessageTW: 那個，確實是間諜的所為嗎？
   - MessageGroupId: 100370160
     Id: 100370210
     CharacterId: 10037
@@ -461,7 +461,7 @@ content:
       ของสหภาพเรดวินเทอร์สมบูรณ์
 
       แบบเสมอไงล่ะ!'
-    MessageTW: 那當然是因為赤冬學園的保安一向很完美！
+    MessageTW: 啊啊，沒錯。因為赤冬聯邦學園的保安，無時無刻都是完美的！
   - MessageGroupId: 100370160
     Id: 100370220
     CharacterId: 10037
@@ -483,7 +483,7 @@ content:
       ก่อเรื่องละก็ เราก็ไม่เห็นเหตุผลอื่น
 
       ที่จะเกิดปัญหาแล้วล่ะ!'
-    MessageTW: 除非是間諜進來搞破壞，否則不會有問題發生！
+    MessageTW: 除非間諜潛入，不然不可能發生任何問題！
   - MessageGroupId: 100370170
     Id: 100370230
     CharacterId: 10037
@@ -503,7 +503,7 @@ content:
     MessageTH: 'เพราะงั้นคราวนี้ฉันจึงมั่นใจ
 
       ว่าเป็นฝีมือของสายลับ'
-    MessageTW: 所以這次一定也是間諜的所為。
+    MessageTW: 所以毫無疑問是間諜所為吧。
   - MessageGroupId: 100370170
     Id: 100370240
     CharacterId: 10037
@@ -523,7 +523,7 @@ content:
     MessageTH: 'แต่ท่านประธานเชริโน่ดันคิดว่า
 
       ฉันเป็นคนขโมยพุดดิ้งไปกินนี่สิ...'
-    MessageTW: ……可是不知為何，潔莉諾會長認為是我偷走了布丁。
+    MessageTW: 不過，產生一個問題……不知為何潔莉諾會長她，似乎認為布丁是我偷的
   - MessageGroupId: 100370180
     Id: 100370250
     CharacterId: 10037
@@ -543,7 +543,7 @@ content:
     MessageTH: 'ก็จริงอยู่ที่ท่านประธานมีสิทธิ์ที่จะ
 
       สงสัย...'
-    MessageTW: 當然也不是毫無頭緒……
+    MessageTW: 當然，也不是沒有頭緒……
   - MessageGroupId: 100370190
     Id: 100370260
     CharacterId: 10037
@@ -563,7 +563,7 @@ content:
     MessageTH: 'ครั้งนี้ฉันจึงต้องจับตัวสายลับมาให้ได้
 
       เพื่อพิสูจน์ความบริสุทธิ์ของตัวเอง!'
-    MessageTW: 這次我一定要帥氣的抓住間諜，然後證明我的無罪！
+    MessageTW: 反而是個好機會。這次一定要抓住間諜，證明我的才能和無罪！
   - MessageGroupId: 100370200
     Id: 100370270
     CharacterId: 10037
@@ -581,7 +581,7 @@ content:
     MessageCN: ……听我说，老师
     MessageEN: Bad news, Sensei.
     MessageTH: มีข่าวร้ายน่ะครู...
-    MessageTW: ……壞消息，老師。
+    MessageTW: ……聽我說，老師
   - MessageGroupId: 100370210
     Id: 100370280
     CharacterId: 10037
@@ -601,7 +601,7 @@ content:
     MessageTH: 'ฉันถูกลงโทษหนักที่ไปยิงรูปปั้น
 
       ท่านประธานเชริโน่...'
-    MessageTW: 上次我對潔莉諾會長的雕像射擊的事情，終究還是得到了重罰……
+    MessageTW: 上次弄壞潔莉諾會長石像的事，受到了懲罰……
   - MessageGroupId: 100370220
     Id: 100370290
     CharacterId: 10037
@@ -619,7 +619,7 @@ content:
     MessageCN: 玛丽娜现在难不成，在旧校舍？
     MessageEN: Are you going to the former institute?
     MessageTH: โดนให้ไปอยู่อาคารเรียนเก่าเหรอ?
-    MessageTW: 是要去舊校舍嗎？
+    MessageTW: 現在該不會，在舊校舍？
   - MessageGroupId: 100370220
     Id: 100370300
     CharacterId: 10037
@@ -637,7 +637,7 @@ content:
     MessageCN: 我会时不时去看望一下的。有什么想要的尽管说
     MessageEN: I'll visit you when I can.
     MessageTH: แล้วครูจะหาเวลาไปเยี่ยมนะ
-    MessageTW: 我會偶爾去探望妳的。
+    MessageTW: 我會不時去看妳的。有想要的東西跟我說
   - MessageGroupId: 100370230
     Id: 100370310
     CharacterId: 10037
@@ -655,7 +655,7 @@ content:
     MessageCN: 没有，我才没被送到旧校舍！！
     MessageEN: No, I am not going to the former institute!
     MessageTH: ไม่ใช่แบบนั้นสักหน่อย!!
-    MessageTW: 不是，我才不是要去舊校舍！
+    MessageTW: 不是，才不是被流放至舊校舍！！
   - MessageGroupId: 100370240
     Id: 100370320
     CharacterId: 10037
@@ -675,7 +675,7 @@ content:
     MessageTH: 'ฉันไม่ต้องไปอาคารเรียนเก่า
 
       เพราะท่านประธานเชริโน่ยังเมตตาฉัน'
-    MessageTW: 因為潔莉諾會長的慈悲，我才好不容易免去了舊校舍刑罰。
+    MessageTW: 多虧了潔莉諾會長的慈悲，避免被流放至舊校舍……
   - MessageGroupId: 100370240
     Id: 100370330
     CharacterId: 10037
@@ -695,7 +695,7 @@ content:
     MessageTH: 'แต่ได้รับโทษทำความสะอาดห้องน้ำ
 
       1 อาทิตย์เหมือนคราวก่อน...'
-    MessageTW: 但跟上次一樣，得到了打掃廁所一週的刑罰……
+    MessageTW: 但和以前一樣，受到了「打掃廁所1週」之刑
   - MessageGroupId: 100370250
     Id: 100370340
     CharacterId: 10037
@@ -719,7 +719,7 @@ content:
       แต่ในเมื่อเป็นคำสั่งจากท่านประธาน
 
       เชริโน่ก็คงช่วยไม่ได้'
-    MessageTW: 雖然是很令人羞恥又辛苦的事，但這是潔莉諾會長的命令，也是沒辦法的。
+    MessageTW: 不過，這某種意義上也是潔莉諾會長的命令
   - MessageGroupId: 100370250
     Id: 100370350
     CharacterId: 10037
@@ -739,7 +739,7 @@ content:
     MessageTH: 'มารินะคนนี้จะทำตามคำสั่ง
 
       ของท่านประธานอย่างแข็งขัน!'
-    MessageTW: 瑪麗娜不才，會全力執行會長的命令！
+    MessageTW: 瑪麗娜我，會全力執行會長的命令的！
   - MessageGroupId: 100370260
     Id: 100370360
     CharacterId: 10037
@@ -757,7 +757,7 @@ content:
     MessageCN: 这样啊，辛苦了。加油哦
     MessageEN: You have a lot of work to do.
     MessageTH: ทำคนเดียวคงเหนื่อยน่าดูเลยนะ
-    MessageTW: 辛苦妳了。
+    MessageTW: 是嗎，辛苦了。加油哦
   - MessageGroupId: 100370270
     Id: 100370370
     CharacterId: 10037
@@ -775,7 +775,7 @@ content:
     MessageCN: 说什么呢？
     MessageEN: Huh? What do you mean?
     MessageTH: หืม? หมายความว่าอะไร?
-    MessageTW: 嗯？那是什麼話？
+    MessageTW: 你在說什麼啊？
   - MessageGroupId: 100370270
     Id: 100370380
     CharacterId: 10037
@@ -793,7 +793,7 @@ content:
     MessageCN: 老师也要和我一起打扫
     MessageEN: You're gonna clean the bathroom with me, Sensei.
     MessageTH: ครูก็ต้องไปทำความสะอาดกับฉันด้วยสิ
-    MessageTW: 老師也要跟我一起打掃廁所。
+    MessageTW: 老師也要和我一起打掃哦
   - MessageGroupId: 100370280
     Id: 100370390
     CharacterId: 10037
@@ -811,7 +811,7 @@ content:
     MessageCN: ……诶？
     MessageEN: Says who?!
     MessageTH: ไหงเป็นงั้นอะ?
-    MessageTW: 怎麼會？
+    MessageTW: ……咦？
   - MessageGroupId: 100370290
     Id: 100370400
     CharacterId: 10037
@@ -831,7 +831,7 @@ content:
     MessageTH: 'ก็เพราะครูอยู่กับฉันด้วย
 
       ตอนรูปปั้นท่านประธานแตกไง'
-    MessageTW: 因為會長的雕像破掉時，老師也在一起啊。
+    MessageTW: 會長的石像打破時，老師也在吧
   - MessageGroupId: 100370300
     Id: 100370410
     CharacterId: 10037
@@ -857,7 +857,7 @@ content:
       จึงมีส่วนต้องรับผิดชอบด้วย
 
       โทษฐานไม่ปกป้องหนวด!'
-    MessageTW: 守護鬍子的權威是大家的義務。所以老師也要跟我分擔不敬之罪。
+    MessageTW: 保護鬍子的權威是全員的義務。所以老師也是不敬罪，共同承擔責任是理所當然的
   - MessageGroupId: 100370300
     Id: 100370420
     CharacterId: 10037
@@ -881,7 +881,7 @@ content:
       ตั้งแต่เช้า มาเจอกันหน้าอาคาร
 
       สำนักเลขาธิการก่อน 7 โมงนะ!'
-    MessageTW: 好了，老師，明天會一大早進行打掃廁所，請早上7點之前到事務局門口集合！
+    MessageTW: 好了老師。明天早上7點，在事務局前集合！
   - MessageGroupId: 100370310
     Id: 100370430
     CharacterId: 10037
@@ -899,7 +899,7 @@ content:
     MessageCN: 大早上的啊……
     MessageEN: This is nonsense...
     MessageTH: บังคับกันนี่นา...
-    MessageTW: 不合理……
+    MessageTW: 好早……
   - MessageGroupId: 100370320
     Id: 100370440
     CharacterId: 10037
@@ -917,7 +917,7 @@ content:
     MessageCN: ……老师
     MessageEN: Hey, Sensei.
     MessageTH: เอ่อ... ครู...
-    MessageTW: 唔唔……老師，
+    MessageTW: ……老師
   - MessageGroupId: 100370330
     Id: 100370450
     CharacterId: 10037
@@ -937,7 +937,7 @@ content:
     MessageTH: 'ขอโทษที่รบกวนนะ แต่ครูช่วยมาหา
 
       ฉันหน่อยสิ แล้วฉันจะบอกว่าที่ไหน'
-    MessageTW: 不好意思，你能到我指定的地方嗎？
+    MessageTW: 抱歉，現在可以稍微給我一點時間嗎？
   - MessageGroupId: 100370330
     Id: 100370460
     CharacterId: 10037
@@ -957,7 +957,7 @@ content:
     MessageTH: 'พอดีฉันเจอเรื่องน่าอายที่บอก
 
       สมาชิกสำนักเลขาธิการไม่ได้...'
-    MessageTW: 我遇到無法跟其他事務局委員們說的為難的事……
+    MessageTW: 發生了，沒辦法和其他事務局委員說的事……
   - MessageGroupId: 100370340
     Id: 100370470
     CharacterId: 10037
@@ -975,7 +975,7 @@ content:
     MessageCN: 了解了，我马上过去
     MessageEN: Okay, I'll be there soon.
     MessageTH: อื้ม ครูจะไปเดี๋ยวนี้ละ
-    MessageTW: 嗯，馬上過去。
+    MessageTW: 了解，我馬上過去哦
   - MessageGroupId: 100370350
     Id: 100370480
     CharacterId: 10037
@@ -993,7 +993,7 @@ content:
     MessageCN: 发生什么了？
     MessageEN: What happened?
     MessageTH: มีเรื่องอะไรเหรอ?
-    MessageTW: 發生什麼事了？
+    MessageTW: 發生什麼事？
   - MessageGroupId: 100370360
     Id: 100370490
     CharacterId: 10037
@@ -1013,7 +1013,7 @@ content:
     MessageTH: 'เรื่องนั้น ขอโทษที่เรียกให้มาหาใน
 
       พื้นที่ห่างไกลจากสำนักเลขาธิการนะ...'
-    MessageTW: 就是…讓你來到離事務局很遠的地方，真的很抱歉……
+    MessageTW: 啊啊，不好意思我在離事務局也有一段距離的地方……
   - MessageGroupId: 100370360
     Id: 100370500
     CharacterId: 10037
@@ -1031,7 +1031,7 @@ content:
     MessageCN: 我被保安委员们给抓了……
     MessageEN: I was arrested by the Security Council.
     MessageTH: ฉันโดนสมาชิกคณะความมั่นคงคุมตัวอยู่น่ะ...
-    MessageTW: 因為我被保安委員們逮捕了……
+    MessageTW: 被保安委員們，抓住了……
   - MessageGroupId: 100370370
     Id: 100370510
     CharacterId: 10037
@@ -1049,4 +1049,4 @@ content:
     MessageCN: 到底发生了什么……我马上过去
     MessageEN: So you really are in trouble.
     MessageTH: ว่าไงนะ เกิดเรื่องอะไรน่ะ?
-    MessageTW: ……到底發生了什麼事？
+    MessageTW: 到底發生什麼……我馬上過去哦

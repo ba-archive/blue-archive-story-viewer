@@ -9,7 +9,7 @@ title:
     TextKr: 아르바이트 공부
     TextEn: Part-Time Prep
     TextTh: ศึกษางานพาร์ทไทม์
-    TextTw: 學習打工
+    TextTw: 巫女的學習
   - GroupId: 2001103
     FavorScheduleId: 200113
     CharacterId: 20011
@@ -27,7 +27,7 @@ title:
     TextKr: 조금은 길지도 모르는 휴식
     TextEn: A Slightly Extended Break
     TextTh: การพักผ่อนที่แสนอ้อยอิ่ง
-    TextTw: 稍長的休息
+    TextTw: 再稍微一下
 content:
   - MessageGroupId: 200110010
     Id: 200110010
@@ -180,7 +180,7 @@ content:
     MessageTH: 'คุณครู... ฉันไม่เข้าใจ
 
       ที่คุณครูพูดเลยสักนิด'
-    MessageTW: ……老師，腦袋沒壞吧？
+    MessageTW: ……老師，腦袋還好吧？
   - MessageGroupId: 200110050
     Id: 200110090
     CharacterId: 20011
@@ -218,7 +218,7 @@ content:
     MessageCN: 给你这么一说我更不明白了啊！？
     MessageEN: Now I REALLY have no idea what you mean!!
     MessageTH: ยิ่งไม่เข้าใจกว่าเดิมอีก!
-    MessageTW: 更搞不懂是什麼意思了！
+    MessageTW: 更加意義不明了！？
   - MessageGroupId: 200110060
     Id: 200110110
     CharacterId: 20011
@@ -416,7 +416,7 @@ content:
     MessageCN: 再次恭祝新年快乐，老师
     MessageEN: Happy New Year, Sensei.
     MessageTH: สวัสดีปีใหม่ คุณครู
-    MessageTW: 老師，再次祝您新年快樂
+    MessageTW: 老師，再次祝你新年快樂
   - MessageGroupId: 200110150
     Id: 200110210
     CharacterId: 20011
@@ -510,7 +510,7 @@ content:
     MessageCN: 不过打工的过程很开心，所以总体来说应该没什么问题吧
     MessageEN: Yeah, I don't think there will be any problems.
     MessageTH: แต่คิดว่าไม่น่ามีปัญหาหรอก
-    MessageTW: 但很有趣，總的來說沒有問題吧
+    MessageTW: 但很有趣，總結來說沒有問題吧
   - MessageGroupId: 200110180
     Id: 200110260
     CharacterId: 20011
@@ -530,7 +530,7 @@ content:
     MessageTH: 'งั้นเหรอ เข้าใจแล้ว
 
       ครูจะไปหาเดี๋ยวนี้เลย!'
-    MessageTW: 那我馬上過去唷！
+    MessageTW: 那我現在過去唷！
   - MessageGroupId: 200110190
     Id: 200110270
     CharacterId: 20011
@@ -550,7 +550,7 @@ content:
     MessageTH: 'ห๊าาา? ฉะ...ฉันไม่ได้บอก
 
       ให้มาหาสักหน่อยนะ?!'
-    MessageTW: 耶，現在嗎！？我，我沒有說要你來呀！？
+    MessageTW: 咦，現在！？我，我沒有說要你來吧！？
   - MessageGroupId: 200110200
     Id: 200110280
     CharacterId: 20011

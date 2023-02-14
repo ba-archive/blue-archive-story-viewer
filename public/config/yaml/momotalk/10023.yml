@@ -9,7 +9,7 @@ title:
     TextKr: 해변에서 하면 안 되는 일
     TextEn: What Not To Do At the Beach
     TextTh: สิ่งที่ห้ามทำที่ชายหาด
-    TextTw: 不能在海邊做的事
+    TextTw: 在海邊不能做的事
   - GroupId: 1002303
     FavorScheduleId: 100233
     CharacterId: 10023
@@ -18,7 +18,7 @@ title:
     TextKr: 선도부원의 약점
     TextEn: The Prefect Team's Weakness
     TextTh: จุดอ่อนของคณะกรรมการวินัย
-    TextTw: 糾察部成員的弱點
+    TextTw: 某糾察部成員的弱點
   - GroupId: 1002305
     FavorScheduleId: 100235
     CharacterId: 10023
@@ -27,7 +27,7 @@ title:
     TextKr: 선도부원의 가벼운 일탈
     TextEn: The Prefect Team's Change of Pace
     TextTh: การเบนความสนใจของคณะกรรมการวินัย
-    TextTw: 糾察部成員的小叛逆
+    TextTw: 小歇片刻
   - GroupId: 1002306
     FavorScheduleId: 100236
     CharacterId: 10023

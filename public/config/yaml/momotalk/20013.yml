@@ -9,7 +9,7 @@ title:
     TextKr: 일일 보안 결산
     TextEn: Daily Security Audit
     TextTh: สรุปการรักษาความปลอดภัยประจำวัน
-    TextTw: 一一檢核
+    TextTw: 安全檢查
   - GroupId: 2001303
     FavorScheduleId: 200133
     CharacterId: 20013
@@ -18,7 +18,7 @@ title:
     TextKr: 최고의 해킹 수법
     TextEn: Ultimate Hacking Techniques
     TextTh: วิธีการแฮ็กที่ดีที่สุด
-    TextTw: 最強入侵技術
+    TextTw: 駭入的方法
   - GroupId: 2001305
     FavorScheduleId: 200135
     CharacterId: 20013
@@ -27,7 +27,7 @@ title:
     TextKr: 메인터넌스
     TextEn: Maintenance
     TextTh: ปิดปรับปรุง
-    TextTw: 維護
+    TextTw: 伺服器維護
   - GroupId: 2001306
     FavorScheduleId: 200136
     CharacterId: 20013
@@ -36,7 +36,7 @@ title:
     TextKr: 블랙 앤 화이트
     TextEn: Black and White
     TextTh: Black And White
-    TextTw: 黑與白
+    TextTw: Black & White
 content:
   - MessageGroupId: 200130010
     Id: 200130010
@@ -55,7 +55,7 @@ content:
     MessageCN: 老师，百忙之中打扰，不好意思
     MessageEN: Sensei, I'm sorry, I know you're busy.
     MessageTH: คุณครู ขอโทษที่เรียกออกมาทั้งที่งานยุ่งนะ
-    MessageTW: 老師，這麼忙還把妳找來，對不起。
+    MessageTW: 老師，百忙之中打擾你，真不好意思
   - MessageGroupId: 200130020
     Id: 200130020
     CharacterId: 20013
@@ -79,7 +79,7 @@ content:
       ขึ้นน่ะ ฉันเลยอยากแวะไปดูเซิร์ฟเวอร์ของ
 
       ทางชาเล่ต์หน่อย'
-    MessageTW: 為了最近發生的保安問題，所以我想看一下夏萊的伺服器。
+    MessageTW: 有一些和系統安全相關的問題，所以想要調查一下夏萊的伺服器
   - MessageGroupId: 200130020
     Id: 200130030
     CharacterId: 20013
@@ -99,7 +99,7 @@ content:
     MessageTH: 'แต่ว่ามันต้องใส่รหัสผ่านเข้าเครื่อง
 
       คุณครูช่วยมาที่ชาเล่ต์หน่อยได้มั้ย?'
-    MessageTW: 我需要PC的連線密碼，能來一下夏萊的辦公室嗎？
+    MessageTW: 因為必須要使用到夏萊的電腦，稍後可以在夏萊辦公室見個面嗎？
   - MessageGroupId: 200130030
     Id: 200130040
     CharacterId: 20013
@@ -117,7 +117,7 @@ content:
     MessageCN: 啊，那千寻稍等一下
     MessageEN: Okay, be right there.
     MessageTH: อื้อ รอครูแป๊ปนึงนะ
-    MessageTW: 嗯，等我一下。
+    MessageTW: 啊，那稍等我一下
   - MessageGroupId: 200130040
     Id: 200130050
     CharacterId: 20013
@@ -135,7 +135,7 @@ content:
     MessageCN: 我把密码抄给你
     MessageEN: The password is...
     MessageTH: รหัสผ่านเลขอะไรนะ...
-    MessageTW: 連線密碼是……
+    MessageTW: 我把密碼打出來
   - MessageGroupId: 200130050
     Id: 200130060
     CharacterId: 20013
@@ -153,7 +153,7 @@ content:
     MessageCN: 停
     MessageEN: Wait.
     MessageTH: เดี๋ยวก่อน
-    MessageTW: 等等，
+    MessageTW: 等等
   - MessageGroupId: 200130050
     Id: 200130070
     CharacterId: 20013
@@ -173,7 +173,7 @@ content:
     MessageTH: 'ห้ามพิมพ์รหัสผ่านส่งมาทางเส้นทาง
 
       สื่อสารทั่วไปเด็ดขาด'
-    MessageTW: 不能用一般線路打上密碼。
+    MessageTW: 絕對不可以在一般的線路上把密碼打出來
   - MessageGroupId: 200130060
     Id: 200130080
     CharacterId: 20013
@@ -195,7 +195,7 @@ content:
     MessageTH: 'ครูเขียนรหัสแปะไว้ที่ใต้หน้าจอแล้ว
 
       ใช้อันนั้นเลยก็ได้นะ'
-    MessageTW: 螢幕下方有貼一張寫著密碼的便條紙，用那個就好。
+    MessageTW: 螢幕底下有張寫著密碼的便條紙，只要看那個就可以了
   - MessageGroupId: 200130070
     Id: 200130090
     CharacterId: 20013
@@ -213,7 +213,7 @@ content:
     MessageCN: 啊
     MessageEN: Huh?!
     MessageTH: ว่าไงนะ?
-    MessageTW: 什麼？
+    MessageTW: 咦
   - MessageGroupId: 200130070
     Id: 200130100
     CharacterId: 20013
@@ -231,7 +231,7 @@ content:
     MessageCN: ……老师是开玩笑的，吧？
     MessageEN: Are you kidding?
     MessageTH: ล้อเล่นใช่มั้ย...
-    MessageTW: ……妳開玩笑的吧？
+    MessageTW: ……你是開玩笑的，對吧？
   - MessageGroupId: 200130080
     Id: 200130110
     CharacterId: 20013
@@ -249,7 +249,7 @@ content:
     MessageCN: 老师，我有件事想拜托您
     MessageEN: Sensei, could you do me a favor?
     MessageTH: คุณครู ฉันรบกวนเรื่องหนึ่งได้มั้ย?
-    MessageTW: 老師，可以拜託你一件事嗎？
+    MessageTW: 老師，有件事想拜託你
   - MessageGroupId: 200130090
     Id: 200130120
     CharacterId: 20013
@@ -267,7 +267,7 @@ content:
     MessageCN: 嗯，怎么了？
     MessageEN: How can I help?
     MessageTH: ได้สิ เรื่องอะไรเหรอ?
-    MessageTW: 沒問題，什麼事？
+    MessageTW: 嗯，怎麼了嗎
   - MessageGroupId: 200130100
     Id: 200130130
     CharacterId: 20013
@@ -289,7 +289,7 @@ content:
     MessageTH: 'บ่ายนี้ฉันจะไปคุยเรื่องสัญญากับบริษัท
 
       ที่จัดหาอุปกรณ์ให้กับทางมิลเลเนียมน่ะ'
-    MessageTW: 今天下午我本來要去找供應裝備給千年的企業提議簽約事宜。
+    MessageTW: 今天下午，我準備去拜訪某個企業
   - MessageGroupId: 200130100
     Id: 200130140
     CharacterId: 20013
@@ -313,7 +313,7 @@ content:
       เพราะงั้นเลยคิดว่าจะเตรียตัวล่วงหน้า
 
       ก่อนที่จะไปคุยน่ะ'
-    MessageTW: 但是社長是個非常頑固的人，所以想在提議之前先做好準備。
+    MessageTW: 那裡的社長相當頑固，所以我想多做些準備
   - MessageGroupId: 200130100
     Id: 200130150
     CharacterId: 20013
@@ -331,7 +331,7 @@ content:
     MessageCN: 用真理部的方式
     MessageEN: I want to do this Veritas' way.
     MessageTH: หมายถึงวิธีในแบบของเวอริทัสน่ะ
-    MessageTW: ……用貝里塔斯的方式。
+    MessageTW: 當然，是貝里塔斯流的準備
   - MessageGroupId: 200130110
     Id: 200130160
     CharacterId: 20013
@@ -349,7 +349,7 @@ content:
     MessageCN: 用真理部的方式……？
     MessageEN: What do you mean by "Veritas' way"?
     MessageTH: วิธีของเวอริทัสเหรอ...?
-    MessageTW: 貝里塔斯的方式……？
+    MessageTW: 貝里塔斯流的……？
   - MessageGroupId: 200130110
     Id: 200130170
     CharacterId: 20013
@@ -367,7 +367,7 @@ content:
     MessageCN: 黑进去，之类的吗？
     MessageEN: You mean through hacking?
     MessageTH: หมายถึงจะแฮ็กเข้าไปงั้นเหรอ?
-    MessageTW: 意思就是要駭進去嗎？
+    MessageTW: 駭進去，之類的？
   - MessageGroupId: 200130120
     Id: 200130180
     CharacterId: 20013
@@ -391,7 +391,7 @@ content:
       ก่อนจะลงมือทำงานน่ะ คุณครูมาช่วยกัน
 
       หน่อยได้มั้ย'
-    MessageTW: 嗯。做之前想要事先在節點設置後門程式，我希望老師可以在忙邊幫忙。
+    MessageTW: 嗯。我想要設置一個後門，所以希望你能幫忙
   - MessageGroupId: 200130130
     Id: 200130190
     CharacterId: 20013
@@ -409,7 +409,7 @@ content:
     MessageCN: 后门……？
     MessageEN: Node? Back door?
     MessageTH: โหนด...? แบ็กดอร์...?
-    MessageTW: 節點……？後門……？
+    MessageTW: 後門……？
   - MessageGroupId: 200130130
     Id: 200130200
     CharacterId: 20013
@@ -427,7 +427,7 @@ content:
     MessageCN: 我对黑客是一窍不通，没问题吗？
     MessageEN: How can I help? I don't know how hacking works.
     MessageTH: ครูไม่รู้เรื่องการแฮ็กเลย ไม่เป็นไรใช่มั้ย?
-    MessageTW: 我對駭客程式完全不懂，沒關係嗎？
+    MessageTW: 我對駭入之類的事一竅不通，沒關係嗎？
   - MessageGroupId: 200130140
     Id: 200130210
     CharacterId: 20013
@@ -447,7 +447,7 @@ content:
     MessageTH: 'ไม่เป็นไรหรอก ถึงจะขอให้มาช่วย
 
       แต่คุณครูแค่มาอยู่ข้างๆ ก็พอแล้วล่ะ'
-    MessageTW: 沒關係，那只是一個說法，其實老師只要在我旁邊就可以了。
+    MessageTW: 嘛，雖然說是幫忙，不過老師只要待在我旁邊就可以了
   - MessageGroupId: 200130140
     Id: 200130220
     CharacterId: 20013
@@ -465,7 +465,7 @@ content:
     MessageCN: 那之后见
     MessageEN: I'll see you then.
     MessageTH: งั้นเดี๋ยวเจอกันนะ
-    MessageTW: 那等等見囉。
+    MessageTW: 那麼待會見
   - MessageGroupId: 200130150
     Id: 200130230
     CharacterId: 20013
@@ -483,7 +483,7 @@ content:
     MessageCN: 老师刚刚给我打电话了吗？
     MessageEN: Sensei, did you call?
     MessageTH: คุณครู... โทรมาเหรอ?
-    MessageTW: ……老師。你有打電話來嗎？
+    MessageTW: 老師，剛才是你打電話給我嗎？
   - MessageGroupId: 200130160
     Id: 200130240
     CharacterId: 20013
@@ -501,7 +501,7 @@ content:
     MessageCN: 不好意思，刚刚睡了一会
     MessageEN: I was asleep. Sorry.
     MessageTH: โทษทีนะ ฉันนอนอยู่เลยไม่ได้รับสายน่ะ
-    MessageTW: 對不起，正在睡覺沒接到電話。
+    MessageTW: 抱歉，我剛剛睡了一會
   - MessageGroupId: 200130170
     Id: 200130250
     CharacterId: 20013
@@ -519,7 +519,7 @@ content:
     MessageCN: 啊，嗯。不好意思，把千寻吵醒了
     MessageEN: Sorry if I woke you up.
     MessageTH: ขอโทษที่ปลุกนะ
-    MessageTW: 吵醒妳了，對不起。
+    MessageTW: 啊，嗯。抱歉吵醒你了
   - MessageGroupId: 200130170
     Id: 200130260
     CharacterId: 20013
@@ -537,7 +537,7 @@ content:
     MessageCN: 现在已经是中午了，难道千寻昨晚熬夜了吗？
     MessageEN: Were you up all night?
     MessageTH: กลางวันแล้วนะ เมื่อคืนโต้รุ่งมาเหรอ?
-    MessageTW: 現在都白天了，難道妳熬夜了嗎？
+    MessageTW: 已經快中午了，昨天熬夜了嗎？
   - MessageGroupId: 200130180
     Id: 200130270
     CharacterId: 20013
@@ -559,7 +559,7 @@ content:
       เซิร์ฟเวอร์ของบริษัทที่ฉันให้คำปรึกษา
 
       อยู่ตอนเที่ยงคืนน่ะ'
-    MessageTW: 今天凌晨負責顧問的公司伺服器要進行定期維護。
+    MessageTW: 不。是因為今天深夜，我擔任顧問的公司需要進行伺服器的維護
   - MessageGroupId: 200130180
     Id: 200130280
     CharacterId: 20013
@@ -579,7 +579,7 @@ content:
     MessageTH: 'ถ้าจะอยู่โต้รุ่งก็ต้องรีบนอนตุนเอาไว้
 
       ก่อนไงล่ะ'
-    MessageTW: 我想既然要熬夜，乾脆能睡的時候先睡一些比較好。
+    MessageTW: 我想可能需要通宵工作，所以就先睡了一下
   - MessageGroupId: 200130190
     Id: 200130290
     CharacterId: 20013
@@ -599,7 +599,7 @@ content:
     MessageTH: 'ซ่อมบำรุงจนถึงดึกเลยเหรอ
 
       เหนื่อยน่าดูเลยนะ'
-    MessageTW: 深夜維護啊，好辛苦。
+    MessageTW: 這樣啊，真辛苦呢
   - MessageGroupId: 200130200
     Id: 200130300
     CharacterId: 20013
@@ -617,7 +617,7 @@ content:
     MessageCN: 要是方便的话，我也能去参观吗？
     MessageEN: Is it okay if I come with you?
     MessageTH: ถ้าไม่ว่าอะไร ครูไปดูด้วยได้มั้ย?
-    MessageTW: 方便的話，我能去見習嗎？
+    MessageTW: 可以的話，能讓我一起去觀摩嗎
   - MessageGroupId: 200130210
     Id: 200130310
     CharacterId: 20013
@@ -637,7 +637,7 @@ content:
     MessageTH: 'จะมาดูตอนที่ฉันซ่อมบำรุงเซิร์ฟเวอร์
 
       งั้นเหรอ?'
-    MessageTW: 你要在旁邊見習伺服器維護？
+    MessageTW: 觀摩？
   - MessageGroupId: 200130210
     Id: 200130320
     CharacterId: 20013
@@ -657,7 +657,7 @@ content:
     MessageTH: 'ไม่มีปัญหาหรอก... แต่มันออกจะน่าเบื่อ
 
       สักหน่อย คุณครูไม่เป็นไรแน่นะ?'
-    MessageTW: 我是無所謂……不過那是很無聊的工作，你沒關係嗎？
+    MessageTW: 是沒關係啦……不過挺枯燥的，我覺得不怎麼有趣哦？
   - MessageGroupId: 200130220
     Id: 200130330
     CharacterId: 20013
@@ -675,7 +675,7 @@ content:
     MessageCN: 嗯，就算这样我也想看看
     MessageEN: I'm sure.
     MessageTH: ไม่เป็นไรหรอก
-    MessageTW: 沒關係，
+    MessageTW: 嗯，沒關係
   - MessageGroupId: 200130230
     Id: 200130340
     CharacterId: 20013
@@ -695,7 +695,7 @@ content:
     MessageTH: 'เข้าใจแล้วล่ะ ถ้างั้นตอนเที่ยงคืนก็มา
 
       เจอกันที่สถานที่ที่ฉันบอกนะ'
-    MessageTW: 我知道了，那今天凌晨來我告訴你的地址吧。
+    MessageTW: 我知道了。那今晚0點集合吧，地點之後再通知你
   - MessageGroupId: 200130230
     Id: 200130350
     CharacterId: 20013
@@ -715,7 +715,7 @@ content:
     MessageTH: 'แต่ว่าฉันบอกไม่ได้หรอกนะ
 
       ว่าจะซ่อมเสร็จเมื่อไรน่ะ'
-    MessageTW: 只是我不確定伺服器維護會幾點結束……
+    MessageTW: 不過，這次不知道會做到幾點
   - MessageGroupId: 200130230
     Id: 200130360
     CharacterId: 20013
@@ -735,7 +735,7 @@ content:
     MessageTH: 'ถ้าคุณครูจะอยู่โต้รุ่งด้วยกัน ก็พักงีบ
 
       ตอนกลางวันสักหน่อยดีกว่านะ'
-    MessageTW: 老師也要一起熬夜的話，下午最好先睡一些比較好。
+    MessageTW: 我已經做好通霄的覺悟了，老師最好也趁現在睡一下比較好哦
   - MessageGroupId: 200130240
     Id: 200130370
     CharacterId: 20013
@@ -759,7 +759,7 @@ content:
       จะไปแฮ็กคอมพิวเตอร์ของที่ไหนเพราะ
 
       ความสนุกน่ะ'
-    MessageTW: 貝里塔斯的成員經常擅自為了興趣而嘗試駭進來，
+    MessageTW: 雖然你應該也知道，我們貝里塔斯的孩子們常常出於興趣進行駭入……
   - MessageGroupId: 200130250
     Id: 200130380
     CharacterId: 20013
@@ -779,7 +779,7 @@ content:
     MessageTH: 'โชคดีที่ไม่ได้มีปัญหาใหญ่อะไร
 
       ถึงยังได้เล่นซนกันอยู่แบบนี้...'
-    MessageTW: 幸好沒什麼大問題，但經常這樣惹麻煩實在是……
+    MessageTW: 幸好還沒有搞出什麼大問題，不過倒是引發了一些欺負同學的事件
   - MessageGroupId: 200130250
     Id: 200130390
     CharacterId: 20013
@@ -799,7 +799,7 @@ content:
     MessageTH: 'แต่ถ้าปล่อยไว้แบบนี้คงกลายเป็น
 
       ภาพจำว่าเป็นชมรมแฮ็กเกอร์แน่ๆ'
-    MessageTW: 這樣下去會讓駭客社團的形象變糟……
+    MessageTW: 再這樣下去的話，駭客的形象就……
   - MessageGroupId: 200130260
     Id: 200130400
     CharacterId: 20013
@@ -821,7 +821,7 @@ content:
     MessageTH: 'แฮ็กเกอร์ก็มีภาพลักษณ์แบบนั้น
 
       ไม่ใช่เหรอ? งั้นเหรอ...?'
-    MessageTW: 駭客已經有那種印象了……果然是偏見嗎？
+    MessageTW: 駭客好像大多都給人那種印象，果然是偏見嗎？
   - MessageGroupId: 200130270
     Id: 200130410
     CharacterId: 20013
@@ -843,7 +843,7 @@ content:
     MessageTH: 'แน่นอนว่าถ้าพูดถึง <แฮ็กเกอร์> ละก็
 
       ทุกคนคงนึกถึงแฮ็กเกอร์สายมืดกันหมด...'
-    MessageTW: 最近提到＜駭客＞大家就會聯想到黑駭客……
+    MessageTW: 最近每次提到「駭客」，大家似乎都會想到「黑帽駭客」……
   - MessageGroupId: 200130270
     Id: 200130420
     CharacterId: 20013
@@ -867,7 +867,7 @@ content:
       เชี่ยวชาญด้านความปลอดภัย สมัยนี้คำ
 
       ที่ใกล้ที่สุดก็คงเป็นแฮ็กเกอร์หมวกขาวน่ะ'
-    MessageTW: 但駭客本來就是比較接近現在的白帽駭客，帶著保安專家的意思。
+    MessageTW: 不過本來的「駭客」大多比較接近現在所說的「白帽駭客」，有著「保安專家」的意思
   - MessageGroupId: 200130280
     Id: 200130430
     CharacterId: 20013
@@ -887,7 +887,7 @@ content:
     MessageTH: 'อืม สงสัยถ้ามีเวลาก็จะอบรมจริยธรรม
 
       ของแฮ็กเกอร์ให้พวกสมาชิกอยู่หรอก...'
-    MessageTW: 呃呃，有空的時候應該好好的教育成員正確的駭客倫理才行……
+    MessageTW: 唉，得找時間教育社團的孩子們駭客倫理才行……總是依靠那種手段是不行的……
   - MessageGroupId: 200130280
     Id: 200130440
     CharacterId: 20013
@@ -907,4 +907,4 @@ content:
     MessageTH: 'แต่น่าเสียดายที่ช่วงนี้ฉันยุ่งมาก
 
       จนไม่มีเวลาเลยน่ะสิ'
-    MessageTW: 但是因為太忙，無法經常去社團活動室，所以有點可惜。
+    MessageTW: 最近實在有點忙，所以比較少去社團露臉……

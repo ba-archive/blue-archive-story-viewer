@@ -9,7 +9,7 @@ title:
     TextKr: 비닉
     TextEn: Incorporate
     TextTh: การซ่อนเร้น
-    TextTw: 隱匿
+    TextTw: 隱匿事項
   - GroupId: 1001903
     FavorScheduleId: 100193
     CharacterId: 10019
@@ -659,7 +659,7 @@ content:
     MessageCN: 老sh
     MessageEN: Nah.
     MessageTH: เฮ้อ...
-    MessageTW: 老ㄕ
+    MessageTW: 老
   - MessageGroupId: 100190210
     Id: 100190350
     CharacterId: 10019
@@ -677,7 +677,7 @@ content:
     MessageCN: 不对，鼯鼠
     MessageEN: Sensei...I mean, Squirrel.
     MessageTH: คุณครู ไม่สิ กระแต
-    MessageTW: 不，鼯鼠
+    MessageTW: 不對，鼯鼠
   - MessageGroupId: 100190220
     Id: 100190360
     CharacterId: 10019
@@ -751,7 +751,7 @@ content:
     MessageCN: 松鼠抵达之后再进行事项传达
     MessageEN: I'll disclose the details in person.
     MessageTH: แล้วจะบอกภารกิจให้เมื่อเจอกัน
-    MessageTW: 到了再告訴你事情
+    MessageTW: 到了再傳達要事給你
   - MessageGroupId: 100190230
     Id: 100190400
     CharacterId: 10019
@@ -951,7 +951,7 @@ content:
     MessageCN: 柯基呼叫猎犬
     MessageEN: Welsh Corgi to Golden Retriever.
     MessageTH: จากคอร์กี้ ถึงรีทรีฟเวอร์
-    MessageTW: 柯基呼叫尋回犬
+    MessageTW: 柯基呼叫黃金獵犬
   - MessageGroupId: 100190300
     Id: 100190510
     CharacterId: 10019
@@ -1135,7 +1135,7 @@ content:
     MessageTH: 'ตอนนี้คอร์กี้พร้อมแล้ว หวังว่า
 
       รีทรีฟเวอร์ก็จะพร้อมเหมือนกัน'
-    MessageTW: 柯基已經準備好了，希望尋回犬也是
+    MessageTW: 柯基已經準備好了，希望黃金獵犬也是
   - MessageGroupId: 100190360
     Id: 100190610
     CharacterId: 10019
@@ -1153,7 +1153,7 @@ content:
     MessageCN: 猎犬
     MessageEN: Golden Retriever.
     MessageTH: รีทรีฟเวอร์
-    MessageTW: 尋回犬
+    MessageTW: 黃金獵犬
   - MessageGroupId: 100190360
     Id: 100190620
     CharacterId: 10019
@@ -1517,7 +1517,7 @@ content:
     MessageCN: 不错，就用这个吧
     MessageEN: Hmm, that's not bad. Let's just go with that.
     MessageTH: ก็ไม่เลวนะ เอาตามนี้เลยแล้วกัน
-    MessageTW: 還不錯，就那個吧
+    MessageTW: 還不錯，就這個吧
   - MessageGroupId: 100190480
     Id: 100190820
     CharacterId: 10019

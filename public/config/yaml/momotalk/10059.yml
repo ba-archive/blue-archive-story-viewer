@@ -483,9 +483,9 @@ content:
     MessageType: Text
     ImagePath: ''
     MessageKR: 알았어☆ 잘 자!
-    MessageJP: |-
-      分かった☆
-      おやすみ！
+    MessageJP: '分かった☆
+
+      おやすみ！'
     MessageCN: 我知道了☆晚安！
     MessageEN: ''
     MessageTH: ''

@@ -9,7 +9,7 @@ title:
     TextKr: 가끔은 이런 날도
     TextEn: Sometimes on Days Like These
     TextTh: วันดีๆ แบบวันนี้
-    TextTw: 偶爾這種日子也不錯
+    TextTw: 偶爾這種日子也
   - GroupId: 1004403
     FavorScheduleId: 100443
     CharacterId: 10044
@@ -18,7 +18,7 @@ title:
     TextKr: 코코넛 채취 도전
     TextEn: Coconut Harvest Challenge
     TextTh: ลองเก็บมะพร้าว
-    TextTw: 摘椰子大作戰
+    TextTw: 挑戰採椰子
   - GroupId: 1004405
     FavorScheduleId: 100445
     CharacterId: 10044
@@ -27,7 +27,7 @@ title:
     TextKr: 모래 위의 별들
     TextEn: Stars on the Sand
     TextTh: ดาวบนหาดทราย
-    TextTw: 沙灘上的星星
+    TextTw: 閃爍於砂上的星辰
 content:
   - MessageGroupId: 100440010
     Id: 100440010
@@ -210,7 +210,7 @@ content:
     MessageCN: 等您来哦☆
     MessageEN: I'll be waiting! ☆
     MessageTH: ฉันจะรอนะคะ☆
-    MessageTW: 我會等著您唷☆
+    MessageTW: 我等你唷☆
   - MessageGroupId: 100440080
     Id: 100440110
     CharacterId: 10044
@@ -484,7 +484,7 @@ content:
     MessageCN: 那我在这等您哦～！
     MessageEN: Thank you, Sensei!
     MessageTH: ขอบคุณค่ะ คุณครู♡
-    MessageTW: 我會等著您唷～！
+    MessageTW: 我等你唷～！
   - MessageGroupId: 100440180
     Id: 100440260
     CharacterId: 10044

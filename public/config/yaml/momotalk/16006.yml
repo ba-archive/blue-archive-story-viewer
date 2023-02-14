@@ -9,7 +9,7 @@ title:
     TextKr: 소녀가 여름을 즐기는 방법
     TextEn: How a Girl Enjoys Summer
     TextTh: วิธีสนุกกับฤดูร้อนของเด็กสาว
-    TextTw: 少女享受夏天的方法
+    TextTw: 泉與享受夏季的數種方法
   - GroupId: 1600603
     FavorScheduleId: 160063
     CharacterId: 16006
@@ -18,7 +18,7 @@ title:
     TextKr: 소녀의 비법 재료
     TextEn: A Girl's Secret Ingredient
     TextTh: วัตถุดิบลับของเด็กสาว
-    TextTw: 少女的秘方材料
+    TextTw: 泉與秘密的材料
   - GroupId: 1600605
     FavorScheduleId: 160065
     CharacterId: 16006
@@ -27,7 +27,7 @@ title:
     TextKr: 소녀는 그렇게 바다와 싸운다.
     TextEn: The Girl Fights with the Ocean
     TextTh: การต่อสู้ของเด็กสาวที่ทะเล
-    TextTw: 少女是那樣與大海打架的
+    TextTw: 泉與夏季的魔物
 content:
   - MessageGroupId: 160060010
     Id: 160060010

@@ -18,7 +18,7 @@ title:
     TextKr: 가짜 음식
     TextEn: Fake Food
     TextTh: อาหารปลอม
-    TextTw: 假食物
+    TextTw: 假料理
   - GroupId: 1300705
     FavorScheduleId: 130075
     CharacterId: 13007
@@ -72,9 +72,9 @@ content:
     MessageJP: うう……美味しい物って、なんでこんなに高いんだろう……
     MessageCN: 呜呜……为什么好吃的东西都这么贵呢……
     MessageEN: Ugh... Why must delicious food be so expensive...
-    MessageTH: |-
-      เฮ้อ... ทำไมอาหารอร่อยๆ ถึงได้แพง
-      ขนาดนี้นะ
+    MessageTH: 'เฮ้อ... ทำไมอาหารอร่อยๆ ถึงได้แพง
+
+      ขนาดนี้นะ'
     MessageTW: 嗚嗚……好吃的東西為什麼這麼貴呢……
   - MessageGroupId: 130070020
     Id: 1160
@@ -110,9 +110,9 @@ content:
     MessageJP: 一攫千金とか期待し過ぎないで、きちんとコツコツ仕事をしないとね
     MessageCN: 还是少做点暴富的白日梦，踏踏实实工作吧
     MessageEN: You shouldn't expect any shortcuts. You need a real job.
-    MessageTH: |-
-      อย่าหวังแต่โชคช่วย แล้วไปตั้งใจ
-      ทำงานเถอะ...
+    MessageTH: 'อย่าหวังแต่โชคช่วย แล้วไปตั้งใจ
+
+      ทำงานเถอะ...'
     MessageTW: 別指望一攫千金，要好好工作才行
   - MessageGroupId: 130070030
     Id: 1162
@@ -130,9 +130,9 @@ content:
     MessageJP: 私も働かずにお金を貰って暮らしたい……
     MessageCN: 我也想过不劳而获的生活……
     MessageEN: I want to make money without working too...
-    MessageTH: |-
-      ครูก็อยากได้เงินโดยไม่ต้องทำงาน
-      เหมือนกัน...
+    MessageTH: 'ครูก็อยากได้เงินโดยไม่ต้องทำงาน
+
+      เหมือนกัน...'
     MessageTW: 我也想要不勞而獲地過活……
   - MessageGroupId: 130070040
     Id: 1163
@@ -186,9 +186,9 @@ content:
     MessageJP: まあこれも本音だけど、アルバイトの時は私も真剣にやってるよ
     MessageCN: 虽然这是我的真心话，但打工的时候我还是很认真的啊
     MessageEN: Well, you may say that, but I take my part-time job seriously.
-    MessageTH: |-
-      ถึงจะพูดแบบนั้นก็เถอะ ตอนทำงาน
-      พาร์ทไทม์ฉันขยันมากนะ
+    MessageTH: 'ถึงจะพูดแบบนั้นก็เถอะ ตอนทำงาน
+
+      พาร์ทไทม์ฉันขยันมากนะ'
     MessageTW: 雖然是真心話，但我打工時也是很認真的唷
   - MessageGroupId: 130070070
     Id: 1166
@@ -314,10 +314,10 @@ content:
     MessageJP: お手頃価格で、高級な海鮮食材をたくさん食べられる方法を見つけたの！
     MessageCN: 我找到了能用实惠的价格吃到很多高级海鲜食材的方法！
     MessageEN: I've found a way to eat tons of premium seafood for really cheap!
-    MessageTH: |-
-      วิธีที่จะได้กินอาหารทะเลคุณภาพสูงใน
-      ราคาถูกยังไงล่ะ!
-    MessageTW: 找到了以實惠的價格吃很多高級海鮮食材的方法！
+    MessageTH: 'วิธีที่จะได้กินอาหารทะเลคุณภาพสูงใน
+
+      ราคาถูกยังไงล่ะ!'
+    MessageTW: 有個能以實惠價格大吃高級海鮮食材的方法！
   - MessageGroupId: 130070130
     Id: 1173
     CharacterId: 13007
@@ -352,9 +352,9 @@ content:
     MessageJP: ジュンコ、いくらそういうのが食べたいからって犯罪はダメだよ
     MessageCN: 纯子，再怎么想吃那种东西也不能犯罪啊
     MessageEN: Junko, you shouldn't break the law, even for fine seafood.
-    MessageTH: |-
-      นี่จุนโกะ ถึงจะอยากกินของดีๆ แต่ก็
-      ห้ามไปก่อเรื่องนะ
+    MessageTH: 'นี่จุนโกะ ถึงจะอยากกินของดีๆ แต่ก็
+
+      ห้ามไปก่อเรื่องนะ'
     MessageTW: 淳子，再怎麼想吃那種東西也不能犯罪啊
   - MessageGroupId: 130070140
     Id: 1175
@@ -372,9 +372,9 @@ content:
     MessageJP: もちろん。詳しい方法は秘密だけど……ふふっ
     MessageCN: 那当然啦。不过具体办法暂时保密……哼哼
     MessageEN: Yeah. But I can't tell you the details yet. Heehee.
-    MessageTH: |-
-      แน่นอนอยู่แล้ว แต่ฉันไม่บอกหรอกนะว่า
-      ต้องทำยังไง หุหุ
+    MessageTH: 'แน่นอนอยู่แล้ว แต่ฉันไม่บอกหรอกนะว่า
+
+      ต้องทำยังไง หุหุ'
     MessageTW: 當然。不過詳細的方法是秘密……呵呵
   - MessageGroupId: 130070150
     Id: 1176
@@ -392,9 +392,9 @@ content:
     MessageJP: 私のことを何だと思ってるの！？犯罪とかじゃないから！
     MessageCN: 老师居然这样看待我！？才不是去偷去抢呢！
     MessageEN: What do you take me for? I'm not committing any crimes!
-    MessageTH: |-
-      เห็นฉันเป็นคนยังไงกัน? ฉันไม่ได้จะไป
-      ก่อเรื่องอะไรสักหน่อย?
+    MessageTH: 'เห็นฉันเป็นคนยังไงกัน? ฉันไม่ได้จะไป
+
+      ก่อเรื่องอะไรสักหน่อย?'
     MessageTW: 你把我想成什麼了！？才不是犯罪！
   - MessageGroupId: 130070160
     Id: 1177
@@ -411,12 +411,12 @@ content:
     MessageKR: 자세한 내용이 궁금하다면 오늘 저녁 시간에 맞춰 게헨나의 학원 식당으로 찾아와.
     MessageJP: 詳しいことが知りたかったら、今夜ゲヘナの学食に来て！
     MessageCN: 如果老师想知道详情的话，今晚就到格黑娜学生食堂来吧！
-    MessageEN: >-
-      If you wanna know the details, come to the Gehenna Academy dining hall at
-      dinner today.
-    MessageTH: |-
-      ถ้าอยากรู้วิธีนี้ล่ะก็ เย็นนี้มาที่โรงอาหาร
-      ของเกเฮนน่าสิ
+    MessageEN:
+      If you wanna know the details, come to the Gehenna Academy dining hall
+      at dinner today.
+    MessageTH: 'ถ้าอยากรู้วิธีนี้ล่ะก็ เย็นนี้มาที่โรงอาหาร
+
+      ของเกเฮนน่าสิ'
     MessageTW: 如果想知道詳情，今晚來格黑娜的餐廳吧！
   - MessageGroupId: 130070160
     Id: 1178
@@ -469,14 +469,15 @@ content:
     MessageKR: 가짜 음식을 실험하느라 푸딩을 구입하지만 않았어도 오늘 저녁은 호화롭게 먹을 수 있었을 텐데…….
     MessageJP: あんな実験のために材料を買わなければ、贅沢な食事ができたのに……
     MessageCN: 要是当初不给这种实验准备材料，现在就可以吃一顿豪华大餐了……
-    MessageEN: >-
-      If I hadn't bought that pudding to experiment with the fake food, I could
-      have had a really nice dinner tonight...
-    MessageTH: |-
-      ถ้าวันนี้ไม่ซื้อพุดดิ้งเพื่อทดลองอาหาร
+    MessageEN:
+      If I hadn't bought that pudding to experiment with the fake food, I
+      could have had a really nice dinner tonight...
+    MessageTH: 'ถ้าวันนี้ไม่ซื้อพุดดิ้งเพื่อทดลองอาหาร
+
       ปลอมๆ วันนี้ก็คงได้กินอาหารเย็นมื้อ
-      แพงๆ ไปแล้ว
-    MessageTW: 如果沒有買那個實驗的材料，就能吃頓豪華大餐了……
+
+      แพงๆ ไปแล้ว'
+    MessageTW: 如果沒有為那種實驗買材料，就能吃頓豪華大餐了……
   - MessageGroupId: 130070180
     Id: 1181
     CharacterId: 13007
@@ -528,13 +529,13 @@ content:
     MessageKR: 방금 인터넷에서 봤는데 오이에 꿀을 바르면 멜론 맛이 난대.
     MessageJP: ネットで見たんだけど、キュウリに蜂蜜を塗るとメロンの味がするらしいよ
     MessageCN: 我看到网上说，在黄瓜上涂蜂蜜，吃起来会有哈密瓜的味道
-    MessageEN: >-
-      I saw on the Internet that if you put honey on cucumber, it tastes like
-      melon.
-    MessageTH: |-
-      ครูเจอมาในเน็ตว่าหากเอาน้ำผึ้งทา
-      แตงกวา จะมีรสเหมือนเมล่อนล่ะ
-    MessageTW: 在網路上看到，在黃瓜上塗蜂蜜好像會有哈密瓜的味道
+    MessageEN:
+      I saw on the Internet that if you put honey on cucumber, it tastes
+      like melon.
+    MessageTH: 'ครูเจอมาในเน็ตว่าหากเอาน้ำผึ้งทา
+
+      แตงกวา จะมีรสเหมือนเมล่อนล่ะ'
+    MessageTW: 我在網路上看到，黃瓜塗蜂蜜好像會有哈密瓜的味道
   - MessageGroupId: 130070210
     Id: 1184
     CharacterId: 13007
@@ -550,12 +551,12 @@ content:
     MessageKR: 또 인터넷 사기냐! 게다가 꿀은 멜론보다 더 비싸잖아!
     MessageJP: またネットの情報じゃん！それに蜂蜜って十分高いよ！
     MessageCN: 这不还是网上传的吗！而且蜂蜜就够贵的了！
-    MessageEN: >-
+    MessageEN:
       Another internet fraud! Besides, honey is more expensive than the melon
       itself!
-    MessageTH: |-
-      เพ้อเจ้อน่า! อีกอย่าง น้ำผึ้งน่ะแพงกว่า
-      เมล่อนอีก!
+    MessageTH: 'เพ้อเจ้อน่า! อีกอย่าง น้ำผึ้งน่ะแพงกว่า
+
+      เมล่อนอีก!'
     MessageTW: 又是網路資訊啊！而且蜂蜜就已經夠貴了！
   - MessageGroupId: 130070210
     Id: 1185
@@ -573,9 +574,9 @@ content:
     MessageJP: もう騙されないんだからぁっ！
     MessageCN: 我不会再被骗了！
     MessageEN: I won't be fooled by fake food again!
-    MessageTH: |-
-      ฉันจะไม่ถูกหลอกเพราะเรื่องอาหาร
-      ปลอมหรอก
+    MessageTH: 'ฉันจะไม่ถูกหลอกเพราะเรื่องอาหาร
+
+      ปลอมหรอก'
     MessageTW: 已經不會再被騙了！
   - MessageGroupId: 130070220
     Id: 1186
@@ -611,9 +612,9 @@ content:
     MessageJP: 今日の美食研究会の夕飯はなんと……お肉！
     MessageCN: 美食研究会今天的晚饭……居然有肉！
     MessageEN: For tonight's dinner, the Gourmet Research Society is having...meat!
-    MessageTH: |-
-      เพราะเมนูอาหารเย็นของชมรมชิมอาหาร
-      วันนี้คือ... เนื้อย่าง!
+    MessageTH: 'เพราะเมนูอาหารเย็นของชมรมชิมอาหาร
+
+      วันนี้คือ... เนื้อย่าง!'
     MessageTW: 今天美食研究會的晚餐竟然是……肉！
   - MessageGroupId: 130070240
     Id: 1188
@@ -630,7 +631,7 @@ content:
     MessageKR: ……고기!
     MessageJP: お肉！
     MessageCN: 有肉！
-    MessageEN: ...Meat!
+    MessageEN: '...Meat!'
     MessageTH: เนื้อย่าง...!
     MessageTW: 肉！
   - MessageGroupId: 130070250
@@ -666,7 +667,7 @@ content:
     MessageKR: ……와규!
     MessageJP: 和牛！？
     MessageCN: 和牛！？
-    MessageEN: ...Wagyu!
+    MessageEN: '...Wagyu!'
     MessageTH: เนื้อวากิว...!
     MessageTW: 和牛！？
   - MessageGroupId: 130070270
@@ -704,7 +705,7 @@ content:
     MessageCN: 老师今天就好好羡慕我的晚饭吧！
     MessageEN: You should be green with envy today!
     MessageTH: วันนี้ฉันจะให้อิจฉาได้วันนึง!
-    MessageTW: 今天就盡情地羨慕我吧！
+    MessageTW: 今天就儘管羨慕我吧！
   - MessageGroupId: 130070280
     Id: 1193
     CharacterId: 13007
@@ -757,9 +758,9 @@ content:
     MessageJP: ダーメ、今日行くお店は人数制限があるから
     MessageCN: 不——行——，今天去的店有人数限制的
     MessageEN: No. The yakiniku restaurant we're going to only accepts smaller groups.
-    MessageTH: |-
-      ไม่ได้! เพราะร้านยากินิกุที่เราจะไปกัน
-      จำกัดจำนวนคนน่ะสิ
+    MessageTH: 'ไม่ได้! เพราะร้านยากินิกุที่เราจะไปกัน
+
+      จำกัดจำนวนคนน่ะสิ'
     MessageTW: 不行，今天去的店有人數限制
   - MessageGroupId: 130070290
     Id: 1196
@@ -777,9 +778,9 @@ content:
     MessageJP: その代わりに帰ってきたら、どれくらい美味しかったか教えてあげる！
     MessageCN: 就由我来吃掉老师的份，回来再告诉老师有多好吃吧！
     MessageEN: But I'll tell you how good the wagyu was when I get back!
-    MessageTH: |-
-      เอาเป็นว่า ฉันจะกลับมาเล่าให้ฟังแล้วกัน
-      ว่าเนื้อย่างอร่อยแค่ไหน
+    MessageTH: 'เอาเป็นว่า ฉันจะกลับมาเล่าให้ฟังแล้วกัน
+
+      ว่าเนื้อย่างอร่อยแค่ไหน'
     MessageTW: 但是回來後，我會告訴你有多好吃！
   - MessageGroupId: 130070300
     Id: 1197
@@ -796,12 +797,12 @@ content:
     MessageKR: 오늘 점심에는 미식연구회 부원들과 함께 케이크 뷔페에 갈 거야!
     MessageJP: 今日のお昼は、美食研究会でケーキバイキングに行くの！
     MessageCN: 今天中午，美食研究会要去吃蛋糕自助！
-    MessageEN: >-
-      For lunch today, I'm going to a cake buffet with the other members of the
-      Gourmet Research Society!
-    MessageTH: |-
-      อาหารกลางวันของฉันและสมาชิกชมรม
-      วันนี้คือบุฟเฟต์เค้ก!
+    MessageEN:
+      For lunch today, I'm going to a cake buffet with the other members
+      of the Gourmet Research Society!
+    MessageTH: 'อาหารกลางวันของฉันและสมาชิกชมรม
+
+      วันนี้คือบุฟเฟต์เค้ก!'
     MessageTW: 今天中午，要跟美食研究會去蛋糕自助餐！
   - MessageGroupId: 130070310
     Id: 1198
@@ -872,12 +873,10 @@ content:
     MessageKR: 여러 가지 종류의 케이크가 잔뜩 진열되어 있고, 제한 시간 동안 그 케이크를 마음껏 먹을 수 있는
     MessageJP: 色んなケーキがたくさん並んでて、時間内なら好きなだけ食べられる……
     MessageCN: 桌面上排出各种各样的蛋糕，在限定时间里可以随便吃……
-    MessageEN: >-
-      It's a restaurant where they set out all kinds of cakes, and it's
-      all-you-can-eat.
-    MessageTH: |-
-      มีเค้กให้กินหลายประเภทเลย แถมกิน
-      ได้มากเท่าที่ต้องการเลยล่ะ
+    MessageEN: It's a restaurant where they set out all kinds of cakes, and it's all-you-can-eat.
+    MessageTH: 'มีเค้กให้กินหลายประเภทเลย แถมกิน
+
+      ได้มากเท่าที่ต้องการเลยล่ะ'
     MessageTW: 擺放著各式各樣的蛋糕，在時間內可以隨便吃……
   - MessageGroupId: 130070330
     Id: 1202
@@ -1021,9 +1020,9 @@ content:
     MessageJP: 昆布って、あんなにお腹の中で膨れるんだ……
     MessageCN: 海带居然会在肚子里膨胀得那么厉害……
     MessageEN: I never thought that dried kelp would bloat me like that...
-    MessageTH: |-
-      ไม่คิดเลยว่าสาหร่ายอบแห้งจะไปบวม
-      ในท้องได้...
+    MessageTH: 'ไม่คิดเลยว่าสาหร่ายอบแห้งจะไปบวม
+
+      ในท้องได้...'
     MessageTW: 昆布竟然在肚子裡膨脹得這麼厲害……
   - MessageGroupId: 130070390
     Id: 1210
@@ -1041,10 +1040,10 @@ content:
     MessageJP: この前アカリがおやつで、味付き乾燥昆布を一袋丸ごと食べてたけど……
     MessageCN: 明明前不久明里还把一整袋干海带当零食吃了……
     MessageEN: Last time, I saw Akari eat a whole box of dried kelp as a snack...
-    MessageTH: |-
-      แต่ว่าคราวก่อนอาคาริก็กินสาหร่ายอบ
-      แห้งเป็นของว่างตั้งเยอะนี่นา...
-    MessageTW: 前幾天看到亞伽里把一整袋調味的乾昆布當作點心吃了……
+    MessageTH: 'แต่ว่าคราวก่อนอาคาริก็กินสาหร่ายอบ
+
+      แห้งเป็นของว่างตั้งเยอะนี่นา...'
+    MessageTW: 前幾天看到亞伽里把一整袋調味乾昆布當作點心吃……
   - MessageGroupId: 130070390
     Id: 1211
     CharacterId: 13007
@@ -1078,12 +1077,12 @@ content:
     MessageKR: 선생님, 산해경 학원 근처에 있는 중화가의 소문 들었어?
     MessageJP: 先生、山海経の近くにある中華街の噂って聞いたことある？
     MessageCN: 老师听说过山海经附近的中华街吗？
-    MessageEN: >-
+    MessageEN:
       Sensei, did you hear about the Chinese quarter near the Shanhaijing
       Academy?
-    MessageTH: |-
-      คุณครู ได้ยินข่าวลือเกี่ยวกับไชน่าทาวน์
-      แถวๆ ซานไห่จิงบ้างไหม?
+    MessageTH: 'คุณครู ได้ยินข่าวลือเกี่ยวกับไชน่าทาวน์
+
+      แถวๆ ซานไห่จิงบ้างไหม?'
     MessageTW: 老師，聽說過山海經附近的中華街嗎？
   - MessageGroupId: 130070410
     Id: 1213
@@ -1100,12 +1099,12 @@ content:
     MessageKR: 거리가 중화 요릿집으로 가득 들어차 있는데, 모두 하나같이 맛집이래!
     MessageJP: 中華料理のお店でいっぱいで、どのお店もすごく美味しいんだって！
     MessageCN: 那条街上有好多中华料理店，而且每家店都特别好吃！
-    MessageEN: >-
-      The streets there are full of Chinese restaurants, and they say that all
-      of them are awesome!
-    MessageTH: |-
-      เห็นว่าที่นั่นมีร้านอาหารจีนฟิวชั่นเยอะ
-      เลยล่ะ แถมอาหารยังอร่อยอีกด้วย!
+    MessageEN:
+      The streets there are full of Chinese restaurants, and they say that
+      all of them are awesome!
+    MessageTH: 'เห็นว่าที่นั่นมีร้านอาหารจีนฟิวชั่นเยอะ
+
+      เลยล่ะ แถมอาหารยังอร่อยอีกด้วย!'
     MessageTW: 有很多中華料理店，而且每一間都很好吃！
   - MessageGroupId: 130070420
     Id: 1214
@@ -1159,10 +1158,10 @@ content:
     MessageJP: そっか。先生の耳にも入るぐらいだし、やっぱり間違いなさそう……！
     MessageCN: 这样啊。连老师都听说过，那肯定不会有错了……！
     MessageEN: If you know about it, then it must be really great.
-    MessageTH: |-
-      หากคุณครูก็ได้ยินข่าวลือนี้มา แสดงว่า
-      ต้องเป็นร้านเด็ดจริงๆ แน่เลย
-    MessageTW: 這樣啊。連消息都傳進老師的耳朵了，看來準沒錯……！
+    MessageTH: 'หากคุณครูก็ได้ยินข่าวลือนี้มา แสดงว่า
+
+      ต้องเป็นร้านเด็ดจริงๆ แน่เลย'
+    MessageTW: 這樣啊。消息都傳進老師的耳朵了，看來準沒錯……！
   - MessageGroupId: 130070440
     Id: 1217
     CharacterId: 13007
@@ -1179,10 +1178,10 @@ content:
     MessageJP: ええっ！私に声もかけないで、自分だけ行ってきたの！？ずるい！
     MessageCN: 诶诶！居然不叫我，自己一个人去过吗！？好狡猾！
     MessageEN: What? You already went without me? You're so mean!
-    MessageTH: |-
-      อะไรนะ? ทำไมไม่ชวนฉันไปกินด้วยล่ะ?
-      ไม่แฟร์เลย!
-    MessageTW: 耶耶！不跟我說一聲就自己跑去！？真狡猾！
+    MessageTH: 'อะไรนะ? ทำไมไม่ชวนฉันไปกินด้วยล่ะ?
+
+      ไม่แฟร์เลย!'
+    MessageTW: 咦咦──！不跟我說一聲就自己跑去！？真狡猾！
   - MessageGroupId: 130070450
     Id: 1218
     CharacterId: 13007
@@ -1198,12 +1197,12 @@ content:
     MessageKR: 어찌 되었든 미식을 추구하는 미식연구회의 일원으로서 이 소식을 그냥 넘길 수는 없지.
     MessageJP: とにかく、美食研究会の一員として、これは行くしかないでしょ
     MessageCN: 总之，作为美食研究会的部员，这种地方我不得不去吧
-    MessageEN: >-
-      Anyway, as a member of the Gourmet Research Society and master of
-      gastronomy, I can't ignore this news.
-    MessageTH: |-
-      ในฐานะสมาชิกชมรมชิมอาหาร ฉันไม่
-      ยอมปล่อยเรื่องนี้ให้ผ่านไปได้
+    MessageEN:
+      Anyway, as a member of the Gourmet Research Society and master of gastronomy,
+      I can't ignore this news.
+    MessageTH: 'ในฐานะสมาชิกชมรมชิมอาหาร ฉันไม่
+
+      ยอมปล่อยเรื่องนี้ให้ผ่านไปได้'
     MessageTW: 總之，身為美食研究會的一員，只能去了吧
   - MessageGroupId: 130070450
     Id: 1219
@@ -1220,12 +1219,12 @@ content:
     MessageKR: 그래서 말인데…… 이번 주말에 시간 괜찮으면 산해경 학원에 같이 가지 않을래?
     MessageJP: だから、えっと……今度の週末、もしよかったら一緒に行かない？
     MessageCN: 所以，那个……这周末，如果老师方便的话能和我一起去吗？
-    MessageEN: >-
-      So, I was wondering... If you have time this weekend, would you like to go
-      to Shanhaijing Academy with me?
-    MessageTH: |-
-      ถ้าคุณครูว่าง สุดสัปดาห์นี้เราไปที่โรง
-      เรียนซานไห่จิงกันไหม?
+    MessageEN:
+      So, I was wondering... If you have time this weekend, would you like
+      to go to Shanhaijing Academy with me?
+    MessageTH: 'ถ้าคุณครูว่าง สุดสัปดาห์นี้เราไปที่โรง
+
+      เรียนซานไห่จิงกันไหม?'
     MessageTW: 所以，那個……這個週末，如果可以的話，要一起去嗎？
   - MessageGroupId: 130070460
     Id: 1220
@@ -1279,9 +1278,9 @@ content:
     MessageJP: じゃあ週末、山海経高級中学校の正門前でね！
     MessageCN: 那就周末在山海经高级中学正门前面碰头吧！
     MessageEN: Then I'll see you in front of Shanhaijing Academy main gate this weekend!
-    MessageTH: |-
-      งั้นไว้เจอกันที่ประตูหน้าของโรงเรียน
-      ซานไห่จิงนะ!
+    MessageTH: 'งั้นไว้เจอกันที่ประตูหน้าของโรงเรียน
+
+      ซานไห่จิงนะ!'
     MessageTW: 那麼週末，在山海經高級中學的正門口前見唷！
   - MessageGroupId: 130070480
     Id: 130070010

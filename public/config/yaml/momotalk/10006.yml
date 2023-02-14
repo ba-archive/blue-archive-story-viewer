@@ -18,7 +18,7 @@ title:
     TextKr: 교정에서의 휴식
     TextEn: Resting on Campus
     TextTh: การพักผ่อนในสนามโรงเรียน
-    TextTw: 校園中的休息
+    TextTw: 於中庭的休息
   - GroupId: 1000605
     FavorScheduleId: 100065
     CharacterId: 10006
@@ -36,7 +36,7 @@ title:
     TextKr: 상냥한 치료
     TextEn: Tender Treatment
     TextTh: การรักษาที่อ่อนโยน
-    TextTw: 善良的治療
+    TextTw: 溫柔的治療
   - GroupId: 1000608
     FavorScheduleId: 100068
     CharacterId: 10006
@@ -122,7 +122,7 @@ content:
     MessageCN: 还真是世风日下啊
     MessageEN: Ugh, what an ugly world.
     MessageTH: โลกนี้ชักอยู่ยากขึ้นแล้ว
-    MessageTW: 真是的，身處這可嘆的世道
+    MessageTW: 真是的，這世道真可嘆
   - MessageGroupId: 100060040
     Id: 524
     CharacterId: 10006
@@ -242,7 +242,7 @@ content:
     MessageTH: 'มาบ่อยเพราะครูอยากเจออิโอริจัง
 
       ยังไงล่ะ...'
-    MessageTW: 想和伊織見面，忍不住就……
+    MessageTW: 想和伊織醬見面，忍不住就……
   - MessageGroupId: 100060090
     Id: 530
     CharacterId: 10006
@@ -434,7 +434,7 @@ content:
     MessageTH: 'ถ้าเป็นของกินของใช้ทั่วไป ไปซื้อเอาใน
 
       ตลาดธรรมดาก็น่าจะได้นี่นา...'
-    MessageTW: 如果是生活必需品的話，普通的市場也什麼都能買到…
+    MessageTW: 如果是生活必需品，普通市場就都能買到了……
   - MessageGroupId: 100060170
     Id: 540
     CharacterId: 10006
@@ -452,7 +452,7 @@ content:
     MessageCN: 黑市到底在进行什么交易啊？
     MessageEN: So what's being traded on the Black Market?
     MessageTH: ในตลาดมืดค้าขายสินค้าแบบไหนกันนะ?
-    MessageTW: 到底黑市都在進行著什麼樣的交易呢？
+    MessageTW: 到底都在黑市進行什麼樣的交易呢？
   - MessageGroupId: 100060180
     Id: 541
     CharacterId: 10006
@@ -716,7 +716,7 @@ content:
     MessageTH: 'สมาชิกคนอื่นในคณะกรรมการวินัย
 
       ก็ช่วยครูเหมือนกัน ขอบคุณนะ'
-    MessageTW: 伊織就不用說了，還得到了格黑娜糾察部的各種幫助
+    MessageTW: 除了伊織，還有得到其他格黑娜糾察部成員的各種幫助
   - MessageGroupId: 100060280
     Id: 555
     CharacterId: 10006
@@ -794,7 +794,7 @@ content:
     MessageCN: 伊织在刚刚的作战中背上也受伤了不是吗？
     MessageEN: Get hurt during the mission?
     MessageTH: เมื่อกี้เธอบาดเจ็บที่หลังมาไม่ใช่เหรอ?
-    MessageTW: 伊織在剛才的作戰中傷了背部嗎？
+    MessageTW: 伊織在剛才的作戰中背部受傷了嗎？
   - MessageGroupId: 100060300
     Id: 559
     CharacterId: 10006

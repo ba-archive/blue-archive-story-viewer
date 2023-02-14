@@ -18,7 +18,7 @@ title:
     TextKr: 거리 두기
     TextEn: Distancing
     TextTh: การรักษาระยะห่าง
-    TextTw: 保持距離
+    TextTw: 一點點的距離
   - GroupId: 1001005
     FavorScheduleId: 100105
     CharacterId: 10010
@@ -27,7 +27,7 @@ title:
     TextKr: 로드 싸이클
     TextEn: Road Biking
     TextTh: การปั่นจักรยานถนน
-    TextTw: 公路車
+    TextTw: 公路自行車
   - GroupId: 1001006
     FavorScheduleId: 100106
     CharacterId: 10010
@@ -45,7 +45,7 @@ title:
     TextKr: 도시 관찰
     TextEn: Scoping Out the City
     TextTh: การสังเกตการณ์ในเมือง
-    TextTw: 觀察都市
+    TextTw: 都市參觀
   - GroupId: 1001009
     FavorScheduleId: 100109
     CharacterId: 10010
@@ -81,9 +81,9 @@ content:
     MessageJP: スクランブルエッグ、牛乳500ml、トマト3切れ→朝ごはん
     MessageCN: 炒蛋、牛奶500ml、西红柿3片→早饭
     MessageEN: Scrambled eggs, 500ml of milk, 3 tomato slices <- Breakfast
-    MessageTH: |-
-      อาหารเช้า: ไข่กวน, นม 500 มล. มะเขือ
-      เทศ 3 ชิ้น
+    MessageTH: 'อาหารเช้า: ไข่กวน, นม 500 มล. มะเขือ
+
+      เทศ 3 ชิ้น'
     MessageTW: 炒蛋，牛奶500ml，番茄3片→早餐
   - MessageGroupId: 100100020
     Id: 721
@@ -101,9 +101,9 @@ content:
     MessageJP: 明日の朝、ランニングの後スーパーに寄る
     MessageCN: 明天早上晨跑结束后顺路去超市
     MessageEN: Stop by the market after tomorrow's morning run to buy what I need.
-    MessageTH: |-
-      พรุ่งนี้เช้าวิ่งเสร็จแล้วต้องไปซื้อของจำ
-      เป็นที่ซูเปอร์
+    MessageTH: 'พรุ่งนี้เช้าวิ่งเสร็จแล้วต้องไปซื้อของจำ
+
+      เป็นที่ซูเปอร์'
     MessageTW: 明天早上慢跑後順路去超市
   - MessageGroupId: 100100030
     Id: 722
@@ -175,10 +175,10 @@ content:
     MessageJP: 自分宛てのメモだったのに間違えた、ごめん先生
     MessageCN: 这是我打算发给自己的备忘，不小心发错了，抱歉老师
     MessageEN: I meant to send that note to myself. Sorry, Sensei.
-    MessageTH: |-
-      นั่นมันข้อความที่ฉันจะส่งให้ตัวเองน่ะ
-      ส่งผิดไปแฮะ.. ขอโทษนะคุณครู
-    MessageTW: 明明是寫給自己的備忘卻搞錯，抱歉，老師
+    MessageTH: 'นั่นมันข้อความที่ฉันจะส่งให้ตัวเองน่ะ
+
+      ส่งผิดไปแฮะ.. ขอโทษนะคุณครู'
+    MessageTW: 明明是寫給自己的備忘卻搞錯了，老師抱歉
   - MessageGroupId: 100100050
     Id: 726
     CharacterId: 10010
@@ -232,7 +232,7 @@ content:
     MessageCN: 嗯……因为大家都在用momotalk聊天，很方便
     MessageEN: 'Oh... Is it, really? '
     MessageTH: 'อืม... แปลกเหรอ? '
-    MessageTW: 嗯……因為經常使用，很方便
+    MessageTW: 嗯……畢竟經常使用，很方便
   - MessageGroupId: 100100060
     Id: 729
     CharacterId: 10010
@@ -322,7 +322,7 @@ content:
     MessageCN: 嗯，我很乐意
     MessageEN: The market? Okay.
     MessageTH: ซูเปอร์เหรอ? ได้สิ
-    MessageTW: 嗯，很樂意
+    MessageTW: 嗯，我很樂意
   - MessageGroupId: 100100080
     Id: 734
     CharacterId: 10010
@@ -358,7 +358,7 @@ content:
     MessageCN: 那到时候，就在我平时开始晨跑的地方见吧
     MessageEN: Okay. I'll see you then.
     MessageTH: อื้ม แล้วฉันจะรอนะ
-    MessageTW: 那麼，在那個地點見吧
+    MessageTW: 那麼，在那裡見吧
   - MessageGroupId: 100100100
     Id: 736
     CharacterId: 10010
@@ -429,10 +429,10 @@ content:
     MessageJP: 今日、通学路でフェネックを見かけた
     MessageCN: 我今天在上学路上看到了耳廓狐
     MessageEN: I saw a fennec fox on the way to school today.
-    MessageTH: |-
-      วันนี้ตอนมาโรงเรียนฉันเห็นจิ้งจอกทะเล
-      ทรายด้วยล่ะ
-    MessageTW: 今天在上學的路上看到了耳廓狐
+    MessageTH: 'วันนี้ตอนมาโรงเรียนฉันเห็นจิ้งจอกทะเล
+
+      ทรายด้วยล่ะ'
+    MessageTW: 今天，我在上學的路上看到了耳廓狐
   - MessageGroupId: 100100130
     Id: 740
     CharacterId: 10010
@@ -521,9 +521,9 @@ content:
     MessageJP: ランニングをしてると色んなものを見かける
     MessageCN: 跑步的时候能看到各种各样的东西
     MessageEN: I see a lot of different things when I run.
-    MessageTH: |-
-      พอได้ออกไปวิ่งก็ได้เห็นอะไรแปลกๆ
-      เยอะเลย
+    MessageTH: 'พอได้ออกไปวิ่งก็ได้เห็นอะไรแปลกๆ
+
+      เยอะเลย'
     MessageTW: 跑步的時候能看到各式各樣的東西
   - MessageGroupId: 100100140
     Id: 745
@@ -542,7 +542,7 @@ content:
     MessageCN: 不仅跑步本身，一路上见到的东西也会让我感觉很开心
     MessageEN: I really enjoy it.
     MessageTH: แบบนี้ก็สนุกดีเหมือนกันนะ
-    MessageTW: 不僅僅是為了跑步，還能從中獲得樂趣
+    MessageTW: 不只是在跑步，這種意外收獲也很有趣
   - MessageGroupId: 100100150
     Id: 746
     CharacterId: 10010
@@ -559,9 +559,9 @@ content:
     MessageJP: 良いね。一緒には走ってあげられないけど、応援してる
     MessageCN: 真好啊。我虽然不能陪白子一起跑步，但也会为白子加油的
     MessageEN: I can't keep up with you, but I'll cheer for you.
-    MessageTH: |-
-      ถึงครูจะไปวิ่งด้วยไม่ได้ แต่ก็.. เป็น
-      กำลังใจให้นะ
+    MessageTH: 'ถึงครูจะไปวิ่งด้วยไม่ได้ แต่ก็.. เป็น
+
+      กำลังใจให้นะ'
     MessageTW: 很好呀。雖然不能和你一起跑，但我支持你
   - MessageGroupId: 100100160
     Id: 747
@@ -578,7 +578,7 @@ content:
     MessageKR: ……응.
     MessageJP: ……ん
     MessageCN: ……嗯
-    MessageEN: ...Okay.
+    MessageEN: '...Okay.'
     MessageTH: อืม...
     MessageTW: ……嗯
   - MessageGroupId: 100100160
@@ -634,7 +634,7 @@ content:
     MessageCN: 谢谢，老师
     MessageEN: Thank you, Sensei.
     MessageTH: ขอบคุณนะ คุณครู
-    MessageTW: 謝謝，老師
+    MessageTW: 謝謝你，老師
   - MessageGroupId: 100100180
     Id: 751
     CharacterId: 10010
@@ -741,9 +741,9 @@ content:
     MessageJP: そんなことはない、私の方こそごめん……
     MessageCN: 老师不用说对不起，是我要向老师道歉才对……
     MessageEN: "You don't have to apologize. I'm the one who should be saying sorry. "
-    MessageTH: |-
-      จะขอโทษทำไมล่ะ ฉันต่างหากที่ต้อง
-      ขอโทษ
+    MessageTH: 'จะขอโทษทำไมล่ะ ฉันต่างหากที่ต้อง
+
+      ขอโทษ '
     MessageTW: 不是那樣的，我才該感到抱歉……
   - MessageGroupId: 100100210
     Id: 757
@@ -780,7 +780,7 @@ content:
     MessageCN: 今天谢谢老师了，下次见
     MessageEN: Thank you. See you next time.
     MessageTH: ขอบคุณนะ ไว้เจอกันใหม่
-    MessageTW: 今天謝謝了，那就回頭見
+    MessageTW: 今天謝謝了，那就再見
   - MessageGroupId: 100100220
     Id: 759
     CharacterId: 10010
@@ -904,12 +904,12 @@ content:
     MessageKR: 최근 다른 마을에 자전거 샵이 생겼다고 하는데, 같이 가보지 않을래?
     MessageJP: 最近新しい自転車のショップができたみたいで、一緒に行かない？
     MessageCN: 好像最近新开了一家自行车店，老师要和我一起去看看吗？
-    MessageEN: >-
-      I heard that a new bicycle shop has opened in the next town over. Do you
-      wanna go check it out with me?
-    MessageTH: |-
-      มีร้านจักรยานมาเปิดใหม่ในเมือง
-      ด้วย ไปดูด้วยกันไหม?
+    MessageEN:
+      I heard that a new bicycle shop has opened in the next town over. Do
+      you wanna go check it out with me?
+    MessageTH: 'มีร้านจักรยานมาเปิดใหม่ในเมือง
+
+      ด้วย ไปดูด้วยกันไหม?'
     MessageTW: 最近好像新開了間自行車店，一起去吧？
   - MessageGroupId: 100100270
     Id: 766
@@ -945,9 +945,9 @@ content:
     MessageJP: 無線変速機も、新しいフレームも見れたし
     MessageCN: 不仅看到了无线变速器和新型号的车架
     MessageEN: I got to see the wireless transmission and the new carbon frame.
-    MessageTH: |-
-      ได้ดูทั้งจักรยานเกียร์ไร้สาย แล้วก็จักรยาน
-      คาร์บอนด้วย!
+    MessageTH: 'ได้ดูทั้งจักรยานเกียร์ไร้สาย แล้วก็จักรยาน
+
+      คาร์บอนด้วย!'
     MessageTW: 看到了無線變速器和新的車架
   - MessageGroupId: 100100270
     Id: 768
@@ -965,9 +965,9 @@ content:
     MessageJP: ライディング用水筒も買えた、けど……
     MessageCN: 也买到了骑行用的水壶……
     MessageEN: And I bought a new water bottle for biking...
-    MessageTH: |-
-      แถมยังได้ซื้อขวดน้ำที่ใช้ตอนปั่นจักรยาน
-      มาอีก
+    MessageTH: 'แถมยังได้ซื้อขวดน้ำที่ใช้ตอนปั่นจักรยาน
+
+      มาอีก'
     MessageTW: 還買到了騎乘用水壺，不過……
   - MessageGroupId: 100100280
     Id: 769
@@ -1003,9 +1003,9 @@ content:
     MessageJP: うん。私もちょっと興味が湧いてきたかも
     MessageCN: 嗯。我也开始对自行车有点兴趣了
     MessageEN: Yeah. I'm kinda interested in bicycles now too.
-    MessageTH: |-
-      ได้สิ ครูเองก็ชักจะสนใจจักรยาน
-      ขึ้นมาแล้ว
+    MessageTH: 'ได้สิ ครูเองก็ชักจะสนใจจักรยาน
+
+      ขึ้นมาแล้ว'
     MessageTW: 嗯。我也開始有點興趣了
   - MessageGroupId: 100100290
     Id: 771
@@ -1059,9 +1059,9 @@ content:
     MessageJP: 先生もよく使うの？
     MessageCN: 老师也经常坐地铁吗？
     MessageEN: Hmm, I bet you use the subway a lot, then.
-    MessageTH: |-
-      อืม... ถ้างั้นคุณครูก็คงนั่งรถไฟใต้ดินบ่อย
-      แน่เลย
+    MessageTH: 'อืม... ถ้างั้นคุณครูก็คงนั่งรถไฟใต้ดินบ่อย
+
+      แน่เลย'
     MessageTW: 老師也經常使用嗎？
   - MessageGroupId: 100100320
     Id: 774
@@ -1097,9 +1097,9 @@ content:
     MessageJP: うん、社会人の移動に地下鉄は付き物だよね、
     MessageCN: 嗯，上班族出行可是全靠地铁的呢
     MessageEN: The subway is the best way to commute to and from work.
-    MessageTH: |-
-      พนักงานออฟฟิศนั่งรถไฟใต้ดินเป็น
-      เรื่องธรรมดา ครูเองก็ด้วย
+    MessageTH: 'พนักงานออฟฟิศนั่งรถไฟใต้ดินเป็น
+
+      เรื่องธรรมดา ครูเองก็ด้วย'
     MessageTW: 嗯，地鐵是社會人士不可或缺的移動方式
   - MessageGroupId: 100100330
     Id: 776
@@ -1153,10 +1153,11 @@ content:
     MessageJP: 準備する物：双眼鏡、監視カメラの位置データ、GPS追跡電波妨害機
     MessageCN: 准备物品：双筒望远镜、监控的位置数据、GPS追踪电波干扰器
     MessageEN: 'Supplies: Binoculars, CCTV locations, and GPS tracking jammers.'
-    MessageTH: |-
-      ต้องเตรียม: กล้องส่องทางไกล, ข้อมูลตำ
+    MessageTH: 'ต้องเตรียม: กล้องส่องทางไกล, ข้อมูลตำ
+
       แหน่งกล้องวงจรปิด, อุปกรณ์ปิดกั้นการ
-      ตาม GPS,
+
+      ตาม GPS,'
     MessageTW: 準備的東西：雙筒望遠鏡、監視器位置數據、GPS追蹤電波干擾器
   - MessageGroupId: 100100360
     Id: 779
@@ -1191,8 +1192,8 @@ content:
     MessageKR: ………?!
     MessageJP: ！？
     MessageCN: ！？
-    MessageEN: ...?!
-    MessageTH: ...?!
+    MessageEN: '...?!'
+    MessageTH: '...?!'
     MessageTW: ！？
   - MessageGroupId: 100100370
     Id: 781
@@ -1263,12 +1264,12 @@ content:
     MessageKR: 자주 실수하네. 선생님을 메신저 최상단에 즐겨찾기 해둬서 그런가 봐.
     MessageJP: お気に入り登録で、先生のチャットが一番上にあるせいかも
     MessageCN: 可能因为我给老师设置了特别关心，所以和老师聊天框是置顶的
-    MessageEN: >-
-      I've done it again. I think it's because I bookmarked you at the top of
-      the messenger.
-    MessageTH: |-
-      ส่งผิดอยู่เรื่อยเลย เพราะฉันปักหมุดแชต
-      ของคุณครูไว้น่ะ ก็เลยชอบกดไปโดน
+    MessageEN:
+      I've done it again. I think it's because I bookmarked you at the top
+      of the messenger.
+    MessageTH: 'ส่งผิดอยู่เรื่อยเลย เพราะฉันปักหมุดแชต
+
+      ของคุณครูไว้น่ะ ก็เลยชอบกดไปโดน'
     MessageTW: 也許是因為被登錄為我的最愛的聊天視窗中，老師的位在最上面
   - MessageGroupId: 100100390
     Id: 785
@@ -1287,7 +1288,7 @@ content:
     MessageCN: 不用在意刚刚的信息
     MessageEN: Um, don't worry about that text.
     MessageTH: อืม... ไม่ต้องสนใจข้อความนั้นหรอก
-    MessageTW: 剛才的訊息別放在心上
+    MessageTW: 剛才的訊息別在意
   - MessageGroupId: 100100400
     Id: 786
     CharacterId: 10010
@@ -1303,12 +1304,12 @@ content:
     MessageKR: 선생님, 집에 가서 생각해봤는데 다른 학원을 터는 건 어떨까?
     MessageJP: 先生、家であらためて考えてみたんだけど、他の学園を襲うのはどう？
     MessageCN: 老师，我在家里重新考虑过了，袭击其他的学院怎么样？
-    MessageEN: >-
+    MessageEN:
       Sensei, I've been thinking since I got home. What if I robbed another
       academy?
-    MessageTH: |-
-      ฉันกลับบ้านไปลองคิดดูแล้วล่ะ ฉันว่าจะ
-      ลองไปบุกโรงเรียนอื่นดู
+    MessageTH: 'ฉันกลับบ้านไปลองคิดดูแล้วล่ะ ฉันว่าจะ
+
+      ลองไปบุกโรงเรียนอื่นดู'
     MessageTW: 老師，我在家又想了一下，襲擊其他學園怎麼樣？
   - MessageGroupId: 100100400
     Id: 787
@@ -1343,7 +1344,7 @@ content:
     MessageKR: ……미안. 이상한 소리였어.
     MessageJP: ……ごめん、やっぱり今の無しで
     MessageCN: 抱歉，还是当我什么都没说吧
-    MessageEN: ...Sorry. I know that's nonsense.
+    MessageEN: "...Sorry. I know that's nonsense."
     MessageTH: ฉันพูดอะไรบ้าบอใช่ไหมล่ะ ขอโทษนะ
     MessageTW: ……抱歉，請當作沒看到
   - MessageGroupId: 100100420
@@ -1416,9 +1417,9 @@ content:
     MessageJP: シロコに話したいことがあって
     MessageCN: 我有话想对白子说
     MessageEN: Good. I have something to tell you too.
-    MessageTH: |-
-      มาก็ดีเลย ครูเองก็มีเรื่องจะบอก
-      เหมือนกัน
+    MessageTH: 'มาก็ดีเลย ครูเองก็มีเรื่องจะบอก
+
+      เหมือนกัน'
     MessageTW: 我有話要和白子說
   - MessageGroupId: 100100450
     Id: 793
@@ -1435,7 +1436,7 @@ content:
     MessageKR: ……응?
     MessageJP: ……ん？
     MessageCN: ……嗯？
-    MessageEN: ...Huh?
+    MessageEN: '...Huh?'
     MessageTH: หืม...?
     MessageTW: ……嗯？
   - MessageGroupId: 100100460
@@ -1562,9 +1563,9 @@ content:
     MessageJP: それじゃあ放課後、教室で待ってる
     MessageCN: 那么放学后，我在教室等着
     MessageEN: I'll be in the classroom after school.
-    MessageTH: |-
-      งั้นหลังเลิกเรียน ฉันจะรออยู่ในห้องเรียน
-      แล้วกัน
+    MessageTH: 'งั้นหลังเลิกเรียน ฉันจะรออยู่ในห้องเรียน
+
+      แล้วกัน'
     MessageTW: 那放學後，我在教室等著
   - MessageGroupId: 100100500
     Id: 801
@@ -1601,7 +1602,7 @@ content:
     MessageCN: 虽然可能我接下去要说的话有点奇怪
     MessageEN: This is gonna sound weird.
     MessageTH: นี่อาจฟังไม่เข้าท่าเท่าไหร่
-    MessageTW: 我知道可能聽起來很奇怪
+    MessageTW: 我可能，在說很奇怪的話
   - MessageGroupId: 100100500
     Id: 803
     CharacterId: 10010
@@ -1619,7 +1620,7 @@ content:
     MessageCN: 但是以后，如果老师觉得我在做什么不好的事的话
     MessageEN: 'If you ever need to correct me in the future, '
     MessageTH: 'แต่ต่อไปถ้าฉันทำอะไรที่ไม่ดีล่ะก็ '
-    MessageTW: 但從今以後，如果你覺得我在做什麼不好的事
+    MessageTW: 不過今後，如果你認為我在做什麼不好的事
   - MessageGroupId: 100100500
     Id: 804
     CharacterId: 10010
@@ -1637,7 +1638,7 @@ content:
     MessageCN: 那个时候，希望老师能对我发一次火
     MessageEN: please do so.
     MessageTH: ช่วยบอกกันหน่อยนะ
-    MessageTW: 到那時，希望你能對我生氣
+    MessageTW: 到時候，希望你能對我生氣，吧
   - MessageGroupId: 100100510
     Id: 805
     CharacterId: 10010
@@ -1655,7 +1656,7 @@ content:
     MessageCN: 有一个大人愿意关心我
     MessageEN: 'Having an adult who cares about me... '
     MessageTH: ฉันชอบ...
-    MessageTW: 有個關心我的大人
+    MessageTW: 有個關心我的大人在
   - MessageGroupId: 100100510
     Id: 806
     CharacterId: 10010
@@ -1689,9 +1690,9 @@ content:
     MessageKR: ……기쁜 일이네.
     MessageJP: 嬉しいなって、思って
     MessageCN: 我觉得，很开心
-    MessageEN: ...kind of nice.
+    MessageEN: '...kind of nice.'
     MessageTH: คอยเอาใจใส่น่ะ
-    MessageTW: 很高興吧，我想
+    MessageTW: 我覺得，很高興
   - MessageGroupId: 100100530
     Id: 100100010
     CharacterId: 10010

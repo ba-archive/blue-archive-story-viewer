@@ -9,7 +9,7 @@ title:
     TextKr: 당신이 저의 주인님입니까? 1
     TextEn: Are You My Master? Part 1
     TextTh: คุณคือนายท่านของฉันใช่ไหมคะ? 1
-    TextTw: 你是我的主人嗎？1
+    TextTw: 您就是我的主人嗎？（１）
   - GroupId: 1300003
     FavorScheduleId: 130003
     CharacterId: 13000
@@ -18,7 +18,7 @@ title:
     TextKr: 당신이 저의 주인님입니까? 2
     TextEn: Are You My Master? Part 2
     TextTh: คุณคือนายท่านของฉันใช่ไหมคะ? 2
-    TextTw: 你是我的主人嗎？2
+    TextTw: 您就是我的主人嗎？（２）
   - GroupId: 1300005
     FavorScheduleId: 130005
     CharacterId: 13000
@@ -27,7 +27,7 @@ title:
     TextKr: 함께 걷는 시간
     TextEn: Going Out Together
     TextTh: ช่วงเวลาที่เดินไปด้วยกัน
-    TextTw: 一起經歷的時間
+    TextTw: 共同度過的時光
   - GroupId: 1300006
     FavorScheduleId: 130006
     CharacterId: 13000
@@ -36,7 +36,7 @@ title:
     TextKr: 잠든 숲 속의 메이드
     TextEn: Sleeping Maid
     TextTh: เมดที่หลับใหล
-    TextTw: 沉睡的樹林中的女僕
+    TextTw: 沉睡森林中的女僕
   - GroupId: 1300008
     FavorScheduleId: 130008
     CharacterId: 13000
@@ -45,7 +45,7 @@ title:
     TextKr: 좋은 아침입니다 주인님.
     TextEn: Good Morning, Master
     TextTh: อรุณสวัสดิ์ค่ะนายท่าน
-    TextTw: 早安，主人。
+    TextTw: 早安，主人
   - GroupId: 1300009
     FavorScheduleId: 130009
     CharacterId: 13000
@@ -281,7 +281,7 @@ content:
     MessageCN: 有一点点……心♡跳♡加♡速♡了呢
     MessageEN: My heart was beating so fast!
     MessageTH: ♡ของฉันเต้นตึกตักไม่หยุดเลยค่ะ
-    MessageTW: 有一點……心臟怦怦跳唷♡
+    MessageTW: 心臟有點……怦怦跳唷♡
   - MessageGroupId: 130000080
     Id: 2272
     CharacterId: 13000
@@ -607,7 +607,7 @@ content:
     MessageCN: 但是，如果非要说我有什么强烈的愿望的话……
     MessageEN: My only hope is...
     MessageTH: แต่ถ้าจะมีอะไรที่ฉันต้องการล่ะก็...
-    MessageTW: 但是，如果真要說有什麼強烈的願望的話……
+    MessageTW: 但是，如果真要說有什麼強烈願望的話……
   - MessageGroupId: 130000170
     Id: 2289
     CharacterId: 13000
@@ -627,7 +627,7 @@ content:
     MessageTH: 'วันนี้ถ้าบังเอิญได้เจอกับคุณครูก็คงจะ
 
       ดีนะคะ...'
-    MessageTW: 如果今天也能偶然遇見老師的話就好了……
+    MessageTW: 我會希望今天也能偶然遇見老師……
   - MessageGroupId: 130000170
     Id: 2290
     CharacterId: 13000
@@ -645,7 +645,7 @@ content:
     MessageCN: 我怎么会这么想呢
     MessageEN: That's what I've been thinking.
     MessageTH: ฉันคิดแบบนี้ล่ะค่ะ
-    MessageTW: 我是這麼想的
+    MessageTW: 就這麼個小心願
   - MessageGroupId: 130000180
     Id: 2291
     CharacterId: 13000
@@ -947,7 +947,7 @@ content:
     MessageCN: 毕竟只要和老师在一起的话，我呢……
     MessageEN: As long as I'm with you, Sensei...
     MessageTH: 'ถ้าอยู่กับคุณครูล่ะก็... '
-    MessageTW: 只要跟老師一起，我……
+    MessageTW: 只要跟老師一起……
   - MessageGroupId: 130000280
     Id: 2307
     CharacterId: 13000
@@ -965,7 +965,7 @@ content:
     MessageCN: 就会一直处于最佳状态的
     MessageEN: I'm always in top condition.
     MessageTH: อาคาเนะพร้อมเสมอค่ะ
-    MessageTW: 隨時都是最佳狀態
+    MessageTW: 我永遠是最佳狀態
   - MessageGroupId: 130000290
     Id: 2308
     CharacterId: 13000
@@ -1023,7 +1023,7 @@ content:
     MessageTH: 'เช้าแบบนี้ นายท่านอาจจะไม่เห็น
 
       ข้อความ...'
-    MessageTW: 現在這個時間，或許沒有在看MomoTalk也說不定，但是……
+    MessageTW: 現在這個時間，主人或許不會看MomoTalk……
   - MessageGroupId: 130000310
     Id: 2311
     CharacterId: 13000
@@ -1041,7 +1041,7 @@ content:
     MessageCN: 我刚刚动身出发
     MessageEN: I just left.
     MessageTH: ฉะ...ฉันจะไปเดี๋ยวนี้ค่ะ
-    MessageTW: 我剛剛出發了
+    MessageTW: 但我現在剛出發
   - MessageGroupId: 130000310
     Id: 2312
     CharacterId: 13000
@@ -1061,7 +1061,7 @@ content:
     MessageTH: 'ไปไหนเหรอคะ?  ไปที่บ้านนายท่าน
 
       ยังไงล่ะคะ'
-    MessageTW: 至於是去哪裡呢，是往主人家的方向
+    MessageTW: 而我前往的地方，是主人的家
   - MessageGroupId: 130000320
     Id: 2313
     CharacterId: 13000

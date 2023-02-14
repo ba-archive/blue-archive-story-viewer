@@ -9,7 +9,7 @@ title:
     TextKr: 오늘도 열심히 꾸벅꾸벅 수행
     TextEn: Just Another Lazy Day
     TextTh: วันนี้ก็จะตั้งใจทำงานอย่างหนัก
-    TextTw: 今天也努力不斷修行
+    TextTw: 今天也努力的打盹修行
   - GroupId: 1300903
     FavorScheduleId: 130093
     CharacterId: 13009
@@ -36,7 +36,7 @@ title:
     TextKr: 당신과 함께 수행하기 좋은 곳
     TextEn: 'The Best Place to Train with You '
     TextTh: 'สถานที่ที่เหมาะกับการฝึกฝนด้วยกัน '
-    TextTw: '適合和你一起修行的地方 '
+    TextTw: 適合和你修行的
 content:
   - MessageGroupId: 130090010
     Id: 1115
@@ -109,7 +109,7 @@ content:
     MessageCN: 当然有哦
     MessageEN: Of course.
     MessageTH: แน่นอนอยู่แล้ว
-    MessageTW: 當然
+    MessageTW: 當然有
   - MessageGroupId: 130090040
     Id: 1119
     CharacterId: 13009
@@ -147,7 +147,7 @@ content:
     MessageCN: 就是睡觉这件事哦
     MessageEN: Sleeping.
     MessageTH: คือการนอนหลับยังไงล่ะ
-    MessageTW: 就是睡覺啦
+    MessageTW: 也就是睡覺
   - MessageGroupId: 130090040
     Id: 1121
     CharacterId: 13009
@@ -347,7 +347,7 @@ content:
     MessageCN: 诶，诶？破破烂烂？什么东西变得破破烂烂的了……？
     MessageEN: H-Huh? What's worn out?
     MessageTH: หืม? อะไรขาดเหรอ...?
-    MessageTW: 耶，耶？破爛不堪？什麼……？
+    MessageTW: 耶，耶？破爛不堪？什麼東西……？
   - MessageGroupId: 130090110
     Id: 1132
     CharacterId: 13009
@@ -709,7 +709,7 @@ content:
     MessageCN: 那个地方，我想让老师第一个知道
     MessageEN: I won't tell anyone where it is but you.
     MessageTH: ฉันจะบอกคุณครูเป็นคนแรกเลย
-    MessageTW: 那個地方，老師是第一個聽到的唷
+    MessageTW: 那個地方，老師是我第一個告訴的人唷
   - MessageGroupId: 130090250
     Id: 1152
     CharacterId: 13009
@@ -727,7 +727,7 @@ content:
     MessageCN: 谢谢。但是椿说的适合睡觉的场所到底是……
     MessageEN: But where's a good place to sleep?
     MessageTH: แต่ว่าที่ที่เหมาะต่อการนอนมัน...
-    MessageTW: 謝謝。不過，最適合睡覺的地方是……
+    MessageTW: 謝謝。不過，說到適合睡覺的地方……
   - MessageGroupId: 130090260
     Id: 1153
     CharacterId: 13009

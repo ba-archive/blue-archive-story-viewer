@@ -18,7 +18,7 @@ title:
     TextKr: 야근에 내려온 천사
     TextEn: Night Duty Angel
     TextTh: นางฟ้ามาโปรดในตอนทำงานดึก
-    TextTw: 夜班降臨的天使
+    TextTw: 於深夜降臨的天使
   - GroupId: 2600305
     FavorScheduleId: 260035
     CharacterId: 26003
@@ -27,7 +27,7 @@ title:
     TextKr: 언제나 어디서나 세리나
     TextEn: Serina, Anytime, Anywhere
     TextTh: ไม่ว่าที่ไหน เมื่อไหร่ก็ต้อง "เซรินะ"
-    TextTw: 隨時隨地，芹奈
+    TextTw: 無論何時何地何芹奈
   - GroupId: 2600306
     FavorScheduleId: 260036
     CharacterId: 26003
@@ -77,7 +77,7 @@ content:
     MessageTH: 'ถึงจะงานยุ่งแค่ไหนก็ห้ามฝึนเกินไปนะคะ
 
       ต้องทำงานแล้วก็พักสายตาไปด้วยนะคะ'
-    MessageTW: 就算再怎麼忙也不要勉強，在工作的空檔請好好的休息一下唷
+    MessageTW: 就算再怎麼忙也不要勉強，在工作的空檔請好好休息唷
   - MessageGroupId: 260030020
     Id: 1665
     CharacterId: 26003
@@ -263,7 +263,7 @@ content:
     MessageTH: 'ถ้ารู้สึกเหนื่อยเมื่อไหร่ก็บอกฉันได้นะคะ
 
       คุณครู'
-    MessageTW: 就算身體沒有不舒服，只要感到疲累的時候請一定要跟我說唷
+    MessageTW: 就算身體沒有不舒服，若感到疲累請一定要跟我說唷
   - MessageGroupId: 260030080
     Id: 1675
     CharacterId: 26003
@@ -283,7 +283,7 @@ content:
     MessageTH: 'ไม่ว่าที่ไหนเมื่อไหร่ ฉันก็พร้อมจะช่วย
 
       คุณครูเสมอค่ะ'
-    MessageTW: 不管是何時何地，我都會到老師身邊的
+    MessageTW: 不論何時何地，我都會到老師身邊
   - MessageGroupId: 260030090
     Id: 1676
     CharacterId: 26003
@@ -647,7 +647,7 @@ content:
     MessageCN: 老师不会，觉得我，很奇怪吧……？
     MessageEN: Don't get any weird ideas, okay?
     MessageTH: คุณครูคงจะไม่คิดว่ามันแปลกๆ ใช่ไหมคะ?
-    MessageTW: 你沒有，覺得，很奇怪還是什麼的吧……？
+    MessageTW: 你不會覺得，很奇怪吧……？
   - MessageGroupId: 260030220
     Id: 1695
     CharacterId: 26003
@@ -719,7 +719,7 @@ content:
     MessageCN: 那就请您继续保持这个想法吧……_(┐「ε:)_
     MessageEN: Thank you...
     MessageTH: ขอบคุณมากนะคะ! _(┐「ε:)_
-    MessageTW: 那就請你繼續保持下去……_(┐「ε:)_
+    MessageTW: 那就請你繼續這麼想吧……_(┐「ε:)_
   - MessageGroupId: 260030250
     Id: 260030010
     CharacterId: 26003
@@ -901,7 +901,7 @@ content:
     MessageCN: 今天真的非常感谢您，老师
     MessageEN: Thanks so much for today, Sensei.
     MessageTH: วันนี้ขอบคุณมากเลยนะคะคุณครู
-    MessageTW: 今天真的非常感謝，老師
+    MessageTW: 今天真的非常感謝老師
   - MessageGroupId: 260030310
     Id: 260030110
     CharacterId: 26003
@@ -919,7 +919,7 @@ content:
     MessageCN: 虽然我很吃惊，不过这份惊讶应该也会连同老师今天为我做的事情一起变成我宝贵的回忆吧
     MessageEN: I wouldn't have thought of it myself, so it's even more memorable.
     MessageTH: คงเป็นเพราะมันเป็นเรื่องที่คาดไม่ถึง เลยยิ่งจำได้ดีเลยนะคะ
-    MessageTW: 雖然被嚇了一跳，不過就連那個在內都成為了一段珍貴的回憶
+    MessageTW: 雖然被嚇了一跳，但連這部分也成為了一段珍貴的回憶
   - MessageGroupId: 260030320
     Id: 260030120
     CharacterId: 26003
@@ -1013,4 +1013,4 @@ content:
 
       (´▽｀)"
     MessageTH: ว่าฉันมีความสุขค่ะ! ♪(´▽｀)
-    MessageTW: 我，非常幸福！（´▽｀）♪
+    MessageTW: 我非常幸福！（´▽｀）♪

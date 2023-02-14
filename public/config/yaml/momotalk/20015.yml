@@ -36,7 +36,7 @@ title:
     TextKr: 이윽고 소녀는 멋진 레이디가 된다.
     TextEn: From Girl to Lady
     TextTh: ในที่สุดก็ได้เป็นเลดี้ที่เพียบพร้อม
-    TextTw: 不久少女便成為完美淑女。
+    TextTw: 於是少女成為了完美淑女
 content:
   - MessageGroupId: 200150010
     Id: 200150010
@@ -55,7 +55,7 @@ content:
     MessageCN: 老师！又来了！！
     MessageEN: Argh! Not again, Sensei!
     MessageTH: อ๊ายยยย~ อีกแล้วเหรอ~! อีกแล้ว... คุณครู!
-    MessageTW: 唉呀~！又來了～！還有…！老師！
+    MessageTW: 老師～！又來了～！！
   - MessageGroupId: 200150020
     Id: 200150020
     CharacterId: 20015
@@ -73,7 +73,7 @@ content:
     MessageCN: “又”？
     MessageEN: What do you mean "not again?"
     MessageTH: หืม? "อีกแล้ว" งั้นเหรอ? อะไรล่ะ?
-    MessageTW: 嗯？居然說還有？什麼東西？
+    MessageTW: 又？
   - MessageGroupId: 200150030
     Id: 200150030
     CharacterId: 20015
@@ -93,7 +93,7 @@ content:
     MessageTH: 'คราวนี้โดนว่า "ชมรมฝึกฝนของพวกเธอนี่
 
       แปลกจริงๆ เลยนะ" อีกแล้วงะ!'
-    MessageTW: 這次又聽到有人說： 「你們修行部，果然有點奇怪呢！」
+    MessageTW: 我又聽到有人在說：「修行部有點奇怪」！
   - MessageGroupId: 200150040
     Id: 200150040
     CharacterId: 20015
@@ -111,7 +111,7 @@ content:
     MessageCN: 什么啊，这种话也太失礼了吧
     MessageEN: What? How rude!
     MessageTH: ว่าไงนะ?! แบบนั้นมันเสียมารยาทนะ!
-    MessageTW: 什麼？！這句話還真是失禮！
+    MessageTW: 什麼！這真是失禮！
   - MessageGroupId: 200150050
     Id: 200150050
     CharacterId: 20015
@@ -129,7 +129,7 @@ content:
     MessageCN: 对吧，老师也这么觉得的吧？
     MessageEN: I know right?! I'm glad you agree, Sensei.
     MessageTH: ใช่มั้ยล่ะ? คุณครูเองก็คิดแบบนั้นใช่มั้ย?!
-    MessageTW: 對吧？對吧？老師也這麼想吧？
+    MessageTW: 對吧？老師也這麼想吧？
   - MessageGroupId: 200150050
     Id: 200150060
     CharacterId: 20015
@@ -153,7 +153,7 @@ content:
       เล่นเอง แต่จู่ๆ กลับพูดแบบนั้นออกมา
 
       แย่จริงๆ เลย!'
-    MessageTW: 我只是在遊樂場練習決定性的台詞，卻突然說出那種話！太過分了！
+    MessageTW: 我只是在公園練習定場台詞而已呀！
   - MessageGroupId: 200150060
     Id: 200150070
     CharacterId: 20015
@@ -166,12 +166,12 @@ content:
     FeedbackTimeMillisec: 0
     MessageType: Text
     ImagePath: ''
-    MessageKR: '…응? 근데, 잠깐. 카에데? '
+    MessageKR: …응? 근데, 잠깐. 카에데?
     MessageJP: ……ん？
     MessageCN: ……嗯？
     MessageEN: '...Huh? Wait, Kaede. '
     MessageTH: 'หืม? เดี๋ยวก่อนนะ คาเอเดะ? '
-    MessageTW: …嗯？不過，等一下。楓？
+    MessageTW: ……嗯？
   - MessageGroupId: 200150060
     Id: 200150080
     CharacterId: 20015
@@ -189,7 +189,7 @@ content:
     MessageCN: 名台词……？
     MessageEN: '...What are one-liners?'
     MessageTH: บทพูดตัดสินหมายถึงอะไรเหรอ...?
-    MessageTW: 那個…決定性的台詞？那是什麼意思…？
+    MessageTW: 定場台詞……？
   - MessageGroupId: 200150070
     Id: 200150090
     CharacterId: 20015
@@ -207,7 +207,7 @@ content:
     MessageCN: 名台词怎么了吗？
     MessageEN: Huh? One-liners are one-liners!
     MessageTH: หืม? บทพูดตัดสินก็คือบทพูดตัดสินใจไงล่ะ
-    MessageTW: 嗯？決定性的台詞就是決定性的台詞呀？
+    MessageTW: 定場台詞怎麼了嗎？
   - MessageGroupId: 200150070
     Id: 200150100
     CharacterId: 20015
@@ -229,7 +229,7 @@ content:
     MessageTH: 'บทพูดที่ชมรมฝึกฝนของเราจะพูดเวลา
 
       ซัดพวกเด็กเกเรให้หมอบยังไงล่ะ!'
-    MessageTW: 我們修行部在打倒邪惡的問題人士時，會說的台詞！
+    MessageTW: 啊，我指的當然是，我們修行部打倒問題學生時要說的台詞！
   - MessageGroupId: 200150080
     Id: 200150110
     CharacterId: 20015
@@ -249,7 +249,7 @@ content:
     MessageTH: 'ฉันหมั่นฝึกซ้อมเป็นประจำเพื่อไม่ให้ลืมบท
 
       พูดเลยนะ'
-    MessageTW: 為了不要忘記，我平常也會努力練習。
+    MessageTW: 為了能在關鍵時刻帥氣說出來，當然要努力練習
   - MessageGroupId: 200150080
     Id: 200150120
     CharacterId: 20015
@@ -273,7 +273,7 @@ content:
       ตัวแทนของใบไม้ร่วงหลากสีสัน ฉันจะไม่
 
       ยกโทษให้เด็ดขาด!" น่ะ'
-    MessageTW: 順帶一提，我的台詞是～ 「以色彩斑斕的楓葉之名，我絕對不會放過你！」
+    MessageTW: 順帶一提，我的台詞是：「我要代替楓葉突襲你！」
   - MessageGroupId: 200150090
     Id: 200150130
     CharacterId: 20015
@@ -293,7 +293,7 @@ content:
     MessageTH: 'ช่วงนี้ฮิตคำพูดแบบนี้กันมากเลย คุณครูจะ
 
       เอาไปใช้ก็ได้นะ'
-    MessageTW: 是我最近的流行，要特別讓老師使用嗎？
+    MessageTW: 我可以特別讓老師用唷？
   - MessageGroupId: 200150090
     Id: 200150140
     CharacterId: 20015
@@ -313,7 +313,7 @@ content:
     MessageTH: 'ส่วนท่าโพสต์...ก็ทำท่า "ย๊าา!" แบบนี้เดี๋ยว
 
       เอาวิดีโอให้ดูนะ...'
-    MessageTW: 順帶一提，姿勢是這麼做的……呀！啊，我讓你看看影片吧！等我一下…
+    MessageTW: 順帶一提姿勢是～啊，這得拍影片才行，等我一下
   - MessageGroupId: 200150100
     Id: 200150150
     CharacterId: 20015
@@ -333,7 +333,7 @@ content:
     MessageTH: 'อะ...อืม งี้นี่เอง ครูเป็นกำลังใจให้แล้ว
 
       กันนะ'
-    MessageTW: 呃，嗯…原來如此。那個…我會幫你加油。
+    MessageTW: 不、不用麻煩。總之我會替你加油
   - MessageGroupId: 200150110
     Id: 200150160
     CharacterId: 20015
@@ -346,12 +346,12 @@ content:
     FeedbackTimeMillisec: 1000
     MessageType: Text
     ImagePath: ''
-    MessageKR: '앗! 응원 고마워! 선생님! '
+    MessageKR: 앗! 응원 고마워! 선생님!
     MessageJP: うん、ありがとー先生！
     MessageCN: 嗯，谢谢老师～！
     MessageEN: 'Thanks for your support, Sensei! '
     MessageTH: 'อ๊ะ ขอบคุณที่สำหรับกำลังใจนะ คุณครู! '
-    MessageTW: 啊！謝謝你的打氣！老師！
+    MessageTW: 嗯，謝謝老師！
   - MessageGroupId: 200150110
     Id: 200150170
     CharacterId: 20015
@@ -371,7 +371,7 @@ content:
     MessageTH: 'เดี๋ยวจะให้สติกเกอร์น่ารักๆ เป็นการขอบ
 
       คุณนะ!'
-    MessageTW: 我會送你可愛的貼紙作為報答！
+    MessageTW: 我要送老師可愛的貼紙當作獎勵！
   - MessageGroupId: 200150120
     Id: 200150180
     CharacterId: 20015
@@ -389,7 +389,7 @@ content:
     MessageCN: 谢、谢谢
     MessageEN: Oh, th-thanks.
     MessageTH: อ่า ขะ... ขอบใจนะ...
-    MessageTW: 啊，謝、謝謝。
+    MessageTW: 謝，謝謝
   - MessageGroupId: 200150130
     Id: 200150190
     CharacterId: 20015
@@ -409,7 +409,7 @@ content:
     MessageTH: 'แต่ยังไงก็จะปล่อยไว้แบบนี้ไม่ได้! คงได้
 
       เวลาสำหรับการตอบโต้แบบพิเศษแล้ว!'
-    MessageTW: 總之！不能再這樣下去！現在說不定是需要什麼特別處置的時候？！
+    MessageTW: 總之為了不再讓人說我們「怪」，必須要想個對策才行
   - MessageGroupId: 200150140
     Id: 200150200
     CharacterId: 20015
@@ -447,7 +447,7 @@ content:
     MessageTH: 'คุณครู วันนี้ฉันจะพยายามเพื่อเป็นเลดี้ที่
 
       เพียบพร้อมนะ!'
-    MessageTW: 老師，今天我也會努力成為一名出色的淑女！
+    MessageTW: 老師，今天我也會努力成為一名「完美淑女」！
   - MessageGroupId: 200150160
     Id: 200150220
     CharacterId: 20015
@@ -465,7 +465,7 @@ content:
     MessageCN: 嗯，枫还是一如既往的努力呢
     MessageEN: Okay, do your best as usual.
     MessageTH: อื้อ วันนี้ก็สู้ๆ นะ
-    MessageTW: 嗯，今天也加油。
+    MessageTW: 嗯，今天也加油
   - MessageGroupId: 200150170
     Id: 200150230
     CharacterId: 20015
@@ -485,7 +485,7 @@ content:
     MessageTH: 'แต่ว่าเส้นทางสู่การเป็นเลดี้ที่เพียบพร้อม
 
       มันยากมากเลย...'
-    MessageTW: 不過成為帥氣淑女的路果然非常困難……
+    MessageTW: 不過要成為完美淑女還真是不容易……
   - MessageGroupId: 200150170
     Id: 200150240
     CharacterId: 20015
@@ -503,7 +503,7 @@ content:
     MessageCN: 至于说有多困难嘛……
     MessageEN: Let me tell you just how hard it is...
     MessageTH: ถ้าจะถามว่ายากแค่ไหน...
-    MessageTW: 至於有多困難……
+    MessageTW: 要說有多困難……
   - MessageGroupId: 200150180
     Id: 200150250
     CharacterId: 20015
@@ -527,7 +527,7 @@ content:
       ตราประทับที่ห้องออกกำลังกายในตอนเช้า
 
       ช่วงปิดเทอมฤดูร้อนก็ได้'
-    MessageTW: 說不定比在暑假時，集滿早操集點卡上的所有印章還要困難！
+    MessageTW: 這就跟暑假時，要每天都在「廣播體操卡」上面蓋章一樣難！
   - MessageGroupId: 200150190
     Id: 200150260
     CharacterId: 20015
@@ -545,7 +545,7 @@ content:
     MessageCN: 那还真是难呢！
     MessageEN: That...would be hard, for sure!
     MessageTH: เรื่องนั้น... ยากจริงๆ นะ!
-    MessageTW: 那個……的確很困難呢！
+    MessageTW: 這的確很難！
   - MessageGroupId: 200150200
     Id: 200150270
     CharacterId: 20015
@@ -558,14 +558,14 @@ content:
     FeedbackTimeMillisec: 1000
     MessageType: Text
     ImagePath: ''
-    MessageKR: '그치? 그래서 어쩌면 좋을까, 어어어엄청 고민하던 차에……! '
+    MessageKR: 그치? 그래서 어쩌면 좋을까, 어어어엄청 고민하던 차에……!
     MessageJP: そうなの、それでどうすれば良いかなって悩んでたんだけど……
     MessageCN: 对吧，我还在苦恼该怎么办呢……
     MessageEN: "Right? So I've been thinking really, really hard! "
     MessageTH: 'ใช่มั้ยล่ะ? เพราะงั้นฉันเลยนั่งคิดมาตลอด
 
       ว่าจะทำยังไงดี...! '
-    MessageTW: 對吧？所以正當我非～～～～常煩惱該怎麼辦的時候……！
+    MessageTW: 就是啊，所以我很煩惱該到底該怎麼辦……
   - MessageGroupId: 200150200
     Id: 200150280
     CharacterId: 20015
@@ -583,7 +583,7 @@ content:
     MessageCN: 但是我想到了很厉害的点子！
     MessageEN: And I found something great!
     MessageTH: และฉันก็เจออะไรดีๆ เข้าแล้วล่ะ!
-    MessageTW: 剛好發現了一個好東西！
+    MessageTW: 並想到了一個好主意！
   - MessageGroupId: 200150210
     Id: 200150290
     CharacterId: 20015
@@ -596,7 +596,7 @@ content:
     FeedbackTimeMillisec: 1500
     MessageType: Text
     ImagePath: ''
-    MessageKR: '이거 세기의 대발견일지도 몰라! 이 엄청난 발견은 직접 만나서 말해줄게! '
+    MessageKR: 이거 세기의 대발견일지도 몰라! 이 엄청난 발견은 직접 만나서 말해줄게!
     MessageJP: これはもう「世紀の大発見」と呼べるくらいだよ！
     MessageCN: 这个方法甚至可以称为“世纪大发现”了！
     MessageEN:
@@ -607,7 +607,7 @@ content:
       ศตวรรษเลยก็ได้ ฉันจะไปเล่าเรื่องการค้น
 
       พบนี่ให้ฟังเอง!'
-    MessageTW: 這個說不定會是本世紀最重大的發現！這巨大的發現，我要見面後當面告訴你！
+    MessageTW: 甚至可說是個「世紀大發現」唷！
   - MessageGroupId: 200150220
     Id: 200150300
     CharacterId: 20015
@@ -625,7 +625,7 @@ content:
     MessageCN: 老师快点来修行部的活动室吧，我告诉老师我发现了什么！
     MessageEN: I'll see you at the club room, Sensei!
     MessageTH: เดี๋ยวเจอกันที่ห้องนะ คุณครู!
-    MessageTW: 在部室見吧！老師！
+    MessageTW: 我想當面跟老師說，快點來修行部社辦吧！
   - MessageGroupId: 200150230
     Id: 200150310
     CharacterId: 20015
@@ -643,7 +643,7 @@ content:
     MessageCN: 呀吼——老师！
     MessageEN: Yay! Sensei, Sensei!
     MessageTH: ยะโฮ่~! คุณครู คุณครู~!
-    MessageTW: 呀—呼！老師、老師！
+    MessageTW: 呀呼！老師！
   - MessageGroupId: 200150240
     Id: 200150320
     CharacterId: 20015
@@ -663,7 +663,7 @@ content:
     MessageTH: 'ทำอะไรอยู่เหรอ? วันนี้ฉันไม่ได้จะไปเล่น...
 
       หรอกนะ'
-    MessageTW: 你在做什麼？今天要去玩…不是。
+    MessageTW: 我今天也要去玩……
   - MessageGroupId: 200150240
     Id: 200150330
     CharacterId: 20015
@@ -683,7 +683,7 @@ content:
     MessageTH: 'ฉันขอไปฝึกฝนเพื่อเป็นเลดี้ที่เพียบพร้อม
 
       ได้รึเปล่า?'
-    MessageTW: 是要進行成為完美淑女的修行！我…可以去嗎？
+    MessageTW: 不是，是要進行成為完美淑女的修行，請問我可以去夏萊嗎？
   - MessageGroupId: 200150250
     Id: 200150340
     CharacterId: 20015
@@ -703,7 +703,7 @@ content:
     MessageTH: 'ขอโทษนะคาเอเดะ วันนี้ครูงานยุ่ง
 
       นิดหน่อย...'
-    MessageTW: 抱歉，楓。今天因為工作有點忙…
+    MessageTW: 抱歉，楓。今天工作有點忙……
   - MessageGroupId: 200150260
     Id: 200150350
     CharacterId: 20015
@@ -723,7 +723,7 @@ content:
     MessageTH: 'เอ๊ะ? วันนี้ก็ทำงานเหรอ?
 
       คุยกับคุณครูทีไรก็ทำงานทุกทีเลย!'
-    MessageTW: 哦？今天也要工作嗎？老師好像每天都在工作！
+    MessageTW: 咦，老師總是在工作！
   - MessageGroupId: 200150260
     Id: 200150360
     CharacterId: 20015
@@ -759,7 +759,7 @@ content:
     MessageCN: 该、该怎么说呢……
     MessageEN: U-Um... I don't know...
     MessageTH: นะ...นั่นสินะ จะว่ายังไงดีล่ะ...
-    MessageTW: 這、這個嘛。怎麼說呢……
+    MessageTW: 也，也沒有啊……
   - MessageGroupId: 200150270
     Id: 200150380
     CharacterId: 20015
@@ -777,7 +777,7 @@ content:
     MessageCN: 我不喜欢文书工作……
     MessageEN: I don't really like paperwork honestly...
     MessageTH: ครูไม่ได้ชอบงานเอกสารหรอก...
-    MessageTW: 處理資料本身不是那麼喜歡……
+    MessageTW: 我並沒有那麼喜歡文書作業……
   - MessageGroupId: 200150280
     Id: 200150390
     CharacterId: 20015
@@ -795,7 +795,7 @@ content:
     MessageCN: 嗯——……？啊，不过老师之前好像确实有说过呢
     MessageEN: Hmm, then... Oh, right! I heard someone say this before!
     MessageTH: อืม~ ถ้างั้น... อ๊ะ จริงสิ! ฉันเคยได้ยินมานะ!
-    MessageTW: 呃嗯～那麼…啊，沒錯！我有聽說過！
+    MessageTW: 嗯……？啊，我記得之前有聽過
   - MessageGroupId: 200150280
     Id: 200150400
     CharacterId: 20015
@@ -808,14 +808,14 @@ content:
     FeedbackTimeMillisec: 1000
     MessageType: Text
     ImagePath: ''
-    MessageKR: '어른은 가끔 하기 싫은 일도 꾸역꾸역해야만 할 때가 있다고…. '
+    MessageKR: 어른은 가끔 하기 싫은 일도 꾸역꾸역해야만 할 때가 있다고….
     MessageJP: 大人は時々、やりたくないこともやらないといけない……って
     MessageCN: 大人有时候不得不做一些不想做的事情……之类的话
     MessageEN: "Sometimes adults have to do things even if they don't like it... "
     MessageTH: 'ว่าพวกผู้ใหญ่น่ะปากบ่นว่าเกลียด
 
       แต่ก็ไม่เลิกทำสิ่งที่บอกว่าเกลียดสักที...'
-    MessageTW: 大人們就算是不喜歡的事，有時候也有需要一直繼續做的時候…
+    MessageTW: 大人有時候就是必須做一些不想做的事……
   - MessageGroupId: 200150290
     Id: 200150410
     CharacterId: 20015
@@ -833,7 +833,7 @@ content:
     MessageCN: 嗯——，大人还真是累呢？
     MessageEN: Wow, being an adult is hard!
     MessageTH: เฮอะ?! ผู้ใหญ่เนี่ยลำบากจริงๆ เลยนะ!
-    MessageTW: 什麼？！所謂的大人真的很辛苦呢！
+    MessageTW: 嗯～大人還真是辛苦呢
   - MessageGroupId: 200150300
     Id: 200150420
     CharacterId: 20015
@@ -853,7 +853,7 @@ content:
     MessageTH: 'เอ๊ะ... แต่ถ้าดูจากคุณครูแล้ว บางทีก็ไม่
 
       เหมือนเท่าไรนะ...'
-    MessageTW: 咦，不過……看著老師，有時候卻又覺得不是那樣…
+    MessageTW: 可是感覺老師已經不是「有時候」的程度了
   - MessageGroupId: 200150310
     Id: 200150430
     CharacterId: 20015
@@ -871,7 +871,7 @@ content:
     MessageCN: 咕，别再说了……！
     MessageEN: Ugh! You're right. It's sad but true.
     MessageTH: อึ่ก! เหมือนเอามีดมาแทงกันเลย!
-    MessageTW: 呵！這無意中的一箭還真痛！
+    MessageTW: 嗚，實在無法反駁……！
   - MessageGroupId: 200150320
     Id: 200150440
     CharacterId: 20015
@@ -884,12 +884,12 @@ content:
     FeedbackTimeMillisec: 1000
     MessageType: Text
     ImagePath: ''
-    MessageKR: '으음, 잘은 모르겠지만. '
+    MessageKR: 으음, 잘은 모르겠지만.
     MessageJP: まあとにかくー
     MessageCN: 总之呢——
     MessageEN: "I don't know how I can help... "
     MessageTH: 'อืม... ไม่รู้เหมือนกันแฮะ '
-    MessageTW: 呃嗯，雖然不是很清楚…
+    MessageTW: 總而言之呢──
   - MessageGroupId: 200150330
     Id: 200150450
     CharacterId: 20015
@@ -907,7 +907,7 @@ content:
     MessageCN: 啊，我想到一个好办法！
     MessageEN: '...Oh! I have an idea!'
     MessageTH: อ๊ะ คิดอะไรดีๆ ออกแล้ว!
-    MessageTW: …啊！我想到一個好辦法了！
+    MessageTW: 啊！我想到一個好辦法了！
   - MessageGroupId: 200150340
     Id: 200150460
     CharacterId: 20015
@@ -925,7 +925,7 @@ content:
     MessageCN: 好办法？
     MessageEN: Huh? Kaede?
     MessageTH: หืม? คาเอเดะ?
-    MessageTW: 嗯？楓？
+    MessageTW: 好辦法？
   - MessageGroupId: 200150350
     Id: 200150470
     CharacterId: 20015
@@ -943,7 +943,7 @@ content:
     MessageCN: 等我一下，老师！
     MessageEN: Heeheehee, all right! Wait a moment, Sensei!
     MessageTH: ฮิฮิฮิ ดีละ! รอก่อนนะ คุณครู!
-    MessageTW: 呵呵呵，很好！等等我！老師！
+    MessageTW: 等等我！老師！
   - MessageGroupId: 200150350
     Id: 200150480
     CharacterId: 20015
@@ -963,7 +963,7 @@ content:
     MessageTH: 'วันนี้จะไม่มีการรบกวนคุณครูและจะเป็น
 
       คาเอเดะที่คอยช่วยงานคุณครูอยู่เงียบๆ เอง!'
-    MessageTW: 今天我不會妨礙老師，而是會變身成可以充分幫忙的楓模式！
+    MessageTW: 我今天會是「認真幫忙模式」！
   - MessageGroupId: 200150360
     Id: 200150490
     CharacterId: 20015
@@ -999,7 +999,7 @@ content:
     MessageCN: ？？？
     MessageEN: Huh? Kaede?
     MessageTH: หืม? คาเอเดะ?
-    MessageTW: 嗯？楓？
+    MessageTW: ？？？
   - MessageGroupId: 200150380
     Id: 200150510
     CharacterId: 20015
@@ -1017,7 +1017,7 @@ content:
     MessageCN: 老师！紧急情况！！
     MessageEN: Sensei! Sensei! Help!!
     MessageTH: คุณครู คุณครู~! ช่วยด้วย! ช่วยด้วย!
-    MessageTW: 老師、老師！Help！Help！
+    MessageTW: 老師！緊急情況！！
   - MessageGroupId: 200150390
     Id: 200150520
     CharacterId: 20015
@@ -1039,7 +1039,7 @@ content:
     MessageTH: 'ท่าไม้ตายของหน้ากากไดร์เวอร์!
 
       เอเมอเจนซี ไดรฟ์ คิก!'
-    MessageTW: 假面騎士的必殺技！緊急駕駛飛踢！
+    MessageTW: 而所謂的緊急情況，就是假面車手的必殺技「緊急駕駛飛踢」！
   - MessageGroupId: 200150400
     Id: 200150530
     CharacterId: 20015
@@ -1057,7 +1057,7 @@ content:
     MessageCN: ……那是什么啊？
     MessageEN: E-Emergency...what?
     MessageTH: เอ...เอเมอเจนซี... ว่าไงนะ?
-    MessageTW: 緊、緊急…..什麼？
+    MessageTW: ……什麼東西？
   - MessageGroupId: 200150400
     Id: 200150540
     CharacterId: 20015
@@ -1075,7 +1075,7 @@ content:
     MessageCN: 感觉发生了什么大事？
     MessageEN: What's going on, Kaede? Are you in trouble?
     MessageTH: อะไรเหรอคาเอเดะ? เกิดเรื่องอะไรขึ้นน่ะ?!
-    MessageTW: 有什麼事嗎，楓？發生了什麼大事嗎？！
+    MessageTW: 所以是有發生什麼大事嗎？
   - MessageGroupId: 200150410
     Id: 200150550
     CharacterId: 20015
@@ -1093,7 +1093,7 @@ content:
     MessageCN: 那个，该从哪里开始说明呢……
     MessageEN: Huh? Trouble...?
     MessageTH: หืม...? เรื่องใหญ่...?
-    MessageTW: 嗯…？大事……？
+    MessageTW: 嗯……該怎麼說明呢……
   - MessageGroupId: 200150420
     Id: 200150560
     CharacterId: 20015
@@ -1113,7 +1113,7 @@ content:
     MessageTH: 'อ๊ะ อื้อ ใช่แล้วล่ะ อาจเป็นเรื่องใหญ่
 
       เหมือนที่คุณครูพูดก็ได้!'
-    MessageTW: 啊…！嗯！沒錯！就像老師說的……這說不定是件非常非常大條的事喔？！
+    MessageTW: 反正事情就是很大條了！
   - MessageGroupId: 200150430
     Id: 200150570
     CharacterId: 20015
@@ -1131,7 +1131,7 @@ content:
     MessageCN: 枫没事吧？没有受伤吧？
     MessageEN: Kaede, are you hurt?!
     MessageTH: คาเอเดะ บาดเจ็บงั้นเหรอ?!
-    MessageTW: 該不會是楓…哪裡受了重傷？！
+    MessageTW: 還好嗎？有受傷嗎？
   - MessageGroupId: 200150440
     Id: 200150580
     CharacterId: 20015
@@ -1153,7 +1153,7 @@ content:
     MessageTH: 'หืม? ฉันสบายดีนะ? สบายดีสุดๆ เลย
 
       กินข้าวเช้าเยอะเป็นที่หนึ่งเลยด้วย'
-    MessageTW: 嗯？我嗎？我沒事啊？完全生龍活虎耶？早餐也是第一個吃完的唷？
+    MessageTW: 我完全沒事！剛剛吃早餐我還有多添幾碗！
   - MessageGroupId: 200150440
     Id: 200150590
     CharacterId: 20015
@@ -1173,7 +1173,7 @@ content:
     MessageTH: 'แต่เรื่องนั้นไม่ใช่เรื่องสำคัญสักหน่อย~
 
       คุณครู!'
-    MessageTW: 比起這個～重點不是那種事～！老師！
+    MessageTW: 反正重點不在那裡啦！
   - MessageGroupId: 200150450
     Id: 200150600
     CharacterId: 20015
@@ -1191,7 +1191,7 @@ content:
     MessageCN: ……？
     MessageEN: You just said you had an emergency, Kaede...
     MessageTH: แต่เมื่อกี้คาเอเดะบอกว่าเรื่องฉุกเฉินนี่...
-    MessageTW: 可是剛才楓明明說是緊急事件……
+    MessageTW: ……？
   - MessageGroupId: 200150460
     Id: 200150610
     CharacterId: 20015
@@ -1209,7 +1209,7 @@ content:
     MessageCN: 总之，就是紧急情况！
     MessageEN: Oh! By emergency, I meant...
     MessageTH: อา~ เรื่องฉุกเฉินน่ะเหรอ คือว่าเรื่องนั้น...~!
-    MessageTW: 啊～我說是緊急事件的事啊……所以關於那個～！
+    MessageTW: 總之就是有緊急狀況！
   - MessageGroupId: 200150470
     Id: 200150620
     CharacterId: 20015
@@ -1229,7 +1229,7 @@ content:
     MessageTH: 'ไม่ได้ๆ ข่าวใหญ่แบบนี้จะบอกทาง
 
       MOMOTALK ไม่ได้หรอก!'
-    MessageTW: …哈？！不對、不對！這麼重大的消息不能只用MomoTalk告訴你！
+    MessageTW: 這種等級的緊急狀況，可不能用MomoTalk告訴你！
   - MessageGroupId: 200150470
     Id: 200150630
     CharacterId: 20015
@@ -1247,7 +1247,7 @@ content:
     MessageCN: 说不定有人在哪监视我们的momotalk呢！
     MessageEN: What if someone is secretly reading our conversation somewhere?
     MessageTH: อาจมีใครส่องแชทที่เราคุยกันอยู่ก็ได้!
-    MessageTW: 而且也不知道誰會在哪裡打探MomoTalk！
+    MessageTW: 畢竟可能會有人偷看到這則MomoTalk！
   - MessageGroupId: 200150480
     Id: 200150640
     CharacterId: 20015
@@ -1265,7 +1265,7 @@ content:
     MessageCN: 我觉得那个应该没问题吧……大概
     MessageEN: That's not happening. Promise.
     MessageTH: ไม่มีเรื่องแบบนั้นหรอก
-    MessageTW: 不，沒有。不可能有那種事。
+    MessageTW: 我想這應該不用擔心啦……
   - MessageGroupId: 200150490
     Id: 200150650
     CharacterId: 20015
@@ -1285,7 +1285,7 @@ content:
     MessageTH: 'แต่ยังไงการบอกข่าวด้วยตัวเองมันก็อาจจะ
 
       ดีกว่าก็ได้นะ?!'
-    MessageTW: 總而言之，要說的話還是見面說比較好？！
+    MessageTW: 總之我們直接見面再說吧！
   - MessageGroupId: 200150500
     Id: 200150660
     CharacterId: 20015
@@ -1305,4 +1305,4 @@ content:
     MessageTH: 'ฉันจะรออยู่ที่สนามเด็กเล่นนะรีบๆ มาล่ะ
 
       คุณครู!'
-    MessageTW: 我！我在遊樂場等你喔！快來吧！老師！
+    MessageTW: 我會在公園等你！

@@ -26,8 +26,8 @@ title:
     TextCn: 即使无法窥见其内心
     TextKr: 그 속을 직접 볼 순 없지만
     TextEn: I Want to Read Your Mind
-    TextTh: แม้จะเห็นข้างในไม่ได้
-    TextTw: 雖然無法親眼確認心意
+    TextTh: อยากรู้ความคิดในใจ...
+    TextTw: 儘管看不見內在
 content:
   - MessageGroupId: 100450010
     Id: 100450010
@@ -64,7 +64,7 @@ content:
     MessageCN: 如果大家问起老师有没有看到我去哪了，老师可以回答“不知道”吗？
     MessageEN: I noticed someone was looking for me again.
     MessageTH: เมื่อกี้นี้เห็นว่ามีใครตามหาฉันอยู่ด้วยล่ะ
-    MessageTW: 大家問老師我在哪裡，能請老師回答「不知道」嗎？
+    MessageTW: 大家問老師我在哪裡的話，能請老師回答「不知道」嗎？
   - MessageGroupId: 100450030
     Id: 100450030
     CharacterId: 10045
@@ -81,7 +81,7 @@ content:
     MessageJP: いま大事なことをしてて
     MessageCN: 我现在有点事情要忙
     MessageEN: I'm in the middle of something very important.
-    MessageTH: ตอนนี้ฉันกำลังทำงานที่สำคัญมากๆ อยู่นะ
+    MessageTH: ตอนนี้ฉันกำลังทำงานที่สำคัญมากๆ อยู่
     MessageTW: 我現在在做很重要的事
   - MessageGroupId: 100450030
     Id: 100450040
@@ -99,9 +99,9 @@ content:
     MessageJP: 先生も何も聞かなかったフリしてね。頼んだよ
     MessageCN: 老师也要装作什么都没听说的样子哦。拜托啦
     MessageEN: So, if someone asks, just tell them you don't know where I am.
-    MessageTH: 'เพราะงั้นถ้าเกิดมีใครถามครู ก็ช่วยบอก
+    MessageTH: 'เพราะงั้นถ้าเกิดมีใครถามครู
 
-      ว่าไม่รู้ไปแล้วกันนะ'
+      ก็ช่วยบอกว่าไม่รู้ไปแล้วกันนะ'
     MessageTW: 老師就裝做什麼都不知道。拜託了唷
   - MessageGroupId: 100450040
     Id: 100450050
@@ -119,9 +119,9 @@ content:
     MessageJP: いいけど……客室にいるの？
     MessageCN: 可以是可以……星野现在在客房里吗？
     MessageEN: Sure... Are you gonna sleep in the cabin?
-    MessageTH: 'ครูตอบแบบนั้นก็ได้ แต่โฮชิโนะหลับอยู่
+    MessageTH: 'ครูตอบแบบนั้นก็ได้ แต่โฮชิโนะ
 
-      ที่ห้องพักใช่มั้ย?'
+      นอนอยู่ที่ห้องพักใช่มั้ย?'
     MessageTW: 是沒什麼關係……你是在客房嗎？
   - MessageGroupId: 100450040
     Id: 100450060
@@ -175,7 +175,7 @@ content:
     MessageJP: 寝てるわけじゃないけど……客室にはいるよ～
     MessageCN: 虽然现在并没有在睡觉……但我确实在客房哦～
     MessageEN: You understand the assignment though, right?
-    MessageTH: เข้าใจใช่มั้ยว่ามันหมายความว่ายังไง?
+    MessageTH: ครูเข้าใจที่ฉันบอกไปเมื่อกี้ใช่มั้ย?
     MessageTW: 雖然不是在睡覺……不過是在客房～
   - MessageGroupId: 100450060
     Id: 100450090
@@ -229,7 +229,7 @@ content:
     MessageJP: 一緒にお昼寝するの楽しかったよ
     MessageCN: 和老师一起午休很开心哦
     MessageEN: You took a nap too.
-    MessageTH: ครูเองก็มานอนด้วยกัน...
+    MessageTH: ครูเองก็แอบมางีบด้วยกัน
     MessageTW: 一起睡午覺很開心唷
   - MessageGroupId: 100450080
     Id: 100450120
@@ -267,7 +267,7 @@ content:
     MessageJP: サボりの共犯……ってことで
     MessageCN: 偷懒的共犯……就是这样
     MessageEN: You get it?
-    MessageTH: รู้ใช่มั้ยว่าที่พูดน่ะหมายความว่าไง?
+    MessageTH: รู้ใช่มั้ยว่ามันหมายความว่ายังไง?
     MessageTW: 偷懶的共犯……就是這樣
   - MessageGroupId: 100450100
     Id: 100450140
@@ -303,9 +303,9 @@ content:
     MessageJP: やられた……最初からその目的で！？
     MessageCN: 被星野摆了一道啊……难道这就是星野一开始的目的！？
     MessageEN: You got me. That was your motive from the start!
-    MessageTH: 'โดนเข้าแล้ว มีเป้าหมายแบบนี้แต่แรก
+    MessageTH: 'โดนเข้าแล้ว มีเป้าหมายแบบนี้
 
-      แล้วสินะ!'
+      ตั้งแต่แรกแล้วสินะ!'
     MessageTW: 上當了……從一開始就是為了這個目的！？
   - MessageGroupId: 100450110
     Id: 100450160
@@ -323,7 +323,7 @@ content:
     MessageJP: えへへ
     MessageCN: 诶嘿嘿
     MessageEN: Hehehe.
-    MessageTH: แฮ่ๆๆ~
+    MessageTH: แฮ่รๆๆ~
     MessageTW: 唔嘿嘿
   - MessageGroupId: 100450120
     Id: 100450170
@@ -377,7 +377,7 @@ content:
     MessageJP: 大変なことが……
     MessageCN: 发生了不得了的事情……
     MessageEN: I have a problem.
-    MessageTH: เกิดเรื่องใหญ่แล้วละ
+    MessageTH: เกิดเรื่องใหญ่แล้ว
     MessageTW: 出大事了……
   - MessageGroupId: 100450140
     Id: 100450200
@@ -485,9 +485,9 @@ content:
     MessageJP: みんなを呼ばないで、必ず一人で来てね……
     MessageCN: 老师千万不要叫上大家，一定要一个人来哦……
     MessageEN: Don't tell others and come alone.
-    MessageTH: 'ห้ามบอกเรื่องนี้กับเด็กๆ คนอื่น แล้วก็
+    MessageTH: 'ห้ามบอกเรื่องนี้กับเด็กๆ คนอื่น
 
-      มาที่นี่หน่อยสิ'
+      แล้วก็มาที่นี่คนเดียวนะ'
     MessageTW: 不要叫大家，一定要一個人來唷……
   - MessageGroupId: 100450170
     Id: 100450260
@@ -541,7 +541,7 @@ content:
     MessageJP: 残念なお知らせ
     MessageCN: 遗憾的通知
     MessageEN: What a shame.
-    MessageTH: น่าเสียดายจริงๆ
+    MessageTH: แย่จริงๆ
     MessageTW: 壞消息
   - MessageGroupId: 100450200
     Id: 100450290
@@ -594,7 +594,7 @@ content:
     MessageKR: 아니. 그건 아니고
     MessageJP: あ、そういうんじゃなくて
     MessageCN: 啊，不是那回事
-    MessageEN: No, you're not.
+    MessageEN: No.
     MessageTH: เปล่า ไม่ใช่แบบนั้นหรอก
     MessageTW: 啊，不是那樣的
   - MessageGroupId: 100450210
@@ -631,9 +631,9 @@ content:
     MessageJP: だから、これからも毎日採ってきてってさ～
     MessageCN: 所以呢，我打算从今天开始每天都去抓一点回来～
     MessageEN: I was asked to keep bringing stuff.
-    MessageTH: 'กลายเป็นกิจวัตรที่ต้องทำทุกวันไป
+    MessageTH: 'กลายเป็นว่าพวกเด็กๆ
 
-      ซะแล้ว'
+      ขอให้ไปจับมาทุกวันซะแล้ว'
     MessageTW: 所以被吩咐今後也要每天採收～
   - MessageGroupId: 100450230
     Id: 100450340
@@ -651,7 +651,7 @@ content:
     MessageJP: というわけで
     MessageCN: 所以说啊
     MessageEN: So, I was gonna say...
-    MessageTH: เหตุผลแบบนั้น...
+    MessageTH: เพราะงั้น...
     MessageTW: 因此
   - MessageGroupId: 100450240
     Id: 100450350
@@ -795,7 +795,7 @@ content:
     MessageJP: ちょっと言ってみたかっただけ
     MessageCN: 我只是想说说而已
     MessageEN: I just wanted to say that.
-    MessageTH: แค่อยากลองดูสักครั้งน่ะ
+    MessageTH: ฉันแค่อยากลองพูดสักครั้งน่ะ
     MessageTW: 只是想說說看而已
   - MessageGroupId: 100450300
     Id: 100450430
@@ -813,7 +813,7 @@ content:
     MessageJP: 特に深い意味はないよ
     MessageCN: 也没有什么特别的意思啦
     MessageEN: No special reason.
-    MessageTH: ไม่มีเหตุผลอื่นหรอก
+    MessageTH: ไม่มีเหตุผลอะไรพิเศษหรอก
     MessageTW: 沒有特別的含意唷
   - MessageGroupId: 100450310
     Id: 100450440
@@ -831,7 +831,7 @@ content:
     MessageJP: そういえば先生
     MessageCN: 话说回来老师
     MessageEN: By the way, Sensei.
-    MessageTH: แล้วก็นะครู...
+    MessageTH: ว่าแต่ครู...
     MessageTW: 這麼說來，老師
   - MessageGroupId: 100450310
     Id: 100450450
@@ -849,7 +849,7 @@ content:
     MessageJP: どこかで聞いたことがあるんだけど
     MessageCN: 我好像在哪里听过来着
     MessageEN: I saw somewhere,
-    MessageTH: ดูเหมือนเคยเห็นที่ไหนมาก่อนเลย
+    MessageTH: ฉันเคยได้ยินมาน่ะ
     MessageTW: 我曾在哪裡聽說過
   - MessageGroupId: 100450320
     Id: 100450460
@@ -866,8 +866,8 @@ content:
     MessageKR: 아까 숭어처럼
     MessageJP: さっきのボラみたいに
     MessageCN: 听说鲸鱼跟刚刚的乌鱼一样
-    MessageEN: like the gray mullet from before,
-    MessageTH: พวกลูกปลากระบอก
+    MessageEN: just like gray mullets,
+    MessageTH: ว่าบางทีพวกวาฬเอง
     MessageTW: 就像剛才的烏魚一樣
   - MessageGroupId: 100450320
     Id: 100450470
@@ -885,7 +885,7 @@ content:
     MessageJP: 鯨もジャンプするって聞いたんだけど
     MessageCN: 也会跳出海面来呢
     MessageEN: the whales
-    MessageTH: แล้วก็วาฬด้วย
+    MessageTH: ก็จะโผล่ขึ้นมาเหนือน้ำ...
     MessageTW: 聽說鯨魚也會躍出水面
   - MessageGroupId: 100450320
     Id: 100450480
@@ -903,9 +903,7 @@ content:
     MessageJP: それって
     MessageCN: 虽然我听说有这回事
     MessageEN: also jump above the water, right?
-    MessageTH: 'บางครั้งพวกมันก็โผล่ขึ้นมาเหนือน้ำ
-
-      ใช่มั้ย?'
+    MessageTH: เหมือนพวกปลากระบอกใช่มั้ย?
     MessageTW: 那個啊
   - MessageGroupId: 100450330
     Id: 100450490
@@ -941,7 +939,7 @@ content:
     MessageJP: 砂浜からは見れないかも
     MessageCN: 也许从沙滩这里是看不见的吧
     MessageEN: It'll be hard to see from the coast.
-    MessageTH: แต่ดูจากฝั่งคงไม่เห็นนะ...
+    MessageTH: ดูจากชายหาดคงมองไม่เห็นหรอก...
     MessageTW: 應該沒辦法在沙灘上看到
   - MessageGroupId: 100450340
     Id: 100450510

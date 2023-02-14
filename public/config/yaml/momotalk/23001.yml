@@ -9,7 +9,7 @@ title:
     TextKr: 장 보러 가실래요?
     TextEn: Want to Go Grocery Shopping?
     TextTh: ไปซื้อของกันไหมคะ?
-    TextTw: 您要去採購嗎？
+    TextTw: 要一起去採購嗎？
   - GroupId: 2300103
     FavorScheduleId: 230013
     CharacterId: 23001
@@ -18,7 +18,7 @@ title:
     TextKr: 후우카 씨의 오늘의 밥상
     TextEn: Fuuka's Meal of the Day
     TextTh: เมนูวันนี้ของคุณฟูกะ
-    TextTw: 風華的今日佳餚
+    TextTw: 風華同學今日的餐桌
   - GroupId: 2300105
     FavorScheduleId: 230015
     CharacterId: 23001
@@ -27,7 +27,7 @@ title:
     TextKr: 또 장 보러 가요!
     TextEn: Back to the Supermarket!
     TextTh: ไปซื้อของกันเถอะค่ะ!
-    TextTw: 再去採購吧！
+    TextTw: 再次去採購吧！
   - GroupId: 2300106
     FavorScheduleId: 230016
     CharacterId: 23001
@@ -36,7 +36,7 @@ title:
     TextKr: 오늘만큼은 선생님만의 밥상
     TextEn: Sensei's Special of the Day
     TextTh: โต๊ะอาหารสำหรับคุณครูเท่านั้น!
-    TextTw: 今天只為老師準備餐點
+    TextTw: 今天的餐點只為老師
   - GroupId: 2300108
     FavorScheduleId: 230018
     CharacterId: 23001
@@ -45,7 +45,7 @@ title:
     TextKr: 급양부의 부장님은 힘내고 싶어!
     TextEn: School Lunch Club President's Dedication
     TextTh: ส่งกำลังใจให้ท่านหัวหน้าชมรมโภชนาการ!
-    TextTw: 供給部的部長想加油！
+    TextTw: 供給部的部長想努力！
 content:
   - MessageGroupId: 230010010
     Id: 1449
@@ -66,7 +66,7 @@ content:
     MessageTH: 'คุณครูคะ ฉันมีเรื่องจะรบกวนคุณครู
 
       หน่อยค่ะ'
-    MessageTW: 老師，有件事想拜託你……
+    MessageTW: 老師，有件事想拜託您……
   - MessageGroupId: 230010020
     Id: 1450
     CharacterId: 23001
@@ -84,7 +84,7 @@ content:
     MessageCN: 老师今天，有时间吗？
     MessageEN: Do you have time today?
     MessageTH: วันนี้พอมีเวลาว่างไหมคะ?
-    MessageTW: 今天，你有時間嗎？
+    MessageTW: 請問，您今天有時間嗎？
   - MessageGroupId: 230010030
     Id: 1451
     CharacterId: 23001
@@ -138,7 +138,7 @@ content:
     MessageCN: 那么，我在食堂等着老师哦。请老师多多关照
     MessageEN: I'll wait for you at the student dining hall.
     MessageTH: ถ้างั้นฉันจะรออยู่ที่โรงอาหารนะคะ
-    MessageTW: 那麼，我在食堂等你。萬事拜託了
+    MessageTW: 那麼，我在食堂等您。萬事拜託了
   - MessageGroupId: 230010050
     Id: 1454
     CharacterId: 23001
@@ -156,7 +156,7 @@ content:
     MessageCN: 谢谢老师今天能来帮我
     MessageEN: Thanks for your help today.
     MessageTH: วันนี้ขอบคุณที่มาช่วยนะคะ
-    MessageTW: 今天非常感謝你的幫忙
+    MessageTW: 今天非常感謝老師的幫忙
   - MessageGroupId: 230010060
     Id: 1455
     CharacterId: 23001
@@ -268,7 +268,7 @@ content:
     MessageTH: 'เรื่องนั้น... ถ้าคุณครูมาที่โรงอาหารก็จะ
 
       รู้เองค่ะ'
-    MessageTW: 今天，可以請老師來格黑娜的學生食堂來一趟嗎？
+    MessageTW: 今天，可以請老師來格黑娜的學生食堂一趟嗎？
   - MessageGroupId: 230010100
     Id: 1461
     CharacterId: 23001
@@ -286,7 +286,7 @@ content:
     MessageCN: 今天就让老师见识一下，枫香的全力
     MessageEN: I'll show you the power of Fuuka!
     MessageTH: วันนี้ฟูกะจะแสดงฝีมือให้ดูเองค่ะ!
-    MessageTW: 想讓你看看，風華的全力
+    MessageTW: 讓老師見識，風華的全力
   - MessageGroupId: 230010110
     Id: 1462
     CharacterId: 23001
@@ -324,7 +324,7 @@ content:
     MessageTH: 'ฉันอยากจะทำอาหารอร่อยๆ ให้คุณครู
 
       ทานก็เท่านั้น...'
-    MessageTW: 我滿腦子只想著用美味的料理來招待你，所以才……
+    MessageTW: 我滿腦子只想著用美味的料理來招待老師，所以才……
   - MessageGroupId: 230010120
     Id: 1464
     CharacterId: 23001
@@ -360,7 +360,7 @@ content:
     MessageCN: 老师，您醒了吗？身体还好吗……？
     MessageEN: Are you awake, Sensei? How are you feeling?
     MessageTH: คุณครู ตื่นรึยังคะ? ร่างกายโอเคไหมคะ?
-    MessageTW: 老師，你醒了嗎？身體還好嗎……？
+    MessageTW: 老師，您醒了嗎？身體還好嗎……？
   - MessageGroupId: 230010140
     Id: 1466
     CharacterId: 23001
@@ -506,7 +506,7 @@ content:
     MessageCN: 谢谢老师！那么我等您哦！
     MessageEN: Okay then, I'll be waiting!
     MessageTH: ค่ะ ถ้างั้นฉันจะรอนะคะ!
-    MessageTW: 非常感謝！那麼，我等你來唷！
+    MessageTW: 非常感謝！那麼，我等老師來唷！
   - MessageGroupId: 230010190
     Id: 1474
     CharacterId: 23001
@@ -526,7 +526,7 @@ content:
     MessageTH: 'วันนี้เป็นอาหารที่ทำจากปลาไหล
 
       ดีไหมคะ?'
-    MessageTW: 今天的鰻魚料理你覺得怎麼樣呢？
+    MessageTW: 今天的鰻魚料理老師覺得怎麼樣呢？
   - MessageGroupId: 230010190
     Id: 1475
     CharacterId: 23001
@@ -564,7 +564,7 @@ content:
     MessageTH: 'คราวหน้าฉันจะทำอะไรอร่อยๆ ให้ทาน
 
       อีกนะคะ!'
-    MessageTW: 下次會用更美味的料理招待你唷！
+    MessageTW: 下次我會用更美味的料理招待老師唷！
   - MessageGroupId: 230010210
     Id: 1477
     CharacterId: 23001
@@ -824,7 +824,7 @@ content:
     MessageCN: 老师开这种恶劣的玩笑的话
     MessageEN: Don't be like that...
     MessageTH: ถ้าจะล้อเล่นแบบนี้...
-    MessageTW: 被開這種捉弄人的玩笑的話，
+    MessageTW: 被開這種欺負人的玩笑的話，
   - MessageGroupId: 230010320
     Id: 1491
     CharacterId: 23001
@@ -842,7 +842,7 @@ content:
     MessageCN: 我，会伤心的……
     MessageEN: Are you trying to hurt my feelings?
     MessageTH: ฉันแอบรู้สึกไม่ดีนะคะ
-    MessageTW: 我會很難過的……
+    MessageTW: 我會受傷的……
   - MessageGroupId: 230010330
     Id: 1492
     CharacterId: 23001
@@ -878,7 +878,7 @@ content:
     MessageCN: ……才怪，我也在开玩笑哦
     MessageEN: Huh? It was a joke!
     MessageTH: อะไรกันคะ ฉันแค่ล้อเล่นเองค่ะ
-    MessageTW: ……騙你的，這也是在開玩笑唷
+    MessageTW: ……騙你的，這也是開玩笑的哦
   - MessageGroupId: 230010350
     Id: 1494
     CharacterId: 23001
@@ -932,7 +932,7 @@ content:
     MessageCN: 我在食堂等老师哦！
     MessageEN: I'll wait for you at the student dining hall!
     MessageTH: ฉันจะรอคุณครูที่โรงอาหารนะคะ
-    MessageTW: 我在食堂等你唷！
+    MessageTW: 我在食堂等老師哦！
   - MessageGroupId: 230010370
     Id: 1497
     CharacterId: 23001

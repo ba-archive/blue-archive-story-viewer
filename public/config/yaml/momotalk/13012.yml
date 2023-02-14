@@ -27,7 +27,7 @@ title:
     TextKr: 더블 타겟
     TextEn: Double Target
     TextTh: ดับเบิ้ล ทาร์เก็ต
-    TextTw: 雙重目標
+    TextTw: The．Shooter／兩大目標？
   - GroupId: 1301206
     FavorScheduleId: 130126
     CharacterId: 13012
@@ -36,7 +36,7 @@ title:
     TextKr: 유치원에 간 경찰
     TextEn: Kindergarten Going Downtown
     TextTh: การทัศนศึกษาของเด็กอนุบาล
-    TextTw: 前往幼兒園的警察
+    TextTw: Airon．Connection
 content:
   - MessageGroupId: 130120010
     Id: 130120010
@@ -529,7 +529,7 @@ content:
     MessageTH: 'ถ้าปรับท่าทางหรือความเคยชินที่ไม่
 
       ดีได้ ก็จะทำให้ยิงปืนได้แม่นขึ้นก็ได้ค่ะ'
-    MessageTW: 聽說要想提升命中率，改善射擊時的壞習慣和姿勢是很重要的！
+    MessageTW: 聽說想要提升命中率，改善射擊時的壞習慣和姿勢是很重要的！
   - MessageGroupId: 130120170
     Id: 130120260
     CharacterId: 13012
@@ -565,7 +565,7 @@ content:
     MessageCN: 十分感谢，老师！
     MessageEN: Thank you, Sensei!
     MessageTH: ขอบคุณค่ะคุณครู!
-    MessageTW: 非常感謝，老師！
+    MessageTW: 謝謝您，老師！
   - MessageGroupId: 130120180
     Id: 130120280
     CharacterId: 13012
@@ -585,7 +585,7 @@ content:
     MessageTH: 'ถ้างั้นฉันจะไปรอที่ห้องซ้อมในอาคาร
 
       ของโรงเรียนนะคะ!'
-    MessageTW: 那麼，我在校內的射擊場等你！
+    MessageTW: 那麼，我在校內的射擊場等您！
   - MessageGroupId: 130120190
     Id: 130120290
     CharacterId: 13012
@@ -779,7 +779,7 @@ content:
       ถึงความยอดเยี่ยมของตำรวจให้เด็กๆ
 
       ได้เห็นค่ะ!'
-    MessageTW: 幫大忙了。是啊，而且機會難得，希望能讓幼稚園小朋友看到警察帥氣的樣子！
+    MessageTW: 幫大忙了。就是說呢，因為是難得的機會，所以希望能讓幼稚園小朋友看到警察帥氣的樣子！
   - MessageGroupId: 130120260
     Id: 130120390
     CharacterId: 13012
@@ -799,7 +799,7 @@ content:
     MessageTH: 'ฉันเองก็ฝันอยากเป็นตำรวจเพราะ
 
       การได้ไปทัศนศึกษาตอนเด็กๆ ค่ะ'
-    MessageTW: 畢竟本官就是小時候有參加類似的參觀活動，才立志成為警察……
+    MessageTW: 畢竟本官就是小時候有參加類似的參觀活動，才會立志成為警察……
   - MessageGroupId: 130120260
     Id: 130120400
     CharacterId: 13012
@@ -819,7 +819,7 @@ content:
     MessageTH: 'ฉันควรจะต้องแสดงให้เด็กๆ เห็นถึง
 
       ความยอดเยี่ยมเหมือนกับรุ่นพี่พวกนั้น...'
-    MessageTW: 要像當年的警察們一樣，展現出帥氣的模樣……！
+    MessageTW: 要像當年的警察們一樣，展現出帥氣的模樣才行……！
   - MessageGroupId: 130120270
     Id: 130120410
     CharacterId: 13012
@@ -837,7 +837,7 @@ content:
     MessageCN: 桐乃就是独一无二的桐乃呢
     MessageEN: Kirino.
     MessageTH: คิริโนะ
-    MessageTW: 桐乃，我只叮嚀一件事
+    MessageTW: 桐乃，就一件事
   - MessageGroupId: 130120280
     Id: 130120420
     CharacterId: 13012
@@ -855,7 +855,7 @@ content:
     MessageCN: 诶，老师在说什么？
     MessageEN: Huh?
     MessageTH: คะ?
-    MessageTW: 是，什麼事？
+    MessageTW: 是的，是什麼呢？
   - MessageGroupId: 130120290
     Id: 130120430
     CharacterId: 13012
@@ -895,4 +895,4 @@ content:
     MessageTH: 'นะ...แน่นอนอยู่แล้วค่ะ! เรื่องแค่นั้น
 
       ฉันรู้อยู่แล้วค่ะ!'
-    MessageTW: 那、那是……！雖、雖然不太情願……但老師說的對……
+    MessageTW: 那，那是……！雖，雖然不太情願……不過是的，老師說得沒錯呢……

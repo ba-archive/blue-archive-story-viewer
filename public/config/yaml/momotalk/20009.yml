@@ -9,7 +9,7 @@ title:
     TextKr: 학생회장의 겨울 휴가
     TextEn: The President's Winter Vacation
     TextTh: วันหยุดฤดูหนาวของประธานสภานักเรียน
-    TextTw: 學生會長的寒假
+    TextTw: 某鬍鬚學生會長的寒假
   - GroupId: 2000903
     FavorScheduleId: 200093
     CharacterId: 20009
@@ -18,7 +18,7 @@ title:
     TextKr: 푸딩보다 부드러운
     TextEn: Softer Than Pudding
     TextTh: นุ่มฟูกว่าพุดดิ้ง
-    TextTw: 比布丁更軟嫩的東西
+    TextTw: 比布丁更柔軟
   - GroupId: 2000905
     FavorScheduleId: 200095
     CharacterId: 20009
@@ -36,7 +36,7 @@ title:
     TextKr: 우유로 만든 권위
     TextEn: Milk-Made Authority
     TextTh: อำนาจรสนม
-    TextTw: 用牛奶打造的權威
+    TextTw: 牛奶製的權威
   - GroupId: 2000920
     FavorScheduleId: 2000920
     CharacterId: 20009
@@ -127,7 +127,7 @@ content:
     MessageEN:
       I should be fully recovered after a good rest at a luxurious vacation
       spot.
-    MessageTH: หลังจากได้พักผ่อนอย่างเต็มที่ในรีสอร์ทสุดหรู ร่างกายก็คงจะฟื้นฟูกลับมามีเอเนอจี้เหมือนเดิม
+    MessageTH: หลังจากได้พักผ่อนอย่างเต็มที่ในรีสอร์ตสุดหรู ร่างกายก็คงจะฟื้นฟูกลับมามีเอเนอจี้เหมือนเดิม
     MessageTW: 在渡假勝地好好休息的話，之後的工作效率也會更好吧
   - MessageGroupId: 200090040
     Id: 200090050

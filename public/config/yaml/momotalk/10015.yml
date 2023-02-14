@@ -36,7 +36,7 @@ title:
     TextKr: 고양이와 아리스
     TextEn: The Cat and Aris
     TextTh: น้องเหมียวกับอาริสึ
-    TextTw: 貓和愛麗絲
+    TextTw: 貓與愛麗絲
   - GroupId: 1001508
     FavorScheduleId: 100158
     CharacterId: 10015
@@ -83,9 +83,9 @@ content:
     MessageJP: まずは「はじまりの村」周辺でレベルを上げなくてはいけないと聞きました
     MessageCN: 听说，冒险首先要在“起始之村庄”周围提升等级
     MessageEN: I hear I have to train near the town where I am starting out.
-    MessageTH: 'ได้ยินว่าไปล่ามอนสเตอร์อัปเลเวล
+    MessageTH: 'ได้ยินว่าไปล่ามอนสเตอร์เพื่ออัปเลเวล
 
-      ได้ที่ใกล้ๆ เมืองเริ่มต้นนะคะ'
+      ได้แถวใกล้ๆ เมืองเริ่มต้นนะคะ'
     MessageTW: 聽說首先得在「起始的村莊」附近提升等級
   - MessageGroupId: 1001500020
     Id: 1001500030
@@ -104,7 +104,7 @@ content:
     MessageCN: 爱丽丝要出发了。请为爱丽丝祈福吧
     MessageEN: So, wish me luck.
     MessageTH: ช่วยอวยพรให้ฉันโชคดีด้วยนะคะ
-    MessageTW: 我走了。請祝我好運
+    MessageTW: 我出發了。請祝我好運
   - MessageGroupId: 1001500030
     Id: 1001500040
     CharacterId: 10015
@@ -271,8 +271,8 @@ content:
     MessageJP: パンパカパーン！
     MessageCN: 邦邦咔邦——！
     MessageEN: Ba-ba-ba-bam! Bam bam!
-    MessageTH: ลั้นลั่นลา ลั๊นลา~!
-    MessageTW: 乓啪嘎乓──！
+    MessageTH: ลั้ลลัลลา~ ลั้ลลา!
+    MessageTW: 乓啪喀乓──！
   - MessageGroupId: 1001500090
     Id: 1001500130
     CharacterId: 10015
@@ -424,7 +424,7 @@ content:
     MessageCN: 嗯，我很乐意
     MessageEN: Okay. We'll go together.
     MessageTH: ได้สิ มาเลยๆ
-    MessageTW: 嗯，很樂意
+    MessageTW: 嗯，我很樂意
   - MessageGroupId: 1001500150
     Id: 1001500210
     CharacterId: 10015
@@ -651,11 +651,11 @@ content:
     MessageEN:
       I found a hidden ending with the Bearded King and the Bald Emperor,
       but...
-    MessageTH: 'ฉันเจอเนื้อเรื่องจบเกมแบบใหม่ของ
+    MessageTH: 'ฉันเจอเนื้อเรื่องตอนจบแบบใหม่ของ
 
       ราชาหนวดและจักรพรรดิโป๊งเหน่ง
 
-      แล้วค่ะแต่ว่า...'
+      ที่ถูกซ่อนไว้แล้วค่ะแต่ว่า...'
     MessageTW: 發現了鬍鬚陛下和禿頭皇帝兩者結合的隱藏結局……
   - MessageGroupId: 1001500220
     Id: 1001500330
@@ -974,7 +974,7 @@ content:
     MessageCN: 老师知道有什么方法能让爱丽丝和猫打好关系吗？
     MessageEN: Is there any way to make friends with cats?
     MessageTH: มีวิธีที่จะทำให้สนิทกับแมวได้ไหมคะ?
-    MessageTW: 你知道和貓友好相處的方法嗎？
+    MessageTW: 老師知道和貓友好相處的方法嗎？
   - MessageGroupId: 1001500310
     Id: 1001500500
     CharacterId: 10015
@@ -1118,7 +1118,7 @@ content:
     MessageCN: 嗯，没关系的。谢谢老师
     MessageEN: Okay. Thank you.
     MessageTH: ค่ะ ขอบคุณค่ะ
-    MessageTW: 是，沒關係
+    MessageTW: 好的，沒關係。謝謝老師
   - MessageGroupId: 1001500350
     Id: 1001500580
     CharacterId: 10015
@@ -1136,7 +1136,7 @@ content:
     MessageCN: 我会等着老师的
     MessageEN: I will be waiting for you.
     MessageTH: แล้วจะรอนะคะ
-    MessageTW: 我等你唷
+    MessageTW: 我等著唷
   - MessageGroupId: 1001500360
     Id: 1001500590
     CharacterId: 10015
@@ -1284,4 +1284,4 @@ content:
     MessageCN: 谢谢您，老师
     MessageEN: Thank you, Sensei.
     MessageTH: ขอบคุณค่ะคุณครู
-    MessageTW: 非常感謝，老師
+    MessageTW: 非常感謝你，老師

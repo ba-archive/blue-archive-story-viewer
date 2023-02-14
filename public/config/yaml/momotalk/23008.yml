@@ -27,7 +27,7 @@ title:
     TextKr: 몸이 내린 벌
     TextEn: The Body Keeps the Score
     TextTh: ร่างกายลงโทษ
-    TextTw: 身體的懲罰
+    TextTw: 內在的懲罰
   - GroupId: 2300806
     FavorScheduleId: 230086
     CharacterId: 23008
@@ -36,7 +36,7 @@ title:
     TextKr: 자신이 바라는 것
     TextEn: What You Want
     TextTh: สิ่งที่ตัวเองคาดหวัง
-    TextTw: 盼望
+    TextTw: 我的願望
 content:
   - MessageGroupId: 230080010
     Id: 230080010
@@ -257,7 +257,7 @@ content:
     MessageCN: 老师，您之后身体还有不舒服吗？
     MessageEN: Are you okay, Sensei?
     MessageTH: ไม่เป็นไรใช่ไหมคะคุณครู?
-    MessageTW: 老師，在那之後有什麼變化嗎？
+    MessageTW: 老師，在那之後有怎麼樣嗎？
   - MessageGroupId: 230080090
     Id: 230080130
     CharacterId: 23008
@@ -852,7 +852,7 @@ content:
     MessageCN: 玛丽好像有很多事情要忙呢，辛苦了
     MessageEN: I guess you're busy today.
     MessageTH: สงสัยวันนี้คงจะยุ่งสินะ
-    MessageTW: 看起來忙著很多事呢，辛苦了
+    MessageTW: 看起來很忙呢，辛苦了
   - MessageGroupId: 230080280
     Id: 230080450
     CharacterId: 23008

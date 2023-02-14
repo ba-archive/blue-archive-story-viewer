@@ -9,7 +9,7 @@ title:
     TextKr: 도움이 필요하다면, C&C에!
     TextEn: When in Need, Call C&C!
     TextTh: หากต้องการความช่วยเหลือ... ให้เรียก C&C!
-    TextTw: 需要幫助就找C&C！
+    TextTw: 需要幫助時，就找C&C！
   - GroupId: 2000103
     FavorScheduleId: 200013
     CharacterId: 20001
@@ -18,7 +18,7 @@ title:
     TextKr: 공부는 어려워 1
     TextEn: Studying is Hard Part 1
     TextTh: การเรียนหนังสือมันยากจัง 1
-    TextTw: 用功很難 1
+    TextTw: 學習很困難（１）
   - GroupId: 2000105
     FavorScheduleId: 200015
     CharacterId: 20001
@@ -27,7 +27,7 @@ title:
     TextKr: 공부는 어려워 2
     TextEn: Studying is Hard Part 2
     TextTh: การเรียนหนังสือมันยากจัง 2
-    TextTw: 用功很難 2
+    TextTw: 學習很困難（２）
   - GroupId: 2000106
     FavorScheduleId: 200016
     CharacterId: 20001
@@ -45,7 +45,7 @@ title:
     TextKr: 메이드 카페! 1
     TextEn: Maid Cafe! Part 1
     TextTh: เมดคาเฟ่ 1
-    TextTw: 女僕咖啡廳！1
+    TextTw: 女僕咖啡廳！（１）
   - GroupId: 2000109
     FavorScheduleId: 200019
     CharacterId: 20001
@@ -54,7 +54,7 @@ title:
     TextKr: 메이드 카페! 2
     TextEn: Maid Cafe! Part 2
     TextTh: เมดคาเฟ่ 2
-    TextTw: 女僕咖啡廳！2
+    TextTw: 女僕咖啡廳！（２）
 content:
   - MessageGroupId: 200010010
     Id: 2328
@@ -195,7 +195,7 @@ content:
     MessageCN: 大概，也能叫做打扫吧
     MessageEN: That's also considered "cleaning."
     MessageTH: ก็นับว่าเป็นการทำความสะอาด
-    MessageTW: 或許也能稱呼為清掃吧
+    MessageTW: 或許也能稱為清掃吧
   - MessageGroupId: 200010040
     Id: 2335
     CharacterId: 20001
@@ -421,7 +421,7 @@ content:
     MessageCN: 虽然我也从没对谁说起过
     MessageEN: I've never told anyone.
     MessageTH: ฉันยังไม่เคยเล่าให้ใครฟังเลย
-    MessageTW: 我沒有跟任何人說過
+    MessageTW: 雖然我沒有跟任何人說過
   - MessageGroupId: 200010130
     Id: 2347
     CharacterId: 20001
@@ -439,7 +439,7 @@ content:
     MessageCN: 不管怎么说，老师应该会是第一个知道的人……
     MessageEN: I have a feeling you'll be the first to know.
     MessageTH: บางทีคุณครูอาจเป็นคนแรกที่ได้รู้ก็ได้
-    MessageTW: 反正不管怎麼樣，老師都會是第一個知道的吧……
+    MessageTW: 但不管怎樣，老師八成會是第一個知道的……
   - MessageGroupId: 200010140
     Id: 2348
     CharacterId: 20001
@@ -641,7 +641,7 @@ content:
     MessageCN: 我知道了，去哪里方便？
     MessageEN: Problems? Where do you want to meet?
     MessageTH: เรื่องกังวลเหรอ? เราไปที่ไหนกันดี?
-    MessageTW: 我知道了，去哪裡好呢？
+    MessageTW: 知道了，在哪裡碰面？
   - MessageGroupId: 200010220
     Id: 2359
     CharacterId: 20001
@@ -735,7 +735,7 @@ content:
     MessageCN: ……她帮我买了沙拉
     MessageEN: They had a salad...
     MessageTH: เพื่อนๆ ซื้อสลัดมาด้วยล่ะ
-    MessageTW: ……她幫我去買了沙拉
+    MessageTW: ……她去幫我買了沙拉
   - MessageGroupId: 200010240
     Id: 2364
     CharacterId: 20001
@@ -753,7 +753,7 @@ content:
     MessageCN: 我真的，很开心
     MessageEN: I was so happy.
     MessageTH: มีความสุขจังเลย
-    MessageTW: 超開心的，真的
+    MessageTW: 我好開心
   - MessageGroupId: 200010250
     Id: 2365
     CharacterId: 20001
@@ -775,7 +775,7 @@ content:
     MessageTH: 'เพื่อนที่ทำงานอยู่ที่คาเฟ่มีธุระด่วน
 
       ฉันเลยมาทำงานแทนน่ะ'
-    MessageTW: 朋友因為有急事，所以我代替她去打工了
+    MessageTW: 朋友有急事，所以我代替她去打工
   - MessageGroupId: 200010260
     Id: 2366
     CharacterId: 20001
@@ -795,7 +795,7 @@ content:
     MessageTH: 'ร้านนั้นขึ้นชื่อเรื่องชุดยูนิฟอร์มน่ารักๆ
 
       ด้วย ชักตื่นเต้นแล้วสิ'
-    MessageTW: 因為是以可愛的制服聞名的店，非常期待
+    MessageTW: 那間店的制服出名的可愛，非常期待
   - MessageGroupId: 200010270
     Id: 2367
     CharacterId: 20001
@@ -1019,7 +1019,7 @@ content:
     MessageTH: 'ตอนฉันทำท่าโมเอะโมเอะคิ้วท์
 
       เห็นถือแท็บเล็ตอยู่ด้วย...'
-    MessageTW: 我在那個……擺姿勢的時候，好像感覺到有人架著平板電腦……
+    MessageTW: 我在那個……擺姿勢的時候，好像有看到你架起平板……
   - MessageGroupId: 200010320
     Id: 2379
     CharacterId: 20001
@@ -1037,7 +1037,7 @@ content:
     MessageCN: 老师应该没有拍下来吧？
     MessageEN: Were you taking photos of me?
     MessageTH: คงไม่ได้ถ่ายภาพฉันเอาไว้ใช่ไหม?
-    MessageTW: 該不會是在拍照吧？
+    MessageTW: 你該不會有拍下來吧？
   - MessageGroupId: 200010330
     Id: 2380
     CharacterId: 20001
@@ -1223,7 +1223,7 @@ content:
     MessageTH: 'อื้อ ถึงจะลำบากนิดหน่อย แต่ก็ทำให้
 
       ได้ยินเพื่อนพูดขอบคุณด้วยล่ะ'
-    MessageTW: 嗯。雖然發生了很多事情，但朋友也說因此得救了
+    MessageTW: 嗯。雖然發生了很多事情，但朋友也有謝謝我幫忙
   - MessageGroupId: 200010410
     Id: 2390
     CharacterId: 20001
@@ -1281,7 +1281,7 @@ content:
     MessageCN: 老师……觉得很遗憾吗？
     MessageEN: How unfortunate.
     MessageTH: ยินดี... สุดๆ เลย
-    MessageTW: 真可惜……嗎？
+    MessageTW: 會覺得……可惜嗎？
   - MessageGroupId: 200010440
     Id: 2393
     CharacterId: 20001

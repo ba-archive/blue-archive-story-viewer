@@ -8,7 +8,7 @@ title:
     TextCn: 自力更生
     TextKr: 홀로 서기
     TextEn: Self-Reliance
-    TextTh: ยืนอยู่ลำพัง
+    TextTh: เชื่อมั่นในตนเอง
     TextTw: 獨立
   - GroupId: 1004803
     FavorScheduleId: 100483
@@ -81,7 +81,7 @@ content:
     MessageJP: サオリから連絡をくれるなんて……！
     MessageCN: 没想到纱织居然会联系我……！
     MessageEN: I didn't expect to hear from you!
-    MessageTH: แปลกจังเลยน้า ซาโอริติดต่อมาก่อนเนี่ย!
+    MessageTH: แปลกจังที่ซาโอริติดต่อมาก่อนเนี่ย!
     MessageTW: 沙織居然會聯絡我……！
   - MessageGroupId: 100480040
     Id: 100480040
@@ -98,8 +98,8 @@ content:
     MessageKR: …아니, 그렇게 호들갑 떨 것까진….
     MessageJP: そこまで驚くことか……
     MessageCN: 至于这么震惊吗……
-    MessageEN: ...You don't have to make a fuss.
-    MessageTH: เดี๋ยวสิ ไม่เห็นต้องเวอร์ขนาดนั้นเลย
+    MessageEN: "...You don't have to make a fuss."
+    MessageTH: ไม่เห็นต้องเวอร์ขนาดนั้นเลย...
     MessageTW: 有這麼吃驚嗎……
   - MessageGroupId: 100480040
     Id: 100480050
@@ -117,7 +117,7 @@ content:
     MessageJP: 私としても連絡するつもりは無かったのだが
     MessageCN: 我本来也不打算联系您的
     MessageEN: I wasn't gonna contact you, but...
-    MessageTH: ที่จริงฉันก็ไม่ได้คิดจะติดต่อครูหรอก...
+    MessageTH: ที่จริงฉันไม่ได้คิดจะติดต่อหาครูหรอก...
     MessageTW: 我本來也沒打算要聯絡你
   - MessageGroupId: 100480050
     Id: 100480060
@@ -135,7 +135,7 @@ content:
     MessageJP: 少々、問題が生じてな
     MessageCN: 但是，稍微出了点问题
     MessageEN: I think there's a bit of a problem.
-    MessageTH: แต่ว่ามัน... เหมือนจะมีปัญหานิดหน่อยน่ะ
+    MessageTH: แต่ว่ามันฉัน... มีปัญหานิดหน่อยน่ะ
     MessageTW: 但發生了點問題
   - MessageGroupId: 100480060
     Id: 100480070
@@ -171,7 +171,7 @@ content:
     MessageJP: 先生でないと解決できない問題で……
     MessageCN: 只有老师才能解决的问题……
     MessageEN: I don't know anyone else who can help.
-    MessageTH: ต้องบอกว่าเป็นปัญหาที่ถ้าไม่ใช่ครู ก็คงจะแก้ไม่ได้น่ะ
+    MessageTH: ฉันไม่รู้ว่าใครจะช่วยเรื่องนี้ได้น่ะ...
     MessageTW: 是只有老師能解決的問題……
   - MessageGroupId: 100480080
     Id: 100480090
@@ -189,7 +189,7 @@ content:
     MessageJP: 図々しいとは百も承知だ。しかし
     MessageCN: 虽然我知道自己现在很无耻。但是
     MessageEN: I know I'm being shameless, but...
-    MessageTH: ฉันรู้ว่าแบบนี้มันดูน่าขายหน้า แต่ว่า...
+    MessageTH: ฉันรู้ว่าแบบนี้มันดูน่าละอาย แต่ว่า...
     MessageTW: 我知道這樣很厚臉皮。但是
   - MessageGroupId: 100480090
     Id: 100480100
@@ -207,7 +207,9 @@ content:
     MessageJP: 分かった、すぐ行く！
     MessageCN: 明白了，我马上过去！
     MessageEN: Okay. I'll be right there.
-    MessageTH: เข้าใจแล้ว ครูจะเหาะไปหาเดี๋ยวนี้เลย!
+    MessageTH: 'เข้าใจแล้ว
+
+      ครูจะรีบไปหานะ!'
     MessageTW: 我知道了，馬上過去！
   - MessageGroupId: 100480100
     Id: 100480110
@@ -315,9 +317,9 @@ content:
     MessageJP: サオリが、天気の話を……
     MessageCN: 纱织居然会聊天气……
     MessageEN: I can't believe you just talked about the weather.
-    MessageTH: |-
-      เปล่าหรอก ไม่คิดว่าซาโอริจะคุย
-      เรื่องดินฟ้าอากาศน่ะ
+    MessageTH: 'เปล่าหรอก ไม่คิดว่าซาโอริจะคุย
+
+      เรื่องดินฟ้าอากาศน่ะ'
     MessageTW: 沙織居然聊天氣……
   - MessageGroupId: 100480150
     Id: 100480170
@@ -353,9 +355,7 @@ content:
     MessageJP: ……私だって、世間話をしようと思うことはある
     MessageCN: ……哪怕是我也偶尔会想和人聊聊天的
     MessageEN: I mean, it's not a big deal...
-    MessageTH: |-
-      เดี๋ยวสิ ถึงจะเป็นฉันก็เถอะ แต่ให้พูดคุย
-      กันแบบนี้ฉันก็ทำได้...
+    MessageTH: เดี๋ยวสิ เรื่องแบบนี้ฉันก็คุยเป็นนะ...
     MessageTW: ……就算是我，也有想閒聊的時候
   - MessageGroupId: 100480170
     Id: 100480190
@@ -373,9 +373,9 @@ content:
     MessageJP: 先日は、おかげで口座も作ることができた
     MessageCN: 前几天，多亏了老师我才能开户
     MessageEN: I opened an account thanks to your help earlier.
-    MessageTH: |-
-      คราวก่อนได้คุณครูช่วยไว้ ฉันเลยเปิด
-      บัญชีธนาคารได้
+    MessageTH: 'คราวก่อนได้คุณครูช่วยไว้
+
+      ฉันเลยเปิดบัญชีธนาคารได้'
     MessageTW: 前幾天，多虧了你，我才能順利開設帳戶
   - MessageGroupId: 100480170
     Id: 100480200
@@ -393,9 +393,9 @@ content:
     MessageJP: 色々と依頼も受けるようになり、近況くらいは伝えようかと思っただけだ
     MessageCN: 也接到了各种各样的委托，就想和老师传达一下我的近况
     MessageEN: I started working too, so I just wanted to give you a little update.
-    MessageTH: |-
-      ตอนนี้ก็ทำงานได้แล้วละ แค่แวะมา
-      บอกสถานการณ์เฉยๆ น่ะ
+    MessageTH: 'ตอนนี้ฉันเริ่มทำงานแล้วล่ะ
+
+      เลยแชตมาบอกเฉยๆ'
     MessageTW: 也開始收到了各種委託，所以只是想轉達一下近況
   - MessageGroupId: 100480180
     Id: 100480210
@@ -413,7 +413,7 @@ content:
     MessageJP: 気に障ることだったら、今後は控えよう
     MessageCN: 如果老师反感的话，我之后就不发了
     MessageEN: I'll stop if you don't care.
-    MessageTH: แต่ก็นะ ถ้ามันวุ่นวายเกินไปฉันหยุดก็ได้
+    MessageTH: แต่ถ้าไม่อยากรู้ ฉันก็จะไม่บอก
     MessageTW: 如果冒犯了你，之後會避免這樣做
   - MessageGroupId: 100480190
     Id: 100480220
@@ -431,10 +431,9 @@ content:
     MessageJP: そんなこと無いよ、サオリの近況知りたい！最近はどんなことがあったの！？
     MessageCN: 没那回事，我想知道纱织的近况！纱织最近遇到了什么事呢！？
     MessageEN: No, yes! I want to hear the update! What's new?!
-    MessageTH: |-
-      ไม่ต้องๆ พิมพ์มาบอกได้เลย!
-      สถานการณ์ของซาโอริช่วงนี้
-      เป็นยังไงบ้างล่ะ?!
+    MessageTH: 'เดี๋ยวๆ ครูอยากใส่ใจนะ บอกเถอะ!
+
+      แล้วช่วงนี้เป็นยังไงบ้าง?'
     MessageTW: 沒有那樣的事，我想知道沙織的近況！最近有發生什麼事嗎！？
   - MessageGroupId: 100480200
     Id: 100480230
@@ -451,12 +450,12 @@ content:
     MessageKR: 호들갑은……. 아, 음. 최근엔 블랙마켓을 통해 소개받은 일을 하고 있다.
     MessageJP: 大げさだな……近頃は、ブラックマーケットで紹介された依頼をこなしている
     MessageCN: 这反应太夸张了……最近，我在做黑市介绍的委托
-    MessageEN: >-
-      You're way too eager... Uh, I've been working a job I got from the Black
-      Market.
-    MessageTH: |-
-      พิมพ์มารัวไปมั้ย... อืม ไม่นานมานี้มีคน
-      แนะนำงานจากตลาดมืดมาให้น่ะ
+    MessageEN:
+      You're way too eager... Uh, I've been working a job I got from the
+      Black Market.
+    MessageTH: 'พิมพ์รัวไปมั้ย... อืม ไม่นานมานี้
+
+      มีคนแนะนำงานในตลาดมืดมาให้น่ะ'
     MessageTW: 太浮誇了……最近，在處理黑市介紹的委託。
   - MessageGroupId: 100480210
     Id: 100480240
@@ -474,7 +473,7 @@ content:
     MessageJP: 良いね！
     MessageCN: 很好哦！
     MessageEN: That's good!
-    MessageTH: โอ้ แบบนั้นก็ดีแล้วละนะ!
+    MessageTH: โอ้ แบบนั้นก็ดีแล้วนะ!
     MessageTW: 太好了！
   - MessageGroupId: 100480220
     Id: 100480250
@@ -492,9 +491,7 @@ content:
     MessageJP: 良い、かどうかは分からないが……
     MessageCN: 虽然不知道这算不算好……
     MessageEN: I don't know if it's good...
-    MessageTH: |-
-      ที่บอกว่า "ก็ดีแล้ว" นี่มัน... ดูเหมือนจะ
-      มีปัญหาอะไรเลยนะ
+    MessageTH: ไม่รู้สิว่ามัน "ดี" รึเปล่า...
     MessageTW: 算不算好我也不太清楚……
   - MessageGroupId: 100480230
     Id: 100480260
@@ -512,7 +509,7 @@ content:
     MessageJP: まあ、そうだな。良いことなのかもしれない
     MessageCN: 唉，是啊。可能确实是件好事
     MessageEN: Well, I guess it's good.
-    MessageTH: ไม่ๆ เปล่าๆ ครูว่าเป็นเรื่องดีนะ
+    MessageTH: เดาว่าคงเป็นเรื่องดีแหละ...
     MessageTW: 嘛，也是呢。算是好事吧
   - MessageGroupId: 100480230
     Id: 100480270
@@ -530,7 +527,7 @@ content:
     MessageJP: また何かあったら連絡する
     MessageCN: 有什么事的话我再联系您
     MessageEN: Maybe I'll talk to you again later, Sensei.
-    MessageTH: เอาไว้ถ้ามีโอกาสจะติดต่อมาใหม่ ไปละ
+    MessageTH: เอาไว้ถ้ามีโอกาสจะติดต่อมาใหม่นะ
     MessageTW: 有事的話會再聯絡
   - MessageGroupId: 100480240
     Id: 100480280
@@ -566,7 +563,9 @@ content:
     MessageJP: この間のことを反省した
     MessageCN: 我反省了一下之前的事情
     MessageEN: Sensei, I learned from my previous mistake.
-    MessageTH: ครู... เพราะคราวที่แล้วทำพลาดไป
+    MessageTH: 'ครู... ฉันเรียนรู้จากความผิดพลาด
+
+      คราวก่อนแล้วละ'
     MessageTW: 反省了前幾天的事情
   - MessageGroupId: 100480260
     Id: 100480300
@@ -583,10 +582,10 @@ content:
     MessageKR: 이번에 블랙마켓 은행으로부터 소개받은 일에선
     MessageJP: 今回の依頼については
     MessageCN: 这次的委托
-    MessageEN: For the job I got from the Black Market,
-    MessageTH: |-
-      ตอนได้รับแนะนำงานจากธนาคาร
-      ตลาดมืดคราวนี้
+    MessageEN: For the job I got at the Black Market,
+    MessageTH: 'คราวนี้ตอนที่ได้รับแนะนำงาน
+
+      จากธนาคารตลาดมืด'
     MessageTW: 關於這次的委託
   - MessageGroupId: 100480260
     Id: 100480310
@@ -604,7 +603,7 @@ content:
     MessageJP: すでにきちんと契約書を書いている
     MessageCN: 我已经签署了正式合同
     MessageEN: I made sure to sign a contract.
-    MessageTH: ฉันไม่ลืมให้เขียนหนังสือสัญญาแล้วนะ
+    MessageTH: ฉันไม่ลืมให้เซ็นสัญญาจ้างแล้วนะ
     MessageTW: 有寫好合約了
   - MessageGroupId: 100480270
     Id: 100480320
@@ -675,8 +674,12 @@ content:
     MessageKR: 블랙마켓의 항쟁을 마무리하는 일이지.
     MessageJP: ブラックマーケットの抗争を終わらせるだけだ
     MessageCN: 只要终结黑市的斗争就行了
-    MessageEN: It's a job for ending something the Black Market's been struggling with.
-    MessageTH: งานเก็บกวาดพวกที่มีเรื่องกันในตลาดมืดน่ะ
+    MessageEN:
+      It's a job for ending something the Black Market's been struggling
+      with.
+    MessageTH: 'งานเก็บกวาดพวกที่มีเรื่องกัน
+
+      ในตลาดมืดน่ะ'
     MessageTW: 只需要結束黑市的紛爭罷了
   - MessageGroupId: 100480310
     Id: 100480360

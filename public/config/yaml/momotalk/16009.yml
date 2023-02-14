@@ -9,7 +9,7 @@ title:
     TextKr: 닌자 소녀는 까다로워
     TextEn: Ninja Girls Are Picky
     TextTh: นินจาสาวเรื่องเยอะ
-    TextTw: 棘手的忍者少女
+    TextTw: 忍者少女很難搞
   - GroupId: 1600903
     FavorScheduleId: 160093
     CharacterId: 16009
@@ -36,7 +36,7 @@ title:
     TextKr: 닌자 소녀는 빛나고 싶어!
     TextEn: Ninja Girl Wants to Shine!
     TextTh: นินจาสาวอยากเปล่งประกาย!
-    TextTw: 忍者少女想發光發亮！
+    TextTw: 忍者少女想發光發亮
 content:
   - MessageGroupId: 160090010
     Id: 160090010
@@ -55,7 +55,7 @@ content:
     MessageCN: 初次见面，老师大人……小生满，参上
     MessageEN: Domo, Sensei. I am Michiru.
     MessageTH: โด-โมะ ท่าน=อาจารย์ ข้าน้อย มิจิรุ!
-    MessageTW: 多～謝，老師。小生，名喚三千留。
+    MessageTW: 參見～老師大人……小生，名喚三千留
   - MessageGroupId: 160090020
     Id: 160090020
     CharacterId: 16009
@@ -73,7 +73,7 @@ content:
     MessageCN: 那个……？
     MessageEN: Umm... Michiru? What's going on?
     MessageTH: คือว่า...มิจิรุ? จู่ๆ มีอะไรเหรอ?
-    MessageTW: 那個…三千留？妳怎麼了？
+    MessageTW: 這是……？
   - MessageGroupId: 160090030
     Id: 160090030
     CharacterId: 16009
@@ -93,7 +93,7 @@ content:
     MessageTH: 'นี่เป็นวิธีทักทายแบบดั้งเดิมที่ใช้กันมาใน
 
       หมู่โอตาคุนินจาอย่างพวกเราน่ะ!'
-    MessageTW: 這是我們這些忍者迷之間代代通用的傳統問候！
+    MessageTW: 哼哼……這個呀～這是我們忍者迷之間代代相傳的傳統問候語！
   - MessageGroupId: 160090040
     Id: 160090040
     CharacterId: 16009
@@ -117,7 +117,7 @@ content:
       อาจารย์ก็เป็นโอตาคุนินจาเหมือนกับข้า
 
       น้อย คงเรียกว่า <คู่หูนินจา> ได้สินะ?'
-    MessageTW: 居然沒有回應，老師大人甚至跟我一樣是忍者迷同志…這樣還能自封為<忍者好夥伴>嗎？
+    MessageTW: 而你沒辦法做出回覆，代表同樣身為忍者迷……同樣身為「忍者好夥伴」，老師大人還不成熟呢！
   - MessageGroupId: 160090050
     Id: 160090050
     CharacterId: 16009
@@ -135,7 +135,7 @@ content:
     MessageCN: 忍者伴侣……？
     MessageEN: I don't remember agreeing to this...
     MessageTH: เดี๋ยวสิ ครูยังไม่ได้ตกลงสักหน่อย...
-    MessageTW: 不，我並沒有自封為那個的記憶…
+    MessageTW: 忍者好夥伴……？
   - MessageGroupId: 160090050
     Id: 160090060
     CharacterId: 16009
@@ -153,7 +153,7 @@ content:
     MessageCN: 咕，太不甘心了……！
     MessageEN: Ugh... It's so upsetting to hear that!
     MessageTH: อึ่ก...! ได้ยินแบบนั้นชักหงุดหงิดนิดๆ แฮะ...
-    MessageTW: 咳呃…！你、你這麼說莫名讓人很生氣…！
+    MessageTW: 呃！莫名覺得很不甘心……！
   - MessageGroupId: 160090060
     Id: 160090070
     CharacterId: 16009
@@ -166,14 +166,14 @@ content:
     FeedbackTimeMillisec: 1000
     MessageType: Text
     ImagePath: ''
-    MessageKR: '뭐야, 선생 공…. 설마 잊은 거야?! '
+    MessageKR: 뭐야, 선생 공…. 설마 잊은 거야?!
     MessageJP: せ、先生殿……もしかして忘れたの！？
     MessageCN: 老、老师大人……您难道忘记了吗！？
     MessageEN: 'Come on, Sensei... Did you forget?! '
     MessageTH: 'อะไรกัน ท่านอาจารย์... หรือว่าลืมไปแล้ว
 
       เหรอ?! '
-    MessageTW: 什麼啊，老師大人……你該不會忘記了吧？！
+    MessageTW: 老，老師大人……你該不會忘了吧？！
   - MessageGroupId: 160090060
     Id: 160090080
     CharacterId: 16009
@@ -195,7 +195,7 @@ content:
     MessageTH: 'ในกลางดึกคืนหนึ่ง ความทรงจำที่เราไป
 
       ซุ่มโจมตีภายใต้แสงจันทร์ด้วยกัน'
-    MessageTW: 深夜時分……在月夜下和我一起單獨埋伏的回憶！
+    MessageTW: 夜深人靜萬籟俱寂……在月夜下和我一起埋伏的回憶！
   - MessageGroupId: 160090070
     Id: 160090090
     CharacterId: 16009
@@ -219,7 +219,7 @@ content:
       โจมตีในพุ่มไม้แบบลับๆ ตามแบบฉบับของ
 
       นินจานะ จำไว้ด้วยล่ะ!'
-    MessageTW: 啊，順帶一提，所謂的埋伏是意指在樹叢裡隱密行動的忍者暗語。給我記住！
+    MessageTW: 啊，順帶一提，埋伏是指「在樹叢裡隱密行動」的忍者術語給我記住！
   - MessageGroupId: 160090080
     Id: 160090100
     CharacterId: 16009
@@ -237,7 +237,7 @@ content:
     MessageCN: 关于满说的那个行动我好像没什么记忆啊……？
     MessageEN: I don't remember that at all! What ambush are you talking about?!
     MessageTH: ครูไม่เคยจำเรื่องนั้นได้เลยซุ่มโจมตีอะไรกัน?!
-    MessageTW: 我沒有那麼厲害的回憶？！說什麼埋伏，到底是怎麼回事！
+    MessageTW: 我怎麼不記得有這件事……？
   - MessageGroupId: 160090090
     Id: 160090110
     CharacterId: 16009
@@ -255,7 +255,7 @@ content:
     MessageCN: 好啦好啦，不用在意这些小事～
     MessageEN: Well, let's not worry about the details!
     MessageTH: โธ่เอ๊ย ช่างเรื่องเล็กน้อยนั่นเถอะ~
-    MessageTW: 別說無關緊要的小事了～
+    MessageTW: 小細節就別管了～
   - MessageGroupId: 160090100
     Id: 160090120
     CharacterId: 16009
@@ -279,7 +279,7 @@ content:
       ท่านอาจารย์มีพรสวรรค์การเป็นนินจา
 
       มากกว่าที่คิดอีกนะ'
-    MessageTW: 就算是這樣，也不要太失望！因為老師大人是擁有難得一見忍者才華的人。
+    MessageTW: 沒事，不用太失望！老師大人確實擁有忍者的才華
   - MessageGroupId: 160090100
     Id: 160090130
     CharacterId: 16009
@@ -301,7 +301,7 @@ content:
     MessageTH: 'อนาคตไกลเลยล่ะ! ในฐานะชมรมวิจัย
 
       ศาสตร์นินจาข้าน้อยรับรองได้!'
-    MessageTW: 很有前途！身為忍術研究部部長的我敢掛保證！
+    MessageTW: 我身為忍術研究部部長，我能為你的成長掛保證！
   - MessageGroupId: 160090110
     Id: 160090140
     CharacterId: 16009
@@ -319,7 +319,7 @@ content:
     MessageCN: 那个，谢谢……？
     MessageEN: Um... Th-Thanks, I guess...?
     MessageTH: ขะ...ขอบใจนะ...?
-    MessageTW: 那個…謝、謝謝…？
+    MessageTW: 那個……謝謝……？
   - MessageGroupId: 160090120
     Id: 160090150
     CharacterId: 16009
@@ -337,7 +337,7 @@ content:
     MessageCN: 捏哈哈，毋需道谢！
     MessageEN: Wahaha! Don't mention it!
     MessageTH: 'อุวะฮะฮะ! ไม่ต้องขอบคุณหรอก!  '
-    MessageTW: 唔哈哈！你太客氣了。
+    MessageTW: 唔哈哈！免禮！
   - MessageGroupId: 160090130
     Id: 160090160
     CharacterId: 16009
@@ -355,7 +355,7 @@ content:
     MessageCN: 对了，满，今天有什么事吗？
     MessageEN: So, Michiru, why did you contact me today?
     MessageTH: ถ้างั้นมิจิรุ ที่ติดต่อมามีเรื่องอะไรเหรอ...
-    MessageTW: 所以三千留，你是為了什麼才聯絡……
+    MessageTW: 所以，三千留今天是有什麼事呢？
   - MessageGroupId: 160090140
     Id: 160090170
     CharacterId: 16009
@@ -373,7 +373,7 @@ content:
     MessageCN: 哎呀，这不是电车快来了嘛
     MessageEN: Oh! We're gonna miss the train!
     MessageTH: อ๊ะ ข้าน้อยไปขึ้นรถไฟสายแน่ๆ!
-    MessageTW: 啊！再這樣下去，就要錯過列車時間了！
+    MessageTW: 糟糕，列車時間快到了！
   - MessageGroupId: 160090150
     Id: 160090180
     CharacterId: 16009
@@ -397,7 +397,7 @@ content:
       ท่านอาจารย์! ข้าน้อยจะรอวันที่เราได้พบ
 
       กันใหม่! อาดิโอส = ซาโยนาระ!'
-    MessageTW: 啊，那麼，告辭！我先退下了！老師大人！期待再次相會的那天，Adios=SAYONARA！
+    MessageTW: 那麼老師大人！我們後會有期，Adios=SAYONARA！
   - MessageGroupId: 160090160
     Id: 160090190
     CharacterId: 16009
@@ -415,7 +415,7 @@ content:
     MessageCN: （嘣！！）←烟雾弹音效
     MessageEN: '*pop pop pop pop* <- smoke bomb sound'
     MessageTH: (ปังปังปังปัง!!) <- เสียงยิงระเบิดควัน
-    MessageTW: （砰砰碰碰磅！！）←引爆煙霧彈的聲音
+    MessageTW: （砰！！）←引爆煙霧彈的音效
   - MessageGroupId: 160090170
     Id: 160090200
     CharacterId: 16009
@@ -433,7 +433,7 @@ content:
     MessageCN: 连音效也要说明的吗……！？
     MessageEN: Huh? Sound effects and everything...
     MessageTH: โห?! มีเอฟเฟกต์แถมมาด้วย...?!
-    MessageTW: …哦？！連音效也一起說明嗎…？！
+    MessageTW: 竟然還特地說明是音效……！？
   - MessageGroupId: 160090180
     Id: 160090210
     CharacterId: 16009
@@ -453,7 +453,7 @@ content:
     MessageTH: 'อื้อ ถ้างั้นก็..
 
       อาดิโอสสสส = ซาโยนาระ!'
-    MessageTW: 嗯，所以說，Adios=SAYONARA！
+    MessageTW: 嗯……Adios=SAYONARA！
   - MessageGroupId: 160090190
     Id: 160090220
     CharacterId: 16009
@@ -471,7 +471,7 @@ content:
     MessageCN: 今日午后造访夏莱 忍者M
     MessageEN: I'll visit Schale this afternoon. - Ninja M
     MessageTH: วันนี้ตอนบ่ายจะไปเยือนที่ชาเล่ต์ - นินจา M
-    MessageTW: 今日午後，我會訪問夏萊。—忍者M
+    MessageTW: 今日午後，我將造訪夏萊──忍者M
   - MessageGroupId: 160090200
     Id: 160090230
     CharacterId: 16009
@@ -489,7 +489,7 @@ content:
     MessageCN: 预告！？
     MessageEN: I guess you did give me notice, but...
     MessageTH: เดี๋ยวสิ มาบอกก่อนแบบนี้ก็ได้เหรอ...
-    MessageTW: 不是…就算用這種方式預告訪問…
+    MessageTW: 預告信……！？
   - MessageGroupId: 160090200
     Id: 160090240
     CharacterId: 16009
@@ -511,7 +511,7 @@ content:
     MessageTH: 'แล้วอีกอย่างนั่นมันไม่ใช่วิธีของนินจา
 
       แต่เป็นจอมโจรต่างหาก'
-    MessageTW: 更重要的是這個…不是忍者，而是怪盜的方式吧…
+    MessageTW: 這行為不是忍者，而是怪盜吧……？
   - MessageGroupId: 160090210
     Id: 160090250
     CharacterId: 16009
@@ -531,7 +531,7 @@ content:
     MessageTH: 'โธ่เอ๊ย~ เรื่องหยุมหยิมแบบนั้น อย่าไป
 
       ใส่ใจเลยน่า~!'
-    MessageTW: 唉呀～別為瑣碎的事費心！
+    MessageTW: 別在乎那些小細節！
   - MessageGroupId: 160090210
     Id: 160090260
     CharacterId: 16009
@@ -551,7 +551,7 @@ content:
     MessageTH: 'อีกอย่างพวกจอมโจรก็เป็นผู้สืบเชื้อสาย
 
       ของนินจาเหมือนกันไม่เป็นไรหรอก'
-    MessageTW: 而且怪盜也勉強算是忍者的後裔。不要緊！
+    MessageTW: 而且怪盜大致上也跟忍者差不多，不要緊！
   - MessageGroupId: 160090220
     Id: 160090270
     CharacterId: 16009
@@ -569,7 +569,7 @@ content:
     MessageCN: 这也行！？
     MessageEN: Everything's related to ninjas, huh?!
     MessageTH: ทฤษฎีนินจาครอบจักรวาลเรอะ?!
-    MessageTW: 這是忍者萬能論嗎？！
+    MessageTW: 話是這麼說的嗎？！
   - MessageGroupId: 160090230
     Id: 160090280
     CharacterId: 16009
@@ -589,7 +589,7 @@ content:
     MessageTH: 'อุวะฮะฮะ! ข้าน้อยส่งมาบอกล่วงหน้าแล้ว!
 
       เพราะงั้นท่านอาจารย์ ตั้งตารอได้เลย!'
-    MessageTW: 唔哈哈！我預告過了！所以老師大人！把脖子洗乾淨等我！
+    MessageTW: 反正我預告過了，老師大人！把脖子洗乾淨等著吧！
   - MessageGroupId: 160090230
     Id: 160090290
     CharacterId: 16009
@@ -607,7 +607,7 @@ content:
     MessageCN: 小生很快就会见到你的！
     MessageEN: I'll see you soon!
     MessageTH: ข้าน้อยจะไปพบนายท่านแล้ว!
-    MessageTW: 小生遲早會去找你！
+    MessageTW: 相信我們很快就會相遇！
   - MessageGroupId: 160090240
     Id: 160090300
     CharacterId: 16009
@@ -625,7 +625,7 @@ content:
     MessageCN: （嘣！！）←烟雾弹音效
     MessageEN: '*pop pop pop pop* <- smoke bomb sound'
     MessageTH: (ปังปังปังปัง!!) <- เสียงยิงระเบิดควัน
-    MessageTW: （砰砰碰碰磅！！）←引爆煙霧彈的聲音
+    MessageTW: （砰！！）←引爆煙霧彈的音效
   - MessageGroupId: 160090250
     Id: 160090310
     CharacterId: 16009
@@ -643,7 +643,7 @@ content:
     MessageCN: （咻啪啪啪！）←快速离去的声音
     MessageEN: '*swoosh* <- retreating quickly'
     MessageTH: (ฉึบๆๆๆ) <- เสียงการวิ่งอย่างรวดเร็ว
-    MessageTW: （沙沙沙沙！）←迅速撤退的聲音
+    MessageTW: （沙沙沙沙！）←迅速離去的聲音
   - MessageGroupId: 160090260
     Id: 160090320
     CharacterId: 16009
@@ -661,7 +661,7 @@ content:
     MessageCN: ……谢谢满每次都这么亲切地说明呢
     MessageEN: '...Even more sound effects?'
     MessageTH: ดูมีอะไรเพิ่มขึ้นรึเปล่านะ...?
-    MessageTW: …那個，總覺得好像變多了？
+    MessageTW: ……謝謝你總是這麼細心
   - MessageGroupId: 160090270
     Id: 160090330
     CharacterId: 16009
@@ -681,7 +681,7 @@ content:
     MessageTH: 'ท่านอาจารย์ก็รู้ดีว่าข้าน้อยเป็นหัวหน้า
 
       ชมรมวิจัยศาสตร์นินจาใช่ไหมล่ะ?'
-    MessageTW: 老師大人也知道，我是忍術研究部的部長嘛？
+    MessageTW: 我是忍術研究部的部長，對吧？
   - MessageGroupId: 160090280
     Id: 160090340
     CharacterId: 16009
@@ -699,7 +699,7 @@ content:
     MessageCN: 是的呢
     MessageEN: Yeah.
     MessageTH: อื้ม รู้สิ
-    MessageTW: 嗯，沒錯。
+    MessageTW: 是啊
   - MessageGroupId: 160090280
     Id: 160090350
     CharacterId: 16009
@@ -719,7 +719,7 @@ content:
     MessageTH: 'ชมรมไม่เป็นทางการ
 
       เรียกว่า <หัวหน้า> ได้เหรอ?'
-    MessageTW: 因為是非公認的社團，可以叫你<部長>嗎？
+    MessageTW: 話說你們是非公認社團，叫你「部長」沒問題嗎？
   - MessageGroupId: 160090290
     Id: 160090360
     CharacterId: 16009
@@ -739,7 +739,7 @@ content:
     MessageTH: 'เฮือก! พูดอะไรบาดใจข้าน้อยอีกแล้ว!
 
       ต้องเรียกได้สิ!'
-    MessageTW: 唔哈哈！這個問題是多餘的，當然可以！
+    MessageTW: 咕喔！少說一句會怎樣！有什麼關係！
   - MessageGroupId: 160090290
     Id: 160090370
     CharacterId: 16009
@@ -761,7 +761,7 @@ content:
       ทั้งศึกษาเรื่องนินจา ทั้งตัดต่อ
 
       คอนเทนต์วิดีโอ...'
-    MessageTW: 別看我這樣，平常我也是非常努力！像是忍者修煉，或是內容製作
+    MessageTW: 我們平常也有在好好活動啊！像是忍者修行，拍攝影片！
   - MessageGroupId: 160090300
     Id: 160090380
     CharacterId: 16009
@@ -790,7 +790,7 @@ content:
       และวันที่จะได้รับการยอมรับว่าเป็นชมรม
 
       อย่างเป็นทางการคงมาถึง!'
-    MessageTW: 我相信這樣做著做著，總有一天可以讓奇普托斯的大家都知道忍者，而忍術研究部成為正式社團的一天也會來臨！
+    MessageTW: 只要我們繼續努力，總有一天可以讓整個奇普托斯都知道忍者的存在，而忍術研究部成為正式社團的一天也會來臨！
   - MessageGroupId: 160090310
     Id: 160090390
     CharacterId: 16009
@@ -810,7 +810,7 @@ content:
     MessageTH: 'อื้อ ครูรู้ดีว่ามิจิรุกำลังพยายาม
 
       ครูเป็นกำลังใจให้เสมอนะ'
-    MessageTW: 嗯，我知道三千留很努力。我會永遠支持你。
+    MessageTW: 嗯，我知道三千留很努力，我支持你
   - MessageGroupId: 160090320
     Id: 160090400
     CharacterId: 16009
@@ -832,7 +832,7 @@ content:
       กำลังใจของท่านอาจารย์เป็นยาชั้นดี
 
       สำหรับข้าน้อยเสมอ'
-    MessageTW: 唔哈哈！謝謝你，老師大人！老師大人的支持總會成為我最大的力量。
+    MessageTW: 謝謝你，老師大人！聽到你這麼說，我又能努力下去了
   - MessageGroupId: 160090330
     Id: 160090410
     CharacterId: 16009
@@ -850,7 +850,7 @@ content:
     MessageCN: 那真是太好了
     MessageEN: I'm glad to hear that...
     MessageTH: ขอบใจนะที่คิดแบบนั้นน่ะ...
-    MessageTW: 你能那麼想，我才要感謝…
+    MessageTW: 那就好
   - MessageGroupId: 160090340
     Id: 160090420
     CharacterId: 16009
@@ -872,7 +872,7 @@ content:
     MessageTH: 'ข้าน้อยไม่ได้พูดส่งๆ นะ มันเป็นกำลัง
 
       ใจให้ข้าน้อยมากจริงๆ'
-    MessageTW: 不只是說說，真的…成為我很強大的力量。
+    MessageTW: 你的這番話讓我力量都來了……
   - MessageGroupId: 160090340
     Id: 160090430
     CharacterId: 16009
@@ -894,7 +894,7 @@ content:
     MessageTH: 'ถ้าให้เห็นภาพละก็... คำพูดของท่าน
 
       อาจารย์เมื่อกี้ทำให้ข้าน้อยไม่ลังเลอีกแล้ว!'
-    MessageTW: 至於是多麼強大的力量，多虧剛剛老師大人對我說的話，我的猶豫完全消失了！
+    MessageTW: 這下，我不會再迷惘了！
   - MessageGroupId: 160090350
     Id: 160090440
     CharacterId: 16009
@@ -912,7 +912,7 @@ content:
     MessageCN: ……诶？
     MessageEN: Huh?
     MessageTH: หืม...?
-    MessageTW: …嗯？
+    MessageTW: ……嗯？
   - MessageGroupId: 160090360
     Id: 160090450
     CharacterId: 16009
@@ -932,7 +932,7 @@ content:
     MessageTH: 'จะมามัวเสียดายที่จะต้องลงทุนกับการ
 
       ฝึกฝนไม่ได้สินะ?'
-    MessageTW: 應該不能吝於投資在學習上吧？
+    MessageTW: 為了努力，果然要放膽投資才行
   - MessageGroupId: 160090360
     Id: 160090460
     CharacterId: 16009
@@ -952,7 +952,7 @@ content:
     MessageTH: 'ได้ยินว่ามีสินค้านินจาใหม่ๆ มาที่ร้านที่
 
       ข้าน้อยไปประจำด้วย'
-    MessageTW: 常去的店進了新的忍者周邊商品。
+    MessageTW: 聽說我常去的店裡，進了新的忍者周邊
   - MessageGroupId: 160090370
     Id: 160090470
     CharacterId: 16009
@@ -970,7 +970,7 @@ content:
     MessageCN: 啊，不对！是忍具！
     MessageEN: I-I mean, ninjutsu tools!
     MessageTH: มะ... ไม่สิ อุปกรณ์นินจาต่างหาก...!
-    MessageTW: 不、不對！忍術道具…！
+    MessageTW: 啊，不對！是忍具……！
   - MessageGroupId: 160090380
     Id: 160090480
     CharacterId: 16009
@@ -994,7 +994,7 @@ content:
       แต่พอได้ยินที่ท่านอาจารย์พูด ข้าน้อยก็
 
       ตัดสินใจได้!'
-    MessageTW: 因為有點貴，所以有點煩惱，但是聽了老師大人的話，我下定了決心！
+    MessageTW: 原本我還在煩惱價錢有點高，但是聽了老師的話，我下定決心了！
   - MessageGroupId: 160090380
     Id: 160090490
     CharacterId: 16009
@@ -1012,7 +1012,7 @@ content:
     MessageCN: 没错，这是对忍术研究部的将来进行的投资！
     MessageEN: Yeah! It's an investment into my future!
     MessageTH: อื้ม! นับเป็นการลงทุนเพื่ออนาคต!
-    MessageTW: 嗯！至始至終都是為了未來的投資！
+    MessageTW: 沒錯！這些都是為了忍術研究部的未來所做的投資！
   - MessageGroupId: 160090390
     Id: 160090500
     CharacterId: 16009
@@ -1030,7 +1030,7 @@ content:
     MessageCN: 满真的不是自己想要……？
     MessageEN: You're so greedy...
     MessageTH: อยากได้ไปซะทุกอย่างเลยสินะ...
-    MessageTW: 不管怎麼看，都充滿了欲望…
+    MessageTW: 你確定不是單純自己想要嗎……？
   - MessageGroupId: 160090400
     Id: 160090510
     CharacterId: 16009
@@ -1050,7 +1050,7 @@ content:
     MessageTH: 'อะฮะฮะฮ่า! ถ้างั้นข้าน้อยจะรอนะ
 
       ท่านอาจารย์!'
-    MessageTW: 唔哈哈！那我等你喔！老師大人！
+    MessageTW: 那我們就在老地方碰面囉，老師大人！
   - MessageGroupId: 160090400
     Id: 160090520
     CharacterId: 16009
@@ -1068,7 +1068,7 @@ content:
     MessageCN: （骨碌！咻啪啪啪！）←非常帅气地翻筋斗离去的声音
     MessageEN: '*swoosh* *tatatatat* <- sound of running super fast'
     MessageTH: (ฟึ่บๆๆ ฉับๆๆๆ) <- เสียงวิ่งอย่างสง่างาม
-    MessageTW: （咻咻咻咻！碰啪啪啪啪！）←非常帥氣地奔跑的聲音
+    MessageTW: （刷刷！咻啪啪啪啪！）←非常帥氣地後空翻奔跑的聲音
   - MessageGroupId: 160090410
     Id: 160090530
     CharacterId: 16009
@@ -1086,7 +1086,7 @@ content:
     MessageCN: 明、明白……
     MessageEN: O-Okay... Got it.
     MessageTH: อะ...อื้อ เข้าใจแล้ว
-    MessageTW: 呃、呃嗯……我知道了，
+    MessageTW: 好，好喔……
   - MessageGroupId: 160090420
     Id: 160090540
     CharacterId: 16009
@@ -1106,7 +1106,7 @@ content:
     MessageTH: 'จริงด้วยท่านอาจารย์ช่วยดูให้หน่อยได้มั้ย
 
       ว่าที่ชาเล่ต์มีไอ้นั่นรึเปล่า?'
-    MessageTW: 沒錯，老師大人。你可以找找看夏萊的辦公室裡，有沒有那個東西嗎？
+    MessageTW: 對了老師，夏萊有沒有那個啊？
   - MessageGroupId: 160090430
     Id: 160090550
     CharacterId: 16009
@@ -1124,7 +1124,7 @@ content:
     MessageCN: “那个”是指……？
     MessageEN: Thing? What thing?
     MessageTH: '"ไอ้นั่น" เหรอ? หมายถึงอะไรล่ะ?'
-    MessageTW: 那個是什麼？你是指什麼？
+    MessageTW: 那個……？
   - MessageGroupId: 160090440
     Id: 160090560
     CharacterId: 16009
@@ -1137,14 +1137,14 @@ content:
     FeedbackTimeMillisec: 1500
     MessageType: Text
     ImagePath: ''
-    MessageKR: '그러니까 그거. 내가 자주 보는 만화책- <카마보코 돌풍전> 19권 말이야 '
+    MessageKR: 그러니까 그거. 내가 자주 보는 만화책- <카마보코 돌풍전> 19권 말이야
     MessageJP: 「かまぼこ突風伝」の19巻！
     MessageCN: 《鱼糕疾风传》的第19卷！
     MessageEN: 'The manga I always read. "Kama-Boko Gale Battle, Volume 19." '
     MessageTH: 'คือว่า... มังงะที่ข้าน้อยอ่านบ่อยๆ
 
       <คามาโบโกะ ภาควายุสลาตัน> เล่ม 19 น่ะ'
-    MessageTW: '就是那個……我常看的那部漫畫…<魚板疾風傳>第19集。 '
+    MessageTW: 「魚板疾風傳」第19集！
   - MessageGroupId: 160090440
     Id: 160090570
     CharacterId: 16009
@@ -1166,7 +1166,7 @@ content:
     MessageTH: 'ข้าน้อยลองหาที่ห้องทำงานแล้วแต่ไม่เจอ
 
       แต่ข้าน้อยก็เอาไปแค่ที่นั่นเอง'
-    MessageTW: 在部室不管怎麼找都沒看到。我想到的地方只有那裡……
+    MessageTW: 我看部室裡沒有，能想到的就只有夏萊了
   - MessageGroupId: 160090450
     Id: 160090580
     CharacterId: 16009
@@ -1184,7 +1184,7 @@ content:
     MessageCN: 满什么时候放到这来的……
     MessageEN: When did you even bring it to Schale?
     MessageTH: เอามังงะมาที่ชาเล่ต์ตั้งแต่เมื่อไรน่ะ?!
-    MessageTW: 轉眼間那個東西就到夏萊了？！
+    MessageTW: 你什麼時候把東西放過來的……
   - MessageGroupId: 160090460
     Id: 160090590
     CharacterId: 16009
@@ -1208,7 +1208,7 @@ content:
       ชั่วคราว ไม่รู้ว่าพวกเฮียกกะเรียวรันจะ
 
       บุกมาเมื่อไรด้วย'
-    MessageTW: 嗯…？那是因為我們的部室…首先是臨時的…不知道什麼時候會被百花繚亂的傢伙入侵…
+    MessageTW: 那是因為，我們的部室，終究只是暫借的……百花繚亂那些人不知道什麼時候會闖進來……
   - MessageGroupId: 160090460
     Id: 160090600
     CharacterId: 16009
@@ -1228,7 +1228,7 @@ content:
     MessageTH: 'พวกชมรมหยินหยางเองก็ก่อเรื่องขึ้นอยู่
 
       ทุกครั้งเลยด้วย'
-    MessageTW: 陰陽部的傢伙也老是來鬧事…
+    MessageTW: 然後也不知道陰陽部什麼時候會過來……
   - MessageGroupId: 160090470
     Id: 160090610
     CharacterId: 16009
@@ -1248,7 +1248,7 @@ content:
     MessageTH: 'สมองนินจาอันชาญฉลาดของข้าน้อย
 
       ได้ข้อสรุปว่า...'
-    MessageTW: 我用我的忍者腦袋思考過後的結果…
+    MessageTW: 於是我就用我的忍者腦袋思考……
   - MessageGroupId: 160090470
     Id: 160090620
     CharacterId: 16009
@@ -1268,7 +1268,7 @@ content:
     MessageTH: 'ให้เก็บของต่างๆ ไว้ที่ชาเล่ต์ ถือเป็นการ
 
       ตัดสินใจที่สมเหตุสมผลที่สุดแล้ว'
-    MessageTW: 決定把道具保管在夏萊。嗯。結論是那樣比較合理。
+    MessageTW: 決定把周邊保管在夏萊，會是比較合理的結論
   - MessageGroupId: 160090480
     Id: 160090630
     CharacterId: 16009
@@ -1286,7 +1286,7 @@ content:
     MessageCN: 夏莱可不是仓库啊，满大人……
     MessageEN: Schale is not a storage facility, Michiru...
     MessageTH: ชาเล่ต์ไม่ใช่ที่เก็บของนะ มิจิรุจัง...
-    MessageTW: 夏萊不是倉庫。三千留小姐……
+    MessageTW: 夏萊可不是倉庫呀，三千留小姐……
   - MessageGroupId: 160090490
     Id: 160090640
     CharacterId: 16009
@@ -1310,7 +1310,7 @@ content:
       ข้าน้อยแนะนำเรื่องนี้เลย คามาโบโกะ
 
       ซีรีส์!'
-    MessageTW: 啊！如果無聊，老師大人也可以看看！我很推薦！魚板系列！
+    MessageTW: 老師大人想看當然也可以，魚板系列非常好看！
   - MessageGroupId: 160090490
     Id: 160090650
     CharacterId: 16009
@@ -1332,7 +1332,7 @@ content:
     MessageTH: 'ไหนๆ ก็พูดเรื่องนี้แล้ว คืนนี้มีนัดรวมตัว
 
       กันที่สวนนะ อย่าลืมล่ะ?'
-    MessageTW: 還有既然提到了，就順便轉告一下。今天晚上要在公園集合。不要忘囉？
+    MessageTW: 嗯對了，今晚公園集合唷
   - MessageGroupId: 160090500
     Id: 160090660
     CharacterId: 16009
@@ -1350,7 +1350,7 @@ content:
     MessageCN: 我等着老师大人哦！
     MessageEN: I'll be waiting for you, Sensei!
     MessageTH: แล้วข้าน้อยจะรอนะ ท่านอาจารย์!
-    MessageTW: 那麼我會等你！老師大人！
+    MessageTW: 我等著，老師大人！
   - MessageGroupId: 160090510
     Id: 160090670
     CharacterId: 16009
@@ -1363,12 +1363,12 @@ content:
     FeedbackTimeMillisec: 0
     MessageType: Text
     ImagePath: ''
-    MessageKR: '화제 전환 빠르구만! '
+    MessageKR: 화제 전환 빠르구만!
     MessageJP: 話が相変わらず急展開！
     MessageCN: 话题还是和以前一样急速转变！
     MessageEN: 'What a quick change of subject! '
     MessageTH: 'เปลี่ยนเรื่องคุยเร็วมาก! '
-    MessageTW: 話題轉換得還真快！
+    MessageTW: 話題還是老樣子轉真快！
   - MessageGroupId: 160090510
     Id: 160090680
     CharacterId: 16009
@@ -1386,7 +1386,7 @@ content:
     MessageCN: 也行吧，但是今晚要做什么？
     MessageEN: Anyway, what are you gonna do tonight?
     MessageTH: เอางั้นก็ได้ แล้วคืนนี้จะทำอะไรล่ะ...?
-    MessageTW: 那樣是還不錯，不過今天晚上打算做什麼…？
+    MessageTW: 可以是可以，但今晚要做什麼？
   - MessageGroupId: 160090520
     Id: 160090690
     CharacterId: 16009
@@ -1422,7 +1422,7 @@ content:
     MessageCN: 甚至已经不是忍者风格的动作了……！？
     MessageEN: Is that supposed to be a ninja action too...?
     MessageTH: ตอนนี้เหมือนนินจาเลยใช่มั้ย...?!
-    MessageTW: 現在連忍者的行動都不是了吧…？！
+    MessageTW: 甚至已經不是和忍者有關的行動了……！？
   - MessageGroupId: 160090540
     Id: 160090710
     CharacterId: 16009
@@ -1435,12 +1435,12 @@ content:
     FeedbackTimeMillisec: 1000
     MessageType: Text
     ImagePath: ''
-    MessageKR: '…선생 공, 어제 그거 때문인 건지. '
+    MessageKR: …선생 공, 어제 그거 때문인 건지.
     MessageJP: 先生殿、昨日のアレのせいか……
     MessageCN: 老师大人，可能是因为昨天那件事吧……
     MessageEN: 'Sensei. I think...that yesterday... '
     MessageTH: 'ท่านอาจารย์... คงเพราะเรื่องเมื่อวาน '
-    MessageTW: …老師大人，大概是因為昨天的那件事…
+    MessageTW: 老師大人，大概是因為昨天的那件事……
   - MessageGroupId: 160090550
     Id: 160090720
     CharacterId: 16009
@@ -1458,7 +1458,7 @@ content:
     MessageCN: 小生感冒了……
     MessageEN: I think...I caught a cold...
     MessageTH: ข้าน้อย... เป็นหวัดเสียแล้วล่ะ
-    MessageTW: 在下……得了感冒…
+    MessageTW: 在下感冒了……
   - MessageGroupId: 160090560
     Id: 160090730
     CharacterId: 16009
@@ -1476,7 +1476,7 @@ content:
     MessageCN: 我给你熬点粥送过去吧……
     MessageEN: "...Okay. I'll make you some soup."
     MessageTH: เข้าใจแล้ว เดี๋ยวครูไปทำโจ๊กให้กินนะ
-    MessageTW: …知道了。我去幫你煮碗粥。
+    MessageTW: 我去幫你煮粥……
   - MessageGroupId: 160090570
     Id: 160090740
     CharacterId: 16009
@@ -1494,7 +1494,7 @@ content:
     MessageCN: 谢谢，老师大人……
     MessageEN: Um... O-Okay. Thanks, Sensei.
     MessageTH: เอ่อ อื้อ... ขอบคุณนะท่านอาจารย์
-    MessageTW: 那個…呃嗯，謝、謝謝。老師大人。
+    MessageTW: 謝謝，老師大人……
   - MessageGroupId: 160090580
     Id: 160090750
     CharacterId: 16009
@@ -1512,4 +1512,4 @@ content:
     MessageCN: 那个，我会等您的……
     MessageEN: I-I'll be waiting...
     MessageTH: งะ...งั้นข้าน้อยจะรอท่านอาจารย์นะ...
-    MessageTW: 我、我會等你…
+    MessageTW: 那，我等你……

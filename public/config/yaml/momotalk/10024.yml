@@ -9,7 +9,7 @@ title:
     TextKr: 키보토스 롱 라이딩
     TextEn: Cycling Across Kivotos
     TextTh: ปั่นจักรยานทางไกลข้ามคิโวทอส
-    TextTw: 奇普托斯長途騎車
+    TextTw: 奇普托斯・Long Ride
   - GroupId: 1002403
     FavorScheduleId: 100243
     CharacterId: 10024
@@ -18,7 +18,7 @@ title:
     TextKr: 나만의 서포터
     TextEn: My Personal Cheerleader
     TextTh: ผู้สนับสนุนของฉัน
-    TextTw: 專屬我的啦啦隊
+    TextTw: 專屬於我特別的
   - GroupId: 1002405
     FavorScheduleId: 100245
     CharacterId: 10024
@@ -27,7 +27,7 @@ title:
     TextKr: 모든 곳에서 함께
     TextEn: Being Together Everywhere
     TextTh: ทุกที่กับเธอ
-    TextTw: 不論何時何地
+    TextTw: 無論何時何地
   - GroupId: 1002406
     FavorScheduleId: 100246
     CharacterId: 10024
@@ -36,7 +36,7 @@ title:
     TextKr: 마지막 포인트
     TextEn: The Last Stop
     TextTh: จุดสุดท้าย
-    TextTw: 回家
+    TextTw: 回來的歸處
 content:
   - MessageGroupId: 100240010
     Id: 100240010
@@ -55,7 +55,7 @@ content:
     MessageCN: 我预计会出远门一段时间
     MessageEN: I'll be away for a while.
     MessageTH: ฉันจะไม่อยู่สักพักนึงนะ
-    MessageTW: 我打算出門遠行一段時間
+    MessageTW: 我打算出遠門一段時間
   - MessageGroupId: 100240020
     Id: 100240020
     CharacterId: 10024
@@ -91,7 +91,7 @@ content:
     MessageCN: 然后觉得也要和老师说一声比较好
     MessageEN: I thought I should tell you as well.
     MessageTH: เลยบอกให้คุณครูรู้ไว้น่ะ
-    MessageTW: 但想說應該也讓老師知道
+    MessageTW: 不過想說也通知一下老師
   - MessageGroupId: 100240030
     Id: 100240040
     CharacterId: 10024
@@ -109,7 +109,7 @@ content:
     MessageCN: ……出远门？
     MessageEN: Shiroko?
     MessageTH: '...ชิโรโกะ?'
-    MessageTW: ……遠行？
+    MessageTW: ……出遠門？
   - MessageGroupId: 100240030
     Id: 100240050
     CharacterId: 10024
@@ -127,7 +127,7 @@ content:
     MessageCN: 这么突然，是发生什么事了吗……？
     MessageEN: Where's this coming from?
     MessageTH: หา! จู่ๆ มีเรื่องอะไรน่ะ?
-    MessageTW: 怎麼這麼突然……？
+    MessageTW: 突然怎麼了……？
   - MessageGroupId: 100240040
     Id: 100240060
     CharacterId: 10024
@@ -421,7 +421,7 @@ content:
     MessageCN: 好快……？！
     MessageEN: That far already? That's amazing.
     MessageTH: ไปถึงที่นั่นแล้วเหรอ? สุดยอดเลย
-    MessageTW: 真快啊……！？
+    MessageTW: 真快呢……！？
   - MessageGroupId: 100240130
     Id: 100240220
     CharacterId: 10024
@@ -439,7 +439,7 @@ content:
     MessageCN: 跟专业运动员一样的速度啊……白子现在还顺利吗？
     MessageEN: Like a professional, I should say.
     MessageTH: เหมือนนักปั่นมือโปรเลย
-    MessageTW: 像職業選手一樣的速度呀……目前為止還順利嗎？
+    MessageTW: 像職業選手一樣的速度呢……目前為止還順利嗎？
   - MessageGroupId: 100240140
     Id: 100240230
     CharacterId: 10024
@@ -845,7 +845,7 @@ content:
     MessageCN: 话说起来
     MessageEN: Oh, right. Sensei.
     MessageTH: จะว่าไปคุณครู...
-    MessageTW: 這麼說來
+    MessageTW: 話說回來
   - MessageGroupId: 100240270
     Id: 100240450
     CharacterId: 10024
@@ -865,7 +865,7 @@ content:
     MessageTH: 'เมื่อวันก่อน คุณครูขอให้ฉันส่งแผนที่
 
       ของกำหนดการปั่นจักรยานไปให้นี่นา'
-    MessageTW: 老師之前要我說一下我的後續行程
+    MessageTW: 老師之前，說了要我告訴你預定的目的地
   - MessageGroupId: 100240270
     Id: 100240460
     CharacterId: 10024
@@ -883,7 +883,7 @@ content:
     MessageCN: 这个信息对老师有什么用吗？
     MessageEN: Why did you need that?
     MessageTH: ขอไปทำไมเหรอ?
-    MessageTW: 這種資訊對老師有用嗎？
+    MessageTW: 這個情報，對老師有什麼幫助嗎？
   - MessageGroupId: 100240280
     Id: 100240470
     CharacterId: 10024
@@ -1065,7 +1065,7 @@ content:
     MessageCN: 我也很期待能到下个地点和老师见面呢
     MessageEN: Then see you at the next point.
     MessageTH: ถ้างั้นไว้เจอกันที่จุดต่อไปนะ
-    MessageTW: 突然好期待抵達下一個地點呢
+    MessageTW: 我會期待抵達下一個地點的哦
   - MessageGroupId: 100240330
     Id: 100240570
     CharacterId: 10024
@@ -1249,7 +1249,7 @@ content:
     MessageTH: 'คราวหน้าฉันจะลองปั่นข้ามคิโวทอส
 
       จากตะวันออกไปตะวันตกบ้างนะ'
-    MessageTW: 下次想試試橫跨奇普托斯
+    MessageTW: 所以下次想試試橫斷奇普托斯
   - MessageGroupId: 100240390
     Id: 100240670
     CharacterId: 10024
@@ -1269,7 +1269,7 @@ content:
     MessageTH: 'อื้อ ถึงจะไม่ได้ปั่นข้ามจริงๆ ก็เถอะ
 
       แค่ให้ฟีลใกล้เคียง...'
-    MessageTW: 當然也不是要真的橫跨，總之大概就是那樣的感覺
+    MessageTW: 這也不是真的要橫斷，大概只是那種感覺
   - MessageGroupId: 100240390
     Id: 100240680
     CharacterId: 10024
@@ -1289,7 +1289,7 @@ content:
     MessageTH: 'ถ้าคุณครูโอเคล่ะก็ คราวหน้าไปปั่น
 
       จักรยานด้วยกันไหม...'
-    MessageTW: 如果老師可以的話，希望能一起騎……
+    MessageTW: 老師可以的話，那個，一起之類的……
   - MessageGroupId: 100240400
     Id: 100240690
     CharacterId: 10024
@@ -1307,7 +1307,7 @@ content:
     MessageCN: 实际参加的话我稍微有点……不过我会为白子应援的
     MessageEN: I don't know if I can handle that...
     MessageTH: ให้ลงปั่นจริงแบบนั้นมันคง...
-    MessageTW: 實際參與會有點困難……但一樣支持你
+    MessageTW: 實際的參加，有點……我會支持你哦
   - MessageGroupId: 100240400
     Id: 100240700
     CharacterId: 10024
@@ -1325,7 +1325,7 @@ content:
     MessageCN: 我会作为支援者全力支持白子的……
     MessageEN: Can't I go back to just being a supporter?
     MessageTH: ขอสนับสนุนเธอแบบนี้ดีกว่า...
-    MessageTW: 請讓我以支持者的身分全力支持你……
+    MessageTW: 我會作為支持者，全力支持你哦……
   - MessageGroupId: 100240410
     Id: 100240710
     CharacterId: 10024

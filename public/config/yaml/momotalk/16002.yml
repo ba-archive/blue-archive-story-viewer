@@ -9,7 +9,7 @@ title:
     TextKr: 제 설명을 들어요!
     TextEn: Listen Here!
     TextTh: ฟังคำอธิบายของฉันก่อนสิคะ!
-    TextTw: 聽我說明！
+    TextTw: 請聽我說明！
   - GroupId: 1600203
     FavorScheduleId: 160023
     CharacterId: 16002
@@ -18,7 +18,7 @@ title:
     TextKr: 그거라면 제대로 찾아오셨습니다!
     TextEn: You Came to the Right Place!
     TextTh: ถ้าเรื่องนั้น คุณมาถูกที่แล้วล่ะค่ะ!
-    TextTw: 那個已經自己找上門了！
+    TextTw: 問我就對了！
   - GroupId: 1600205
     FavorScheduleId: 160025
     CharacterId: 16002

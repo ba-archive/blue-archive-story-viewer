@@ -27,7 +27,7 @@ title:
     TextKr: 달밤, 특별한, 하이쿠짓기
     TextEn: Celestial Inspiration
     TextTh: เล่นไฮกุกลางแสงจันทร์ที่แสนพิเศษ
-    TextTw: 月夜、特別的、作俳句
+    TextTw: 月夜　作句　特別的
 content:
   - MessageGroupId: 130010010
     Id: 909
@@ -100,7 +100,7 @@ content:
     MessageCN: 啊，真的诶。今天的天空感觉很好看呢。
     MessageEN: It's a beautiful day today!
     MessageTH: วันนี้อากาศดีสินะ?
-    MessageTW: 啊，真的呢。今天的天空感覺很好呢
+    MessageTW: 啊，真的呢。今天天空挺漂亮呢
   - MessageGroupId: 130010040
     Id: 913
     CharacterId: 13001
@@ -154,7 +154,7 @@ content:
     MessageCN: 在今天，说不定就能找到
     MessageEN: I might be able to find them.
     MessageTH: ฉันคิดว่า...
-    MessageTW: 今天的話，也許能找到
+    MessageTW: 我就想說，今天的話
   - MessageGroupId: 130010050
     Id: 916
     CharacterId: 13001
@@ -172,7 +172,7 @@ content:
     MessageCN: 我是这么想的
     MessageEN: At least, I think so.
     MessageTH: อาจจะหาเจอก็ได้น้า~
-    MessageTW: 我是這麼想的
+    MessageTW: 也許能找到
   - MessageGroupId: 130010060
     Id: 917
     CharacterId: 13001
@@ -336,7 +336,7 @@ content:
     MessageTH: 'ถึงครูจะติดงานอยู่ แต่ถ้าเพื่อชิเสะ
 
       ล่ะก็... ได้เสมอเลย!'
-    MessageTW: 即使沒有空，但如果是為了知世的話……！
+    MessageTW: 就算沒空，但只要是為了知世……！
   - MessageGroupId: 130010140
     Id: 926
     CharacterId: 13001

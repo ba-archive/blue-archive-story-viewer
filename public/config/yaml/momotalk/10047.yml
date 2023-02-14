@@ -27,7 +27,7 @@ title:
     TextKr: 실은, 반짝임이 있던 곳은
     TextEn: Where the Sparkles Are
     TextTh: ที่ที่มีแสงระยิบระยับ...
-    TextTw: 其實閃亮的所在之處
+    TextTw: 閃亮的所在之處
 content:
   - MessageGroupId: 100470010
     Id: 100470010
@@ -45,7 +45,7 @@ content:
     MessageJP: 先生、レッツバケーション
     MessageCN: 老师，一起度假吧
     MessageEN: Sensei, it's vacation.
-    MessageTH: คุณครู... พักร้อนละ
+    MessageTH: คุณครู พักร้อนแหละ
     MessageTW: 老師，Let's Vacation
   - MessageGroupId: 100470020
     Id: 100470020
@@ -63,9 +63,7 @@ content:
     MessageJP: バケーション……？
     MessageCN: 度假……？
     MessageEN: Huh? Vacation...? What's up, Chise?
-    MessageTH: 'หืม? พักร้อน...? นี่ชิเซะ หมายถึง
-
-      เรื่องอะไรเหรอ?'
+    MessageTH: "หืม? พักร้อน?\n หมายถึงเรื่องอะไรเหรอ?"
     MessageTW: Vacation……？
   - MessageGroupId: 100470030
     Id: 100470030
@@ -83,7 +81,7 @@ content:
     MessageJP: うん、貰ったの。夏休み
     MessageCN: 嗯，获得的。暑假
     MessageEN: Yeah, I have summer vacation time.
-    MessageTH: หืม ฉันได้วันหยุดละ  วันหยุดพักร้อน--
+    MessageTH: หืม ฉันได้วันหยุดละ  วันหยุดพักร้อน
     MessageTW: 嗯，獲得了。暑假
   - MessageGroupId: 100470030
     Id: 100470040
@@ -101,9 +99,7 @@ content:
     MessageJP: いつも陰陽部の活動、頑張ってるから
     MessageCN: 因为阴阳部的活动，我一直很努力
     MessageEN: 'I work hard for the Yin-Yang Club. '
-    MessageTH: 'ปกติฉันตั้งใจทำงานของชมรมหยินหยาง
-
-      อย่างหนัก '
+    MessageTH: 'ฉันตั้งใจทำงานของชมรมอย่างหนัก '
     MessageTW: 平時在陰陽部的活動，努力了
   - MessageGroupId: 100470040
     Id: 100470050
@@ -121,7 +117,7 @@ content:
     MessageJP: ゆっくり休んできて、って
     MessageCN: 大家说，让我好好休息一下
     MessageEN: So I was given some time off.
-    MessageTH: เลยได้มาพักน่ะ
+    MessageTH: เลยได้วันหยุดน่ะ
     MessageTW: 要我，好好去休息
   - MessageGroupId: 100470050
     Id: 100470060
@@ -157,7 +153,7 @@ content:
     MessageJP: 何か夏休みの予定とかあるの？
     MessageCN: 千世暑假有什么安排吗？
     MessageEN: Do you have any plans?
-    MessageTH: ถ้างั้นมีแพลนไว้ในใจรึเปล่า?
+    MessageTH: แล้ววางแผนไว้รึยังล่ะ?
     MessageTW: 有什麼暑假的計畫嗎？
   - MessageGroupId: 100470060
     Id: 100470080
@@ -193,7 +189,7 @@ content:
     MessageJP: どんな予定なのか、聞いても良い？
     MessageCN: 我可以问问是什么安排吗？
     MessageEN: Oh...what plans...?
-    MessageTH: แล้วมีแพลนอะไรเหรอ...
+    MessageTH: งั้นเหรอ? วางแผนอะไรไว้ล่ะ?
     MessageTW: 是什麼樣的計畫，可以聽聽嗎？
   - MessageGroupId: 100470080
     Id: 100470100
@@ -229,7 +225,7 @@ content:
     MessageJP: 探すって、何を？
     MessageCN: 找东西？千世要找什么？
     MessageEN: H-Huh? Find what?
-    MessageTH: หืม? "ไปหา" งั้นเหรอ? หาอะไรล่ะ
+    MessageTH: "หืม? \"ไปหา\" เหรอ?\n หาอะไรล่ะ?"
     MessageTW: 尋找是，指什麼？
   - MessageGroupId: 100470100
     Id: 100470120
@@ -301,9 +297,7 @@ content:
     MessageJP: とりあえず、海に行けば良いのかな…?
     MessageCN: 总之，去海边就行了对吧……？
     MessageEN: I'll meet you there, then...?
-    MessageTH: 'เอาเป็นว่าไปที่ชายหาดก่อนก็แล้วกัน
-
-      เนอะ...?'
+    MessageTH: เอาเป็นว่าไปที่ชายหาดก่อนแล้วกัน...
     MessageTW: 總之，去海邊就行了嗎……？
   - MessageGroupId: 100470130
     Id: 100470160
@@ -321,7 +315,7 @@ content:
     MessageJP: 先生。この間きらきらを探した時にね
     MessageCN: 老师。上次找闪闪发光的时候
     MessageEN: Sensei, I've been looking for sparkles, and...
-    MessageTH: คุณครู ตอนที่หาเศษประกายอยู่
+    MessageTH: "คุณครู ตอนที่หาประกาย\n ระยิบระยับอยู่"
     MessageTW: 老師。上次在尋找閃閃發亮的時候啊
   - MessageGroupId: 100470140
     Id: 100470170
@@ -339,7 +333,7 @@ content:
     MessageJP: 海辺で、すごいものを見つけたの
     MessageCN: 我在海边，找到了很厉害的东西哦
     MessageEN: I found something incredible at the beach.
-    MessageTH: ก็เจอสิ่งที่ยิ่งใหญ่ในทะเลด้วยละ
+    MessageTH: ฉันก็เจอสิ่งที่ยิ่งใหญ่ในทะเลด้วย
     MessageTW: 在海邊，發現了很厲害的東西
   - MessageGroupId: 100470150
     Id: 100470180
@@ -357,7 +351,7 @@ content:
     MessageJP: 気になる……！
     MessageCN: 好在意……！
     MessageEN: It must be really special if you think it's incredible.
-    MessageTH: ถ้าชิเซะบอกว่ายิ่งใหญ่ละก็ ครูยิ่งกังวลใหญ่เลยนะ
+    MessageTH: "ถ้าชิเซะบอกว่ายิ่งใหญ่ละก็\n คงเป็นของที่พิเศษมากเลยสินะ"
     MessageTW: 好在意……！
   - MessageGroupId: 100470160
     Id: 100470190
@@ -393,7 +387,7 @@ content:
     MessageJP: せっかくだし
     MessageCN: 机会难得
     MessageEN: Oh, good timing.
-    MessageTH: อ๊ะ พอดีเลย-
+    MessageTH: อ๊ะ พอดีเลยนะ
     MessageTW: 機會難得
   - MessageGroupId: 100470170
     Id: 100470210
@@ -465,7 +459,7 @@ content:
     MessageJP: あ、チセ。どうしたの？
     MessageCN: 啊，千世。怎么了？
     MessageEN: Oh, Chise. What's up?
-    MessageTH: ชิเซะ มีอะไรเหรอ?
+    MessageTH: มีอะไรเหรอ ชิเซะ?
     MessageTW: 啊，知世。怎麼了嗎？
   - MessageGroupId: 100470200
     Id: 100470250
@@ -573,7 +567,9 @@ content:
     MessageJP: これからも、1日3回
     MessageCN: 之后也要，一天三次
     MessageEN: no matter what happens,
-    MessageTH: ไม่ว่าจะมีเรื่องอะไร ก็ต้องแปรงฟัน
+    MessageTH: 'ไม่ว่าจะมีเรื่องอะไร
+
+      ก็ต้องแปรงฟัน'
     MessageTW: 今後也，1天3次
   - MessageGroupId: 100470230
     Id: 100470310
@@ -591,7 +587,7 @@ content:
     MessageJP: 歯磨き、忘れないようにね？
     MessageCN: 刷牙，不要忘记了哦？
     MessageEN: brush your teeth three times a day, okay?
-    MessageTH: วันละสามครั้งให้ได้เลยนะ?
+    MessageTH: วันละสามครั้งให้ได้เลยนะ
     MessageTW: 不要忘了，刷牙唷？
   - MessageGroupId: 100470240
     Id: 100470320
@@ -663,5 +659,5 @@ content:
     MessageJP: ……チセ？
     MessageCN: ……千世？
     MessageEN: Chise..? Um, Chise?
-    MessageTH: ชิเซะ...? นี่ ชิเซะ...?
+    MessageTH: นี่ ชิเซะ...?
     MessageTW: ……知世？

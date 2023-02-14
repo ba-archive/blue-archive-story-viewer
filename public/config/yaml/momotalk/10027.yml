@@ -9,7 +9,7 @@ title:
     TextKr: 생각지 못한 시선
     TextEn: An Unforeseen Gaze
     TextTh: ความสนใจที่คาดไม่ถึง
-    TextTw: 意料之外的視線
+    TextTw: 意料之外的角度
   - GroupId: 1002703
     FavorScheduleId: 100273
     CharacterId: 10027
@@ -752,7 +752,7 @@ content:
     MessageCN: （紧张）……
     MessageEN: The time has come.
     MessageTH: ถึงเวลาแล้วสินะ
-    MessageTW: 吞口水……
+    MessageTW: （吞口水……）
   - MessageGroupId: 100270250
     Id: 100270400
     CharacterId: 10027

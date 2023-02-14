@@ -18,7 +18,7 @@ title:
     TextKr: 새해에는 새해다운 일을!
     TextEn: Activities for New Year's!
     TextTh: เรื่องที่ทำให้สมกับเป็นวันปีใหม่!
-    TextTw: 正月該做的事！
+    TextTw: 新年要像個新年一樣！
   - GroupId: 1003205
     FavorScheduleId: 100325
     CharacterId: 10032
@@ -27,7 +27,7 @@ title:
     TextKr: 격렬하게 둘이서 하네츠키!
     TextEn: It Takes Two to Hanetsuki!
     TextTh: การแข่งฮาเนะสึกิอันดุเดือด!
-    TextTw: 激戰！雙人羽子板！
+    TextTw: 激烈的戰鬥
 content:
   - MessageGroupId: 100320010
     Id: 100320010
@@ -230,7 +230,7 @@ content:
     MessageCN: 啊，啊……？
     MessageEN: Huh...? Mutsuki?
     MessageTH: หือ...? มุสึกิ?
-    MessageTW: 耶，耶……？
+    MessageTW: 咦，咦……？
   - MessageGroupId: 100320090
     Id: 100320120
     CharacterId: 10032

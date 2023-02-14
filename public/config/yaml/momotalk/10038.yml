@@ -9,7 +9,7 @@ title:
     TextKr: SRT, 돌입합니다!
     TextEn: SRT, Charge!
     TextTh: SRT เริ่มปฏิบัติการ!
-    TextTw: SRT，進攻！
+    TextTw: SRT，突入！
   - GroupId: 1003803
     FavorScheduleId: 100383
     CharacterId: 10038
@@ -66,7 +66,7 @@ content:
     MessageTH: '<ข้อความระบบ> นี่คือ RABBIT 1
 
       ขออนุญาตลงจอดภาคพื้นดินด้วยค่ะ'
-    MessageTW: <SYSTEM> 這裡是RABBIT1，請求降落許可。
+    MessageTW: 這裡是RABBIT 1，請求著陸
   - MessageGroupId: 100380020
     Id: 100380020
     CharacterId: 10038
@@ -84,7 +84,7 @@ content:
     MessageCN: ……宫子？是不是发错人了？
     MessageEN: Miyako? I think you sent that to the wrong preson.
     MessageTH: มิยาโกะ...? ส่งข้อความผิดรึเปล่า?
-    MessageTW: ……都子？好像寄錯郵件了？
+    MessageTW: ……都子？是不是發錯人了？
   - MessageGroupId: 100380030
     Id: 100380030
     CharacterId: 10038
@@ -106,7 +106,7 @@ content:
       2,000 ฟุต เตรียมลดระดับความสูง
 
       เรียบร้อยค่ะ'
-    MessageTW: <SYSTEM>高度下降至2000英呎。下降準備完成。
+    MessageTW: 高度下降至2000英尺，準備完成
   - MessageGroupId: 100380040
     Id: 100380040
     CharacterId: 10038
@@ -144,7 +144,7 @@ content:
     MessageTH: '<ข้อความระบบ> อีกประมาณ 1.5 ไมล์
 
       จะถึงเป้าหมายค่ะ'
-    MessageTW: <SYSTEM>距離目標約1.5哩—馬上就要進入了。
+    MessageTW: 距離目標1.5英里──即將突入
   - MessageGroupId: 100380060
     Id: 100380060
     CharacterId: 10038
@@ -162,7 +162,7 @@ content:
     MessageCN: 宫子？你这是要突入哪啊？
     MessageEN: '...Miyako? Are you infiltrating something right now?'
     MessageTH: มิยาโกะ...? จะไปตรงไหนเหรอ?
-    MessageTW: ……都子？你打算從哪裡進入？
+    MessageTW: ……都子？你打算從哪裡突入？
   - MessageGroupId: 100380070
     Id: 100380070
     CharacterId: 10038
@@ -180,7 +180,7 @@ content:
     MessageCN: 虽然这个问题很唐突，但老师是狗派还是猫派？
     MessageEN: Sensei, are you a dog person or a cat person?
     MessageTH: คุณครูชอบสุนัขหรือว่าแมวเหรอคะ?
-    MessageTW: 老師是犬派，還是貓派呢？
+    MessageTW: 雖然有點突然，不過老師是狗派還是貓派呢？
   - MessageGroupId: 100380080
     Id: 100380080
     CharacterId: 10038
@@ -198,7 +198,7 @@ content:
     MessageCN: 是狗派哦
     MessageEN: A dog person.
     MessageTH: ครูชอบสุนัขมากกว่า
-    MessageTW: 我是犬派。
+    MessageTW: 是狗派哦
   - MessageGroupId: 100380080
     Id: 100380090
     CharacterId: 10038
@@ -216,7 +216,7 @@ content:
     MessageCN: 是猫派哦
     MessageEN: A cat person.
     MessageTH: ครูชอบแมวมากกว่าน่ะ
-    MessageTW: 我是貓派。
+    MessageTW: 是貓派哦
   - MessageGroupId: 100380090
     Id: 100380100
     CharacterId: 10038
@@ -238,7 +238,7 @@ content:
       และเชื่อฟังคำสั่ง เพราะงั้นเลยมีคนที่
 
       ชอบอยู่เยอะสินะคะ'
-    MessageTW: 原來如此。狗狗很忠心又很聽話，所以喜歡牠們的人很多。
+    MessageTW: 這樣啊。確實，狗既忠誠又容易與人親近，所以很多人都喜歡呢
   - MessageGroupId: 100380100
     Id: 100380110
     CharacterId: 10038
@@ -260,7 +260,7 @@ content:
       และมีเสน่ห์ดึงดูดมาก เพราะงั้นเลยมี
 
       คนชอบเยอะสินะคะ'
-    MessageTW: 原來如此。貓咪既可愛又有一股高傲的魅力，所以很多人喜歡牠們。
+    MessageTW: 這樣啊。確實，貓既可愛又有著高傲的魅力，所以很多人都喜歡呢
   - MessageGroupId: 100380110
     Id: 100380120
     CharacterId: 10038
@@ -278,7 +278,7 @@ content:
     MessageCN: 那宫子是狗派还是猫派？
     MessageEN: Are you a dog or cat person, Miyako?
     MessageTH: แล้วมิยาโกะชอบสุนัขหรือแมวล่ะ?
-    MessageTW: 那麼，都子是犬派，還是貓派？
+    MessageTW: 都子是狗派還是貓派呢？
   - MessageGroupId: 100380120
     Id: 100380130
     CharacterId: 10038
@@ -296,7 +296,7 @@ content:
     MessageCN: 我嘛……
     MessageEN: Well, actually... I think...
     MessageTH: นั่นสินะคะ ฉัน...
-    MessageTW: 這個嘛……我……
+    MessageTW: 這個嘛，我是……
   - MessageGroupId: 100380120
     Id: 100380140
     CharacterId: 10038
@@ -314,7 +314,7 @@ content:
     MessageCN: 非要说的话，我是兔子派吧
     MessageEN: I'm a rabbit person.
     MessageTH: ฉันชอบกระต่ายมากกว่าค่ะ...
-    MessageTW: ……應該算兔子派嗎？
+    MessageTW: ……硬要說的話，是兔子派吧
   - MessageGroupId: 100380130
     Id: 100380150
     CharacterId: 10038
@@ -352,7 +352,7 @@ content:
     MessageTH: 'คุณครู นี่เป็นรูปน้องกระต่ายที่เพิ่งรับมา
 
       เลี้ยงค่ะ'
-    MessageTW: 老師，這是剛剛領養的兔子照片。
+    MessageTW: 老師，請看照片
   - MessageGroupId: 100380140
     Id: 100380170
     CharacterId: 10038
@@ -370,7 +370,7 @@ content:
     MessageCN: 它刚刚吃完饲料，现在在睡觉
     MessageEN: This is how she sleeps after eating.
     MessageTH: เพิ่งจะกินอาหารเสร็จแล้วหลับไปค่ะ
-    MessageTW: 牠剛吃完飼料，正要睡覺。
+    MessageTW: 牠剛吃完飼料正準備要睡覺
   - MessageGroupId: 100380150
     Id: 100380180
     CharacterId: 10038
@@ -388,7 +388,7 @@ content:
     MessageCN: 真可爱啊
     MessageEN: What a cute rabbit.
     MessageTH: กระต่ายน่ารักมากเลยนะ
-    MessageTW: 兔子真的很可愛呢！
+    MessageTW: 真可愛呢
   - MessageGroupId: 100380160
     Id: 100380190
     CharacterId: 10038
@@ -408,7 +408,7 @@ content:
     MessageTH: 'ใช่ไหมล่ะคะ? กระต่ายเองก็มีเสน่ห์
 
       เฉพาะตัวที่ต่างจากสุนัขและแมวค่ะ'
-    MessageTW: 對吧？兔子身上，有和狗或貓不同的魅力。
+    MessageTW: 對吧？兔子有著和貓狗不同的魅力
   - MessageGroupId: 100380160
     Id: 100380200
     CharacterId: 10038
@@ -428,7 +428,7 @@ content:
     MessageTH: 'เดี๋ยวถ้าน้องกระต่ายตื่นขึ้นมา ฉันจะ
 
       ถ่ายรูปส่งไปให้ดูนะคะ'
-    MessageTW: 等牠睡醒後，我再拍新的照片給你看。
+    MessageTW: 等牠醒來之後，再傳照片給老師哦
   - MessageGroupId: 100380170
     Id: 100380210
     CharacterId: 10038
@@ -448,7 +448,7 @@ content:
     MessageTH: 'พอมานึกๆ ดูแล้ว ฉันยังไม่ได้ตั้งชื่อกระต่าย
 
       ที่คุณครูให้มาเป็นของขวัญเลยนะคะ'
-    MessageTW: 仔細想想，老師送我的那隻兔子還沒取名字。
+    MessageTW: 話說回來，還沒幫老師送給我的兔子取名字呢
   - MessageGroupId: 100380180
     Id: 100380220
     CharacterId: 10038
@@ -468,7 +468,7 @@ content:
     MessageTH: 'มีชื่อที่แสดงถึงความกล้าหาญและความ
 
       น่ารักนุ่มฟูของน้องกระต่ายบ้างมั้ยคะ?'
-    MessageTW: 該取什麼樣的名字，才能體現這隻兔子可愛又惹人憐愛，還很勇猛的個性呢？
+    MessageTW: 有沒有什麼名字可以表現出牠的可愛、惹人憐愛又勇敢的性格呢？
   - MessageGroupId: 100380190
     Id: 100380230
     CharacterId: 10038
@@ -486,7 +486,7 @@ content:
     MessageCN: 斯坦福2世
     MessageEN: Watson the Second.
     MessageTH: สแตนฟอร์ด จูเนียร์
-    MessageTW: 史丹佛二世。
+    MessageTW: 史丹佛二世
   - MessageGroupId: 100380190
     Id: 100380240
     CharacterId: 10038
@@ -504,7 +504,7 @@ content:
     MessageCN: 鳗鱼盖饭
     MessageEN: Eel Rice Bowl.
     MessageTH: ข้าวหน้าปลาไหล
-    MessageTW: 鰻魚蓋飯。
+    MessageTW: 鰻魚蓋飯
   - MessageGroupId: 100380200
     Id: 100380250
     CharacterId: 10038
@@ -524,7 +524,7 @@ content:
     MessageTH: 'ชื่อนั้นดูยิ่งใหญ่เกินไปที่จะเป็นชื่อน้อง
 
       กระต่ายนะคะ'
-    MessageTW: 這個名字對兔子來說，好像太華麗了。
+    MessageTW: 這個名字對兔子來說好像有點太浮誇了……
   - MessageGroupId: 100380210
     Id: 100380260
     CharacterId: 10038
@@ -544,7 +544,7 @@ content:
     MessageTH: 'ถ้าตั้งชื่อน้องแบบนั้นคงรู้สึกผิด
 
       กับน้องแน่เลยค่ะ...'
-    MessageTW: ……這應該是對兔子有點抱歉的名字吧？
+    MessageTW: ……幫兔子取這個名字不太好吧
   - MessageGroupId: 100380220
     Id: 100380270
     CharacterId: 10038
@@ -562,7 +562,7 @@ content:
     MessageCN: 那，叫“小跃”怎么样？
     MessageEN: Do you like Bun Bun?
     MessageTH: ถ้างั้นชื่อ "เปียงโกะ" ดีมั้ย?
-    MessageTW: 那麼，「蹦蹦」怎麼樣？
+    MessageTW: 那「蹦蹦」怎麼樣呢？
   - MessageGroupId: 100380230
     Id: 100380280
     CharacterId: 10038
@@ -580,7 +580,7 @@ content:
     MessageCN: 小跃、小跃……
     MessageEN: Bun Bun...
     MessageTH: เปียงโกะ... เปียงโกะ...
-    MessageTW: 蹦蹦……蹦蹦……
+    MessageTW: 蹦蹦，蹦蹦……
   - MessageGroupId: 100380240
     Id: 100380290
     CharacterId: 10038
@@ -598,7 +598,7 @@ content:
     MessageCN: 嗯，我觉得是个好名字
     MessageEN: Yes, I think that's a great name.
     MessageTH: ค่ะ ฉันคิดว่าชื่อนี้เยี่ยมมากเลยค่ะ
-    MessageTW: 嗯，我覺得是個很棒的名字。
+    MessageTW: 嗯，我覺得是個很棒的名字
   - MessageGroupId: 100380240
     Id: 100380300
     CharacterId: 10038
@@ -618,7 +618,7 @@ content:
     MessageTH: 'ถ้างั้นต่อไปฉันจะเรียกน้องกระต่าย
 
       ตัวนี้ว่า "เปียงโกะ" ค่ะ'
-    MessageTW: 那麼以後我就叫這隻兔子「蹦蹦」了！
+    MessageTW: 那麼之後這隻兔子就叫做蹦蹦了
   - MessageGroupId: 100380250
     Id: 100380310
     CharacterId: 10038
@@ -638,7 +638,7 @@ content:
     MessageTH: '<ข้อความระบบ> นี่คือ RABBIT 1
 
       ขออนุญาตลงจอดภาคพื้นดินด้วยค่ะ...'
-    MessageTW: <SYSTEM> 這裡是RABBIT1，請求起飛許可……
+    MessageTW: 這裡是RABBIT 1，請求起飛……
   - MessageGroupId: 100380260
     Id: 100380320
     CharacterId: 10038
@@ -656,7 +656,7 @@ content:
     MessageCN: 宫子，stop！stop！
     MessageEN: Miyako! Stop! Stop!
     MessageTH: เดี๋ยวก่อน มิยาโกะ สต็อป! สต็อปปป!
-    MessageTW: 等等，都子。暫停！暫停！
+    MessageTW: 都子，等等！STOP！
   - MessageGroupId: 100380270
     Id: 100380330
     CharacterId: 10038
@@ -674,7 +674,7 @@ content:
     MessageCN: ……诶？老师？
     MessageEN: Huh? Sensei?
     MessageTH: คะ? คุณครู...?
-    MessageTW: 是。老師，
+    MessageTW: ……咦？老師？
   - MessageGroupId: 100380270
     Id: 100380340
     CharacterId: 10038
@@ -698,7 +698,7 @@ content:
       หอควบคุมเฮลิคอปเตอร์อีกแล้วค่ะ ขอโทษ
 
       ด้วยค่ะ '
-    MessageTW: 哎呀！又把老師的郵件地址和直升機塔台的地址搞錯了。抱歉，
+    MessageTW: 啊。我又搞錯了，不好意思
   - MessageGroupId: 100380280
     Id: 100380350
     CharacterId: 10038
@@ -738,7 +738,7 @@ content:
     MessageTH: 'ค่ะ คุณครู วันนี้มีแผนปฏิบัติการโรยตัว
 
       โดยใช้เฮลิคอปเตอร์รุ่น 2200 ค่ะ'
-    MessageTW: 是的，老師。今天預定在2200時，要進行利用直升機的降落作戰。
+    MessageTW: 是的。今天2200預計將進行直升機的降落作戰
   - MessageGroupId: 100380300
     Id: 100380370
     CharacterId: 10038
@@ -760,7 +760,7 @@ content:
     MessageTH: 'เป็นภารกิจบุกโจมตีกลุ่มลักลอบขนสัตว์
 
       เข้ามาที่คิโวทอสอย่างผิดกฎหมายค่ะ'
-    MessageTW: 是襲擊非法將動物引進奇普托斯的走私者們的任務。
+    MessageTW: 是襲擊非法引進動物到奇普托斯的走私業者們的任務
   - MessageGroupId: 100380310
     Id: 100380380
     CharacterId: 10038
@@ -780,7 +780,7 @@ content:
     MessageTH: 'งั้นปฏิบัติการโรยตัวคราวนี้ครูขอตามไป
 
       ด้วยนะ'
-    MessageTW: 這次的降落作戰，我也要一起去。
+    MessageTW: 這次降落作戰我也會跟著一起去哦
   - MessageGroupId: 100380320
     Id: 100380390
     CharacterId: 10038
@@ -800,7 +800,7 @@ content:
     MessageTH: 'คะ? คุณครูก็จะขึ้นเฮลิคอปเตอร์ด้วย
 
       เหรอคะ?'
-    MessageTW: 咦？老師也要一起搭乘直昇機嗎？
+    MessageTW: 咦？老師也要一起搭直升機嗎？
   - MessageGroupId: 100380320
     Id: 100380400
     CharacterId: 10038
@@ -820,7 +820,7 @@ content:
     MessageTH: 'มันอันตรายนะคะ... คุณครูไม่เป็นไรแน่
 
       เหรอคะ?'
-    MessageTW: 應該會很危險……你沒關係嗎？
+    MessageTW: 我想會有點危險……沒問題嗎？
   - MessageGroupId: 100380330
     Id: 100380410
     CharacterId: 10038
@@ -838,7 +838,7 @@ content:
     MessageCN: 老师，可以打扰一下吗……？
     MessageEN: Sensei, are you there?
     MessageTH: คุณครู อยู่รึเปล่าคะ...?
-    MessageTW: 老師，你在嗎……？
+    MessageTW: 老師，可以打擾一下嗎……？
   - MessageGroupId: 100380340
     Id: 100380420
     CharacterId: 10038
@@ -856,7 +856,7 @@ content:
     MessageCN: 算了，也没有什么特别的事……
     MessageEN: It's nothing special. I'm just checking in...
     MessageTH: ฉันไม่ได้มีเรื่องด่วนอะไรพิเศษหรอกค่ะ...
-    MessageTW: 不是因為有特別的行程才聯絡你……
+    MessageTW: 不，也不是有什麼特別的事所以才連絡你……
   - MessageGroupId: 100380350
     Id: 100380430
     CharacterId: 10038
@@ -874,7 +874,7 @@ content:
     MessageCN: 果然我还是稍后再与您联系吧
     MessageEN: I'll message you later.
     MessageTH: เอาไว้จะติดต่อมาใหม่นะคะ
-    MessageTW: 我改天再跟你連絡。
+    MessageTW: 果然還是之後再連絡吧
   - MessageGroupId: 100380360
     Id: 100380440
     CharacterId: 10038
@@ -894,7 +894,7 @@ content:
     MessageTH: 'ขอโทษที มิยาโกะ เมื่อกี้ครูประชุมอยู่เลย
 
       ตอบช้าน่ะ'
-    MessageTW: 抱歉，都子。之前在開會，所以現在才看到。
+    MessageTW: 抱歉，都子。剛才在開會所以這麼晚才看到
   - MessageGroupId: 100380370
     Id: 100380450
     CharacterId: 10038

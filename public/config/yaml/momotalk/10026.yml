@@ -27,7 +27,7 @@ title:
     TextKr: 주변의 시선
     TextEn: A Sea of Stares
     TextTh: สายตาของคนรอบข้าง
-    TextTw: 周圍的視線
+    TextTw: 視線
 content:
   - MessageGroupId: 100260010
     Id: 100260010
@@ -46,7 +46,7 @@ content:
     MessageCN: 喂
     MessageEN: Oh
     MessageTH: อ่า...
-    MessageTW: 吶
+    MessageTW: 欸
   - MessageGroupId: 100260020
     Id: 100260020
     CharacterId: 10026
@@ -136,7 +136,7 @@ content:
     MessageCN: 怎么说呢……
     MessageEN: Look at this.
     MessageTH: ฟังก่อนนะ
-    MessageTW: 該──怎麼說……
+    MessageTW: 該怎麼說……
   - MessageGroupId: 100260050
     Id: 100260070
     CharacterId: 10026
@@ -172,7 +172,7 @@ content:
     MessageCN: ……诶？
     MessageEN: '...'
     MessageTH: '...'
-    MessageTW: ……耶？
+    MessageTW: ……咦？
   - MessageGroupId: 100260060
     Id: 100260090
     CharacterId: 10026
@@ -246,7 +246,7 @@ content:
     MessageTH: 'ถ้าเป็นแบบนี้ละก็ ฉันอาจจะรำคาญจน
 
       ฉีกมันขาด เป็นชิ้นๆ เลยก็ได้'
-    MessageTW: 雖然有點抱歉
+    MessageTW: 抱歉了
   - MessageGroupId: 100260080
     Id: 100260130
     CharacterId: 10026
@@ -264,7 +264,7 @@ content:
     MessageCN: 老师可以在衣服坏掉之前过来吗
     MessageEN: so come and look.
     MessageTH: ลองมาดูให้หน่อยสิ
-    MessageTW: 但在我把衣服撕破前過來吧
+    MessageTW: 在我把衣服撕破前過來吧
   - MessageGroupId: 100260090
     Id: 100260140
     CharacterId: 10026
@@ -426,7 +426,7 @@ content:
     MessageCN: 现在有空吗？
     MessageEN: Could you do me a favor right now?
     MessageTH: ฉันรบกวนคุณครูสักเรื่องได้มั้ย
-    MessageTW: 今天還好嗎？
+    MessageTW: 現在方便嗎？
   - MessageGroupId: 100260150
     Id: 100260230
     CharacterId: 10026
@@ -736,7 +736,7 @@ content:
     MessageCN: 怎么可能。尼禄随时都可以联系我
     MessageEN: Of course.
     MessageTH: แน่นอนอยู่แล้ว
-    MessageTW: 當然不會唷。隨時都能聯絡我
+    MessageTW: 當然沒那回事。隨時都能聯絡我
   - MessageGroupId: 100260260
     Id: 100260400
     CharacterId: 10026
@@ -880,7 +880,7 @@ content:
     MessageCN: 怎么说呢
     MessageEN: It's nothing serious.
     MessageTH: ไม่ใช่เรื่องใหญ่หรอก
-    MessageTW: 該──怎麼說
+    MessageTW: 該怎麼說
   - MessageGroupId: 100260300
     Id: 100260480
     CharacterId: 10026
@@ -898,7 +898,7 @@ content:
     MessageCN: 嗯——，要怎么说才好呢……？
     MessageEN: It's just that people are being weird.
     MessageTH: คือว่าท่าทางคนอื่นดูแปลกๆ น่ะ
-    MessageTW: 嗯──怎麼說才好勒……？
+    MessageTW: 嗯──怎麼說才好……？
   - MessageGroupId: 100260310
     Id: 100260490
     CharacterId: 10026
@@ -916,7 +916,7 @@ content:
     MessageCN: 还是直接见面来得快啊
     MessageEN: I can't really explain it.
     MessageTH: ฉันก็อธิบายไม่ถูกแฮะ
-    MessageTW: 直接見面比較快啊
+    MessageTW: 直接見面比較快呢
   - MessageGroupId: 100260310
     Id: 100260500
     CharacterId: 10026

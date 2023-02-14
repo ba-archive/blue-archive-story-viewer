@@ -9,7 +9,7 @@ title:
     TextKr: 무슨 생각을 하는 거야?
     TextEn: What Are You Thinking About?
     TextTh: คิดอะไรอยู่งั้นเหรอ?
-    TextTw: 你在想什麼？
+    TextTw: 在想什麼呢？
   - GroupId: 1002003
     FavorScheduleId: 100203
     CharacterId: 10020
@@ -18,7 +18,7 @@ title:
     TextKr: 무슨 소릴 하는 거야?
     TextEn: What Are You Talking About?
     TextTh: พูดอะไรน่ะ?
-    TextTw: 你在說什麼？
+    TextTw: 在說什麼呢？
   - GroupId: 1002005
     FavorScheduleId: 100205
     CharacterId: 10020
@@ -27,7 +27,7 @@ title:
     TextKr: 무슨 용무로 부른 거야?
     TextEn: What Can I Do for You?
     TextTh: เรียกมามีธุระอะไร?
-    TextTw: 叫我有什麼事？
+    TextTw: 有什麼事？
   - GroupId: 1002006
     FavorScheduleId: 100206
     CharacterId: 10020
@@ -36,7 +36,7 @@ title:
     TextKr: 무슨 짓을 하는 거야?
     TextEn: 'What Are You Doing? '
     TextTh: 'ทำอะไรน่ะ? '
-    TextTw: '你做什麼？ '
+    TextTw: 打算做什麼？
 content:
   - MessageGroupId: 100200010
     Id: 100200010
@@ -327,7 +327,7 @@ content:
     MessageCN: lao
     MessageEN: Sen...
     MessageTH: คะ..
-    MessageTW: ㄌ
+    MessageTW: 老
   - MessageGroupId: 100200090
     Id: 100200170
     CharacterId: 10020
@@ -399,7 +399,7 @@ content:
     MessageCN: l
     MessageEN: S...
     MessageTH: คะ...
-    MessageTW: ㄕ
+    MessageTW: 師
   - MessageGroupId: 100200110
     Id: 100200210
     CharacterId: 10020
@@ -491,7 +491,7 @@ content:
     MessageTH: 'มัวแต่นั่งคิดอะไรแปลกๆ อยู่ที่ไหน
 
       ใช่ไหม?'
-    MessageTW: 該不會又在哪裡打著奇怪的算盤吧？
+    MessageTW: 不會又在哪裡，計劃著奇怪的事情吧？
   - MessageGroupId: 100200140
     Id: 100200260
     CharacterId: 10020
@@ -961,7 +961,7 @@ content:
     MessageCN: ……哼
     MessageEN: '...'
     MessageTH: '...'
-    MessageTW: ……喔
+    MessageTW: ……哼嗯嗯
   - MessageGroupId: 100200260
     Id: 100200520
     CharacterId: 10020

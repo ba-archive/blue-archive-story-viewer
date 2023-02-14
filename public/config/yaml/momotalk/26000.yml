@@ -9,7 +9,7 @@ title:
     TextKr: 누군가는 해야만 하는 일
     TextEn: What's Gotta Be Done
     TextTh: สิ่งที่ใครบางคนจะต้องทำ
-    TextTw: 某人必須做的事
+    TextTw: 必須有人負責的事
   - GroupId: 2600003
     FavorScheduleId: 260003
     CharacterId: 26000
@@ -18,7 +18,7 @@ title:
     TextKr: 아무 일 없는 하루
     TextEn: An Uneventful Day
     TextTh: หนึ่งวันที่เรียบง่าย
-    TextTw: 無所事事的一天
+    TextTw: 平淡無奇的一天
   - GroupId: 2600005
     FavorScheduleId: 260005
     CharacterId: 26000
@@ -27,7 +27,7 @@ title:
     TextKr: 피로회복 고민상담
     TextEn: Fatigue Recovery Counseling
     TextTh: การให้คำปรึกษาเพื่อฟื้นฟูพลังใจ
-    TextTw: 恢復疲勞煩惱諮詢
+    TextTw: 疲勞的時候
   - GroupId: 2600006
     FavorScheduleId: 260006
     CharacterId: 26000
@@ -223,7 +223,7 @@ content:
     MessageCN: 老师，您好
     MessageEN: Hello, Sensei. How are you doing?
     MessageTH: สวัสดีค่ะ คุณครู สบายดีใช่มั้ยคะ?
-    MessageTW: 你好，老師
+    MessageTW: 您好，老師
   - MessageGroupId: 260000070
     Id: 1892
     CharacterId: 26000
@@ -369,7 +369,7 @@ content:
     MessageTH: 'ขอโทษด้วยค่ะ ฉันไม่ได้หมายความว่า
 
       ฉันเกลียดหรืออะไรนะคะ'
-    MessageTW: 呃，我不是不喜歡的意思……
+    MessageTW: 不是那個，並不是討厭的意思……
   - MessageGroupId: 260000100
     Id: 1900
     CharacterId: 26000
@@ -407,7 +407,7 @@ content:
     MessageTH: 'ฉันจะบอกสถานที่นัดพบให้นะคะ
 
       แล้วฉันจะไปรอคุณครูที่นั่นค่ะ'
-    MessageTW: 那個，我稍後會告訴你地點。我會在那裡等著
+    MessageTW: 那個，我稍後會告訴您地點。我會在那裡等著
   - MessageGroupId: 260000120
     Id: 1902
     CharacterId: 26000
@@ -443,7 +443,7 @@ content:
     MessageCN: 今天真的非常感谢，老师
     MessageEN: Thanks so much for today, Sensei.
     MessageTH: วันนี้ขอบคุณมากค่ะ คุณครู
-    MessageTW: 今天真的非常感謝，老師
+    MessageTW: 今天真的非常感謝您，老師
   - MessageGroupId: 260000140
     Id: 1904
     CharacterId: 26000
@@ -553,7 +553,7 @@ content:
     MessageCN: 老师，您好
     MessageEN: Hello, Sensei.
     MessageTH: สวัสดีค่ะ คุณครู
-    MessageTW: 你好，老師
+    MessageTW: 您好，老師
   - MessageGroupId: 260000170
     Id: 1910
     CharacterId: 26000
@@ -663,7 +663,7 @@ content:
     MessageCN: 非常感谢老师能抽出时间
     MessageEN: Thank you so much for making yourself available.
     MessageTH: ขอบคุณที่สละเวลาว่างให้ฉันนะคะ
-    MessageTW: 非常感謝您撥出時間
+    MessageTW: 非常感謝老師給我時間
   - MessageGroupId: 260000200
     Id: 1916
     CharacterId: 26000
@@ -681,7 +681,7 @@ content:
     MessageCN: 那我去拜访您 ～千夏～
     MessageEN: I'll come to you this time. - Chinatsu
     MessageTH: คราวนี้ฉันจะไปหาคุณครูเองค่ะ -ชินัตสึ
-    MessageTW: 我會去拜訪您　～千夏～
+    MessageTW: 我會去拜訪老師哦　～千夏～
   - MessageGroupId: 260000210
     Id: 1917
     CharacterId: 26000
@@ -741,7 +741,7 @@ content:
     MessageTH: 'ถ้ามีงานที่จะทำให้คุณครูเหนื่อยขึ้นล่ะก็
 
       บอกฉันล่วงหน้าได้เลยนะคะ'
-    MessageTW: 如果覺得有事情會讓你感到疲憊，請通知我一聲
+    MessageTW: 如果覺得有事情會讓老師感到疲憊，請通知我一聲
   - MessageGroupId: 260000210
     Id: 1920
     CharacterId: 26000
@@ -761,7 +761,7 @@ content:
     MessageTH: 'ฉันจะไปคอยช่วยดูแลคุณครูอยู่ข้างๆ
 
       ไม่ให้เหนื่อยเลยค่ะ'
-    MessageTW: 為了不再讓你累積疲勞，我會去幫忙的
+    MessageTW: 為了不再讓您累積疲勞，我會去幫忙的
   - MessageGroupId: 260000220
     Id: 1921
     CharacterId: 26000
@@ -833,7 +833,7 @@ content:
     MessageCN: 其实，我有一件事想拜托老师……
     MessageEN: I have a favor to ask of you...
     MessageTH: คือว่าฉันมีเรื่องที่อยากขอร้องคุณครู...
-    MessageTW: 其實，有件事想拜託你……
+    MessageTW: 其實，有件事想拜託老師……
   - MessageGroupId: 260000250
     Id: 260000040
     CharacterId: 26000
@@ -976,7 +976,9 @@ content:
     MessageJP: お仕事のご相談、です。書類作業のお手伝いをお願いできればと思いまして
     MessageCN: 是关于我工作的事情。不知道我能不能麻烦老师协助我做一些文书工作呢
     MessageEN: It's for work, Sensei. Just a lot of paperwork.
-    MessageTH: เรื่องงานค่ะ คุณครู เรื่องเขียนเอกสารค่ะ
+    MessageTH: 'เรื่องงานค่ะ คุณครู เรื่องเขียนเอกสาร
+
+      น่ะค่ะ'
     MessageTW: 是商量工作相關的事。希望能幫我處理文件類的工作
   - MessageGroupId: 260000290
     Id: 260000120
@@ -1109,7 +1111,7 @@ content:
     MessageTH: 'เรื่องงานวันนี้ ฉันต้องขอขอบคุณ
 
       อีกครั้งนะคะ คุณครู'
-    MessageTW: 今天真的非常感謝您
+    MessageTW: 今天真的非常感謝老師
   - MessageGroupId: 260000350
     Id: 260000190
     CharacterId: 26000
@@ -1203,7 +1205,7 @@ content:
     MessageTH: 'คราวหน้าฉันจะขอรบกวนคุณครูอีก
 
       ได้มั้ยคะ?'
-    MessageTW: 之後如果還有其他事，可以再拜託您嗎？
+    MessageTW: 之後如果還有其他事，可以再拜託老師嗎？
   - MessageGroupId: 260000380
     Id: 260000240
     CharacterId: 26000
@@ -1255,7 +1257,7 @@ content:
     MessageKR: 그때는 이번 같은 실수를 방지하기 위해, 장소도 새로 선정해 둘 테니……
     MessageJP: その時は、きちんと別の場所を
     MessageCN: 到那时，我一定好好找一个别的地方
-    MessageEN: I'll make sure to chose somewhere else...
+    MessageEN: I'll make sure to choose somewhere else...
     MessageTH: 'คราวหน้า ฉันจะระวังไม่ให้ทำพลาด
 
       เหมือนครั้งนี้ ฉันเลือกสถานที่ใหม่ไว้แล้ว...'

@@ -9,7 +9,7 @@ title:
     TextKr: 임협학생
     TextEn: Mob Student
     TextTh: นักเรียนผู้รักความยุติธรรม
-    TextTw: 任俠學生
+    TextTw: 任俠道的學生
   - GroupId: 1600403
     FavorScheduleId: 160043
     CharacterId: 16004
@@ -18,7 +18,7 @@ title:
     TextKr: 중요한 건 내면
     TextEn: What's on the Inside
     TextTh: สิ่งสำคัญที่อยู่ภายใน
-    TextTw: 交出重要物品
+    TextTw: 重要的是內在
   - GroupId: 1600405
     FavorScheduleId: 160045
     CharacterId: 16004
@@ -27,7 +27,7 @@ title:
     TextKr: 끝나지 않는 밤
     TextEn: Endless Night
     TextTh: ค่ำคืนที่แสนยาวนาน
-    TextTw: 不結束的夜晚
+    TextTw: 無止盡的夜晚
   - GroupId: 1600406
     FavorScheduleId: 160046
     CharacterId: 16004
@@ -444,7 +444,7 @@ content:
     MessageEN: Can you come here if you have time? Please!
     MessageTH: 'ถ้ามีเวลาออกมาเจอฉันหน่อยได้ไหมคะ?
 
-      ขอร้องล่ะค่ะ!!'
+      ขอร้องละค่ะ!!'
     MessageTW: 有時間的話能來嗎？拜託了！！
   - MessageGroupId: 160040110
     Id: 2123

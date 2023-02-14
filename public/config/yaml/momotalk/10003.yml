@@ -9,7 +9,7 @@ title:
     TextKr: 신상 굿즈!
     TextEn: New Merch!
     TextTh: สินค้าใหม่!
-    TextTw: 新產品
+    TextTw: 新作周邊！
   - GroupId: 1000303
     FavorScheduleId: 100033
     CharacterId: 10003
@@ -27,7 +27,7 @@ title:
     TextKr: 페로로 님 구출 작전
     TextEn: Peroro Rescue Mission
     TextTh: ปฏิบัติการช่วยท่านเพโรโร่!
-    TextTw: 解救佩洛洛作戰
+    TextTw: 佩洛洛大人救援作戰
   - GroupId: 1000306
     FavorScheduleId: 100036
     CharacterId: 10003
@@ -54,7 +54,7 @@ title:
     TextKr: 게릴라 악수회
     TextEn: Guerrilla Meet and Greet
     TextTh: งานจับมือแบบกองโจร
-    TextTw: 游擊握手會
+    TextTw: 突擊握手會
 content:
   - MessageGroupId: 100030010
     Id: 476
@@ -365,7 +365,7 @@ content:
     MessageTH: 'คุณครูคะ ตู้เกมคีบตุ๊กตาที่ร้านเกมข้างๆ
 
       สถานีรถไฟ'
-    MessageTW: 老師，車站前的遊戲中心的抓娃娃機！
+    MessageTW: 老師，車站前遊戲中心的抓娃娃機！
   - MessageGroupId: 100030110
     Id: 492
     CharacterId: 10003
@@ -605,7 +605,7 @@ content:
     MessageTH: 'ขอบคุณที่รับฟังเรื่องกังวลใจของฉัน
 
       นะคะ คุณครู'
-    MessageTW: 非常感謝你聽我說，老師
+    MessageTW: 非常感謝您聽我說，老師
   - MessageGroupId: 100030180
     Id: 504
     CharacterId: 10003
@@ -625,7 +625,7 @@ content:
     MessageTH: 'พอได้พูดสิ่งที่กังวลอยู่ในใจออกมา รู้สึก
 
       โล่งขึ้นเยอะเลยค่ะ'
-    MessageTW: 能將一直埋藏在心裡的東西說出來，感覺暢快多了
+    MessageTW: 能將一直埋藏在心裡的事說出來，感覺暢快多了
   - MessageGroupId: 100030190
     Id: 505
     CharacterId: 10003
@@ -649,7 +649,7 @@ content:
       กังวลใจอีก ฉันขอมาเล่าให้คุณครูฟังอีก
 
       ได้ไหมคะ?'
-    MessageTW: 那個……如果又有煩惱的話，還能聽我說嗎？
+    MessageTW: 那個……如果又有煩惱的話，還能聽我訴說嗎？
   - MessageGroupId: 100030200
     Id: 506
     CharacterId: 10003
@@ -685,7 +685,7 @@ content:
     MessageCN: 谢谢您，老师
     MessageEN: Thank you, Sensei.
     MessageTH: ขอบคุณค่ะ คุณครู
-    MessageTW: 非常感謝，老師
+    MessageTW: 非常謝謝您，老師
   - MessageGroupId: 100030210
     Id: 508
     CharacterId: 10003

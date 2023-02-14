@@ -18,7 +18,7 @@ title:
     TextKr: 마츠리운영관리부의 멋진 부장님!
     TextEn: President of the Festival Operations Department!
     TextTh: ท่านหัวหน้าสุดเท่ของชมรมจัดงานเทศกาล!
-    TextTw: 節慶營運管理部的帥氣部長！
+    TextTw: 節慶營運管理部的部長！
   - GroupId: 2300605
     FavorScheduleId: 230065
     CharacterId: 23006
@@ -36,7 +36,7 @@ title:
     TextKr: 오늘은 재충전
     TextEn: 'Recharge Day '
     TextTh: 'เติมพลังใจวันนี้ '
-    TextTw: 元氣充電中
+    TextTw: 元氣再充電中
 content:
   - MessageGroupId: 230060010
     Id: 2449
