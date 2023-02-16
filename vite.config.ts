@@ -71,10 +71,17 @@ export default defineConfig({
       workbox: {
         runtimeCaching: [
           {
-            urlPattern: /(.*?)\.(mp4|mp3|wav)$/i,
+            urlPattern: /(.*?)\.(mp4|mp3|wav|ogg)$/i,
             handler: 'CacheFirst',
             options: {
               cacheName: 'multimedia-cache',
+            },
+          },
+          {
+            urlPattern: /(.*?)\.(woff2?)$/i,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'font-cache',
             },
           },
           {
