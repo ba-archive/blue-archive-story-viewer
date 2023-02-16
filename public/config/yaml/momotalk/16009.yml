@@ -88,7 +88,7 @@ content:
     ImagePath: ''
     MessageKR: 이건 우리 같은 닌자 덕후들 사이에서 대대로 통용되는 전통의 인사!
     MessageJP: ふふっ……これはねー、忍者オタクの間で代々語り継がれてきた伝統の挨拶！
-    MessageCN: 哼哼……此即为，忍者粉间代代相传的传统问候方式！
+    MessageCN: 哼哼……此即为，忍者迷间代代相传的传统问候方式！
     MessageEN: This is how ninja nerds like us traditionally greet each other!
     MessageTH: 'นี่เป็นวิธีทักทายแบบดั้งเดิมที่ใช้กันมาใน
 
@@ -108,7 +108,7 @@ content:
     ImagePath: ''
     MessageKR: 이걸 받아주지 않는다니 그러고도 선생 공이 나와 같은 닌자 덕후 동지…. <닌자 메이트>를 자처할 수 있겠어?
     MessageJP: これに返せないとは、先生殿も忍者オタク仲間……忍者メイトとしてはまだ未熟のようだね！
-    MessageCN: 连这都接不上的话，老师大人作为忍者粉之友……忍者伴侣的修为还太浅了！
+    MessageCN: 连这都接不上的话，说明老师大人作为忍者迷之友……忍者伙伴的修为还太浅了！
     MessageEN:
       You must accept this way of greeting to be my ninja nerd friend...and
       ultimately, my ninja companion!
@@ -132,7 +132,7 @@ content:
     ImagePath: ''
     MessageKR: 아니, 그런 걸 자처했던 기억은 없는데….
     MessageJP: 忍者メイト……？
-    MessageCN: 忍者伴侣……？
+    MessageCN: 忍者伙伴……？
     MessageEN: I don't remember agreeing to this...
     MessageTH: เดี๋ยวสิ ครูยังไม่ได้ตกลงสักหน่อย...
     MessageTW: 忍者好夥伴……？
@@ -188,7 +188,7 @@ content:
     ImagePath: ''
     MessageKR: 야심한 밤……. 달밤 아래에서 나와 함께 단둘이서 앰부쉬를 했던 추억을!
     MessageJP: 草木も寝静まるあの夜更け……月夜の下で、私と一緒に二人でアンブッシュしたあの思い出を！
-    MessageCN: 在草木皆眠的那个深夜……以及你我二人埋伏在月夜下的那个夜晚!
+    MessageCN: 在草木皆眠的那个深夜……以及你我二人埋伏在月夜下的那个夜晚！
     MessageEN:
       Late at night...under the moon, talking about ambushes...just you and
       me!
@@ -234,7 +234,7 @@ content:
     ImagePath: ''
     MessageKR: 그런 굉장한 추억 없거든?! 앰부쉬라니, 뭐냐고!
     MessageJP: それはちょっと記憶に無いかな……？
-    MessageCN: 关于满说的那个行动我好像没什么记忆啊……？
+    MessageCN: 我好像不记得有那回事啊……？
     MessageEN: I don't remember that at all! What ambush are you talking about?!
     MessageTH: ครูไม่เคยจำเรื่องนั้นได้เลยซุ่มโจมตีอะไรกัน?!
     MessageTW: 我怎麼不記得有這件事……？
@@ -252,7 +252,7 @@ content:
     ImagePath: ''
     MessageKR: 뭐, 사소한 건 됐고~
     MessageJP: まぁまぁ細かい事は気にしない～
-    MessageCN: 好啦好啦，不用在意这些小事～
+    MessageCN: 好啦好啦，不用在意这些细节～
     MessageEN: Well, let's not worry about the details!
     MessageTH: โธ่เอ๊ย ช่างเรื่องเล็กน้อยนั่นเถอะ~
     MessageTW: 小細節就別管了～
@@ -486,7 +486,7 @@ content:
     ImagePath: ''
     MessageKR: 아니, 방문 예고를 그런 식으로 해도 말이지….
     MessageJP: 予告……！？
-    MessageCN: 预告！？
+    MessageCN: 预告信！？
     MessageEN: I guess you did give me notice, but...
     MessageTH: เดี๋ยวสิ มาบอกก่อนแบบนี้ก็ได้เหรอ...
     MessageTW: 預告信……！？
@@ -714,7 +714,7 @@ content:
     ImagePath: ''
     MessageKR: 비공인 동아리인데, <부장>이라고 불러도 되는 걸까?
     MessageJP: そういえば非認可の部活って、「部長」って呼んで良いのかな？
-    MessageCN: 这么说来，忍术研究部还是未经认可的部门，可以叫满“部长”吗？
+    MessageCN: 话说，忍术研究部还是未经认可的部门，可以叫满“部长”吗？
     MessageEN: But it's an unofficial club. Is it okay to call yourself a president?
     MessageTH: 'ชมรมไม่เป็นทางการ
 
@@ -985,7 +985,7 @@ content:
     ImagePath: ''
     MessageKR: 좀 비싸서 고민했는데, 선생 공 말을 듣고 결심했어!
     MessageJP: ちょっと高くて悩んでたんだけど、先生の言葉を聞いて踏ん切りがついたよ！
-    MessageCN: 虽然我还在纠结是不是有点贵，但是听了老师的话，我下定决心了！
+    MessageCN: 本来我还在纠结是不是有点贵，但是听了老师的话，我下定决心了！
     MessageEN:
       The stuff is kind of expensive, so I was hesitant...but now I've changed
       my mind!
@@ -1009,7 +1009,7 @@ content:
     ImagePath: ''
     MessageKR: 응! 어디까지나 미래를 위한 투자로써 말이지!
     MessageJP: そう、これは忍術研究部の未来への投資！
-    MessageCN: 没错，这是对忍术研究部的将来进行的投资！
+    MessageCN: 没错，这是对忍术研究部的未来进行的投资！
     MessageEN: Yeah! It's an investment into my future!
     MessageTH: อื้ม! นับเป็นการลงทุนเพื่ออนาคต!
     MessageTW: 沒錯！這些都是為了忍術研究部的未來所做的投資！
@@ -1027,7 +1027,7 @@ content:
     ImagePath: ''
     MessageKR: 어딜 봐도 욕망으로 가득하잖아….
     MessageJP: ただ自分が欲しいわけではなく……？
-    MessageCN: 满真的不是自己想要……？
+    MessageCN: 你真的不是自己想要……？
     MessageEN: You're so greedy...
     MessageTH: อยากได้ไปซะทุกอย่างเลยสินะ...
     MessageTW: 你確定不是單純自己想要嗎……？
@@ -1065,7 +1065,7 @@ content:
     ImagePath: ''
     MessageKR: (휘리리릭! 파바바바밧!) <- 엄청나게 멋지게 달려가는 소리
     MessageJP: （くるりっ！シュババババッ！）←ものすごくかっこよく宙返りして走っていく音
-    MessageCN: （骨碌！咻啪啪啪！）←非常帅气地翻筋斗离去的声音
+    MessageCN: （骨碌！咻啪啪啪！）←非常帅气地后空翻奔跑的声音
     MessageEN: '*swoosh* *tatatatat* <- sound of running super fast'
     MessageTH: (ฟึ่บๆๆ ฉับๆๆๆ) <- เสียงวิ่งอย่างสง่างาม
     MessageTW: （刷刷！咻啪啪啪啪！）←非常帥氣地後空翻奔跑的聲音
@@ -1139,7 +1139,7 @@ content:
     ImagePath: ''
     MessageKR: 그러니까 그거. 내가 자주 보는 만화책- <카마보코 돌풍전> 19권 말이야
     MessageJP: 「かまぼこ突風伝」の19巻！
-    MessageCN: 《鱼糕疾风传》的第19卷！
+    MessageCN: 《鱼板疾风传》的第19卷！
     MessageEN: 'The manga I always read. "Kama-Boko Gale Battle, Volume 19." '
     MessageTH: 'คือว่า... มังงะที่ข้าน้อยอ่านบ่อยๆ
 
@@ -1159,7 +1159,7 @@ content:
     ImagePath: ''
     MessageKR: 부실에서 아무리 찾아봐도 보이지 않길래. 짚이는 곳이 거기뿐이더라고
     MessageJP: 部室に無いから、あとはシャーレくらいかなって
-    MessageCN: 因为活动室里没找到，我觉得那应该就是在夏莱了
+    MessageCN: 我看活动室里没有，那应该就是在夏莱了
     MessageEN:
       I searched the club room everywhere for it but couldn't find it. It's
       gotta be in the office.
@@ -1199,7 +1199,7 @@ content:
     ImagePath: ''
     MessageKR: 응…? 그야 우리 부실. 일단은 임시고. 언제 백화요란 녀석들이 들이닥칠지 모르고
     MessageJP: それはその、うちの部室、あくまで仮の場所だし……いつ百花繚乱が押し寄せてくるかも分からないから……
-    MessageCN: 那个，因为，我们的活动室毕竟只是临时的……也说不定哪天哪天百花缭乱的人就进来了
+    MessageCN: 那个，因为，我们的活动室毕竟只是暂时的……也说不定哪天哪天百花缭乱的人就进来了
     MessageEN:
       Huh...? Well, our club room is temporary, and we don't know when those
       Hyakkayouran jerks will invade.
@@ -1283,7 +1283,7 @@ content:
     ImagePath: ''
     MessageKR: 샬레는 창고가 아닙니다. 미치루 양….
     MessageJP: シャーレは倉庫じゃないんですよ、ミチルさん……
-    MessageCN: 夏莱可不是仓库啊，满大人……
+    MessageCN: 夏莱可不是仓库啊，满女士……
     MessageEN: Schale is not a storage facility, Michiru...
     MessageTH: ชาเล่ต์ไม่ใช่ที่เก็บของนะ มิจิรุจัง...
     MessageTW: 夏萊可不是倉庫呀，三千留小姐……
@@ -1301,7 +1301,7 @@ content:
     ImagePath: ''
     MessageKR: 아! 심심하면 선생 공도 봐도 되니까! 추천하거든! 카마보코 시리즈!
     MessageJP: もちろん先生殿も読んで良いよ、「かまぼこ」シリーズ面白いから！
-    MessageCN: 当然老师也可以读一读，毕竟《鱼糕》系列非常有意思！
+    MessageCN: 当然老师也可以读一读，毕竟《鱼板》系列非常有意思！
     MessageEN:
       Oh! If you ever get bored, you should read it! I highly recommend the
       Kama-Boko series!
@@ -1401,7 +1401,7 @@ content:
     ImagePath: ''
     MessageKR: (파바바바바바밧!!!) <- 신발 끈 묶는 소리
     MessageJP: （しゅばばばばばばっ！！！）←靴ひもを結ぶ音
-    MessageCN: （咻啪啪啪！）←系鞋带的声音
+    MessageCN: （咻啪啪啪啪啪啪！）←系鞋带的声音
     MessageEN: '*shwoop shwoop shwoop shwoop* <- sound of tying shoelaces'
     MessageTH: (ฟึ่บๆๆๆ) <- เสียงผูกเชือกรองเท้า
     MessageTW: （啪沙沙沙沙沙沙）←綁鞋帶的聲音

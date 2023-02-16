@@ -486,7 +486,9 @@ content:
     MessageJP: '分かった☆
 
       おやすみ！'
-    MessageCN: 我知道了☆晚安！
+    MessageCN: '我知道了☆
+
+      晚安！'
     MessageEN: ''
     MessageTH: ''
     MessageTW: ''
