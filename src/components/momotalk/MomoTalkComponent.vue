@@ -25,10 +25,9 @@
             <span class="dot-3">·</span>
           </div>
           <div v-show="showMessageContent" class="message-content">
-            <span
-              v-if="'Image' !== messageType"
-              v-html="getMessageText(message)"
-            ></span>
+            <span v-if="'Image' !== messageType">{{
+              getMessageText(message)
+            }}</span>
             <img
               v-else
               :src="getMessageImagePath(message?.ImagePath)"
@@ -51,8 +50,9 @@
           :key="index"
           :class="index === currentSelection ? 'selected' : ''"
           @click="handleSelection(index, message?.Id, option.NextGroupId)"
-          v-html="getMessageText(option)"
-        ></div>
+        >
+          {{ getMessageText(option) }}
+        </div>
       </div>
     </div>
   </div>
@@ -192,9 +192,7 @@ function stripRubyContent(content: string | undefined): string {
   if (!content) {
     return '';
   }
-  return content
-    .replaceAll(/\[\/?ruby=?.*?]/gi, '')
-    .replaceAll(/\s/g, '&ensp;');
+  return content.replaceAll(/\[\/?ruby=?.*?]/gi, '');
 }
 
 const languageMap = {
@@ -246,6 +244,7 @@ function getMessageText(
   margin-top: 0.5rem;
   padding: 0 0.5rem;
   width: 100%;
+  white-space: pre-wrap;
 
   &.condensed {
     margin-top: 0.3rem;
