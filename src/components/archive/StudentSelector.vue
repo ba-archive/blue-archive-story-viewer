@@ -126,8 +126,10 @@ const armorTypes = [
   { string: 'LightArmor', name: '轻装甲', order: 1 },
   { string: 'HeavyArmor', name: '重装甲', order: 2 },
   { string: 'Unarmed', name: '神秘装甲', order: 3 },
+  { string: 'ElasticArmor', name: '弹性装甲', order: 4 },
 ];
 
+// TODO: Sound 译名待定
 /**
  * @namespace bulletTypes
  * @description 目前游戏内的三种子弹类型，order 字段用于排序
@@ -136,6 +138,7 @@ const bulletTypes = [
   { string: 'Explosion', name: '爆发', order: 1 },
   { string: 'Pierce', name: '贯通', order: 2 },
   { string: 'Mystic', name: '神秘', order: 3 },
+  { string: 'Sound', name: '振动', order: 4 },
 ];
 
 // 因为约定俗成的装甲属性排列是 轻装甲-重装甲-神秘装甲，所以根据这个顺序进行排序
@@ -690,6 +693,16 @@ onUnmounted(() => {
 
     &.active {
       background-color: var(--color-text-unarmed);
+      color: var(--color-text-contrast);
+    }
+  }
+
+  &.elasticarmor,
+  &.sound {
+    color: var(--color-text-elastic-armor);
+
+    &.active {
+      background-color: var(--color-text-elastic-armor);
       color: var(--color-text-contrast);
     }
   }
