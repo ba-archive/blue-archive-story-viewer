@@ -3152,3 +3152,9 @@
   armorType: HeavyArmor
   bulletType: Mystic
   weapon: SG
+- id: 10062
+  name:
+    cn: 时
+- id: 20024
+  name:
+    cn: 渚
