@@ -3153,8 +3153,48 @@
   bulletType: Mystic
   weapon: SG
 - id: 10062
+  familyName:
+    cn: 飞鸟马
+    jp: 飛鳥馬
+    en: Asuma
+    kr: 아스마
+    tw: 飛鳥馬
+    th: อาสมะ
   name:
     cn: 时
+    jp: トキ
+    en: Toki
+    kr: 토키
+    tw: 時
+    th: โตกิ
+  nickname: []
+  club: C&C
+  affiliation: 千年
+  rarity: 3
+  type: Striker
+  armorType: ElasticArmor
+  bulletType: Explosion
+  weapon: SG
 - id: 20024
+  familyName:
+    cn: 桐藤
+    jp: 桐藤
+    en: Kirifuji
+    kr: 키리후지
+    tw: 桐藤
+    th: คิริฟูจิ
   name:
     cn: 渚
+    jp: ナギサ
+    en: Nagisa
+    kr: 나기사
+    tw: 渚
+    th: นากิซะ
+  nickname: []
+  club: 茶会
+  affiliation: 圣三一
+  rarity: 3
+  type: Striker
+  armorType: HeavyArmor
+  bulletType: Explosion
+  weapon: SMG
