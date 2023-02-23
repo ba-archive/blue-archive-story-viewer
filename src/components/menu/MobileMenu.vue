@@ -20,9 +20,9 @@
         @keydown.enter="toggleMenu"
         @keydown.esc="closeMenu"
       >
-        <span class="menu-line start" :class="showMenu ? 'active' : ''"></span>
-        <span class="menu-line middle" :class="showMenu ? 'active' : ''"></span>
-        <span class="menu-line end" :class="showMenu ? 'active' : ''"></span>
+        <span class="menu-line start" :class="{ active: showMenu }"></span>
+        <span class="menu-line middle" :class="{ active: showMenu }"></span>
+        <span class="menu-line end" :class="{ active: showMenu }"></span>
       </div>
     </div>
 

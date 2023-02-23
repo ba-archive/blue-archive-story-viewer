@@ -41,9 +41,7 @@ const links: FriendLink[] = [
         >
           <img
             class="logo"
-            :class="
-              link.shouldReverseOnDarkTheme ? 'should-reverse-on-dark' : ''
-            "
+            :class="{ 'should-reverse-on-dark': link.shouldReverseOnDarkTheme }"
             :src="link.logo"
             :alt="link.logoDescription"
           />

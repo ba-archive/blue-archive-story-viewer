@@ -13,10 +13,6 @@ const showMobileMenu = ref(false);
 
 const isMainPage = computed(() => route.path === '/');
 
-const getMainPageClass = computed(() =>
-  route.path === '/' ? 'main-page' : ''
-);
-
 const isMac = () => {
   const userAgent = navigator.userAgent;
   return userAgent.indexOf('Mac OS X') > -1;
@@ -60,7 +56,11 @@ onBeforeUnmount(() => {
 <template>
   <mobile-menu v-if="showMobileMenu" />
   <desktop-menu v-else />
-  <div id="main-view" class="rounded-large" :class="getMainPageClass">
+  <div
+    id="main-view"
+    class="rounded-large"
+    :class="{ 'main-page': '/' === route.path }"
+  >
     <home-welcome-screen v-if="isMainPage" />
     <router-view></router-view>
   </div>

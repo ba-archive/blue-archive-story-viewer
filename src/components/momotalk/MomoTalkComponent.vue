@@ -9,7 +9,7 @@
     <div class="student-reply" v-if="'Answer' !== messageCondition">
       <img
         class="student-avatar"
-        :class="message?.avatar ? '' : 'hidden'"
+        :class="{ hidden: !message?.avatar }"
         :src="studentAvatar"
         :alt="studentName"
       />
@@ -48,7 +48,7 @@
           class="rounded-small shadow-near"
           v-for="(option, index) in message?.options?.content"
           :key="index"
-          :class="index === currentSelection ? 'selected' : ''"
+          :class="{ selected: index === currentSelection }"
           @click="handleSelection(index, message?.Id, option.NextGroupId)"
         >
           {{ getMessageText(option) }}
