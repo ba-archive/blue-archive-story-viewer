@@ -22,7 +22,7 @@ specifiers:
   fastest-levenshtein: 1.0.16
   js-yaml: 4.1.0
   pinia: 2.0.30
-  pinia-plugin-persistedstate: 3.0.2
+  pinia-plugin-persistedstate: 3.1.0
   postcss: 8.4.21
   postcss-plugin-px2rem: 0.8.1
   postcss-preset-env: 8.0.1
@@ -47,7 +47,7 @@ dependencies:
   axios-retry: 3.4.0
   fastest-levenshtein: 1.0.16
   pinia: 2.0.30_hmuptsblhheur2tugfgucj7gc4
-  pinia-plugin-persistedstate: 3.0.2_pinia@2.0.30
+  pinia-plugin-persistedstate: 3.1.0_pinia@2.0.30
   toastify-js: 1.12.0
   vue: 3.2.47
   vue-router: 4.1.6_vue@3.2.47
@@ -4269,8 +4269,8 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
-  /pinia-plugin-persistedstate/3.0.2_pinia@2.0.30:
-    resolution: {integrity: sha512-84vPyUhPA/8Pr+1mT1ioNb2d8z4tvdgYRqMQf8xyauOVBKjo0ZcRBwPQBV7ZAJG43Kwar43nXG2jU+ZMvAFFRQ==}
+  /pinia-plugin-persistedstate/3.1.0_pinia@2.0.30:
+    resolution: {integrity: sha512-8UN+vYMEPBdgNLwceY08mi5olI0wkYaEb8b6hD6xW7SnBRuPydWHlEhZvUWgNb/ibuf4PvufpvtS+dmhYjJQOw==}
     peerDependencies:
       pinia: ^2.0.0
     dependencies:
