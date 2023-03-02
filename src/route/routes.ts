@@ -81,6 +81,16 @@ const routes: Array<RouteRecordRaw> = [
           ],
         },
         component: () => import('../components/MainStoryHome.vue'),
+        children: [
+          {
+            path: ':id',
+            name: 'MainStoryDetails',
+            meta: {
+              shouldShowInNav: false,
+            },
+            component: () => import('../components/StoryViewer.vue'),
+          },
+        ],
       },
       {
         path: '/miniStory',
