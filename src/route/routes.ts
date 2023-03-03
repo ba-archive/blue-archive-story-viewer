@@ -60,6 +60,17 @@ const routes: Array<RouteRecordRaw> = [
                 },
                 component: () =>
                   import('../components/archive/StudentStoryContainer.vue'),
+                children: [
+                  {
+                    path: ':groupId',
+                    name: 'StudentStoryViewer',
+                    meta: {
+                      shouldShowInNav: false,
+                    },
+                    component: () =>
+                      import('../components/archive/StudentStoryPlayer.vue'),
+                  },
+                ],
               },
             ],
           },

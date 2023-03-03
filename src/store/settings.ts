@@ -9,6 +9,8 @@ export const useSettingsStore = defineStore({
         lang: 'cn',
         theme: 'light' as 'light' | 'dark',
         username: 'Sensei' as string,
+        useMp3: false,
+        useSuperSampling: false,
       },
       studentFilters: {
         searchString: '',
@@ -33,6 +35,8 @@ export const useSettingsStore = defineStore({
     getTypeFilter: state => state.studentFilters.type,
     getArmorTypeFilter: state => state.studentFilters.armorType,
     getBulletTypeFilter: state => state.studentFilters.bulletType || [],
+    getUseMp3: state => state.settings.useMp3,
+    getUseSuperSampling: state => state.settings.useSuperSampling,
   },
   actions: {
     setLang(lang: string) {
@@ -64,6 +68,12 @@ export const useSettingsStore = defineStore({
     },
     clearStudentFilter(property: keyof StudentAttributeFilters) {
       this.studentFilters[property] = [];
+    },
+    setUseMp3(useMp3: boolean) {
+      this.settings.useMp3 = useMp3;
+    },
+    setUseSuperSampling(useSuperSampling: boolean) {
+      this.settings.useSuperSampling = useSuperSampling;
     },
   },
 });

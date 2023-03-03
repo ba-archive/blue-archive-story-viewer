@@ -18,7 +18,7 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 import { useRoute } from 'vue-router';
-import { Story } from '../types/StoryJson';
+import { StoryBriefing } from '../types/StoryJson';
 import StoryLineContainer from './story/StoryLineContainer.vue';
 
 const route = useRoute();
@@ -26,14 +26,14 @@ const route = useRoute();
 const storySelected = computed(() => !/\/mainStory\/?$/.test(route.path));
 
 /* eslint-disable max-len */
-const stories: Story[] = [
+const stories: StoryBriefing[] = [
   {
     title: '序章',
     avatar: '/image/story_cover/prologue.webp',
     sections: [
       {
         title: '序章 1.1',
-        story_id: 10001,
+        story_id: 11000,
         description: {
           TextKr:
             '기묘한 내용의 꿈으로부터 깨어난 직후, 선생님은 총학생회의 간부인 나나가미 린으로부터 총학생회장이 사라졌다는 소식을 전해 듣는다. 총학생회장의 실종으로 인해 학원도시 키보토스는 혼란에 휩싸이게 되고, 이 혼란을 해결하기 위해 선생님은 학생회 임원들과 함께 샬레 동아리실로 향한다.',

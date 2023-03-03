@@ -42,7 +42,7 @@
     font-weight: bold;
     text-decoration: none;
 
-    &.router-link-exact-active {
+    &.router-link-active {
       box-shadow: var(--style-primary-inset-main);
     }
   }

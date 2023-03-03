@@ -1,13 +1,17 @@
 <script setup lang="ts">
-import { computed } from 'vue';
+import { PropType, computed } from 'vue';
 import { useSettingsStore } from '../../store/settings';
+import { CommonStoryTextObject } from '../../types/StoryJson';
 
 const settingsStore = useSettingsStore();
 
 const props = defineProps({
   title: { type: String, required: true },
   avatar: { type: String, required: false, default: '' },
-  description: { type: Object, required: true },
+  description: {
+    type: Object as PropType<CommonStoryTextObject>,
+    required: true,
+  },
 });
 
 const currentLanguage = computed(() => settingsStore.getLang);
