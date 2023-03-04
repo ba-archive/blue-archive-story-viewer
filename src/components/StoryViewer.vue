@@ -212,7 +212,7 @@ function handleUseMp3(value: boolean) {
     margin-top: 1rem;
   }
 }
-.player-container{
+.player-container {
   user-select: none;
 }
 </style>
