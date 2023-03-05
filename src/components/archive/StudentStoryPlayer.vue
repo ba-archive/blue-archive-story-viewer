@@ -94,6 +94,7 @@
 </template>
 
 <script setup lang="ts">
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import axios from 'axios';
 import StoryPlayer from 'ba-story-player';
 import { computed, onMounted, onUnmounted, ref } from 'vue';
