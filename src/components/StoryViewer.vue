@@ -204,13 +204,13 @@ function handleUseMp3(value: boolean) {
     router.go(0);
   }, 375); // 等动画结束之后刷新页面
 }
-onMounted(()=>{
+onMounted(() => {
   // 如果不是初次播放直接刷新
-  if((window as any).hasStoryPlayed){
+  if ((window as any).hasStoryPlayed) {
     location.reload();
   }
-}, )
-onUnmounted(()=>{
+});
+onUnmounted(() => {
   // 调用清空函数
   if (storyComp?.value?.clear) {
     storyComp.value.clear();
