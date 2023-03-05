@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@pixi-spine/base": "^3.1.0",
-    "@pixi/constants": ">=6.1.0 <7.0.0",
+    "@pixi/constants": ">=6.1.0 <8.0.0",
     "@pixi/core": "6.5.9",
     "@pixi/display": ">=6.1.0 <7.0.0",
     "@pixi/extensions": "6.5.9",
