@@ -204,19 +204,19 @@ function handleUseMp3(value: boolean) {
     router.go(0);
   }, 375); // 等动画结束之后刷新页面
 }
-onActivated(()=>{
+onActivated(() => {
   // 如果不是初次播放直接刷新
-  debugger
-  if(hasStoryPlayed.value){
+  debugger;
+  if (hasStoryPlayed.value) {
     location.reload();
   }
-})
-onUnmounted(()=>{
+});
+onUnmounted(() => {
   // 调用清空函数
-  if(storyComp?.value?.clear){
-    storyComp.value.clear()
+  if (storyComp?.value?.clear) {
+    storyComp.value.clear();
   }
-})
+});
 </script>
 
 <style scoped lang="scss">
