@@ -16,6 +16,13 @@ const links: FriendLink[] = [
     description: '为玩家服务的民间组织，尊重官方设定',
   },
   {
+    title: '项目公告板 (bilibili)',
+    url: 'https://space.bilibili.com/37507923',
+    logo: '/favicon/apple-touch-icon.png',
+    logoDescription: '项目logo',
+    description: '更新公告等内容发布',
+  },
+  {
     title: '项目主页',
     url: 'https://github.com/ba-archive/blue-archive-story-viewer',
     logo: '/image/contributor/github-logo.svg',

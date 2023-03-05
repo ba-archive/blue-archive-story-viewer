@@ -68,6 +68,7 @@ function getFallbackTitle() {
         `${parseInt(index?.toString() || '0') + 1}`.padStart(2, '0')
       }}</span>
     </div>
+
     <div class="navigation-button rounded-small" role="button" tabindex="0">
       <svg
         class="navigation-arrow"

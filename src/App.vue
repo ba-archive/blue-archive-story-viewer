@@ -62,7 +62,7 @@ onBeforeUnmount(() => {
     :class="{ 'main-page': '/' === route.path }"
   >
     <home-welcome-screen v-if="isMainPage" />
-    <router-view></router-view>
+    <router-view> </router-view>
   </div>
 </template>
 

@@ -60,6 +60,17 @@ const routes: Array<RouteRecordRaw> = [
                 },
                 component: () =>
                   import('../components/archive/StudentStoryContainer.vue'),
+                children: [
+                  {
+                    path: ':groupId',
+                    name: 'StudentStoryViewer',
+                    meta: {
+                      shouldShowInNav: false,
+                    },
+                    component: () =>
+                      import('../components/archive/StudentStoryPlayer.vue'),
+                  },
+                ],
               },
             ],
           },
@@ -81,6 +92,16 @@ const routes: Array<RouteRecordRaw> = [
           ],
         },
         component: () => import('../components/MainStoryHome.vue'),
+        children: [
+          {
+            path: ':id',
+            name: 'MainStoryDetails',
+            meta: {
+              shouldShowInNav: false,
+            },
+            component: () => import('../components/StoryViewer.vue'),
+          },
+        ],
       },
       {
         path: '/miniStory',
@@ -123,15 +144,15 @@ const routes: Array<RouteRecordRaw> = [
           shouldShowInNav: true,
           navOrder: 6,
           m17n: [
-            { lang: 'cn', title: '成为贡献者' },
-            { lang: 'tw', title: '成為貢獻者' },
-            { lang: 'jp', title: 'プロジェクトに貢献する' },
-            { lang: 'en', title: 'Contribute to our project' },
-            { lang: 'kr', title: '프로젝트에 기여하기' },
-            { lang: 'th', title: 'มีส่วนร่วมในโครงการ' },
+            { lang: 'cn', title: '更新日志' },
+            { lang: 'tw', title: '更新日誌' },
+            { lang: 'jp', title: 'アップデートログ' },
+            { lang: 'en', title: 'Update Log' },
+            { lang: 'kr', title: '업데이트 로그' },
+            { lang: 'th', title: 'บันทึกการอัปเดต' },
           ],
         },
-        component: () => import('../components/ContributeToProject.vue'),
+        component: () => import('../components/UpdateLog.vue'),
       },
       {
         path: '/friendlinks',

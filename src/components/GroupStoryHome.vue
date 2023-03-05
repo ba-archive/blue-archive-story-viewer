@@ -3,13 +3,11 @@
     <div class="content-wrapper flex-vertical rounded-small">
       社团剧情在做了在做了
     </div>
-    <router-link to="/contribute">
-      <img
-        class="hire"
-        src="/src/assets/eat_people.webp"
-        alt="代码滞销帮帮我们"
-      />
-    </router-link>
+    <img
+      class="hire"
+      src="/src/assets/be_patient.webp"
+      alt="代码滞销帮帮我们"
+    />
   </div>
 </template>
 
@@ -19,7 +17,6 @@
 
 <style scoped>
 img.hire {
-  cursor: pointer;
   margin: 0 auto;
   max-width: 20rem;
 }
