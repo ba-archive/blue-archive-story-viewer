@@ -10,7 +10,7 @@
     </div>
     <div class="content-wrapper flex-vertical rounded-small">
       <neu-dialog
-        v-if="!consentFromConfirmed"
+        v-if="!consentFromConfirmed && ready"
         title="提示"
         show-mask="false"
         shadow
@@ -35,14 +35,15 @@
             <p>
               手机用户将自动进入全屏模式。可以点击菜单中的第一个按钮切换全屏模式。
             </p>
-            <p>
-              在 iPhone、iPad 以及 MacBook 的 Safari 浏览器中，可能出现 BGM
-              和语音无法播放的情况。
-            </p>
+            <p>在 Safari 浏览器中，可能出现 BGM 和语音无法播放的情况。</p>
             <p>
               若遇到此问题，请尝试将播放器下方的<strong
                 >“兼容 Apple 设备”</strong
               >开关拨至右边，并检查是否静音。
+            </p>
+            <p style="color: red">
+              在 iPhone 的 Safari
+              浏览器上，由于苹果不提供相关功能，播放器无法完美全屏。如果遇到尺寸问题，请尝试退出再进入全屏模式。
             </p>
             <p>
               如果在播放过程中遇到任何问题，或有任何疑问，欢迎
@@ -173,8 +174,8 @@ watch(
   () => containerWidth.value,
   () => {
     playerWidth.value =
-      containerWidth.value < 425
-        ? (16 * (containerWidth.value - 32)) / 9
+      document.body.clientWidth <= 425
+        ? 360
         : Math.min(
             containerWidth.value - 32,
             (16 * (containerHeight.value - 32)) / 9,
@@ -201,17 +202,12 @@ function handleUseMp3(value: boolean) {
 </script>
 
 <style scoped lang="scss">
-@media (max-width: 425px) {
-  .story-container {
-    transform: rotate(270deg);
-  }
-}
-
 .story-container {
   .player-settings {
     margin-top: 1rem;
   }
 }
+
 .player-container {
   user-select: none;
 }

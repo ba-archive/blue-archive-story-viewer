@@ -14,11 +14,7 @@
         >好感剧情</router-link
       >
     </div>
-    <router-view v-slot="{ Component }">
-      <keep-alive include="MomotalkContainer" :max="1">
-        <component :is="Component" />
-      </keep-alive>
-    </router-view>
+    <router-view> </router-view>
   </div>
 </template>
 
