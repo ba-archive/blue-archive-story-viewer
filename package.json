@@ -13,7 +13,7 @@
     "check": "eslint --fix --config ./.eslintrc.json ./src/ ./CICD/ ./public/config/yaml/ --ext .js,.ts,.vue,.yml,.yaml && vue-tsc --noEmit"
   },
   "dependencies": {
-    "@pixi-spine/base": "^3.1.0",
+    "@pixi-spine/base": "^4.0.0",
     "@pixi/constants": ">=6.1.0 <7.0.0",
     "@pixi/core": "6.5.9",
     "@pixi/display": ">=6.1.0 <7.0.0",
