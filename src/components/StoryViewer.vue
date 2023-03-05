@@ -212,10 +212,10 @@ onMounted(()=>{
 }, )
 onUnmounted(()=>{
   // 调用清空函数
-  if(storyComp?.value?.clear){
-    storyComp.value.clear()
+  if (storyComp?.value?.clear) {
+    storyComp.value.clear();
   }
-})
+});
 </script>
 
 <style scoped lang="scss">
