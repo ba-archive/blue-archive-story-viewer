@@ -179,7 +179,7 @@ watch(
   () => containerWidth.value,
   () => {
     playerWidth.value =
-      document.body.clientWidth <= 425
+      document.body.clientWidth <= 360
         ? 360
         : Math.min(
             containerWidth.value - 32,

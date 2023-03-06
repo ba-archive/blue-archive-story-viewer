@@ -164,9 +164,9 @@ axios
     ready.value = true;
   });
 
-const playerWidth = document.body.clientWidth <= 425 ? 360 : 720;
+const playerWidth = document.body.clientWidth <= 360 ? 360 : 720;
 const playerHeight = playerWidth * 0.5625;
-const startFullScreen = ref(document.body.clientWidth < 425);
+const startFullScreen = ref(document.body.clientWidth <= 425);
 const useMp3 = computed(() => settingsStore.getUseMp3);
 const useSuperSampling = computed(() => settingsStore.getUseSuperSampling);
 const showUseSuperSampling = [''].includes(studentId.value);
