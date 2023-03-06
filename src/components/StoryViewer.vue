@@ -10,7 +10,7 @@
     </div>
     <div class="content-wrapper flex-vertical rounded-small">
       <neu-dialog
-        v-if="!consentFromConfirmed && ready"
+        v-if="!consentFromConfirmed && ready && !fetchError"
         title="提示"
         show-mask="false"
         shadow
@@ -152,7 +152,10 @@ axios
   })
   .catch(err => {
     fetchError.value = true;
-    fetchErrorMessage.value = err;
+    fetchErrorMessage.value =
+      route.params.id.toString() === '11000'
+        ? err
+        : '该剧情目前尚未开放，敬请期待！';
   })
   .finally(() => {
     ready.value = true;

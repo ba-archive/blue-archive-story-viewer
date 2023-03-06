@@ -1,4 +1,4 @@
-/* eslint-disable no-unused-vars,@typescript-eslint/no-unused-vars */
+/* eslint-disable no-unused-vars,@typescript-eslint/no-unused-vars,@typescript-eslint/ban-ts-comment */
 import px2rem from 'postcss-plugin-px2rem';
 import postcssPresetEnv from 'postcss-preset-env';
 import { visualizer } from 'rollup-plugin-visualizer';
@@ -42,8 +42,8 @@ export default defineConfig({
       registerType: 'prompt',
       includeAssets: ['favicon/*.png'],
       manifest: {
-        name: 'Blue Archive Story Viewer',
-        short_name: 'BA Stories',
+        name: '碧蓝档案剧情站',
+        short_name: 'BA剧情站',
         description: 'Yet another Blue Archive story viewer',
         lang: 'zh-CN',
         theme_color: '#62abe9',
@@ -107,6 +107,7 @@ export default defineConfig({
       // selfDestroying: true,
     }),
     // viteCompression(),
+    //@ts-ignore
     visualizer(),
   ],
   build: {

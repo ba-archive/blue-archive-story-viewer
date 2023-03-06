@@ -10,7 +10,7 @@
     </div>
 
     <neu-dialog
-      v-if="!consentFromConfirmed && ready"
+      v-if="!consentFromConfirmed && ready && !fetchError"
       title="提示"
       show-mask="false"
       shadow
@@ -152,7 +152,10 @@ axios
   .catch(err => {
     console.error(err);
     fetchError.value = true;
-    fetchErrorMessage.value = err;
+    fetchErrorMessage.value =
+      route.params.groupId.toString() === '1005302'
+        ? err
+        : '学生剧情目前尚未完全开放，烦请移步体操服优香剧情！';
   })
   .finally(() => {
     ready.value = true;
