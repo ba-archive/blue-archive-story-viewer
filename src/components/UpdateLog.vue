@@ -17,7 +17,7 @@ export interface UpdateLog {
 
 const updateLogs: UpdateLog[] = [
   {
-    date: '2023-03-05',
+    date: '2023-03-06',
     contents: [
       {
         type: 'test',
