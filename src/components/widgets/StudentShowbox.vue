@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { PropType, computed } from 'vue';
+import { Directive, DirectiveBinding, PropType, computed } from 'vue';
 import { useSettingsStore } from '../../store/settings';
 import { Student } from '../../types/Student';
 
@@ -18,6 +18,18 @@ const studentName = computed(() => {
   );
 });
 
+const vLazyLoad: Directive = {
+  mounted(el: HTMLElement, binding: DirectiveBinding) {
+    const img = new Image();
+    img.src = binding.value;
+    img.onload = function () {
+      if (img.complete) {
+        el.setAttribute('src', binding.value);
+      }
+    };
+  },
+};
+
 function getImagePath(id: number | undefined): string {
   return `/image/avatar_students/${id}.webp`;
 }
@@ -26,8 +38,9 @@ function getImagePath(id: number | undefined): string {
 <template>
   <div class="student-container rounded-small">
     <img
+      v-lazy-load="getImagePath(studentInfo?.id)"
       class="student-avatar"
-      :src="getImagePath(studentInfo?.id)"
+      src="/src/assets/loading.webp"
       :alt="studentInfo?.name.cn"
     />
     <div class="name-tag">{{ studentName }}</div>
