@@ -83,12 +83,12 @@
         :use-mp3="useMp3"
         :use-super-sampling="useSuperSampling"
       />
-      <div class="player-settings">
-        <div>
+      <div class="player-settings flex-horizontal">
+        <div class="flex-horizontal">
           <neu-switch :checked="useMp3" @update:value="handleUseMp3" />
           <span>兼容 Apple 设备</span>
         </div>
-        <div style="margin-left: 8px" v-if="showUseSuperSampling">
+        <div class="flex-horizontal" v-if="showUseSuperSampling">
           <neu-switch
             :checked="useSuperSampling"
             @update:value="handleUseSuperSampling"
@@ -205,6 +205,7 @@ function handleUseSuperSampling(value: boolean) {
 .story-container {
   .player-settings {
     display: flex;
+    gap: 1rem;
     margin-top: 1rem;
   }
 }
