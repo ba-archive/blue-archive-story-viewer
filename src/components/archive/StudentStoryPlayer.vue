@@ -88,8 +88,11 @@
           <neu-switch :checked="useMp3" @update:value="handleUseMp3" />
           <span>兼容 Apple 设备</span>
         </div>
-        <div style="margin-left: 8px;" v-if="showUseSuperSampling">
-          <neu-switch :checked="useSuperSampling" @update:value="handleUseSuperSampling" />
+        <div style="margin-left: 8px" v-if="showUseSuperSampling">
+          <neu-switch
+            :checked="useSuperSampling"
+            @update:value="handleUseSuperSampling"
+          />
           <span>开启超分辨率</span>
         </div>
       </div>
@@ -166,7 +169,7 @@ const playerHeight = playerWidth * 0.5625;
 const startFullScreen = ref(document.body.clientWidth < 425);
 const useMp3 = computed(() => settingsStore.getUseMp3);
 const useSuperSampling = computed(() => settingsStore.getUseSuperSampling);
-const showUseSuperSampling = [''].includes(studentId.value)
+const showUseSuperSampling = [''].includes(studentId.value);
 // 检测浏览器是否为 webkit，如果是则使用 mp3
 /* eslint-disable-next-line */
 // @ts-ignore
@@ -186,11 +189,11 @@ function pageRefresh() {
 }
 function handleUseMp3(value: boolean) {
   settingsStore.setUseMp3(value);
-  pageRefresh()
+  pageRefresh();
 }
 function handleUseSuperSampling(value: boolean) {
   settingsStore.setUseSuperSampling(value);
-  pageRefresh()
+  pageRefresh();
 }
 </script>
 
@@ -201,8 +204,8 @@ function handleUseSuperSampling(value: boolean) {
 
 .story-container {
   .player-settings {
-    margin-top: 1rem;
     display: flex;
+    margin-top: 1rem;
   }
 }
 </style>
