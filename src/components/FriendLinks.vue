@@ -17,7 +17,7 @@ const links: FriendLink[] = [
   },
   {
     title: '项目公告板 (bilibili)',
-    url: 'https://space.bilibili.com/37507923',
+    url: 'https://space.bilibili.com/1413213021',
     logo: '/favicon/apple-touch-icon.png',
     logoDescription: '项目logo',
     description: '更新公告等内容发布',
