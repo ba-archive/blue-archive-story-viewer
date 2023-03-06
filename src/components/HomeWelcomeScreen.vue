@@ -36,6 +36,11 @@
   content: '左边';
 }
 
+.navigation {
+  color: var(--color-primary-button);
+  text-decoration: none;
+}
+
 @media screen and (max-width: 768px) {
   #choice::after {
     content: '右上角';
