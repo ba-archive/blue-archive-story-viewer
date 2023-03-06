@@ -77,7 +77,6 @@
         :height="playerHeight"
         data-url="https://yuuka.cdn.diyigemt.com/image/ba-all-data"
         language="Cn"
-        ref="storyComp"
         :userName="userName"
         :story-summary="storySummary"
         :start-full-screen="startFullScreen"
@@ -97,7 +96,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import axios from 'axios';
 import StoryPlayer from 'ba-story-player';
-import { computed, onMounted, onUnmounted, ref } from 'vue';
+import { computed, ref } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import { useSettingsStore } from '../../store/settings';
 import { StoryContent } from '../../types/StoryJson';
@@ -116,7 +115,6 @@ const initProgress = ref(0);
 // get 请求是否出错
 const fetchError = ref(false);
 const fetchErrorMessage = ref({});
-const storyComp = ref<any>(null);
 
 const studentId = computed(() => route.params.id);
 const favorGroupId = computed(() => route.params.groupId);
@@ -152,10 +150,7 @@ axios
   .catch(err => {
     console.error(err);
     fetchError.value = true;
-    fetchErrorMessage.value =
-      route.params.groupId.toString() === '1005302'
-        ? err
-        : '学生剧情目前尚未完全开放，烦请移步体操服优香剧情！';
+    fetchErrorMessage.value = '学生剧情目前尚未全部开放，请期待！';
   })
   .finally(() => {
     ready.value = true;
@@ -185,18 +180,6 @@ function handleUseMp3(value: boolean) {
     router.go(0);
   }, 375); // 等动画结束之后刷新页面
 }
-onMounted(() => {
-  // 如果不是初次播放直接刷新
-  if ((window as any).hasStoryPlayed) {
-    location.reload();
-  }
-});
-onUnmounted(() => {
-  // 调用清空函数
-  if (storyComp?.value?.clear) {
-    storyComp.value.clear();
-  }
-});
 </script>
 
 <style scoped lang="scss">
