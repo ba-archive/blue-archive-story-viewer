@@ -90,7 +90,7 @@ function closeMenu() {
   top: -1px;
   left: 0;
   flex-direction: column;
-  z-index: 9;
+  z-index: 256;
   width: 100vw;
 }
 
