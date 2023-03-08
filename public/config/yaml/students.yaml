@@ -3198,3 +3198,24 @@
   armorType: HeavyArmor
   bulletType: Explosion
   weapon: SMG
+- id: 10063
+  familyName:
+    cn: 黑崎
+    jp: 黒崎
+    en: Kurosaki
+    kr: 쿠로사키
+    tw: 黑崎
+  name:
+    cn: 小雪
+    jp: コユキ
+    en: Koyuki
+    kr: 코유키
+    tw: 小雪
+  nickname: []
+  club: 研讨会
+  affiliation: 千年
+  rarity: 3
+  type: Striker
+  armorType: HeavyArmor
+  bulletType: Mystic
+  weapon: MG
