@@ -169,7 +169,7 @@ const playerHeight = playerWidth * 0.5625;
 const startFullScreen = ref(document.body.clientWidth <= 425);
 const useMp3 = computed(() => settingsStore.getUseMp3);
 const useSuperSampling = computed(() => settingsStore.getUseSuperSampling);
-const showUseSuperSampling = ['10063'].includes(studentId.value);
+const showUseSuperSampling = [''].includes(studentId.value);
 // 检测浏览器是否为 webkit，如果是则使用 mp3
 /* eslint-disable-next-line */
 // @ts-ignore
