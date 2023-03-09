@@ -18,6 +18,7 @@
         :avatar="studentAvatar"
         :title="story.title"
         :language="language"
+        :index="index"
         @clicked="handleOpenIndex(index)"
         :is-active="activeIndex.includes(index)"
       />
