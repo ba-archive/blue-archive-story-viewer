@@ -21,12 +21,11 @@ const updateLogs: UpdateLog[] = [
     contents: [
       {
         type: 'student',
-        students: [
-          { name: '黑崎 小雪', id: 10063 },
-        ],
+        students: [{ name: '黑崎 小雪', id: 10063 }],
       },
     ],
-  },{
+  },
+  {
     date: '2023-03-06',
     contents: [
       {
