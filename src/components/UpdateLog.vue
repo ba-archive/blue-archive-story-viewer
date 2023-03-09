@@ -17,6 +17,16 @@ export interface UpdateLog {
 
 const updateLogs: UpdateLog[] = [
   {
+    date: '2023-03-09',
+    contents: [
+      {
+        type: 'student',
+        students: [
+          { name: '黑崎 小雪', id: 10063 },
+        ],
+      },
+    ],
+  },{
     date: '2023-03-06',
     contents: [
       {
