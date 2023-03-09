@@ -38,7 +38,7 @@
     "@vueuse/core": "^9.13.0",
     "axios": "1.3.4",
     "axios-retry": "3.4.0",
-    "ba-story-player": "^0.2.6",
+    "ba-story-player": "^0.3.0",
     "fastest-levenshtein": "1.0.16",
     "gsap": "^3.11.3",
     "mitt": "^3.0.0",
