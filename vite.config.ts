@@ -88,6 +88,13 @@ export default defineConfig({
             },
           },
           {
+            urlPattern: /(ScenarioCharacterNameExcelTable)\.(json)$/i,
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'character-config-table',
+            },
+          },
+          {
             urlPattern: /(.*?)\.(png|jpe?g|svg|gif|webp|ico|atlas|skel)$/i,
             handler: 'StaleWhileRevalidate',
             options: {
