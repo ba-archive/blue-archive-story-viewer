@@ -224,6 +224,7 @@ onUnmounted(() => {
     display: flex;
     gap: 1rem;
     margin-top: 1rem;
+    user-select: none;
   }
 }
 

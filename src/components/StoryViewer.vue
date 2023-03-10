@@ -226,6 +226,7 @@ onUnmounted(() => {
 .story-container {
   .player-settings {
     margin-top: 1rem;
+    user-select: none;
   }
 }
 
