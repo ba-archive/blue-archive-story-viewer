@@ -78,6 +78,7 @@ function getFallbackDescription() {
   align-items: center;
   transition: all 0.375s ease-in-out;
   cursor: pointer;
+  margin-bottom: 1rem;
   background: var(--color-title-container);
   padding: 1rem;
   width: 100%;
