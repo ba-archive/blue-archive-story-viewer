@@ -13,5 +13,30 @@
       "stabilityDays": 7,
       "automerge": true
     }
+  ],
+  "ignoreDeps": [
+    "@types/node",
+    "pixi.js",
+    "pixi-spine",
+    "@pixi/utils",
+    "@pixi/constants",
+    "@pixi-spine/base",
+    "@pixi/utils",
+    "@pixi/ticker",
+    "@pixi/sprite",
+    "@pixi/sound",
+    "@pixi/settings",
+    "@pixi/runner",
+    "@pixi/mesh-extras",
+    "@pixi/mesh",
+    "@pixi/math",
+    "@pixi/graphics",
+    "@pixi/filter-motion-blur",
+    "@pixi/filter-crt",
+    "@pixi/filter-color-overlay",
+    "@pixi/filter-adjustment",
+    "@pixi/extensions",
+    "@pixi/display",
+    "@pixi/core"
   ]
 }
