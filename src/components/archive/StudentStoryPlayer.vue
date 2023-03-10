@@ -226,4 +226,8 @@ onUnmounted(() => {
     margin-top: 1rem;
   }
 }
+
+:deep(.pseudo-fullscreen) {
+  z-index: 512 !important;
+}
 </style>

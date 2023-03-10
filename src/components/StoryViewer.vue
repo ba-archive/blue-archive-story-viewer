@@ -232,4 +232,8 @@ onUnmounted(() => {
 .player-container {
   user-select: none;
 }
+
+:deep(.pseudo-fullscreen) {
+  z-index: 512 !important;
+}
 </style>
