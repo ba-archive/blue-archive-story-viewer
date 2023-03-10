@@ -1,21 +1,17 @@
 <script setup lang="ts">
-export interface StudentObject {
-  name: string;
-  id: number;
-}
-
-export interface UpdateContent {
-  type: 'fix' | 'feat' | 'refact' | 'docs' | 'chore' | 'test' | 'student';
-  content?: string;
-  students?: StudentObject[];
-}
-
-export interface UpdateLog {
-  date: string;
-  contents: UpdateContent[];
-}
+import { h } from 'vue';
+import { UpdateLog } from '../types/UpdateNews';
 
 const updateLogs: UpdateLog[] = [
+  {
+    date: '2023-03-11',
+    contents: [
+      {
+        type: 'test',
+        content: '4K 超分辨率支持',
+      },
+    ],
+  },
   {
     date: '2023-03-09',
     contents: [
@@ -53,23 +49,150 @@ const updateLogs: UpdateLog[] = [
 ];
 
 const contributors = [
-  { name: 'Shinku_cc', role: '前端' },
-  { name: 'ourandream', role: '前端' },
-  { name: '海星', role: '前端' },
-  { name: '灼光之心', role: '前端' },
-  { name: 'Z_DK', role: '前端' },
-  { name: 'Notype', role: '自动化' },
-  { name: '第一个mt', role: '全栈' },
-  { name: '骑猪追月', role: '后端' },
-  { name: 'EllisNewman', role: '解包，美术' },
-  { name: 'setsuna', role: '前端' },
-  { name: 'Coya', role: 'UI' },
-  { name: 'HeartunderBlade', role: '前端，自动化，架构，运维' },
-  { name: '逝徊', role: '运维' },
-  { name: '小陈菌', role: '自动化' },
-  { name: '柳', role: '翻译' },
-  { name: 'Misaka18655', role: '翻译' },
+  {
+    name: '黑猫汐',
+    role: '校对',
+    avatar: '/image/contributor/amahashio.webp',
+    link: 'https://github.com/AmahaShio',
+  },
+  {
+    name: '小陈菌',
+    role: '自动化',
+    avatar: '/image/contributor/ciisaichan.webp',
+    link: 'https://github.com/ciisaichan',
+  },
+  {
+    name: 'Coya',
+    role: 'UI',
+    avatar: '/image/contributor/coya.webp',
+  },
+  {
+    name: '第一个mt',
+    role: '前端',
+    avatar: '/image/contributor/diyigemt.webp',
+    link: 'https://github.com/diyigemt',
+  },
+  {
+    name: '发椿',
+    role: '翻译',
+    avatar: '/image/contributor/fachun.webp',
+  },
+  {
+    name: '飞龙project',
+    role: '自动化',
+    avatar: '/image/contributor/feilongproject.webp',
+    link: 'https://github.com/feilongproject',
+  },
+  {
+    name: 'Icarus',
+    role: '运维',
+    avatar: '/image/contributor/icarus.webp',
+  },
+  {
+    name: '海星xd',
+    role: '前端',
+    avatar: '/image/contributor/kaiseixd.webp',
+    link: 'https://github.com/kaiseixd',
+  },
+  {
+    name: '吉光',
+    role: '前端',
+    avatar: '/image/contributor/luckyray-fan.webp',
+    link: 'https://github.com/luckyray-fan',
+  },
+  {
+    name: 'Mark Chen',
+    role: '前端',
+    avatar: '/image/contributor/mark9804.webp',
+    link: 'https://github.com/Mark9804',
+  },
+  {
+    name: '茗门',
+    role: '后端',
+    avatar: '/image/contributor/mingmen.webp',
+  },
+  {
+    name: 'Misaka18655',
+    role: '翻译',
+    avatar: '/image/contributor/misaka18655.webp',
+  },
+  {
+    name: 'Z_DK',
+    role: '前端',
+    avatar: '/image/contributor/nencao.webp',
+    link: 'https://github.com/NENCAO',
+  },
+  {
+    name: 'Notype',
+    role: '前端/自动化',
+    avatar: '/image/contributor/notnotype.webp',
+    link: 'https://github.com/notnotype',
+  },
+  {
+    name: '偶然幻想',
+    role: '前端',
+    avatar: '/image/contributor/ourandream.webp',
+    link: 'https://github.com/ourandream',
+  },
+  {
+    name: 'HeartUnderBlade',
+    role: '自动化',
+    avatar: '/image/contributor/pfjhyyj.webp',
+    link: 'https://github.com/pfjhyyj',
+  },
+  {
+    name: 'scn',
+    role: '翻译',
+    avatar: '/image/contributor/scn.webp',
+  },
+  {
+    name: 'Setsuna',
+    role: '前端',
+    avatar: '/image/contributor/shinonomesetsuna.webp',
+    link: 'https://github.com/ShinonomeSetsuna',
+  },
+  {
+    name: '星空若曦',
+    role: '校对',
+    avatar: '/image/contributor/xingkongruoxi.webp',
+  },
+  {
+    name: 'Tiramisu',
+    role: '翻译（繁中）',
+    avatar: '/image/contributor/tiramisu.webp',
+  },
 ];
+
+// make vue-tsc happy
+/* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+const contributorList: any = h(
+  'div',
+  {
+    id: 'update-log-contributor-wall',
+  },
+  contributors
+    .sort((a, b) =>
+      a.name.localeCompare(b.name, 'zh-Hans-CN', { sensitivity: 'accent' })
+    )
+    .map(contributor => {
+      return h(
+        contributor.link ? 'a' : 'div',
+        {
+          href: contributor.link,
+          class: 'contributor__avatar',
+          target: '_blank',
+          rel: 'noopener noreferrer',
+        },
+        [
+          h('img', {
+            src: contributor.avatar,
+            alt: contributor.name,
+            title: `${contributor.name} - ${contributor.role}`,
+          }),
+        ]
+      );
+    })
+);
 </script>
 
 <template>
@@ -101,14 +224,8 @@ const contributors = [
     </div>
     <!--eslint-enable vue/require-v-for-key-->
 
-    <h3>贡献者：（排名不分先后）</h3>
-    <!-- eslint-disable vue/require-v-for-key -->
-    <p v-for="contributor in contributors" v-once>
-      <mark>{{ contributor.name }}</mark
-      >：{{ contributor.role }}
-    </p>
-    <!--eslint-enable vue/require-v-for-key-->
-    <p>以及每一个热爱碧蓝档案的玩家</p>
+    <h3>贡献者：（以名称排序）</h3>
+    <contributor-list />
   </div>
 </template>
 
@@ -168,6 +285,27 @@ mark {
 
   .roadmap {
     max-width: 90%;
+  }
+}
+</style>
+
+<style lang="scss">
+#update-log-contributor-wall {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+
+  .contributor__avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      border-radius: 50%;
+      width: 4rem;
+      height: 4rem;
+    }
   }
 }
 </style>

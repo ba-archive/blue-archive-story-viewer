@@ -11,7 +11,7 @@ const links: FriendLink[] = [
   {
     title: '碧蓝档案资讯站',
     url: 'https://space.bilibili.com/37507923',
-    logo: '/image/contributor/zixunzhan.jpg',
+    logo: '/image/contributor/zixunzhan.webp',
     logoDescription: '资讯站logo',
     description: '为玩家服务的民间组织，尊重官方设定',
   },
