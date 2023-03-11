@@ -34,7 +34,7 @@ const selectedLang = ref(settingsStore.getLang);
 
 function handleLangChange(event: Event) {
   const target = event.target as HTMLSelectElement;
-  settingsStore.setLang(target.value);
+  settingsStore.setLang(target.value as 'cn' | 'tw' | 'jp' | 'en' | 'kr');
 }
 </script>
 
