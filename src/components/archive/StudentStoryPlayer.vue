@@ -76,7 +76,7 @@
         :width="playerWidth"
         :height="playerHeight"
         data-url="https://yuuka.cdn.diyigemt.com/image/ba-all-data"
-        language="Cn"
+        :language="language"
         ref="storyComp"
         :userName="userName"
         :story-summary="storySummary"
@@ -105,7 +105,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import axios from 'axios';
 import StoryPlayer from 'ba-story-player';
-import { computed, onMounted, onUnmounted, ref } from 'vue';
+import { computed, onMounted, onUnmounted, ref, watch } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import { useSettingsStore } from '../../store/settings';
 import { StoryContent } from '../../types/StoryJson';
@@ -128,6 +128,18 @@ const storyComp = ref<any>(null);
 
 const studentId = computed(() => route.params.id as string);
 const favorGroupId = computed(() => route.params.groupId);
+const language = computed(
+  () =>
+    settingsStore.getLang.charAt(0).toUpperCase() +
+    settingsStore.getLang.slice(1)
+);
+
+watch(
+  () => language.value,
+  () => {
+    router.go(0);
+  }
+);
 
 const story = ref<StoryContent>({} as StoryContent);
 const storySummary = ref({
