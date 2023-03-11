@@ -17,7 +17,7 @@
     "@pixi/constants": ">=6.1.0 <7.0.0",
     "@pixi/core": "6.5.9",
     "@pixi/display": ">=6.1.0 <7.0.0",
-    "@pixi/extensions": "6.5.9",
+    "@pixi/extensions": "7.1.4",
     "@pixi/filter-adjustment": "^4.0.0",
     "@pixi/filter-color-overlay": "^4.0.0",
     "@pixi/filter-crt": "^4.0.0",
