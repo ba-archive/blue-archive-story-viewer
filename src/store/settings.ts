@@ -6,7 +6,7 @@ export const useSettingsStore = defineStore({
   state: () => {
     return {
       settings: {
-        lang: 'cn' as 'cn' | 'tw' | 'jp' | 'en' | 'kr',
+        lang: 'cn' as 'cn' | 'tw' | 'jp' | 'en' | 'kr' | 'th',
         theme: 'light' as 'light' | 'dark',
         username: 'Sensei' as string,
         useMp3: false,
@@ -39,7 +39,7 @@ export const useSettingsStore = defineStore({
     getUseSuperSampling: state => state.settings.useSuperSampling,
   },
   actions: {
-    setLang(lang: 'cn' | 'tw' | 'jp' | 'en' | 'kr') {
+    setLang(lang: 'cn' | 'tw' | 'jp' | 'en' | 'kr' | 'th') {
       this.settings.lang = lang;
     },
     setTheme(theme: 'light' | 'dark') {

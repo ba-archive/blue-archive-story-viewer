@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed } from 'vue';
+import { computed, onMounted, onUnmounted } from 'vue';
 import { useSettingsStore } from '../../store/settings';
 import { switchTheme } from '../../util/userInterfaceUtils';
 import NeuSwitch from './NeuUI/NeuSwitch.vue';
@@ -11,6 +11,32 @@ function toggleTheme(value: 'light' | 'dark') {
   switchTheme(value);
   settingsStore.setTheme(value);
 }
+
+const initTheme =
+  (window.matchMedia &&
+    window.matchMedia('(prefers-color-scheme: dark)').matches) ||
+  'dark' === currentTheme.value
+    ? 'dark'
+    : 'light';
+
+toggleTheme(initTheme);
+
+function handleThemeChange(event: MediaQueryListEvent) {
+  const { matches } = event;
+  toggleTheme(matches ? 'dark' : 'light');
+}
+
+onMounted(() => {
+  window
+    .matchMedia('(prefers-color-scheme: dark)')
+    .addEventListener('change', handleThemeChange);
+});
+
+onUnmounted(() => {
+  window
+    .matchMedia('(prefers-color-scheme: dark)')
+    .removeEventListener('change', handleThemeChange);
+});
 </script>
 
 <template>
