@@ -6,7 +6,7 @@ title:
     TextKr: 반성실의 입주자
     TextEn: ''
     TextTh: ''
-    TextTw: ''
+    TextTw: 反省室的住民
     GroupId: 1006302
     FavorScheduleId: 100632
     CharacterId: 10063
@@ -16,7 +16,7 @@ title:
     TextKr: 판도라의 상자 1
     TextEn: ''
     TextTh: ''
-    TextTw: ''
+    TextTw: 潘朵拉的盒子(1)
     GroupId: 1006303
     FavorScheduleId: 100633
     CharacterId: 10063
@@ -26,7 +26,7 @@ title:
     TextKr: 판도라의 상자 2
     TextEn: ''
     TextTh: ''
-    TextTw: ''
+    TextTw: 潘朵拉的盒子(2)
     GroupId: 1006305
     FavorScheduleId: 100635
     CharacterId: 10063
@@ -36,7 +36,7 @@ title:
     TextKr: 평소의 행실
     TextEn: ''
     TextTh: ''
-    TextTw: ''
+    TextTw: 平日的行為舉止
     GroupId: 1006306
     FavorScheduleId: 100636
     CharacterId: 10063
@@ -46,7 +46,7 @@ title:
     TextKr: 그편이 즐거우니까
     TextEn: ''
     TextTh: ''
-    TextTw: ''
+    TextTw: 幸運的證明
     GroupId: 1006308
     FavorScheduleId: 100638
     CharacterId: 10063
@@ -57,7 +57,7 @@ content:
     MessageCN: 呜——
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 嗚——
     MessageGroupId: 100630010
     Id: 100630010
     CharacterId: 10063
@@ -76,7 +76,7 @@ content:
     MessageCN: 呜呜……XDXD
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 嗚嗚……XDXD
     MessageGroupId: 100630020
     Id: 100630020
     CharacterId: 10063
@@ -92,10 +92,10 @@ content:
     unsure: false
   - MessageKR: 진짜 아ㅋㅋㅋ
     MessageJP: 聞いてますか～？XDXD
-    MessageCN: 能听见吗～？XDXD
+    MessageCN: 有在听吗～？XDXD
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 有在聽嗎～？XDXD
     MessageGroupId: 100630030
     Id: 100630030
     CharacterId: 10063
@@ -114,7 +114,7 @@ content:
     MessageCN: 老师
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 老師
     MessageGroupId: 100630040
     Id: 100630040
     CharacterId: 10063
@@ -133,7 +133,7 @@ content:
     MessageCN: 请帮帮我
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 請幫幫我
     MessageGroupId: 100630040
     Id: 100630050
     CharacterId: 10063
@@ -152,7 +152,7 @@ content:
     MessageCN: 我只能拜托老师了……
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 我只能拜託老師了……
     MessageGroupId: 100630050
     Id: 100630060
     CharacterId: 10063
@@ -171,7 +171,7 @@ content:
     MessageCN: 小雪……?
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 小雪……？
     MessageGroupId: 100630060
     Id: 100630070
     CharacterId: 10063
@@ -190,7 +190,7 @@ content:
     MessageCN: 发生什么事了？
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 怎麼了嗎？
     MessageGroupId: 100630060
     Id: 100630080
     CharacterId: 10063
@@ -209,7 +209,7 @@ content:
     MessageCN: 那个……
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 那個……
     MessageGroupId: 100630070
     Id: 100630090
     CharacterId: 10063
@@ -228,7 +228,7 @@ content:
     MessageCN: 是这样的……
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 是這樣的……
     MessageGroupId: 100630070
     Id: 100630100
     CharacterId: 10063
@@ -247,7 +247,7 @@ content:
     MessageCN: XDXDXDXD
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: XDXDXDXD
     MessageGroupId: 100630080
     Id: 100630110
     CharacterId: 10063
@@ -266,7 +266,7 @@ content:
     MessageCN: XDXDXDXDXD
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: XDXDXDXDXD
     MessageGroupId: 100630090
     Id: 100630120
     CharacterId: 10063
@@ -285,7 +285,7 @@ content:
     MessageCN: 老师你竟然背叛我XD
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 老師你背叛我啦XD
     MessageGroupId: 100630100
     Id: 100630130
     CharacterId: 10063
@@ -304,7 +304,7 @@ content:
     MessageCN: 捏哈哈XD
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 捏哈哈XD
     MessageGroupId: 100630110
     Id: 100630140
     CharacterId: 10063
@@ -323,7 +323,7 @@ content:
     MessageCN: 要好好反省哦
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 要好好反省喔
     MessageGroupId: 100630110
     Id: 100630150
     CharacterId: 10063
@@ -342,7 +342,7 @@ content:
     MessageCN: XD
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: XD
     MessageGroupId: 100630120
     Id: 100630160
     CharacterId: 10063
@@ -361,7 +361,7 @@ content:
     MessageCN: XD
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: XD
     MessageGroupId: 100630130
     Id: 100630170
     CharacterId: 10063
@@ -380,7 +380,7 @@ content:
     MessageCN: XD
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: XD
     MessageGroupId: 100630140
     Id: 100630180
     CharacterId: 10063
@@ -399,7 +399,7 @@ content:
     MessageCN: XD
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: XD
     MessageGroupId: 100630150
     Id: 100630190
     CharacterId: 10063
@@ -418,7 +418,7 @@ content:
     MessageCN: XDXDXDXDXD
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: XDXDXDXDXD
     MessageGroupId: 100630160
     Id: 100630200
     CharacterId: 10063
@@ -434,10 +434,10 @@ content:
     unsure: false
   - MessageKR: 코유키는 이 일을 기억할 것입니다.
     MessageJP: そうですかそうですか、先生はそういう人だったんですね！
-    MessageCN: 原来如此原来如此，老师原来是这样的人啊！
+    MessageCN: 原来如此原来如此，老师原来是这种人啊！
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 原來如此原來如此，老師原來是這種人啊！
     MessageGroupId: 100630170
     Id: 100630210
     CharacterId: 10063
@@ -456,7 +456,7 @@ content:
     MessageCN: 今天的事，我是不会忘记的！！！！！！！！！
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 今天的事，我是不會忘記的！！！！！！！！！
     MessageGroupId: 100630180
     Id: 100630220
     CharacterId: 10063
@@ -475,7 +475,7 @@ content:
     MessageCN: 对了，老师
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 對了，老師
     MessageGroupId: 100630190
     Id: 100630230
     CharacterId: 10063
@@ -494,7 +494,7 @@ content:
     MessageCN: 啊
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 啊
     MessageGroupId: 100630200
     Id: 100630240
     CharacterId: 10063
@@ -513,7 +513,7 @@ content:
     MessageCN: 算了，没事
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 算了，沒事
     MessageGroupId: 100630210
     Id: 100630250
     CharacterId: 10063
@@ -532,7 +532,7 @@ content:
     MessageCN: 小雪？
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 小雪？
     MessageGroupId: 100630220
     Id: 100630260
     CharacterId: 10063
@@ -551,7 +551,7 @@ content:
     MessageCN: 发生什么事情了吗？
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 怎麼了嗎？
     MessageGroupId: 100630220
     Id: 100630270
     CharacterId: 10063
@@ -570,7 +570,7 @@ content:
     MessageCN: 捏哈哈
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 捏哈哈
     MessageGroupId: 100630230
     Id: 100630280
     CharacterId: 10063
@@ -589,7 +589,7 @@ content:
     MessageCN: 真的没什么啦
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 真的沒什麼啦
     MessageGroupId: 100630230
     Id: 100630290
     CharacterId: 10063
@@ -608,7 +608,7 @@ content:
     MessageCN: 我只是很期待今天的值日哦
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 我只是很期待當今天的值日生喔
     MessageGroupId: 100630230
     Id: 100630300
     CharacterId: 10063
@@ -627,7 +627,7 @@ content:
     MessageCN: ……有什么好期待的吗？
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 有什麼好期待的嗎？
     MessageGroupId: 100630240
     Id: 100630310
     CharacterId: 10063
@@ -646,7 +646,7 @@ content:
     MessageCN: ……小雪?
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 小雪？
     MessageGroupId: 100630250
     Id: 100630320
     CharacterId: 10063
@@ -665,7 +665,7 @@ content:
     MessageCN: 今晚
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 今晚
     MessageGroupId: 100630260
     Id: 100630330
     CharacterId: 10063
@@ -684,7 +684,7 @@ content:
     MessageCN: 让我来揭晓你的秘密
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 讓我來揭曉你的祕密
     MessageGroupId: 100630270
     Id: 100630340
     CharacterId: 10063
@@ -705,7 +705,7 @@ content:
       ——怪盗小雪
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: ——怪盜小雪
     MessageGroupId: 100630270
     Id: 100630350
     CharacterId: 10063
@@ -721,10 +721,10 @@ content:
     unsure: false
   - MessageKR: 오지 마
     MessageJP: 来ないでね！振りじゃないから！
-    MessageCN: 别来！我说真的！
+    MessageCN: 别过来啊！我认真的！
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 你別來啊！我是認真的！
     MessageGroupId: 100630280
     Id: 100630360
     CharacterId: 10063
@@ -740,10 +740,10 @@ content:
     unsure: false
   - MessageKR: 멈춰! 그만둬!
     MessageJP: ダメだからね……？
-    MessageCN: 真的不要来哦……？
+    MessageCN: 真的不可以哦……？
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 真的不可以喔……？
     MessageGroupId: 100630280
     Id: 100630370
     CharacterId: 10063
@@ -762,7 +762,7 @@ content:
     MessageCN: 捏哈哈哈哈！
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 捏哈哈哈哈！
     MessageGroupId: 100630290
     Id: 100630380
     CharacterId: 10063
@@ -781,7 +781,7 @@ content:
     MessageCN: 怪盗才不会乖乖听话呢！
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 怪盜才不會乖乖聽話呢！
     MessageGroupId: 100630300
     Id: 100630390
     CharacterId: 10063
@@ -800,7 +800,7 @@ content:
     MessageCN: 好戏开场喽！
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 好戲上場！
     MessageGroupId: 100630310
     Id: 100630400
     CharacterId: 10063
@@ -819,7 +819,7 @@ content:
     MessageCN: 对不起，老师
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 對不起，老師
     MessageGroupId: 100630320
     Id: 100630410
     CharacterId: 10063
@@ -838,7 +838,7 @@ content:
     MessageCN: 这次我真的错了……
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 這次真的是我不對……
     MessageGroupId: 100630330
     Id: 100630420
     CharacterId: 10063
@@ -857,7 +857,7 @@ content:
     MessageCN: 我会当做什么都没看到的……
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 我會當作什麼都沒看見的……
     MessageGroupId: 100630330
     Id: 100630430
     CharacterId: 10063
@@ -876,7 +876,7 @@ content:
     MessageCN: 别在意了……
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 別在意了……
     MessageGroupId: 100630340
     Id: 100630440
     CharacterId: 10063
@@ -895,7 +895,7 @@ content:
     MessageCN: 被你这么照顾，我反而……
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 被老師您這麼關照，我反而……
     MessageGroupId: 100630340
     Id: 100630450
     CharacterId: 10063
@@ -914,7 +914,7 @@ content:
     MessageCN: 捏哈哈……
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 捏哈哈……
     MessageGroupId: 100630350
     Id: 100630460
     CharacterId: 10063
@@ -933,7 +933,7 @@ content:
     MessageCN: 那就再、再见了
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 那下，下次見
     MessageGroupId: 100630350
     Id: 100630470
     CharacterId: 10063
@@ -952,7 +952,7 @@ content:
     MessageCN: 呜呜……
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 嗚嗚……
     MessageGroupId: 100630360
     Id: 100630480
     CharacterId: 10063
@@ -971,7 +971,7 @@ content:
     MessageCN: 真是的——！
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 真是的——！
     MessageGroupId: 100630370
     Id: 100630490
     CharacterId: 10063
@@ -987,10 +987,10 @@ content:
     unsure: false
   - MessageKR: 또 반성실이야?
     MessageJP: また反省部屋？
-    MessageCN: 又进反省室了？
+    MessageCN: 又进禁闭室了？
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 又進禁閉室了？
     MessageGroupId: 100630380
     Id: 100630500
     CharacterId: 10063
@@ -1009,7 +1009,7 @@ content:
     MessageCN: 犯了什么错吗……？
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 是犯了什麼錯嗎……？
     MessageGroupId: 100630380
     Id: 100630510
     CharacterId: 10063
@@ -1028,7 +1028,7 @@ content:
     MessageCN: 才不是！
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 才不是！
     MessageGroupId: 100630390
     Id: 100630520
     CharacterId: 10063
@@ -1047,7 +1047,7 @@ content:
     MessageCN: “又”也太过分了！！
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 說「又」也太過分了！！
     MessageGroupId: 100630390
     Id: 100630530
     CharacterId: 10063
@@ -1066,7 +1066,7 @@ content:
     MessageCN: 你自己说是不是！
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 吧！
     MessageGroupId: 100630400
     Id: 100630540
     CharacterId: 10063
@@ -1085,7 +1085,7 @@ content:
     MessageCN: 这次真的不是你想的那样啦！！
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 這次真的不是老師想的那樣啦！！
     MessageGroupId: 100630400
     Id: 100630550
     CharacterId: 10063
@@ -1104,7 +1104,7 @@ content:
     MessageCN: 不过，我也不是想让老师来帮我哦！
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 不過，我也不是想請老師來幫我啦！
     MessageGroupId: 100630410
     Id: 100630560
     CharacterId: 10063
@@ -1123,7 +1123,7 @@ content:
     MessageCN: 只是稍微有点闲罢了
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 只是有點閒而已
     MessageGroupId: 100630420
     Id: 100630570
     CharacterId: 10063
@@ -1142,7 +1142,7 @@ content:
     MessageCN: 仅此而已！
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 就只是這樣！
     MessageGroupId: 100630420
     Id: 100630580
     CharacterId: 10063
@@ -1161,7 +1161,7 @@ content:
     MessageCN: 捏哈哈哈哈！
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 捏哈哈哈哈！
     MessageGroupId: 100630430
     Id: 100630590
     CharacterId: 10063
@@ -1180,7 +1180,7 @@ content:
     MessageCN: 不过——
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 不過——
     MessageGroupId: 100630440
     Id: 100630600
     CharacterId: 10063
@@ -1199,7 +1199,7 @@ content:
     MessageCN: 「日常举止」是指什么呢？
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 「平日的行為舉止」是指什麼呢？
     MessageGroupId: 100630440
     Id: 100630610
     CharacterId: 10063
@@ -1218,7 +1218,7 @@ content:
     MessageCN: 你、你刚才笑了是吧！
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 你，你剛才笑了吧！
     MessageGroupId: 100630450
     Id: 100630620
     CharacterId: 10063
@@ -1237,7 +1237,7 @@ content:
     MessageCN: 喂！
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 喂！
     MessageGroupId: 100630450
     Id: 100630630
     CharacterId: 10063
@@ -1256,7 +1256,7 @@ content:
     MessageCN: 都是老师害我笑的啊！
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 都是老師害我笑出來了！
     MessageGroupId: 100630460
     Id: 100630640
     CharacterId: 10063
@@ -1275,7 +1275,7 @@ content:
     MessageCN: 捏哈，哈哈哈哈哈……要、要笑死了！
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 捏哈，哈哈哈哈哈……呼，太好笑了！
     MessageGroupId: 100630460
     Id: 100630650
     CharacterId: 10063
@@ -1294,7 +1294,7 @@ content:
     MessageCN: 不过，真的很感谢老师陪我一起玩！
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 不過，真的很感謝老師陪我一起玩！
     MessageGroupId: 100630470
     Id: 100630660
     CharacterId: 10063
@@ -1310,10 +1310,10 @@ content:
     unsure: false
   - MessageKR: 다음번에는 꼭 끝까지 깨 보도록 하죠!
     MessageJP: 今度は必ず、最後までクリアしましょうね～！
-    MessageCN: 下次一定要通关哦~！
+    MessageCN: 下次一定要通关哦～！
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 下次一定要破關喔～！
     MessageGroupId: 100630470
     Id: 100630670
     CharacterId: 10063
@@ -1332,7 +1332,7 @@ content:
     MessageCN: 我也会好好查一查攻略的！
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 我也會好好查一查攻略的！
     MessageGroupId: 100630470
     Id: 100630680
     CharacterId: 10063
@@ -1351,7 +1351,7 @@ content:
     MessageCN: ……约好了哦！
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: ……約好了哦！
     MessageGroupId: 100630480
     Id: 100630690
     CharacterId: 10063
@@ -1370,7 +1370,7 @@ content:
     MessageCN: 就我们两个人一起通关！！
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 我们兩個人一起破關！！
     MessageGroupId: 100630480
     Id: 100630700
     CharacterId: 10063
@@ -1389,7 +1389,7 @@ content:
     MessageCN: 嗯——
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 嗯——
     MessageGroupId: 100630490
     Id: 100630710
     CharacterId: 10063
@@ -1408,7 +1408,7 @@ content:
     MessageCN: 找不到啊
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 找不到啊
     MessageGroupId: 100630500
     Id: 100630720
     CharacterId: 10063
@@ -1427,7 +1427,7 @@ content:
     MessageCN: 在找东西？
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 在找東西嗎？
     MessageGroupId: 100630510
     Id: 100630730
     CharacterId: 10063
@@ -1446,7 +1446,7 @@ content:
     MessageCN: 发生什么事了？
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 發生什麼事了？
     MessageGroupId: 100630510
     Id: 100630740
     CharacterId: 10063
@@ -1465,7 +1465,7 @@ content:
     MessageCN: 捏哈哈
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 捏哈哈
     MessageGroupId: 100630520
     Id: 100630750
     CharacterId: 10063
@@ -1484,7 +1484,7 @@ content:
     MessageCN: 不过这种情况我也已经预料到了呢
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 不過這種情況我也已經預料到了呢
     MessageGroupId: 100630520
     Id: 100630760
     CharacterId: 10063
@@ -1503,7 +1503,7 @@ content:
     MessageCN: 就是稍微有点遗憾吧
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 就是稍微有點遺憾吧
     MessageGroupId: 100630530
     Id: 100630770
     CharacterId: 10063
@@ -1522,7 +1522,7 @@ content:
     MessageCN: 大概？
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 大概？
     MessageGroupId: 100630530
     Id: 100630780
     CharacterId: 10063
@@ -1541,7 +1541,7 @@ content:
     MessageCN: 老师！
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 老師！
     MessageGroupId: 100630540
     Id: 100630790
     CharacterId: 10063
@@ -1560,7 +1560,7 @@ content:
     MessageCN: 今天真是太感谢你了！
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 今天真的太感謝您了！
     MessageGroupId: 100630550
     Id: 100630800
     CharacterId: 10063
@@ -1579,7 +1579,7 @@ content:
     MessageCN: 我会好好珍惜它的！
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 我會好好珍惜的！
     MessageGroupId: 100630560
     Id: 100630810
     CharacterId: 10063
@@ -1598,7 +1598,7 @@ content:
     MessageCN: 我要把它当做我的传家宝！！
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 我要把它當作我的傳家寶！！
     MessageGroupId: 100630560
     Id: 100630820
     CharacterId: 10063
@@ -1617,7 +1617,7 @@ content:
     MessageCN: 我想一定会有好事发生的哦
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 我想一定會有好事發生的喔
     MessageGroupId: 100630570
     Id: 100630830
     CharacterId: 10063
@@ -1636,7 +1636,7 @@ content:
     MessageCN: 下次再一起找吧
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 下次再一起找吧
     MessageGroupId: 100630570
     Id: 100630840
     CharacterId: 10063
@@ -1655,7 +1655,7 @@ content:
     MessageCN: ……！
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: ……！
     MessageGroupId: 100630580
     Id: 100630850
     CharacterId: 10063
@@ -1674,7 +1674,7 @@ content:
     MessageCN: ！！！！！！
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: ！！！！！！
     MessageGroupId: 100630580
     Id: 100630860
     CharacterId: 10063
@@ -1693,7 +1693,7 @@ content:
     MessageCN: 捏哈哈！！！
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 捏哈哈！！！
     MessageGroupId: 100630590
     Id: 100630870
     CharacterId: 10063
@@ -1712,7 +1712,7 @@ content:
     MessageCN: 好的！！！！！！！！！！
     MessageEN: ''
     MessageTH: ''
-    MessageTW: ''
+    MessageTW: 好的！！！！！！！！！！
     MessageGroupId: 100630600
     Id: 100630880
     CharacterId: 10063
