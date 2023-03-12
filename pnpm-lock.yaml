@@ -10,7 +10,7 @@ specifiers:
   '@pixi/filter-color-overlay': ^4.0.0
   '@pixi/filter-crt': ^4.0.0
   '@pixi/filter-motion-blur': ^4.2.0
-  '@pixi/graphics': ^6.1.0
+  '@pixi/graphics': ^7.0.0
   '@pixi/loaders': '>=6.1.0 <7.0.0'
   '@pixi/math': 6.5.9
   '@pixi/mesh': 6.5.9
@@ -73,7 +73,7 @@ specifiers:
   xxhashjs: ^0.2.2
 
 dependencies:
-  '@pixi-spine/base': 3.1.2_ryjglqiwzzh7oeqknawrevxsyy
+  '@pixi-spine/base': 3.1.2_7ll7f2ckf2lrp4wnbgyjd7qv74
   '@pixi/constants': 6.5.9
   '@pixi/core': 6.5.9_yc3lyad5jwyinmndak3aswu4u4
   '@pixi/display': 6.5.9_bvodkhrxo7znbflksqz7mk2k3q
@@ -82,7 +82,7 @@ dependencies:
   '@pixi/filter-color-overlay': 4.2.0_cdc76ffgm4v73gcbg7atrypbga
   '@pixi/filter-crt': 4.2.0_eglgx4c5gwa2m66bclmlwof5sm
   '@pixi/filter-motion-blur': 4.2.0_eglgx4c5gwa2m66bclmlwof5sm
-  '@pixi/graphics': 6.5.9_b4qdtyhs3i756ta3scsytrvyiy
+  '@pixi/graphics': 7.1.4
   '@pixi/loaders': 6.5.9_w2lcn7hofes4dna4evbtydbuee
   '@pixi/math': 6.5.9
   '@pixi/mesh': 6.5.9_b4zyc73gthwid7yuuju7gyyh2m
@@ -98,13 +98,13 @@ dependencies:
   '@vueuse/core': 9.13.0_vue@3.2.47
   axios: 1.3.4
   axios-retry: 3.4.0
-  ba-story-player: 0.3.0_vgdstr323unn5y3gompqwzvury
+  ba-story-player: 0.3.0_p2re44hevhhvdpax7uqenwu2ui
   fastest-levenshtein: 1.0.16
   gsap: 3.11.4
   mitt: 3.0.0
   pinia: 2.0.32_hmuptsblhheur2tugfgucj7gc4
   pinia-plugin-persistedstate: 3.1.0_pinia@2.0.32
-  pixi-spine: 3.1.2_6dpldpqwemekwjqzv7kjxmfh6u
+  pixi-spine: 3.1.2_m2n3mloyctu5xrv4wgrxy74dmu
   pixi.js: 6.5.9
   toastify-js: 1.12.0
   typed.js: 2.0.12
@@ -981,7 +981,7 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@pixi-spine/base/3.1.2_ryjglqiwzzh7oeqknawrevxsyy:
+  /@pixi-spine/base/3.1.2_7ll7f2ckf2lrp4wnbgyjd7qv74:
     resolution: {integrity: sha512-sMOZsCJQW4O11QR7afuHcuu8cSUgJv3paSNzZOh+imxvYB/cOcyG7K+f5sWqlGe+z3J2CLEYCX2WfXeeJi6pHg==}
     peerDependencies:
       '@pixi/constants': ^6.1.0
@@ -997,7 +997,7 @@ packages:
       '@pixi/constants': 6.5.9
       '@pixi/core': 6.5.9_yc3lyad5jwyinmndak3aswu4u4
       '@pixi/display': 6.5.9_bvodkhrxo7znbflksqz7mk2k3q
-      '@pixi/graphics': 6.5.9_b4qdtyhs3i756ta3scsytrvyiy
+      '@pixi/graphics': 7.1.4
       '@pixi/math': 6.5.9
       '@pixi/mesh': 6.5.9_b4zyc73gthwid7yuuju7gyyh2m
       '@pixi/mesh-extras': 6.5.9_3fn4nkfzaqcmrnvbzir4am2raa
@@ -1005,14 +1005,14 @@ packages:
       '@pixi/utils': 6.5.9_56wmgtaor3g36gitvwiown43he
     dev: false
 
-  /@pixi-spine/loader-base/3.1.2_6dpldpqwemekwjqzv7kjxmfh6u:
+  /@pixi-spine/loader-base/3.1.2_m2n3mloyctu5xrv4wgrxy74dmu:
     resolution: {integrity: sha512-llg0RuuWiqVkyoQA+ceORV0sfUtrWGJj4jQ6erDFn2hMnob+QGzh+qwHSTMAnTNZTINEMfiUxmcwbmUYwTd8Ag==}
     peerDependencies:
       '@pixi/constants': ^6.1.0
       '@pixi/core': ^6.1.0
       '@pixi/loaders': ^6.1.0
     dependencies:
-      '@pixi-spine/base': registry.npmmirror.com/@pixi-spine/base/3.1.2_ryjglqiwzzh7oeqknawrevxsyy
+      '@pixi-spine/base': registry.npmmirror.com/@pixi-spine/base/3.1.2_7ll7f2ckf2lrp4wnbgyjd7qv74
       '@pixi/constants': 6.5.9
       '@pixi/core': 6.5.9_yc3lyad5jwyinmndak3aswu4u4
       '@pixi/loaders': 6.5.9_w2lcn7hofes4dna4evbtydbuee
@@ -1026,16 +1026,16 @@ packages:
       - '@pixi/utils'
     dev: false
 
-  /@pixi-spine/loader-uni/3.1.2_6dpldpqwemekwjqzv7kjxmfh6u:
+  /@pixi-spine/loader-uni/3.1.2_m2n3mloyctu5xrv4wgrxy74dmu:
     resolution: {integrity: sha512-5th9gXqNQWMSuOu3euMw2kHETlncxU7LIFvOYqTMsKnwrOAIsPjHSF/4Sat1d3EAvvdMrYm4LmhHklgrAfk6UA==}
     peerDependencies:
       '@pixi/loaders': ^6.1.0
     dependencies:
-      '@pixi-spine/base': registry.npmmirror.com/@pixi-spine/base/3.1.2_ryjglqiwzzh7oeqknawrevxsyy
-      '@pixi-spine/loader-base': registry.npmmirror.com/@pixi-spine/loader-base/3.1.2_6dpldpqwemekwjqzv7kjxmfh6u
-      '@pixi-spine/runtime-3.7': registry.npmmirror.com/@pixi-spine/runtime-3.7/3.1.2_ryjglqiwzzh7oeqknawrevxsyy
-      '@pixi-spine/runtime-3.8': registry.npmmirror.com/@pixi-spine/runtime-3.8/3.1.2_ryjglqiwzzh7oeqknawrevxsyy
-      '@pixi-spine/runtime-4.1': registry.npmmirror.com/@pixi-spine/runtime-4.1/3.1.2_ryjglqiwzzh7oeqknawrevxsyy
+      '@pixi-spine/base': registry.npmmirror.com/@pixi-spine/base/3.1.2_7ll7f2ckf2lrp4wnbgyjd7qv74
+      '@pixi-spine/loader-base': registry.npmmirror.com/@pixi-spine/loader-base/3.1.2_m2n3mloyctu5xrv4wgrxy74dmu
+      '@pixi-spine/runtime-3.7': registry.npmmirror.com/@pixi-spine/runtime-3.7/3.1.2_7ll7f2ckf2lrp4wnbgyjd7qv74
+      '@pixi-spine/runtime-3.8': registry.npmmirror.com/@pixi-spine/runtime-3.8/3.1.2_7ll7f2ckf2lrp4wnbgyjd7qv74
+      '@pixi-spine/runtime-4.1': registry.npmmirror.com/@pixi-spine/runtime-4.1/3.1.2_7ll7f2ckf2lrp4wnbgyjd7qv74
       '@pixi/loaders': 6.5.9_w2lcn7hofes4dna4evbtydbuee
     transitivePeerDependencies:
       - '@pixi/constants'
@@ -1049,13 +1049,13 @@ packages:
       - '@pixi/utils'
     dev: false
 
-  /@pixi-spine/runtime-3.7/3.1.2_ryjglqiwzzh7oeqknawrevxsyy:
+  /@pixi-spine/runtime-3.7/3.1.2_7ll7f2ckf2lrp4wnbgyjd7qv74:
     resolution: {integrity: sha512-dMcw5x9jG+0itzzbPsJUn8hvhxzRXRzbm/kCUQ51iyFfLZQIK1LoPck4XPVuXckwFjU1qCT+tDZSEGBMYs5//A==}
     peerDependencies:
       '@pixi/constants': ^6.1.0
       '@pixi/math': ^6.1.0
     dependencies:
-      '@pixi-spine/base': registry.npmmirror.com/@pixi-spine/base/3.1.2_ryjglqiwzzh7oeqknawrevxsyy
+      '@pixi-spine/base': registry.npmmirror.com/@pixi-spine/base/3.1.2_7ll7f2ckf2lrp4wnbgyjd7qv74
       '@pixi/constants': 6.5.9
       '@pixi/math': 6.5.9
     transitivePeerDependencies:
@@ -1068,13 +1068,13 @@ packages:
       - '@pixi/utils'
     dev: false
 
-  /@pixi-spine/runtime-3.8/3.1.2_ryjglqiwzzh7oeqknawrevxsyy:
+  /@pixi-spine/runtime-3.8/3.1.2_7ll7f2ckf2lrp4wnbgyjd7qv74:
     resolution: {integrity: sha512-AgS3mUC+5HQ/ehJO5Wo4oBoLg8F+tssF5WXi3FnnjqOaMcO+Ag232ForoL2iYHW40TKx0xMi5MpXsSafgS1i1A==}
     peerDependencies:
       '@pixi/constants': ^6.1.0
       '@pixi/math': ^6.1.0
     dependencies:
-      '@pixi-spine/base': registry.npmmirror.com/@pixi-spine/base/3.1.2_ryjglqiwzzh7oeqknawrevxsyy
+      '@pixi-spine/base': registry.npmmirror.com/@pixi-spine/base/3.1.2_7ll7f2ckf2lrp4wnbgyjd7qv74
       '@pixi/constants': 6.5.9
       '@pixi/math': 6.5.9
     transitivePeerDependencies:
@@ -1087,13 +1087,13 @@ packages:
       - '@pixi/utils'
     dev: false
 
-  /@pixi-spine/runtime-4.1/3.1.2_ryjglqiwzzh7oeqknawrevxsyy:
+  /@pixi-spine/runtime-4.1/3.1.2_7ll7f2ckf2lrp4wnbgyjd7qv74:
     resolution: {integrity: sha512-XtaKAuLTtJ3o3llcUTr0d94dnRTyYHlss+x4VsYm1H38r4DUmQTBS13nisW0pgS3fY60D8AbEJkYVW7mwokxag==}
     peerDependencies:
       '@pixi/constants': ^6.1.0
       '@pixi/math': ^6.1.0
     dependencies:
-      '@pixi-spine/base': registry.npmmirror.com/@pixi-spine/base/3.1.2_ryjglqiwzzh7oeqknawrevxsyy
+      '@pixi-spine/base': registry.npmmirror.com/@pixi-spine/base/3.1.2_7ll7f2ckf2lrp4wnbgyjd7qv74
       '@pixi/constants': 6.5.9
       '@pixi/math': 6.5.9
     transitivePeerDependencies:
@@ -1319,6 +1319,10 @@ packages:
       '@pixi/math': 6.5.9
       '@pixi/sprite': 6.5.9_b4zyc73gthwid7yuuju7gyyh2m
       '@pixi/utils': 6.5.9_56wmgtaor3g36gitvwiown43he
+    dev: false
+
+  /@pixi/graphics/7.1.4:
+    resolution: {integrity: sha512-1mLvS01o9HffUG09ngp4DZGCz6jFzOpctXKZFosd/2rfVPVQWy/P5csgu8XqRk8ZrxJE6tgUK/asb7RiG+B9cQ==}
     dev: false
 
   /@pixi/interaction/6.5.9_xa53e7w3bgmnzzlrien7airnhe:
@@ -2341,13 +2345,13 @@ packages:
       - debug
     dev: false
 
-  /ba-story-player/0.3.0_vgdstr323unn5y3gompqwzvury:
+  /ba-story-player/0.3.0_p2re44hevhhvdpax7uqenwu2ui:
     resolution: {integrity: sha512-4zJT6pgb3EYtRvp/k8Sa0uhx9lVDZhH+Gvdj6/7IuI7oS8M/bH8rfpuUX6MeSHr5MxSB1OmFMh95lVtW1BKQ/g==}
     peerDependencies:
       axios: ^1.1.3
       vue: ^3.2.41
     dependencies:
-      '@pixi-spine/base': 3.1.2_ryjglqiwzzh7oeqknawrevxsyy
+      '@pixi-spine/base': 3.1.2_7ll7f2ckf2lrp4wnbgyjd7qv74
       '@pixi/filter-adjustment': 4.2.0_dqzevfjatpgkazvzygt3lhapvq
       '@pixi/filter-color-overlay': 4.2.0_cdc76ffgm4v73gcbg7atrypbga
       '@pixi/filter-crt': 4.2.0_eglgx4c5gwa2m66bclmlwof5sm
@@ -2358,7 +2362,7 @@ packages:
       axios: 1.3.4
       gsap: 3.11.4
       mitt: 3.0.0
-      pixi-spine: 3.1.2_6dpldpqwemekwjqzv7kjxmfh6u
+      pixi-spine: 3.1.2_m2n3mloyctu5xrv4wgrxy74dmu
       pixi.js: 6.5.9
       typed.js: 2.0.12
       vite-plugin-clear-console: 0.2.2
@@ -4035,15 +4039,15 @@ packages:
       vue-demi: 0.13.11_vue@3.2.47
     dev: false
 
-  /pixi-spine/3.1.2_6dpldpqwemekwjqzv7kjxmfh6u:
+  /pixi-spine/3.1.2_m2n3mloyctu5xrv4wgrxy74dmu:
     resolution: {integrity: sha512-rTTwXhBl5gZFZ793zdM/to0bifU8K4aa1gD0ilOiCqC/pgw5OxCcKnoRW3i05ythjzI3GlN6G0MDblOe2myr3w==}
     dependencies:
-      '@pixi-spine/base': 3.1.2_ryjglqiwzzh7oeqknawrevxsyy
-      '@pixi-spine/loader-base': 3.1.2_6dpldpqwemekwjqzv7kjxmfh6u
-      '@pixi-spine/loader-uni': 3.1.2_6dpldpqwemekwjqzv7kjxmfh6u
-      '@pixi-spine/runtime-3.7': 3.1.2_ryjglqiwzzh7oeqknawrevxsyy
-      '@pixi-spine/runtime-3.8': 3.1.2_ryjglqiwzzh7oeqknawrevxsyy
-      '@pixi-spine/runtime-4.1': 3.1.2_ryjglqiwzzh7oeqknawrevxsyy
+      '@pixi-spine/base': 3.1.2_7ll7f2ckf2lrp4wnbgyjd7qv74
+      '@pixi-spine/loader-base': 3.1.2_m2n3mloyctu5xrv4wgrxy74dmu
+      '@pixi-spine/loader-uni': 3.1.2_m2n3mloyctu5xrv4wgrxy74dmu
+      '@pixi-spine/runtime-3.7': 3.1.2_7ll7f2ckf2lrp4wnbgyjd7qv74
+      '@pixi-spine/runtime-3.8': 3.1.2_7ll7f2ckf2lrp4wnbgyjd7qv74
+      '@pixi-spine/runtime-4.1': 3.1.2_7ll7f2ckf2lrp4wnbgyjd7qv74
     transitivePeerDependencies:
       - '@pixi/constants'
       - '@pixi/core'
@@ -6605,7 +6609,7 @@ packages:
     version: 1.4.14
     dev: true
 
-  registry.npmmirror.com/@pixi-spine/base/3.1.2_ryjglqiwzzh7oeqknawrevxsyy:
+  registry.npmmirror.com/@pixi-spine/base/3.1.2_7ll7f2ckf2lrp4wnbgyjd7qv74:
     resolution: {integrity: sha512-sMOZsCJQW4O11QR7afuHcuu8cSUgJv3paSNzZOh+imxvYB/cOcyG7K+f5sWqlGe+z3J2CLEYCX2WfXeeJi6pHg==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@pixi-spine/base/-/base-3.1.2.tgz}
     id: registry.npmmirror.com/@pixi-spine/base/3.1.2
     name: '@pixi-spine/base'
@@ -6624,7 +6628,7 @@ packages:
       '@pixi/constants': 6.5.9
       '@pixi/core': 6.5.9_yc3lyad5jwyinmndak3aswu4u4
       '@pixi/display': 6.5.9_bvodkhrxo7znbflksqz7mk2k3q
-      '@pixi/graphics': 6.5.9_b4qdtyhs3i756ta3scsytrvyiy
+      '@pixi/graphics': 7.1.4
       '@pixi/math': 6.5.9
       '@pixi/mesh': 6.5.9_b4zyc73gthwid7yuuju7gyyh2m
       '@pixi/mesh-extras': 6.5.9_3fn4nkfzaqcmrnvbzir4am2raa
@@ -6632,7 +6636,7 @@ packages:
       '@pixi/utils': 6.5.9_56wmgtaor3g36gitvwiown43he
     dev: false
 
-  registry.npmmirror.com/@pixi-spine/loader-base/3.1.2_6dpldpqwemekwjqzv7kjxmfh6u:
+  registry.npmmirror.com/@pixi-spine/loader-base/3.1.2_m2n3mloyctu5xrv4wgrxy74dmu:
     resolution: {integrity: sha512-llg0RuuWiqVkyoQA+ceORV0sfUtrWGJj4jQ6erDFn2hMnob+QGzh+qwHSTMAnTNZTINEMfiUxmcwbmUYwTd8Ag==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@pixi-spine/loader-base/-/loader-base-3.1.2.tgz}
     id: registry.npmmirror.com/@pixi-spine/loader-base/3.1.2
     name: '@pixi-spine/loader-base'
@@ -6642,7 +6646,7 @@ packages:
       '@pixi/core': ^6.1.0
       '@pixi/loaders': ^6.1.0
     dependencies:
-      '@pixi-spine/base': registry.npmmirror.com/@pixi-spine/base/3.1.2_ryjglqiwzzh7oeqknawrevxsyy
+      '@pixi-spine/base': registry.npmmirror.com/@pixi-spine/base/3.1.2_7ll7f2ckf2lrp4wnbgyjd7qv74
       '@pixi/constants': 6.5.9
       '@pixi/core': 6.5.9_yc3lyad5jwyinmndak3aswu4u4
       '@pixi/loaders': 6.5.9_w2lcn7hofes4dna4evbtydbuee
@@ -6656,7 +6660,7 @@ packages:
       - '@pixi/utils'
     dev: false
 
-  registry.npmmirror.com/@pixi-spine/runtime-3.7/3.1.2_ryjglqiwzzh7oeqknawrevxsyy:
+  registry.npmmirror.com/@pixi-spine/runtime-3.7/3.1.2_7ll7f2ckf2lrp4wnbgyjd7qv74:
     resolution: {integrity: sha512-dMcw5x9jG+0itzzbPsJUn8hvhxzRXRzbm/kCUQ51iyFfLZQIK1LoPck4XPVuXckwFjU1qCT+tDZSEGBMYs5//A==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@pixi-spine/runtime-3.7/-/runtime-3.7-3.1.2.tgz}
     id: registry.npmmirror.com/@pixi-spine/runtime-3.7/3.1.2
     name: '@pixi-spine/runtime-3.7'
@@ -6665,7 +6669,7 @@ packages:
       '@pixi/constants': ^6.1.0
       '@pixi/math': ^6.1.0
     dependencies:
-      '@pixi-spine/base': registry.npmmirror.com/@pixi-spine/base/3.1.2_ryjglqiwzzh7oeqknawrevxsyy
+      '@pixi-spine/base': registry.npmmirror.com/@pixi-spine/base/3.1.2_7ll7f2ckf2lrp4wnbgyjd7qv74
       '@pixi/constants': 6.5.9
       '@pixi/math': 6.5.9
     transitivePeerDependencies:
@@ -6678,7 +6682,7 @@ packages:
       - '@pixi/utils'
     dev: false
 
-  registry.npmmirror.com/@pixi-spine/runtime-3.8/3.1.2_ryjglqiwzzh7oeqknawrevxsyy:
+  registry.npmmirror.com/@pixi-spine/runtime-3.8/3.1.2_7ll7f2ckf2lrp4wnbgyjd7qv74:
     resolution: {integrity: sha512-AgS3mUC+5HQ/ehJO5Wo4oBoLg8F+tssF5WXi3FnnjqOaMcO+Ag232ForoL2iYHW40TKx0xMi5MpXsSafgS1i1A==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@pixi-spine/runtime-3.8/-/runtime-3.8-3.1.2.tgz}
     id: registry.npmmirror.com/@pixi-spine/runtime-3.8/3.1.2
     name: '@pixi-spine/runtime-3.8'
@@ -6687,7 +6691,7 @@ packages:
       '@pixi/constants': ^6.1.0
       '@pixi/math': ^6.1.0
     dependencies:
-      '@pixi-spine/base': registry.npmmirror.com/@pixi-spine/base/3.1.2_ryjglqiwzzh7oeqknawrevxsyy
+      '@pixi-spine/base': registry.npmmirror.com/@pixi-spine/base/3.1.2_7ll7f2ckf2lrp4wnbgyjd7qv74
       '@pixi/constants': 6.5.9
       '@pixi/math': 6.5.9
     transitivePeerDependencies:
@@ -6700,7 +6704,7 @@ packages:
       - '@pixi/utils'
     dev: false
 
-  registry.npmmirror.com/@pixi-spine/runtime-4.1/3.1.2_ryjglqiwzzh7oeqknawrevxsyy:
+  registry.npmmirror.com/@pixi-spine/runtime-4.1/3.1.2_7ll7f2ckf2lrp4wnbgyjd7qv74:
     resolution: {integrity: sha512-XtaKAuLTtJ3o3llcUTr0d94dnRTyYHlss+x4VsYm1H38r4DUmQTBS13nisW0pgS3fY60D8AbEJkYVW7mwokxag==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@pixi-spine/runtime-4.1/-/runtime-4.1-3.1.2.tgz}
     id: registry.npmmirror.com/@pixi-spine/runtime-4.1/3.1.2
     name: '@pixi-spine/runtime-4.1'
@@ -6709,7 +6713,7 @@ packages:
       '@pixi/constants': ^6.1.0
       '@pixi/math': ^6.1.0
     dependencies:
-      '@pixi-spine/base': registry.npmmirror.com/@pixi-spine/base/3.1.2_ryjglqiwzzh7oeqknawrevxsyy
+      '@pixi-spine/base': registry.npmmirror.com/@pixi-spine/base/3.1.2_7ll7f2ckf2lrp4wnbgyjd7qv74
       '@pixi/constants': 6.5.9
       '@pixi/math': 6.5.9
     transitivePeerDependencies:
