@@ -21,7 +21,7 @@
     "@pixi/filter-adjustment": "^4.0.0",
     "@pixi/filter-color-overlay": "^4.0.0",
     "@pixi/filter-crt": "^4.0.0",
-    "@pixi/filter-motion-blur": "^4.2.0",
+    "@pixi/filter-motion-blur": "^5.0.0",
     "@pixi/graphics": "^6.1.0",
     "@pixi/loaders": ">=6.1.0 <7.0.0",
     "@pixi/math": "6.5.9",

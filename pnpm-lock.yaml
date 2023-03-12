@@ -9,7 +9,7 @@ specifiers:
   '@pixi/filter-adjustment': ^4.0.0
   '@pixi/filter-color-overlay': ^4.0.0
   '@pixi/filter-crt': ^4.0.0
-  '@pixi/filter-motion-blur': ^4.2.0
+  '@pixi/filter-motion-blur': ^5.0.0
   '@pixi/graphics': ^6.1.0
   '@pixi/loaders': '>=6.1.0 <7.0.0'
   '@pixi/math': 6.5.9
@@ -81,7 +81,7 @@ dependencies:
   '@pixi/filter-adjustment': 4.2.0_dqzevfjatpgkazvzygt3lhapvq
   '@pixi/filter-color-overlay': 4.2.0_cdc76ffgm4v73gcbg7atrypbga
   '@pixi/filter-crt': 4.2.0_eglgx4c5gwa2m66bclmlwof5sm
-  '@pixi/filter-motion-blur': 4.2.0_eglgx4c5gwa2m66bclmlwof5sm
+  '@pixi/filter-motion-blur': 5.1.1_@pixi+core@6.5.9
   '@pixi/graphics': 6.5.9_b4qdtyhs3i756ta3scsytrvyiy
   '@pixi/loaders': 6.5.9_w2lcn7hofes4dna4evbtydbuee
   '@pixi/math': 6.5.9
@@ -1293,6 +1293,14 @@ packages:
       '@pixi/constants': 6.5.9
       '@pixi/core': 6.5.9_yc3lyad5jwyinmndak3aswu4u4
       '@pixi/math': 6.5.9
+    dev: false
+
+  /@pixi/filter-motion-blur/5.1.1_@pixi+core@6.5.9:
+    resolution: {integrity: sha512-I94s3pW2GutjCyXiKQ/dI4Vl9JKne+Q8QgGRn1mrk0Uwg6DDO/OQI3jqv01S+SCTU3LZqhR/p8AQyxeDmOhr2w==}
+    peerDependencies:
+      '@pixi/core': ^7.0.0-X
+    dependencies:
+      '@pixi/core': 6.5.9_yc3lyad5jwyinmndak3aswu4u4
     dev: false
 
   /@pixi/filter-noise/6.5.9_@pixi+core@6.5.9:
