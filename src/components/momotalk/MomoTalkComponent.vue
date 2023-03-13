@@ -169,7 +169,7 @@ watch(
 function getMessageImagePath(originPath: string | undefined): string {
   if (originPath) {
     const fileName = originPath.split('/').pop();
-    return `/image/ScenarioImage/${fileName}.png`;
+    return `https://yuuka.cdn.diyigemt.com/image/ba-all-data/UIs/03_Scenario/04_ScenarioImage/${fileName}.png`;
   }
   return '';
 }
