@@ -147,7 +147,7 @@ function animateMessage() {
     showMessageContent.value = true;
   }, feedbackTime.value);
   setTimeout(() => {
-    showFavorMessageContent.value = true;
+    showFavorMessageContent.value = 'Answer' !== messageCondition.value;
   }, feedbackTime.value + 500);
 }
 
@@ -181,6 +181,7 @@ function handleSelection(
   Id: number | undefined,
   nextGroupId: number
 ) {
+  showFavorMessageContent.value = true;
   if (selected === currentSelection.value) {
     return;
   }

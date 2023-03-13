@@ -19,6 +19,10 @@ const updateLogs: UpdateLog[] = [
         content: 'momotalk 的阅读状态可以保持',
       },
       {
+        type: 'feat',
+        content: 'momotalk 的好感剧情入口不会在作出回答前出现',
+      },
+      {
         type: 'fix',
         content: '优化手机端 Safari 体验',
       },
