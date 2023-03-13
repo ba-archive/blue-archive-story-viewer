@@ -25,7 +25,7 @@
       <router-link :to="`/archive/${studentId}/story/${story.groupId}`">
         <story-brief-block
           v-show="activeIndex.includes(index)"
-          :title="story.title.TextCn"
+          :title="getStoryTitle(userLanguage, story.title)"
           :description="story.abstract"
         />
       </router-link>
@@ -40,7 +40,8 @@ import { computed, ref } from 'vue';
 import { useRoute } from 'vue-router';
 import { useSettingsStore } from '../../store/settings';
 import { useStudentStore } from '../../store/students';
-import { StoryIndex } from '../../types/StoryJson';
+import { Language } from '../../types/Settings';
+import { CommonStoryTextObject, StoryIndex } from '../../types/StoryJson';
 import StoryBriefBlock from '../story/StoryBriefBlock.vue';
 import ErrorScreen from '../widgets/ErrorScreen.vue';
 import NeuProgressBar from '../widgets/NeuUI/NeuProgressBar.vue';
@@ -63,8 +64,8 @@ const fetchError = ref(false);
 const fetchErrorMessage = ref({});
 
 const studentId = computed(() => parseInt(route.params.id as string));
-// const student = computed(() => studentStore.getStudentById(studentId.value));
 const studentAvatar = studentStore.getStudentAvatar(studentId.value);
+const userLanguage = computed(() => settingsStore.getLang);
 
 axios
   .get(`/story/favor/${studentId.value}/index.json`, {
@@ -102,6 +103,15 @@ function handleOpenIndex(index: number) {
   } else {
     activeIndex.value.push(index);
   }
+}
+
+function getStoryTitle(userLanguage: Language, titles: CommonStoryTextObject) {
+  return (
+    Reflect.get(
+      titles,
+      'Text' + userLanguage[0].toUpperCase() + userLanguage.slice(1)
+    ) || titles.TextJp
+  );
 }
 </script>
 
