@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { h } from 'vue';
-import { UpdateLog } from '../types/UpdateNews';
+import { Contributor, UpdateLog } from '../types/UpdateNews';
 
 const updateLogs: UpdateLog[] = [
   {
@@ -64,7 +64,7 @@ const updateLogs: UpdateLog[] = [
   },
 ];
 
-const contributors = [
+const contributors: Contributor[] = [
   {
     name: '黑猫汐',
     role: '校对',
@@ -217,7 +217,7 @@ const contributorList: any = h(
       return h(
         contributor.link ? 'a' : 'div',
         {
-          href: contributor.link,
+          href: contributor?.link,
           class: 'contributor__avatar',
           target: '_blank',
           rel: 'noopener noreferrer',
