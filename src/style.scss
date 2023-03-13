@@ -265,6 +265,18 @@ a {
   box-shadow: 0.2rem 0.2rem 1rem var(--color-shadow-farther);
 }
 
+.user-action-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.375s ease-in-out;
+  cursor: pointer;
+  background: var(--color-primary-button);
+  padding: 0.4rem 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
 // consistent scrollbar style on all desktop browsers
 @media screen and (min-width: 768px) {
   html[data-scrollbar='customize'] {

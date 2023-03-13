@@ -23,6 +23,10 @@ const updateLogs: UpdateLog[] = [
         content: 'momotalk 的好感剧情入口不会在作出回答前出现',
       },
       {
+        type: 'feat',
+        content: 'momotalk 对话内容完全支持日、英、中文',
+      },
+      {
         type: 'fix',
         content: '优化手机端 Safari 体验',
       },
