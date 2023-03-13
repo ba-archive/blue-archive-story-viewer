@@ -84,7 +84,10 @@ function handleSuperSamplingSwitchChange(value: boolean) {
 function handleClearCache() {
   caches.keys().then(cacheNames => {
     const clearedCacheList: string[] = [];
-    cacheNames.forEach(cacheName => {
+    const clearableCaches = cacheNames.filter(
+      cacheName => !cacheName.startsWith('workbox')
+    );
+    clearableCaches.forEach(cacheName => {
       console.log('Deleting cache: ' + cacheName);
       caches.delete(cacheName);
       clearedCacheList.push(cacheName);
