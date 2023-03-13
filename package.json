@@ -13,6 +13,7 @@
     "check": "eslint --fix --config ./.eslintrc.json ./src/ ./CICD/ ./public/config/yaml/ --ext .js,.ts,.vue,.yml,.yaml && vue-tsc --noEmit --skipLibCheck"
   },
   "dependencies": {
+    "@intlify/unplugin-vue-i18n": "^0.9.2",
     "@pixi-spine/base": "^3.1.0",
     "@pixi/constants": ">=6.1.0 <7.0.0",
     "@pixi/core": "6.5.9",
@@ -49,6 +50,7 @@
     "toastify-js": "1.12.0",
     "typed.js": "^2.0.12",
     "vue": "3.2.47",
+    "vue-i18n": "9",
     "vue-router": "4.1.6",
     "xxhashjs": "^0.2.2"
   },

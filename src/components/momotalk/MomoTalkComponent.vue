@@ -40,7 +40,7 @@
 
     <div v-if="'Answer' === messageCondition" class="user-reply rounded-small">
       <div class="user-reply-banner">
-        <span>回复</span>
+        <span>{{ t('replyTitle') }}</span>
       </div>
       <div class="select-options flex-vertical">
         <div
@@ -64,13 +64,14 @@
   >
     <div class="favor-schedule-unit rounded-small">
       <div class="favor-schedule-banner">
-        <span>羁绊事件</span>
+        <span>{{ t('favorScheduleTitle') }}</span>
       </div>
       <router-link
         :to="`/archive/${characterId}/story/${message?.FavorScheduleId}`"
         role="button"
         class="favor-schedule-button rounded-small shadow-near"
-        >前往{{ studentName }}的羁绊事件</router-link
+      >
+        {{ t('goToFavorSchedule', { name: studentName }) }}</router-link
       >
     </div>
   </div>
@@ -78,10 +79,13 @@
 
 <script setup lang="ts">
 import { PropType, computed, ref, watch } from 'vue';
+import { useI18n } from 'vue-i18n';
 import { useSettingsStore } from '../../store/settings';
 import { useStudentStore } from '../../store/students';
 import { CurrentMessageItem, MessageText } from '../../types/Chats';
 import { StudentName } from '../../types/Student';
+
+const { t } = useI18n();
 
 const props = defineProps({
   message: Object as PropType<CurrentMessageItem>,

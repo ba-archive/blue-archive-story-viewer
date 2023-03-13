@@ -30,7 +30,6 @@ const languages = ref([
 ]);
 
 const settingsStore = useSettingsStore();
-const selectedLang = ref(settingsStore.getLang);
 
 function handleLangChange(event: Event) {
   const target = event.target as HTMLSelectElement;
@@ -43,7 +42,7 @@ function handleLangChange(event: Event) {
 <template>
   <select
     class="language-switcher rounded-small"
-    v-model="selectedLang"
+    v-model="$i18n.locale"
     @change="handleLangChange($event)"
   >
     <option

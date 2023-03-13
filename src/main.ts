@@ -5,6 +5,7 @@ import { createPinia } from 'pinia';
 import piniaPluginPersistedstate from 'pinia-plugin-persistedstate';
 import Toastify from 'toastify-js';
 import { createApp } from 'vue';
+import { i18n } from './i18n/i18n';
 import { routerConvert } from './route/routes';
 import App from './App.vue';
 import './style.scss';
@@ -32,4 +33,4 @@ const updateSW = registerSW({
 
 const pinia = createPinia();
 pinia.use(piniaPluginPersistedstate);
-createApp(App).use(pinia).use(routerConvert).mount('#app');
+createApp(App).use(pinia).use(routerConvert).use(i18n).mount('#app');
