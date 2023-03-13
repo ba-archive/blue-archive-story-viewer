@@ -4,11 +4,27 @@ import { UpdateLog } from '../types/UpdateNews';
 
 const updateLogs: UpdateLog[] = [
   {
-    date: '2023-03-11',
+    date: '2023-03-xx',
     contents: [
       {
         type: 'test',
         content: '4K 超分辨率支持',
+      },
+      {
+        type: 'feat',
+        content: '增加小雪剧情的繁体中文翻译',
+      },
+      {
+        type: 'feat',
+        content: 'momotalk 的阅读状态可以保持',
+      },
+      {
+        type: 'fix',
+        content: '优化手机端 Safari 体验',
+      },
+      {
+        type: 'fix',
+        content: '一些显示 bug 修复',
       },
     ],
   },
@@ -161,6 +177,29 @@ const contributors = [
     role: '翻译（繁中）',
     avatar: '/image/contributor/tiramisu.webp',
   },
+  {
+    name: '_Aisle',
+    role: '前端',
+    avatar: '/image/contributor/mizukiaaaaaisle.webp',
+    link: 'https://github.com/MizukiAAAAAisle',
+  },
+  {
+    name: 'たかなしち',
+    role: '翻译',
+    avatar: '/image/contributor/takanasichi.webp',
+  },
+  {
+    name: '碧蓝档案资讯站',
+    role: '制作协力',
+    avatar: '/image/contributor/zixunzhan.webp',
+    link: 'https://space.bilibili.com/37507923',
+  },
+  {
+    name: '飞小RAN',
+    role: '制作协力',
+    avatar: '/image/contributor/xiaofeitm233.webp',
+    link: 'https://github.com/xiaofeiTM233',
+  },
 ];
 
 // make vue-tsc happy
@@ -258,24 +297,13 @@ const contributorList: any = h(
   .update-content {
     a {
       transition: color 0.375s ease-in-out;
-      color: var(--color-text-main);
+      color: var(--color-pallete-arona-blue);
       text-decoration: underline;
     }
     .momotalk-link:not(:last-child)::after {
       content: '、';
     }
   }
-}
-
-mark {
-  transition: color 0.375s ease-in-out;
-  background-color: transparent;
-  color: var(--color-text-main);
-  font-weight: bold;
-  text-decoration-line: underline;
-  text-decoration-color: cornflowerblue;
-  text-decoration-thickness: 0.2rem;
-  text-underline-offset: 0.2rem;
 }
 
 @media screen and (max-width: 768px) {

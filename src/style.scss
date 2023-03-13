@@ -24,6 +24,10 @@
 
 //noinspection CssUnknownTarget
 html {
+  --color-pallete-arona-blue: #3f88f2;
+  --color-pallete-warning: #ffa00c;
+  --color-pallete-danger: #ff3a30;
+
   --color-card-background: #fff;
 
   --color-glass-panel-border: #eff3ff;
@@ -91,6 +95,8 @@ html {
 
 //noinspection CssUnknownTarget
 html[data-theme='dark'] {
+  --color-pallete-arona-blue: #b2cffa;
+
   --color-card-background: #2f2f2f;
   --color-glass-panel-border: #4b93dc;
   --color-main-background: #343e50;
@@ -120,6 +126,10 @@ html[data-theme='dark'] {
   --color-text-ingame: #eee;
   --color-text-main: #eee;
   --color-title-container: #404040ed;
+  --color-text-heavy-armor: #d98526;
+  --color-text-light-armor: #cd0e1e;
+  --color-text-striker: #f11f2c;
+  --color-text-unarmed: #2989c0;
 
   --color-shadow-near: #2126311f;
   --color-shadow-far: #0c0e1219;
@@ -159,6 +169,11 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+a {
+  transition: color 0.375s ease-in-out;
+  color: var(--color-text-main);
 }
 
 #app {

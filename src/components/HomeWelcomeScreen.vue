@@ -40,7 +40,7 @@
 }
 
 .navigation {
-  color: var(--color-primary-button);
+  color: var(--color-pallete-arona-blue);
   text-decoration: none;
 }
 
