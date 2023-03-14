@@ -38,9 +38,6 @@ async function next(NextGroupId: number, id: number) {
   }
   const messageGroupElements = findItemsByGroupId(NextGroupId);
   const firstMessageGroupElement = messageGroupElements[0];
-  const favorScheduleId =
-    messageGroupElements.find(element => element.FavorScheduleId !== 0)
-      ?.FavorScheduleId || 0;
 
   if (!firstMessageGroupElement) {
     // NextGroupId 没有返回结果，聊天结束
