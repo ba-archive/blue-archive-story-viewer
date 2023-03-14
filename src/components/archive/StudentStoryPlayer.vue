@@ -77,7 +77,6 @@
         :height="playerHeight"
         data-url="https://yuuka.cdn.diyigemt.com/image/ba-all-data"
         :language="language"
-        ref="storyComp"
         :userName="userName"
         :story-summary="storySummary"
         :start-full-screen="startFullScreen"
@@ -105,7 +104,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import axios from 'axios';
 import StoryPlayer from 'ba-story-player';
-import { computed, onMounted, onUnmounted, ref, watch } from 'vue';
+import { computed, ref, watch } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import { useSettingsStore } from '../../store/settings';
 import { StoryContent } from '../../types/StoryJson';
@@ -124,7 +123,6 @@ const initProgress = ref(0);
 // get 请求是否出错
 const fetchError = ref(false);
 const fetchErrorMessage = ref({});
-const storyComp = ref<any>(null);
 
 const studentId = computed(() => route.params.id as string);
 const favorGroupId = computed(() => route.params.groupId);
@@ -212,18 +210,6 @@ function handleUseSuperSampling(value: boolean) {
   settingsStore.setUseSuperSampling(value);
   pageRefresh();
 }
-onMounted(() => {
-  // 如果不是初次播放直接刷新
-  if ((window as any).hasStoryPlayed) {
-    location.reload();
-  }
-});
-onUnmounted(() => {
-  // 调用清空函数
-  if (storyComp?.value?.clear) {
-    storyComp.value.clear();
-  }
-});
 </script>
 
 <style scoped lang="scss">
