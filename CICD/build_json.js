@@ -28,7 +28,7 @@ function walk(dir, callback) {
   });
 }
 
-walk(path.resolve(__dirname, '..', 'public', 'config', 'yaml'), pathname => {
+walk(path.resolve(__dirname, '..', 'public'), pathname => {
   const startTime = new Date().getTime();
   fs.readFile(pathname, 'utf8', (err, data) => {
     if (err) {

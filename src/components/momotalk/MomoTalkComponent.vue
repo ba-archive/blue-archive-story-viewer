@@ -4,36 +4,43 @@
     :class="
       !message?.avatar && 'Answer' !== messageCondition ? 'condensed' : ''
     "
+    v-scroll-into-view
   >
     <div class="student-reply" v-if="'Answer' !== messageCondition">
       <img
         class="student-avatar"
-        :class="message?.avatar ? '' : 'hidden'"
+        :class="{ hidden: !message?.avatar }"
         :src="studentAvatar"
         :alt="studentName"
       />
-      <div class="message-content-wrap rounded-small">
-        <div v-if="!showMessageContent" class="typing-indicator">
-          <span class="dot-1">·</span>
-          <span class="dot-2">·</span>
-          <span class="dot-3">·</span>
+
+      <div class="message-text flex-vertical">
+        <div class="student-name" v-if="message?.avatar">
+          {{ studentName }}
         </div>
-        <div v-show="showMessageContent" class="message-content">
-          <span v-if="'Image' !== messageType">{{
-            getMessageText(message)
-          }}</span>
-          <img
-            v-else
-            :src="getMessageImagePath(message?.ImagePath)"
-            alt="聊天图片"
-          />
+        <div class="message-content-wrap rounded-small">
+          <div v-if="!showMessageContent" class="typing-indicator">
+            <span class="dot-1">·</span>
+            <span class="dot-2">·</span>
+            <span class="dot-3">·</span>
+          </div>
+          <div v-show="showMessageContent" class="message-content">
+            <span v-if="'Image' !== messageType">{{
+              getMessageText(message)
+            }}</span>
+            <img
+              v-else
+              :src="getMessageImagePath(message?.ImagePath)"
+              alt="聊天图片"
+            />
+          </div>
         </div>
       </div>
     </div>
 
     <div v-if="'Answer' === messageCondition" class="user-reply rounded-small">
       <div class="user-reply-banner">
-        <span>回复</span>
+        <span>{{ t('replyTitle') }}</span>
       </div>
       <div class="select-options flex-vertical">
         <div
@@ -41,7 +48,7 @@
           class="rounded-small shadow-near"
           v-for="(option, index) in message?.options?.content"
           :key="index"
-          :class="index === currentSelection ? 'selected' : ''"
+          :class="{ selected: index === currentSelection }"
           @click="handleSelection(index, message?.Id, option.NextGroupId)"
         >
           {{ getMessageText(option) }}
@@ -53,33 +60,64 @@
   <div
     class="momotalk-unit"
     v-if="0 !== message?.FavorScheduleId && showFavorMessageContent"
+    v-scroll-into-view
   >
     <div class="favor-schedule-unit rounded-small">
       <div class="favor-schedule-banner">
-        <span>羁绊事件</span>
+        <span>{{ t('favorScheduleTitle') }}</span>
       </div>
-      <div
-        :to="`/archive/${characterId}/story`"
+      <router-link
+        :to="`/archive/${characterId}/story/${message?.FavorScheduleId}`"
         role="button"
         class="favor-schedule-button rounded-small shadow-near"
         @click="nextMessage(message!.NextGroupId)"
       >
-        前往{{ studentName }}的羁绊事件
-      </div>
+        {{ t('goToFavorSchedule', { name: studentName }) }}</router-link
+      >
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { PropType, computed, ref } from 'vue';
+import { PropType, computed, ref, watch } from 'vue';
+import { useI18n } from 'vue-i18n';
 import { useSettingsStore } from '../../store/settings';
 import { useStudentStore } from '../../store/students';
 import { CurrentMessageItem, MessageText } from '../../types/Chats';
 import { StudentName } from '../../types/Student';
 
+const { t } = useI18n();
+
 const props = defineProps({
   message: Object as PropType<CurrentMessageItem>,
+  shouldComponentUpdate: Boolean,
 });
+
+function isInViewport(el: HTMLElement) {
+  const rect = el.getBoundingClientRect();
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom <=
+      (window.innerHeight || document.documentElement.clientHeight) &&
+    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  );
+}
+
+const vScrollIntoView = {
+  mounted(el: HTMLElement) {
+    if (isInViewport(el)) {
+      return;
+    }
+    el.scrollIntoView({ behavior: 'smooth', block: 'end' });
+  },
+  updated(el: HTMLElement) {
+    if (isInViewport(el)) {
+      return;
+    }
+    el.scrollIntoView({ behavior: 'smooth', block: 'end' });
+  },
+};
 
 const settingsStore = useSettingsStore();
 const studentStore = useStudentStore();
@@ -94,8 +132,10 @@ const studentName = computed(() => {
       | undefined) || ''
   );
 });
-const messageCondition = props.message?.MessageCondition || 'None';
-const messageType = props.message?.MessageType || 'Text';
+const messageCondition = computed(
+  () => props.message?.MessageCondition || 'None'
+);
+const messageType = computed(() => props.message?.MessageType || 'Text');
 const studentAvatar = `/image/avatar_students/${characterId}.webp`;
 
 const currentSelection = ref(-1);
@@ -103,18 +143,38 @@ const currentSelection = ref(-1);
 const showMessageContent = ref(false);
 const showFavorMessageContent = ref(false);
 // 这里是故意用 || 而不是 ?? 的，不然第一条消息需要等待太久，用户体验不好
-const feedbackTime = props.message?.FeedbackTimeMillisec || 1000;
-setTimeout(() => {
-  showMessageContent.value = true;
-}, feedbackTime);
-setTimeout(() => {
-  showFavorMessageContent.value = true;
-}, feedbackTime + 500);
+const feedbackTime = computed(
+  () => props.message?.FeedbackTimeMillisec || 1000
+);
+
+function animateMessage() {
+  setTimeout(() => {
+    showMessageContent.value = true;
+  }, feedbackTime.value);
+  setTimeout(() => {
+    showFavorMessageContent.value = 'Answer' !== messageCondition.value;
+  }, feedbackTime.value + 500);
+}
+
+animateMessage();
+
+watch(
+  () => props.shouldComponentUpdate,
+  newValue => {
+    if (!newValue) {
+      return;
+    }
+    showMessageContent.value = false;
+    showFavorMessageContent.value = false;
+    currentSelection.value = -1;
+    animateMessage();
+  }
+);
 
 function getMessageImagePath(originPath: string | undefined): string {
   if (originPath) {
     const fileName = originPath.split('/').pop();
-    return `/image/ScenarioImage/${fileName}.png`;
+    return `https://yuuka.cdn.diyigemt.com/image/ba-all-data/UIs/03_Scenario/04_ScenarioImage/${fileName}.png`;
   }
   return '';
 }
@@ -130,6 +190,10 @@ function handleSelection(
   Id: number | undefined,
   nextGroupId: number
 ) {
+  showFavorMessageContent.value = true;
+  if (selected === currentSelection.value) {
+    return;
+  }
   currentSelection.value = selected;
   emit('userSelect', Id || 0, nextGroupId);
 }
@@ -190,9 +254,10 @@ function getMessageText(
   margin-top: 0.5rem;
   padding: 0 0.5rem;
   width: 100%;
+  white-space: pre-wrap;
 
   &.condensed {
-    margin-top: 0.1rem;
+    margin-top: 0.3rem;
   }
 }
 .student-reply {
@@ -213,17 +278,27 @@ function getMessageText(
     height: 0;
   }
 }
-
-.message-content-wrap {
+.message-text {
+  align-items: flex-start;
   margin-left: 0.5rem;
-  background-color: #505a6d;
-  padding: 0.5rem;
-  width: fit-content;
-  color: var(--color-text-contrast);
 
-  img {
-    width: 10rem;
-    height: auto;
+  .student-name {
+    transition: color 0.375s ease-in-out;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+  .message-content-wrap {
+    transition: color 0.375s ease-in-out;
+    background-color: #505a6d;
+    padding: 0.5rem;
+    width: fit-content;
+    color: var(--color-text-contrast);
+
+    img {
+      width: 10rem;
+      height: auto;
+    }
   }
 }
 
@@ -258,6 +333,7 @@ function getMessageText(
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  transition: all 0.375s ease-in-out;
   margin-left: auto;
   border: 1px solid var(--color-momotalk-user-action-border);
   background-color: var(--color-momotalk-user-reply-background);
@@ -267,6 +343,7 @@ function getMessageText(
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    transition: all 0.375s ease-in-out;
     border-bottom: 1px solid var(--color-momotalk-user-action-border);
     width: 100%;
     color: var(--color-text-ingame);
@@ -316,6 +393,7 @@ function getMessageText(
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  transition: all 0.375s ease-in-out;
   margin-left: auto;
   border: 1px solid var(--color-momotalk-user-action-border);
   background: var(--color-momotalk-favor-schedule-background)
@@ -326,6 +404,7 @@ function getMessageText(
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    transition: all 0.375s ease-in-out;
     border-bottom: 1px solid var(--color-momotalk-user-action-border);
     width: 100%;
     color: var(--color-text-ingame);
@@ -350,6 +429,7 @@ function getMessageText(
   }
 
   .favor-schedule-button {
+    transition: color 0.375s ease-in-out;
     cursor: pointer;
     margin-top: 1rem;
     background-color: #ff92a4;

@@ -6,17 +6,20 @@ export const useSettingsStore = defineStore({
   state: () => {
     return {
       settings: {
-        lang: 'cn',
-        theme: 'light',
+        lang: 'cn' as 'cn' | 'tw' | 'jp' | 'en' | 'kr' | 'th',
+        theme: 'light' as 'light' | 'dark',
         username: 'Sensei' as string,
+        useMp3: false,
+        useSuperSampling: false,
       },
       studentFilters: {
         searchString: '',
         rarity: [] as number[],
         club: [] as string[],
         affiliation: [] as string[],
-        type: [] as string[],
-        armorType: [] as string[],
+        type: [] as ('Striker' | 'Special')[],
+        armorType: [] as ('LightArmor' | 'HeavyArmor' | 'Unarmed')[],
+        bulletType: [] as ('Pierce' | 'Explode' | 'Mystic')[],
       },
     };
   },
@@ -31,12 +34,15 @@ export const useSettingsStore = defineStore({
     getAffiliationFilter: state => state.studentFilters.affiliation,
     getTypeFilter: state => state.studentFilters.type,
     getArmorTypeFilter: state => state.studentFilters.armorType,
+    getBulletTypeFilter: state => state.studentFilters.bulletType || [],
+    getUseMp3: state => state.settings.useMp3,
+    getUseSuperSampling: state => state.settings.useSuperSampling,
   },
   actions: {
-    setLang(lang: string) {
+    setLang(lang: 'cn' | 'tw' | 'jp' | 'en' | 'kr' | 'th') {
       this.settings.lang = lang;
     },
-    setTheme(theme: string) {
+    setTheme(theme: 'light' | 'dark') {
       this.settings.theme = theme;
     },
     setUsername(username: string) {
@@ -49,6 +55,7 @@ export const useSettingsStore = defineStore({
       this.studentFilters.affiliation = filters.affiliation;
       this.studentFilters.type = filters.type;
       this.studentFilters.armorType = filters.armorType;
+      this.studentFilters.bulletType = filters.bulletType || [];
     },
     clearStudentFilters() {
       this.studentFilters.searchString = '';
@@ -57,9 +64,16 @@ export const useSettingsStore = defineStore({
       this.studentFilters.affiliation = [];
       this.studentFilters.type = [];
       this.studentFilters.armorType = [];
+      this.studentFilters.bulletType = [];
     },
     clearStudentFilter(property: keyof StudentAttributeFilters) {
       this.studentFilters[property] = [];
+    },
+    setUseMp3(useMp3: boolean) {
+      this.settings.useMp3 = useMp3;
+    },
+    setUseSuperSampling(useSuperSampling: boolean) {
+      this.settings.useSuperSampling = useSuperSampling;
     },
   },
 });

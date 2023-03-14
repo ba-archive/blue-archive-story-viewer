@@ -24,15 +24,27 @@ const languageMap = {
   th: 'TextTh',
 };
 
+function stripRubyContent(content: string | undefined): string {
+  if (!content) {
+    return '';
+  }
+  return content.replaceAll(/\[\/?ruby=?.*?]/gi, '');
+}
+
 const selectedLangTitle = computed(() => {
-  return Reflect.get(props.title, Reflect.get(languageMap, props.language));
+  const rawTitle = Reflect.get(
+    props.title,
+    Reflect.get(languageMap, props.language)
+  );
+  return stripRubyContent(rawTitle);
 });
 
+// 用于指定语言无对应文本时返回 fallback 文本
 function getFallbackTitle() {
   for (const lang in languageMap) {
     const text = Reflect.get(props.title, Reflect.get(languageMap, lang));
     if (text) {
-      return text;
+      return stripRubyContent(text);
     }
   }
   return 'NoFallbackText';
@@ -56,6 +68,7 @@ function getFallbackTitle() {
         `${parseInt(index?.toString() || '0') + 1}`.padStart(2, '0')
       }}</span>
     </div>
+
     <div class="navigation-button rounded-small" role="button" tabindex="0">
       <svg
         class="navigation-arrow"
@@ -81,6 +94,7 @@ function getFallbackTitle() {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  transition: all 0.375s ease-in-out;
   cursor: pointer;
   background: var(--color-title-container);
   padding: 0.5rem 1rem 0.5rem 0.5rem;
@@ -104,6 +118,7 @@ function getFallbackTitle() {
     }
 
     .ordered-list {
+      transition: color 0.375s ease-in-out;
       margin-right: 1rem;
       margin-left: 0.5rem;
       color: var(--color-text-decoration);
@@ -123,13 +138,18 @@ function getFallbackTitle() {
     flex: none;
     justify-content: center;
     align-items: center;
-    background-color: var(--color-primary-button);
+    transition: background 0.375s ease-in-out;
+    box-shadow: var(--style-primary-button-inset-shadow);
+    background: var(--color-primary-button);
     width: 1.75rem;
     height: 1.75rem;
   }
 
   .navigation-arrow {
     transform: rotate(90deg);
+    filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.1));
+    -webkit-filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.1));
+    transition: transform 0.175s cubic-bezier(0.68, -0.55, 0.27, 1.55);
     cursor: pointer;
     width: 1rem;
     height: 1rem;

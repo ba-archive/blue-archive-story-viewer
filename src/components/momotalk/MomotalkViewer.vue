@@ -173,6 +173,13 @@ function handleNextMessage(NextGroupId: number, id: number) {
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 next(props.content[0].MessageGroupId, 0);
+
+function shouldComponentUpdate(id: number) {
+  return (
+    messageList.value.length > 0 &&
+    id === messageList.value[messageList.value.length - 1].Id
+  );
+}
 </script>
 
 <template>
@@ -200,9 +207,9 @@ next(props.content[0].MessageGroupId, 0);
         <div class="credit">
           <span>由 </span>
           <span v-if="translator">{{ translator }}@</span>
-          <a href="https://space.bilibili.com/37507923" target="_blank">
-            碧蓝档案资讯站
-          </a>
+          <a href="https://space.bilibili.com/37507923" target="_blank"
+            >碧蓝档案资讯站</a
+          >
           <span> 翻译</span>
         </div>
       </div>
@@ -214,6 +221,7 @@ next(props.content[0].MessageGroupId, 0);
         :message="message"
         @userSelect="handleUserSelect"
         @next-message="handleNextMessage"
+        :should-component-update="shouldComponentUpdate(message.Id)"
       />
     </div>
   </div>
@@ -231,6 +239,7 @@ next(props.content[0].MessageGroupId, 0);
 }
 
 .momotalk-banner {
+  transition: all 0.375s ease-in-out;
   background-color: var(--color-momotalk-background);
   padding: 0.5rem;
   width: 100%;
@@ -239,6 +248,7 @@ next(props.content[0].MessageGroupId, 0);
 
   svg {
     fill: var(--color-momotalk-banner-text);
+    transition: fill 0.375s ease-in-out;
     width: 2rem;
     height: 2rem;
   }
@@ -249,7 +259,7 @@ next(props.content[0].MessageGroupId, 0);
     justify-content: flex-start;
     margin-left: 0.5rem;
     font-size: 1.25rem;
-    font-family: 'Asap Condensed', 'Microsoft YaHei', 'PingFang SC',
+    font-family: 'Asap Condensed Bold Italic', 'Microsoft YaHei', 'PingFang SC',
       -apple-system, system-ui, 'Segoe UI', Roboto, Ubuntu, Cantarell,
       'Noto Sans', BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans GB',
       Arial, sans-serif;
@@ -259,11 +269,16 @@ next(props.content[0].MessageGroupId, 0);
     }
 
     .credit {
-      font-style: italic;
+      transform: skewX(-6deg);
       font-size: 0.5rem;
+      font-family: 'Asap Condensed Medium', 'Microsoft YaHei', 'PingFang SC',
+        -apple-system, system-ui, 'Segoe UI', Roboto, Ubuntu, Cantarell,
+        'Noto Sans', BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans GB',
+        Arial, sans-serif;
 
       a {
         display: inline-flex;
+        transition: color 0.375s ease-in-out;
         color: var(--color-momotalk-banner-text);
       }
     }

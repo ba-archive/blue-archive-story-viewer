@@ -30,55 +30,51 @@ const languages = ref([
 ]);
 
 const settingsStore = useSettingsStore();
-const selectedLang = ref(settingsStore.getLang);
 
 function handleLangChange(event: Event) {
   const target = event.target as HTMLSelectElement;
-  settingsStore.setLang(target.value);
+  settingsStore.setLang(
+    target.value as 'cn' | 'tw' | 'jp' | 'en' | 'kr' | 'th'
+  );
 }
 </script>
 
 <template>
-  <div class="selection rounded-small">
-    <select
-      class="language-switcher"
-      v-model="selectedLang"
-      @change="handleLangChange($event)"
+  <select
+    class="language-switcher rounded-small"
+    v-model="$i18n.locale"
+    @change="handleLangChange($event)"
+  >
+    <option
+      v-for="language in languages"
+      :key="language.code"
+      :value="language.code"
     >
-      <option
-        v-for="language in languages"
-        :key="language.code"
-        :value="language.code"
-      >
-        {{ language.name }}
-      </option>
-    </select>
-  </div>
+      {{ language.name }}
+    </option>
+  </select>
 </template>
 
 <style scoped lang="scss">
 select {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   appearance: none;
   -webkit-appearance: none;
+  transition: all 0.375s ease-in-out;
   cursor: pointer;
   outline: none;
+  box-shadow: var(--style-switch-track-shadow);
   border: none;
-  background-color: transparent;
+  background-color: var(--color-switch-track);
   padding: 0 0.5rem;
+  width: fit-content;
   color: var(--color-text-main);
   font-size: inherit;
   line-height: inherit;
   font-family: inherit;
-  text-align: center;
-}
-
-.selection {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  box-shadow: var(--style-switch-track-shadow);
-  background-color: var(--color-switch-track);
-  width: fit-content;
   user-select: none;
+  text-align: center;
 }
 </style>

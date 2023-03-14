@@ -1,32 +1,33 @@
 CharacterId: 10047
+translator: 瓜豆GUARDOU
 title:
   - GroupId: 1004702
     FavorScheduleId: 100472
     CharacterId: 10047
-    TextJp: キラキラを見つけたい
-    TextCn: ''
-    TextKr: ''
-    TextEn: ''
-    TextTh: ''
-    TextTw: ''
+    TextJp: きらきらを見つけたい
+    TextCn: 想要找到闪闪发光
+    TextKr: 반짝임을 찾고 싶어
+    TextEn: Finding Sparkles
+    TextTh: ตามหาแสงระยิบระยับ
+    TextTw: 尋找閃亮
   - GroupId: 1004703
     FavorScheduleId: 100473
     CharacterId: 10047
     TextJp: 見せたいもの
-    TextCn: ''
-    TextKr: ''
-    TextEn: ''
-    TextTh: ''
-    TextTw: ''
+    TextCn: 想展现的东西
+    TextKr: 당신에게 보여주고 싶은 것
+    TextEn: What I Want to Show You
+    TextTh: สิ่งที่อยากให้คุณได้เห็น
+    TextTw: 想給你看的東西
   - GroupId: 1004705
     FavorScheduleId: 100475
     CharacterId: 10047
     TextJp: きらきらの在り処
-    TextCn: ''
-    TextKr: ''
-    TextEn: ''
-    TextTh: ''
-    TextTw: ''
+    TextCn: 闪闪发光的所在之处
+    TextKr: 실은, 반짝임이 있던 곳은
+    TextEn: Where the Sparkles Are
+    TextTh: ที่ที่มีแสงระยิบระยับ...
+    TextTw: 閃亮的所在之處
 content:
   - MessageGroupId: 100470010
     Id: 100470010
@@ -42,10 +43,10 @@ content:
     ImagePath: ''
     MessageKR: 선생님. 베케이-션이야.
     MessageJP: 先生、レッツバケーション
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 老师，一起度假吧
+    MessageEN: Sensei, it's vacation.
+    MessageTH: คุณครู พักร้อนแหละ
+    MessageTW: 老師，Let's Vacation
   - MessageGroupId: 100470020
     Id: 100470020
     CharacterId: 10047
@@ -60,10 +61,10 @@ content:
     ImagePath: ''
     MessageKR: 응? 베케이…? 저기, 치세. 무슨 이야기야?
     MessageJP: バケーション……？
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 度假……？
+    MessageEN: Huh? Vacation...? What's up, Chise?
+    MessageTH: "หืม? พักร้อน?\n หมายถึงเรื่องอะไรเหรอ?"
+    MessageTW: Vacation……？
   - MessageGroupId: 100470030
     Id: 100470030
     CharacterId: 10047
@@ -78,10 +79,10 @@ content:
     ImagePath: ''
     MessageKR: 응, 나, 휴가를 받았어. 여름휴가-
     MessageJP: うん、貰ったの。夏休み
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 嗯，获得的。暑假
+    MessageEN: Yeah, I have summer vacation time.
+    MessageTH: หืม ฉันได้วันหยุดละ  วันหยุดพักร้อน
+    MessageTW: 嗯，獲得了。暑假
   - MessageGroupId: 100470030
     Id: 100470040
     CharacterId: 10047
@@ -96,10 +97,10 @@ content:
     ImagePath: ''
     MessageKR: 평소에 음양부 활동 열심히 했으니까.
     MessageJP: いつも陰陽部の活動、頑張ってるから
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 因为阴阳部的活动，我一直很努力
+    MessageEN: 'I work hard for the Yin-Yang Club. '
+    MessageTH: 'ฉันตั้งใจทำงานของชมรมอย่างหนัก '
+    MessageTW: 平時在陰陽部的活動，努力了
   - MessageGroupId: 100470040
     Id: 100470050
     CharacterId: 10047
@@ -114,10 +115,10 @@ content:
     ImagePath: ''
     MessageKR: 쉬고 오래.
     MessageJP: ゆっくり休んできて、って
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 大家说，让我好好休息一下
+    MessageEN: So I was given some time off.
+    MessageTH: เลยได้วันหยุดน่ะ
+    MessageTW: 要我，好好去休息
   - MessageGroupId: 100470050
     Id: 100470060
     CharacterId: 10047
@@ -132,10 +133,10 @@ content:
     ImagePath: ''
     MessageKR: 아, 그런 이야기였구나. 잘됐네.
     MessageJP: なるほど。それは良かったね
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 这样啊。那真是太好了呢
+    MessageEN: Oh, that's what you meant. That's great.
+    MessageTH: อ๋อ แบบนี้นี่เอง พอดีเลยนะ
+    MessageTW: 原來如此。那真是太好了呢
   - MessageGroupId: 100470050
     Id: 100470070
     CharacterId: 10047
@@ -150,10 +151,10 @@ content:
     ImagePath: ''
     MessageKR: 그럼 혹시, 뭔가 예정이라도 있는 거야?
     MessageJP: 何か夏休みの予定とかあるの？
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 千世暑假有什么安排吗？
+    MessageEN: Do you have any plans?
+    MessageTH: แล้ววางแผนไว้รึยังล่ะ?
+    MessageTW: 有什麼暑假的計畫嗎？
   - MessageGroupId: 100470060
     Id: 100470080
     CharacterId: 10047
@@ -168,10 +169,10 @@ content:
     ImagePath: ''
     MessageKR: 응. 있어.
     MessageJP: うん、それはもう
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 嗯，那是当然
+    MessageEN: Yeah, I do.
+    MessageTH: อื้อ มีแล้ว
+    MessageTW: 嗯，那當然
   - MessageGroupId: 100470070
     Id: 100470090
     CharacterId: 10047
@@ -186,10 +187,10 @@ content:
     ImagePath: ''
     MessageKR: 아, 혹시 어떤 예정….
     MessageJP: どんな予定なのか、聞いても良い？
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 我可以问问是什么安排吗？
+    MessageEN: Oh...what plans...?
+    MessageTH: งั้นเหรอ? วางแผนอะไรไว้ล่ะ?
+    MessageTW: 是什麼樣的計畫，可以聽聽嗎？
   - MessageGroupId: 100470080
     Id: 100470100
     CharacterId: 10047
@@ -204,10 +205,10 @@ content:
     ImagePath: ''
     MessageKR: 찾으러 가자. 선생님.
     MessageJP: 探しに行こう、先生
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 一起去找吧，老师
+    MessageEN: Sensei, let's go find some.
+    MessageTH: ไปหากันเถอะ คุณครู
+    MessageTW: 去尋找吧，老師
   - MessageGroupId: 100470090
     Id: 100470110
     CharacterId: 10047
@@ -222,10 +223,10 @@ content:
     ImagePath: ''
     MessageKR: 으, 응? 찾으러 가자니? 뭘?
     MessageJP: 探すって、何を？
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 找东西？千世要找什么？
+    MessageEN: H-Huh? Find what?
+    MessageTH: "หืม? \"ไปหา\" เหรอ?\n หาอะไรล่ะ?"
+    MessageTW: 尋找是，指什麼？
   - MessageGroupId: 100470100
     Id: 100470120
     CharacterId: 10047
@@ -240,10 +241,10 @@ content:
     ImagePath: ''
     MessageKR: 그러니 집합 신-호-
     MessageJP: じゃあ、集合
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 那就，集合
+    MessageEN: Assembly signal.
+    MessageTH: '"สัญญาณ" ที่จับได้'
+    MessageTW: 那麼，集合
   - MessageGroupId: 100470100
     Id: 100470130
     CharacterId: 10047
@@ -258,10 +259,10 @@ content:
     ImagePath: ''
     MessageKR: 바다에서 기다릴게.
     MessageJP: 海で待ってるね
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 在海边等老师哦
+    MessageEN: I'll wait for you at the beach.
+    MessageTH: ฉันจะรอที่ชายหาดนะ
+    MessageTW: 我在海邊等著唷
   - MessageGroupId: 100470110
     Id: 100470140
     CharacterId: 10047
@@ -276,10 +277,10 @@ content:
     ImagePath: ''
     MessageKR: 응? 집합 신호?
     MessageJP: え、えっと、チセ……？
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 呃，那个，千世……？
+    MessageEN: Huh? Assembly signal?
+    MessageTH: หืม? สัญญาณที่จับได้?
+    MessageTW: 那，那個，知世……？
   - MessageGroupId: 100470120
     Id: 100470150
     CharacterId: 10047
@@ -294,10 +295,10 @@ content:
     ImagePath: ''
     MessageKR: 일단, 바다로 가면 되려나…?
     MessageJP: とりあえず、海に行けば良いのかな…?
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 总之，去海边就行了对吧……？
+    MessageEN: I'll meet you there, then...?
+    MessageTH: เอาเป็นว่าไปที่ชายหาดก่อนแล้วกัน...
+    MessageTW: 總之，去海邊就行了嗎……？
   - MessageGroupId: 100470130
     Id: 100470160
     CharacterId: 10047
@@ -312,10 +313,10 @@ content:
     ImagePath: ''
     MessageKR: 선생님, 나 반짝임을 찾다가-
     MessageJP: 先生。この間きらきらを探した時にね
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 老师。上次找闪闪发光的时候
+    MessageEN: Sensei, I've been looking for sparkles, and...
+    MessageTH: "คุณครู ตอนที่หาประกาย\n ระยิบระยับอยู่"
+    MessageTW: 老師。上次在尋找閃閃發亮的時候啊
   - MessageGroupId: 100470140
     Id: 100470170
     CharacterId: 10047
@@ -330,10 +331,10 @@ content:
     ImagePath: ''
     MessageKR: 바닷가에서 엄청난 걸 발견했어.
     MessageJP: 海辺で、すごいものを見つけたの
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 我在海边，找到了很厉害的东西哦
+    MessageEN: I found something incredible at the beach.
+    MessageTH: ฉันก็เจอสิ่งที่ยิ่งใหญ่ในทะเลด้วย
+    MessageTW: 在海邊，發現了很厲害的東西
   - MessageGroupId: 100470150
     Id: 100470180
     CharacterId: 10047
@@ -348,10 +349,10 @@ content:
     ImagePath: ''
     MessageKR: 치세가 엄청나다고 말할 정도라니- 그거 엄청 신경 쓰이는걸.
     MessageJP: 気になる……！
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 好在意……！
+    MessageEN: It must be really special if you think it's incredible.
+    MessageTH: "ถ้าชิเซะบอกว่ายิ่งใหญ่ละก็\n คงเป็นของที่พิเศษมากเลยสินะ"
+    MessageTW: 好在意……！
   - MessageGroupId: 100470160
     Id: 100470190
     CharacterId: 10047
@@ -366,10 +367,10 @@ content:
     ImagePath: ''
     MessageKR: 응, 나, 선생님에게도 보여주고 싶어서.
     MessageJP: うん、私も先生に見せたいな
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 嗯，我也想给老师看看呢
+    MessageEN: Yeah, I want to show it to you.
+    MessageTH: อื้อ ฉันอยากให้คุณครูได้เห็น
+    MessageTW: 嗯，我也想給老師看呢
   - MessageGroupId: 100470170
     Id: 100470200
     CharacterId: 10047
@@ -384,10 +385,10 @@ content:
     ImagePath: ''
     MessageKR: 아, 마침 잘됐다-
     MessageJP: せっかくだし
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 机会难得
+    MessageEN: Oh, good timing.
+    MessageTH: อ๊ะ พอดีเลยนะ
+    MessageTW: 機會難得
   - MessageGroupId: 100470170
     Id: 100470210
     CharacterId: 10047
@@ -402,10 +403,10 @@ content:
     ImagePath: ''
     MessageKR: 같이 보러 가자. 선생님.
     MessageJP: 一緒に見に行こう、先生
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 一起去看吧，老师
+    MessageEN: Let's go see it, Sensei!
+    MessageTH: ไปดูด้วยกันเถอะ คุณครู
+    MessageTW: 一起去看吧，老師
   - MessageGroupId: 100470170
     Id: 100470220
     CharacterId: 10047
@@ -420,10 +421,10 @@ content:
     ImagePath: ''
     MessageKR: 기다리고 있을게~
     MessageJP: じゃあ、待ってるね～
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 那，我就等着老师啦～
+    MessageEN: I'll be waiting!
+    MessageTH: ฉันจะรอนะ~
+    MessageTW: 那麼，我等著唷～
   - MessageGroupId: 100470180
     Id: 100470230
     CharacterId: 10047
@@ -438,10 +439,10 @@ content:
     ImagePath: ''
     MessageKR: 선생님.
     MessageJP: 先生
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 老师
+    MessageEN: Sensei.
+    MessageTH: คุณครู
+    MessageTW: 老師
   - MessageGroupId: 100470190
     Id: 100470240
     CharacterId: 10047
@@ -456,10 +457,10 @@ content:
     ImagePath: ''
     MessageKR: 아, 치세. 어쩐 일이야?
     MessageJP: あ、チセ。どうしたの？
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 啊，千世。怎么了？
+    MessageEN: Oh, Chise. What's up?
+    MessageTH: มีอะไรเหรอ ชิเซะ?
+    MessageTW: 啊，知世。怎麼了嗎？
   - MessageGroupId: 100470200
     Id: 100470250
     CharacterId: 10047
@@ -474,10 +475,10 @@ content:
     ImagePath: ''
     MessageKR: 평소에 이 잘 닦고 있어?
     MessageJP: ちゃんと歯磨きしてる？
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 老师有好好刷牙吗？
+    MessageEN: Have you been brushing your teeth?
+    MessageTH: ปกติแปรงฟันสะอาดรึเปล่า?
+    MessageTW: 有好好刷牙嗎？
   - MessageGroupId: 100470210
     Id: 100470260
     CharacterId: 10047
@@ -492,10 +493,10 @@ content:
     ImagePath: ''
     MessageKR: 이, 일단은……?
     MessageJP: は、はい
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 有、有的
+    MessageEN: Y-Yeah...?
+    MessageTH: จู่ๆ ถามอะไรเนี่ย...
+    MessageTW: 有，有的
   - MessageGroupId: 100470210
     Id: 100470270
     CharacterId: 10047
@@ -510,10 +511,10 @@ content:
     ImagePath: ''
     MessageKR: 갑자기 그건 왜……?
     MessageJP: それはまた、どうして急に……？
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 这又是，为什么突然问这个……？
+    MessageEN: Why do you ask...?
+    MessageTH: ทำไมจู่ๆ ถามเรื่องนี้ล่ะ...?
+    MessageTW: 這也真是，為什麼這麼突然……？
   - MessageGroupId: 100470220
     Id: 100470280
     CharacterId: 10047
@@ -528,10 +529,10 @@ content:
     ImagePath: ''
     MessageKR: 응, 그럼 다행이다-
     MessageJP: それは良かった
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 那就好
+    MessageEN: That's good. Yes.
+    MessageTH: อืม โล่งไปที--
+    MessageTW: 那太好了
   - MessageGroupId: 100470230
     Id: 100470290
     CharacterId: 10047
@@ -546,10 +547,10 @@ content:
     ImagePath: ''
     MessageKR: 선생님, 앞으로도.
     MessageJP: じゃあ先生
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 那老师
+    MessageEN: Sensei, from now on,
+    MessageTH: คุณครู จากนี้ไป
+    MessageTW: 那麼老師
   - MessageGroupId: 100470230
     Id: 100470300
     CharacterId: 10047
@@ -564,10 +565,12 @@ content:
     ImagePath: ''
     MessageKR: 어떤 일이 있더라도 하루 세 번.
     MessageJP: これからも、1日3回
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 之后也要，一天三次
+    MessageEN: no matter what happens,
+    MessageTH: 'ไม่ว่าจะมีเรื่องอะไร
+
+      ก็ต้องแปรงฟัน'
+    MessageTW: 今後也，1天3次
   - MessageGroupId: 100470230
     Id: 100470310
     CharacterId: 10047
@@ -582,10 +585,10 @@ content:
     ImagePath: ''
     MessageKR: 이 닦는 거 잊지 말아야 해?
     MessageJP: 歯磨き、忘れないようにね？
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 刷牙，不要忘记了哦？
+    MessageEN: brush your teeth three times a day, okay?
+    MessageTH: วันละสามครั้งให้ได้เลยนะ
+    MessageTW: 不要忘了，刷牙唷？
   - MessageGroupId: 100470240
     Id: 100470320
     CharacterId: 10047
@@ -600,10 +603,10 @@ content:
     ImagePath: ''
     MessageKR: 으, 응?
     MessageJP: そ、そうだね。了解
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 好、好的呢。我知道了
+    MessageEN: Y-Yes?
+    MessageTH: อะ...อื้อ
+    MessageTW: 也，也是呢。了解
   - MessageGroupId: 100470250
     Id: 100470330
     CharacterId: 10047
@@ -618,10 +621,10 @@ content:
     ImagePath: ''
     MessageKR: 그럼, 안녕.
     MessageJP: それじゃあ……
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 那么……
+    MessageEN: Okay, see ya.
+    MessageTH: ถ้างั้น... บ๊ายบาย
+    MessageTW: 那麼……
   - MessageGroupId: 100470250
     Id: 100470340
     CharacterId: 10047
@@ -636,10 +639,10 @@ content:
     ImagePath: ''
     MessageKR: 선생님.
     MessageJP: 元気でね、先生
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: 多多保重呢，老师
+    MessageEN: Sensei.
+    MessageTH: คุณครู
+    MessageTW: 保重哦，老師
   - MessageGroupId: 100470260
     Id: 100470350
     CharacterId: 10047
@@ -654,7 +657,7 @@ content:
     ImagePath: ''
     MessageKR: 치세…? 저기, 치세?
     MessageJP: ……チセ？
-    MessageCN: ''
-    MessageEN: ''
-    MessageTH: ''
-    MessageTW: ''
+    MessageCN: ……千世？
+    MessageEN: Chise..? Um, Chise?
+    MessageTH: นี่ ชิเซะ...?
+    MessageTW: ……知世？

@@ -1,13 +1,31 @@
-/* eslint-disable no-unused-vars,@typescript-eslint/no-unused-vars */
+/* eslint-disable no-unused-vars,@typescript-eslint/no-unused-vars,@typescript-eslint/ban-ts-comment */
+import px2rem from 'postcss-plugin-px2rem';
+import postcssPresetEnv from 'postcss-preset-env';
 import { visualizer } from 'rollup-plugin-visualizer';
 import { defineConfig } from 'vite';
 import viteCompression from 'vite-plugin-compression';
 import { VitePWA } from 'vite-plugin-pwa';
 import legacy from '@vitejs/plugin-legacy';
 import vue from '@vitejs/plugin-vue';
+import VueI18nPlugin from '@intlify/unplugin-vue-i18n/vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  server: {
+    cors: true,
+  },
+  css: {
+    postcss: {
+      plugins: [
+        postcssPresetEnv(),
+        px2rem({
+          rootValue: 16,
+          propBlackList: ['font-size', 'border', 'border-width'],
+          exclude: /(node_module)/,
+        }),
+      ],
+    },
+  },
   plugins: [
     vue(),
     legacy({
@@ -19,14 +37,15 @@ export default defineConfig({
         '> 1%',
       ],
     }),
+    VueI18nPlugin({ /* options */ }),
     VitePWA({
       injectRegister: 'auto',
-      registerType: 'autoUpdate',
       includeManifestIcons: true,
+      registerType: 'prompt',
       includeAssets: ['favicon/*.png'],
       manifest: {
-        name: 'Blue Archive Story Viewer',
-        short_name: 'BA Stories',
+        name: '碧蓝档案剧情站',
+        short_name: 'BA剧情站',
         description: 'Yet another Blue Archive story viewer',
         lang: 'zh-CN',
         theme_color: '#62abe9',
@@ -57,17 +76,31 @@ export default defineConfig({
       workbox: {
         runtimeCaching: [
           {
-            urlPattern: /(.*?)\.(mp4|mp3|wav)$/i,
+            urlPattern: /(.*?)\.(mp4|mp3|wav|ogg)$/i,
             handler: 'CacheFirst',
             options: {
               cacheName: 'multimedia-cache',
             },
           },
           {
-            urlPattern: /(.*?)\.(png|jpe?g|svg|gif|webp|ico)$/i,
+            urlPattern: /(.*?)\.(woff2?)$/i,
             handler: 'CacheFirst',
             options: {
-              cacheName: 'image-cache',
+              cacheName: 'font-cache',
+            },
+          },
+          {
+            urlPattern: /(ScenarioCharacterNameExcelTable)\.(json)$/i,
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'character-config-table',
+            },
+          },
+          {
+            urlPattern: /(.*?)\.(png|jpe?g|svg|gif|webp|ico|atlas|skel)$/i,
+            handler: 'StaleWhileRevalidate',
+            options: {
+              cacheName: 'image-live2d-cache',
             },
           },
           {
@@ -83,6 +116,7 @@ export default defineConfig({
       // selfDestroying: true,
     }),
     // viteCompression(),
+    //@ts-ignore
     visualizer(),
   ],
   build: {

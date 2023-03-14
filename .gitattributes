@@ -17,6 +17,5 @@
 *.svg binary
 *.woff binary
 *.woff2 binary
-*.yaml binary
-*.json binary
-*.json binary
+package.json !binary
+.prettierrc.json !binary

@@ -13,6 +13,7 @@ import {
 } from '../../types/Student';
 import { filterStudents } from '../../util/filterStudents';
 import ErrorScreen from '../widgets/ErrorScreen.vue';
+import ProgressBar from '../widgets/NeuUI/NeuProgressBar.vue';
 import StudentShowbox from '../widgets/StudentShowbox.vue';
 
 const route = useRoute();
@@ -21,17 +22,32 @@ const studentStore = useStudentStore();
 
 const ready = ref(false);
 const initProgress = ref(0);
+
+/*
+ * @namespace studentSelected
+ * @description 监听学生有没有被选中
+ *              这段是历史遗留了，当时 router-view 不能正确隐藏选择面板，
+ *              只能整一个这种扭曲的东西
+ */
 const studentSelected = computed(() => !/\/archive\/?$/.test(route.path));
 
+// get 请求是否出错
 const fetchError = ref(false);
 const fetchErrorMessage = ref({});
 
 axios
   .get('/config/json/students.json', {
     onDownloadProgress: progressEvent => {
-      initProgress.value = Math.floor(
-        ((progressEvent.loaded || 0) * 100) / (progressEvent.total || 1)
-      );
+      if (progressEvent.total) {
+        initProgress.value = Math.floor(
+          ((progressEvent.loaded || 0) * 100) / (progressEvent.total || 1)
+        );
+      } else {
+        initProgress.value = Math.floor(
+          ((progressEvent.loaded || 0) * 100) /
+            ((progressEvent.loaded || 0) + 100)
+        );
+      }
     },
   })
   .then(response => {
@@ -43,20 +59,22 @@ axios
       );
       studentStore.setStudents(students);
     } catch (e) {
+      // 用户浏览器不支持 localeCompare，则返回不排序的数组
       const students = response.data;
       studentStore.setStudents(students);
     }
     ready.value = true;
   })
   .catch(error => {
-    console.log(error);
+    console.error(error);
     fetchError.value = true;
-    fetchErrorMessage.value = error.message;
+    fetchErrorMessage.value = error;
     ready.value = true;
   });
 
 const students = computed(() => studentStore.getAllStudents);
 
+// 包含每个学生所有名字的 array，用于根据名字过滤
 const studentsNameList = computed<StudentNames[]>(() => {
   return students.value.map(student => {
     return {
@@ -71,14 +89,19 @@ const studentsNameList = computed<StudentNames[]>(() => {
   });
 });
 
+// 获取不重复的某个学生属性，用于在边栏展示
 function getCohortAttribute(
-  attribute: string,
+  attribute: keyof StudentAttributes,
   needSort = true
 ): (string | number)[] {
   const filtered: (string | number)[] = [];
   students.value.forEach((student: Student) => {
-    if (!filtered.includes(student[attribute as keyof StudentAttributes])) {
-      filtered.push(student[attribute as keyof StudentAttributes]);
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
+    if (![undefined, null].includes(student[attribute])) {
+      if (!filtered.includes(student[attribute] as string | number)) {
+        filtered.push(student[attribute] as string | number);
+      }
     }
   });
   if (needSort) {
@@ -95,25 +118,34 @@ function getCohortAttribute(
   return filtered;
 }
 
+/**
+ * @namespace armorTypes
+ * @description 目前游戏内的三种装甲类型，order 字段用于排序
+ */
 const armorTypes = [
-  {
-    string: 'LightArmor',
-    name: '轻装甲',
-    order: 1,
-  },
-  {
-    string: 'HeavyArmor',
-    name: '重装甲',
-    order: 2,
-  },
-  {
-    string: 'Unarmed',
-    name: '神秘装甲',
-    order: 3,
-  },
+  { string: 'LightArmor', name: '轻装甲', order: 1 },
+  { string: 'HeavyArmor', name: '重装甲', order: 2 },
+  { string: 'Unarmed', name: '神秘装甲', order: 3 },
+  { string: 'ElasticArmor', name: '弹性装甲', order: 4 },
 ];
 
-function sortArmorType(a: string | number, b: string | number): number {
+// TODO: Sound 译名待定
+/**
+ * @namespace bulletTypes
+ * @description 目前游戏内的三种子弹类型，order 字段用于排序
+ */
+const bulletTypes = [
+  { string: 'Explosion', name: '爆发', order: 1 },
+  { string: 'Pierce', name: '贯通', order: 2 },
+  { string: 'Mystic', name: '神秘', order: 3 },
+  { string: 'Sound', name: '振动', order: 4 },
+];
+
+// 因为约定俗成的装甲属性排列是 轻装甲-重装甲-神秘装甲，所以根据这个顺序进行排序
+function sortArmorType(
+  a: string | number | undefined,
+  b: string | number | undefined
+): number {
   const armorTypeA = armorTypes.find(type => type.string === a) || {
     name: '0',
   };
@@ -125,6 +157,24 @@ function sortArmorType(a: string | number, b: string | number): number {
   });
 }
 
+// 按照 爆发-贯通-神秘子弹 进行排序
+function sortBulletType(
+  a: string | number | undefined,
+  b: string | number | undefined
+): number {
+  const bulletTypeA = bulletTypes.find(type => type.string === a) || {
+    name: '0',
+  };
+  const bulletTypeB = bulletTypes.find(type => type.string === b) || {
+    name: '1',
+  };
+  return bulletTypeA.name.localeCompare(bulletTypeB.name, 'zh-Hans-CN', {
+    sensitivity: 'accent',
+  });
+}
+
+// 获取全部学生的不重复的属性用于边栏展示
+
 const studentRarities = computed(() => getCohortAttribute('rarity', false));
 const studentClubs = computed(() => getCohortAttribute('club'));
 const studentAffiliations = computed(() => getCohortAttribute('affiliation'));
@@ -132,8 +182,12 @@ const studentTypes = computed(() => getCohortAttribute('type', false));
 const studentArmorTypes = computed(() =>
   getCohortAttribute('armorType', false).sort((a, b) => sortArmorType(a, b))
 );
+const studentBulletTypes = computed(() =>
+  getCohortAttribute('bulletType', false).sort((a, b) => sortBulletType(a, b))
+);
 
 const studentNameFilter = ref('');
+// 学生属性过滤器
 const appliedFilters = computed<AppliedFilter>(() => {
   return {
     searchString: studentNameFilter.value,
@@ -142,20 +196,26 @@ const appliedFilters = computed<AppliedFilter>(() => {
     affiliation: settingsStore.getAffiliationFilter,
     type: settingsStore.getTypeFilter,
     armorType: settingsStore.getArmorTypeFilter,
+    bulletType: settingsStore.getBulletTypeFilter,
   };
 });
 
+// 检测当前过滤器（不含搜索栏）是否为空
 const isEmptyFilter = computed(() => {
   return (
     appliedFilters.value.rarity.length === 0 &&
     appliedFilters.value.club.length === 0 &&
     appliedFilters.value.affiliation.length === 0 &&
     appliedFilters.value.type.length === 0 &&
-    appliedFilters.value.armorType.length === 0
+    appliedFilters.value.armorType.length === 0 &&
+    appliedFilters.value.bulletType &&
+    appliedFilters.value.bulletType?.length === 0
   );
 });
 
-function isActivate(property: string, value: string | number) {
+// 查询一个 tag 是否被选中
+function isActivate(property: string, value: string | number | undefined) {
+  if (undefined === value) return '';
   return (
     appliedFilters.value[property as keyof AppliedFilter] as (string | number)[]
   ).includes(value)
@@ -163,6 +223,7 @@ function isActivate(property: string, value: string | number) {
     : '';
 }
 
+// 处理学生属性过滤器的状态变化，把新的状态存入 settingsStore 并更新过滤后的学生列表
 function handleFilter(property: keyof AppliedFilter, value: string | number) {
   if ((appliedFilters.value[property] as (string | number)[]).includes(value)) {
     (appliedFilters.value[property] as (string | number)[]) = (
@@ -188,10 +249,23 @@ function handleFocus(event: Event) {
 
 const showFilter = ref(true);
 
+// 处理视口尺寸变化（响应式布局）
+// FIXME: 当视口宽度多次变化时会失效
+let currentWidth = window.innerWidth;
+let ticking = false;
 function updateShowFilter() {
-  showFilter.value = window.innerWidth > 768;
+  if (ticking) return;
+  ticking = true;
+  window.requestAnimationFrame(() => {
+    if (currentWidth === window.innerWidth) return;
+    // 仅在视口宽度发生变化时更新 showFilter 状态
+    currentWidth = window.innerWidth;
+    showFilter.value = window.innerWidth > 768;
+    ticking = false;
+  });
 }
 
+// 重置过滤器
 function handleClearFilterAttribute(property: keyof StudentAttributeFilters) {
   settingsStore.clearStudentFilter(property);
 }
@@ -215,10 +289,8 @@ onUnmounted(() => {
     :error-message="fetchErrorMessage"
     :route-path="route.path"
   />
-  <div class="loading" v-if="!ready">
-    <div class="spinner">
-      <span>{{ initProgress }}%</span>
-    </div>
+  <div class="loading-container" v-if="!ready">
+    <progress-bar :show-percentage="true" :progress="initProgress" />
   </div>
   <div id="student-selector-container" v-if="ready && !studentSelected">
     <div class="filter-banner">
@@ -326,6 +398,38 @@ onUnmounted(() => {
           </div>
         </div>
       </div>
+
+      <div class="filter-group" v-if="studentBulletTypes?.length > 0">
+        <h2 class="filter-label">
+          <span>攻击类型</span>
+          <span
+            class="clear-filter-button"
+            role="button"
+            tabindex="0"
+            v-show="0 !== appliedFilters.bulletType?.length"
+            @click="handleClearFilterAttribute('bulletType')"
+          ></span>
+        </h2>
+        <div class="filter-options">
+          <div
+            v-for="bulletType in studentBulletTypes"
+            class="filter-tag bullet-type rounded-small"
+            :class="`${bulletType.toString().toLowerCase()} ${isActivate(
+              'bulletType',
+              bulletType
+            )}`"
+            role="checkbox"
+            :key="bulletType"
+            @click="handleFilter('bulletType', bulletType)"
+          >
+            {{
+              bulletTypes.find(el => bulletType === el.string)?.name ||
+              bulletType
+            }}
+          </div>
+        </div>
+      </div>
+
       <div class="filter-group">
         <h2 class="filter-label">
           <span>装甲类型</span>
@@ -339,13 +443,13 @@ onUnmounted(() => {
         </h2>
         <div class="filter-options">
           <div
+            v-for="armorType in studentArmorTypes"
             class="filter-tag armor-type rounded-small"
             :class="`${armorType.toString().toLowerCase()} ${isActivate(
               'armorType',
               armorType
             )}`"
             role="checkbox"
-            v-for="armorType in studentArmorTypes"
             :key="armorType"
             @click="handleFilter('armorType', armorType)"
           >
@@ -355,6 +459,7 @@ onUnmounted(() => {
           </div>
         </div>
       </div>
+
       <div class="filter-group">
         <h2 class="filter-label">
           <span>社团</span>
@@ -451,7 +556,7 @@ onUnmounted(() => {
 
   #name-filter {
     grid-area: input-area;
-    transition: all 0.125s ease-in-out;
+    transition: all 0.175s ease-in-out;
     border: none;
     background-color: transparent;
     padding: 0.5rem;
@@ -492,6 +597,7 @@ onUnmounted(() => {
 .filter-label {
   display: flex;
   align-items: center;
+  transition: all 0.375s ease-in-out;
   color: var(--color-text-main);
   user-select: none;
 
@@ -561,8 +667,10 @@ onUnmounted(() => {
   }
 }
 
-.armor-type {
-  &.lightarmor {
+.armor-type,
+.bullet-type {
+  &.lightarmor,
+  &.explosion {
     color: var(--color-text-light-armor);
 
     &.active {
@@ -570,7 +678,8 @@ onUnmounted(() => {
       color: var(--color-text-contrast);
     }
   }
-  &.heavyarmor {
+  &.heavyarmor,
+  &.pierce {
     color: var(--color-text-heavy-armor);
 
     &.active {
@@ -578,11 +687,22 @@ onUnmounted(() => {
       color: var(--color-text-contrast);
     }
   }
-  &.unarmed {
+  &.unarmed,
+  &.mystic {
     color: var(--color-text-unarmed);
 
     &.active {
       background-color: var(--color-text-unarmed);
+      color: var(--color-text-contrast);
+    }
+  }
+
+  &.elasticarmor,
+  &.sound {
+    color: var(--color-text-elastic-armor);
+
+    &.active {
+      background-color: var(--color-text-elastic-armor);
       color: var(--color-text-contrast);
     }
   }
@@ -598,7 +718,6 @@ onUnmounted(() => {
   content-visibility: auto;
   padding: 0 1rem 1rem 1rem;
   width: 100%;
-  height: available;
   overflow-y: scroll;
 }
 
@@ -616,48 +735,16 @@ onUnmounted(() => {
   }
 }
 
-.loading {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-
-  & .spinner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    animation: spin 1s linear infinite;
-    border: 0.2rem solid;
-    border-color: var(--color-text-main) transparent;
-    border-radius: 50%;
-    width: 4rem;
-    height: 4rem;
-    color: var(--color-text-main);
-
-    & span {
-      animation: spin 1s linear infinite;
-      animation-direction: reverse;
-    }
-  }
-}
-
 @media screen and (max-width: 768px) {
   #student-selector-container {
-    grid-template-rows: min-content min-content auto;
-    grid-template-columns: auto min-content;
-    grid-template-areas:
-      'name-filter name-filter'
-      'filter filter'
-      'list list';
-    height: calc(100vh - 6rem);
+    display: flex;
+    flex-direction: column;
   }
 
   .filter-banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1.5rem 2rem 1rem 2rem;
     border-radius: 0;
     background-color: transparent;
     .clear-filter-icon {
@@ -707,15 +794,6 @@ onUnmounted(() => {
 
   #student-list {
     grid-template-columns: repeat(auto-fill, 5rem);
-  }
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
   }
 }
 </style>
