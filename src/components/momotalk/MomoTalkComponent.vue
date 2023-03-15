@@ -202,7 +202,7 @@ function getMessageImagePath(originPath: string | undefined): string {
 const emit = defineEmits(['userSelect', 'nextMessage']);
 
 function nextMessage(NextGroupId: number) {
-  emit('nextMessage', NextGroupId, 500);
+  emit('nextMessage', NextGroupId);
 }
 
 function handleSelection(

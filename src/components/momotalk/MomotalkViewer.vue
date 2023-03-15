@@ -162,9 +162,14 @@ function handleUserSelect(Id: number, nextGroupId: number) {
   next(nextGroupId, nextId.value);
 }
 
-function handleNextMessage(NextGroupId: number, id: number) {
-  nextId.value = id;
-  next(NextGroupId, id);
+function handleNextMessage(NextGroupId: number) {
+  const favorIndex = messageList.value.findIndex(
+    value => value.FavorScheduleId !== 0
+  );
+  messageList.value = messageList.value.slice(0, favorIndex + 1);
+  const newNextId = nextId.value + 1;
+  nextId.value = newNextId;
+  next(NextGroupId, newNextId);
 }
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
