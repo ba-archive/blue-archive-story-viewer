@@ -76,7 +76,7 @@ export const localeString = {
     // momotalk
     replyTitle: 'Reply',
     favorScheduleTitle: 'Relationship event',
-    goToFavorSchedule: 'Go to {name}\'s relationship story',
+    goToFavorSchedule: "Go to {name}'s relationship story",
 
     routes: {
       home: 'Home',
