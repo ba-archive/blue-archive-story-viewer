@@ -3,7 +3,7 @@
     <div class="settings-panel flex-vertical rounded-medium">
       <div class="settings-panel__row">
         <div class="settings-panel__row__text">
-          <p>{{ getI18nString(userLanguage, 'language') }}</p>
+          <p>{{ getI18nString(userLanguage, 'settings.language') }}</p>
         </div>
         <div class="settings-panel__row__action">
           <language-selector />
@@ -11,9 +11,9 @@
       </div>
       <div class="settings-panel__row">
         <div class="settings-panel__row__text">
-          <p>{{ getI18nString(userLanguage, 'useMp3Title') }}</p>
+          <p>{{ getI18nString(userLanguage, 'settings.useMp3Title') }}</p>
           <p class="settings-panel__row__text__description">
-            {{ getI18nString(userLanguage, 'useMp3Description') }}
+            {{ getI18nString(userLanguage, 'settings.useMp3Description') }}
           </p>
         </div>
         <div class="settings-panel__row__action">
@@ -25,9 +25,16 @@
       </div>
       <div class="settings-panel__row">
         <div class="settings-panel__row__text">
-          <p>{{ getI18nString(userLanguage, 'useSuperSamplingTitle') }}</p>
+          <p>
+            {{ getI18nString(userLanguage, 'settings.useSuperSamplingTitle') }}
+          </p>
           <p class="settings-panel__row__text__description">
-            {{ getI18nString(userLanguage, 'useSuperSamplingDescription') }}
+            {{
+              getI18nString(
+                userLanguage,
+                'settings.useSuperSamplingDescription'
+              )
+            }}
           </p>
         </div>
         <div class="settings-panel__row__action">
@@ -39,9 +46,9 @@
       </div>
       <div class="settings-panel__row">
         <div class="settings-panel__row__text">
-          <p>{{ getI18nString(userLanguage, 'clearCacheTitle') }}</p>
+          <p>{{ getI18nString(userLanguage, 'settings.clearCacheTitle') }}</p>
           <p class="settings-panel__row__text__description">
-            {{ getI18nString(userLanguage, 'clearCacheDescription') }}
+            {{ getI18nString(userLanguage, 'settings.clearCacheDescription') }}
           </p>
         </div>
         <div class="settings-panel__row__action">
@@ -50,7 +57,7 @@
             role="button"
             @click="handleClearCache"
           >
-            {{ getI18nString(userLanguage, 'clearCacheActionText') }}
+            {{ getI18nString(userLanguage, 'settings.clearCacheActionText') }}
           </div>
         </div>
       </div>

@@ -40,7 +40,7 @@
 
     <div v-if="'Answer' === messageCondition" class="user-reply rounded-small">
       <div class="user-reply-banner">
-        <span>{{ getI18nString(selectedLang, 'replyTitle') }}</span>
+        <span>{{ getI18nString(selectedLang, 'momotalk.replyTitle') }}</span>
       </div>
       <div class="select-options flex-vertical">
         <div
@@ -58,13 +58,15 @@
   </div>
 
   <div
-    class="momotalk-unit"
+    class="momotalk-unit favor-schedule-container"
     v-if="0 !== message?.FavorScheduleId && showFavorMessageContent"
     v-scroll-into-view
   >
     <div class="favor-schedule-unit rounded-small">
       <div class="favor-schedule-banner">
-        <span>{{ getI18nString(selectedLang, 'favorScheduleTitle') }}</span>
+        <span>{{
+          getI18nString(selectedLang, 'momotalk.favorScheduleTitle')
+        }}</span>
       </div>
       <router-link
         :to="`/archive/${characterId}/story/${message?.FavorScheduleId}`"
@@ -73,11 +75,22 @@
         @click="nextMessage(message!.NextGroupId)"
       >
         {{
-          getI18nString(selectedLang, 'goToFavorSchedule', {
+          getI18nString(selectedLang, 'momotalk.goToFavorSchedule', {
             name: studentName,
           })
         }}</router-link
       >
+    </div>
+    <div
+      class="action-group__favor-schedule rounded-small"
+      v-if="showContinueReadingButton"
+    >
+      <div
+        class="next-message-action rounded-small shadow-near"
+        @click="handleContinueReadingButtonPressed"
+      >
+        {{ getI18nString(selectedLang, 'momotalk.continueReading') }}
+      </div>
     </div>
   </div>
 </template>
@@ -156,8 +169,10 @@ function animateMessage() {
   setTimeout(() => {
     showMessageContent.value = true;
   }, feedbackTime.value);
+
   setTimeout(() => {
-    showFavorMessageContent.value = 'Answer' !== messageCondition.value;
+    showFavorMessageContent.value =
+      'Answer' !== messageCondition.value || -1 !== currentSelection.value;
   }, feedbackTime.value + 500);
 }
 
@@ -200,6 +215,10 @@ function handleSelection(
     return;
   }
   currentSelection.value = selected;
+
+  if (0 !== props.message?.FavorScheduleId) {
+    return;
+  }
   emit('userSelect', Id || 0, nextGroupId);
 }
 
@@ -251,6 +270,13 @@ function getMessageText(
   }
   return '';
 }
+
+const showContinueReadingButton = ref(true);
+function handleContinueReadingButtonPressed() {
+  console.log('nextGroupId: ' + props.message?.NextGroupId);
+  nextMessage(props.message?.NextGroupId || 0);
+  // showContinueReadingButton.value = false;
+}
 </script>
 
 <style scoped lang="scss">
@@ -263,6 +289,11 @@ function getMessageText(
 
   &.condensed {
     margin-top: 0.3rem;
+  }
+
+  &.favor-schedule-container {
+    flex-direction: column;
+    gap: 0.5rem;
   }
 }
 .student-reply {
@@ -442,6 +473,19 @@ function getMessageText(
     color: var(--color-text-contrast);
     user-select: none;
     text-decoration: none;
+  }
+}
+
+.action-group__favor-schedule {
+  display: flex;
+  justify-content: flex-end;
+
+  .next-message-action {
+    cursor: pointer;
+    background-color: var(--color-option-button);
+    padding: 0.5rem;
+    width: fit-content;
+    color: var(--color-text-ingame);
   }
 }
 </style>
