@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref, watch } from 'vue';
 import { useSettingsStore } from '../../store/settings';
 
 const languages = ref([
@@ -31,6 +31,13 @@ const languages = ref([
 
 const settingsStore = useSettingsStore();
 const selectedLang = ref(settingsStore.getLang);
+
+watch(
+  () => settingsStore.getLang,
+  newLang => {
+    selectedLang.value = newLang;
+  }
+);
 
 function handleLangChange(event: Event) {
   const target = event.target as HTMLSelectElement;

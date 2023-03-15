@@ -112,7 +112,7 @@ function handleClearCache() {
   &__row {
     display: grid;
     grid-template-columns: auto max-content;
-    flex: 1;
+    gap: 1rem;
     width: 100%;
 
     &__text {
