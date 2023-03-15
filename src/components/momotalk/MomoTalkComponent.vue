@@ -40,7 +40,7 @@
 
     <div v-if="'Answer' === messageCondition" class="user-reply rounded-small">
       <div class="user-reply-banner">
-        <span>{{ t('replyTitle') }}</span>
+        <span>{{ getI18nString(selectedLang, 'replyTitle') }}</span>
       </div>
       <div class="select-options flex-vertical">
         <div
@@ -64,7 +64,7 @@
   >
     <div class="favor-schedule-unit rounded-small">
       <div class="favor-schedule-banner">
-        <span>{{ t('favorScheduleTitle') }}</span>
+        <span>{{ getI18nString(selectedLang, 'favorScheduleTitle') }}</span>
       </div>
       <router-link
         :to="`/archive/${characterId}/story/${message?.FavorScheduleId}`"
@@ -72,7 +72,11 @@
         class="favor-schedule-button rounded-small shadow-near"
         @click="nextMessage(message!.NextGroupId)"
       >
-        {{ t('goToFavorSchedule', { name: studentName }) }}</router-link
+        {{
+          getI18nString(selectedLang, 'goToFavorSchedule', {
+            name: studentName,
+          })
+        }}</router-link
       >
     </div>
   </div>
@@ -80,13 +84,12 @@
 
 <script setup lang="ts">
 import { PropType, computed, ref, watch } from 'vue';
-import { useI18n } from 'vue-i18n';
+import { getI18nString } from '../../i18n/getI18nString';
 import { useSettingsStore } from '../../store/settings';
 import { useStudentStore } from '../../store/students';
 import { CurrentMessageItem, MessageText } from '../../types/Chats';
+import { Language } from '../../types/Settings';
 import { StudentName } from '../../types/Student';
-
-const { t } = useI18n();
 
 const props = defineProps({
   message: Object as PropType<CurrentMessageItem>,
@@ -121,7 +124,9 @@ const vScrollIntoView = {
 
 const settingsStore = useSettingsStore();
 const studentStore = useStudentStore();
-const selectedLang = computed(() => settingsStore.getLang.replace('zh', 'cn'));
+const selectedLang = computed(
+  () => settingsStore.getLang.replace('zh', 'cn') as Language
+);
 
 const characterId = props.message?.CharacterId || 10000;
 const studentInfo = studentStore.getStudentById(characterId);
