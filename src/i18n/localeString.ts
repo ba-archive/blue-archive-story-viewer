@@ -14,6 +14,10 @@ export const localeString = {
     replyTitle: '回复',
     favorScheduleTitle: '羁绊事件',
     goToFavorSchedule: '前往{name}的羁绊剧情',
+
+    routes: {
+      home: '首页',
+    },
   },
   jp: {
     language: '言語',
@@ -32,6 +36,10 @@ export const localeString = {
     replyTitle: '返信',
     favorScheduleTitle: '絆ストーリ',
     goToFavorSchedule: '{name}の絆ストーリへ',
+
+    routes: {
+      home: 'ホーム',
+    },
   },
   tw: {
     language: '語言',
@@ -48,6 +56,10 @@ export const localeString = {
     replyTitle: '回覆',
     favorScheduleTitle: '羈絆事件',
     goToFavorSchedule: '前往{name}的羈絆劇情',
+
+    routes: {
+      home: '首頁',
+    },
   },
   en: {
     language: 'Language',
@@ -64,7 +76,11 @@ export const localeString = {
     // momotalk
     replyTitle: 'Reply',
     favorScheduleTitle: 'Relationship event',
-    goToFavorSchedule: "Go to {name}'s relationship story",
+    goToFavorSchedule: 'Go to {name}\'s relationship story',
+
+    routes: {
+      home: 'Home',
+    },
   },
   kr: {
     language: '언어',
@@ -82,6 +98,10 @@ export const localeString = {
     replyTitle: '답장',
     favorScheduleTitle: '관계 이벤트',
     goToFavorSchedule: '{name}의 관계 이벤트로 이동',
+
+    routes: {
+      home: '홈',
+    },
   },
   th: {
     language: 'ภาษา',
@@ -99,5 +119,9 @@ export const localeString = {
     replyTitle: 'ตอบกลับ',
     favorScheduleTitle: 'เหตุการณ์ความสัมพันธ์',
     goToFavorSchedule: 'ไปที่เหตุการณ์ความสัมพันธ์ของ {name}',
+
+    routes: {
+      home: 'หน้าหลัก',
+    },
   },
 };
