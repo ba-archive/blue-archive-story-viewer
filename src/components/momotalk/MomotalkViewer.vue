@@ -72,7 +72,7 @@ async function next(NextGroupId: number, id: number) {
       ConditionValue: 0,
       PreConditionGroupId: 0,
       FavorScheduleId: favorScheduleId,
-      NextGroupId: 0,
+      NextGroupId: answerElements[0].NextGroupId,
       FeedbackTimeMillisec: 0,
       MessageCondition: 'Answer',
       options: { current: -1, content: options },
