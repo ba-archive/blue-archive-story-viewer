@@ -275,7 +275,7 @@ const showContinueReadingButton = ref(true);
 function handleContinueReadingButtonPressed() {
   console.log('nextGroupId: ' + props.message?.NextGroupId);
   nextMessage(props.message?.NextGroupId || 0);
-  // showContinueReadingButton.value = false;
+  showContinueReadingButton.value = false;
 }
 </script>
 
