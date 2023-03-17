@@ -72,7 +72,7 @@
         :to="`/archive/${characterId}/story/${message?.FavorScheduleId}`"
         role="button"
         class="favor-schedule-button rounded-small shadow-near"
-        @click="nextMessage(message!.NextGroupId)"
+        @click="handleGoToScenarioButtonPressed"
       >
         {{
           getI18nString(selectedLang, 'momotalk.goToFavorSchedule', {
@@ -272,6 +272,12 @@ function getMessageText(
 }
 
 const showContinueReadingButton = ref(true);
+
+function handleGoToScenarioButtonPressed() {
+  showContinueReadingButton.value = false;
+  nextMessage(props.message?.NextGroupId || 0);
+}
+
 function handleContinueReadingButtonPressed() {
   console.log('nextGroupId: ' + props.message?.NextGroupId);
   nextMessage(props.message?.NextGroupId || 0);
