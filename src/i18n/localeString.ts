@@ -7,8 +7,7 @@ export const localeString = {
       useSuperSamplingTitle: '开启超分辨率',
       useSuperSamplingDescription: '加载使用 ESRGAN 进行超分辨率处理的素材',
       clearCacheTitle: '清除缓存',
-      clearCacheDescription:
-        '清除所有缓存内容。当没有遇到显示错误的时候不需要操作',
+      clearCacheDescription: '清除所有缓存内容。当遇到显示错误时可尝试此操作',
       clearCacheActionText: '清除',
     },
 
@@ -34,7 +33,7 @@ export const localeString = {
         'イメージを読み込む時に，ESRGANでスケールアップしたイメージを読み込む',
       clearCacheTitle: 'キャッシュをクリア',
       clearCacheDescription:
-        'すべてのキャッシュをクリアします。表示エラーが発生しない場合は操作する必要はありません',
+        'すべてのキャッシュをクリアします。表示エラーが発生した場合、この操作をお試してみてください',
       clearCacheActionText: 'クリア',
     },
 
@@ -57,8 +56,7 @@ export const localeString = {
       useSuperSamplingTitle: '開啟超分辨率',
       useSuperSamplingDescription: '加載使用 ESRGAN 進行超分辨率處理的素材',
       clearCacheTitle: '清除快取',
-      clearCacheDescription:
-        '清除所有快取內容。當沒有遇到顯示錯誤的時候不需要操作',
+      clearCacheDescription: '清除所有快取內容。當遇到顯示錯誤時可嘗試此操作',
       clearCacheActionText: '清除',
     },
 
@@ -83,7 +81,7 @@ export const localeString = {
       useSuperSamplingDescription: 'Load assets upscaled by ESRGAN',
       clearCacheTitle: 'Clear cache',
       clearCacheDescription:
-        'Clear all cache. There is no need to do this when there is no display error',
+        'Clear all cache. Try this when you encounter display errors',
       clearCacheActionText: 'Clear',
     },
 
@@ -108,7 +106,7 @@ export const localeString = {
       useSuperSamplingDescription: 'ESRGAN으로 확대 된 자산을로드',
       clearCacheTitle: '캐시 지우기',
       clearCacheDescription:
-        '모든 캐시를 지웁니다. 표시 오류가 발생하지 않는 경우 이 작업을 수행할 필요가 없습니다',
+        '모든 캐시를 지웁니다. 표시 오류가 발생한 경우 이 작업을 시도하십시오',
       clearCacheActionText: '지우기',
     },
 
@@ -133,7 +131,7 @@ export const localeString = {
       useSuperSamplingDescription: 'โหลดสื่อที่ถูกขยายขนาดโดย ESRGAN',
       clearCacheTitle: 'ล้างแคช',
       clearCacheDescription:
-        'ล้างแคชทั้งหมด ไม่จำเป็นต้องทำเมื่อไม่มีข้อผิดพลาดในการแสดงผล',
+        'ล้างแคชทั้งหมด ลองทำการนี้เมื่อคุณพบข้อผิดพลาดในการแสดงผล',
       clearCacheActionText: 'ล้าง',
     },
 
