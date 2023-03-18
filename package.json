@@ -25,7 +25,7 @@
     "@pixi/filter-motion-blur": "^4.2.0",
     "@pixi/graphics": "^6.1.0",
     "@pixi/loaders": ">=6.1.0 <7.0.0",
-    "@pixi/math": "6.5.9",
+    "@pixi/math": "7.2.1",
     "@pixi/mesh": "6.5.9",
     "@pixi/mesh-extras": "^6.1.0",
     "@pixi/particle-emitter": "^5.0.8",
