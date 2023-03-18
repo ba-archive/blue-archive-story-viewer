@@ -164,8 +164,6 @@ axios
   })
   .then(res => {
     story.value = res.data;
-    storySummary.value.chapterName = res.data.title.TextCn;
-    storySummary.value.summary = res.data.abstract.TextCn;
   })
   .catch(err => {
     console.error(err);
@@ -177,6 +175,16 @@ axios
   })
   .finally(() => {
     ready.value = true;
+  });
+
+axios
+  .get(`/story/favor/${studentId.value}/index/.json`)
+  .then(res => {
+    storySummary.value.chapterName = res.data.title.TextCn;
+    storySummary.value.summary = res.data.abstract.TextCn;
+  })
+  .catch(err => {
+    console.error(err);
   });
 
 const playerWidth = document.body.clientWidth <= 360 ? 360 : 720;
