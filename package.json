@@ -30,7 +30,7 @@
     "@pixi/mesh-extras": "^6.1.0",
     "@pixi/particle-emitter": "^5.0.8",
     "@pixi/runner": "6.5.9",
-    "@pixi/settings": "6.5.9",
+    "@pixi/settings": "7.2.1",
     "@pixi/sound": "<5.0.0",
     "@pixi/sprite": ">=6.1.0 <7.0.0",
     "@pixi/ticker": ">=6.0.4 <7.0.0",
