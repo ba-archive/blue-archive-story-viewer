@@ -188,6 +188,23 @@ const routes: Array<RouteRecordRaw> = [
         },
         component: () => import('../components/settings/SettingsHome.vue'),
       },
+      {
+        path: '/about',
+        name: 'About',
+        meta: {
+          shouldShowInNav: true,
+          navOrder: 7,
+          m17n: [
+            { lang: 'cn', title: '关于' },
+            { lang: 'tw', title: '關於' },
+            { lang: 'jp', title: 'このサイトについて' },
+            { lang: 'en', title: 'About' },
+            { lang: 'kr', title: '정보' },
+            { lang: 'th', title: 'เกี่ยวกับ' },
+          ],
+        },
+        component: () => import('../components/AboutPage.vue'),
+      },
     ],
   },
   {

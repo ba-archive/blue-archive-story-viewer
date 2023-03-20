@@ -122,7 +122,7 @@ html[data-theme='dark'] {
 
 h2 {
   transition: color 0.375s ease-in-out;
-  margin: 1rem auto 0.5rem;
+  margin: 2rem auto 0.5rem;
 }
 
 @media screen and (max-width: 768px) {
