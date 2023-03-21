@@ -39,9 +39,9 @@ jobs:
           connect_timeout: 60s
           # 将工作目录下的文件全部拷贝到部署服务器的工作目录, scp 会自动覆盖
           scp: |
-            ./release.tgz => /var/www/test_pipeline
+            ./release.tgz => ~
           # 解压也会自动覆盖
           last_ssh: |
-            cd /var/www/test_pipeline
+            cd ~
             tar -xzvf release.tgz
-            cp -r /var/www/test_pipeline/dist/* /var/www/
+            cp -r ./dist/* /var/www/
