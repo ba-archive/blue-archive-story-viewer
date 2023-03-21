@@ -73,7 +73,6 @@
       <story-player
         v-if="showPlayer"
         :story="story.content"
-        class="player-container"
         :width="playerWidth"
         :height="playerHeight"
         data-url="https://yuuka.cdn.diyigemt.com/image/ba-all-data"
@@ -83,6 +82,7 @@
         :start-full-screen="startFullScreen"
         :use-mp3="useMp3"
         :use-super-sampling="useSuperSampling"
+        @end="handleStoryEnd"
       />
       <div class="player-settings flex-horizontal">
         <div class="flex-horizontal">
@@ -242,6 +242,10 @@ function handleUseMp3(value: boolean) {
 function handleUseSuperSampling(value: boolean) {
   settingsStore.setUseSuperSampling(value);
   pageRefresh();
+}
+
+function handleStoryEnd() {
+  router.push(`/archive/${studentId.value}/momotalk`);
 }
 </script>
 
