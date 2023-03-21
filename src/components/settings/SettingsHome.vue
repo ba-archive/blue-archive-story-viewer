@@ -3,7 +3,7 @@
     <div class="settings-panel flex-vertical rounded-medium">
       <div class="settings-panel__row">
         <div class="settings-panel__row__text">
-          <p>{{ t('language') }}</p>
+          <p>{{ getI18nString(userLanguage, 'settings.language') }}</p>
         </div>
         <div class="settings-panel__row__action">
           <language-selector />
@@ -11,9 +11,9 @@
       </div>
       <div class="settings-panel__row">
         <div class="settings-panel__row__text">
-          <p>{{ t('compatibleWithAppleDevice') }}</p>
+          <p>{{ getI18nString(userLanguage, 'settings.useMp3Title') }}</p>
           <p class="settings-panel__row__text__description">
-            {{ t('compatibleWithAppleDeviceDescription') }}
+            {{ getI18nString(userLanguage, 'settings.useMp3Description') }}
           </p>
         </div>
         <div class="settings-panel__row__action">
@@ -25,9 +25,16 @@
       </div>
       <div class="settings-panel__row">
         <div class="settings-panel__row__text">
-          <p>{{ t('useSuperSampling') }}</p>
+          <p>
+            {{ getI18nString(userLanguage, 'settings.useSuperSamplingTitle') }}
+          </p>
           <p class="settings-panel__row__text__description">
-            {{ t('useSuperSamplingDescription') }}
+            {{
+              getI18nString(
+                userLanguage,
+                'settings.useSuperSamplingDescription'
+              )
+            }}
           </p>
         </div>
         <div class="settings-panel__row__action">
@@ -39,9 +46,9 @@
       </div>
       <div class="settings-panel__row">
         <div class="settings-panel__row__text">
-          <p>{{ t('clearCacheText') }}</p>
+          <p>{{ getI18nString(userLanguage, 'settings.clearCacheTitle') }}</p>
           <p class="settings-panel__row__text__description">
-            {{ t('clearCacheDescription') }}
+            {{ getI18nString(userLanguage, 'settings.clearCacheDescription') }}
           </p>
         </div>
         <div class="settings-panel__row__action">
@@ -50,7 +57,7 @@
             role="button"
             @click="handleClearCache"
           >
-            {{ t('clearCacheActionText') }}
+            {{ getI18nString(userLanguage, 'settings.clearCacheActionText') }}
           </div>
         </div>
       </div>
@@ -59,14 +66,14 @@
 </template>
 
 <script setup lang="ts">
-import { Ref, ref } from 'vue';
-import { useI18n } from 'vue-i18n';
+import { Ref, computed, ref } from 'vue';
+import { getI18nString } from '../../i18n/getI18nString';
 import { useSettingsStore } from '../../store/settings';
 import LanguageSelector from '../widgets/LanguageSelector.vue';
 import NeuSwitch from '../widgets/NeuUI/NeuSwitch.vue';
 
-const { t } = useI18n();
 const settingsStore = useSettingsStore();
+const userLanguage = computed(() => settingsStore.getLang);
 
 const useMp3SwitchValue: Ref<boolean> = ref(settingsStore.getUseMp3);
 const useSuperSamplingSwitchValue: Ref<boolean> = ref(
@@ -112,7 +119,7 @@ function handleClearCache() {
   &__row {
     display: grid;
     grid-template-columns: auto max-content;
-    flex: 1;
+    gap: 1rem;
     width: 100%;
 
     &__text {

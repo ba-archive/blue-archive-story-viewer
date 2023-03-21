@@ -1,4 +1,5 @@
 import { defineStore } from 'pinia';
+import { Language } from '../types/Settings';
 import { StudentAttributeFilters, StudentFilters } from '../types/Student';
 
 export const useSettingsStore = defineStore({
@@ -6,7 +7,7 @@ export const useSettingsStore = defineStore({
   state: () => {
     return {
       settings: {
-        lang: 'cn' as 'cn' | 'tw' | 'jp' | 'en' | 'kr' | 'th',
+        lang: 'cn' as Language,
         theme: 'light' as 'light' | 'dark',
         username: 'Sensei' as string,
         useMp3: false,

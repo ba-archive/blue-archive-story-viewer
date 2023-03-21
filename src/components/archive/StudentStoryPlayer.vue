@@ -71,13 +71,13 @@
     >
       <div>Story ID {{ favorGroupId }}</div>
       <story-player
+        v-if="showPlayer"
         :story="story.content"
         class="player-container"
         :width="playerWidth"
         :height="playerHeight"
         data-url="https://yuuka.cdn.diyigemt.com/image/ba-all-data"
         :language="language"
-        ref="storyComp"
         :userName="userName"
         :story-summary="storySummary"
         :start-full-screen="startFullScreen"
@@ -105,10 +105,10 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import axios from 'axios';
 import StoryPlayer from 'ba-story-player';
-import { computed, onMounted, onUnmounted, ref, watch } from 'vue';
+import { computed, ref, watch } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import { useSettingsStore } from '../../store/settings';
-import { StoryContent } from '../../types/StoryJson';
+import { StoryAbstract, StoryContent, StoryIndex } from '../../types/StoryJson';
 import ErrorScreen from '../widgets/ErrorScreen.vue';
 import NeuDialog from '../widgets/NeuUI/NeuDialog.vue';
 import NeuProgressBar from '../widgets/NeuUI/NeuProgressBar.vue';
@@ -124,24 +124,50 @@ const initProgress = ref(0);
 // get 请求是否出错
 const fetchError = ref(false);
 const fetchErrorMessage = ref({});
-const storyComp = ref<any>(null);
 
 const studentId = computed(() => route.params.id as string);
-const favorGroupId = computed(() => route.params.groupId);
+const favorGroupId = computed(() => route.params.groupId as string);
 const language = computed(
   () =>
     settingsStore.getLang.charAt(0).toUpperCase() +
     settingsStore.getLang.slice(1)
 );
+const showPlayer = ref(true);
+
+function getSummaryTextByKey(summary: StoryAbstract, key: string) {
+  return Reflect.get(Reflect.get(summary, key), 'Text' + language.value);
+}
+
+function handleSummaryDisplayLanguageChange() {
+  const currentChapterAbstract = storyIndex.value.abstracts.find(
+    abstract => abstract.groupId.toString() === favorGroupId.value
+  );
+  if (currentChapterAbstract) {
+    const tempChapterName = getSummaryTextByKey(
+      currentChapterAbstract,
+      'title'
+    );
+    const tempSummary = getSummaryTextByKey(currentChapterAbstract, 'abstract');
+    storySummary.value = {
+      chapterName: 'string' === typeof tempChapterName ? tempChapterName : '',
+      summary: 'string' === typeof tempSummary ? tempSummary : '',
+    };
+  }
+}
 
 watch(
   () => language.value,
   () => {
-    router.go(0);
+    showPlayer.value = false;
+    handleSummaryDisplayLanguageChange();
+    setTimeout(() => {
+      showPlayer.value = true;
+    }, 0);
   }
 );
 
 const story = ref<StoryContent>({} as StoryContent);
+const storyIndex = ref<StoryIndex>({} as StoryIndex);
 const storySummary = ref({
   chapterName: '',
   summary: '',
@@ -166,19 +192,24 @@ axios
   })
   .then(res => {
     story.value = res.data;
-    storySummary.value.chapterName = res.data.title.TextCn;
-    storySummary.value.summary = res.data.abstract.TextCn;
   })
   .catch(err => {
     console.error(err);
     fetchError.value = true;
-    fetchErrorMessage.value =
-      route.params.groupId.toString() === '1005302'
-        ? err
-        : '学生剧情目前尚未完全开放，烦请移步体操服优香剧情！';
+    fetchErrorMessage.value = '学生剧情目前尚未完全开放，感谢您的热情！';
   })
   .finally(() => {
     ready.value = true;
+  });
+
+axios
+  .get(`/story/favor/${studentId.value}/index.json`)
+  .then(res => {
+    storyIndex.value = res.data;
+    handleSummaryDisplayLanguageChange();
+  })
+  .catch(err => {
+    console.error(err);
   });
 
 const playerWidth = document.body.clientWidth <= 360 ? 360 : 720;
@@ -212,18 +243,6 @@ function handleUseSuperSampling(value: boolean) {
   settingsStore.setUseSuperSampling(value);
   pageRefresh();
 }
-onMounted(() => {
-  // 如果不是初次播放直接刷新
-  if ((window as any).hasStoryPlayed) {
-    location.reload();
-  }
-});
-onUnmounted(() => {
-  // 调用清空函数
-  if (storyComp?.value?.clear) {
-    storyComp.value.clear();
-  }
-});
 </script>
 
 <style scoped lang="scss">

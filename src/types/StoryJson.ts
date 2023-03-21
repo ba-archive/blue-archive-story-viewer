@@ -56,6 +56,6 @@ export interface StoryContent {
 }
 
 export interface StoryIndex {
-  id: number;
+  groupId: number;
   abstracts: StoryAbstract[];
 }

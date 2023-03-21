@@ -78,7 +78,6 @@
           :height="playerHeight"
           data-url="https://yuuka.cdn.diyigemt.com/image/ba-all-data"
           language="Cn"
-          ref="storyComp"
           :userName="userName"
           :story-summary="summary"
           :start-full-screen="startFullScreen"
@@ -99,7 +98,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import axios from 'axios';
 import StoryPlayer from 'ba-story-player';
-import { computed, onMounted, onUnmounted, ref, watch } from 'vue';
+import { computed, ref, watch } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import { useSettingsStore } from '../store/settings';
 import { StoryContent } from '../types/StoryJson';
@@ -116,7 +115,6 @@ const storyId = computed(() => route.params.id);
 const consentFromConfirmed = ref(false);
 const story = ref<StoryContent>({} as StoryContent);
 
-const storyComp = ref<any>(null);
 const settingsStore = useSettingsStore();
 const userName = computed(() => settingsStore.getUsername);
 const playerContainerElement = ref<HTMLElement>();
@@ -208,18 +206,6 @@ function handleUseMp3(value: boolean) {
     router.go(0);
   }, 375); // 等动画结束之后刷新页面
 }
-onMounted(() => {
-  // 如果不是初次播放直接刷新
-  if ((window as any).hasStoryPlayed) {
-    location.reload();
-  }
-});
-onUnmounted(() => {
-  // 调用清空函数
-  if (storyComp?.value?.clear) {
-    storyComp.value.clear();
-  }
-});
 </script>
 
 <style scoped lang="scss">

@@ -3,11 +3,11 @@ import px2rem from 'postcss-plugin-px2rem';
 import postcssPresetEnv from 'postcss-preset-env';
 import { visualizer } from 'rollup-plugin-visualizer';
 import { defineConfig } from 'vite';
+import clearConsole from 'vite-plugin-clear-console';
 import viteCompression from 'vite-plugin-compression';
 import { VitePWA } from 'vite-plugin-pwa';
 import legacy from '@vitejs/plugin-legacy';
 import vue from '@vitejs/plugin-vue';
-import VueI18nPlugin from '@intlify/unplugin-vue-i18n/vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -37,7 +37,6 @@ export default defineConfig({
         '> 1%',
       ],
     }),
-    VueI18nPlugin({ /* options */ }),
     VitePWA({
       injectRegister: 'auto',
       includeManifestIcons: true,
@@ -115,6 +114,10 @@ export default defineConfig({
       // uncomment to unregister service worker
       // selfDestroying: true,
     }),
+    {
+      ...clearConsole(),
+      apply: 'build',
+    },
     // viteCompression(),
     //@ts-ignore
     visualizer(),

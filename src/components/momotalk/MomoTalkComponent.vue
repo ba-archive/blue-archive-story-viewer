@@ -40,7 +40,7 @@
 
     <div v-if="'Answer' === messageCondition" class="user-reply rounded-small">
       <div class="user-reply-banner">
-        <span>{{ t('replyTitle') }}</span>
+        <span>{{ getI18nString(selectedLang, 'momotalk.replyTitle') }}</span>
       </div>
       <div class="select-options flex-vertical">
         <div
@@ -58,34 +58,51 @@
   </div>
 
   <div
-    class="momotalk-unit"
+    class="momotalk-unit favor-schedule-container"
     v-if="0 !== message?.FavorScheduleId && showFavorMessageContent"
     v-scroll-into-view
   >
     <div class="favor-schedule-unit rounded-small">
       <div class="favor-schedule-banner">
-        <span>{{ t('favorScheduleTitle') }}</span>
+        <span>{{
+          getI18nString(selectedLang, 'momotalk.favorScheduleTitle')
+        }}</span>
       </div>
       <router-link
         :to="`/archive/${characterId}/story/${message?.FavorScheduleId}`"
         role="button"
         class="favor-schedule-button rounded-small shadow-near"
+        @click="handleGoToScenarioButtonPressed"
       >
-        {{ t('goToFavorSchedule', { name: studentName }) }}</router-link
+        {{
+          getI18nString(selectedLang, 'momotalk.goToFavorSchedule', {
+            name: studentName,
+          })
+        }}</router-link
       >
+    </div>
+    <div
+      class="action-group__favor-schedule rounded-small"
+      v-if="showContinueReadingButton"
+    >
+      <div
+        class="next-message-action rounded-small shadow-near"
+        @click="handleContinueReadingButtonPressed"
+      >
+        {{ getI18nString(selectedLang, 'momotalk.continueReading') }}
+      </div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
 import { PropType, computed, ref, watch } from 'vue';
-import { useI18n } from 'vue-i18n';
+import { getI18nString } from '../../i18n/getI18nString';
 import { useSettingsStore } from '../../store/settings';
 import { useStudentStore } from '../../store/students';
 import { CurrentMessageItem, MessageText } from '../../types/Chats';
+import { Language } from '../../types/Settings';
 import { StudentName } from '../../types/Student';
-
-const { t } = useI18n();
 
 const props = defineProps({
   message: Object as PropType<CurrentMessageItem>,
@@ -120,7 +137,9 @@ const vScrollIntoView = {
 
 const settingsStore = useSettingsStore();
 const studentStore = useStudentStore();
-const selectedLang = computed(() => settingsStore.getLang.replace('zh', 'cn'));
+const selectedLang = computed(
+  () => settingsStore.getLang.replace('zh', 'cn') as Language
+);
 
 const characterId = props.message?.CharacterId || 10000;
 const studentInfo = studentStore.getStudentById(characterId);
@@ -150,8 +169,10 @@ function animateMessage() {
   setTimeout(() => {
     showMessageContent.value = true;
   }, feedbackTime.value);
+
   setTimeout(() => {
-    showFavorMessageContent.value = 'Answer' !== messageCondition.value;
+    showFavorMessageContent.value =
+      'Answer' !== messageCondition.value || -1 !== currentSelection.value;
   }, feedbackTime.value + 500);
 }
 
@@ -178,7 +199,11 @@ function getMessageImagePath(originPath: string | undefined): string {
   return '';
 }
 
-const emit = defineEmits(['userSelect']);
+const emit = defineEmits(['userSelect', 'nextMessage']);
+
+function nextMessage(NextGroupId: number) {
+  emit('nextMessage', NextGroupId);
+}
 
 function handleSelection(
   selected: number,
@@ -190,6 +215,10 @@ function handleSelection(
     return;
   }
   currentSelection.value = selected;
+
+  if (0 !== props.message?.FavorScheduleId) {
+    return;
+  }
   emit('userSelect', Id || 0, nextGroupId);
 }
 
@@ -241,6 +270,19 @@ function getMessageText(
   }
   return '';
 }
+
+const showContinueReadingButton = ref(true);
+
+function handleGoToScenarioButtonPressed() {
+  showContinueReadingButton.value = false;
+  nextMessage(props.message?.NextGroupId || 0);
+}
+
+function handleContinueReadingButtonPressed() {
+  console.log('nextGroupId: ' + props.message?.NextGroupId);
+  nextMessage(props.message?.NextGroupId || 0);
+  showContinueReadingButton.value = false;
+}
 </script>
 
 <style scoped lang="scss">
@@ -253,6 +295,11 @@ function getMessageText(
 
   &.condensed {
     margin-top: 0.3rem;
+  }
+
+  &.favor-schedule-container {
+    flex-direction: column;
+    gap: 0.5rem;
   }
 }
 .student-reply {
@@ -432,6 +479,19 @@ function getMessageText(
     color: var(--color-text-contrast);
     user-select: none;
     text-decoration: none;
+  }
+}
+
+.action-group__favor-schedule {
+  display: flex;
+  justify-content: flex-end;
+
+  .next-message-action {
+    cursor: pointer;
+    background-color: var(--color-option-button);
+    padding: 0.5rem;
+    width: fit-content;
+    color: var(--color-text-ingame);
   }
 }
 </style>
