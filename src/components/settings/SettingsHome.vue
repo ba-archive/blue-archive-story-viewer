@@ -23,27 +23,27 @@
           />
         </div>
       </div>
-      <div class="settings-panel__row">
-        <div class="settings-panel__row__text">
-          <p>
-            {{ getI18nString(userLanguage, 'settings.useSuperSamplingTitle') }}
-          </p>
-          <p class="settings-panel__row__text__description">
-            {{
-              getI18nString(
-                userLanguage,
-                'settings.useSuperSamplingDescription'
-              )
-            }}
-          </p>
-        </div>
-        <div class="settings-panel__row__action">
-          <neu-switch
-            :checked="useSuperSamplingSwitchValue"
-            @update:value="handleSuperSamplingSwitchChange"
-          />
-        </div>
-      </div>
+      <!--      <div class="settings-panel__row">-->
+      <!--        <div class="settings-panel__row__text">-->
+      <!--          <p>-->
+      <!--            {{ getI18nString(userLanguage, 'settings.useSuperSamplingTitle') }}-->
+      <!--          </p>-->
+      <!--          <p class="settings-panel__row__text__description">-->
+      <!--            {{-->
+      <!--              getI18nString(-->
+      <!--                userLanguage,-->
+      <!--                'settings.useSuperSamplingDescription'-->
+      <!--              )-->
+      <!--            }}-->
+      <!--          </p>-->
+      <!--        </div>-->
+      <!--        <div class="settings-panel__row__action">-->
+      <!--          <neu-switch-->
+      <!--            :checked="useSuperSamplingSwitchValue"-->
+      <!--            @update:value="handleSuperSamplingSwitchChange"-->
+      <!--          />-->
+      <!--        </div>-->
+      <!--      </div>-->
       <div class="settings-panel__row">
         <div class="settings-panel__row__text">
           <p>{{ getI18nString(userLanguage, 'settings.clearCacheTitle') }}</p>

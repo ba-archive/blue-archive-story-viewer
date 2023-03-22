@@ -4,11 +4,15 @@ import { Contributor, UpdateLog } from '../types/UpdateNews';
 
 const updateLogs: UpdateLog[] = [
   {
-    date: '2023-03-xx',
+    date: '2023-03-22',
     contents: [
       {
-        type: 'test',
-        content: '4K 超分辨率支持',
+        type: 'student',
+        students: [{ name: '浅黄 睦月（正月）', id: 10032 }],
+      },
+      {
+        type: 'feat',
+        content: '提供设置面板，在遇到显示错误的时候可以清空缓存了',
       },
       {
         type: 'feat',
