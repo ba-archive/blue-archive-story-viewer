@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { PropType, Ref, ref } from 'vue';
+import { PropType, Ref, onActivated, ref } from 'vue';
 import {
   CurrentMessageItem,
   Momotalk,
@@ -162,7 +162,12 @@ function handleUserSelect(Id: number, nextGroupId: number) {
   next(nextGroupId, nextId.value);
 }
 
-function handleNextMessage(NextGroupId: number) {
+const nextMessageGroupId = ref(0);
+function handleNextMessage(NextGroupId: number, immediate: boolean) {
+  if (!immediate) {
+    nextMessageGroupId.value = NextGroupId;
+    return;
+  }
   const favorIndex = messageList.value.findIndex(
     value => value.FavorScheduleId !== 0
   );
@@ -182,6 +187,12 @@ function shouldComponentUpdate(id: number) {
     id === messageList.value[messageList.value.length - 1].Id
   );
 }
+
+onActivated(() => {
+  if (nextMessageGroupId.value) {
+    handleNextMessage(nextMessageGroupId.value, true);
+  }
+});
 </script>
 
 <template>

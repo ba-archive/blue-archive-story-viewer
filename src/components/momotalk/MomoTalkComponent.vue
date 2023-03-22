@@ -201,8 +201,8 @@ function getMessageImagePath(originPath: string | undefined): string {
 
 const emit = defineEmits(['userSelect', 'nextMessage']);
 
-function nextMessage(NextGroupId: number) {
-  emit('nextMessage', NextGroupId);
+function nextMessage(NextGroupId: number, immediate: boolean) {
+  emit('nextMessage', NextGroupId, immediate);
 }
 
 function handleSelection(
@@ -275,12 +275,12 @@ const showContinueReadingButton = ref(true);
 
 function handleGoToScenarioButtonPressed() {
   showContinueReadingButton.value = false;
-  nextMessage(props.message?.NextGroupId || 0);
+  nextMessage(props.message?.NextGroupId || 0, false);
 }
 
 function handleContinueReadingButtonPressed() {
   console.log('nextGroupId: ' + props.message?.NextGroupId);
-  nextMessage(props.message?.NextGroupId || 0);
+  nextMessage(props.message?.NextGroupId || 0, true);
   showContinueReadingButton.value = false;
 }
 </script>
