@@ -1065,7 +1065,7 @@
     jp: ワカモ（水着）
     en: Wakamo (Swimsuit)
     kr: 와카모(수영복)
-    tw: 若藻（泳裝）
+    tw: 若藻(泳裝)
     th: วาคาโมะ (ชุดว่ายน้ำ)
   nickname:
     - 水藻
@@ -1089,7 +1089,7 @@
     jp: ノノミ（水着）
     en: Nonomi (Swimsuit)
     kr: 노노미(수영복)
-    tw: 野乃美（泳裝）
+    tw: 野乃美(泳裝)
     th: โนโนมิ (ชุดว่ายน้ำ)
   nickname:
     - 水富婆
@@ -1114,7 +1114,7 @@
     jp: ホシノ（水着）
     en: Hoshino (Swimsuit)
     kr: 호시노(수영복)
-    tw: 星野（泳裝）
+    tw: 星野(泳裝)
     th: โฮชิโนะ (ชุดว่ายน้ำ)
   nickname:
     - 水大叔
@@ -1138,7 +1138,7 @@
     jp: イズナ（水着）
     en: Izuna (Swimsuit)
     kr: 이즈나(수영복)
-    tw: 伊樹菜（泳裝）
+    tw: 伊樹菜(泳裝)
     th: อิซุนะ (ชุดว่ายน้ำ)
   nickname:
     - 小狐狸
@@ -1163,7 +1163,7 @@
     jp: チセ（水着）
     en: Chise (Swimsuit)
     kr: 치세(수영복)
-    tw: 知世（泳裝）
+    tw: 知世(泳裝)
     th: ชิเซะ (ชุดว่ายน้ำ)
   nickname: []
   club: 阴阳部
@@ -1505,6 +1505,75 @@
   armorType: Unarmed
   bulletType: Mystic
   weapon: AR
+- id: 10062
+  familyName:
+    cn: 飞鸟马
+    jp: 飛鳥馬
+    en: Asuma
+    kr: 아스마
+    tw: 飛鳥馬
+    th: 飛鳥馬
+  name:
+    cn: 时
+    jp: トキ
+    en: Toki
+    kr: 토키
+    tw: トキ
+    th: โทคิ
+  nickname: []
+  club: C&C
+  affiliation: 千年
+  rarity: 3
+  type: Striker
+  armorType: ElasticArmor
+  bulletType: Explosion
+  weapon: AR
+- id: 10063
+  familyName:
+    cn: 黑崎
+    jp: 黒崎
+    en: Kurosaki
+    kr: 쿠로사키
+    tw: 黒崎
+    th: 黒崎
+  name:
+    cn: 小雪
+    jp: コユキ
+    en: Koyuki
+    kr: 코유키
+    tw: コユキ
+    th: โคยูกิ
+  nickname: []
+  club: 研讨会
+  affiliation: 千年
+  rarity: 3
+  type: Striker
+  armorType: HeavyArmor
+  bulletType: Mystic
+  weapon: MG
+- id: 10064
+  familyName:
+    cn: 鬼方
+    jp: 鬼方
+    en: Onikata
+    kr: 오니카타
+    tw: 鬼方
+    th: 鬼方
+  name:
+    cn: 佳代子(正月)
+    jp: カヨコ（正月）
+    en: Kayoko (New Year)
+    kr: 카요코(새해)
+    tw: カヨコ（正月）
+    th: คาโยโกะ (ปีใหม่)
+  nickname: []
+  club: 便利屋68
+  affiliation: 格黑娜
+  rarity: 3
+  type: Striker
+  armorType: Unarmed
+  bulletType: Mystic
+  weapon: HG
 - id: 13000
   familyName:
     cn: 室笠
@@ -1918,7 +1987,7 @@
     tw: 鈴美
     th: สึซึมิ
   nickname: []
-  club: 圣三一自卫队
+  club: 圣三一义警团
   affiliation: 圣三一
   rarity: 1
   type: Striker
@@ -2725,6 +2794,52 @@
   armorType: HeavyArmor
   bulletType: Pierce
   weapon: HG
+- id: 20024
+  familyName:
+    cn: 桐藤
+    jp: 桐藤
+    en: Kirifuji
+    kr: 키리후지
+    tw: 桐藤
+    th: 桐藤
+  name:
+    cn: 渚
+    jp: ナギサ
+    en: Nagisa
+    kr: 나기사
+    tw: ナギサ
+    th: นางิสะ
+  nickname: []
+  club: 茶会
+  affiliation: 圣三一
+  rarity: 3
+  type: Special
+  armorType: HeavyArmor
+  bulletType: Explosion
+  weapon: HG
+- id: 20025
+  familyName:
+    cn: 伊草
+    jp: 伊草
+    en: Igusa
+    kr: 이구사
+    tw: 伊草
+    th: 伊草
+  name:
+    cn: 遥香(正月)
+    jp: ハルカ（正月）
+    en: Haruka (New Year)
+    kr: 하루카(새해)
+    tw: ハルカ（正月）
+    th: ฮารุกะ (ปีใหม่)
+  nickname: []
+  club: 便利屋68
+  affiliation: 格黑娜
+  rarity: 3
+  type: Special
+  armorType: LightArmor
+  bulletType: Explosion
+  weapon: SG
 - id: 23000
   familyName:
     cn: 栗村
@@ -3116,7 +3231,7 @@
     jp: アヤネ（水着）
     en: Ayane (Swimsuit)
     kr: 아야네(수영복)
-    tw: 綾音（泳裝）
+    tw: 綾音(泳裝)
     th: อายาเนะ (ชุดว่ายน้ำ)
   nickname:
     - 水绫音
@@ -3141,7 +3256,7 @@
     jp: シズコ（水着）
     en: Shizuko (Swimsuit)
     kr: 시즈코(수영복)
-    tw: 靜子（泳裝）
+    tw: 靜子(泳裝)
     th: ชิซุโกะ (ชุดว่ายน้ำ)
   nickname:
     - 水静子
@@ -3152,70 +3267,3 @@
   armorType: HeavyArmor
   bulletType: Mystic
   weapon: SG
-- id: 10062
-  familyName:
-    cn: 飞鸟马
-    jp: 飛鳥馬
-    en: Asuma
-    kr: 아스마
-    tw: 飛鳥馬
-    th: อาสมะ
-  name:
-    cn: 时
-    jp: トキ
-    en: Toki
-    kr: 토키
-    tw: 時
-    th: โตกิ
-  nickname: []
-  club: C&C
-  affiliation: 千年
-  rarity: 3
-  type: Striker
-  armorType: ElasticArmor
-  bulletType: Explosion
-  weapon: SG
-- id: 20024
-  familyName:
-    cn: 桐藤
-    jp: 桐藤
-    en: Kirifuji
-    kr: 키리후지
-    tw: 桐藤
-    th: คิริฟูจิ
-  name:
-    cn: 渚
-    jp: ナギサ
-    en: Nagisa
-    kr: 나기사
-    tw: 渚
-    th: นากิซะ
-  nickname: []
-  club: 茶会
-  affiliation: 圣三一
-  rarity: 3
-  type: Striker
-  armorType: HeavyArmor
-  bulletType: Explosion
-  weapon: SMG
-- id: 10063
-  familyName:
-    cn: 黑崎
-    jp: 黒崎
-    en: Kurosaki
-    kr: 쿠로사키
-    tw: 黑崎
-  name:
-    cn: 小雪
-    jp: コユキ
-    en: Koyuki
-    kr: 코유키
-    tw: 小雪
-  nickname: []
-  club: 研讨会
-  affiliation: 千年
-  rarity: 3
-  type: Striker
-  armorType: HeavyArmor
-  bulletType: Mystic
-  weapon: MG
