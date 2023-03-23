@@ -66,6 +66,7 @@
 </template>
 
 <script setup lang="ts">
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { Ref, computed, ref } from 'vue';
 import { getI18nString } from '../../i18n/getI18nString';
 import { useSettingsStore } from '../../store/settings';
