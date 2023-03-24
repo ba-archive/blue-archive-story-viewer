@@ -3,8 +3,10 @@
     <img class="mika-sticker" src="/src/assets/mika_sticker.webp" alt="mika" />
     <p>先从<span id="choice"></span>选择项目哦</p>
     <p>
-      (<router-link class="navigation" to="/archive/10032/momotalk"
-        >睦月</router-link
+      (<router-link class="navigation" to="/archive/20025/momotalk"
+        >遥香（正月）</router-link
+      >、<router-link class="navigation" to="/archive/10032/momotalk"
+        >睦月（正月）</router-link
       >和<router-link to="/mainStory" class="navigation">序章</router-link
       >剧情已开放)
     </p>

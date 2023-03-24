@@ -4,6 +4,15 @@ import { Contributor, UpdateLog } from '../types/UpdateNews';
 
 const updateLogs: UpdateLog[] = [
   {
+    date: '2023-03-24',
+    contents: [
+      {
+        type: 'student',
+        students: [{ name: '伊草 遥香（正月）', id: 20025 }],
+      },
+    ],
+  },
+  {
     date: '2023-03-22',
     contents: [
       {
