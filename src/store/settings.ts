@@ -11,7 +11,7 @@ export const useSettingsStore = defineStore({
         theme: 'light' as 'light' | 'dark',
         username: 'Sensei' as string,
         useMp3: false,
-        useSuperSampling: false,
+        useSuperSampling: '',
       },
       studentFilters: {
         searchString: '',
@@ -73,7 +73,7 @@ export const useSettingsStore = defineStore({
     setUseMp3(useMp3: boolean) {
       this.settings.useMp3 = useMp3;
     },
-    setUseSuperSampling(useSuperSampling: boolean) {
+    setUseSuperSampling(useSuperSampling: string) {
       this.settings.useSuperSampling = useSuperSampling;
     },
   },
