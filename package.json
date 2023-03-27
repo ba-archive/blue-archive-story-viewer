@@ -80,7 +80,7 @@
     "rollup-plugin-visualizer": "5.9.0",
     "sass": "1.59.3",
     "terser": "5.16.6",
-    "typescript": "4.9.5",
+    "typescript": "5.0.2",
     "vite": "4.2.0",
     "vite-plugin-clear-console": "^0.2.2",
     "vite-plugin-compression": "0.5.1",
