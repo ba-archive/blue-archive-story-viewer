@@ -120,6 +120,12 @@ devDependencies:
   '@babel/preset-env':
     specifier: ^7.20.2
     version: 7.20.2(@babel/core@7.21.3)
+  '@csstools/css-parser-algorithms':
+    specifier: ^2.1.0
+    version: 2.1.0(@csstools/css-tokenizer@2.1.0)
+  '@csstools/css-tokenizer':
+    specifier: ^2.1.0
+    version: 2.1.0
   '@rushstack/eslint-patch':
     specifier: 1.2.0
     version: 1.2.0
@@ -1472,17 +1478,6 @@ packages:
     engines: {node: ^14 || ^16 || >=18}
     dev: true
 
-  /@csstools/css-calc@1.0.1(@csstools/css-parser-algorithms@2.0.1)(@csstools/css-tokenizer@2.1.0):
-    resolution: {integrity: sha512-VBI8X0bmStfc85wWTa2bsbnlBQxgW4FmJ0Ts9ar9UqytE6kii3yg6GO+wpgzht2oK5Qlbpkm1Fy2kcqVmu6f3Q==}
-    engines: {node: ^14 || ^16 || >=18}
-    peerDependencies:
-      '@csstools/css-parser-algorithms': ^2.0.1
-      '@csstools/css-tokenizer': ^2.0.1
-    dependencies:
-      '@csstools/css-parser-algorithms': 2.0.1(@csstools/css-tokenizer@2.1.0)
-      '@csstools/css-tokenizer': 2.1.0
-    dev: true
-
   /@csstools/css-calc@1.0.1(@csstools/css-parser-algorithms@2.1.0)(@csstools/css-tokenizer@2.1.0):
     resolution: {integrity: sha512-VBI8X0bmStfc85wWTa2bsbnlBQxgW4FmJ0Ts9ar9UqytE6kii3yg6GO+wpgzht2oK5Qlbpkm1Fy2kcqVmu6f3Q==}
     engines: {node: ^14 || ^16 || >=18}
@@ -1491,19 +1486,6 @@ packages:
       '@csstools/css-tokenizer': ^2.0.1
     dependencies:
       '@csstools/css-parser-algorithms': 2.1.0(@csstools/css-tokenizer@2.1.0)
-      '@csstools/css-tokenizer': 2.1.0
-    dev: true
-
-  /@csstools/css-color-parser@1.1.0(@csstools/css-parser-algorithms@2.0.1)(@csstools/css-tokenizer@2.1.0):
-    resolution: {integrity: sha512-jRpIhjThaH8jxuJ8Q1H+jai/dekP5952kzLHTuN+rPI48eF2esf/18TMb3N/HtEgmnybhfiwUO6Ph2OkHi3jpA==}
-    engines: {node: ^14 || ^16 || >=18}
-    peerDependencies:
-      '@csstools/css-parser-algorithms': ^2.1.0
-      '@csstools/css-tokenizer': ^2.1.0
-    dependencies:
-      '@csstools/color-helpers': 2.0.0
-      '@csstools/css-calc': 1.0.1(@csstools/css-parser-algorithms@2.0.1)(@csstools/css-tokenizer@2.1.0)
-      '@csstools/css-parser-algorithms': 2.0.1(@csstools/css-tokenizer@2.1.0)
       '@csstools/css-tokenizer': 2.1.0
     dev: true
 
@@ -1520,15 +1502,6 @@ packages:
       '@csstools/css-tokenizer': 2.1.0
     dev: true
 
-  /@csstools/css-parser-algorithms@2.0.1(@csstools/css-tokenizer@2.1.0):
-    resolution: {integrity: sha512-B9/8PmOtU6nBiibJg0glnNktQDZ3rZnGn/7UmDfrm2vMtrdlXO3p7ErE95N0up80IRk9YEtB5jyj/TmQ1WH3dw==}
-    engines: {node: ^14 || ^16 || >=18}
-    peerDependencies:
-      '@csstools/css-tokenizer': ^2.0.0
-    dependencies:
-      '@csstools/css-tokenizer': 2.1.0
-    dev: true
-
   /@csstools/css-parser-algorithms@2.1.0(@csstools/css-tokenizer@2.1.0):
     resolution: {integrity: sha512-KP8TicdXpUyeB1NMlbHud/1l39xvLGvqNFWMpG4qC6H1zs9SadGUHe5SO92n/659sDW9aGDvm9AMru0DZkN1Bw==}
     engines: {node: ^14 || ^16 || >=18}
@@ -1541,17 +1514,6 @@ packages:
   /@csstools/css-tokenizer@2.1.0:
     resolution: {integrity: sha512-dtqFyoJBHUxGi9zPZdpCKP1xk8tq6KPHJ/NY4qWXiYo6IcSGwzk3L8x2XzZbbyOyBs9xQARoGveU2AsgLj6D2A==}
     engines: {node: ^14 || ^16 || >=18}
-    dev: true
-
-  /@csstools/media-query-list-parser@2.0.1(@csstools/css-parser-algorithms@2.0.1)(@csstools/css-tokenizer@2.1.0):
-    resolution: {integrity: sha512-X2/OuzEbjaxhzm97UJ+95GrMeT29d1Ib+Pu+paGLuRWZnWRK9sI9r3ikmKXPWGA1C4y4JEdBEFpp9jEqCvLeRA==}
-    engines: {node: ^14 || ^16 || >=18}
-    peerDependencies:
-      '@csstools/css-parser-algorithms': ^2.0.0
-      '@csstools/css-tokenizer': ^2.0.0
-    dependencies:
-      '@csstools/css-parser-algorithms': 2.0.1(@csstools/css-tokenizer@2.1.0)
-      '@csstools/css-tokenizer': 2.1.0
     dev: true
 
   /@csstools/media-query-list-parser@2.0.1(@csstools/css-parser-algorithms@2.1.0)(@csstools/css-tokenizer@2.1.0):
@@ -1582,8 +1544,8 @@ packages:
     peerDependencies:
       postcss: ^8.4
     dependencies:
-      '@csstools/css-color-parser': 1.1.0(@csstools/css-parser-algorithms@2.0.1)(@csstools/css-tokenizer@2.1.0)
-      '@csstools/css-parser-algorithms': 2.0.1(@csstools/css-tokenizer@2.1.0)
+      '@csstools/css-color-parser': 1.1.0(@csstools/css-parser-algorithms@2.1.0)(@csstools/css-tokenizer@2.1.0)
+      '@csstools/css-parser-algorithms': 2.1.0(@csstools/css-tokenizer@2.1.0)
       '@csstools/css-tokenizer': 2.1.0
       '@csstools/postcss-progressive-custom-properties': 2.1.0(postcss@8.4.21)
       postcss: 8.4.21
@@ -1595,8 +1557,8 @@ packages:
     peerDependencies:
       postcss: ^8.4
     dependencies:
-      '@csstools/css-color-parser': 1.1.0(@csstools/css-parser-algorithms@2.0.1)(@csstools/css-tokenizer@2.1.0)
-      '@csstools/css-parser-algorithms': 2.0.1(@csstools/css-tokenizer@2.1.0)
+      '@csstools/css-color-parser': 1.1.0(@csstools/css-parser-algorithms@2.1.0)(@csstools/css-tokenizer@2.1.0)
+      '@csstools/css-parser-algorithms': 2.1.0(@csstools/css-tokenizer@2.1.0)
       '@csstools/css-tokenizer': 2.1.0
       '@csstools/postcss-progressive-custom-properties': 2.1.0(postcss@8.4.21)
       postcss: 8.4.21
@@ -1631,8 +1593,8 @@ packages:
     peerDependencies:
       postcss: ^8.4
     dependencies:
-      '@csstools/css-color-parser': 1.1.0(@csstools/css-parser-algorithms@2.0.1)(@csstools/css-tokenizer@2.1.0)
-      '@csstools/css-parser-algorithms': 2.0.1(@csstools/css-tokenizer@2.1.0)
+      '@csstools/css-color-parser': 1.1.0(@csstools/css-parser-algorithms@2.1.0)(@csstools/css-tokenizer@2.1.0)
+      '@csstools/css-parser-algorithms': 2.1.0(@csstools/css-tokenizer@2.1.0)
       '@csstools/css-tokenizer': 2.1.0
       postcss: 8.4.21
     dev: true
@@ -1694,9 +1656,9 @@ packages:
     peerDependencies:
       postcss: ^8.4
     dependencies:
-      '@csstools/css-parser-algorithms': 2.0.1(@csstools/css-tokenizer@2.1.0)
+      '@csstools/css-parser-algorithms': 2.1.0(@csstools/css-tokenizer@2.1.0)
       '@csstools/css-tokenizer': 2.1.0
-      '@csstools/media-query-list-parser': 2.0.1(@csstools/css-parser-algorithms@2.0.1)(@csstools/css-tokenizer@2.1.0)
+      '@csstools/media-query-list-parser': 2.0.1(@csstools/css-parser-algorithms@2.1.0)(@csstools/css-tokenizer@2.1.0)
       postcss: 8.4.21
     dev: true
 
@@ -1726,8 +1688,8 @@ packages:
     peerDependencies:
       postcss: ^8.4
     dependencies:
-      '@csstools/css-color-parser': 1.1.0(@csstools/css-parser-algorithms@2.0.1)(@csstools/css-tokenizer@2.1.0)
-      '@csstools/css-parser-algorithms': 2.0.1(@csstools/css-tokenizer@2.1.0)
+      '@csstools/css-color-parser': 1.1.0(@csstools/css-parser-algorithms@2.1.0)(@csstools/css-tokenizer@2.1.0)
+      '@csstools/css-parser-algorithms': 2.1.0(@csstools/css-tokenizer@2.1.0)
       '@csstools/css-tokenizer': 2.1.0
       '@csstools/postcss-progressive-custom-properties': 2.1.0(postcss@8.4.21)
       postcss: 8.4.21
@@ -1759,8 +1721,8 @@ packages:
     peerDependencies:
       postcss: ^8.4
     dependencies:
-      '@csstools/css-calc': 1.0.1(@csstools/css-parser-algorithms@2.0.1)(@csstools/css-tokenizer@2.1.0)
-      '@csstools/css-parser-algorithms': 2.0.1(@csstools/css-tokenizer@2.1.0)
+      '@csstools/css-calc': 1.0.1(@csstools/css-parser-algorithms@2.1.0)(@csstools/css-tokenizer@2.1.0)
+      '@csstools/css-parser-algorithms': 2.1.0(@csstools/css-tokenizer@2.1.0)
       '@csstools/css-tokenizer': 2.1.0
       postcss: 8.4.21
     dev: true
@@ -1782,8 +1744,8 @@ packages:
     peerDependencies:
       postcss: ^8.4
     dependencies:
-      '@csstools/css-calc': 1.0.1(@csstools/css-parser-algorithms@2.0.1)(@csstools/css-tokenizer@2.1.0)
-      '@csstools/css-parser-algorithms': 2.0.1(@csstools/css-tokenizer@2.1.0)
+      '@csstools/css-calc': 1.0.1(@csstools/css-parser-algorithms@2.1.0)(@csstools/css-tokenizer@2.1.0)
+      '@csstools/css-parser-algorithms': 2.1.0(@csstools/css-tokenizer@2.1.0)
       '@csstools/css-tokenizer': 2.1.0
       postcss: 8.4.21
     dev: true
