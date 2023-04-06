@@ -700,9 +700,7 @@ content:
     unsure: false
   - MessageKR: '-괴도 코유키'
     MessageJP: ――怪盗コユキ
-    MessageCN: |-
-
-      ——怪盗小雪
+    MessageCN: ——怪盗小雪
     MessageEN: ''
     MessageTH: ''
     MessageTW: ——怪盜小雪

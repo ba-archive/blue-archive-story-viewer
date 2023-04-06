@@ -43,7 +43,7 @@ content:
     ImagePath: ''
     MessageKR: 선생. 여름이야.
     MessageJP: ……もう季節は夏、か
-    MessageCN: ……已经到夏天了吗
+    MessageCN: ……已经是夏天了么
     MessageEN: It's summertime, Sensei.
     MessageTH: คุณครู ฤดูร้อนล่ะ
     MessageTW: ……季節已經是夏天了嗎
@@ -61,7 +61,7 @@ content:
     ImagePath: ''
     MessageKR: 그러게~ 여름이네~
     MessageJP: 夏だね！
-    MessageCN: 夏天到啦！
+    MessageCN: 夏天来了哟！
     MessageEN: Yeah, summertime!
     MessageTH: ใช่แล้ว~ ฤดูร้อนแล้วล่ะ
     MessageTW: 是夏天呢！
@@ -79,7 +79,7 @@ content:
     ImagePath: ''
     MessageKR: 그리고 여름이라고 하면, 역시 바다지~!
     MessageJP: そして夏と言えば、海だね！
-    MessageCN: 而且一说到夏天，就让人想到大海对吧！
+    MessageCN: 而且说起夏天，就让人想到大海！
     MessageEN: And when you think of the summer, you think of beaches!
     MessageTH: พอพูดถึงฤดูร้อนก็ต้องทะเลสิ~!
     MessageTW: 說到夏天，就是大海呢！
@@ -133,7 +133,7 @@ content:
     ImagePath: ''
     MessageKR: ……제대로 듣고 있는 거 맞아?
     MessageJP: ……先生？ちゃんとそこにいる？
-    MessageCN: ……老师？您还在吗？
+    MessageCN: ……老师？你还在吗？
     MessageEN: Are you paying attention?
     MessageTH: อ่านข้อความอยู่ใช่ไหม...?
     MessageTW: ……老師？還在嗎？
@@ -151,7 +151,7 @@ content:
     ImagePath: ''
     MessageKR: 물론이지!
     MessageJP: もちろん！
-    MessageCN: 当然在了！
+    MessageCN: 当然了！
     MessageEN: Of course!
     MessageTH: ต้องอ่านสิ!
     MessageTW: 當然！
@@ -169,7 +169,7 @@ content:
     ImagePath: ''
     MessageKR: 히나의 말을 허투루 들을 리가 없잖아!
     MessageJP: 全力でモモトーク見てるよ！
-    MessageCN: 我在全神贯注看着日奈的Momotalk哦！
+    MessageCN: 在专心看着Momotalk哦！
     MessageEN: I always pay attention to you.
     MessageTH: ครูจะกล้าเมินข้อความของฮินะได้ยังไง!
     MessageTW: 正全力關注MomoTalk唷！
@@ -205,11 +205,11 @@ content:
     ImagePath: ''
     MessageKR: 여름이라 마음이 풀어지는 건 이해하지만…….
     MessageJP: 夏だから、心が浮足立つのは分かるけれど……
-    MessageCN: 我也知道夏天一到，心情未免会有些浮躁……
+    MessageCN: 我也知道一到夏天心情未免会有些浮躁……
     MessageEN: I know it's the summer...
-    MessageTH: 'ฉันเข้าใจนะว่าตอนนี้เป็นฤดูร้อนเลย
-
-      เอ้อระเหยกัน...'
+    MessageTH: |-
+      ฉันเข้าใจนะว่าตอนนี้เป็นฤดูร้อนเลย
+      เอ้อระเหยกัน...
     MessageTW: 因為是夏天，所以我可以理解會讓人興奮……
   - MessageGroupId: 100220080
     Id: 100220110
@@ -225,11 +225,11 @@ content:
     ImagePath: ''
     MessageKR: 당신까지 그렇게 늘어져 있으면 나까지 곤란해.
     MessageJP: 先生までそんなテンションだと、何だかやる事が増えそうで困る
-    MessageCN: 但是就连老师情绪也这么高涨，总觉得我要做的事情又要变多了，有点伤脑筋
+    MessageCN: 但是连老师情绪也这么高涨，总觉得要做的事又要变多了，真伤脑筋
     MessageEN: But if you start slacking off, that affects everyone.
-    MessageTH: 'แต่ถ้าคุณครูเอ้อระเหยแบบนี้อีกคน
-
-      ทุกคนจะทำตามนะ'
+    MessageTH: |-
+      แต่ถ้าคุณครูเอ้อระเหยแบบนี้อีกคน
+      ทุกคนจะทำตามนะ
     MessageTW: 但連老師也這麼情緒高昂的話，總覺得要做的事會增加，很困擾
   - MessageGroupId: 100220080
     Id: 100220120
@@ -245,11 +245,11 @@ content:
     ImagePath: ''
     MessageKR: 일이라는 건 언제나 어느 때나 쌓이는 법이야.
     MessageJP: 仕事っていうのは、常に増えていくもの
-    MessageCN: 所谓工作，就是会不断变多的东西
+    MessageCN: 所谓工作，就是会不断变多的啊
     MessageEN: Work is work, all the time.
-    MessageTH: 'งานที่ต้องทำน่ะมันงอกได้ดีกว่าเห็ด
-
-      อีกนะรู้ไหม'
+    MessageTH: |-
+      งานที่ต้องทำน่ะมันงอกได้ดีกว่าเห็ด
+      อีกนะรู้ไหม
     MessageTW: 所謂的工作，就是會不斷的增加
   - MessageGroupId: 100220090
     Id: 100220130
@@ -265,7 +265,7 @@ content:
     ImagePath: ''
     MessageKR: 이런 시기라도 예외는 아니지.
     MessageJP: こういう時期も例外じゃない
-    MessageCN: 哪怕是这种时期也不例外
+    MessageCN: 这种时期也不例外
     MessageEN: Even at times like this.
     MessageTH: เวลาแบบนี้ก็เหมือนกัน
     MessageTW: 這種時期也不例外
@@ -283,7 +283,7 @@ content:
     ImagePath: ''
     MessageKR: 풍기를 어지럽히는 학생들은 언제나 있으니까.
     MessageJP: 風紀を乱す生徒たちは、いつどこにでもいる。夏だから尚更
-    MessageCN: 扰乱风纪的学生平常就到处都是。更别说现在还到了夏天
+    MessageCN: 扰乱风纪的学生平常就到处都有。更别说是在夏天了
     MessageEN: There will always be immoral criminals out there.
     MessageTH: เพราะมีพวกนักเรียนที่ไม่ทำตามกฎอยู่
     MessageTW: 擾亂風紀的學生到處都有。尤其是夏天
@@ -301,7 +301,7 @@ content:
     ImagePath: ''
     MessageKR: ……그러니 협력해줘. 선생.
     MessageJP: ……だから、ちょっと手伝ってほしい
-    MessageCN: ……所以，我希望老师能帮帮我
+    MessageCN: ……所以，希望能得到您的帮助
     MessageEN: That's why I need your help, Sensei.
     MessageTH: เพราะงั้นฉันเลยอยากให้คุณครูช่วยหน่อย
     MessageTW: ……所以，我需要一點幫助
@@ -319,11 +319,11 @@ content:
     ImagePath: ''
     MessageKR: 과연 수영복 차림이어도 히나 쨩은 성실하구나!
     MessageJP: さすが、夏でもヒナちゃんは真面目だね！
-    MessageCN: 不愧是小日奈，即使到了夏天也很认真呢！
+    MessageCN: 不愧是日奈酱，哪怕在夏天也特别认真呢！
     MessageEN: You're so diligent, even in your swimsuit, Hina!
-    MessageTH: 'ฮินะจังนี่ถึงใส่ชุดว่ายน้ำ
-
-      ก็จริงจังอยู่ตลอดเลยนะ!'
+    MessageTH: |-
+      ฮินะจังนี่ถึงใส่ชุดว่ายน้ำ
+      ก็จริงจังอยู่ตลอดเลยนะ!
     MessageTW: 不愧是陽奈，即使是夏天也很認真呢！
   - MessageGroupId: 100220110
     Id: 100220170
@@ -339,11 +339,11 @@ content:
     ImagePath: ''
     MessageKR: 수영복을 입었는데도 선도부장으로서 빈틈이 없구나!
     MessageJP: 夏の風紀委員長も隙が無いね！
-    MessageCN: 风纪委员长哪怕在夏天夏天也无懈可击呢！
+    MessageCN: 夏天的风纪委员长也是那么无懈可击呀！
     MessageEN: The head prefect is even better in her swimsuit!
-    MessageTH: 'ถึงจะใส่ชุดว่ายน้ำแต่ก็ยังเป็น
-
-      ประธานกรรมการวินัยสินะ!'
+    MessageTH: |-
+      ถึงจะใส่ชุดว่ายน้ำแต่ก็ยังเป็น
+      ประธานกรรมการวินัยสินะ!
     MessageTW: 糾察部長到了夏天也毫不鬆懈！
   - MessageGroupId: 100220120
     Id: 100220180
@@ -359,11 +359,11 @@ content:
     ImagePath: ''
     MessageKR: ……풍기를 어지럽히는 선생부터 처리가 필요한 걸까.
     MessageJP: ……まずは、風紀を乱しそうな先生から処理した方が良い？
-    MessageCN: ……首先，就从感觉会扰乱风纪的老师开始处理起吧？
+    MessageCN: ……首先，就从扰乱风纪的老师开始处理吧？
     MessageEN: Maybe I should arrest a certain immoral sensei, then.
-    MessageTH: 'หรือฉันควรเริ่มจากจัดการคุณครูที่
-
-      ชอบก่อกวนก่อนดีนะ'
+    MessageTH: |-
+      หรือฉันควรเริ่มจากจัดการคุณครูที่
+      ชอบก่อกวนก่อนดีนะ
     MessageTW: ……首先，先從感覺會帶亂風紀的老師開始處理似乎比較好？
   - MessageGroupId: 100220130
     Id: 100220190
@@ -381,9 +381,9 @@ content:
     MessageJP: すみませんでした
     MessageCN: 对不起
     MessageEN: I'm sorry. What do you need?
-    MessageTH: 'ครูผิดไปแล้ว
-
-      มีอะไรให้ช่วยงั้นเหรอ'
+    MessageTH: |-
+      ครูผิดไปแล้ว
+      มีอะไรให้ช่วยงั้นเหรอ
     MessageTW: 對不起
   - MessageGroupId: 100220140
     Id: 100220200
@@ -417,11 +417,11 @@ content:
     ImagePath: ''
     MessageKR: 약속한 장소로 나와. 기다리고 있을게.
     MessageJP: じゃあ、場所はこの後送るから。待ってる
-    MessageCN: 那我待会把地点发给老师。我等着
+    MessageCN: 那我等下把地点发过去。我在这等你
     MessageEN: Come to the location I told you of before. I'll be waiting.
-    MessageTH: 'มาเจอกันที่จุดนัดพบที่ฉันบอกไปล่ะ
-
-      ฉันจะรออยู่ที่นั่น'
+    MessageTH: |-
+      มาเจอกันที่จุดนัดพบที่ฉันบอกไปล่ะ
+      ฉันจะรออยู่ที่นั่น
     MessageTW: 那麼，地點之後會發送給你。我等著
   - MessageGroupId: 100220150
     Id: 100220220
@@ -437,7 +437,7 @@ content:
     ImagePath: ''
     MessageKR: 오늘의 업무 협조. 고마워. 선생.
     MessageJP: 今日はありがとう、先生。合宿の参考になった
-    MessageCN: 今天谢谢您了，老师。这些实地经验能给集训提供不少的参考
+    MessageCN: 今天谢谢你了，老师。这些实地经验能给集训提供不少的参考
     MessageEN: Thank you for helping me out with today's task, Sensei.
     MessageTH: ขอบคุณที่ร่วมมือในภารกิจวันนี้นะคุณครู
     MessageTW: 今天謝謝你，老師。這對合宿很有幫助
@@ -455,7 +455,8 @@ content:
     ImagePath: ''
     MessageKR: 그럼, 이번 여름 합숙에서는 반드시 같이…….
     MessageJP: その、今度の夏の合宿でも、もし余裕があれば一緒に……
-    MessageCN: 那个，这次的夏日集训，老师如果有时间的话，要不要一起……
+    # 这里如果不加上老师的话指代不明，加上逗号表示停顿，展示害羞效果更佳
+    MessageCN: 那个，这次的夏日集训，如果老师有时间的话，一起……
     MessageEN: Then, for real this time for the summer camp...
     MessageTH: ถ้างั้น เข้าค่ายฤดูร้อนปีนี้เรา...
     MessageTW: 另外，這次的夏天合宿，如果時間充裕的話，希望能一起……
@@ -473,9 +474,9 @@ content:
     ImagePath: ''
     MessageKR: …….
     MessageJP: いや
-    MessageCN: 没
-    MessageEN: '...'
-    MessageTH: '...'
+    MessageCN: 不
+    MessageEN: ...
+    MessageTH: ...
     MessageTW: 不
   - MessageGroupId: 100220160
     Id: 100220250
@@ -509,7 +510,7 @@ content:
     ImagePath: ''
     MessageKR: 응. 같이 놀 수 있었으면 좋겠어.
     MessageJP: 時間を見つけて、一緒に遊べるといいね
-    MessageCN: 能找个时间一起玩的话很好呢
+    MessageCN: 找个时间再一起玩就好啦
     MessageEN: Right, I hope we can spend time together.
     MessageTH: อื้อ ถะ...ถ้าได้ไปเที่ยวด้วยกันก็คงดีนะ
     MessageTW: 能找到時間一起玩的話就好了呢
@@ -528,8 +529,8 @@ content:
     MessageKR: …….
     MessageJP: ……
     MessageCN: ……
-    MessageEN: '...'
-    MessageTH: '...'
+    MessageEN: ...
+    MessageTH: ...
     MessageTW: ……
   - MessageGroupId: 100220180
     Id: 100220280
@@ -563,7 +564,7 @@ content:
     ImagePath: ''
     MessageKR: ……선생, 오늘 저녁 약속 말인데.
     MessageJP: ……先生、今夜の約束だけど
-    MessageCN: ……老师，虽然我们本来约好今晚见面的
+    MessageCN: ……老师，原本约在今晚的见面
     MessageEN: About today's dinner plans, Sensei.
     MessageTH: คุณครู นัดกินข้าวเย็นนี้น่ะ
     MessageTW: ……老師，關於今晚的約定
@@ -581,7 +582,7 @@ content:
     ImagePath: ''
     MessageKR: 조금 뒤로 미룰 수 있을까?
     MessageJP: 別の日にずらしても大丈夫？
-    MessageCN: 可以改日再说吗？
+    MessageCN: 可以挪到别的日子吗？
     MessageEN: Can we push them back a little bit?
     MessageTH: ฉันขอเลื่อนเวลาหน่อยได้ไหม?
     MessageTW: 可以改到別的日子嗎？
@@ -599,7 +600,9 @@ content:
     ImagePath: ''
     MessageKR: 좀체 일이 끝나질 않아서 말이야.
     MessageJP: ちょっと、仕事が終わりそうになくて
-    MessageCN: 我这边的工作好像一时半会结束不了
+    # 原文：工作好像一时半会做不完
+    # 这里如果使用“工作一时半会做不完”，听起来像是不带感情的陈述“工作做不完”的事实。原文的“ちょっと、……”读起来有一种“呃啊工作实在有点多”的无奈或者带一点小小抱歉的感觉。相比于领导发布通知的“见面可以改时间吗，我工作做不完。”，日奈这句话带的感情应该是“老师不好意思，本来今晚应该是和你约好了的，但是我工作有点太多了实在没办法”。基于这一点我原文里加上了“好像”来带上一些“虽然约好了，但现在看起来应该是去不了了”的个人情感。不过“好像”确实和日语原文不太契合，我认为去掉也无妨，但应该考虑加上新的词来突出日奈想表达的意思。
+    MessageCN: 工作好像一时半会做不完
     MessageEN: I'm still swamped with work.
     MessageTH: พอดียังมีงานค้างอยู่น่ะ
     MessageTW: 今天的工作有點忙不完
@@ -617,6 +620,8 @@ content:
     ImagePath: ''
     MessageKR: 어, 그런 약속 했던, 가?
     MessageJP: あれ、ごめん、今日だったっけ……？
+    # 是今天来着 → 是今天吗
+    # 好改
     MessageCN: 咦，抱歉，是今天吗……？
     MessageEN: Sure. Wait, did we ever...?
     MessageTH: เอ๊ะ? เรานัดกันด้วยเหรอ?
@@ -635,7 +640,7 @@ content:
     ImagePath: ''
     MessageKR: 그래? 그럼 어쩔 수 없지.
     MessageJP: 大丈夫だよ、全然気にしないで
-    MessageCN: 没关系的，日奈完全不用在意
+    MessageCN: 没关系的，不用放在心上
     MessageEN: Really? Well, I guess there's nothing we can do about it.
     MessageTH: งั้นเหรอ? ช่วยไม่ได้นะ...
     MessageTW: 沒問題唷，完全不用介意
@@ -707,7 +712,7 @@ content:
     ImagePath: ''
     MessageKR: 요즘 정신이 없다 보니…….
     MessageJP: 最近ずっと、バタバタしてて……
-    MessageCN: 最近我一直忙得不可开交……
+    MessageCN: 最近我一直在连轴转……
     MessageEN: I've been very busy lately.
     MessageTH: ช่วงนี้ฉันยุ่งจนหัวหมุนไปหมดเลย
     MessageTW: 最近一直忙得不可開交……
@@ -725,7 +730,9 @@ content:
     ImagePath: ''
     MessageKR: 근데 그렇게나 바빠?
     MessageJP: いつも以上に忙しそうだね……？
-    MessageCN: 日奈好像比平时更忙了呢……？
+    # 还要辛苦 → 还要忙
+    # 改成辛苦是考虑到上下两句都带“忙”，读来有点小奇怪，所以用了工作得很“辛苦”来代替“忙”的意思，避免这个字出现频率太高。这里使用“忙”的话，上一句的“バタバタ”可以考虑去掉对“忙得不可开交”的使用，改成“团团转”或者“连轴转”之类的表述，或者把这一句改成“工作比平时还要多”之类的表述会好一些
+    MessageCN: 你好像比平时还要忙呢……？
     MessageEN: So you're stressed out?
     MessageTH: ยุ่งขนาดนั้นเลยเหรอ?
     MessageTW: 似乎比平時還忙呢……？
@@ -761,7 +768,8 @@ content:
     ImagePath: ''
     MessageKR: 원래 예정되었던 스케쥴을 변경하는 정도일까…….
     MessageJP: まあ、ちょっと色んなスケジュールをずらさないといけなくなったくらいで……
-    MessageCN: 只是我得做好安排，把各种日程计划给错开罢了……
+    # 嘛 → 只是
+    MessageCN: 只是，我得做好安排把各种日程计划给错开而已……
     MessageEN: It just means I have to move my schedule around.
     MessageTH: ก็แค่ต้องโยกย้ายตารางงานนิดหน่อยเท่านั้น...
     MessageTW: 只不過會需要排開各種待辦事項……
@@ -779,11 +787,11 @@ content:
     ImagePath: ''
     MessageKR: 오늘은 순찰 업무 대신 서류 작성으로 하루를 보내게 될 것 같아.
     MessageJP: ただ、今日は一歩も外に出られてないし、書類仕事で一日が終わりそう
-    MessageCN: 不过为了这事，我今天是一步也没能出门，一整天都耗在文书工作上了
+    MessageCN: 不过为了这事，今天是一步也没能出去，一整天都耗在文书工作上了
     MessageEN: I'll be spending today on paperwork rather than patrolling.
-    MessageTH: 'วันนี้ฉันคงต้องจัดการงานเอกสาร
-
-      แทนการออกไปลาดตระเวนแล้วล่ะ'
+    MessageTH: |-
+      วันนี้ฉันคงต้องจัดการงานเอกสาร
+      แทนการออกไปลาดตระเวนแล้วล่ะ
     MessageTW: 只是今天一步也沒走出去，光是文書工作就結束一整天了
   - MessageGroupId: 100220280
     Id: 100220420
@@ -799,7 +807,9 @@ content:
     ImagePath: ''
     MessageKR: 이미 충분히 심각한데요?!
     MessageJP: 大丈夫！？休んで！？
-    MessageCN: 日奈不要紧吧！？去休息下吧！？
+    # 不要紧吗 → 不要紧吧 显得老师更希望 hina 没事
+    # 两个“吧”有点奇怪，如果你不这么觉得那也可以（可能是我的问题）
+    MessageCN: 要不要紧！？去休息下吧！？
     MessageEN: But that IS something serious!
     MessageTH: แบบนั้นแสดงว่ายุ่งมากเลยนะ?!
     MessageTW: 沒事吧！？好好休息吧！？
@@ -817,6 +827,7 @@ content:
     ImagePath: ''
     MessageKR: 뭐, 나한테는 흔히 있는 일이야.
     MessageJP: まあ、よくあることだから
+    # 哎 → 唉
     MessageCN: 唉，常有的事了
     MessageEN: Well, it's not that rare for me.
     MessageTH: ก็นะ ฉันเจอจนชินแล้วล่ะ
@@ -835,11 +846,13 @@ content:
     ImagePath: ''
     MessageKR: 어쨌거나 선생과 대화를 나누고 나니 조금 후련해졌어.
     MessageJP: とにかく、先生とこうしてやり取りできただけで、ちょっとスッキリした
-    MessageCN: 总之，能跟老师像这样聊天，我的心情就已经畅快多了
+    # 别的不说 → 总之
+    # “总之”在这个地方有点怪，因为这句话缺少比较强的总结上文之意。它的意思更接近于“虽然上面这些都是没办法的事情，不过老师能像这样和我聊天，我的心情就已经放松很多了”，或者说“不要太担心我啦，有你在我就已经很开心了”。翻译成“别的不说”可能比较接近于ともかく而不是とにかく，确实不太好。可以考虑改成“不管怎么说”或者“不管怎样”之类的表述。
+    MessageCN: 不管怎么说，能跟老师像这样聊天，我的心情就已经舒畅许多了
     MessageEN: Anyway, I'm feeling better after talking to you, Sensei.
-    MessageTH: 'ไม่รู้ทำไมพอได้คุยกับคุณครู
-
-      ฉันก็รู้สึกดีขึ้นมา'
+    MessageTH: |-
+      ไม่รู้ทำไมพอได้คุยกับคุณครู
+      ฉันก็รู้สึกดีขึ้นมา
     MessageTW: 總之，光是能和老師這樣交流，就放鬆多了
   - MessageGroupId: 100220300
     Id: 100220450
@@ -891,11 +904,11 @@ content:
     ImagePath: ''
     MessageKR: 새삼스럽지만. 오늘 도와줘서 고마웠어. 선생.
     MessageJP: 今日は手伝ってくれてありがとう、先生
-    MessageCN: 今天多谢帮忙，老师
+    MessageCN: 今天多谢你的帮助，老师
     MessageEN: I feel refreshed. Thank you for helping, Sensei.
-    MessageTH: 'ถึงจะรู้สึกแปลกนิดหน่อย  แต่วันนี้
-
-      ขอบคุณที่มาช่วยนะ คุณครู'
+    MessageTH: |-
+      ถึงจะรู้สึกแปลกนิดหน่อย  แต่วันนี้
+      ขอบคุณที่มาช่วยนะ คุณครู
     MessageTW: 謝謝你今天的幫助，老師
   - MessageGroupId: 100220320
     Id: 100220480
@@ -911,6 +924,7 @@ content:
     ImagePath: ''
     MessageKR: 별말씀을요.
     MessageJP: 大したことじゃないよ、どういたしまして
+    # 不客气 → 别客气
     MessageCN: 没什么大不了的，别客气
     MessageEN: You're welcome.
     MessageTH: ไม่เป็นไร
@@ -929,7 +943,9 @@ content:
     ImagePath: ''
     MessageKR: 하지만 언제까지고 이런 식으로 폐만 끼칠 순 없으니까.
     MessageJP: すごく助かった。でも、毎回こうして迷惑をかけるわけにはいかないから
-    MessageCN: 老师真的帮了我大忙。但是，我也不能每次都这样给老师添麻烦
+    # 真是帮了大忙 → 真的帮大忙了
+    # 好改
+    MessageCN: 真的帮大忙了。但是，也不能每次都这样给你添麻烦
     MessageEN: But I can't just keep making excuses like this...
     MessageTH: ฉันจะเอาสร้างปัญหาให้คุณครูต่อไปก็คงไม่ได้
     MessageTW: 真是幫大忙了。但是，不能每次都這樣給你添麻煩
@@ -947,7 +963,7 @@ content:
     ImagePath: ''
     MessageKR: 다음번엔 좀 더 업무를 빨리 끝내두고.
     MessageJP: 次は、もう少し仕事を早く終わらせておく
-    MessageCN: 下次，我会早点把工作做完的
+    MessageCN: 下次，我会早点把工作都做完的
     MessageEN: I'll finish off my work a bit faster.
     MessageTH: เอาไว้คราวหน้าฉันจะรีบทำงานให้เสร็จนะ
     MessageTW: 下次，我會早點完成工作
@@ -1001,11 +1017,11 @@ content:
     ImagePath: ''
     MessageKR: 응, 선생 말대로, 조금은 쉬는 것도 좋을지 모르겠네.
     MessageJP: 少しくらい、一緒に外を出歩くのも良いかな……って
-    MessageCN: 稍微一起出去走走也不错……对吧
+    MessageCN: 一起出去走一走也不错……的吧
     MessageEN: You're right. Now would be a good time to rest.
-    MessageTH: 'หยุดพักผ่อนสักหน่อยตามที่คุณครูบอก
-
-      ก็คงดีนะ'
+    MessageTH: |-
+      หยุดพักผ่อนสักหน่อยตามที่คุณครูบอก
+      ก็คงดีนะ
     MessageTW: 稍微一起出去走走，似乎也不錯……
   - MessageGroupId: 100220350
     Id: 100220540
@@ -1021,11 +1037,13 @@ content:
     ImagePath: ''
     MessageKR: 그때엔 오늘처럼 또 에스코트, 부탁할게.
     MessageJP: その時は今日みたいにエスコート、お願いしても良い？
-    MessageCN: 到时候，我可以拜托老师像今天一样护送我吗？
+    # 那时可以…… → 到时候我可以……
+    # 好改
+    MessageCN: 到时候我可以像今天一样，拜托你当护花使者吗？
     MessageEN: I hope you'll be with me like you were today when the time comes.
-    MessageTH: 'เอาไว้คราวหน้า ช่วยไปด้วยกันเหมือน
-
-      วันนี้ด้วยนะ'
+    MessageTH: |-
+      เอาไว้คราวหน้า ช่วยไปด้วยกันเหมือน
+      วันนี้ด้วยนะ
     MessageTW: 到時候也能像今天一樣帶領著我嗎？
   - MessageGroupId: 100220360
     Id: 100220550
@@ -1061,9 +1079,9 @@ content:
     MessageJP: 今日はもしかしたら、午前中に仕事が片付くかもしれない
     MessageCN: 今天说不定上午就能把工作做完
     MessageEN: I should be finished later this morning.
-    MessageTH: 'งานที่เหลืออยู่ก็คงทำเสร็จได้ทั้งหมด
-
-      ภายในช่วงเช้า'
+    MessageTH: |-
+      งานที่เหลืออยู่ก็คงทำเสร็จได้ทั้งหมด
+      ภายในช่วงเช้า
     MessageTW: 今天說不定能在上午就完成工作
   - MessageGroupId: 100220370
     Id: 100220570
@@ -1115,7 +1133,7 @@ content:
     ImagePath: ''
     MessageKR: 아니……, 본론을 꺼내기 전에 먼저 대답부터 해도 곤란하거든……?
     MessageJP: ……本題に入る前に、返事をしないで。本当に分かってるの……？
-    MessageCN: ……别在我说完主题之前就抢答啊。老师真的知道我接下来要说什么吗……？
+    MessageCN: ……还没有进入正题，不要抢答啊。你真的知道我要说什么吗……？
     MessageEN: But... I hadn't even finished asking.
     MessageTH: เดี๋ยวสิ... ตอบมาก่อนที่ฉันจะพูดแบบนี้ได้ยังไงล่ะ
     MessageTW: ……請不要在進入正題之前就回覆。真的明白了嗎……？
@@ -1153,9 +1171,9 @@ content:
     MessageJP: この前言ってたでしょう、リゾート地まで来て満喫しないのは勿体ないって
     MessageCN: 上次不是说过嘛，来这种度假胜地不好好享受就太可惜了
     MessageEN: It would be a waste not to have fun during vacation.
-    MessageTH: 'อุตส่าห์ได้มาเที่ยวทั้งที ถ้าไม่ใช้เวลา
-
-      ให้คุ้มก็น่าเสียดาย'
+    MessageTH: |-
+      อุตส่าห์ได้มาเที่ยวทั้งที ถ้าไม่ใช้เวลา
+      ให้คุ้มก็น่าเสียดาย
     MessageTW: 之前說過吧，來渡假勝地不享受的話就太可惜了
   - MessageGroupId: 100220410
     Id: 100220620
@@ -1171,7 +1189,7 @@ content:
     ImagePath: ''
     MessageKR: 응, 기왕 바다까지 왔으니까.
     MessageJP: そうだよ！せっかく海に来たんだから！
-    MessageCN: 没错！难得来海边一次！
+    MessageCN: 没错！好不容易来一次海边！
     MessageEN: Right, since we're at the beach.
     MessageTH: อืม... ไหนๆ ก็มาถึงทะเลแล้ว
     MessageTW: 是啊！難得來海邊了！
@@ -1189,6 +1207,8 @@ content:
     ImagePath: ''
     MessageKR: ……나로선 잘 이해되지 않는 이야기지만.
     MessageJP: ……それで良いのかなって、まだ心のどこかでは思ってるのだけど
+    # 虽然我心里还在想，这样真的好吗 → 犹豫这样到底好不好
+    # 好改
     MessageCN: ……虽然我心里还在犹豫这样到底好不好
     MessageEN: I don't understand, personally.
     MessageTH: ถึงฉันไม่ค่อยเข้าใจก็เถอะนะ
@@ -1225,7 +1245,7 @@ content:
     ImagePath: ''
     MessageKR: 응. 좋아. 오후엔 같이 어울려줄래?
     MessageJP: 今日の午後、付き合ってくれる？
-    MessageCN: 那今天下午，能陪着我吗？
+    MessageCN: 今天下午，能陪着我吗？
     MessageEN: Okay, good. Would you spend the afternoon with me?
     MessageTH: อื้อ ดีเลย ถ้างั้นตอนบ่ายไปเดินเล่นกันไหม?
     MessageTW: 今天下午能陪我嗎？
@@ -1261,7 +1281,8 @@ content:
     ImagePath: ''
     MessageKR: 그, 할 수 있을 테니까.
     MessageJP: 一緒に海に遊びに行くくらいの時間は取れるはず
-    MessageCN: 应该能抽出来一起去海边玩的时间
+    # 补充主语我，没有的话还是感觉太怪了
+    MessageCN: 我应该能抽出一起去海边玩的时间
     MessageEN: Is something...I might be able to do.
     MessageTH: น่าจะไปได้นะ
     MessageTW: 能抽出時間一起去海邊玩
@@ -1279,7 +1300,9 @@ content:
     ImagePath: ''
     MessageKR: 물론입니다!
     MessageJP: もちろん！楽しみにしてるね！
-    MessageCN: 当然了！我超级期待！
+    # 感觉还是补上一个主语我好一些，还有就是语气词的翻译问题
+    # 确实
+    MessageCN: 当然了！我超级期待哦！
     MessageEN: Sure thing!
     MessageTH: แน่นอน!
     MessageTW: 當然！我很期待！
@@ -1297,7 +1320,7 @@ content:
     ImagePath: ''
     MessageKR: 응. 그럼……. 이따 점심쯤에 봐. 선생
     MessageJP: うん、じゃあ……またお昼頃に
-    MessageCN: 嗯，那……就中午见吧
+    MessageCN: 嗯，那么……中午的时候再见吧
     MessageEN: Okay, then... See you around lunchtime, Sensei.
     MessageTH: อื้อ ถ้างั้นเดี๋ยวเจอกันตอนเที่ยงๆ นะ คุณครู
     MessageTW: 嗯，那……中午的時候見
@@ -1333,11 +1356,11 @@ content:
     ImagePath: ''
     MessageKR: 가끔은 이렇게, 바다를 바라보는 것도 나쁘지 않네.
     MessageJP: たまにはあんな風に、ゆっくり海を眺めるのも悪くない
-    MessageCN: 偶尔像那样悠闲地眺望大海也不错呢
+    MessageCN: 偶尔像这样悠闲地眺望大海也不错呢
     MessageEN: Taking in the beach is fine every once in a while.
-    MessageTH: 'ได้มานั่งมองทะเลแบบนี้บ้าง
-
-      ก็ไม่เลวเลยนะ'
+    MessageTH: |-
+      ได้มานั่งมองทะเลแบบนี้บ้าง
+      ก็ไม่เลวเลยนะ
     MessageTW: 偶爾像這樣悠閒地眺望大海也不錯
   - MessageGroupId: 100220470
     Id: 100220720
@@ -1353,6 +1376,8 @@ content:
     ImagePath: ''
     MessageKR: 다음에
     MessageJP: 今度は、
+    # 下次的时候→ 下次
+    # 好改
     MessageCN: 下次，
     MessageEN: Until next time.
     MessageTH: คราวหน้า...
@@ -1389,9 +1414,11 @@ content:
     ImagePath: ''
     MessageKR: ……또 먼저 답하다니.
     MessageJP: ……だから、先読みしないでって
-    MessageCN: ……所以说，不要擅自脑补我要说什么啊
+    # 我还没讲的内容 → 我想说什么
+    # 前后的两个“说”会不会有点硬（？），或许 我想说什么 → 我想讲的话 会好一些？
+    MessageCN: ……都说了，别擅自脑补我要讲什么啊
     MessageEN: You didn't let me finish again.
-    MessageTH: '...ตอบแทรกมาอีกแล้ว'
+    MessageTH: ...ตอบแทรกมาอีกแล้ว
     MessageTW: ……所以我說了，不要預判
   - MessageGroupId: 100220500
     Id: 100220750
@@ -1407,7 +1434,9 @@ content:
     ImagePath: ''
     MessageKR: 후후, 정말 별나다니까.
     MessageJP: ふふっ、本当に変な人
-    MessageCN: 呵呵，老师还真是个奇怪的人呢
+    # 呼呼 → 呵呵，虽然呵呵变味了但是没有呼呼这么笑的，vv评论区当时也有人提过这个
+    # 也是考虑到呵呵在互联网已经变味了才改的……不过确实呼呼也很怪。那就呵呵吧（
+    MessageCN: 呵呵，老师还真是个大怪人呢
     MessageEN: Heehee. You're so odd.
     MessageTH: ฮิฮิ แปลกคนจริงๆ
     MessageTW: 呵呵，真是個怪人
@@ -1425,9 +1454,9 @@ content:
     ImagePath: ''
     MessageKR: 응, 그럼 그때에도 잘 부탁해. 선생.
     MessageJP: うん、じゃあその時もお願いね。先生
-    MessageCN: 嗯，那到时候也拜托您啦。老师
+    MessageCN: 嗯，那到时候也拜托你啦。老师
     MessageEN: All right, then. I'll be looking forward to it, Sensei.
-    MessageTH: 'งั้นคราวหน้ามาเที่ยวด้วยกันใหม่
-
-      นะ คุณครู'
+    MessageTH: |-
+      งั้นคราวหน้ามาเที่ยวด้วยกันใหม่
+      นะ คุณครู
     MessageTW: 嗯，到時候也拜託你了。老師
