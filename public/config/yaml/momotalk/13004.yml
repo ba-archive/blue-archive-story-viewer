@@ -14,7 +14,7 @@ title:
     FavorScheduleId: 130043
     CharacterId: 13004
     TextJp: 清掃の時間です
-    TextCn: 扫除时间到
+    TextCn: 清扫的时间
     TextKr: 청소할 시간이에요
     TextEn: Cleaning Time
     TextTh: ถึงเวลาทำความสะอาดแล้วค่ะ
@@ -23,7 +23,7 @@ title:
     FavorScheduleId: 130045
     CharacterId: 13004
     TextJp: 恩返しの時間です
-    TextCn: 报答时间到
+    TextCn: 报答的时间
     TextKr: 보답할 시간이에요
     TextEn: Time to Repay
     TextTh: ถึงเวลาตอบแทน
