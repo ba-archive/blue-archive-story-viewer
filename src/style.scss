@@ -280,8 +280,8 @@ a {
 // consistent scrollbar style on all desktop browsers
 @media screen and (min-width: 768px) {
   html[data-scrollbar='customize'] {
-    scrollbar-gutter: stable;
-    scrollbar-width: thin;
+    //scrollbar-gutter: stable;
+    //scrollbar-width: thin;
 
     ::-webkit-scrollbar {
       border-radius: 1rem;
