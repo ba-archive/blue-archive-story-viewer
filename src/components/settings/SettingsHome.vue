@@ -77,7 +77,7 @@ const settingsStore = useSettingsStore();
 const userLanguage = computed(() => settingsStore.getLang);
 
 const useMp3SwitchValue: Ref<boolean> = ref(settingsStore.getUseMp3);
-const useSuperSamplingSwitchValue: Ref<string> = ref(
+const useSuperSamplingSwitchValue: Ref<'' | '2' | '4' | undefined> = ref(
   settingsStore.getUseSuperSampling
 );
 

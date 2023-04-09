@@ -91,7 +91,7 @@
         </div>
         <div class="flex-horizontal" v-if="showUseSuperSampling">
           <neu-switch
-            :checked="useSuperSampling"
+            :checked="![undefined, ''].includes(useSuperSampling)"
             @update:value="handleUseSuperSampling"
           />
           <span>开启超分辨率</span>
@@ -239,7 +239,7 @@ function handleUseMp3(value: boolean) {
   settingsStore.setUseMp3(value);
   pageRefresh();
 }
-function handleUseSuperSampling(value: boolean) {
+function handleUseSuperSampling(value: '' | '2' | '4' | undefined) {
   settingsStore.setUseSuperSampling(value);
   pageRefresh();
 }
