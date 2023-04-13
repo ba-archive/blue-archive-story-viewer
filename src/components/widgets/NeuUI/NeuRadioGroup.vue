@@ -16,11 +16,9 @@
 <script setup lang="ts">
 withDefaults(
   defineProps<{
-    value: string | boolean | undefined;
     direction?: 'horizontal' | 'vertical';
   }>(),
   {
-    value: '',
     direction: 'horizontal',
   }
 );

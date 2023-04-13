@@ -89,7 +89,7 @@
         </div>
         <div class="settings-panel__row__action">
           <div
-            class="user-action-button rounded-small"
+            class="user-action-button rounded-small danger"
             role="button"
             @click="handleUnregisterSW"
           >
