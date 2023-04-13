@@ -38,10 +38,27 @@
           </p>
         </div>
         <div class="settings-panel__row__action">
-          <neu-switch
-            :checked="!!useSuperSamplingSwitchValue"
-            @update:value="handleSuperSamplingSwitchChange"
-          />
+          <neu-radio-group>
+            <neu-radio
+              :value="false"
+              :activated="!useSuperSamplingValue"
+              @click="handleSuperSamplingSwitchChange('')"
+              >off</neu-radio
+            >
+            <neu-radio
+              value="2x"
+              :activated="'2' === useSuperSamplingValue"
+              @click="handleSuperSamplingSwitchChange('2')"
+              >2x</neu-radio
+            >
+            <neu-radio
+              value="4x"
+              v-if="!checkMobile() && false"
+              :activated="'4' === useSuperSamplingValue"
+              @click="handleSuperSamplingSwitchChange('4')"
+              >4x</neu-radio
+            >
+          </neu-radio-group>
         </div>
       </div>
       <div class="settings-panel__row">
@@ -61,32 +78,56 @@
           </div>
         </div>
       </div>
+      <div class="settings-panel__row">
+        <div class="settings-panel__row__text">
+          <p>{{ getI18nString(userLanguage, 'settings.unregisterSWTitle') }}</p>
+          <p class="settings-panel__row__text__description">
+            {{
+              getI18nString(userLanguage, 'settings.unregisterSWDescription')
+            }}
+          </p>
+        </div>
+        <div class="settings-panel__row__action">
+          <div
+            class="user-action-button rounded-small"
+            role="button"
+            @click="handleUnregisterSW"
+          >
+            {{ getI18nString(userLanguage, 'settings.unregisterSWActionText') }}
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
 /* eslint-disable @typescript-eslint/no-unused-vars */
+import isMobile from 'ismobilejs';
 import { Ref, computed, ref } from 'vue';
+import { useRouter } from 'vue-router';
 import { getI18nString } from '../../i18n/getI18nString';
 import { useSettingsStore } from '../../store/settings';
 import LanguageSelector from '../widgets/LanguageSelector.vue';
+import NeuRadio from '../widgets/NeuUI/NeuRadio.vue';
+import NeuRadioGroup from '../widgets/NeuUI/NeuRadioGroup.vue';
 import NeuSwitch from '../widgets/NeuUI/NeuSwitch.vue';
 
 const settingsStore = useSettingsStore();
+const router = useRouter();
 const userLanguage = computed(() => settingsStore.getLang);
 
 const useMp3SwitchValue: Ref<boolean> = ref(settingsStore.getUseMp3);
-const useSuperSamplingSwitchValue: Ref<'' | '2' | '4' | undefined> = ref(
-  settingsStore.getUseSuperSampling
+const useSuperSamplingValue = computed<'' | '2' | '4' | undefined>(
+  () => settingsStore.getUseSuperSampling
 );
 
 function handleAppleCompatibleSwitchChange(value: boolean) {
   settingsStore.setUseMp3(value);
 }
 
-function handleSuperSamplingSwitchChange(value: boolean) {
-  settingsStore.setUseSuperSampling(value ? '2' : '');
+function handleSuperSamplingSwitchChange(value: '' | '2' | '4') {
+  settingsStore.setUseSuperSampling(value);
 }
 
 function handleClearCache() {
@@ -104,6 +145,31 @@ function handleClearCache() {
     alert('Cache cleared!\n' + clearedCacheList.join('\n'));
   });
 }
+
+function handleUnregisterSW() {
+  navigator.serviceWorker
+    .getRegistrations()
+    .then(registrations => {
+      for (const registration of registrations) {
+        registration.unregister();
+      }
+    })
+    .then(() => {
+      caches.keys().then(cacheNames => {
+        cacheNames.forEach(cacheName => {
+          caches.delete(cacheName);
+        });
+      });
+    })
+    .then(() => {
+      alert('已重置应用状态，即将刷新页面');
+      router.go(0);
+    });
+}
+
+function checkMobile() {
+  return isMobile(window.navigator).any;
+}
 </script>
 
 <style scoped lang="scss">
@@ -118,12 +184,13 @@ function handleClearCache() {
   max-width: 600px;
 
   &__row {
-    display: grid;
-    grid-template-columns: auto max-content;
-    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     width: 100%;
 
     &__text {
+      max-width: 75%;
       font-weight: bold;
 
       &__description {
@@ -135,8 +202,10 @@ function handleClearCache() {
 
     &__action {
       display: flex;
+      flex: 1;
       justify-content: flex-end;
       align-items: center;
+      width: fit-content;
     }
   }
 }
