@@ -11,7 +11,7 @@ export const useSettingsStore = defineStore({
         theme: 'light' as 'light' | 'dark',
         username: 'Sensei' as string,
         useMp3: false,
-        useSuperSampling: '' as '' | '2' | '4' | undefined,
+        useSuperSampling: '' as '' | '2' | '4',
       },
       studentFilters: {
         searchString: '',
@@ -37,7 +37,13 @@ export const useSettingsStore = defineStore({
     getArmorTypeFilter: state => state.studentFilters.armorType,
     getBulletTypeFilter: state => state.studentFilters.bulletType || [],
     getUseMp3: state => state.settings.useMp3,
-    getUseSuperSampling: state => state.settings.useSuperSampling,
+    getUseSuperSampling: state => {
+      const shouldUseSuperSampling = state.settings.useSuperSampling;
+      if (!['', '2', '4'].includes(shouldUseSuperSampling)) {
+        return '';
+      }
+      return shouldUseSuperSampling;
+    },
   },
   actions: {
     setLang(lang: 'cn' | 'tw' | 'jp' | 'en' | 'kr' | 'th') {
@@ -73,7 +79,7 @@ export const useSettingsStore = defineStore({
     setUseMp3(useMp3: boolean) {
       this.settings.useMp3 = useMp3;
     },
-    setUseSuperSampling(useSuperSampling: '' | '2' | '4' | undefined) {
+    setUseSuperSampling(useSuperSampling: '' | '2' | '4') {
       this.settings.useSuperSampling = useSuperSampling;
     },
   },
