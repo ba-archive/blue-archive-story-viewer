@@ -91,13 +91,14 @@ axios
     fetchErrorMessage.value = '学生剧情目前尚未完全开放，还请期待！';
   })
   .finally(() => {
+    if (Object.keys(storyIndex.value).length === 0) {
+      console.log('empty story index: ' + JSON.stringify(storyIndex.value));
+      fetchError.value = true;
+      fetchErrorMessage.value = '学生剧情目前尚未完全开放，还请期待！';
+    }
+
     ready.value = true;
   });
-
-if (Object.keys(storyIndex.value).length === 0) {
-  fetchError.value = true;
-  fetchErrorMessage.value = '学生剧情目前尚未完全开放，还请期待！';
-}
 
 function handleOpenIndex(index: number) {
   if (activeIndex.value.includes(index)) {

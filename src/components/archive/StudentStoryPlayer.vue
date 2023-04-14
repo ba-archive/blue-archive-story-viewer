@@ -89,12 +89,12 @@
           <neu-switch :checked="useMp3" @update:value="handleUseMp3" />
           <span>兼容 Apple 设备</span>
         </div>
-        <div class="flex-horizontal" v-if="showUseSuperSampling">
+        <div class="flex-horizontal">
           <neu-switch
-            :checked="![undefined, ''].includes(useSuperSampling)"
+            :checked="![undefined, false, ''].includes(useSuperSampling)"
             @update:value="handleUseSuperSampling"
           />
-          <span>开启超分辨率</span>
+          <span>开启 2x 超分辨率</span>
         </div>
       </div>
     </div>
@@ -199,13 +199,13 @@ axios
     fetchErrorMessage.value = '学生剧情目前尚未完全开放，感谢您的热情！';
   })
   .finally(() => {
+    if (0 === Object.keys(storyIndex.value).length) {
+      fetchError.value = true;
+      fetchErrorMessage.value = '学生剧情目前尚未完全开放，还请期待！';
+    }
+
     ready.value = true;
   });
-
-if (0 === Object.keys(storyIndex.value).length) {
-  fetchError.value = true;
-  fetchErrorMessage.value = '学生剧情目前尚未完全开放，还请期待！';
-}
 
 axios
   .get(`/story/favor/${studentId.value}/index.json`)
@@ -222,7 +222,7 @@ const playerHeight = playerWidth * 0.5625;
 const startFullScreen = ref(document.body.clientWidth <= 425);
 const useMp3 = computed(() => settingsStore.getUseMp3);
 const useSuperSampling = computed(() => settingsStore.getUseSuperSampling);
-const showUseSuperSampling = [''].includes(studentId.value);
+
 // 检测浏览器是否为 webkit，如果是则使用 mp3
 /* eslint-disable-next-line */
 // @ts-ignore
@@ -244,8 +244,8 @@ function handleUseMp3(value: boolean) {
   settingsStore.setUseMp3(value);
   pageRefresh();
 }
-function handleUseSuperSampling(value: '' | '2' | '4' | undefined) {
-  settingsStore.setUseSuperSampling(value);
+function handleUseSuperSampling(value: boolean) {
+  settingsStore.setUseSuperSampling(value ? '2' : '');
   pageRefresh();
 }
 
