@@ -83,6 +83,7 @@ axios
     },
   })
   .then(res => {
+    console.log('data', res.data);
     storyIndex.value = res.data;
     console.log('data length', res.data.length);
   })
