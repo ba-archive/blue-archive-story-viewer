@@ -94,7 +94,7 @@ const contributors: Contributor[] = [
   },
   {
     name: '小陈菌',
-    role: '自动化',
+    role: 'CI/CD',
     avatar: '/image/contributor/ciisaichan.webp',
     link: 'https://github.com/ciisaichan',
   },
@@ -116,7 +116,7 @@ const contributors: Contributor[] = [
   },
   {
     name: '飞龙project',
-    role: '自动化',
+    role: 'CI/CD',
     avatar: '/image/contributor/feilongproject.webp',
     link: 'https://github.com/feilongproject',
   },
@@ -139,7 +139,7 @@ const contributors: Contributor[] = [
   },
   {
     name: 'Mark Chen',
-    role: '前端',
+    role: '前端/美术/CI/CD',
     avatar: '/image/contributor/mark9804.webp',
     link: 'https://github.com/Mark9804',
   },
@@ -161,7 +161,7 @@ const contributors: Contributor[] = [
   },
   {
     name: 'Notype',
-    role: '前端/自动化',
+    role: '前端/CI/CD',
     avatar: '/image/contributor/notnotype.webp',
     link: 'https://github.com/notnotype',
   },
@@ -173,7 +173,7 @@ const contributors: Contributor[] = [
   },
   {
     name: 'HeartUnderBlade',
-    role: '自动化',
+    role: 'CI/CD',
     avatar: '/image/contributor/pfjhyyj.webp',
     link: 'https://github.com/pfjhyyj',
   },
@@ -197,6 +197,7 @@ const contributors: Contributor[] = [
     name: 'Tiramisu',
     role: '翻译（繁中）',
     avatar: '/image/contributor/tiramisu.webp',
+    link: 'https://github.com/noddy55168',
   },
   {
     name: '_Aisle',
