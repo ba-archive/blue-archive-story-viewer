@@ -199,11 +199,10 @@ axios
     fetchErrorMessage.value = '学生剧情目前尚未完全开放，感谢您的热情！';
   })
   .finally(() => {
-    if (0 === Object.keys(storyIndex.value).length) {
+    if (0 === Object.keys(story.value).length) {
       fetchError.value = true;
       fetchErrorMessage.value = '学生剧情目前尚未完全开放，还请期待！';
     }
-
     ready.value = true;
   });
 
@@ -235,18 +234,19 @@ function handleConsentFormConfirm() {
   // 不是第一次直接刷新
   (window as any).hasStoryPlayed = true;
 }
-function pageRefresh() {
+function reloadPlayer() {
+  showPlayer.value = false;
   setTimeout(() => {
-    router.go(0);
-  }, 375); // 等动画结束之后刷新页面
+    showPlayer.value = true;
+  }, 0);
 }
 function handleUseMp3(value: boolean) {
   settingsStore.setUseMp3(value);
-  pageRefresh();
+  reloadPlayer();
 }
 function handleUseSuperSampling(value: boolean) {
   settingsStore.setUseSuperSampling(value ? '2' : '');
-  pageRefresh();
+  reloadPlayer();
 }
 
 function handleStoryEnd() {
