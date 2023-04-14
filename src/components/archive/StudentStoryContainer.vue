@@ -83,17 +83,13 @@ axios
     },
   })
   .then(res => {
-    console.log('data', res.data);
     storyIndex.value = res.data;
-    console.log('data length', res.data.length);
   })
   .catch(err => {
-    console.error(err);
     fetchError.value = true;
     fetchErrorMessage.value = '学生剧情目前尚未完全开放，还请期待！';
   })
   .finally(() => {
-    console.log('story index value', storyIndex.value);
     ready.value = true;
   });
 

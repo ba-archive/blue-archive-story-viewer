@@ -202,6 +202,11 @@ axios
     ready.value = true;
   });
 
+if (0 === Object.keys(storyIndex.value).length) {
+  fetchError.value = true;
+  fetchErrorMessage.value = '学生剧情目前尚未完全开放，还请期待！';
+}
+
 axios
   .get(`/story/favor/${studentId.value}/index.json`)
   .then(res => {
