@@ -93,9 +93,11 @@ axios
     fetchErrorMessage.value = '学生剧情目前尚未完全开放，还请期待！';
   })
   .finally(() => {
-    console.error('story index value', storyIndex.value);
+    console.log('story index value', storyIndex.value);
     ready.value = true;
   });
+
+console.log('story index value', storyIndex.value);
 
 function handleOpenIndex(index: number) {
   if (activeIndex.value.includes(index)) {
