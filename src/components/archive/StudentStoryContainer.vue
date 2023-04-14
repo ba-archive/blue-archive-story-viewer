@@ -84,14 +84,12 @@ axios
   })
   .then(res => {
     storyIndex.value = res.data;
+    console.log('data length', res.data.length);
   })
   .catch(err => {
     console.error(err);
     fetchError.value = true;
-    fetchErrorMessage.value =
-      route.params.studentId.toString() === '10053'
-        ? err
-        : '学生剧情目前尚未完全开放，烦请移步体操服优香剧情！';
+    fetchErrorMessage.value = '学生剧情目前尚未完全开放，还请期待！';
   })
   .finally(() => {
     ready.value = true;
