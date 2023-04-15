@@ -234,7 +234,7 @@ function handleConsentFormConfirm() {
   // 不是第一次直接刷新
   (window as any).hasStoryPlayed = true;
 }
-function reloadPlayer(forceReload=false) {
+function reloadPlayer(forceReload = false) {
   if (!forceReload) {
     showPlayer.value = false;
     setTimeout(() => {
