@@ -7,6 +7,10 @@ export interface Student {
   nickname: string[] | number[];
   club: string;
   affiliation: string;
+  birthday?: {
+    month: number;
+    day: number;
+  };
   rarity: number;
   type: 'Striker' | 'Special';
   armorType: 'LightArmor' | 'HeavyArmor' | 'Unarmed';

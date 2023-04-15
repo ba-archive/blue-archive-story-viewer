@@ -87,6 +87,7 @@ withDefaults(
     font-size: 1.25rem;
 
     .title-text-before {
+      margin-right: 0.5rem;
       :deep(img, svg) {
         vertical-align: -0.15em;
         height: 1em;
@@ -95,7 +96,6 @@ withDefaults(
 
     .title-text {
       transition: color 0.375s ease-in-out;
-      margin-left: 0.5rem;
     }
   }
 
