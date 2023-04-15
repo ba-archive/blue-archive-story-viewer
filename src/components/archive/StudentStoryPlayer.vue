@@ -234,11 +234,17 @@ function handleConsentFormConfirm() {
   // 不是第一次直接刷新
   (window as any).hasStoryPlayed = true;
 }
-function reloadPlayer() {
-  showPlayer.value = false;
+function reloadPlayer(forceReload=false) {
+  if (!forceReload) {
+    showPlayer.value = false;
+    setTimeout(() => {
+      showPlayer.value = true;
+    }, 0);
+    return;
+  }
   setTimeout(() => {
-    showPlayer.value = true;
-  }, 0);
+    router.go(0);
+  }, 375);
 }
 function handleUseMp3(value: boolean) {
   settingsStore.setUseMp3(value);
@@ -247,7 +253,7 @@ function handleUseMp3(value: boolean) {
 function handleUseSuperSampling(value: boolean) {
   console.log('超分选项：' + value ? '2倍' : '关闭');
   settingsStore.setUseSuperSampling(value ? '2' : '');
-  reloadPlayer();
+  reloadPlayer(true);
 }
 
 function handleStoryEnd() {
