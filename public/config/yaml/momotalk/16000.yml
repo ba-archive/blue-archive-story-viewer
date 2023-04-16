@@ -5,7 +5,7 @@ title:
     FavorScheduleId: 160002
     CharacterId: 16000
     TextJp: 送信先間違い
-    TextCn: 发错了的收件人
+    TextCn: 发错了的联络
     TextKr: 잘못된 연락
     TextEn: Wrong Number
     TextTh: กดผิด
@@ -41,7 +41,7 @@ title:
     FavorScheduleId: 160008
     CharacterId: 16000
     TextJp: 間違えて
-    TextCn: 弄错
+    TextCn: 犯错
     TextKr: 잘못된 장소
     TextEn: Wrong Place
     TextTh: ผิดสถานที่

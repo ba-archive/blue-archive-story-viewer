@@ -89,12 +89,12 @@
           <neu-switch :checked="useMp3" @update:value="handleUseMp3" />
           <span>兼容 Apple 设备</span>
         </div>
-        <div class="flex-horizontal" v-if="showUseSuperSampling">
+        <div class="flex-horizontal">
           <neu-switch
-            :checked="useSuperSampling"
+            :checked="![undefined, false, ''].includes(useSuperSampling)"
             @update:value="handleUseSuperSampling"
           />
-          <span>开启超分辨率</span>
+          <span>开启 2x 超分辨率</span>
         </div>
       </div>
     </div>
@@ -199,6 +199,10 @@ axios
     fetchErrorMessage.value = '学生剧情目前尚未完全开放，感谢您的热情！';
   })
   .finally(() => {
+    if (0 === Object.keys(story.value).length) {
+      fetchError.value = true;
+      fetchErrorMessage.value = '学生剧情目前尚未完全开放，还请期待！';
+    }
     ready.value = true;
   });
 
@@ -217,7 +221,7 @@ const playerHeight = playerWidth * 0.5625;
 const startFullScreen = ref(document.body.clientWidth <= 425);
 const useMp3 = computed(() => settingsStore.getUseMp3);
 const useSuperSampling = computed(() => settingsStore.getUseSuperSampling);
-const showUseSuperSampling = [''].includes(studentId.value);
+
 // 检测浏览器是否为 webkit，如果是则使用 mp3
 /* eslint-disable-next-line */
 // @ts-ignore
@@ -230,18 +234,26 @@ function handleConsentFormConfirm() {
   // 不是第一次直接刷新
   (window as any).hasStoryPlayed = true;
 }
-function pageRefresh() {
+function reloadPlayer(forceReload = false) {
+  if (!forceReload) {
+    showPlayer.value = false;
+    setTimeout(() => {
+      showPlayer.value = true;
+    }, 0);
+    return;
+  }
   setTimeout(() => {
     router.go(0);
-  }, 375); // 等动画结束之后刷新页面
+  }, 375);
 }
 function handleUseMp3(value: boolean) {
   settingsStore.setUseMp3(value);
-  pageRefresh();
+  reloadPlayer();
 }
 function handleUseSuperSampling(value: boolean) {
-  settingsStore.setUseSuperSampling(value);
-  pageRefresh();
+  console.log('超分选项：' + value ? '2倍' : '关闭');
+  settingsStore.setUseSuperSampling(value ? '2' : '');
+  reloadPlayer();
 }
 
 function handleStoryEnd() {

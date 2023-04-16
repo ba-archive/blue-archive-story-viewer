@@ -96,6 +96,8 @@ html {
 //noinspection CssUnknownTarget
 html[data-theme='dark'] {
   --color-pallete-arona-blue: #b2cffa;
+  --color-pallete-warning: #cc820a;
+  --color-pallete-danger: #cc2f27;
 
   --color-card-background: #2f2f2f;
   --color-glass-panel-border: #4b93dc;
@@ -275,13 +277,22 @@ a {
   padding: 0.4rem 1rem;
   color: #fff;
   text-decoration: none;
+
+  &.warning {
+    background: var(--color-pallete-warning);
+    color: #333;
+  }
+
+  &.danger {
+    background: var(--color-pallete-danger);
+  }
 }
 
 // consistent scrollbar style on all desktop browsers
 @media screen and (min-width: 768px) {
   html[data-scrollbar='customize'] {
-    scrollbar-gutter: stable;
-    scrollbar-width: thin;
+    //scrollbar-gutter: stable;
+    //scrollbar-width: thin;
 
     ::-webkit-scrollbar {
       border-radius: 1rem;

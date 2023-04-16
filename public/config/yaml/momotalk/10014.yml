@@ -5,7 +5,7 @@ title:
     FavorScheduleId: 100142
     CharacterId: 10014
     TextJp: そしてイズナは尾行する
-    TextCn: 然后泉奈就进行跟踪
+    TextCn: 于是泉奈就开始跟踪
     TextKr: 그래서 이즈나는 미행한다.
     TextEn: Izuna's Tailing Technique
     TextTh: อิซุนะสะกดรอยตาม
@@ -14,7 +14,7 @@ title:
     FavorScheduleId: 100143
     CharacterId: 10014
     TextJp: そしてイズナは護衛する
-    TextCn: 然后泉奈就进行护卫
+    TextCn: 于是泉奈就开始护卫
     TextKr: 그래서 이즈나는 호위한다.
     TextEn: Izuna's Protection Technique
     TextTh: อิซุนะเดินไปเป็นเพื่อน
@@ -23,7 +23,7 @@ title:
     FavorScheduleId: 100145
     CharacterId: 10014
     TextJp: そしてイズナは好きになる
-    TextCn: 然后泉奈就喜欢上了
+    TextCn: 于是泉奈就喜欢上了
     TextKr: 그래서 이즈나는 좋아한다.
     TextEn: What Izuna Likes
     TextTh: เพราะแบบนั้นอิซุนะจึงรู้สึกดี
@@ -32,7 +32,7 @@ title:
     FavorScheduleId: 100146
     CharacterId: 10014
     TextJp: 一緒にいられるこの今を
-    TextCn: 和主公在一起的此刻
+    TextCn: 与主公相为伴的当下
     TextKr: 주군과 함께 있는 지금을.
     TextEn: Together with My Lord
     TextTh: ช่วงเวลานี้ที่ได้อยู่กับนายท่าน
@@ -110,7 +110,7 @@ content:
     ImagePath: ''
     MessageKR: 역시 주군……!
     MessageJP: さ、さすが主殿……！
-    MessageCN: 不、不愧是主公…！
+    MessageCN: 不、不愧是主公……！
     MessageEN: I knew I could count on you!
     MessageTH: สมกับเป็นนายท่านจริงๆ ด้วย!
     MessageTW: 不，不愧是主公……！

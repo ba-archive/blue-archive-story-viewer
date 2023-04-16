@@ -22,7 +22,7 @@
 
 <script setup lang="ts">
 defineProps<{
-  errorMessage: object;
+  errorMessage: object | string;
   routePath: string | undefined;
 }>();
 

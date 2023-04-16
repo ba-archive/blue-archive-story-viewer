@@ -491,12 +491,12 @@ content:
     ImagePath: ''
     MessageKR: 선생님! 엄청나게 하네츠키가 하고 싶어졌어!
     MessageJP: 先生！羽根つきしよっ！
-    MessageCN: 老师！我们一起玩羽子板吧！
+    MessageCN: 老师！我们一起玩板羽球吧！
     MessageEN: Sensei! I really, really want to play hanetsuki!
     MessageTH: 'คุณครู! เค้าอยากเล่นฮาเนะสึกิ
 
       มากๆ เลย!'
-    MessageTW: 老師！來打板羽球吧！
+    MessageTW: 老師！來打羽子板吧！
   - MessageGroupId: 100320190
     Id: 100320260
     CharacterId: 10032
