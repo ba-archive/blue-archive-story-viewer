@@ -4,6 +4,31 @@ import { Contributor, UpdateLog } from '../types/UpdateNews';
 
 const updateLogs: UpdateLog[] = [
   {
+    date: '2023-04-16',
+    contents: [
+      {
+        type: 'student',
+        students: [
+          { name: '桑上 果穗', id: 10065 },
+          { name: '下江小春', id: 10020 },
+          { name: '鬼方 佳代子（正月）', id: 10064 },
+        ],
+      },
+      {
+        type: 'fix',
+        content: '修复剧情黑屏问题',
+      },
+      {
+        type: 'feat',
+        content: '剧情支持2倍超分辨率',
+      },
+      {
+        type: 'feat',
+        content: '设置面板中支持重置整个应用',
+      },
+    ],
+  },
+  {
     date: '2023-03-24',
     contents: [
       {
