@@ -253,7 +253,7 @@ function handleUseMp3(value: boolean) {
 function handleUseSuperSampling(value: boolean) {
   console.log('超分选项：' + value ? '2倍' : '关闭');
   settingsStore.setUseSuperSampling(value ? '2' : '');
-  reloadPlayer(true);
+  reloadPlayer();
 }
 
 function handleStoryEnd() {
