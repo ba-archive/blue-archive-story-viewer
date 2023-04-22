@@ -215,6 +215,11 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/:pathMatch(.*)',
     redirect: '/404',
+    beforeEnter: to => {
+      if (to.path.endsWith('.json')) {
+        return false;
+      }
+    },
   },
 ];
 
