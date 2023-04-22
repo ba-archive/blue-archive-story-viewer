@@ -4,13 +4,11 @@
       <router-link
         :to="{ name: 'Momotalk' }"
         class="button rounded-small"
-        role="button"
         >momotalk</router-link
       >
       <router-link
         :to="{ name: 'StudentStory' }"
         class="button rounded-small"
-        role="button"
         >好感剧情</router-link
       >
     </div>
