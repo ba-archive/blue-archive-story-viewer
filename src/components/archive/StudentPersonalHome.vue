@@ -1,14 +1,10 @@
 <template>
   <div class="fill-width flex-vertical rounded-small">
     <div class="student-home-nav-bar">
-      <router-link
-        :to="{ name: 'Momotalk' }"
-        class="button rounded-small"
+      <router-link :to="{ name: 'Momotalk' }" class="button rounded-small"
         >momotalk</router-link
       >
-      <router-link
-        :to="{ name: 'StudentStory' }"
-        class="button rounded-small"
+      <router-link :to="{ name: 'StudentStory' }" class="button rounded-small"
         >好感剧情</router-link
       >
     </div>
