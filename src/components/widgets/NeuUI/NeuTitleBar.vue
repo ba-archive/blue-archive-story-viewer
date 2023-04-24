@@ -39,7 +39,6 @@ function handleClick() {
         class="navigation-arrow"
         :class="isActive ? 'open' : ''"
         xmlns="http://www.w3.org/2000/svg"
-        xml:space="preserve"
         viewBox="0 0 451.8 451.8"
       >
         <!-- eslint-disable max-len -->

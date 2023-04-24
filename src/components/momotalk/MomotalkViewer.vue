@@ -201,7 +201,6 @@ onActivated(() => {
       <!-- eslint-disable max-len -->
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        xml:space="preserve"
         id="Layer_2_00000033347787382183846980000016369978894466167968_"
         x="0"
         y="0"
