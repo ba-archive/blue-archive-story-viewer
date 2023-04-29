@@ -48,7 +48,7 @@ title:
     FavorScheduleId: 100018
     CharacterId: 10001
   - TextJp: 熱風
-    TextCn: ''
+    TextCn: 热风
     TextKr: 열풍
     TextEn: ''
     TextTh: ''
@@ -137,7 +137,7 @@ content:
     ImagePath: ''
   - MessageKR: 그런가…… 내 착각이려나……?
     MessageJP: そうかな、私の勘違い……？
-    MessageCN: 这样吗，难道是我的了……？
+    MessageCN: 这样吗，难道是我误会了……？
     MessageEN: Yeah? Maybe it is just me...
     MessageTH: อืม... หรือว่าฉันคิดไปเองนะ?
     MessageTW: 是嗎，是我誤會了嗎……？
