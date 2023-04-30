@@ -168,8 +168,6 @@ const startFullScreen = ref(document.body.clientWidth < 425);
 const useMp3 = computed(() => settingsStore.getUseMp3);
 
 // 检测浏览器是否为 webkit，如果是则使用 mp3
-/* eslint-disable-next-line */
-// @ts-ignore
 if (typeof window.webkitConvertPointFromNodeToPage === 'function') {
   settingsStore.setUseMp3(true);
 }
