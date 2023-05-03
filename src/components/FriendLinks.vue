@@ -5,7 +5,7 @@ interface FriendLink {
   logo: string;
   logoDescription: string;
   shouldReverseOnDarkTheme?: boolean;
-  summary: string;
+  description: string;
 }
 const links: FriendLink[] = [
   {
@@ -53,7 +53,7 @@ const links: FriendLink[] = [
             :alt="link.logoDescription"
           />
           <h4>{{ link.title }}</h4>
-          <p>{{ link.summary }}</p>
+          <p>{{ link.description }}</p>
         </a>
       </div>
     </article>
