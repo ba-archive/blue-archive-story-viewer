@@ -85,6 +85,7 @@
           :start-full-screen="startFullScreen"
           :use-mp3="useMp3"
           :use-super-sampling="useSuperSampling"
+          :exit-fullscreen-time-out="5000"
           @end="handleStoryEnd"
         />
         <div v-if="playEnded" class="flex-vertical">
@@ -131,7 +132,7 @@
               getI18nString(userLanguage, 'settings.useSuperSamplingTitle')
             }}</span>
           </div>
-          <div @click="changeIndex = 50">change index 50</div>
+          <!--          <div @click="changeIndex = 50">change index 50</div>-->
         </div>
       </div>
     </div>
@@ -334,8 +335,7 @@ function findNextStoryId(): number | undefined {
 }
 
 function handleStoryEnd() {
-  console.log('story end');
-  playEnded.value = true;
+  setTimeout(() => (playEnded.value = true), 6000);
 }
 
 function handleReplay() {

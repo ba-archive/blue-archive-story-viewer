@@ -2,7 +2,7 @@
 import { Ref, computed, ref } from 'vue';
 import { useSettingsStore } from '../../store/settings';
 import { Language } from '../../types/Settings';
-import { Section, StoryBriefing } from '../../types/StoryJson';
+import { StoryBriefing } from '../../types/StoryJson';
 import NeuTitleBar from '../widgets/NeuUI/NeuTitleBar.vue';
 import StoryBriefBlock from './StoryBriefBlock.vue';
 
