@@ -1,17 +1,35 @@
 <script setup lang="ts">
-import { PropType, Ref, ref } from 'vue';
-import { Section } from '../../types/StoryJson';
+import { Ref, computed, ref } from 'vue';
+import { useSettingsStore } from '../../store/settings';
+import { Language } from '../../types/Settings';
+import { Section, StoryBriefing } from '../../types/StoryJson';
 import NeuTitleBar from '../widgets/NeuUI/NeuTitleBar.vue';
 import StoryBriefBlock from './StoryBriefBlock.vue';
 
-defineProps({
-  title: { type: String, required: true },
-  avatar: { type: String, required: false, default: '' },
-  index: { type: [String, Number], required: false },
-  sections: { type: Array as PropType<Section[]>, required: true },
-});
+const settingsStore = useSettingsStore();
 
-const openChapters: Ref<number[]> = ref([0]);
+defineProps<{
+  title: StoryBriefing['title'];
+  avatar: StoryBriefing['avatar'];
+  index: number;
+  sections: StoryBriefing['sections'];
+}>();
+
+const openChapters: Ref<number[]> = ref([1]);
+const language = computed(() => settingsStore.getLang);
+
+function getTitleText(
+  title: StoryBriefing['title'],
+  language: Language = 'cn'
+) {
+  return (
+    Reflect.get(
+      title,
+      `Text${language.slice(0, 1).toUpperCase() + language.slice(1)}`
+    ) || 'NO TITLE'
+  );
+}
+
 function handleOpenChapters(index: number) {
   if (openChapters.value.includes(index)) {
     openChapters.value = openChapters.value.filter(i => i !== index);
@@ -24,22 +42,23 @@ function handleOpenChapters(index: number) {
 <template>
   <div class="story-line-container">
     <neu-title-bar
-      :title="title"
+      :title="getTitleText(title, language)"
+      class="title-bar gap-bottom"
       :avatar="avatar"
       :index="index"
-      :is-active="openChapters.includes(0)"
-      @clicked="handleOpenChapters(0)"
+      :is-active="openChapters.includes(index)"
+      @clicked="handleOpenChapters(index)"
     />
     <router-link
       v-for="section in sections"
       :to="`/mainStory/${section.story_id}`"
-      v-show="openChapters.includes(0)"
+      v-show="openChapters.includes(index)"
       :key="section.story_id"
     >
       <story-brief-block
-        :title="section.title"
+        :title="getTitleText(section.title, language)"
         :avatar="avatar"
-        :description="section.description"
+        :description="section.summary"
       />
     </router-link>
   </div>
@@ -50,8 +69,16 @@ function handleOpenChapters(index: number) {
 .story-line-container {
   display: grid;
   grid-auto-flow: row;
-  gap: 1rem;
   width: 30rem;
+}
+
+.title-bar {
+  position: sticky;
+  top: 0;
+}
+
+.gap-bottom {
+  margin-bottom: 1rem;
 }
 
 a {

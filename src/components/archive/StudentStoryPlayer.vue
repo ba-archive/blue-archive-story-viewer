@@ -72,7 +72,7 @@
       <div>Story ID {{ favorGroupId }}</div>
       <story-player
         v-if="showPlayer"
-        :story="story.content"
+        :story="story"
         :width="playerWidth"
         :height="playerHeight"
         data-url="https://yuuka.cdn.diyigemt.com/image/ba-all-data"

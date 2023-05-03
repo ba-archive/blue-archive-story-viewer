@@ -26,8 +26,13 @@ export const localeString = {
       continueReading: '继续阅读',
     },
 
+    playerControl: { replay: '重播' },
+
     routes: {
       home: '首页',
+      previous: '上一个',
+      next: '下一个',
+      backToIndex: '返回目录',
     },
   },
   jp: {
@@ -57,8 +62,13 @@ export const localeString = {
       continueReading: '続きを読む',
     },
 
+    playerControl: { replay: 'リプレイ' },
+
     routes: {
       home: 'ホーム',
+      previous: '前へ',
+      next: '次へ',
+      backToIndex: '目次へ戻る',
     },
   },
   tw: {
@@ -86,8 +96,13 @@ export const localeString = {
       continueReading: '繼續閱讀',
     },
 
+    playerControl: { replay: '重播' },
+
     routes: {
       home: '首頁',
+      previous: '上一個',
+      next: '下一個',
+      backToIndex: '返回目錄',
     },
   },
   en: {
@@ -117,8 +132,13 @@ export const localeString = {
       continueReading: 'Continue reading',
     },
 
+    playerControl: { replay: 'Replay' },
+
     routes: {
       home: 'Home',
+      previous: 'Previous',
+      next: 'Next',
+      backToIndex: 'Back to index',
     },
   },
   kr: {
@@ -148,8 +168,13 @@ export const localeString = {
       continueReading: '계속 읽기',
     },
 
+    playerControl: { replay: '다시 듣기' },
+
     routes: {
       home: '홈',
+      previous: '이전',
+      next: '다음',
+      backToIndex: '목차로 돌아가기',
     },
   },
   th: {
@@ -179,8 +204,13 @@ export const localeString = {
       continueReading: 'อ่านต่อ',
     },
 
+    playerControl: { replay: 'เล่นซ้ำ' },
+
     routes: {
       home: 'หน้าหลัก',
+      previous: 'ก่อนหน้า',
+      next: 'ถัดไป',
+      backToIndex: 'กลับไปที่ดัชนี',
     },
   },
 };

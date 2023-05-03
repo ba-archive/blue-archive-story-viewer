@@ -70,9 +70,11 @@
         class="flex-vertical story-container"
         v-if="consentFromConfirmed && ready && !fetchError"
       >
-        <div>Story ID {{ storyId }}</div>
+        <div v-if="!playEnded">Story ID {{ storyId }}</div>
         <story-player
-          :story="story.content"
+          v-if="showPlayer && !playEnded"
+          :change-index="changeIndex"
+          :story="story"
           class="player-container"
           :width="playerWidth"
           :height="playerHeight"
@@ -82,12 +84,51 @@
           :story-summary="summary"
           :start-full-screen="startFullScreen"
           :use-mp3="useMp3"
+          :use-super-sampling="useSuperSampling"
+          @end="handleStoryEnd"
         />
-        <div class="player-settings flex-vertical">
+        <div v-if="playEnded" class="flex-vertical">
+          <div>播放已完成</div>
+          <div class="flex-horizontal jump-container">
+            <div @click="handleReplay" class="user-button shadow-near rounded-small">
+              {{ getI18nString(userLanguage, 'playerControl.replay') }}
+            </div>
+            <a
+              v-if="undefined !== findPreviousStoryId()"
+              :href="`/mainStory/${findPreviousStoryId()}`"
+              class="user-button shadow-near rounded-small"
+              >{{ getI18nString(userLanguage, 'routes.previous') }}</a
+            >
+            <a
+              href="/mainStory"
+              class="user-button shadow-near rounded-small"
+              >{{ getI18nString(userLanguage, 'routes.backToIndex') }}</a
+            >
+            <a
+              v-if="undefined !== findNextStoryId()"
+              :href="`/mainStory/${findNextStoryId()}`"
+              class="user-button shadow-near rounded-small"
+              >{{ getI18nString(userLanguage, 'routes.next') }}</a
+            >
+          </div>
+        </div>
+        <div v-if="!playEnded" class="player-settings flex-horizontal">
           <div>
             <neu-switch :checked="useMp3" @update:value="handleUseMp3" />
-            <span>兼容 Apple 设备</span>
+            <span>{{
+              getI18nString(userLanguage, 'settings.useMp3Title')
+            }}</span>
           </div>
+          <div class="flex-horizontal">
+            <neu-switch
+              :checked="![undefined, false, ''].includes(useSuperSampling)"
+              @update:value="handleUseSuperSampling"
+            />
+            <span>{{
+              getI18nString(userLanguage, 'settings.useSuperSamplingTitle')
+            }}</span>
+          </div>
+          <div @click="changeIndex = 50">change index 50</div>
         </div>
       </div>
     </div>
@@ -100,14 +141,23 @@ import axios from 'axios';
 import StoryPlayer from 'ba-story-player';
 import { computed, ref, watch } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
+import { getI18nString } from '../i18n/getI18nString';
+import { stories } from '../index/mainStoryIndex';
 import { useSettingsStore } from '../store/settings';
-import { StoryContent } from '../types/StoryJson';
+import {
+  CommonStoryTextObject,
+  Section,
+  StoryContent,
+} from '../types/StoryJson';
+import { getAllFlattenedStoryIndex } from '../util/getAllFlattenedStoryIndex';
 import ErrorScreen from './widgets/ErrorScreen.vue';
 import NeuDialog from './widgets/NeuUI/NeuDialog.vue';
 import NeuProgressBar from './widgets/NeuUI/NeuProgressBar.vue';
 import NeuSwitch from './widgets/NeuUI/NeuSwitch.vue';
 import { useElementSize } from '@vueuse/core';
 import 'ba-story-player/dist/style.css';
+
+const changeIndex = ref(0);
 
 const route = useRoute();
 const router = useRouter();
@@ -118,17 +168,19 @@ const story = ref<StoryContent>({} as StoryContent);
 const settingsStore = useSettingsStore();
 const userName = computed(() => settingsStore.getUsername);
 const playerContainerElement = ref<HTMLElement>();
+const userLanguage = computed(() => settingsStore.getLang);
+const playEnded = ref(false);
 
 const initProgress = ref(0);
 const ready = ref(false);
 const fetchError = ref(false);
 const fetchErrorMessage = ref({});
 /* eslint-disable max-len */
-const summary = {
+const summary = ref({
   chapterName: '序章',
   summary:
     '从奇怪的梦中醒来之后的[USERNAME]老师从联邦学生会的干部七神凛那里听到学生会长失踪的消息。由于学生会长失踪，学园城市基沃托斯陷入了混乱。为了解决这场混乱，老师和学生会的干部一同前往夏莱办公室。',
-};
+});
 /* eslint-enable max-len */
 axios
   .get(`/story/main/${storyId.value}.json`, {
@@ -166,6 +218,7 @@ const playerWidth = ref(0);
 const playerHeight = ref(0);
 const startFullScreen = ref(document.body.clientWidth < 425);
 const useMp3 = computed(() => settingsStore.getUseMp3);
+const useSuperSampling = computed(() => settingsStore.getUseSuperSampling);
 
 // 检测浏览器是否为 webkit，如果是则使用 mp3
 if (typeof window.webkitConvertPointFromNodeToPage === 'function') {
@@ -178,7 +231,7 @@ watch(
   () => {
     playerWidth.value =
       document.body.clientWidth <= 360
-        ? 360
+        ? window.screen.availWidth - 32
         : Math.min(
             containerWidth.value - 32,
             (16 * (containerHeight.value - 32)) / 9,
@@ -198,11 +251,93 @@ function handleConsentFormConfirm() {
   (window as any).hasStoryPlayed = true;
 }
 
-function handleUseMp3(value: boolean) {
-  settingsStore.setUseMp3(value);
+const showPlayer = ref(true);
+
+function reloadPlayer(forceReload = false) {
+  if (!forceReload) {
+    showPlayer.value = false;
+    setTimeout(() => {
+      showPlayer.value = true;
+    }, 0);
+    return;
+  }
   setTimeout(() => {
     router.go(0);
-  }, 375); // 等动画结束之后刷新页面
+  }, 375);
+}
+
+const allStoryIndex = getAllFlattenedStoryIndex(stories);
+
+const currentStoryIndexUnit: Section | undefined = allStoryIndex.find(
+  story => story.story_id === parseInt(storyId.value as string)
+);
+
+function getTextByLanguage(textObject: CommonStoryTextObject | undefined) {
+  if (!textObject) {
+    return 'No corresponding text found / 未找到对应文本';
+  }
+  return (
+    Reflect.get(
+      textObject,
+      `Text${
+        userLanguage.value.slice(0, 1).toUpperCase() +
+        userLanguage.value.slice(1)
+      }`
+    ) || 'No corresponding text found / 未找到对应文本'
+  );
+}
+
+function handleSummaryDisplayLanguageChange() {
+  summary.value = {
+    chapterName: getTextByLanguage(currentStoryIndexUnit?.title),
+    summary: getTextByLanguage(currentStoryIndexUnit?.summary),
+  };
+}
+
+watch(
+  () => userLanguage.value,
+  () => {
+    showPlayer.value = false;
+    handleSummaryDisplayLanguageChange();
+    reloadPlayer();
+  }
+);
+
+handleSummaryDisplayLanguageChange();
+
+function handleUseMp3(value: boolean) {
+  settingsStore.setUseMp3(value);
+  reloadPlayer();
+}
+
+function handleUseSuperSampling(value: boolean) {
+  console.log('超分选项：' + value ? '2倍' : '关闭');
+  settingsStore.setUseSuperSampling(value ? '2' : '');
+  reloadPlayer();
+}
+
+function findPreviousStoryId(): number | undefined {
+  if (currentStoryIndexUnit?.previous) {
+    return currentStoryIndexUnit.previous;
+  }
+  return undefined;
+}
+
+function findNextStoryId(): number | undefined {
+  if (currentStoryIndexUnit?.next) {
+    return currentStoryIndexUnit.next;
+  }
+  return undefined;
+}
+
+function handleStoryEnd() {
+  console.log('story end');
+  playEnded.value = true;
+}
+
+function handleReplay() {
+  playEnded.value = false;
+  reloadPlayer();
 }
 </script>
 
@@ -211,6 +346,20 @@ function handleUseMp3(value: boolean) {
   .player-settings {
     margin-top: 1rem;
     user-select: none;
+  }
+}
+
+.jump-container {
+  gap: 1rem;
+  margin-top: 1rem;
+
+  .user-button {
+    cursor: pointer;
+    background-color: var(--color-option-button);
+    padding: 0.5rem;
+    width: fit-content;
+    color: var(--color-text-ingame);
+    text-decoration: none;
   }
 }
 

@@ -25,7 +25,7 @@ const initProgress = ref(0);
 
 /*
  * @namespace studentSelected
- * @description 监听学生有没有被选中
+ * @summary 监听学生有没有被选中
  *              这段是历史遗留了，当时 router-view 不能正确隐藏选择面板，
  *              只能整一个这种扭曲的东西
  */
@@ -120,7 +120,7 @@ function getCohortAttribute(
 
 /**
  * @namespace armorTypes
- * @description 目前游戏内的三种装甲类型，order 字段用于排序
+ * @summary 目前游戏内的三种装甲类型，order 字段用于排序
  */
 const armorTypes = [
   { string: 'LightArmor', name: '轻装甲', order: 1 },
@@ -132,7 +132,7 @@ const armorTypes = [
 // TODO: Sound 译名待定
 /**
  * @namespace bulletTypes
- * @description 目前游戏内的三种子弹类型，order 字段用于排序
+ * @summary 目前游戏内的三种子弹类型，order 字段用于排序
  */
 const bulletTypes = [
   { string: 'Explosion', name: '爆发', order: 1 },

@@ -5,7 +5,7 @@ interface FriendLink {
   logo: string;
   logoDescription: string;
   shouldReverseOnDarkTheme?: boolean;
-  description: string;
+  summary: string;
 }
 const links: FriendLink[] = [
   {
@@ -53,7 +53,7 @@ const links: FriendLink[] = [
             :alt="link.logoDescription"
           />
           <h4>{{ link.title }}</h4>
-          <p>{{ link.description }}</p>
+          <p>{{ link.summary }}</p>
         </a>
       </div>
     </article>
@@ -84,7 +84,7 @@ article {
   grid-template-columns: min-content auto;
   grid-template-areas:
     'avatar title'
-    '. description';
+    '. summary';
   align-items: center;
   transition: all 0.375s ease-in-out;
   background-color: var(--color-card-background);
