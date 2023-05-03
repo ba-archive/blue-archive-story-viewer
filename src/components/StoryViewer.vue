@@ -90,7 +90,10 @@
         <div v-if="playEnded" class="flex-vertical">
           <div>播放已完成</div>
           <div class="flex-horizontal jump-container">
-            <div @click="handleReplay" class="user-button shadow-near rounded-small">
+            <div
+              @click="handleReplay"
+              class="user-button shadow-near rounded-small"
+            >
               {{ getI18nString(userLanguage, 'playerControl.replay') }}
             </div>
             <a
