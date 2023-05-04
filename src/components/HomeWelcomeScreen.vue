@@ -1,3 +1,43 @@
+<script setup lang="ts">
+import UpdatedPortalCard from './widgets/UpdatedPortalCard.vue';
+
+export interface HomeDisplayInfo {
+  type: 'mainstory' | 'student' | 'minigame';
+  jumpTo?: string | number;
+  title: string;
+  startDate?: string; // yyyy/mm/dd
+  endDate?: string; // yyyy/mm/dd
+}
+
+const homepageDisplayInfoList: HomeDisplayInfo[] = [
+  {
+    type: 'minigame',
+    title: 'test',
+    startDate: '2021/10/01',
+    endDate: '2021/10/07',
+  },
+  {
+    type: 'mainstory',
+    title: 'Vol.3 第一章',
+  },
+  {
+    type: 'student',
+    jumpTo: 10066,
+    title: '爱丽丝(女仆装)',
+  },
+  {
+    type: 'student',
+    jumpTo: 10067,
+    title: '时(兔女郎)',
+  },
+  {
+    type: 'student',
+    jumpTo: 26009,
+    title: '柚子(女仆装)',
+  },
+];
+</script>
+
 <template>
   <div id="home-welcome" class="center flex-vertical fill-screen">
     <div class="center flex-vertical">
@@ -7,59 +47,16 @@
         alt="mika"
       />
       <p>先从<span id="choice"></span>选择项目哦</p>
-      <p v-if="!showKoharu">
-        (<router-link class="navigation" to="/archive/10065/momotalk"
-          >果穗
-        </router-link>
-        、<router-link class="navigation" to="/archive/10020/momotalk"
-          >小春
-        </router-link>
-        、
-        <router-link class="navigation" to="/archive/10064/momotalk"
-          >佳代子（正月）</router-link
-        >剧情已开放)
-      </p>
-    </div>
-    <div v-if="showKoharu" class="fill-width">
-      <div class="card-minigame-entrance">
-        <neu-dialog
-          title="小春在这个月过生日！"
-          show-mask="false"
-          shadow
-          positive-text="前往小游戏"
-          negative-text="关闭"
-          @positiveClick="handleGoToKoharuMiniGame"
-          @negativeClick="showKoharu = false"
-        >
-          <template #content>
-            <span>我们为小春准备了一个小游戏，来试试吧！</span>
-            <span class="briefing"
-              >小游戏将在新标签页中打开，刷新页面此提示会再次出现</span
-            >
-          </template>
-        </neu-dialog>
+      <div class="update-info-container">
+        <updated-portal-card
+          v-for="info in homepageDisplayInfoList"
+          :info="info"
+          :key="info.title"
+        />
       </div>
     </div>
   </div>
 </template>
-
-<script setup lang="ts">
-import { ref } from 'vue';
-import NeuDialog from './widgets/NeuUI/NeuDialog.vue';
-
-const showKoharu = ref(false);
-
-const month = new Date().getMonth() + 1;
-
-if (month === 4) {
-  showKoharu.value = true;
-}
-
-function handleGoToKoharuMiniGame() {
-  window.open('https://koharu.blue-archive.io/', '_blank');
-  showKoharu.value = false;
-}
-</script>
 
 <style scoped lang="scss">
 #home-welcome {
@@ -77,6 +74,14 @@ function handleGoToKoharuMiniGame() {
     font-weight: bold;
     font-size: 1.5rem;
   }
+}
+
+.update-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 1rem;
+  margin: 1rem 0;
 }
 
 #choice::after {
