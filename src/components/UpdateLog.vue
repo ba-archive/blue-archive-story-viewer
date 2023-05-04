@@ -12,6 +12,8 @@ const updateLogs: UpdateLog[] = [
           { name: '爱丽丝（女仆装）', id: 10066 },
           { name: '时（兔女郎）', id: 10067 },
           { name: '柚子（女仆装）', id: 26009 },
+          { name: '野宫', id: 13004 },
+          { name: '野宫（泳装）', id: 10044 },
         ],
       },
       {
