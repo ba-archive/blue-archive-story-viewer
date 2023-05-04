@@ -84,7 +84,7 @@ article {
   grid-template-columns: min-content auto;
   grid-template-areas:
     'avatar title'
-    '. summary';
+    '. description';
   align-items: center;
   transition: all 0.375s ease-in-out;
   background-color: var(--color-card-background);
