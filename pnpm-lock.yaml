@@ -77,8 +77,8 @@ dependencies:
     specifier: 3.4.0
     version: 3.4.0
   ba-story-player:
-    specifier: 0.7.1
-    version: 0.7.1(@pixi/constants@6.5.9)(@pixi/core@6.5.9)(@pixi/display@6.5.9)(@pixi/graphics@6.5.9)(@pixi/loaders@6.5.9)(@pixi/math@6.5.9)(@pixi/mesh-extras@6.5.9)(@pixi/mesh@6.5.9)(@pixi/settings@6.5.9)(@pixi/sprite@6.5.9)(@pixi/ticker@6.5.9)(@pixi/utils@6.5.9)(axios@1.3.6)(vue@3.2.47)
+    specifier: 0.8.0
+    version: 0.8.0(@pixi/constants@6.5.9)(@pixi/core@6.5.9)(@pixi/display@6.5.9)(@pixi/graphics@6.5.9)(@pixi/loaders@6.5.9)(@pixi/math@6.5.9)(@pixi/mesh-extras@6.5.9)(@pixi/mesh@6.5.9)(@pixi/settings@6.5.9)(@pixi/sprite@6.5.9)(@pixi/ticker@6.5.9)(@pixi/utils@6.5.9)(axios@1.3.6)(vue@3.2.47)
   fastest-levenshtein:
     specifier: 1.0.16
     version: 1.0.16
@@ -3592,8 +3592,8 @@ packages:
       - debug
     dev: false
 
-  /ba-story-player@0.7.1(@pixi/constants@6.5.9)(@pixi/core@6.5.9)(@pixi/display@6.5.9)(@pixi/graphics@6.5.9)(@pixi/loaders@6.5.9)(@pixi/math@6.5.9)(@pixi/mesh-extras@6.5.9)(@pixi/mesh@6.5.9)(@pixi/settings@6.5.9)(@pixi/sprite@6.5.9)(@pixi/ticker@6.5.9)(@pixi/utils@6.5.9)(axios@1.3.6)(vue@3.2.47):
-    resolution: {integrity: sha512-2YU8Mb0buD0q/MOGGGSnEKS7a68gI5Fdm/zm6DRD3Uh84ZzeZlvUeBZhNYEUO+hPgvDTv0jnzZG0xtUIxOSrBg==}
+  /ba-story-player@0.8.0(@pixi/constants@6.5.9)(@pixi/core@6.5.9)(@pixi/display@6.5.9)(@pixi/graphics@6.5.9)(@pixi/loaders@6.5.9)(@pixi/math@6.5.9)(@pixi/mesh-extras@6.5.9)(@pixi/mesh@6.5.9)(@pixi/settings@6.5.9)(@pixi/sprite@6.5.9)(@pixi/ticker@6.5.9)(@pixi/utils@6.5.9)(axios@1.3.6)(vue@3.2.47):
+    resolution: {integrity: sha512-U5P/6LCGuz+JXRT3Og8QEHSInA2BD26ygl2VovDfSCFaUyoXM3Ckicza5cJAj9PhvhFmxp1b4cOzDazyLkjFaw==}
     peerDependencies:
       axios: ^1.1.3
       vue: ^3.2.41
