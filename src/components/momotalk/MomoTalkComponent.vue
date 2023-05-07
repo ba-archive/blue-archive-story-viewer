@@ -70,7 +70,6 @@
       </div>
       <router-link
         :to="`/archive/${characterId}/story/${message?.FavorScheduleId}`"
-        role="button"
         class="favor-schedule-button rounded-small shadow-near"
         @click="handleGoToScenarioButtonPressed"
       >

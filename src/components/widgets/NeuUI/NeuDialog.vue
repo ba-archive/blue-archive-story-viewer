@@ -9,7 +9,12 @@
       class="neu-dialog__card rounded-medium flex-vertical"
       :class="{ 'shadow-far': ['true', true].includes(shadow) }"
     >
-      <div class="neu-dialog__title">
+      <div
+        class="neu-dialog__title"
+        :class="{
+          smaller: ['true', true].includes(smallerTitle),
+        }"
+      >
         <span class="title-text-before" v-if="$slots['title-before']">
           <slot name="title-before"></slot>
         </span>
@@ -46,6 +51,7 @@
 withDefaults(
   defineProps<{
     title: string;
+    smallerTitle?: boolean | 'true' | 'false';
     content?: string;
     showMask?: boolean | 'true' | 'false';
     shadow?: boolean | 'true' | 'false';
@@ -54,6 +60,7 @@ withDefaults(
   }>(),
   {
     title: 'Dialog',
+    smallerTitle: false,
     showMask: true,
     shadow: false,
     positiveText: 'OK',
@@ -85,6 +92,14 @@ withDefaults(
     width: 100%;
     font-weight: 500;
     font-size: 1.25rem;
+
+    &.smaller {
+      font-size: 1.05rem;
+
+      .title-text-before {
+        margin-right: 0.25rem;
+      }
+    }
 
     .title-text-before {
       margin-right: 0.5rem;

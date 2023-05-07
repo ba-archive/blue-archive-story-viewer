@@ -4,13 +4,40 @@ import { Contributor, UpdateLog } from '../types/UpdateNews';
 
 const updateLogs: UpdateLog[] = [
   {
+    date: '2023-05-07',
+    contents: [
+      {
+        type: 'student',
+        students: [
+          { name: '爱丽丝（女仆装）', id: 10066 },
+          { name: '时（兔女郎）', id: 10067 },
+          { name: '柚子（女仆装）', id: 26009 },
+          { name: '野宫', id: 13004 },
+          { name: '野宫（泳装）', id: 10044 },
+        ],
+      },
+      {
+        type: 'main',
+        content: 'Vol.3 伊甸条约 第一章',
+      },
+      {
+        type: 'fix',
+        content: '修复特定分辨率移动设备上播放器宽度异常的问题',
+      },
+      {
+        type: 'feat',
+        content: '主线播放页面在播放完成后会显示导航按钮',
+      },
+    ],
+  },
+  {
     date: '2023-04-16',
     contents: [
       {
         type: 'student',
         students: [
           { name: '桑上 果穗', id: 10065 },
-          { name: '下江小春', id: 10020 },
+          { name: '下江 小春', id: 10020 },
           { name: '鬼方 佳代子（正月）', id: 10064 },
         ],
       },
@@ -236,6 +263,11 @@ const contributors: Contributor[] = [
     avatar: '/image/contributor/takanasichi.webp',
   },
   {
+    name: 'flamingo',
+    role: '翻译',
+    avatar: '/image/contributor/flamingo.webp',
+  },
+  {
     name: '碧蓝档案资讯站',
     role: '制作协力',
     avatar: '/image/contributor/zixunzhan.webp',
@@ -246,6 +278,67 @@ const contributors: Contributor[] = [
     role: '制作协力',
     avatar: '/image/contributor/xiaofeitm233.webp',
     link: 'https://github.com/xiaofeiTM233',
+  },
+  {
+    name: 'JK伯爵',
+    role: '文案',
+    avatar: '/image/contributor/jkbojue.webp',
+  },
+  {
+    name: 'mekliy',
+    role: '文案',
+    avatar: '/image/contributor/mekliy.webp',
+  },
+  {
+    name: '矮人',
+    role: '策划',
+    avatar: '/image/contributor/airen.webp',
+  },
+  {
+    name: '雷电',
+    role: 'PM',
+    avatar: '/image/contributor/leidian.webp',
+  },
+  {
+    name: 'Unique、',
+    role: '美术',
+    avatar: '/image/contributor/unique.webp',
+  },
+  {
+    name: '米袋',
+    role: 'Unity',
+    avatar: '/image/contributor/giantricebag.webp',
+    link: 'https://github.com/GiantRiceBag',
+  },
+  {
+    name: 'Violenza',
+    role: 'Unity',
+    avatar: '/image/contributor/violenza.webp',
+  },
+  {
+    name: '莫末陌寞',
+    role: 'Unity',
+    avatar: '/image/contributor/momomomo.webp',
+  },
+  {
+    name: '香蕉',
+    role: 'Unity',
+    avatar: '/image/contributor/banana.webp',
+  },
+  {
+    name: 'PAoc',
+    role: '3D建模',
+    avatar: '/image/contributor/paoc.webp',
+  },
+  {
+    name: '电獭',
+    role: '后端、架构',
+    avatar: '/image/contributor/dianta.webp',
+  },
+  {
+    name: '星之韻律',
+    role: '后端',
+    avatar: '/image/contributor/xingzhiyunlv.webp',
   },
 ];
 
@@ -282,27 +375,31 @@ const contributorList: any = h(
 </script>
 
 <template>
-  <div id="contributor-container" class="flex-vertical">
+  <div id="contributor-container" class="flex-vertical" v-once>
     <h2 class="update-log__title">更新日志</h2>
     <!-- eslint-disable vue/require-v-for-key -->
     <div class="update-log__block" v-for="log in updateLogs">
       <h3>{{ log.date }}</h3>
       <ul>
         <li v-for="content in log.contents">
-          <span v-if="'student' !== content.type">
+          <span v-if="!['student', 'main'].includes(content.type)">
             <span class="update-type">{{ content.type }}: </span>
             <span class="update-content">{{ content.content }}</span>
           </span>
           <span v-else>
-            <span class="update-type">student: </span>
-            <span class="update-content"
-              >添加
-              <span class="momotalk-link" v-for="student in content.students">
+            <span class="update-type">{{ content.type }}: </span>
+            <span class="update-content" v-if="'student' === content.type">
+              添加
+              <span class="router-link" v-for="student in content.students">
                 <router-link :to="`/archive/${student.id}/momotalk`">{{
                   student.name
                 }}</router-link>
               </span>
               的个人剧情
+            </span>
+            <span class="update-content" v-else>
+              主线新增
+              <router-link to="/mainStory">{{ content.content }}</router-link>
             </span>
           </span>
         </li>
@@ -347,7 +444,7 @@ const contributorList: any = h(
       color: var(--color-pallete-arona-blue);
       text-decoration: underline;
     }
-    .momotalk-link:not(:last-child)::after {
+    .router-link:not(:last-child)::after {
       content: '、';
     }
   }

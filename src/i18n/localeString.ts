@@ -1,6 +1,8 @@
 /* eslint-disable max-len */
 export const localeString = {
   cn: {
+    actions: { goto: '前往', close: '关闭', cancel: '取消' },
+
     settings: {
       language: '语言',
       useMp3Title: '兼容 Apple 设备',
@@ -26,11 +28,25 @@ export const localeString = {
       continueReading: '继续阅读',
     },
 
+    playerControl: { replay: '重播' },
+
     routes: {
       home: '首页',
+      previous: '上一个',
+      next: '下一个',
+      backToIndex: '返回目录',
+    },
+
+    updates: {
+      updated: '{title}已更新',
+      favorScheduleUpdated: '{name}的好感剧情已更新',
+      minigameUpdated: '{name}主题小游戏已更新（至{date}前有效）',
+      minigameUpdatedNoDate: '{name}主题小游戏已更新',
     },
   },
   jp: {
+    actions: { goto: '移動', close: '閉じる', cancel: 'キャンセル' },
+
     settings: {
       language: '言語',
       useMp3Title: 'Apple デバイスとの互換性',
@@ -57,11 +73,26 @@ export const localeString = {
       continueReading: '続きを読む',
     },
 
+    playerControl: { replay: 'リプレイ' },
+
     routes: {
       home: 'ホーム',
+      previous: '前へ',
+      next: '次へ',
+      backToIndex: '目次へ戻る',
+    },
+
+    updates: {
+      updated: '{title}がアップデートされました',
+      favorScheduleUpdated: '{name}の絆ストーリがアップデートされました',
+      minigameUpdated:
+        '{name}のテーマゲームがアップデートされました（{date}まで有効）',
+      minigameUpdatedNoDate: '{name}のテーマゲームがアップデートされました',
     },
   },
   tw: {
+    actions: { goto: '前往', close: '關閉', cancel: '取消' },
+
     settings: {
       language: '語言',
       useMp3Title: '兼容 Apple 裝置',
@@ -86,11 +117,25 @@ export const localeString = {
       continueReading: '繼續閱讀',
     },
 
+    playerControl: { replay: '重播' },
+
     routes: {
       home: '首頁',
+      previous: '上一個',
+      next: '下一個',
+      backToIndex: '返回目錄',
+    },
+
+    updates: {
+      updated: '{title}已更新',
+      favorScheduleUpdated: '{name}的羈絆劇情已更新',
+      minigameUpdated: '{name}主题小遊戲已更新（至{date}前有效）',
+      minigameUpdatedNoDate: '{name}主题小遊戲已更新',
     },
   },
   en: {
+    actions: { goto: 'Go to', close: 'Close', cancel: 'Cancel' },
+
     settings: {
       language: 'Language',
       useMp3Title: 'Apple device compatibility',
@@ -117,11 +162,26 @@ export const localeString = {
       continueReading: 'Continue reading',
     },
 
+    playerControl: { replay: 'Replay' },
+
     routes: {
       home: 'Home',
+      previous: 'Previous',
+      next: 'Next',
+      backToIndex: 'Back to index',
+    },
+
+    updates: {
+      updated: '{title} has been updated',
+      favorScheduleUpdated: "{name}'s relationship story has been updated",
+      minigameUpdated:
+        '{name} themed minigame has been updated (valid until {date})',
+      minigameUpdatedNoDate: "{name}'s minigame has been updated",
     },
   },
   kr: {
+    actions: { goto: '이동', close: '닫기', cancel: '취소' },
+
     settings: {
       language: '언어',
       useMp3Title: 'Apple 장치 호환성',
@@ -148,11 +208,26 @@ export const localeString = {
       continueReading: '계속 읽기',
     },
 
+    playerControl: { replay: '다시 듣기' },
+
     routes: {
       home: '홈',
+      previous: '이전',
+      next: '다음',
+      backToIndex: '목차로 돌아가기',
+    },
+
+    updates: {
+      updated: '{title}이 업데이트되었습니다',
+      favorScheduleUpdated: '{name}의 관계 이벤트가 업데이트되었습니다',
+      minigameUpdated:
+        '{name}의 테마 미니게임이 업데이트되었습니다 ({date}까지 유효)',
+      minigameUpdatedNoDate: '{name}의 테마 미니게임이 업데이트되었습니다',
     },
   },
   th: {
+    actions: { goto: 'ไปยัง', close: 'ปิด', cancel: 'ยกเลิก' },
+
     settings: {
       language: 'ภาษา',
       useMp3Title: 'ความเข้ากันได้กับอุปกรณ์ Apple',
@@ -179,8 +254,20 @@ export const localeString = {
       continueReading: 'อ่านต่อ',
     },
 
+    playerControl: { replay: 'เล่นซ้ำ' },
+
     routes: {
       home: 'หน้าหลัก',
+      previous: 'ก่อนหน้า',
+      next: 'ถัดไป',
+      backToIndex: 'กลับไปที่ดัชนี',
+    },
+
+    updates: {
+      updated: '{title} ได้รับการอัปเดต',
+      favorScheduleUpdated: 'เหตุการณ์ความสัมพันธ์ของ {name} ได้รับการอัปเดต',
+      minigameUpdated: 'เกมของ {name} ได้รับการอัปเดต ({date} ถึงวันที่)',
+      minigameUpdatedNoDate: 'เกมของ {name} ได้รับการอัปเดต',
     },
   },
 };

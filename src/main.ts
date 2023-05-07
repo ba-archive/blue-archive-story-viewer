@@ -9,6 +9,8 @@ import { routerConvert } from './route/routes';
 import App from './App.vue';
 import './style.scss';
 
+console.log('build ' + import.meta.env?.__BUILD_TIME__);
+
 const updateSW = registerSW({
   onNeedRefresh() {
     Toastify({

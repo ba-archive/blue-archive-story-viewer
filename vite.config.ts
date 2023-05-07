@@ -9,8 +9,13 @@ import { VitePWA } from 'vite-plugin-pwa';
 import legacy from '@vitejs/plugin-legacy';
 import vue from '@vitejs/plugin-vue';
 
+const currentTime = new Date().toISOString();
+
 // https://vitejs.dev/config/
 export default defineConfig({
+  define: {
+    'import.meta.env.__BUILD_TIME__': JSON.stringify(currentTime),
+  },
   server: {
     cors: true,
   },

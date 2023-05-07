@@ -89,7 +89,7 @@ function getFallbackDescription() {
 
   img {
     flex: none;
-    margin-right: 0.5rem;
+    margin-right: 1rem;
     width: 8rem;
     object-fit: cover;
   }

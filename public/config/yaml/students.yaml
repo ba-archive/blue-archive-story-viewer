@@ -1456,7 +1456,7 @@
     en: Hayase
     kr: 하야세
     tw: 早瀬
-    th: 早瀬
+    th: ฮายาเสะ
   name:
     cn: 优香(体操服)
     jp: ユウカ（体操服）
@@ -1487,7 +1487,7 @@
     en: Iochi
     kr: 이오치
     tw: 伊落
-    th: 伊落
+    th: อิโอจิ
   name:
     cn: 玛丽(体操服)
     jp: マリー（体操服）
@@ -1794,6 +1794,58 @@
   type: Striker
   armorType: HeavyArmor
   bulletType: Mystic
+  weapon: AR
+- id: 10066
+  familyName:
+    cn: 天童
+    jp: 天童
+    en: Tendou
+    kr: 텐도
+    tw: 天童
+    th: 天童
+  name:
+    cn: 爱丽丝(女仆装)
+    jp: アリス（メイド）
+    en: Aris (Maid)
+    kr: 아리스(메이드)
+    tw: アリス（メイド）
+    th: อาริสึ (เมด)
+  nickname: []
+  birthday:
+    month: 3
+    day: 25
+  club: 游戏开发部
+  affiliation: 千年
+  rarity: 3
+  type: Striker
+  armorType: LightArmor
+  bulletType: Mystic
+  weapon: RG
+- id: 10067
+  familyName:
+    cn: 飞鸟马
+    jp: 飛鳥馬
+    en: Asuma
+    kr: 아스마
+    tw: 飛鳥馬
+    th: 飛鳥馬
+  name:
+    cn: 时(兔女郎)
+    jp: トキ（バニーガール）
+    en: Toki (Bunny)
+    kr: 토키(바니걸)
+    tw: トキ（バニーガール）
+    th: โทคิ (บันนี่เกิร์ล)
+  nickname: []
+  birthday:
+    month: 8
+    day: 16
+  club: C&C
+  affiliation: 千年
+  rarity: 3
+  type: Striker
+  armorType: LightArmor
+  bulletType: Explosion
   weapon: AR
 - id: 13000
   familyName:
@@ -2469,7 +2521,7 @@
     en: Hanekawa
     kr: 하네카와
     tw: 羽川
-    th: 羽川
+    th: ฮาเนกาวะ
   name:
     cn: 莲见(体操服)
     jp: ハスミ（体操服）
@@ -3698,3 +3750,29 @@
   armorType: HeavyArmor
   bulletType: Mystic
   weapon: SG
+- id: 26009
+  familyName:
+    cn: 花冈
+    jp: 花岡
+    en: Hanaoka
+    kr: 하나오카
+    tw: 花岡
+    th: 花岡
+  name:
+    cn: 柚子(女仆装)
+    jp: ユズ（メイド）
+    en: Yuzu (Maid)
+    kr: 유즈(메이드)
+    tw: ユズ（メイド）
+    th: ยูสึ (เมด)
+  nickname: []
+  birthday:
+    month: 8
+    day: 12
+  club: 游戏开发部
+  affiliation: 千年
+  rarity: 1
+  type: Special
+  armorType: ElasticArmor
+  bulletType: Explosion
+  weapon: GL

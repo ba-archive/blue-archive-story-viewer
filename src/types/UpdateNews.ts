@@ -11,7 +11,15 @@ export interface StudentObject {
 }
 
 export interface UpdateContent {
-  type: 'fix' | 'feat' | 'refact' | 'docs' | 'chore' | 'test' | 'student';
+  type:
+    | 'fix'
+    | 'feat'
+    | 'refact'
+    | 'docs'
+    | 'chore'
+    | 'test'
+    | 'student'
+    | 'main';
   content?: string;
   students?: StudentObject[];
 }

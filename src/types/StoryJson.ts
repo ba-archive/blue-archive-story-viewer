@@ -1,10 +1,10 @@
 export interface CommonStoryTextObject {
-  TextCn: string;
+  TextCn?: string;
   TextJp: string;
-  TextKr: string;
-  TextTh: string;
-  TextEn: string;
-  TextTw: string;
+  TextKr?: string;
+  TextTh?: string;
+  TextEn?: string;
+  TextTw?: string;
 }
 
 export interface RawStoryUnit {
@@ -25,16 +25,25 @@ export interface RawStoryUnit {
 }
 
 export interface Section {
-  title: string;
-  story_id: number;
-  description: {
-    TextKr: string;
+  title: {
+    TextCn?: string;
     TextJp: string;
-    TextTh: string;
-    TextCn: string;
-    TextTw: string;
-    TextEn: string;
+    TextKr?: string;
+    TextTh?: string;
+    TextEn?: string;
+    TextTw?: string;
   };
+  story_id: number;
+  summary: {
+    TextKr?: string;
+    TextJp: string;
+    TextTh?: string;
+    TextCn?: string;
+    TextTw?: string;
+    TextEn?: string;
+  };
+  next?: number;
+  previous?: number;
 }
 
 export interface StoryAbstract {
@@ -44,7 +53,14 @@ export interface StoryAbstract {
 }
 
 export interface StoryBriefing {
-  title: string;
+  title: {
+    TextCn?: string;
+    TextJp: string;
+    TextKr?: string;
+    TextTh?: string;
+    TextEn?: string;
+    TextTw?: string;
+  };
   avatar: string;
   sections: Section[];
 }
