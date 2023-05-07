@@ -93,31 +93,10 @@ export default defineConfig({
               cacheName: 'font-cache',
             },
           },
-          {
-            urlPattern: /(ScenarioCharacterNameExcelTable)\.(json)$/i,
-            handler: 'NetworkFirst',
-            options: {
-              cacheName: 'character-config-table',
-            },
-          },
-          {
-            urlPattern: /(.*?)\.(png|jpe?g|svg|gif|webp|ico|atlas|skel)$/i,
-            handler: 'StaleWhileRevalidate',
-            options: {
-              cacheName: 'image-live2d-cache',
-            },
-          },
-          {
-            urlPattern: /(.*?)\.(js|css|json)$/i,
-            handler: 'StaleWhileRevalidate',
-            options: {
-              cacheName: 'asset-cache',
-            },
-          },
         ],
       },
       // uncomment to unregister service worker
-      // selfDestroying: true,
+      selfDestroying: true,
     }),
     {
       ...clearConsole(),
