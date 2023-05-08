@@ -221,9 +221,9 @@ export const stories: StoryBriefing[] = [
           TextEn: '07 Exam Prep',
           TextCn: '07 准备考试',
         },
-        story_id: 31060,
-        previous: 31050,
-        next: 31070,
+        story_id: 31070,
+        previous: 31060,
+        next: 31080,
         summary: {
           TextKr:
             '선생님의 감독 아래, 1차 시험을 준비하는 보충수업부의 학생들. 하나코의 해박한 지식 덕분에 준비는 좋은 분위기로 흐르지만, 히후미가 혹시라도 1차부터 한 명이라도 낙제생이 생기면 합숙에 들어가야 한다며 앞일을 걱정하는 사이, 그렇게 첫 번째 시험이 시작된다.',
