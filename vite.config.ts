@@ -52,7 +52,7 @@ export default defineConfig({
         short_name: 'BA剧情站',
         description: 'Yet another Blue Archive story viewer',
         lang: 'zh-CN',
-        theme_color: '#62abe9',
+        theme_color: '#3f88f2',
         icons: [
           {
             src: '/favicon/apple-touch-icon.png',
