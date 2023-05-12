@@ -1847,6 +1847,32 @@
   armorType: LightArmor
   bulletType: Explosion
   weapon: AR
+- id: 10068
+  familyName:
+    cn: 宇泽
+    jp: 宇沢
+    en: Uzawa
+    kr: 우자와
+    tw: 宇沢
+    th: 宇沢
+  name:
+    cn: 玲纱
+    jp: レイサ
+    en: Reisa
+    kr: 레이사
+    tw: レイサ
+    th: เรอิสะ
+  nickname: []
+  birthday:
+    month: 5
+    day: 31
+  club: 圣三一义警团
+  affiliation: 圣三一
+  rarity: 3
+  type: Striker
+  armorType: HeavyArmor
+  bulletType: Pierce
+  weapon: SG
 - id: 13000
   familyName:
     cn: 室笠

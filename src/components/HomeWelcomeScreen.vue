@@ -13,27 +13,18 @@ const homepageDisplayInfoList: HomeDisplayInfo[] = [
   {
     type: 'minigame',
     title: 'test',
+    jumpTo: 'shiroko.blue-archive.io',
     startDate: '2021/10/01',
     endDate: '2021/10/07',
   },
   {
+    type: 'student',
+    jumpTo: 10068,
+    title: '宇泽 玲纱',
+  },
+  {
     type: 'mainstory',
     title: 'Vol.3 第一章',
-  },
-  {
-    type: 'student',
-    jumpTo: 10066,
-    title: '爱丽丝(女仆装)',
-  },
-  {
-    type: 'student',
-    jumpTo: 10067,
-    title: '时(兔女郎)',
-  },
-  {
-    type: 'student',
-    jumpTo: 26009,
-    title: '柚子(女仆装)',
   },
 ];
 </script>

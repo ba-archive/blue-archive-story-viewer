@@ -4,6 +4,23 @@ import { Contributor, UpdateLog } from '../types/UpdateNews';
 
 const updateLogs: UpdateLog[] = [
   {
+    date: '2023-05-12',
+    contents: [
+      {
+        type: 'student',
+        students: [{ name: '玲纱', id: 10068 }],
+      },
+      {
+        type: 'fix',
+        content: '修复了伊甸条约目录中错误的链接',
+      },
+      {
+        type: 'fix',
+        content: '修复了选项按钮缺失点击音效的问题',
+      },
+    ],
+  },
+  {
     date: '2023-05-07',
     contents: [
       {
