@@ -118,9 +118,9 @@ function handleJumpToRequest() {
 
 <style scoped lang="scss">
 .pixelize {
+  line-height: 1.5rem;
   font-family: 'Fusion Pixel', 'Microsoft YaHei', 'PingFang SC', -apple-system,
     system-ui, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans',
     BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans GB', Arial, sans-serif;
-  line-height: 1.5rem;
 }
 </style>
