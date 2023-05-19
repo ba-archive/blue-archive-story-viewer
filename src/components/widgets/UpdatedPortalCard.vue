@@ -85,7 +85,8 @@ function handleJumpToRequest() {
       window.open(
         'string' === typeof props.info.jumpTo
           ? props.info.jumpTo
-          : props.info.jumpTo!.toString(), '_self'
+          : props.info.jumpTo!.toString(),
+        '_self'
       );
       break;
     default:
