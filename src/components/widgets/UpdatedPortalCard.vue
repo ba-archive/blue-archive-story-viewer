@@ -111,7 +111,8 @@ function handleJumpToRequest() {
     @positiveClick="handleJumpToRequest"
   >
     <template #title-before>
-      <img src="/src/assets/info.svg" alt="info" />
+      <img v-if="props.info?.icon" :src="props.info?.icon" alt="info" />
+      <img src="/src/assets/info.svg" alt="info" v-else />
     </template>
   </neu-dialog>
 </template>
