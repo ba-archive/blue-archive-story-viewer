@@ -16,7 +16,7 @@ const homepageDisplayInfoList: HomeDisplayInfo[] = [
     title: '白子',
     jumpTo: 'shiroko.blue-archive.io',
     startDate: '2023/05/16',
-    endDate: '2023/06/31',
+    endDate: '2023/06/30',
     style: 'pixelize',
   },
   {
