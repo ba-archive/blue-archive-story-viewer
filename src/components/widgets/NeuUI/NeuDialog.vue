@@ -18,7 +18,8 @@
         <span class="title-text-before" v-if="$slots['title-before']">
           <slot name="title-before"></slot>
         </span>
-        <span class="title-text">{{ title }}</span>
+        <slot name="title-text" v-if="$slots['title-text']"></slot>
+        <span class="title-text" v-else>{{ title }}</span>
       </div>
       <div class="neu-dialog__content">
         <slot name="content" v-if="$slots.content"></slot>
@@ -50,7 +51,7 @@
 <script setup lang="ts">
 withDefaults(
   defineProps<{
-    title: string;
+    title?: string;
     smallerTitle?: boolean | 'true' | 'false';
     content?: string;
     showMask?: boolean | 'true' | 'false';

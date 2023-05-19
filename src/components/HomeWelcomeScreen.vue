@@ -7,15 +7,17 @@ export interface HomeDisplayInfo {
   title: string;
   startDate?: string; // yyyy/mm/dd
   endDate?: string; // yyyy/mm/dd
+  style?: 'pixelize';
 }
 
 const homepageDisplayInfoList: HomeDisplayInfo[] = [
   {
     type: 'minigame',
-    title: 'test',
+    title: '白子',
     jumpTo: 'shiroko.blue-archive.io',
-    startDate: '2021/10/01',
-    endDate: '2021/10/07',
+    startDate: '2023/05/16',
+    endDate: '2023/06/31',
+    style: 'pixelize',
   },
   {
     type: 'student',

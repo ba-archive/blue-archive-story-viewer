@@ -97,6 +97,9 @@ function handleJumpToRequest() {
 
 <template>
   <neu-dialog
+    :class="{
+      pixelize: 'pixelize' === props.info?.style,
+    }"
     v-if="showDialog"
     :title="getDialogTitle()"
     smaller-title
@@ -113,4 +116,11 @@ function handleJumpToRequest() {
   </neu-dialog>
 </template>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.pixelize {
+  font-family: 'Fusion Pixel', 'Microsoft YaHei', 'PingFang SC', -apple-system,
+    system-ui, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans',
+    BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans GB', Arial, sans-serif;
+  line-height: 1.5rem;
+}
+</style>
