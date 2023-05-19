@@ -16,7 +16,7 @@ const homepageDisplayInfoList: HomeDisplayInfo[] = [
     type: 'minigame',
     title: '白子',
     icon: 'https://shiroko.blue-archive.io/favicon.gif',
-    jumpTo: 'shiroko.blue-archive.io',
+    jumpTo: 'https://shiroko.blue-archive.io',
     startDate: '2023/05/16',
     endDate: '2023/06/30',
     style: 'pixelize',

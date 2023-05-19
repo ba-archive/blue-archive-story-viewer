@@ -82,10 +82,10 @@ function handleJumpToRequest() {
       router.push(`/archive/${props.info.jumpTo}/momotalk`);
       break;
     case 'minigame':
-      router.push(
+      window.open(
         'string' === typeof props.info.jumpTo
           ? props.info.jumpTo
-          : props.info.jumpTo!.toString()
+          : props.info.jumpTo!.toString(), '_self'
       );
       break;
     default:
