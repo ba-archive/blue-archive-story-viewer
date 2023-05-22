@@ -1,5 +1,5 @@
 <template>
-  <div class="flex-vertical fill-width">
+  <div class="flex-vertical fill-screen" ref="playerContainerElement">
     <error-screen
       v-if="fetchError"
       :error-message="fetchErrorMessage"
@@ -39,7 +39,7 @@
         data-url="https://yuuka.cdn.diyigemt.com/image/ba-all-data"
         :language="language"
         :userName="userName"
-        :story-summary="storySummary"
+        :story-summary="summary"
         :start-full-screen="startFullScreen"
         :use-mp3="useMp3"
         :use-super-sampling="useSuperSampling"
@@ -75,6 +75,7 @@ import ErrorScreen from '../widgets/ErrorScreen.vue';
 import NeuDialog from '../widgets/NeuUI/NeuDialog.vue';
 import NeuProgressBar from '../widgets/NeuUI/NeuProgressBar.vue';
 import NeuSwitch from '../widgets/NeuUI/NeuSwitch.vue';
+import { useElementSize } from '@vueuse/core';
 import 'ba-story-player/dist/style.css';
 
 const route = useRoute();
@@ -110,7 +111,7 @@ function handleSummaryDisplayLanguageChange() {
       'title'
     );
     const tempSummary = getSummaryTextByKey(currentChapterAbstract, 'abstract');
-    storySummary.value = {
+    summary.value = {
       chapterName: 'string' === typeof tempChapterName ? tempChapterName : '',
       summary: 'string' === typeof tempSummary ? tempSummary : '',
     };
@@ -130,11 +131,13 @@ watch(
 
 const story = ref<StoryContent>({} as StoryContent);
 const storyIndex = ref<StoryIndex>({} as StoryIndex);
-const storySummary = ref({
-  chapterName: '',
-  summary: '',
+const summary = ref({
+  chapterName: '序章',
+  summary:
+    '从奇怪的梦中醒来之后的[USERNAME]老师从联邦学生会的干部七神凛那里听到学生会长失踪的消息。由于学生会长失踪，学园城市基沃托斯陷入了混乱。为了解决这场混乱，老师和学生会的干部一同前往夏莱办公室。',
 });
 const userName = computed(() => settingsStore.getUsername);
+const playerContainerElement = ref<HTMLElement>();
 const consentFromConfirmed = ref(false);
 
 axios
@@ -158,13 +161,12 @@ axios
   .catch(err => {
     console.error(err);
     fetchError.value = true;
-    fetchErrorMessage.value = '学生剧情目前尚未完全开放，感谢您的热情！';
+    fetchErrorMessage.value =
+      404 === err.response.status
+        ? '学生剧情目前尚未完全开放，还请期待！'
+        : err;
   })
   .finally(() => {
-    if (0 === Object.keys(story.value).length) {
-      fetchError.value = true;
-      fetchErrorMessage.value = '学生剧情目前尚未完全开放，还请期待！';
-    }
     ready.value = true;
   });
 
@@ -178,11 +180,35 @@ axios
     console.error(err);
   });
 
-const playerWidth = document.body.clientWidth <= 360 ? 360 : 720;
-const playerHeight = playerWidth * 0.5625;
+const { width: containerWidth, height: containerHeight } = useElementSize(
+  playerContainerElement
+);
+
+const playerWidth = ref(0);
+const playerHeight = ref(0);
 const startFullScreen = ref(document.body.clientWidth <= 425);
 const useMp3 = computed(() => settingsStore.getUseMp3);
 const useSuperSampling = computed(() => settingsStore.getUseSuperSampling);
+
+/* eslint-disable indent */
+watch(
+  () => containerWidth.value,
+  () => {
+    playerWidth.value =
+      document.body.clientWidth <= 360
+        ? window.screen.availWidth - 32
+        : Math.min(
+            containerWidth.value - 32,
+            (16 * (containerHeight.value - 32)) / 9,
+            768
+          );
+    playerHeight.value = Math.floor(
+      Math.min((playerWidth.value * 9) / 16, containerHeight.value)
+    );
+  },
+  { immediate: true }
+);
+/* eslint-enable indent */
 
 // 检测浏览器是否为 webkit，如果是则使用 mp3
 /* eslint-disable-next-line */
