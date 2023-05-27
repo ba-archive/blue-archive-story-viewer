@@ -88,15 +88,12 @@ axios
   .catch(err => {
     console.error(err);
     fetchError.value = true;
-    fetchErrorMessage.value = '学生剧情目前尚未完全开放，还请期待！';
+    fetchErrorMessage.value =
+      404 === err.response.status
+        ? '学生剧情目前尚未完全开放，还请期待！'
+        : err;
   })
   .finally(() => {
-    if (Object.keys(storyIndex.value).length === 0) {
-      console.log('empty story index: ' + JSON.stringify(storyIndex.value));
-      fetchError.value = true;
-      fetchErrorMessage.value = '学生剧情目前尚未完全开放，还请期待！';
-    }
-
     ready.value = true;
   });
 

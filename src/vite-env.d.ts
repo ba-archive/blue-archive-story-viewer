@@ -9,5 +9,5 @@ declare module '*.vue' {
 }
 
 declare interface Window {
-  webkitConvertPointFromNodeToPage?: any;
+  webkitConvertPointFromNodeToPage?: (Node, WebkitPoint) => WebkitPoint;
 }

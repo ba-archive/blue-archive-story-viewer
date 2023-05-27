@@ -23,6 +23,14 @@
 }
 
 //noinspection CssUnknownTarget
+@font-face {
+  src: url('/font/fusion-pixel.woff2') format('woff2'),
+    url('/font/fusion-pixel.woff') format('woff');
+  font-family: 'Fusion Pixel';
+  font-display: swap;
+}
+
+//noinspection CssUnknownTarget
 html {
   --color-pallete-arona-blue: #3f88f2;
   --color-pallete-warning: #ffa00c;

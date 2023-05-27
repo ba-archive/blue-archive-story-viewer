@@ -28,7 +28,7 @@ const links: FriendLink[] = [
     logo: '/image/contributor/github-logo.svg',
     logoDescription: 'GitHub logo',
     shouldReverseOnDarkTheme: true,
-    description: '',
+    description: '欢迎前端、美术、Unity等同学加入',
   },
 ];
 </script>

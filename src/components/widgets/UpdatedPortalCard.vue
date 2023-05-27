@@ -82,10 +82,11 @@ function handleJumpToRequest() {
       router.push(`/archive/${props.info.jumpTo}/momotalk`);
       break;
     case 'minigame':
-      router.push(
+      window.open(
         'string' === typeof props.info.jumpTo
           ? props.info.jumpTo
-          : props.info.jumpTo!.toString()
+          : props.info.jumpTo!.toString(),
+        '_self'
       );
       break;
     default:
@@ -97,6 +98,9 @@ function handleJumpToRequest() {
 
 <template>
   <neu-dialog
+    :class="{
+      pixelize: 'pixelize' === props.info?.style,
+    }"
     v-if="showDialog"
     :title="getDialogTitle()"
     smaller-title
@@ -108,9 +112,17 @@ function handleJumpToRequest() {
     @positiveClick="handleJumpToRequest"
   >
     <template #title-before>
-      <img src="/src/assets/info.svg" alt="info" />
+      <img v-if="props.info?.icon" :src="props.info?.icon" alt="info" />
+      <img src="/src/assets/info.svg" alt="info" v-else />
     </template>
   </neu-dialog>
 </template>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.pixelize {
+  line-height: 1.5rem;
+  font-family: 'Fusion Pixel', 'Microsoft YaHei', 'PingFang SC', -apple-system,
+    system-ui, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans',
+    BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans GB', Arial, sans-serif;
+}
+</style>

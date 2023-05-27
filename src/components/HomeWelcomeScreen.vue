@@ -3,19 +3,23 @@ import UpdatedPortalCard from './widgets/UpdatedPortalCard.vue';
 
 export interface HomeDisplayInfo {
   type: 'mainstory' | 'student' | 'minigame';
+  icon?: string;
   jumpTo?: string | number;
   title: string;
   startDate?: string; // yyyy/mm/dd
   endDate?: string; // yyyy/mm/dd
+  style?: 'pixelize';
 }
 
 const homepageDisplayInfoList: HomeDisplayInfo[] = [
   {
     type: 'minigame',
-    title: 'test',
-    jumpTo: 'shiroko.blue-archive.io',
-    startDate: '2021/10/01',
-    endDate: '2021/10/07',
+    title: '白子',
+    icon: 'https://shiroko.blue-archive.io/favicon.gif',
+    jumpTo: 'https://shiroko.blue-archive.io',
+    startDate: '2023/05/16',
+    endDate: '2023/06/30',
+    style: 'pixelize',
   },
   {
     type: 'student',
