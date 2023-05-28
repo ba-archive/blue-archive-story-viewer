@@ -1,5 +1,8 @@
 <template>
-  <div class="flex-vertical fill-screen" ref="playerContainerElement">
+  <div
+    class="flex-vertical fill-screen player-container"
+    ref="playerContainerElement"
+  >
     <error-screen
       v-if="fetchError"
       :error-message="fetchErrorMessage"
@@ -192,7 +195,7 @@ const useSuperSampling = computed(() => settingsStore.getUseSuperSampling);
 
 /* eslint-disable indent */
 watch(
-  () => containerWidth.value,
+  () => [containerWidth.value, containerHeight.value],
   () => {
     playerWidth.value =
       document.body.clientWidth <= 360
@@ -254,7 +257,18 @@ function handleStoryEnd() {
   margin-bottom: 1rem;
 }
 
+.player-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+}
+
 .story-container {
+  flex: 1;
+  width: 100%;
+
   .player-settings {
     display: flex;
     gap: 1rem;
