@@ -30,6 +30,13 @@ const links: FriendLink[] = [
     shouldReverseOnDarkTheme: true,
     description: '欢迎前端、美术、Unity等同学加入',
   },
+  {
+    title: 'CloudFlare',
+    url: 'https://www.cloudflare.com/',
+    logo: '/image/contributor/cloudflare.svg',
+    logoDescription: 'CloudFlare logo',
+    description: '为本站提供 CDN 服务',
+  },
 ];
 </script>
 
