@@ -21,8 +21,12 @@
     </div>
 
     <div id="settings">
-      <language-selector />
-      <theme-switcher />
+      <language-selector :style="{ gridArea: 'language' }" />
+      <theme-switcher :style="{ gridArea: 'theme' }" />
+      <div class="sponsor-message">
+        Served with
+        <a href="https://cloudflare.com" target="_blank">Cloudflare</a>
+      </div>
     </div>
   </div>
 </template>
@@ -59,7 +63,7 @@ const mainRoutes = computed(() =>
   align-content: flex-start;
   justify-content: flex-start;
   align-items: stretch;
-  padding: 2rem 0;
+  padding: 2rem 0 0.5rem 0;
 }
 
 .id-sensei {
@@ -119,10 +123,30 @@ const mainRoutes = computed(() =>
 }
 
 #settings {
-  grid-gap: 1rem;
   display: grid;
+  grid-template-areas:
+    'language theme'
+    'sponsor sponsor';
   grid-auto-flow: column;
+  column-gap: 1rem;
+  row-gap: 0.5rem;
   margin-top: auto;
   margin-left: 1rem;
+
+  .sponsor-message {
+    grid-area: sponsor;
+
+    a {
+      -webkit-text-fill-color: transparent;
+      background: linear-gradient(to right, #f48120, #faad3f);
+      background-clip: text;
+      color: transparent;
+      font-family: 'Asap Condensed Bold Italic', 'Microsoft YaHei',
+        'PingFang SC', -apple-system, system-ui, 'Segoe UI', Roboto, Ubuntu,
+        Cantarell, 'Noto Sans', BlinkMacSystemFont, 'Helvetica Neue',
+        'Hiragino Sans GB', Arial, sans-serif;
+      text-decoration: none;
+    }
+  }
 }
 </style>
