@@ -1873,6 +1873,58 @@
   armorType: HeavyArmor
   bulletType: Pierce
   weapon: SG
+- id: 10069
+  familyName:
+    cn: 朱城
+    jp: 朱城
+    en: Akeshiro
+    kr: 아케시로
+    tw: 朱城
+    th: 朱城
+  name:
+    cn: 瑠美
+    jp: ルミ
+    en: Rumi
+    kr: 루미
+    tw: ルミ
+    th: รูมิ
+  nickname: []
+  birthday:
+    month: 3
+    day: 5
+  club: BlackTortoisePromenade
+  affiliation: 山海经
+  rarity: 3
+  type: Striker
+  armorType: HeavyArmor
+  bulletType: Explosion
+  weapon: SMG
+- id: 10070
+  familyName:
+    cn: 近卫
+    jp: 近衛
+    en: Konoe
+    kr: 코노에
+    tw: 近衛
+    th: 近衛
+  name:
+    cn: 弥奈
+    jp: ミナ
+    en: Mina
+    kr: 미나
+    tw: ミナ
+    th: มินะ
+  nickname: []
+  birthday:
+    month: 9
+    day: 9
+  club: Genryumon
+  affiliation: 山海经
+  rarity: 3
+  type: Striker
+  armorType: HeavyArmor
+  bulletType: Explosion
+  weapon: HG
 - id: 13000
   familyName:
     cn: 室笠
@@ -2653,7 +2705,7 @@
     jp: 薬子
     en: Yakushi
     kr: 야쿠시
-    tw: 藥子
+    tw: 薬子
     th: ยาคูชิ
   name:
     cn: 沙耶
@@ -2768,7 +2820,7 @@
     jp: 薬子
     en: Yakushi
     kr: 야쿠시
-    tw: 藥子
+    tw: 薬子
     th: ยาคูชิ
   name:
     cn: 沙耶(私服)
@@ -3146,7 +3198,7 @@
     en: Akeboshi
     kr: 아케보시
     tw: 明星
-    th: 明星
+    th: อาเกโบชิ
   name:
     cn: 日鞠
     jp: ヒマリ
