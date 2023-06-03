@@ -14,11 +14,19 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "lib/**/*.{ts,js,vue}": [
+    "public/**/*.{yaml, yml}": [
       "prettier --config .prettierrc.json --write",
       "git add"
     ],
     "src/**/*.{ts,js,vue}": [
+      "prettier --config .prettierrc.json --write",
+      "git add"
+    ],
+    "CICD/**/*.{ts,js}": [
+      "prettier --config .prettierrc.json --write",
+      "git add"
+    ],
+    "*.md": [
       "prettier --config .prettierrc.json --write",
       "git add"
     ]
