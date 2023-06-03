@@ -230,7 +230,7 @@ function reloadPlayer(forceReload = false) {
     showPlayer.value = false;
     setTimeout(() => {
       showPlayer.value = true;
-    }, 0);
+    }, 4);
     return;
   }
   setTimeout(() => {
