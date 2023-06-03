@@ -15,7 +15,7 @@
     }
   ],
   "ignoreDeps": [
-    "@types/node",
+    "ba-story-player",
     "pixi.js",
     "pixi-spine",
     "@pixi/utils",
@@ -37,6 +37,6 @@
     "@pixi/filter-adjustment",
     "@pixi/extensions",
     "@pixi/display",
-    "@pixi/core"
+    "@pixi/core",
   ]
 }
