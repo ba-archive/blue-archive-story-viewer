@@ -12,6 +12,16 @@
       "groupSlug": "all-minor-patch",
       "stabilityDays": 7,
       "automerge": true
+    },
+    {
+      "matchPackageNames": ["ba-story-player"],
+      "enabled": false
+    },
+    {
+      "matchPackagePatterns": ["@pixi/*", "pixi*"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "pixi.js",
+      "enabled": false
     }
   ],
   "ignoreDeps": [
@@ -37,6 +47,6 @@
     "@pixi/filter-adjustment",
     "@pixi/extensions",
     "@pixi/display",
-    "@pixi/core",
+    "@pixi/core"
   ]
 }
