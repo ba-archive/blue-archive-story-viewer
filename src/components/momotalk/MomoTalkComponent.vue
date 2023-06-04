@@ -69,7 +69,7 @@
         }}</span>
       </div>
       <router-link
-        :to="`/archive/${characterId}/story/${message?.FavorScheduleId}`"
+        :to="`/archive/${characterId}/story/${message?.FavorScheduleId}?returnToMomotalk=true`"
         class="favor-schedule-button rounded-small shadow-near"
         @click="handleGoToScenarioButtonPressed"
       >

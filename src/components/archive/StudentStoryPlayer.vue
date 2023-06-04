@@ -247,8 +247,14 @@ function handleUseSuperSampling(value: boolean) {
   reloadPlayer();
 }
 
+const shouldReturnToMomotalk = 'true' === route.query?.returnToMomotalk;
+
 function handleStoryEnd() {
-  router.push(`/archive/${studentId.value}/momotalk`);
+  router.push(
+    shouldReturnToMomotalk
+      ? `/archive/${studentId.value}/momotalk`
+      : `/archive/${studentId.value}/story`
+  );
 }
 </script>
 
