@@ -4,6 +4,19 @@ import { Contributor, UpdateLog } from '../types/UpdateNews';
 
 const updateLogs: UpdateLog[] = [
   {
+    date: '2023-06-04',
+    contents: [
+      {
+        type: 'student',
+        students: [
+          { name: '瑠美', id: 10069 },
+          { name: '弥奈', id: 10070 },
+          { name: '白子', id: 10010 },
+        ],
+      },
+    ],
+  },
+  {
     date: '2023-05-12',
     contents: [
       {
