@@ -2309,8 +2309,8 @@
       "VoiceJp": ""
     },
     {
-      "TextJp": "",
-      "TextCn": "",
+      "TextJp": "#st;[0,0];instant;1;",
+      "TextCn": "#st;[0,0];instant;1;",
       "TextKr": "",
       "TextEn": "",
       "TextTh": "",
@@ -2327,8 +2327,8 @@
       "VoiceJp": ""
     },
     {
-      "TextJp": "",
-      "TextCn": "",
+      "TextJp": "#clearST",
+      "TextCn": "#clearST",
       "TextKr": "",
       "TextEn": "",
       "TextTh": "",
