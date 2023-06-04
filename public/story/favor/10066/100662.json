@@ -1086,7 +1086,7 @@
     },
     {
       "TextJp": "装備すると全ステータスに[ruby=弱くなる]デバフがかかる[/ruby]#n呪いのアイテムみたいに……。",
-      "TextCn": "装备上的话就像对所有状态都产生了[ruby=减益效果]Debuff[/ruby]的诅咒物品一样……。",
+      "TextCn": "装备上的话就像对所有状态都产生了[tooltip=减益效果]Debuff[/tooltip]的诅咒物品一样……。",
       "TextKr": "",
       "TextEn": "",
       "TextTh": "",

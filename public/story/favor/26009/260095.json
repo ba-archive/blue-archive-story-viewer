@@ -256,7 +256,7 @@
     },
     {
       "TextJp": "お、おかえりなさい、ご主人様……！#nか、カフェ「メイドラマチック」です……！",
-      "TextCn": "欢、欢迎回来，主人……！#n这、这里是咖啡店“[ruby=女仆剧场]Maidramatic[/ruby]”……！",
+      "TextCn": "欢、欢迎回来，主人……！#n这、这里是咖啡店“[tooltip=女仆剧场]Maidramatic[/tooltip]”……！",
       "TextKr": "",
       "TextEn": "",
       "TextTh": "",
@@ -745,7 +745,7 @@
     },
     {
       "TextJp": "ご、ご注文のメイドラマチック特製オムライスです……！",
-      "TextCn": "这、这是您点的Maidramatic特制蛋包饭……！",
+      "TextCn": "这、这是您点的[tooltip=女仆剧场]Maidramatic[/tooltip]特制蛋包饭……！",
       "TextKr": "",
       "TextEn": "",
       "TextTh": "",
