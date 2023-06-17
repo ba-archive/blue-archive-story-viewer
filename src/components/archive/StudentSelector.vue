@@ -710,12 +710,12 @@ onUnmounted(() => {
 
 #student-list {
   grid-gap: 1.5rem;
+  content-visibility: auto;
   display: grid;
   grid-template-columns: repeat(auto-fill, 7rem);
   grid-auto-rows: min-content;
   grid-area: list;
   justify-content: space-between;
-  content-visibility: auto;
   padding: 0 1rem 1rem 1rem;
   width: 100%;
   overflow-y: scroll;
