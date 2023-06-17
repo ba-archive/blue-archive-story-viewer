@@ -153,10 +153,10 @@ function getStudentAvatar(CharacterId: number): string {
 <style scoped lang="scss">
 .momotalk-component-container {
   grid-gap: 1rem;
+  content-visibility: auto;
   display: grid;
   grid-auto-flow: row;
   place-items: center;
-  content-visibility: auto;
   padding: 0 1rem 1rem 1rem;
 }
 
